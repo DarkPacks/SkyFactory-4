@@ -1,0 +1,20 @@
+
+setIcon("minecraft:arrow")
+setTranslatedTitle("advancements.adventure.sniper_duel.title")
+setTranslatedDescription("advancements.adventure.sniper_duel.description")
+
+setFrameType("challenge")
+
+addParent("triumph:vanilla/adventure/shoot_arrow")
+
+setRewardExperience(50)
+
+criteria = addCriteria("killed_skeleton", "minecraft:player_killed_entity")
+
+criteria.setEntityType("skeleton")
+entityData = criteria.getEntityData()
+distanceData = entityData.getDistanceData()
+distanceData.setHorizontalMin(50)
+
+damageSource = criteria.getDamageSourceData()
+damageSource.isProjectile(true)

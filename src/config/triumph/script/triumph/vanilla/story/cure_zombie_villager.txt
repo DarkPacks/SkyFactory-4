@@ -1,0 +1,9 @@
+setIcon("minecraft:golden_apple")
+setTranslatedTitle("advancements.story.cure_zombie_villager.title")
+setTranslatedDescription("advancements.story.cure_zombie_villager.description")
+
+setFrameType("goal")
+
+addParent("triumph:vanilla/story/enter_the_nether")
+
+criteria = addCriteria("cured_zombie", "minecraft:cured_zombie_villager")

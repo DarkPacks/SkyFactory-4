@@ -1,0 +1,11 @@
+
+setIcon("minecraft:pumpkin")
+setTranslatedTitle("advancements.adventure.summon_iron_golem.title")
+setTranslatedDescription("advancements.adventure.summon_iron_golem.description")
+
+setFrameType("goal")
+
+addParent("triumph:vanilla/adventure/trade")
+
+criteria = addCriteria("summoned_golem", "minecraft:summoned_entity")
+criteria.setEntityType("minecraft:villager_golem")

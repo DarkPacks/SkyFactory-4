@@ -1,0 +1,11 @@
+addParent("triumph:vanilla/recipes/root")
+
+addRewardRecipe("minecraft:fermented_spider_eye")
+
+criteria = addCriteria("has_spider_eye", "minecraft:inventory_changed")
+criteria.addItem("minecraft:spider_eye")
+
+criteria = addCriteria("has_the_recipe", "minecraft:recipe_unlocked")
+criteria.setRecipe("fermented_spider_eye")
+
+setRequirements("any")

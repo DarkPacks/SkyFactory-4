@@ -1,0 +1,8 @@
+setIcon("minecraft:ender_eye")
+setTranslatedTitle("advancements.story.follow_ender_eye.title")
+setTranslatedDescription("advancements.story.follow_ender_eye.description")
+
+addParent("triumph:vanilla/story/enter_the_nether")
+
+criteria = addCriteria("in_stronghold", "minecraft:location")
+criteria.setFeature("Stronghold")

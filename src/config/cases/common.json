@@ -1,0 +1,141 @@
+{
+  "displayName": {
+    "en_us": "Common Case",
+    "ru_ru": "Обычный кейс"
+  },
+  "contents": [
+    {
+      "action": "single",
+      "type": "minecraft:leather_boots",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:leather_leggings",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:leather_chestplate",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:leather_helmet",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:dye",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:paper",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:wheat",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:slime_ball",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:leather",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:gunpowder",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:string",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:egg",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:coal",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:fish",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:fish",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:porkchop",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:cookie",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:apple",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:carrot",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:name_tag",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:lead",
+      "rarity": 2,
+      "amount": 1-5
+    },
+    {
+      "action": "single",
+      "type": "minecraft:dye",
+      "rarity": 2,
+      "amount": 1-5
+    }
+  ],
+  "color": "#555555"
+}

@@ -1,0 +1,13 @@
+
+setIcon("minecraft:shield")
+setTranslatedTitle("advancements.story.deflect_arrow.title")
+setTranslatedDescription("advancements.story.deflect_arrow.description")
+
+addParent("triumph:vanilla/story/obtain_armor")
+
+criteria = addCriteria("deflected_projectile", "minecraft:entity_hurt_player")
+damage = criteria.getDamageData()
+damage.setBlocked(true)
+
+damageSource = damage.getDamageSourceData()
+damageSource.isProjectile(true)

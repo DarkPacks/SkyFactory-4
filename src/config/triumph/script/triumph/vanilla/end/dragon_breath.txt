@@ -1,0 +1,10 @@
+setIcon("minecraft:dragon_breath")
+setTranslatedTitle("advancements.end.dragon_breath.title")
+setTranslatedDescription("advancements.end.dragon_breath.description")
+
+setFrameType("goal")
+
+addParent("triumph:vanilla/end/kill_dragon")
+
+criteria = addCriteria("dragon_breath", "minecraft:inventory_changed")
+criteria.addItem("minecraft:dragon_breath")

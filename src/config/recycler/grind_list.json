@@ -1,0 +1,22 @@
+[
+  {
+    "left": "minecraft:diamond:1:0",
+    "right": "recycler:diamond_shard:9:0"
+  },
+  {
+    "left": "minecraft:iron_ingot:1:0",
+    "right": "minecraft:iron_nugget:9:0"
+  },
+  {
+    "left": "minecraft:gold_ingot:1:0",
+    "right": "minecraft:gold_nugget:9:0"
+  },
+  {
+    "left": "minecraft:leather:1:0",
+    "right": "minecraft:rabbit_hide:4:0"
+  },
+  {
+    "left": "minecraft:planks:1:32767",
+    "right": "minecraft:stick:4:0"
+  }
+]

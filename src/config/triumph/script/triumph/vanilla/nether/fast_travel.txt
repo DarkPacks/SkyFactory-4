@@ -1,0 +1,14 @@
+
+setIcon("minecraft:map")
+setTranslatedTitle("advancements.nether.fast_travel.title")
+setTranslatedDescription("advancements.nether.fast_travel.description")
+
+setFrameType("challenge")
+
+addParent("triumph:vanilla/nether/root")
+
+setRewardExperience(100)
+
+criteria = addCriteria("travelled", "minecraft:nether_travel")
+distance = criteria.getDistanceData()
+distance.setHorizontalMin(7000)

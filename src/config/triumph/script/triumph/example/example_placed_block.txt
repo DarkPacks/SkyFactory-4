@@ -1,0 +1,23 @@
+//Set icon item
+setIcon(<minecraft:dirt>)
+
+//Set title String
+setTitle("That's dirty!")
+
+//Set description String
+setDescription("Place a dirt, coarse dirt or podzol block")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(13.3, 6.8)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+//Adds criteria named "placedDirt" with the trigger type "minecraft:placed_block". This function returns the criteria as an object
+criteria = addCriteria("placedDirt", "minecraft:placed_block")
+
+//Sets the required block for the criteria. This is the block that needs to be placed by the player.
+criteria.setBlock(<minecraft:dirt>)

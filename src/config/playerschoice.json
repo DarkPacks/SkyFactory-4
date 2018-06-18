@@ -1,0 +1,13 @@
+[
+  {
+    "id": "example",
+    "name": "Example Mod",
+    "desc": "This is the example for a mod template. id is the mod ID, which needs to be set properly. name and desc are just for display in the GUI. website is optional for a link to the mod\u0027s website. base is whether it should come enabled by default or not.",
+    "website": "https://vazkii.us/",
+    "category": "",
+    "group": "",
+    "base": true,
+    "extraMods": [],
+    "copyFiles": []
+  }
+]

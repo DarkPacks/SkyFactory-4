@@ -1,0 +1,74 @@
+
+setIcon("minecraft:iron_sword")
+setTranslatedTitle("advancements.adventure.kill_a_mob.title")
+setTranslatedDescription("advancements.adventure.kill_a_mob.description")
+
+addParent("triumph:vanilla/adventure/root")
+
+criteria = addCriteria("cave_spider", "minecraft:player_killed_entity")
+criteria.setEntityType("cave_spider")
+
+criteria = addCriteria("spider", "minecraft:player_killed_entity")
+criteria.setEntityType("spider")
+
+criteria = addCriteria("zombie_pigman", "minecraft:player_killed_entity")
+criteria.setEntityType("zombie_pigman")
+
+criteria = addCriteria("enderman", "minecraft:player_killed_entity")
+criteria.setEntityType("enderman")
+
+criteria = addCriteria("polar_bear", "minecraft:player_killed_entity")
+criteria.setEntityType("polar_bear")
+
+criteria = addCriteria("blaze", "minecraft:player_killed_entity")
+criteria.setEntityType("blaze")
+
+criteria = addCriteria("creeper", "minecraft:player_killed_entity")
+criteria.setEntityType("creeper")
+
+criteria = addCriteria("evoker", "minecraft:player_killed_entity")
+criteria.setEntityType("evocation_illager")
+
+criteria = addCriteria("ghast", "minecraft:player_killed_entity")
+criteria.setEntityType("ghast")
+
+criteria = addCriteria("guardian", "minecraft:player_killed_entity")
+criteria.setEntityType("guardian")
+
+criteria = addCriteria("husk", "minecraft:player_killed_entity")
+criteria.setEntityType("husk")
+
+criteria = addCriteria("magma_cube", "minecraft:player_killed_entity")
+criteria.setEntityType("magma_cube")
+
+criteria = addCriteria("shulker", "minecraft:player_killed_entity")
+criteria.setEntityType("shulker")
+
+criteria = addCriteria("silverfish", "minecraft:player_killed_entity")
+criteria.setEntityType("silverfish")
+
+criteria = addCriteria("skeleton", "minecraft:player_killed_entity")
+criteria.setEntityType("skeleton")
+
+criteria = addCriteria("slime", "minecraft:player_killed_entity")
+criteria.setEntityType("slime")
+
+criteria = addCriteria("stray", "minecraft:player_killed_entity")
+criteria.setEntityType("stray")
+
+criteria = addCriteria("vindicator", "minecraft:player_killed_entity")
+criteria.setEntityType("vindication_illager")
+
+criteria = addCriteria("witch", "minecraft:player_killed_entity")
+criteria.setEntityType("witch")
+
+criteria = addCriteria("wither_skeleton", "minecraft:player_killed_entity")
+criteria.setEntityType("wither_skeleton")
+
+criteria = addCriteria("zombie", "minecraft:player_killed_entity")
+criteria.setEntityType("zombie")
+
+criteria = addCriteria("zombie_villager", "minecraft:player_killed_entity")
+criteria.setEntityType("zombie_villager")
+
+setRequirements("any")

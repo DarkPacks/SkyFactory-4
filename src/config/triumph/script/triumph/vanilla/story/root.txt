@@ -1,0 +1,15 @@
+
+setIcon("minecraft:grass")
+
+setTranslatedTitle("advancements.story.root.title")
+
+setTranslatedDescription("advancements.story.root.description")
+
+setBackground("minecraft:textures/gui/advancements/backgrounds/stone.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("crafting_table", "minecraft:inventory_changed")
+criteria.addItem("minecraft:crafting_table")

@@ -1,0 +1,13 @@
+setIcon("minecraft:diamond_hoe")
+setTranslatedTitle("advancements.husbandry.break_diamond_hoe.title")
+setTranslatedDescription("advancements.husbandry.break_diamond_hoe.description")
+
+setFrameType("challenge")
+
+addParent("triumph:vanilla/husbandry/plant_seed")
+
+setRewardExperience(100)
+
+criteria = addCriteria("broke_hoe", "minecraft:item_durability_changed")
+criteria.setItem("minecraft:diamond_hoe")
+criteria.setDurabilityMinMax(-1, -1)

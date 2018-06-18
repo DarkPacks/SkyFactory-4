@@ -1,0 +1,22 @@
+<recipes>
+    <!-- Isolinear Circuit Mark 1 + Gold = Isolinear Circuit Mark 2 -->
+    <recipe energy="64000" time="300">
+        <primary modid="matteroverdrive" name="isolinear_circuit" meta="0" count="1"/>
+        <secondary modid="minecraft" name="gold_ingot" meta="0" count="1"/>
+        <output modid="matteroverdrive" name="isolinear_circuit" meta="1" count="1"/>
+    </recipe>
+
+    <!-- Isolinear Circuit Mark 2 + Diamond = Isolinear Circuit Mark 3 -->
+    <recipe energy="88000" time="600">
+        <primary modid="matteroverdrive" name="isolinear_circuit" meta="1" count="1"/>
+        <secondary modid="minecraft" name="diamond" meta="0" count="1"/>
+        <output modid="matteroverdrive" name="isolinear_circuit" meta="2" count="1"/>
+    </recipe>
+
+    <!-- Isolinear Circuit Mark 3 + Emerald = Isolinear Circuit Mark 4 -->
+    <recipe energy="114000" time="1200">
+        <primary modid="matteroverdrive" name="isolinear_circuit" meta="2" count="1"/>
+        <secondary modid="minecraft" name="emerald" meta="0" count="1"/>
+        <output modid="matteroverdrive" name="isolinear_circuit" meta="3" count="1"/>
+    </recipe>
+</recipes>

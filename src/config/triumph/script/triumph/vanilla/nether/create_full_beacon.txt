@@ -1,0 +1,11 @@
+
+setIcon("minecraft:beacon")
+setTranslatedTitle("advancements.nether.create_full_beacon.title")
+setTranslatedDescription("advancements.nether.create_full_beacon.description")
+
+setFrameType("goal")
+
+addParent("triumph:vanilla/nether/create_beacon")
+
+criteria = addCriteria("beacon", "minecraft:construct_beacon")
+criteria.setLevelsMinMax(4, 4)

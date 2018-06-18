@@ -1,0 +1,292 @@
+These are the functions which can be called directly in a script advancement file.
+
+
+
+setPos:
+    Arguments:
+        float, float
+    Usage:
+        x pos, y pos
+    Notes:
+        Sets the x and y coordinates of the advancement.
+
+setBackground:
+    Arguments:
+        boolean
+    Usage:
+        background resource location
+    Notes:
+        Sets the background for the advancement page. This is required and only used by root advancements. Be aware the background is tiled.
+
+setDescription:
+    Arguments:
+        String
+    Usage:
+        description
+    Notes:
+        Sets the description for the advancement. This or setTranslatedDescription is required.
+
+setHidden:
+    Arguments:
+        boolean
+    Usage:
+        if the advancement should be hidden
+    Notes:
+        Sets if the advancement should be hidden until it is completed.
+
+setTitle:
+    Arguments:
+        String
+    Usage:
+        title
+    Notes:
+        Sets the title for the advancement. This or setTranslatedTitle is required.
+
+setIcon:
+    Arguments:
+        ItemBlockData
+    Usage:
+        item data
+    Notes:
+        Sets the item icon for the advancement. This is required.
+
+drawDirectLines:
+    Arguments:
+        boolean
+    Notes:
+        Sets if the advancement should draw direct lines to parents. Requires the Better Advancements mod.
+
+setShowToast:
+    Arguments:
+        boolean
+    Usage:
+        if the toast should be shown
+    Notes:
+        Sets if a toast should be shown to the player when the advancement is completed.
+
+addParent:
+    Arguments:
+        String
+    Notes:
+        Adds a parent for the advancement. This only effects its position on the advancement page and connection lines. By default parents are not required for the advancement to be completed. At least one parent is required for non-root advancements.
+
+addRewardRecipe:
+    Arguments:
+        String
+    Usage:
+        recipe name
+    Notes:
+        Adds a recipe as a reward for completing the advancement. You can get the name of the recipe you want to grant from NEI or JEI.
+
+setRewardItem:
+    Arguments:
+        ItemBlockData
+    Usage:
+        item data
+    Notes:
+        Sets the item reward for completing this advancement.
+
+setFrameType:
+    Arguments:
+        boolean
+    Usage:
+        frame type
+    Notes:
+        Sets the frame type for the advancement. Options are "TASK", "CHALLENGE", "GOAL". Default is TASK.
+
+setRepeatTime:
+    Arguments:
+        long
+    Usage:
+        number of seconds before the advancement can be repeated
+    Notes:
+        Sets the number of seconds real time between advancement completion and when it will be completable again.
+
+setRequirements:
+    Arguments:
+        String, String array
+    Usage:
+        Requirements type, criteria exception array
+    Notes:
+        This is a helper method designed to make setting criteria requirements easier. If set to "all" this will make all criteria required for completion. If set to "any" this will make any criteria complete the advancement. If set to "any" the array of criteria exceptions is used to configure the requirements where all exceptions are required plus any other single criteria.
+
+setRequirements:
+    Arguments:
+        String
+    Usage:
+        Requirements type. This type can be either "any" or "all"
+    Notes:
+        This is a helper method designed to make setting criteria requirements easier. If set to "all" this will make all criteria required for completion. If set to "any" this will make any criteria complete the advancement.
+
+addRequirements:
+    Arguments:
+        String array
+    Usage:
+        array of criteria requirements
+    Notes:
+        This is the manual way of adding requirements. The array of criteria requirements will be added as a requirement array. This is done in basically the same way as vanilla Json advancements, where an array of requirements is a group of criteria that, if all are completed, the advancement is completed. Multiple arrays can be added by calling this function multiple times.
+
+addCriteria:
+    Arguments:
+        String, String
+    Usage:
+        criteria name, criteria trigger type
+    Notes:
+        Adds a criteria to the advancement with the specified type. Returns the criteria object for use as a variable.
+
+setCompletedTitleColor:
+    Arguments:
+        int
+    Usage:
+        color
+    Notes:
+        Sets the completed title color for the advancement. Requires the Better Advancements mod.
+
+setCompletedTitleColor:
+    Arguments:
+        int, int, int
+    Usage:
+        red, green, blue
+    Notes:
+        Sets the completed title color for the advancement. Requires the Better Advancements mod.
+
+setAnnounceToChat:
+    Arguments:
+        boolean
+    Usage:
+        if advancement completion should be announced in chat
+    Notes:
+        Sets if the advancement completion should be announced in chat.
+
+setUncompletedLineColor:
+    Arguments:
+        int, int, int
+    Usage:
+        red, green, blue
+    Notes:
+        Sets the uncompleted line color for the advancement. Requires the Better Advancements mod.
+
+setUncompletedLineColor:
+    Arguments:
+        int
+    Usage:
+        color int
+    Notes:
+        Sets the uncompleted line color for the advancement. Requires the Better Advancements mod.
+
+setTranslatedTitle:
+    Arguments:
+        String
+    Usage:
+        title translation path
+    Notes:
+        Sets the translated title for the advancement. Used for localization. This or setTitle is required.
+
+setCompletedLineColor:
+    Arguments:
+        int, int, int
+    Usage:
+        red, green, blue
+    Notes:
+        Sets the completed line color for the advancement. Requires the Better Advancements mod.
+
+setCompletedLineColor:
+    Arguments:
+        int
+    Usage:
+        color int
+    Notes:
+        Sets the completed line color for the advancement. Requires the Better Advancements mod.
+
+setTranslatedDescription:
+    Arguments:
+        String
+    Usage:
+        description translation path
+    Notes:
+        Sets the description for the advancement. Used for localization. This or setDescription is required.
+
+setRequiresParents:
+    Notes:
+        This is a helper method which adds criteria named "completedParent"/"completedParent2"/etc with type "triumph:completed_advancement" with parent advancement names, and makes them a requirement. This effectively makes the advancement require its parents to be completed before it can be completed.
+
+addRewardLootTable:
+    Arguments:
+        String
+    Usage:
+        loottable resource location
+    Notes:
+        Adds a loot table reward.
+
+addRewardSkillable:
+    Arguments:
+        String, int
+    Usage:
+        skill, levels
+    Notes:
+        Adds a Skillable skill level up reward.
+
+addRewardFunction:
+    Arguments:
+        String
+    Usage:
+        function name
+    Notes:
+        Adds the function with the provided name as a reward for completing the advancement.
+
+setRewardExperience:
+    Arguments:
+        int
+    Usage:
+        experience
+    Notes:
+        Sets the experience amount for the reward for completing the advancement. This is in xp, not in levels.
+
+setUncompletedIconColor:
+    Arguments:
+        int, int, int
+    Usage:
+        red, green, blue
+    Notes:
+        Sets the uncompleted icon color for the advancement. Requires the Better Advancements mod.
+
+setUncompletedIconColor:
+    Arguments:
+        int
+    Usage:
+        color int
+    Notes:
+        Sets the uncompleted icon color for the advancement. Requires the Better Advancements mod.
+
+setCompletedIconColor:
+    Arguments:
+        int, int, int
+    Usage:
+        red, green, blue
+    Notes:
+        Sets the completed icon color for the advancement. Requires the Better Advancements mod.
+
+setCompletedIconColor:
+    Arguments:
+        int
+    Usage:
+        color
+    Notes:
+        Sets the completed icon color for the advancement. Requires the Better Advancements mod.
+
+setUncompletedTitleColor:
+    Arguments:
+        int, int, int
+    Usage:
+        red, green, blue
+    Notes:
+        Sets the uncompleted title color for the advancement. Requires the Better Advancements mod.
+
+setUncompletedTitleColor:
+    Arguments:
+        int
+    Usage:
+        color int
+    Notes:
+        Sets the uncompleted title color for the advancement. Requires the Better Advancements mod.
+

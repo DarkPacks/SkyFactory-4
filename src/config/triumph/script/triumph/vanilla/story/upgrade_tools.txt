@@ -1,0 +1,8 @@
+setIcon("minecraft:stone_pickaxe")
+setTranslatedTitle("advancements.story.upgrade_tools.title")
+setTranslatedDescription("advancements.story.upgrade_tools.description")
+
+addParent("triumph:vanilla/story/mine_stone")
+
+criteria = addCriteria("stone_pickaxe", "minecraft:inventory_changed")
+criteria.addItem("minecraft:stone_pickaxe")

@@ -1,0 +1,9 @@
+
+setIcon("minecraft:beacon")
+setTranslatedTitle("advancements.nether.create_beacon.title")
+setTranslatedDescription("advancements.nether.create_beacon.description")
+
+addParent("triumph:vanilla/nether/summon_wither")
+
+criteria = addCriteria("beacon", "minecraft:construct_beacon")
+criteria.setLevelsMin(1)

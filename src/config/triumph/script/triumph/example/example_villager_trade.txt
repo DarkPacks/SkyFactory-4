@@ -1,0 +1,26 @@
+//Set icon item
+setIcon(<minecraft:emerald>)
+
+//Set title String
+setTitle("Weird Man give Shinies")
+
+//Set description String
+setDescription("Trade for an emerald with a villager")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(8, 5.5)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+//Adds criteria named "traded" with the trigger type "minecraft:villager_trade". This function returns the criteria as an object
+criteria = addCriteria("traded", "minecraft:villager_trade")
+
+//Sets the required entity type for the criteria. This is the entity that the player must trade with.
+criteria.setEntityType("minecraft:villager")
+
+//Sets the required item for the criteria. This is the item that must be traded for.
+criteria.setItem(<minecraft:emerald>)

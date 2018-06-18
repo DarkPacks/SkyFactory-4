@@ -1,0 +1,8 @@
+setIcon("minecraft:lava_bucket")
+setTranslatedTitle("advancements.story.lava_bucket.title")
+setTranslatedDescription("advancements.story.lava_bucket.description")
+
+addParent("triumph:vanilla/story/smelt_iron")
+
+criteria = addCriteria("lava_bucket", "minecraft:inventory_changed")
+criteria.addItem("minecraft:lava_bucket")
