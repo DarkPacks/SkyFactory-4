@@ -10,3 +10,7 @@
 // ==================================
 // Recipes
 scripts.crafttweaker.recipes.removeAndHide.init();
+
+// ==================================
+// Mod Integrations
+scripts.crafttweaker.modIntegrations.tinkers.init();
