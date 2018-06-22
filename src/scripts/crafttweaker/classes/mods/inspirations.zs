@@ -41,7 +41,7 @@ zenClass Inspirations {
 	}
 
 	function addCauldronPotion(output as IItemStack, input as IIngredient, potion as string, levels as int) {
-		addCauldronPotion(output, input, potion, levels, null);
+		Cauldron.addPotionRecipe(output, input, potion, levels);
 	}
 
 	function addCauldronPotion(output as IItemStack, input as IIngredient, potion as string, levels as int, boiling as bool) {
