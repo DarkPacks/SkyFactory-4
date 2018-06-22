@@ -31,14 +31,14 @@ zenClass Rustic {
 		Remove a Crushing Tub recipe.
 	*/
 	function removeCrushingTub(output as ILiquidStack, input as IItemStack) {
-		CrushingTub.removeRecipe(output);
+		CrushingTub.removeRecipe(output, input);
 	}
 
 	/*
 		Add an Evaporating Basin recipe.
 	*/
 	function addEvaporatingBasin(output as IItemStack, input as ILiquidStack) {
-		EvaporatingBasin.addRecipe(output);
+		EvaporatingBasin.addRecipe(output, input);
 	}
 
 	/*

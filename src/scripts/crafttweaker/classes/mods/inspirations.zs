@@ -41,7 +41,7 @@ zenClass Inspirations {
 	}
 
 	function addCauldronPotion(output as IItemStack, input as IIngredient, potion as string, levels as int) {
-		addCauldronBrewing(output, input, potion, levels, null);
+		addCauldronPotion(output, input, potion, levels, null);
 	}
 
 	function addCauldronPotion(output as IItemStack, input as IIngredient, potion as string, levels as int, boiling as bool) {
@@ -52,18 +52,18 @@ zenClass Inspirations {
 		Remove a Cauldron Potion recipe.
 	*/
 	function removeCauldronPotion(output as IIngredient) {
-		Cauldron.removeBrewingRecipe(output);
+		Cauldron.removePotionRecipe(output);
 	}
 
 	function removeCauldronPotion(output as IIngredient, input as IIngredient, potion as string) {
-		Cauldron.removeBrewingRecipe(output, input, potion);
+		Cauldron.removePotionRecipe(output, input, potion);
 	}
 
 	/*
 		Add a Cauldron Dyeing recipe.
 	*/
 	function addCauldronDyeing(output as IItemStack, input as IIngredient, stringDye as string) {
-		Cauldron.addDyeRecipe(output, input, reagent);
+		Cauldron.addDyeRecipe(output, input, stringDye);
 	}
 
 	/*
@@ -74,7 +74,7 @@ zenClass Inspirations {
 	}
 
 	function removeCauldronDyeing(output as IIngredient, input as IIngredient, stringDye as string) {
-		Cauldron.removeDyeRecipe(output, input, reagent);
+		Cauldron.removeDyeRecipe(output, input, stringDye);
 	}
 
 	/*
@@ -85,7 +85,7 @@ zenClass Inspirations {
 	}
 
 	function addCauldronFluid(output as IItemStack, input as IIngredient, fluid as ILiquidStack, levels as int) {
-		addCauldronFluid(output, input, fluid, levels, null);
+		Cauldron.addFluidRecipe(output, input, fluid, levels);
 	}
 
 	function addCauldronFluid(output as IItemStack, input as IIngredient, fluid as ILiquidStack, levels as int, boiling as bool) {
@@ -111,7 +111,7 @@ zenClass Inspirations {
 	}
 
 	function addCauldronFluidTransform(output as ILiquidStack, input as IIngredient, fluid as ILiquidStack, maxLevel as int) {
-		addCauldronFluidTransform(output, input, fluid, maxLevel, null);
+		Cauldron.addFluidTransform(output, input, fluid, maxLevel);
 	}
 
 	function addCauldronFluidTransform(output as ILiquidStack, input as IIngredient, fluid as ILiquidStack, maxLevel as int, boiling as bool) {
