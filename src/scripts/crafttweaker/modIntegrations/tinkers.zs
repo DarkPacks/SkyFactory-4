@@ -27,4 +27,9 @@ function init() {
 	tinkers.addMelting(<liquid:ender> * 250, <ore:enderpearl>);
 	tinkers.addMelting(<liquid:glowstone> * 250, <ore:clathrateEnder>);
 	tinkers.addMelting(<liquid:glowstone> * 1000, <ore:oreClathrateEnder>);
+
+	// ==================================
+	// Drying
+	// ==================================
+	tinkers.addDrying(<sky_orchards:acorn_petrified>, <sky_orchards:acorn_dirt>, 1200);
 }

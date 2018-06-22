@@ -13,4 +13,6 @@ scripts.crafttweaker.recipes.removeAndHide.init();
 
 // ==================================
 // Mod Integrations
+scripts.crafttweaker.modIntegrations.inspirations.init();
+scripts.crafttweaker.modIntegrations.rustic.init();
 scripts.crafttweaker.modIntegrations.tinkers.init();
