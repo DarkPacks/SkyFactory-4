@@ -26,7 +26,21 @@ function init() {
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_redstone>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_diamond>);
 
+	//Vanilla Saplings Crush into Water
+	rustic.addCrushingTub(<liquid:water> * 100, null, <minecraft:sapling>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <minecraft:sapling:1>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <minecraft:sapling:2>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <minecraft:sapling:3>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <minecraft:sapling:4>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <minecraft:sapling:5>);
+
 	// Stone Acorns to Sand Acorns
 	rustic.addCrushingTub(<liquid:sap> * 100, <sky_orchards:acorn_gravel>, <sky_orchards:acorn_petrified>);
 	rustic.addCrushingTub(<liquid:sap> * 100, <sky_orchards:acorn_sand>, <sky_orchards:acorn_gravel>);
+
+	//Crush dirt to get bonemeal / liquid dirt
+	rustic.addCrushingTub(<liquid:mud> * 100, <minecraft:dye:15>, <minecraft:dirt>);
+
+
+
 }
