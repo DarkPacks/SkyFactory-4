@@ -36,12 +36,15 @@ function init() {
 	// Converts stone to lava
 	inspirations.addCauldronFill(<minecraft:cobblestone>, <liquid:lava>);
 
-	//mods.inspirations.Cauldron.addDyeRecipe(IItemStack output, IIngredient input, String dye);
-	mods.inspirations.Cauldron.addDyeRecipe(<minecraft:sand:1>, <minecraft:sand>, "red");
+	// ==================================
+	// Cauldron Dyeing Recipes
+	// ==================================
+	inspirations.addCauldronDyeing(<minecraft:sand:1>, <minecraft:sand>, "red");
 
-
-	//mods.inspirations.Cauldron.addFluidTransform(ILiquidStack output, IIngredient input, ILiquidStack fluid, @Optional int maxLevels, @Optional boolean boiling);
-	mods.inspirations.Cauldron.addFluidTransform(<liquid:mud>, <minecraft:dirt>, <liquid:water>);
+	// ==================================
+	// Cauldron Fluid Transformation Recipes
+	// ==================================
+	inspirations.addCauldronFluidTransform(<liquid:mud>, <minecraft:dirt>, <liquid:water>);
 }
 
 
