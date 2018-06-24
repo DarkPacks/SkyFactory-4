@@ -8,6 +8,10 @@
 	potential script failures and game breaking issues.
 */
 // ==================================
+// Item Modifiers
+scripts.crafttweaker.itemModifiers.burnTime.init();
+
+// ==================================
 // Recipes
 scripts.crafttweaker.recipes.removeAndHide.init();
 
