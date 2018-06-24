@@ -115,8 +115,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:stickWood>]
 		]
 	]
-
-
 };
 
 for item, recipesForItem in shapedRecipes {

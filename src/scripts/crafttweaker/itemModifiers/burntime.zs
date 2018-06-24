@@ -1,8 +1,6 @@
+/*
+	SkyFactory 4 Item Burn Time Modification Script.
 
-
-
-
-
-
-//Coal Acorns have burn time
-furnace.setFuel(<sky_orchards:acorn_coal>, 200);
+	This script allows for the modification of burn times for the furnace.
+*/
+furnace.setFuel(<sky_orchards:acorn_coal>, 200); // Coal Acorns have burn time
