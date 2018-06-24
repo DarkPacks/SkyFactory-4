@@ -16,7 +16,7 @@ function init() {
 	inspirations.addCauldronFluid(<minecraft:sapling:5>, <sky_orchards:sapling_coal>, <liquid:water>);
 	inspirations.addCauldronFluid(<integrateddynamics:menril_sapling>, <sky_orchards:sapling_lapis>, <liquid:water>);
 
-	//Create Dirt Saplings by washing in mud
+	// Create Dirt Saplings by washing in mud
 	inspirations.addCauldronFluid(<sky_orchards:sapling_dirt>, <minecraft:sapling>, <liquid:mud>);
 	inspirations.addCauldronFluid(<sky_orchards:sapling_dirt>, <minecraft:sapling:1>, <liquid:mud>);
 	inspirations.addCauldronFluid(<sky_orchards:sapling_dirt>, <minecraft:sapling:2>, <liquid:mud>);
@@ -27,7 +27,7 @@ function init() {
 	// Dip Sticks into Liquid Sap to make Torches
 	inspirations.addCauldronFluid(<minecraft:torch>, <minecraft:stick>, <liquid:sap>);
 
-	//Washing Sand off to bonemeal
+	// Washing Sand off to bonemeal
 	inspirations.addCauldronFluid(<minecraft:dye:15> * 3, <minecraft:sand>, <liquid:water>);
 
 	// ==================================

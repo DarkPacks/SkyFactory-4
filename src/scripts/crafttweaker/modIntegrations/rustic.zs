@@ -40,7 +40,4 @@ function init() {
 
 	//Crush dirt to get bonemeal / liquid dirt
 	rustic.addCrushingTub(<liquid:mud> * 100, <minecraft:dye:15>, <minecraft:dirt>);
-
-
-
 }
