@@ -90,6 +90,21 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]
 		]
 	],
+	<sky_orchards:sapling_cottonwood>: [
+		[
+			[null, <minecraft:dye:15>, null],
+			[<minecraft:dye:15>, <minecraft:vine>, <minecraft:dye:15>],
+			[null, <minecraft:sapling:3>, null]
+		]
+	],
+
+	<minecraft:paper>: [
+		[
+			[<minecraft:string>, <minecraft:string>],
+			[<sky_orchards:resin_cottonwood>, <sky_orchards:resin_cottonwood>]
+		]
+	],
+
 
 	<rustic:crushing_tub>: [
 		[

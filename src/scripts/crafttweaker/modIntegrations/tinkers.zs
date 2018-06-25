@@ -31,5 +31,15 @@ function init() {
 	// ==================================
 	// Drying
 	// ==================================
+
+
+	
+
+	mods.tconstruct.Drying.removeRecipe(<minecraft:deadbush>);
+
+
+
 	tinkers.addDrying(<sky_orchards:acorn_petrified>, <sky_orchards:acorn_dirt>, 1200);
+	tinkers.addDrying(<minecraft:string>, <sky_orchards:leaves_cottonwood>, 900);
+	tinkers.addDrying(<minecraft:vine>, <minecraft:sapling:3>, 900);
 }

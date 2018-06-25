@@ -1,0 +1,61 @@
+{
+  "type": "iron",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:log_iron",
+      "meta": 0
+    },
+    "b": {
+      "name": "sky_orchards:leaves_iron",
+      "meta": 8
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " bbbb",
+      " bbb ",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "  b  ",
+      " bbb ",
+      "bbbbb",
+      "bbbbb",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      " bbb ",
+      " bab ",
+      "bbabb",
+      "bbabb",
+      "  a  ",
+      "  a  ",
+      "  a  "
+    ],
+    [
+      "  b  ",
+      "  b  ",
+      "bbbbb",
+      "bbbbb",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "bbbb ",
+      " bbb ",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ]
+}

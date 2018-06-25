@@ -30,6 +30,12 @@ function init() {
 	// Washing Sand off to bonemeal
 	inspirations.addCauldronFluid(<minecraft:dye:15> * 3, <minecraft:sand>, <liquid:water>);
 
+	// Washing clay in mud to make Jungle
+	inspirations.addCauldronFluid(<minecraft:sapling:3>, <sky_orchards:sapling_clay>, <liquid:mud>);
+
+
+
+
 	// ==================================
 	// Fill Recipes
 	// ==================================

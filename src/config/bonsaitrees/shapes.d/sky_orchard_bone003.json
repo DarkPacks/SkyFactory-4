@@ -1,0 +1,51 @@
+{
+  "type": "sky_orchard:bone",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_bone",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_bone",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "  a  ",
+      " aaa ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      " aaa ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "aaaaa",
+      " aaa ",
+      "     "
+    ]
+  ]
+}
