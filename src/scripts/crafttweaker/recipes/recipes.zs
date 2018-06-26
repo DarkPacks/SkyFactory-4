@@ -2,6 +2,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 var shapedRecipes as IIngredient[][][][IItemStack] = {
+	
+	//Blocks
 	<minecraft:dirt>: [
 		[
 			[<sky_orchards:resin_dirt>, <sky_orchards:acorn_dirt>, <sky_orchards:resin_dirt>],
@@ -117,14 +119,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<minecraft:string>, <minecraft:string>],
 			[<sky_orchards:resin_cottonwood>, <sky_orchards:resin_cottonwood>]
-		]
-	],
-
-
-	<rustic:crushing_tub>: [
-		[
-			[<ore:plankWood>, null, <ore:plankWood>],
-			[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]
 		]
 	],
 	<rustic:crushing_tub>: [
