@@ -32,17 +32,14 @@ function init() {
 	// Washing clay in mud to make Jungle
 	inspirations.addCauldronFluid(<minecraft:sapling:3>, <sky_orchards:sapling_clay>, <liquid:mud>);
 
-	//Create grass from mud and leaves
+	// Create grass from mud and leaves
 	inspirations.addCauldronFluid(<minecraft:grass>, <ore:treeLeaves> * 4, <liquid:mud>, 3);
 
-	//Obsidian Sapling from dipping diamond sapling in lava
+	// Obsidian Sapling from dipping diamond sapling in lava
 	inspirations.addCauldronFluid(<sky_orchards:sapling_obsidian>, <sky_orchards:sapling_diamond>, <liquid:lava>, 3);
 
-	//Acacia sapling from apple juice
+	// Acacia sapling from apple juice
 	inspirations.addCauldronFluid(<minecraft:sapling:4>, <rustic:sapling_apple>, <liquid:applejuice>, 3);
-
-
-
 
 	// ==================================
 	// Fill Recipes

@@ -38,6 +38,6 @@ function init() {
 	rustic.addCrushingTub(<liquid:sap> * 100, <sky_orchards:acorn_gravel>, <sky_orchards:acorn_petrified>);
 	rustic.addCrushingTub(<liquid:sap> * 100, <sky_orchards:acorn_sand>, <sky_orchards:acorn_gravel>);
 
-	//Crush dirt to get bonemeal / liquid dirt
+	// Crush dirt to get bonemeal / liquid dirt
 	rustic.addCrushingTub(<liquid:mud> * 100, <minecraft:dye:15>, <minecraft:dirt>);
 }
