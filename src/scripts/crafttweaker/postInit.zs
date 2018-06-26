@@ -7,6 +7,9 @@
 	modified if you know what you are doing. Changing anything in here could cause
 	potential script failures and game breaking issues.
 */
+// TODO: FIND A HOME
+scripts.crafttweaker.grassSeedDrop.init();
+
 // ==================================
 // Item Modifiers
 scripts.crafttweaker.itemModifiers.burnTime.init();
