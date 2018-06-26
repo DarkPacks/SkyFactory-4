@@ -1,13 +1,13 @@
 {
-  "type": "bacontree",
+  "type": "sky_orchard:donut",
   "version": 2,
   "ref": {
     "a": {
-      "name": "sky_orchards:leaves_bacon",
+      "name": "sky_orchards:leaves_donut",
       "meta": 8
     },
     "b": {
-      "name": "sky_orchards:log_bacon",
+      "name": "sky_orchards:log_donut",
       "meta": 0
     }
   },
@@ -15,10 +15,8 @@
     [
       "     ",
       "     ",
+      " aaa ",
       "aaaa ",
-      "aaaa ",
-      "     ",
-      "     ",
       "     "
     ],
     [
@@ -26,8 +24,6 @@
       "  a  ",
       "aaaaa",
       "aaaaa",
-      "     ",
-      "     ",
       "     "
     ],
     [
@@ -35,26 +31,20 @@
       " aba ",
       "aabaa",
       "aabaa",
-      "  b  ",
-      "  b  ",
       "  b  "
     ],
     [
       "  a  ",
-      " aa  ",
+      "  a  ",
       "aaaaa",
       "aaaaa",
-      "     ",
-      "     ",
       "     "
     ],
     [
       "     ",
       "     ",
       "aaaaa",
-      " aaaa",
-      "     ",
-      "     ",
+      " aaa ",
       "     "
     ]
   ]

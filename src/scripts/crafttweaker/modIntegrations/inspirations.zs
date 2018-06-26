@@ -12,7 +12,6 @@ function init() {
 	inspirations.addCauldronFluid(<minecraft:sapling>, <sky_orchards:sapling_dirt>, <liquid:water>);
 	inspirations.addCauldronFluid(<minecraft:sapling:1>, <sky_orchards:sapling_petrified>, <liquid:water>);
 	inspirations.addCauldronFluid(<minecraft:sapling:2>, <sky_orchards:sapling_sand>, <liquid:water>);
-	inspirations.addCauldronFluid(<minecraft:sapling:4>, <sky_orchards:sapling_redstone>, <liquid:water>);
 	inspirations.addCauldronFluid(<minecraft:sapling:5>, <sky_orchards:sapling_coal>, <liquid:water>);
 	inspirations.addCauldronFluid(<integrateddynamics:menril_sapling>, <sky_orchards:sapling_lapis>, <liquid:water>);
 
@@ -33,6 +32,15 @@ function init() {
 	// Washing clay in mud to make Jungle
 	inspirations.addCauldronFluid(<minecraft:sapling:3>, <sky_orchards:sapling_clay>, <liquid:mud>);
 
+	//Create grass from mud and leaves
+	inspirations.addCauldronFluid(<minecraft:grass>, <ore:treeLeaves> * 4, <liquid:mud>, 3);
+
+	//Obsidian Sapling from dipping diamond sapling in lava
+	inspirations.addCauldronFluid(<sky_orchards:sapling_obsidian>, <sky_orchards:sapling_diamond>, <liquid:lava>, 3);
+
+	//Acacia sapling from apple juice
+	inspirations.addCauldronFluid(<minecraft:sapling:4>, <rustic:sapling_apple>, <liquid:applejuice>, 3);
+
 
 
 
@@ -50,7 +58,5 @@ function init() {
 	// ==================================
 	// Cauldron Fluid Transformation Recipes
 	// ==================================
-	inspirations.addCauldronFluidTransform(<liquid:mud>, <minecraft:dirt>, <liquid:water>);
+	inspirations.addCauldronFluidTransform(<liquid:mud>, <minecraft:dirt>, <liquid:water>, 3);
 }
-
-

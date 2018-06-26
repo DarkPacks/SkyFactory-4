@@ -16,14 +16,16 @@
       "     ",
       "     ",
       " aaaa",
-      " aaa ",
+      "aaaaa",
+      "     ",
       "     "
     ],
     [
       "  a  ",
-      "  aa ",
+      "  a  ",
       "aaaaa",
       "aaaaa",
+      "     ",
       "     "
     ],
     [
@@ -31,6 +33,7 @@
       " aba ",
       "aabaa",
       "aabaa",
+      "  b  ",
       "  b  "
     ],
     [
@@ -38,13 +41,15 @@
       "  aa ",
       "aaaaa",
       "aaaaa",
+      "     ",
       "     "
     ],
     [
       "     ",
       "     ",
-      "aaaaa",
-      "aaaaa",
+      "aaaa ",
+      " aaaa",
+      "     ",
       "     "
     ]
   ]

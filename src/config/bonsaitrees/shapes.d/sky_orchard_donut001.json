@@ -1,13 +1,13 @@
 {
-  "type": "irontree",
+  "type": "sky_orchard:donut",
   "version": 2,
   "ref": {
     "a": {
-      "name": "sky_orchards:leaves_iron",
+      "name": "sky_orchards:leaves_donut",
       "meta": 8
     },
     "b": {
-      "name": "sky_orchards:log_iron",
+      "name": "sky_orchards:log_donut",
       "meta": 0
     }
   },
@@ -15,16 +15,18 @@
     [
       "     ",
       "     ",
+      " aaa ",
       "aaaa ",
-      "aaaa ",
+      "     ",
       "     ",
       "     "
     ],
     [
       "  a  ",
-      "  a  ",
+      " aa  ",
       "aaaaa",
       "aaaaa",
+      "     ",
       "     ",
       "     "
     ],
@@ -34,21 +36,24 @@
       "aabaa",
       "aabaa",
       "  b  ",
+      "  b  ",
       "  b  "
     ],
     [
       "  a  ",
-      "  aa ",
+      "  a  ",
       "aaaaa",
       "aaaaa",
+      "     ",
       "     ",
       "     "
     ],
     [
       "     ",
       "     ",
-      " aaa ",
-      "aaaa ",
+      "aaaaa",
+      " aaaa",
+      "     ",
       "     ",
       "     "
     ]

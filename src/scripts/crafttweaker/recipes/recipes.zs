@@ -49,12 +49,27 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:coal>: [
 		[
-			[<sky_orchards:acorn_coal>, <sky_orchards:acorn_coal>, <sky_orchards:acorn_coal>],
+			[<sky_orchards:resin_coal>, <sky_orchards:acorn_coal>, <sky_orchards:resin_coal>],
 			[<sky_orchards:acorn_coal>, <sky_orchards:resin_coal>, <sky_orchards:acorn_coal>],
-			[<sky_orchards:acorn_coal>, <sky_orchards:acorn_coal>, <sky_orchards:acorn_coal>]
+			[<sky_orchards:resin_coal>, <sky_orchards:acorn_coal>, <sky_orchards:resin_coal>]
+		]
+	],
+	<minecraft:obsidian>: [
+		[
+			[<sky_orchards:resin_obsidian>, <sky_orchards:acorn_obsidian>, <sky_orchards:resin_obsidian>],
+			[<sky_orchards:acorn_obsidian>, <sky_orchards:resin_obsidian>, <sky_orchards:acorn_obsidian>],
+			[<sky_orchards:resin_obsidian>, <sky_orchards:acorn_obsidian>, <sky_orchards:resin_obsidian>]
+		]
+	],
+	<minecraft:iron_ore>: [
+		[
+			[<sky_orchards:resin_iron>, <sky_orchards:acorn_iron>, <sky_orchards:resin_iron>],
+			[<sky_orchards:acorn_iron>, <sky_orchards:resin_iron>, <sky_orchards:acorn_iron>],
+			[<sky_orchards:resin_iron>, <sky_orchards:acorn_iron>, <sky_orchards:resin_iron>]
 		]
 	],
 
+	//Saplings
 	<sky_orchards:sapling_petrified>: [
 		[
 			[<sky_orchards:acorn_petrified>, <sky_orchards:acorn_petrified>, <sky_orchards:acorn_petrified>],

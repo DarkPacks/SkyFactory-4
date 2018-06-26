@@ -42,4 +42,11 @@ function init() {
 	tinkers.addDrying(<sky_orchards:acorn_petrified>, <sky_orchards:acorn_dirt>, 1200);
 	tinkers.addDrying(<minecraft:string>, <sky_orchards:leaves_cottonwood>, 900);
 	tinkers.addDrying(<minecraft:vine>, <minecraft:sapling:3>, 900);
+
+
+//mods.tconstruct.Casting.addTableRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
+mods.tconstruct.Casting.addTableRecipe(<sky_orchards:sapling_iron>, <minecraft:sapling:4>, <liquid:iron>, 144, true, 200);
+
+
+
 }

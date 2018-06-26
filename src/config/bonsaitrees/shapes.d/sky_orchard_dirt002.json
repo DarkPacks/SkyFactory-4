@@ -15,13 +15,13 @@
     [
       "     ",
       "     ",
-      " aaaa",
-      "aaaaa",
+      "aaaa ",
+      " aaa ",
       "     "
     ],
     [
       "  a  ",
-      "  aa ",
+      " aa  ",
       "aaaaa",
       "aaaaa",
       "     "
@@ -44,7 +44,7 @@
       "     ",
       "     ",
       " aaaa",
-      "aaaa ",
+      "aaaaa",
       "     "
     ]
   ]

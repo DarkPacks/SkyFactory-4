@@ -3,47 +3,47 @@
   "version": 2,
   "ref": {
     "a": {
-      "name": "sky_orchards:log_gravel",
-      "meta": 0
-    },
-    "b": {
       "name": "sky_orchards:leaves_gravel",
       "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_gravel",
+      "meta": 0
     }
   },
   "shape": [
     [
       "     ",
       "     ",
-      "bbbb ",
-      "bbbbb",
+      "aaaa ",
+      " aaa ",
       "     ",
       "     ",
       "     "
     ],
     [
-      "  b  ",
-      " bbb ",
-      "bbbbb",
-      "bbbbb",
-      "     ",
-      "     ",
-      "     "
-    ],
-    [
-      " bbb ",
-      " bab ",
-      "bbabb",
-      "bbabb",
       "  a  ",
-      "  a  ",
-      "  a  "
+      " aaa ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     ",
+      "     "
     ],
     [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
       "  b  ",
       "  b  ",
-      "bbbbb",
-      "bbbbb",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaaa",
+      "aaaaa",
       "     ",
       "     ",
       "     "
@@ -51,8 +51,8 @@
     [
       "     ",
       "     ",
-      " bbb ",
-      "bbbb ",
+      "aaaaa",
+      " aaa ",
       "     ",
       "     ",
       "     "

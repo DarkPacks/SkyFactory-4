@@ -3,52 +3,57 @@
   "version": 2,
   "ref": {
     "a": {
-      "name": "sky_orchards:leaves_bone",
-      "meta": 8
-    },
-    "b": {
       "name": "sky_orchards:log_bone",
       "meta": 0
+    },
+    "b": {
+      "name": "sky_orchards:leaves_bone",
+      "meta": 8
     }
   },
   "shape": [
     [
       "     ",
       "     ",
-      " aaaa",
-      " aaa ",
+      "bbbbb",
+      "bbbbb",
+      "     ",
       "     ",
       "     "
     ],
     [
-      "  a  ",
-      " aa  ",
-      "aaaaa",
-      "aaaaa",
-      "     ",
-      "     "
-    ],
-    [
-      " aaa ",
-      " aba ",
-      "aabaa",
-      "aabaa",
       "  b  ",
-      "  b  "
+      " bbb ",
+      "bbbbb",
+      "bbbbb",
+      "     ",
+      "     ",
+      "     "
     ],
     [
+      " bbb ",
+      " bab ",
+      "bbabb",
+      "bbabb",
       "  a  ",
-      "  aa ",
-      "aaaaa",
-      "aaaaa",
+      "  a  ",
+      "  a  "
+    ],
+    [
+      "  b  ",
+      "  b  ",
+      "bbbbb",
+      "bbbbb",
+      "     ",
       "     ",
       "     "
     ],
     [
       "     ",
       "     ",
-      " aaaa",
-      "aaaaa",
+      " bbb ",
+      " bbb ",
+      "     ",
       "     ",
       "     "
     ]
