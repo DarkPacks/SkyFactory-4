@@ -1,0 +1,38 @@
+[
+  {
+    "identifier": "1",
+    "title": "Tinkers",
+    "description": "Test",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"minecraft:shield\",Count:1b,Damage:0s}",
+    "x": 257,
+    "y": 85,
+    "cost": 5,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "2",
+    "title": "Turnip",
+    "description": "Test2",
+    "icon": "{id:\"microblockcbe:microblock\",Count:1b,tag:{mat:\"minecraft:emerald_block\"},Damage:770s}",
+    "x": 309,
+    "y": 84,
+    "cost": 5,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "testtest",
+    "title": "TestTest",
+    "description": "Test",
+    "icon": "{id:\"minecraft:stone\",Count:1b,Damage:1s}",
+    "x": 282,
+    "y": 140,
+    "cost": 500,
+    "parents": [],
+    "children": [],
+    "placed": true
+  }
+]
