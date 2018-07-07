@@ -199,7 +199,76 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<sky_orchards:acorn_iron>, <sky_orchards:resin_iron>, <sky_orchards:acorn_iron>],
 			[<sky_orchards:resin_iron>, <sky_orchards:acorn_iron>, <sky_orchards:resin_iron>]
 		]
-	]
+	],
+	<sky_orchards:amber_gold>: [
+		[
+			[<sky_orchards:resin_iron>, <sky_orchards:resin_lead>, <sky_orchards:resin_iron>],
+			[<sky_orchards:resin_sand>, <ore:dyeYellow>, <sky_orchards:resin_sand>],
+			[<sky_orchards:resin_iron>, <sky_orchards:resin_lead>, <sky_orchards:resin_iron>]
+		],
+		[
+			[<sky_orchards:resin_iron>, <sky_orchards:resin_sand>, <sky_orchards:resin_iron>],
+			[<sky_orchards:resin_lead>, <ore:dyeYellow>, <sky_orchards:resin_lead>],
+			[<sky_orchards:resin_iron>, <sky_orchards:resin_sand>, <sky_orchards:resin_iron>]
+		],
+		[
+			[<sky_orchards:resin_gold>, <sky_orchards:acorn_gold>, <sky_orchards:resin_gold>],
+			[<sky_orchards:acorn_gold>, <sky_orchards:resin_gold>, <sky_orchards:acorn_gold>],
+			[<sky_orchards:resin_gold>, <sky_orchards:acorn_gold>, <sky_orchards:resin_gold>]
+		]
+	],
+	<sky_orchards:amber_lead>: [
+		[
+			[<sky_orchards:resin_petrified>, <sky_orchards:resin_iron>, <sky_orchards:resin_petrified>],
+			[<sky_orchards:resin_sand>, <ore:dyeYellow>, <sky_orchards:resin_sand>],
+			[<sky_orchards:resin_petrified>, <sky_orchards:resin_iron>, <sky_orchards:resin_petrified>]
+		],
+		[
+			[<sky_orchards:resin_petrified>, <sky_orchards:resin_sand>, <sky_orchards:resin_petrified>],
+			[<sky_orchards:resin_iron>, <ore:dyeYellow>, <sky_orchards:resin_iron>],
+			[<sky_orchards:resin_petrified>, <sky_orchards:resin_sand>, <sky_orchards:resin_petrified>]
+		],
+		[
+			[<sky_orchards:resin_lead>, <sky_orchards:acorn_lead>, <sky_orchards:resin_lead>],
+			[<sky_orchards:acorn_lead>, <sky_orchards:resin_lead>, <sky_orchards:acorn_lead>],
+			[<sky_orchards:resin_lead>, <sky_orchards:acorn_lead>, <sky_orchards:resin_lead>]
+		]
+	],
+	<sky_orchards:amber_copper>: [
+		[
+			[<sky_orchards:resin_petrified>, <sky_orchards:resin_clay>, <sky_orchards:resin_petrified>],
+			[<sky_orchards:resin_sand>, <minecraft:sand:1>, <sky_orchards:resin_sand>],
+			[<sky_orchards:resin_petrified>, <sky_orchards:resin_clay>, <sky_orchards:resin_petrified>]
+		],
+		[
+			[<sky_orchards:resin_petrified>, <sky_orchards:resin_sand>, <sky_orchards:resin_petrified>],
+			[<sky_orchards:resin_clay>, <minecraft:sand:1>, <sky_orchards:resin_clay>],
+			[<sky_orchards:resin_petrified>, <sky_orchards:resin_sand>, <sky_orchards:resin_petrified>]
+		],
+		[
+			[<sky_orchards:resin_copper>, <sky_orchards:acorn_copper>, <sky_orchards:resin_copper>],
+			[<sky_orchards:acorn_copper>, <sky_orchards:resin_copper>, <sky_orchards:acorn_copper>],
+			[<sky_orchards:resin_copper>, <sky_orchards:acorn_copper>, <sky_orchards:resin_copper>]
+		]
+	],
+	<sky_orchards:amber_tin>: [
+	 	[
+	 		[<sky_orchards:resin_bone>, <sky_orchards:resin_clay>, <sky_orchards:resin_bone>],
+	 		[<sky_orchards:resin_gravel>, <minecraft:flint>, <sky_orchards:resin_gravel>],
+	 		[<sky_orchards:resin_bone>, <sky_orchards:resin_clay>, <sky_orchards:resin_bone>]
+	 	],
+	 	[
+	 		[<sky_orchards:resin_bone>, <sky_orchards:resin_gravel>, <sky_orchards:resin_bone>],
+	 		[<sky_orchards:resin_clay>, <minecraft:flint>, <sky_orchards:resin_clay>],
+	 		[<sky_orchards:resin_bone>, <sky_orchards:resin_gravel>, <sky_orchards:resin_bone>]
+	 	],
+	 	[
+	 		[<sky_orchards:resin_tin>, <sky_orchards:acorn_tin>, <sky_orchards:resin_tin>],
+	 		[<sky_orchards:acorn_tin>, <sky_orchards:resin_tin>, <sky_orchards:acorn_tin>],
+	 		[<sky_orchards:resin_tin>, <sky_orchards:acorn_tin>, <sky_orchards:resin_tin>]
+	 	]
+	]	
+
 
 };
 
