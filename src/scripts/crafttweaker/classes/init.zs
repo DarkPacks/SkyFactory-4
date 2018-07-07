@@ -9,3 +9,6 @@
 global inspirations as scripts.crafttweaker.classes.mods.inspirations.Inspirations = scripts.crafttweaker.classes.mods.inspirations.Inspirations();
 global rustic as scripts.crafttweaker.classes.mods.rustic.Rustic = scripts.crafttweaker.classes.mods.rustic.Rustic();
 global tinkers as scripts.crafttweaker.classes.mods.tinkers.Tinkers = scripts.crafttweaker.classes.mods.tinkers.Tinkers();
+
+// Utils
+global recipeUtil as scripts.crafttweaker.classes.utils.recipeUtil.RecipeUtil = scripts.crafttweaker.classes.utils.recipeUtil.RecipeUtil();

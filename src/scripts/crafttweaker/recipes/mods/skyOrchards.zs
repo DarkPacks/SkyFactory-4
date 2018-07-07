@@ -1,82 +1,15 @@
+/*
+    SkyFactory 4 Sky Orchards Recipe Script
+
+    This script handles the recipes for Sky Orchards.
+*/
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-var shapedRecipes as IIngredient[][][][IItemStack] = {
-	// Blocks
-	<minecraft:dirt>: [
-		[
-			[<sky_orchards:resin_dirt>, <sky_orchards:acorn_dirt>, <sky_orchards:resin_dirt>],
-			[<sky_orchards:acorn_dirt>, <sky_orchards:resin_dirt>, <sky_orchards:acorn_dirt>],
-			[<sky_orchards:resin_dirt>, <sky_orchards:acorn_dirt>, <sky_orchards:resin_dirt>]
-		]
-	],
-
-	<minecraft:cobblestone>: [
-		[
-			[<sky_orchards:resin_petrified>, <sky_orchards:acorn_petrified>, <sky_orchards:resin_petrified>],
-			[<sky_orchards:acorn_petrified>, <sky_orchards:resin_petrified>, <sky_orchards:acorn_petrified>],
-			[<sky_orchards:resin_petrified>, <sky_orchards:acorn_petrified>, <sky_orchards:resin_petrified>]
-		]
-	],
-
-	<minecraft:clay>: [
-		[
-			[<sky_orchards:resin_clay>, <sky_orchards:acorn_clay>, <sky_orchards:resin_clay>],
-			[<sky_orchards:acorn_clay>, <sky_orchards:resin_clay>, <sky_orchards:acorn_clay>],
-			[<sky_orchards:resin_clay>, <sky_orchards:acorn_clay>, <sky_orchards:resin_clay>]
-		]
-	],
-
-	<minecraft:sand>: [
-		[
-			[<sky_orchards:resin_sand>, <sky_orchards:acorn_sand>, <sky_orchards:resin_sand>],
-			[<sky_orchards:acorn_sand>, <sky_orchards:resin_sand>, <sky_orchards:acorn_sand>],
-			[<sky_orchards:resin_sand>, <sky_orchards:acorn_sand>, <sky_orchards:resin_sand>]
-		]
-	],
-	<minecraft:gravel>: [
-		[
-			[<sky_orchards:resin_gravel>, <sky_orchards:acorn_gravel>, <sky_orchards:resin_gravel>],
-			[<sky_orchards:acorn_gravel>, <sky_orchards:resin_gravel>, <sky_orchards:acorn_gravel>],
-			[<sky_orchards:resin_gravel>, <sky_orchards:acorn_gravel>, <sky_orchards:resin_gravel>]
-		]
-	],
-	<minecraft:bone_block>: [
-		[
-			[<sky_orchards:resin_bone>, <sky_orchards:acorn_bone>, <sky_orchards:resin_bone>],
-			[<sky_orchards:acorn_bone>, <sky_orchards:resin_bone>, <sky_orchards:acorn_bone>],
-			[<sky_orchards:resin_bone>, <sky_orchards:acorn_bone>, <sky_orchards:resin_bone>]
-		]
-	],
-	<minecraft:coal>: [
-		[
-			[<sky_orchards:resin_coal>, <sky_orchards:acorn_coal>, <sky_orchards:resin_coal>],
-			[<sky_orchards:acorn_coal>, <sky_orchards:resin_coal>, <sky_orchards:acorn_coal>],
-			[<sky_orchards:resin_coal>, <sky_orchards:acorn_coal>, <sky_orchards:resin_coal>]
-		]
-	],
-	<minecraft:obsidian>: [
-		[
-			[<sky_orchards:resin_obsidian>, <sky_orchards:acorn_obsidian>, <sky_orchards:resin_obsidian>],
-			[<sky_orchards:acorn_obsidian>, <sky_orchards:resin_obsidian>, <sky_orchards:acorn_obsidian>],
-			[<sky_orchards:resin_obsidian>, <sky_orchards:acorn_obsidian>, <sky_orchards:resin_obsidian>]
-		]
-	],
-	<minecraft:diamond>: [
-		[
-			[<sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>],
-			[<sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>],
-			[<sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>]
-		]
-	],
-	<minecraft:emerald>: [
-		[
-			[<sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>],
-			[<sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>],
-			[<sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>]
-		]
-	],
-
+/*
+    Shaped Recipes
+*/
+static shapedRecipes as IIngredient[][][][IItemStack] = {
 	// Saplings
 	<sky_orchards:sapling_petrified>: [
 		[
@@ -120,7 +53,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:sapling:3>, null]
 		]
 	],
-
 	<sky_orchards:sapling_redstone>: [
 		[
 			[<sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>],
@@ -157,32 +89,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-	<minecraft:paper>: [
-		[
-			[<minecraft:string>, <minecraft:string>],
-			[<sky_orchards:resin_cottonwood>, <sky_orchards:resin_cottonwood>]
-		]
-	],
-	<rustic:crushing_tub>: [
-		[
-			[<ore:plankWood>, null, <ore:plankWood>],
-			[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]
-		]
-	],
-	<tconstruct:stone_stick> * 4: [
-		[
-			[<ore:cobblestone>],
-			[<ore:cobblestone>]
-		]
-	],
-	<minecraft:torch>: [
-		[
-			[<sky_orchards:acorn_coal>],
-			[<ore:stickWood>]
-		]
-	],
-
-	//Amber Crafting
+	// Amber Crafting
 	<sky_orchards:amber_iron>: [
 		[
 			[<sky_orchards:resin_coal>, <sky_orchards:resin_gravel>, <sky_orchards:resin_coal>],
@@ -267,20 +174,57 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	 		[<sky_orchards:acorn_tin>, <sky_orchards:resin_tin>, <sky_orchards:acorn_tin>],
 	 		[<sky_orchards:resin_tin>, <sky_orchards:acorn_tin>, <sky_orchards:resin_tin>]
 	 	]
-	]	
-
-
+	]
 };
 
-for item, recipesForItem in shapedRecipes {
-    for recipe in recipesForItem {
-        recipes.addShaped(item, recipe);
-    }
-}
+static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+};
 
-// ==================================
-// Recipe removals
-recipes.remove(<rustic:crushing_tub>);
-recipes.remove(<inspirations:materials:8>);
-recipes.remove(<microblockcbe:stone_rod>);
-recipes.remove(<tconstruct:stone_stick>);
+/*
+    Mirrored Recipes
+*/
+static mirroredRecipes as IIngredient[][][][IItemStack] = {
+};
+
+static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
+};
+
+/*
+    Shapeless Recipes
+*/
+static shapelessRecipes as IIngredient[][][IItemStack] = {
+};
+
+static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
+};
+
+/*
+    Recipe Removals
+*/
+static removeRecipes as IItemStack[] = [];
+
+function init() {
+	// Un-named recipes
+	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.skyOrchards.shapedRecipes;
+	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.skyOrchards.mirroredRecipes;
+	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.skyOrchards.shapelessRecipes;
+
+	// Named recipes
+	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.skyOrchards.namedShapedRecipes;
+	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.skyOrchards.namedMirroredRecipes;
+	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.skyOrchards.namedShapelessRecipes;
+
+	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.skyOrchards.removeRecipes;
+
+	// Un-named recipes
+	recipeUtil.process(shapedRecipes, false);
+    recipeUtil.process(mirroredRecipes, true);
+    recipeUtil.process(shapelessRecipes);
+
+	// Named recipes
+	recipeUtil.processNamed(namedShapedRecipes, false);
+    recipeUtil.processNamed(namedMirroredRecipes, true);
+    recipeUtil.processNamed(namedShapelessRecipes);
+
+	recipeUtil.removeRecipes(removeRecipes);
+}

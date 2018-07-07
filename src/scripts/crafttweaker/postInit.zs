@@ -10,16 +10,28 @@
 // TODO: FIND A HOME
 scripts.crafttweaker.grassSeedDrop.init();
 
-// ==================================
-// Item Modifiers
-scripts.crafttweaker.itemModifiers.burnTime.init();
+initItemModifiers();
+initRecipes();
+initIntegration();
 
-// ==================================
-// Recipes
-scripts.crafttweaker.recipes.removeAndHide.init();
+function initRecipes() {
+	scripts.crafttweaker.recipes.removeAndHide.init();
 
-// ==================================
-// Mod Integrations
-scripts.crafttweaker.modIntegrations.inspirations.init();
-scripts.crafttweaker.modIntegrations.rustic.init();
-scripts.crafttweaker.modIntegrations.tinkers.init();
+	// Mod Specific Recipes
+	scripts.crafttweaker.recipes.mods.inspirations.init();
+	scripts.crafttweaker.recipes.mods.microblockcbe.init();
+	scripts.crafttweaker.recipes.mods.minecraft.init();
+	scripts.crafttweaker.recipes.mods.rustic.init();
+	scripts.crafttweaker.recipes.mods.skyOrchards.init();
+	scripts.crafttweaker.recipes.mods.tconstruct.init();
+}
+
+function initIntegration() {
+	scripts.crafttweaker.modIntegrations.inspirations.init();
+	scripts.crafttweaker.modIntegrations.rustic.init();
+	scripts.crafttweaker.modIntegrations.tinkers.init();
+}
+
+function initItemModifiers() {
+	scripts.crafttweaker.itemModifiers.burnTime.init();
+}
