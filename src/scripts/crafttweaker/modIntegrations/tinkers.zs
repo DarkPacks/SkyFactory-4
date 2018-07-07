@@ -41,4 +41,34 @@ function init() {
 	// Casting Table
 	// ==================================
 	tinkers.addCastingTable(<sky_orchards:sapling_iron>, <minecraft:sapling:4>, <liquid:iron>, 144, true, 200);
+	tinkers.addCastingTable(<sky_orchards:sapling_tin>, <minecraft:sapling:2>, <liquid:tin>, 144, true, 200);
+	tinkers.addCastingTable(<sky_orchards:sapling_copper>, <minecraft:sapling:1>, <liquid:copper>, 144, true, 200);
+	tinkers.addCastingTable(<sky_orchards:sapling_lead>, <minecraft:sapling:5>, <liquid:lead>, 144, true, 200);
+	tinkers.addCastingTable(<sky_orchards:sapling_aluminum>, <minecraft:sapling:3>, <liquid:aluminum>, 144, true, 200);
+	tinkers.addCastingTable(<sky_orchards:sapling_gold>, <minecraft:sapling:0>, <liquid:gold>, 144, true, 200);
+	tinkers.addCastingTable(<sky_orchards:sapling_silver>, <integrateddynamics:menril_sapling>, <liquid:silver>, 144, true, 200);
+	tinkers.addCastingTable(<sky_orchards:sapling_nickel>, <sky_orchards:sapling_iron>, <liquid:nickel>, 144, true, 200);
+
+	// ==================================
+	// Acorn Melting
+	// ==================================
+	tinkers.addMelting(<liquid:iron> * 16, <sky_orchards:acorn_iron>);
+	tinkers.addMelting(<liquid:gold> * 16, <sky_orchards:acorn_gold>);
+	//tinkers.addMelting(<liquid:lapis> * 100, <sky_orchards:acorn_lapis>);
+	tinkers.addMelting(<liquid:redstone> * 100, <sky_orchards:acorn_redstone>);
+	tinkers.addMelting(<liquid:obsidian> * 8, <sky_orchards:acorn_obsidian>);
+	tinkers.addMelting(<liquid:copper> * 16, <sky_orchards:acorn_copper>);
+	tinkers.addMelting(<liquid:lead> * 16, <sky_orchards:acorn_lead>);
+	tinkers.addMelting(<liquid:tin> * 16, <sky_orchards:acorn_tin>);
+	tinkers.addMelting(<liquid:aluminum> * 16, <sky_orchards:acorn_aluminum>);
+	tinkers.addMelting(<liquid:silver> * 16, <sky_orchards:acorn_silver>);
+	tinkers.addMelting(<liquid:nickel> * 16, <sky_orchards:acorn_nickel>);
+	tinkers.addMelting(<liquid:emerald> * 74, <sky_orchards:acorn_emerald>);
+
+
+	// ==================================
+	// Amber Melting
+	// ==================================
+	tinkers.addMelting(<liquid:iron> * 288, <sky_orchards:amber_iron>);
+
 }

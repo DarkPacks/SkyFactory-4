@@ -62,11 +62,18 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<sky_orchards:resin_obsidian>, <sky_orchards:acorn_obsidian>, <sky_orchards:resin_obsidian>]
 		]
 	],
-	<minecraft:iron_ore>: [
+	<minecraft:diamond>: [
 		[
-			[<sky_orchards:resin_iron>, <sky_orchards:acorn_iron>, <sky_orchards:resin_iron>],
-			[<sky_orchards:acorn_iron>, <sky_orchards:resin_iron>, <sky_orchards:acorn_iron>],
-			[<sky_orchards:resin_iron>, <sky_orchards:acorn_iron>, <sky_orchards:resin_iron>]
+			[<sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>],
+			[<sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>],
+			[<sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>]
+		]
+	],
+	<minecraft:emerald>: [
+		[
+			[<sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>],
+			[<sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>],
+			[<sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>]
 		]
 	],
 
@@ -114,6 +121,42 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
+	<sky_orchards:sapling_redstone>: [
+		[
+			[<sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>],
+			[<sky_orchards:acorn_redstone>, <sky_orchards:sapling_coal>, <sky_orchards:acorn_redstone>],
+			[<sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>]
+		]
+	],
+	<sky_orchards:sapling_diamond>: [
+		[
+			[<sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>],
+			[<sky_orchards:acorn_diamond>, <sky_orchards:sapling_redstone>, <sky_orchards:acorn_diamond>],
+			[<sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>]
+		]
+	],
+	<sky_orchards:sapling_cookie>: [
+		[
+			[<sky_orchards:acorn_cookie>, <sky_orchards:acorn_cookie>, <sky_orchards:acorn_cookie>],
+			[<sky_orchards:acorn_cookie>, <minecraft:sapling:3>, <sky_orchards:acorn_cookie>],
+			[<sky_orchards:acorn_cookie>, <sky_orchards:acorn_cookie>, <sky_orchards:acorn_cookie>]
+		]
+	],
+	<sky_orchards:sapling_bacon>: [
+		[
+			[<sky_orchards:acorn_bacon>, <sky_orchards:acorn_bacon>, <sky_orchards:acorn_bacon>],
+			[<sky_orchards:acorn_bacon>, <minecraft:sapling:3>, <sky_orchards:acorn_bacon>],
+			[<sky_orchards:acorn_bacon>, <sky_orchards:acorn_bacon>, <sky_orchards:acorn_bacon>]
+		]
+	],
+	<sky_orchards:sapling_donut>: [
+		[
+			[<sky_orchards:acorn_donut>, <sky_orchards:acorn_donut>, <sky_orchards:acorn_donut>],
+			[<sky_orchards:acorn_donut>, <minecraft:sapling:3>, <sky_orchards:acorn_donut>],
+			[<sky_orchards:acorn_donut>, <sky_orchards:acorn_donut>, <sky_orchards:acorn_donut>]
+		]
+	],
+
 	<minecraft:paper>: [
 		[
 			[<minecraft:string>, <minecraft:string>],
@@ -137,7 +180,27 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<sky_orchards:acorn_coal>],
 			[<ore:stickWood>]
 		]
+	],
+
+	//Amber Crafting
+	<sky_orchards:amber_iron>: [
+		[
+			[<sky_orchards:resin_coal>, <sky_orchards:resin_gravel>, <sky_orchards:resin_coal>],
+			[<sky_orchards:resin_sand>, <sky_orchards:resin_clay>, <sky_orchards:resin_sand>],
+			[<sky_orchards:resin_coal>, <sky_orchards:resin_gravel>, <sky_orchards:resin_coal>]
+		],
+		[
+			[<sky_orchards:resin_coal>, <sky_orchards:resin_sand>, <sky_orchards:resin_coal>],
+			[<sky_orchards:resin_gravel>, <sky_orchards:resin_clay>, <sky_orchards:resin_gravel>],
+			[<sky_orchards:resin_coal>, <sky_orchards:resin_sand>, <sky_orchards:resin_coal>]
+		],
+		[
+			[<sky_orchards:resin_iron>, <sky_orchards:acorn_iron>, <sky_orchards:resin_iron>],
+			[<sky_orchards:acorn_iron>, <sky_orchards:resin_iron>, <sky_orchards:acorn_iron>],
+			[<sky_orchards:resin_iron>, <sky_orchards:acorn_iron>, <sky_orchards:resin_iron>]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {
