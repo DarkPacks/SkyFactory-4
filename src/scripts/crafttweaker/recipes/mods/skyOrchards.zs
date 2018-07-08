@@ -12,25 +12,13 @@ import crafttweaker.item.IIngredient;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	// Saplings
 	<sky_orchards:sapling_petrified>: [
-		[
-			[<sky_orchards:acorn_petrified>, <sky_orchards:acorn_petrified>, <sky_orchards:acorn_petrified>],
-			[<sky_orchards:acorn_petrified>, <sky_orchards:sapling_dirt>, <sky_orchards:acorn_petrified>],
-			[<sky_orchards:acorn_petrified>, <sky_orchards:acorn_petrified>, <sky_orchards:acorn_petrified>]
-		]
+		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_petrified>, <sky_orchards:sapling_dirt>)
 	],
 	<sky_orchards:sapling_sand>: [
-		[
-			[<sky_orchards:acorn_sand>, <sky_orchards:acorn_sand>, <sky_orchards:acorn_sand>],
-			[<sky_orchards:acorn_sand>, <sky_orchards:sapling_petrified>, <sky_orchards:acorn_sand>],
-			[<sky_orchards:acorn_sand>, <sky_orchards:acorn_sand>, <sky_orchards:acorn_sand>]
-		]
+		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_sand>, <sky_orchards:sapling_petrified>)
 	],
 	<sky_orchards:sapling_gravel>: [
-		[
-			[<sky_orchards:acorn_gravel>, <sky_orchards:acorn_gravel>, <sky_orchards:acorn_gravel>],
-			[<sky_orchards:acorn_gravel>, <sky_orchards:sapling_petrified>, <sky_orchards:acorn_gravel>],
-			[<sky_orchards:acorn_gravel>, <sky_orchards:acorn_gravel>, <sky_orchards:acorn_gravel>]
-		]
+		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_gravel>, <sky_orchards:sapling_petrified>)
 	],
 	<sky_orchards:sapling_clay>: [
 		[
@@ -40,11 +28,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<sky_orchards:sapling_bone>: [
-		[
-			[<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>],
-			[<minecraft:dye:15>, <sky_orchards:sapling_petrified>, <minecraft:dye:15>],
-			[<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]
-		]
+		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<minecraft:dye:15>, <sky_orchards:sapling_petrified>)
 	],
 	<sky_orchards:sapling_cottonwood>: [
 		[
@@ -54,11 +38,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<sky_orchards:sapling_redstone>: [
-		[
-			[<sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>],
-			[<sky_orchards:acorn_redstone>, <sky_orchards:sapling_coal>, <sky_orchards:acorn_redstone>],
-			[<sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>]
-		],
+		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_redstone>, <sky_orchards:sapling_coal>),
 		[
 			[null, <ore:dyeRed>, null],
 			[<sky_orchards:resin_iron>, <sky_orchards:resin_petrified>, <sky_orchards:resin_iron>],
@@ -66,32 +46,16 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<sky_orchards:sapling_diamond>: [
-		[
-			[<sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>],
-			[<sky_orchards:acorn_diamond>, <sky_orchards:sapling_redstone>, <sky_orchards:acorn_diamond>],
-			[<sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>]
-		]
+		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_diamond>, <sky_orchards:sapling_redstone>)
 	],
 	<sky_orchards:sapling_cookie>: [
-		[
-			[<sky_orchards:acorn_cookie>, <sky_orchards:acorn_cookie>, <sky_orchards:acorn_cookie>],
-			[<sky_orchards:acorn_cookie>, <minecraft:sapling:3>, <sky_orchards:acorn_cookie>],
-			[<sky_orchards:acorn_cookie>, <sky_orchards:acorn_cookie>, <sky_orchards:acorn_cookie>]
-		]
+		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_cookie>, <minecraft:sapling:3>)
 	],
 	<sky_orchards:sapling_bacon>: [
-		[
-			[<sky_orchards:acorn_bacon>, <sky_orchards:acorn_bacon>, <sky_orchards:acorn_bacon>],
-			[<sky_orchards:acorn_bacon>, <minecraft:sapling:3>, <sky_orchards:acorn_bacon>],
-			[<sky_orchards:acorn_bacon>, <sky_orchards:acorn_bacon>, <sky_orchards:acorn_bacon>]
-		]
+		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_bacon>, <minecraft:sapling:3>)
 	],
 	<sky_orchards:sapling_donut>: [
-		[
-			[<sky_orchards:acorn_donut>, <sky_orchards:acorn_donut>, <sky_orchards:acorn_donut>],
-			[<sky_orchards:acorn_donut>, <minecraft:sapling:3>, <sky_orchards:acorn_donut>],
-			[<sky_orchards:acorn_donut>, <sky_orchards:acorn_donut>, <sky_orchards:acorn_donut>]
-		]
+		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_donut>, <minecraft:sapling:3>)
 	],
 	<sky_orchards:sapling_lapis>: [
 		[
