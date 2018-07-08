@@ -58,6 +58,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>],
 			[<sky_orchards:acorn_redstone>, <sky_orchards:sapling_coal>, <sky_orchards:acorn_redstone>],
 			[<sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>]
+		],
+		[
+			[null, <ore:dyeRed>, null],
+			[<sky_orchards:resin_iron>, <sky_orchards:resin_petrified>, <sky_orchards:resin_iron>],
+			[null, <sky_orchards:sapling_coal>, null]
 		]
 	],
 	<sky_orchards:sapling_diamond>: [
@@ -93,13 +98,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <sky_orchards:resin_bone>, null],
 			[<sky_orchards:resin_clay>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <sky_orchards:resin_clay>],
 			[null, <minecraft:sapling:5>, null]
-		]
-	],
-	<sky_orchards:sapling_redstone>: [
-		[
-			[null, <ore:dyeRed>, null],
-			[<sky_orchards:resin_iron>, <sky_orchards:resin_petrified>, <sky_orchards:resin_iron>],
-			[null, <sky_orchards:sapling_coal>, null]
 		]
 	],
 
