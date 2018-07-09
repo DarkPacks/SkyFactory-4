@@ -1,0 +1,61 @@
+{
+  "type": "sky_orchard:nickel",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:log_nickel",
+      "meta": 0
+    },
+    "b": {
+      "name": "sky_orchards:leaves_nickel",
+      "meta": 8
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "bbbbb",
+      "bbbb ",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "  b  ",
+      " bbb ",
+      "bbbbb",
+      "bbbbb",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      " bbb ",
+      " bab ",
+      "bbabb",
+      "bbabb",
+      "  a  ",
+      "  a  ",
+      "  a  "
+    ],
+    [
+      "  b  ",
+      " bbb ",
+      "bbbbb",
+      "bbbbb",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " bbb ",
+      "bbbb ",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ]
+}

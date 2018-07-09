@@ -102,6 +102,27 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <sky_orchards:sapling_coal>, null]
 		]
 	],
+	<sky_orchards:sapling_bacon>: [
+		[
+			[null, <tconstruct:edible>, null],
+			[<tconstruct:edible>, <minecraft:sugar>, <tconstruct:edible>],
+			[null, <rustic:sapling_apple>, null]
+		]
+	],
+	<sky_orchards:sapling_donut>: [
+		[
+			[null, <xlfoodmod:donut>, null],
+			[<xlfoodmod:donut>, <minecraft:sugar>, <xlfoodmod:donut>],
+			[null, <rustic:sapling_apple>, null]
+		]
+	],
+	<sky_orchards:sapling_cookie>: [
+		[
+			[null, <minecraft:cookie>, null],
+			[<minecraft:cookie>, <minecraft:sugar>, <minecraft:cookie>],
+			[null, <minecraft:sapling:3>, null]
+		]
+	],
 
 	// Amber Crafting
 	<sky_orchards:amber_iron>: [

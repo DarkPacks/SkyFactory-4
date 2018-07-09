@@ -1,0 +1,51 @@
+{
+  "type": "sky_orchard:emerald",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_emerald",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_emerald",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "  a  ",
+      "  a  ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      " aaa ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      " aaaa",
+      "     "
+    ]
+  ]
+}
