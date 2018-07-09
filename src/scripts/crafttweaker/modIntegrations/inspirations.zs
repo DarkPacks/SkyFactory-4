@@ -39,16 +39,16 @@ function init() {
 	inspirations.addCauldronFluid(<sky_orchards:sapling_obsidian>, <sky_orchards:sapling_diamond>, <liquid:lava>, 3);
 
 	// Acacia sapling from apple juice 
-	//(NEED TO CONVERT WATER TO APPLE JUICE WHEN RECIPE COMPLETES)
+	// TODO: NEED TO CONVERT WATER TO APPLE JUICE WHEN RECIPE COMPLETES
 	inspirations.addCauldronFluid(<minecraft:sapling:4>, <rustic:sapling_apple>, <liquid:water>, 3);
 
-	//Blue Slime Trees
+	// Blue Slime Trees
 	inspirations.addCauldronFluid(<tconstruct:slime_sapling>, <sky_orchards:sapling_lapis>, <liquid:milk>, 3);
 
-	//Blue Slime Trees
+	// Blue Slime Trees
 	inspirations.addCauldronFluid(<tconstruct:slime_sapling>, <sky_orchards:sapling_lapis>, <liquid:milk>, 3);
 
-	//Green Slime Dirt
+	// Green Slime Dirt
 	inspirations.addCauldronFluid(<tconstruct:slime_dirt>, <minecraft:cactus>, <liquid:milk>, 3);
 
 	// ==================================
