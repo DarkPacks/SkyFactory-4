@@ -42,7 +42,7 @@ function init() {
 	rustic.addCrushingTub(<liquid:mud> * 100, <minecraft:dye:15>, <minecraft:dirt>);
 
 	// Crush Leaves to get Sugar Cane / liquid water
-	for leaf in <ore:treeLeaves> {
+	for leaf in <ore:treeLeaves>.items {
 		rustic.addCrushingTub(<liquid:water> * 100, <minecraft:reeds>, leaf);
 	}
 }
