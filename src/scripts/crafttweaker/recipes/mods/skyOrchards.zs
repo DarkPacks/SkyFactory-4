@@ -46,7 +46,12 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<sky_orchards:sapling_diamond>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_diamond>, <sky_orchards:sapling_redstone>)
+		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_diamond>, <sky_orchards:sapling_redstone>),
+		[
+			[null, <ore:treeResinSilver>, null], 
+			[<ore:treeResinGold>, <ore:treeResinLapis>, <ore:treeResinGold>], 
+			[null, <sky_orchards:sapling_redstone>, null]
+		]
 	],
 	<sky_orchards:sapling_cookie>: [
 		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_cookie>, <minecraft:sapling:3>),
@@ -77,13 +82,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <sky_orchards:resin_bone>, null],
 			[<sky_orchards:resin_clay>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <sky_orchards:resin_clay>],
 			[null, <minecraft:sapling:5>, null]
-		]
-	],
-	<sky_orchards:sapling_diamond>: [
-		[
-			[null, <ore:treeResinSilver>, null], 
-			[<ore:treeResinGold>, <ore:treeResinLapis>, <ore:treeResinGold>], 
-			[null, <sky_orchards:sapling_redstone>, null]
 		]
 	],
 	<sky_orchards:sapling_emerald>: [
