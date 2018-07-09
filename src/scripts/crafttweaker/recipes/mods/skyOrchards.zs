@@ -40,35 +40,37 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<sky_orchards:sapling_redstone>: [
 		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_redstone>, <sky_orchards:sapling_coal>),
 		[
-<<<<<<< HEAD
-			[<sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>],
-			[<sky_orchards:acorn_redstone>, <sky_orchards:sapling_coal>, <sky_orchards:acorn_redstone>],
-			[<sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>]
-		],
-    [ 
-      [null, <ore:dyeRed>, null], 
-      [<sky_orchards:resin_iron>, <sky_orchards:resin_petrified>, <sky_orchards:resin_iron>], 
-      [null, <sky_orchards:sapling_coal>, null] 
-    ] 
-  ], 
-=======
 			[null, <ore:dyeRed>, null],
 			[<sky_orchards:resin_iron>, <sky_orchards:resin_petrified>, <sky_orchards:resin_iron>],
 			[null, <sky_orchards:sapling_coal>, null]
 		]
 	],
->>>>>>> master
 	<sky_orchards:sapling_diamond>: [
 		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_diamond>, <sky_orchards:sapling_redstone>)
 	],
 	<sky_orchards:sapling_cookie>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_cookie>, <minecraft:sapling:3>)
+		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_cookie>, <minecraft:sapling:3>),
+		[
+			[null, <minecraft:cookie>, null],
+			[<minecraft:cookie>, <minecraft:sugar>, <minecraft:cookie>],
+			[null, <minecraft:sapling:3>, null]
+		]
 	],
 	<sky_orchards:sapling_bacon>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_bacon>, <minecraft:sapling:3>)
+		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_bacon>, <minecraft:sapling:3>),
+		[
+			[null, <tconstruct:edible>, null],
+			[<tconstruct:edible>, <minecraft:sugar>, <tconstruct:edible>],
+			[null, <rustic:sapling_apple>, null]
+		]
 	],
 	<sky_orchards:sapling_donut>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_donut>, <minecraft:sapling:3>)
+		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_donut>, <minecraft:sapling:3>),
+		[
+			[null, <xlfoodmod:donut>, null],
+			[<xlfoodmod:donut>, <minecraft:sugar>, <xlfoodmod:donut>],
+			[null, <rustic:sapling_apple>, null]
+		]
 	],
 	<sky_orchards:sapling_lapis>: [
 		[
@@ -77,37 +79,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:sapling:5>, null]
 		]
 	],
-<<<<<<< HEAD
-	<sky_orchards:sapling_redstone>: [
-		[
-			[null, <ore:dyeRed>, null],
-			[<sky_orchards:resin_iron>, <sky_orchards:resin_petrified>, <sky_orchards:resin_iron>],
-			[null, <sky_orchards:sapling_coal>, null]
-		]
-	],
-	<sky_orchards:sapling_bacon>: [
-		[
-			[null, <tconstruct:edible>, null],
-			[<tconstruct:edible>, <minecraft:sugar>, <tconstruct:edible>],
-			[null, <rustic:sapling_apple>, null]
-		]
-	],
-	<sky_orchards:sapling_donut>: [
-		[
-			[null, <xlfoodmod:donut>, null],
-			[<xlfoodmod:donut>, <minecraft:sugar>, <xlfoodmod:donut>],
-			[null, <rustic:sapling_apple>, null]
-		]
-	],
-	<sky_orchards:sapling_cookie>: [
-		[
-			[null, <minecraft:cookie>, null],
-			[<minecraft:cookie>, <minecraft:sugar>, <minecraft:cookie>],
-			[null, <minecraft:sapling:3>, null]
-		]
-	],
-=======
->>>>>>> master
 
 	// Amber Crafting
 	<sky_orchards:amber_iron>: [
