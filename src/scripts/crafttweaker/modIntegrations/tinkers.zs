@@ -73,6 +73,11 @@ function init() {
 	tinkers.addMelting(<liquid:gold> * 288, <sky_orchards:amber_gold>);
 	tinkers.addMelting(<liquid:lead> * 288, <sky_orchards:amber_lead>);    	
 	tinkers.addMelting(<liquid:copper> * 288, <sky_orchards:amber_copper>);	
-	tinkers.addMelting(<liquid:tin> * 288, <sky_orchards:amber_tin>);      	
+	tinkers.addMelting(<liquid:tin> * 288, <sky_orchards:amber_tin>);  
+	tinkers.addMelting(<liquid:aluminum> * 288, <sky_orchards:amber_aluminum>);  
+	tinkers.addMelting(<liquid:silver> * 288, <sky_orchards:amber_silver>);  
+	tinkers.addMelting(<liquid:nickel> * 288, <sky_orchards:amber_nickel>);  
+
+
 
 }
