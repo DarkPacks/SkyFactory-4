@@ -86,13 +86,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<sky_orchards:sapling_emerald>: [
 		[
-			[null, <ore:treeResinNickel>, null], 
-			[<ore:treeResin>, <ore:slimecrystal>, <ore:treeResin>], 
+			[null, <sky_orchards:resin_nickel>, null], 
+			[<sky_orchards:resin_aluminum>, <tconstruct:materials:9>, <sky_orchards:resin_aluminum>], 
 			[null, <sky_orchards:sapling_diamond>, null]
 		]
 	],
-
-
 	<sky_orchards:sapling_quartz>: [
 		[
 			[null, <ore:gemQuartz>, null], 
