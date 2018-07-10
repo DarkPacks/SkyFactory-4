@@ -92,6 +92,26 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
+
+	<sky_orchards:sapling_quartz>: [
+		[
+			[null, <ore:gemQuartz>, null], 
+			[<ore:netherrack>, <tconstruct:materials:11>, <ore:netherrack>], 
+			[null, <sky_orchards:sapling_obsidian>, null]
+		]
+	],
+	<sky_orchards:sapling_glowstone>: [
+		[
+			[null, <integrateddynamics:menril_berries>, null], 
+			[<sky_orchards:resin_quartz>, <ore:dustBlaze>, <sky_orchards:resin_quartz>], 
+			[null, <sky_orchards:sapling_redstone>, null]
+		]
+	],
+
+
+
+
+
 	// Amber Crafting
 	<sky_orchards:amber_iron>: [
 		[
@@ -227,6 +247,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<sky_orchards:resin_nickel>, <sky_orchards:acorn_nickel>, <sky_orchards:resin_nickel>],
 			[<sky_orchards:acorn_nickel>, <sky_orchards:resin_nickel>, <sky_orchards:acorn_nickel>],
 			[<sky_orchards:resin_nickel>, <sky_orchards:acorn_nickel>, <sky_orchards:resin_nickel>]
+		]
+	],
+	<sky_orchards:amber_redstone>: [
+		[
+			[<sky_orchards:resin_redstone>, <sky_orchards:resin_redstone>, <sky_orchards:resin_redstone>],
+			[<sky_orchards:resin_redstone>, <sky_orchards:resin_redstone>, <sky_orchards:resin_redstone>],
+			[<sky_orchards:resin_redstone>, <sky_orchards:resin_redstone>, <sky_orchards:resin_redstone>]
+		]
+	],
+	<sky_orchards:amber_glowstone>: [
+		[
+			[<sky_orchards:resin_glowstone>, <sky_orchards:resin_glowstone>, <sky_orchards:resin_glowstone>],
+			[<sky_orchards:resin_glowstone>, <sky_orchards:resin_glowstone>, <sky_orchards:resin_glowstone>],
+			[<sky_orchards:resin_glowstone>, <sky_orchards:resin_glowstone>, <sky_orchards:resin_glowstone>]
 		]
 	]
 };

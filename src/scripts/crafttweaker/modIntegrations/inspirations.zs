@@ -51,6 +51,9 @@ function init() {
 	// Green Slime Dirt
 	inspirations.addCauldronFluid(<tconstruct:slime_dirt>, <minecraft:cactus>, <liquid:milk>, 3);
 
+	// Magma Slime Sapling
+	inspirations.addCauldronFluid(<tconstruct:slime_sapling:2>, <tconstruct:slime_sapling>, <liquid:pyrotheum>, 3);
+
 	// ==================================
 	// Fill Recipes
 	// ==================================

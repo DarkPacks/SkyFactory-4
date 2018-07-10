@@ -91,6 +91,36 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<sky_orchards:acorn_coal>],
 			[<ore:stickWood>]
 		]
+	],
+
+	// Convenience Recipes 
+	
+	<minecraft:chest> * 4: [
+		[
+			[<ore:logWood>, <ore:logWood>, <ore:logWood>],
+			[<ore:logWood>, null, <ore:logWood>],
+			[<ore:logWood>, <ore:logWood>, <ore:logWood>]
+		]
+	],
+	<minecraft:stick> * 16: [
+		[
+			[<ore:logWood>],
+			[<ore:logWood>]
+		]
+	],
+	<minecraft:hopper>: [
+		[
+			[<minecraft:iron_ingot>, <ore:logWood>, <minecraft:iron_ingot>],
+			[<minecraft:iron_ingot>, <ore:logWood>, <minecraft:iron_ingot>],
+			[null, <minecraft:iron_ingot>, null]
+		]
+	],
+	<minecraft:glowstone>: [
+		[
+			[<sky_orchards:resin_glowstone>, <sky_orchards:acorn_glowstone>, <sky_orchards:resin_glowstone>],
+			[<sky_orchards:acorn_glowstone>, <sky_orchards:resin_glowstone>, <sky_orchards:acorn_glowstone>],
+			[<sky_orchards:resin_glowstone>, <sky_orchards:acorn_glowstone>, <sky_orchards:resin_glowstone>]
+		]
 	]
 };
 

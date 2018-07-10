@@ -50,6 +50,12 @@ function init() {
 	tinkers.addCastingTable(<sky_orchards:sapling_nickel>, <sky_orchards:sapling_iron>, <liquid:nickel>, 144, true, 200);
 
 	// ==================================
+	// Casting Basin
+	// ==================================
+	tinkers.addCastingBasin(<minecraft:netherrack>, <sky_orchards:amber_redstone>, <liquid:lava>, 250, true, 200);
+	tinkers.addCastingBasin(<minecraft:soul_sand>, <minecraft:sand>, <liquid:xpjuice>, 250, true, 200);
+
+	// ==================================
 	// Acorn Melting
 	// ==================================
 	tinkers.addMelting(<liquid:iron> * 16, <sky_orchards:acorn_iron>);
