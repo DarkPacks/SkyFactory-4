@@ -7,12 +7,21 @@
 	modified if you know what you are doing. Changing anything in here could cause
 	potential script failures and game breaking issues.
 */
+import mods.zenstages.ZenStager;
+
 // TODO: FIND A HOME
 scripts.crafttweaker.grassSeedDrop.init();
 
+// ==================================
+// Initialize Scripts
+initItemsAndRecipesStaging();
 initItemModifiers();
 initRecipes();
 initIntegration();
+
+// ==================================
+// Build the Stages
+ZenStager.buildAll();
 
 function initRecipes() {
 	scripts.crafttweaker.recipes.removeAndHide.init();
@@ -24,6 +33,17 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.rustic.init();
 	scripts.crafttweaker.recipes.mods.skyOrchards.init();
 	scripts.crafttweaker.recipes.mods.tconstruct.init();
+}
+
+function initItemsAndRecipesStaging() {
+	// ==================================
+	// Staging Items and Recipes
+	scripts.crafttweaker.staging.itemsAndRecipes.modId.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.stages.init();
+
+	// ==================================
+	// Staging Mod's Items and Recipes
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.tconstruct.init();
 }
 
 function initIntegration() {
