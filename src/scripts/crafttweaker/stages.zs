@@ -9,6 +9,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 // Mod Stages
+static stageBonsaiTrees as Stage = ZenStager.getStage("bonsaiTrees");
 static stageFluxNetworks as Stage = ZenStager.getStage("fluxNetworks");
 static stageIronJetpacks as Stage = ZenStager.getStage("ironJetpacks");
 static stageMobGrindingUtils as Stage = ZenStager.getStage("mobGrindingUtils");

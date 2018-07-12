@@ -14,6 +14,7 @@ var PACK_VERSION as string = "4.0.0"; // Keep below 11 characters
 // Stage Naming
 static stageNames as string[string] = {
 	// Mod Stages
+	bonsaiTrees: "bonsaiTrees",
 	fluxNetworks: "fluxNetworks",
 	ironJetpacks: "ironJetpacks",
 	mobGrindingUtils: "mobGrindingUtils",

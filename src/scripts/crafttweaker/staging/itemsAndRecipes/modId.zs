@@ -5,6 +5,7 @@
 */
 import mods.zenstages.ZenStager;
 
+import scripts.crafttweaker.stages.stageBonsaiTrees;
 import scripts.crafttweaker.stages.stageFluxNetworks;
 import scripts.crafttweaker.stages.stageIronJetpacks;
 import scripts.crafttweaker.stages.stageMobGrindingUtils;
@@ -17,6 +18,9 @@ import scripts.crafttweaker.stages.stageProjectE;
 import scripts.crafttweaker.stages.stageTwilightForest;
 
 static stagedMods as string[][string] = {
+	stageBonsaiTrees.stage: [
+		"bonsaitrees"
+	],
 	stageFluxNetworks.stage: [
 		"fluxnetworks"
 	],
