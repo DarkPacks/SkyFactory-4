@@ -12,27 +12,27 @@ var PACK_VERSION as string = "4.0.0"; // Keep below 11 characters
 
 // ==================================
 // Stage Naming
-static stageNames as string[string] = {
+static stageNames as string[] = [
 	// Mod Stages
-	bonsaiTrees: "bonsaiTrees",
-	fluxNetworks: "fluxNetworks",
-	ironJetpacks: "ironJetpacks",
-	mobGrindingUtils: "mobGrindingUtils",
-	mystcraft: "mystcraft",
-	mysticalAgradditions: "mysticalAgradditions",
-	mysticalAgriculture: "mysticalAgriculture",
-	openComputers: "openComputers",
-	portalGun: "portalGun",
-	projectE: "projectE",
-	twilightForest: "twilightForest",
+	"bonsaiTrees",
+	"fluxNetworks",
+	"ironJetpacks",
+	"mobGrindingUtils",
+	"mystcraft",
+	"mysticalAgradditions",
+	"mysticalAgriculture",
+	"openComputers",
+	"portalGun",
+	"projectE",
+	"twilightForest",
 
 	// Misc Prestiege-related Stages
-	smeltery: "smeltery"
-};
+	"smeltery"
+];
 
 // ==================================
 // Stage Creation
-for key, stage in stageNames {
+for stage in stageNames {
 	ZenStager.initStage(stage);
 }
 
