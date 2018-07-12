@@ -36,6 +36,17 @@ static removeAndHideIngredients as IIngredient[] = [
 	//<exnihilocreatio:item_mesh:2>,
 	//<exnihilocreatio:item_mesh:3>,
 	//<exnihilocreatio:item_mesh:4>
+	<thermalfoundation:coin:*>,
+	<thermalfoundation:fertilizer:2>,
+	<thermalfoundation:bait>,
+	<thermalfoundation:bait:1>,
+	<thermalfoundation:bait:2>,
+	<thermalfoundation:upgrade:33>,
+	<thermalfoundation:upgrade:34>,
+	<thermalfoundation:upgrade:35>,
+	<thermalfoundation:upgrade:256>
+
+
 ];
 
 function init() {

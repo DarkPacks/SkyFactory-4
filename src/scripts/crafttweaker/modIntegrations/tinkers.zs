@@ -29,6 +29,10 @@ function init() {
 	tinkers.addMelting(<liquid:glowstone> * 1000, <ore:oreClathrateEnder>);
 
 	// ==================================
+	// Pyrotheum Melting
+	tinkers.addMelting(<liquid:pyrotheum> * 250, <thermalfoundation:material:1024>, 1300); 
+
+	// ==================================
 	// Drying
 	// ==================================
 	tinkers.removeDrying(<minecraft:deadbush>);
@@ -83,7 +87,5 @@ function init() {
 	tinkers.addMelting(<liquid:aluminum> * 288, <sky_orchards:amber_aluminum>);  
 	tinkers.addMelting(<liquid:silver> * 288, <sky_orchards:amber_silver>);  
 	tinkers.addMelting(<liquid:nickel> * 288, <sky_orchards:amber_nickel>);  
-
-
-
+	
 }

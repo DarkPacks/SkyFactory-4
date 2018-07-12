@@ -33,32 +33,35 @@ function init() {
 	inspirations.addCauldronFluid(<minecraft:sapling:3>, <sky_orchards:sapling_clay>, <liquid:mud>);
 
 	// Create grass from mud and leaves
-	inspirations.addCauldronFluid(<minecraft:grass>, <ore:treeLeaves> * 4, <liquid:mud>, 3);
+	inspirations.addCauldronFluid(<minecraft:grass>, <ore:treeLeaves> * 4, <liquid:mud>, 4);
 
 	// Obsidian Sapling from dipping diamond sapling in lava
-	inspirations.addCauldronFluid(<sky_orchards:sapling_obsidian>, <sky_orchards:sapling_diamond>, <liquid:lava>, 3);
+	inspirations.addCauldronFluid(<sky_orchards:sapling_obsidian>, <sky_orchards:sapling_diamond>, <liquid:lava>, 4);
 
 	// Acacia sapling from apple juice 
 	// TODO: NEED TO CONVERT WATER TO APPLE JUICE WHEN RECIPE COMPLETES
-	inspirations.addCauldronFluid(<minecraft:sapling:4>, <rustic:sapling_apple>, <liquid:water>, 3);
+	inspirations.addCauldronFluid(<minecraft:sapling:4>, <rustic:sapling_apple>, <liquid:water>, 4);
 
 	// Blue Slime Trees
-	inspirations.addCauldronFluid(<tconstruct:slime_sapling>, <sky_orchards:sapling_lapis>, <liquid:milk>, 3);
+	inspirations.addCauldronFluid(<tconstruct:slime_sapling>, <sky_orchards:sapling_lapis>, <liquid:milk>, 4);
 
 	// Blue Slime Trees
-	inspirations.addCauldronFluid(<tconstruct:slime_sapling>, <sky_orchards:sapling_lapis>, <liquid:milk>, 3);
+	inspirations.addCauldronFluid(<tconstruct:slime_sapling>, <sky_orchards:sapling_lapis>, <liquid:milk>, 4);
 
 	// Green Slime Dirt
-	inspirations.addCauldronFluid(<tconstruct:slime_dirt>, <minecraft:cactus>, <liquid:milk>, 3);
+	inspirations.addCauldronFluid(<tconstruct:slime_dirt>, <minecraft:cactus>, <liquid:milk>, 4);
 
 	// Magma Slime Sapling
-	inspirations.addCauldronFluid(<tconstruct:slime_sapling:2>, <tconstruct:slime_sapling>, <liquid:pyrotheum>, 3);
+	inspirations.addCauldronFluid(<tconstruct:slime_sapling:2>, <tconstruct:slime_sapling>, <liquid:pyrotheum>, 4);
+
+	// Purple Slime Sapling
+	inspirations.addCauldronFluid(<tconstruct:slime_sapling:1>, <tconstruct:slime_sapling>, <liquid:redstone>, 4);
 
 	// ==================================
 	// Fill Recipes
 	// ==================================
 	// Converts stone to lava
-	inspirations.addCauldronFill(<minecraft:cobblestone>, <liquid:lava>);
+	inspirations.addCauldronFill(<minecraft:cobblestone>, <liquid:lava>, 1);
 
 	// ==================================
 	// Cauldron Dyeing Recipes
@@ -68,5 +71,5 @@ function init() {
 	// ==================================
 	// Cauldron Fluid Transformation Recipes
 	// ==================================
-	inspirations.addCauldronFluidTransform(<liquid:mud>, <minecraft:dirt>, <liquid:water>, 3);
+	inspirations.addCauldronFluidTransform(<liquid:mud>, <minecraft:dirt>, <liquid:water>, 4);
 }

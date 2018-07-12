@@ -105,10 +105,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <sky_orchards:sapling_redstone>, null]
 		]
 	],
-
-
-
-
+	<sky_orchards:sapling_netherrack>: [
+		[
+			[null, <minecraft:netherrack>, null], 
+			[<sky_orchards:resin_diamond>, <sky_orchards:resin_gold>, <sky_orchards:resin_diamond>], 
+			[null, <sky_orchards:sapling_obsidian>, null]
+		]
+	],
 
 	// Amber Crafting
 	<sky_orchards:amber_iron>: [

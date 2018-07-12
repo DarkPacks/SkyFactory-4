@@ -27,6 +27,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.removeAndHide.init();
 
 	// Mod Specific Recipes
+	scripts.crafttweaker.recipes.mods.animalcrops.init();
 	scripts.crafttweaker.recipes.mods.inspirations.init();
 	scripts.crafttweaker.recipes.mods.microblockcbe.init();
 	scripts.crafttweaker.recipes.mods.minecraft.init();
