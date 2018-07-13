@@ -1,3 +1,5 @@
 {
-  "materialMappings": {}
+  "materialMappings": {
+    "modularium_molten": 0
+  }
 }
