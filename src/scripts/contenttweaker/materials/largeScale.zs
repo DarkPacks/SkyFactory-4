@@ -11,7 +11,7 @@ import scripts.contenttweaker.materials.utils.addDefaultOreData;
 import scripts.contenttweaker.materials.init.materials;
 
 function init() {
-	//==================================
+	// ==================================
 	// Apply Molten to Materials
 	registerDefaultMolten([
 		materials.modularium,
