@@ -263,6 +263,47 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<sky_orchards:resin_glowstone>, <sky_orchards:resin_glowstone>, <sky_orchards:resin_glowstone>],
 			[<sky_orchards:resin_glowstone>, <sky_orchards:resin_glowstone>, <sky_orchards:resin_glowstone>]
 		]
+	],
+	<sky_orchards:amber_cobalt>: [
+		[
+			[<sky_orchards:resin_ardite>, <tconstruct:materials:17>, <sky_orchards:resin_ardite>], 
+			[<tconstruct:materials:17>, <practicallogistics2:sapphiredust>, <tconstruct:materials:17>], 
+			[<sky_orchards:resin_ardite>, <tconstruct:materials:17>, <sky_orchards:resin_ardite>]
+		],
+		[
+			[<sky_orchards:resin_cobalt>, <sky_orchards:acorn_cobalt>, <sky_orchards:resin_cobalt>],
+			[<sky_orchards:acorn_cobalt>, <sky_orchards:resin_cobalt>, <sky_orchards:acorn_cobalt>],
+			[<sky_orchards:resin_cobalt>, <sky_orchards:acorn_cobalt>, <sky_orchards:resin_cobalt>]
+		]
+	],
+	<sky_orchards:amber_ardite>: [
+		[
+			[<minecraft:blaze_rod>, <sky_orchards:resin_tin>, <minecraft:blaze_rod>], 
+			[<sky_orchards:resin_lead>, <sky_orchards:resin_diamond>, <sky_orchards:resin_lead>], 
+			[<minecraft:blaze_rod>, <sky_orchards:resin_tin>, <minecraft:blaze_rod>]
+		],
+		[
+			[<sky_orchards:resin_ardite>, <sky_orchards:acorn_ardite>, <sky_orchards:resin_ardite>],
+			[<sky_orchards:acorn_ardite>, <sky_orchards:resin_ardite>, <sky_orchards:acorn_ardite>],
+			[<sky_orchards:resin_ardite>, <sky_orchards:acorn_ardite>, <sky_orchards:resin_ardite>]
+		]
+	],
+	<sky_orchards:amber_osmium>: [
+		[
+			[<sky_orchards:resin_iron>, <sky_orchards:resin_copper>, <sky_orchards:resin_iron>], 
+			[<sky_orchards:resin_quartz>, <sky_orchards:resin_nickel>, <sky_orchards:resin_quartz>], 
+			[<sky_orchards:resin_iron>, <sky_orchards:resin_copper>, <sky_orchards:resin_iron>]
+		],
+		[
+			[<sky_orchards:resin_iron>, <sky_orchards:resin_quartz>, <sky_orchards:resin_iron>], 
+			[<sky_orchards:resin_copper>, <sky_orchards:resin_nickel>, <sky_orchards:resin_copper>], 
+			[<sky_orchards:resin_iron>, <sky_orchards:resin_quartz>, <sky_orchards:resin_iron>]
+		],
+		[
+			[<sky_orchards:resin_osmium>, <sky_orchards:acorn_osmium>, <sky_orchards:resin_osmium>],
+			[<sky_orchards:acorn_osmium>, <sky_orchards:resin_osmium>, <sky_orchards:acorn_osmium>],
+			[<sky_orchards:resin_osmium>, <sky_orchards:acorn_osmium>, <sky_orchards:resin_osmium>]
+		]
 	]
 };
 

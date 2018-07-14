@@ -127,9 +127,9 @@
 			"generator": {
 				"block": "coal_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 17
+				"cluster-size": 12
 			},
-			"cluster-count": 20,
+			"cluster-count": 12,
 			"min-height": 0,
 			"max-height": 128,
 			"retrogen": false,
@@ -148,9 +148,9 @@
 			"generator": {
 				"block": "iron_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 7
 			},
-			"cluster-count": 20,
+			"cluster-count": 12,
 			"min-height": 0,
 			"max-height": 64,
 			"retrogen": false,
@@ -169,7 +169,7 @@
 			"generator": {
 				"block": "gold_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 7
 			},
 			"cluster-count": 2,
 			"min-height": 0,
@@ -190,9 +190,9 @@
 			"generator": {
 				"block": "redstone_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 7
 			},
-			"cluster-count": 8,
+			"cluster-count": 6,
 			"min-height": 0,
 			"max-height": 16,
 			"retrogen": false,
@@ -211,7 +211,7 @@
 			"generator": {
 				"block": "diamond_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 6
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -256,9 +256,9 @@
 					"name": "gold_ore"
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 7
 			},
-			"cluster-count": 20,
+			"cluster-count": 12,
 			"min-height": 32,
 			"max-height": 80,
 			"retrogen": false,
@@ -372,9 +372,9 @@
 			"generator": {
 				"block": "quartz_ore",
 				"material": "minecraft:netherrack",
-				"cluster-size": 14
+				"cluster-size": 12
 			},
-			"cluster-count": 16,
+			"cluster-count": 12,
 			"min-height": 10,
 			"max-height": 118,
 			"retrogen": false,

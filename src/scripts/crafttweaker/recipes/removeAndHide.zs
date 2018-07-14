@@ -44,7 +44,9 @@ static removeAndHideIngredients as IIngredient[] = [
 	<thermalfoundation:upgrade:33>,
 	<thermalfoundation:upgrade:34>,
 	<thermalfoundation:upgrade:35>,
-	<thermalfoundation:upgrade:256>
+	<thermalfoundation:upgrade:256>,
+	<tombstone:dust_of_vanishing>,
+	<inspirations:materials:7>
 
 
 ];

@@ -121,6 +121,22 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<sky_orchards:acorn_glowstone>, <sky_orchards:resin_glowstone>, <sky_orchards:acorn_glowstone>],
 			[<sky_orchards:resin_glowstone>, <sky_orchards:acorn_glowstone>, <sky_orchards:resin_glowstone>]
 		]
+	],
+	<minecraft:quartz_block>: [
+		[
+			[<sky_orchards:resin_quartz>, <sky_orchards:acorn_quartz>, <sky_orchards:resin_quartz>], 
+			[<sky_orchards:acorn_quartz>, <sky_orchards:resin_quartz>, <sky_orchards:acorn_quartz>], 
+			[<sky_orchards:resin_quartz>, <sky_orchards:acorn_quartz>, <sky_orchards:resin_quartz>]
+		]
+	],
+
+	//I'm just going to leave this here
+	<statues:blockdisplaystand>: [
+		[
+			[null, <bibliocraft:armorstand>, null], 
+			[null, <minecraft:quartz_block>, null], 
+			[null, null, null]
+		]
 	]
 };
 
@@ -148,7 +164,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IItemStack[] = [];
+static removeRecipes as IItemStack[] = [
+	<statues:blockdisplaystand>
+];
 
 function init() {
 	// Un-named recipes

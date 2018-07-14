@@ -13,7 +13,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 8,
+			"cluster-count": 5,
 			"min-height": 40,
 			"max-height": 75,
 			"retrogen": "true",
@@ -36,9 +36,9 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 6
 			},
-			"cluster-count": 7,
+			"cluster-count": 6,
 			"min-height": 20,
 			"max-height": 55,
 			"retrogen": "true",
@@ -71,9 +71,9 @@
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 6
 			},
-			"cluster-count": 4,
+			"cluster-count": 3,
 			"min-height": 5,
 			"max-height": 30,
 			"retrogen": "true",
@@ -106,9 +106,9 @@
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 6
 			},
-			"cluster-count": 4,
+			"cluster-count": 3,
 			"min-height": 10,
 			"max-height": 35,
 			"retrogen": "true",
@@ -131,7 +131,7 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 3
 			},
 			"cluster-count": 2,
 			"min-height": 5,
@@ -156,9 +156,9 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 6
 			},
-			"cluster-count": 4,
+			"cluster-count": 3,
 			"min-height": 20,
 			"max-height": 55,
 			"retrogen": "true",
@@ -189,7 +189,7 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 5
 			},
 			"cluster-count": 8,
 			"min-height": 48,
@@ -201,6 +201,30 @@
 				"value": [
 					-1,
 					1
+				]
+			}
+		},
+		"sapphire_low": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "practicallogistics2:sapphireore",
+					"properties": {
+						"type": "sapphire"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 4,
+			"min-height": 2,
+			"max-height": 14,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					111
 				]
 			}
 		}
