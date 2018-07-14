@@ -9,6 +9,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 var PACK_VERSION as string = "4.0.0"; // Keep below 11 characters
+printLogo(PACK_VERSION);
 
 // ==================================
 // Stage Naming
