@@ -93,8 +93,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-	// Convenience Recipes 
-	
+	// Convenience Recipes
+
 	<minecraft:chest> * 4: [
 		[
 			[<ore:logWood>, <ore:logWood>, <ore:logWood>],
@@ -124,8 +124,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:quartz_block>: [
 		[
-			[<sky_orchards:resin_quartz>, <sky_orchards:acorn_quartz>, <sky_orchards:resin_quartz>], 
-			[<sky_orchards:acorn_quartz>, <sky_orchards:resin_quartz>, <sky_orchards:acorn_quartz>], 
+			[<sky_orchards:resin_quartz>, <sky_orchards:acorn_quartz>, <sky_orchards:resin_quartz>],
+			[<sky_orchards:acorn_quartz>, <sky_orchards:resin_quartz>, <sky_orchards:acorn_quartz>],
 			[<sky_orchards:resin_quartz>, <sky_orchards:acorn_quartz>, <sky_orchards:resin_quartz>]
 		]
 	]
