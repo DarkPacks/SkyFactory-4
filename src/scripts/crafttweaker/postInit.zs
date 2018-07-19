@@ -33,6 +33,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.minecraft.init();
 	scripts.crafttweaker.recipes.mods.rustic.init();
 	scripts.crafttweaker.recipes.mods.skyOrchards.init();
+	scripts.crafttweaker.recipes.mods.statues.init();
 	scripts.crafttweaker.recipes.mods.tconstruct.init();
 }
 
