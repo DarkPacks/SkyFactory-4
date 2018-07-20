@@ -1,0 +1,61 @@
+{
+  "type": "sky_orchard:ardite",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:log_ardite",
+      "meta": 0
+    },
+    "b": {
+      "name": "sky_orchards:leaves_ardite",
+      "meta": 8
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "bbbb ",
+      "bbbbb",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "  b  ",
+      " bb  ",
+      "bbbbb",
+      "bbbbb",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      " bbb ",
+      " bab ",
+      "bbabb",
+      "bbabb",
+      "  a  ",
+      "  a  ",
+      "  a  "
+    ],
+    [
+      "  b  ",
+      " bbb ",
+      "bbbbb",
+      "bbbbb",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "bbbb ",
+      " bbbb",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ]
+}

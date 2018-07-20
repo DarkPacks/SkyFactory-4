@@ -1,0 +1,16 @@
+setTitle("Cauldron")
+
+setIcon("morecauldrons:oak_cauldron")
+
+setDescription("Cauldron")
+
+setParent("age1:root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem(<ore:cauldron>)
+
+//Rewards
+setRewardExperience(4)

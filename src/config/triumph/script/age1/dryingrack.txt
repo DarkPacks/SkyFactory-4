@@ -1,0 +1,16 @@
+setTitle("Drying Rack")
+
+setIcon("tconstruct:rack", 1)
+
+setDescription("Drying Rack")
+
+setParent("age1:root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("tconstruct:rack", 1)
+
+//Rewards
+setRewardExperience(4)

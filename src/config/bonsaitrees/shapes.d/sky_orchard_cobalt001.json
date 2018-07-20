@@ -1,0 +1,51 @@
+{
+  "type": "sky_orchard:cobalt",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_cobalt",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_cobalt",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      "aaaa ",
+      "     "
+    ],
+    [
+      "  a  ",
+      " aaa ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      " aaa ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " aaa ",
+      "aaaaa",
+      "     "
+    ]
+  ]
+}

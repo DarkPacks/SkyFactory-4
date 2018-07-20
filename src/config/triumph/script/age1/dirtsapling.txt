@@ -1,0 +1,16 @@
+setTitle("Dirt Sapling")
+
+setIcon("sky_orchards:sapling_dirt")
+
+setDescription("Acquire a dirt sapling to grow more dirt treeeeeees")
+
+setParent("age1:root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("sky_orchards:sapling_dirt")
+
+//Rewards
+setRewardExperience(4)

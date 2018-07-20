@@ -52,12 +52,15 @@ function init() {
 	tinkers.addCastingTable(<sky_orchards:sapling_gold>, <minecraft:sapling:0>, <liquid:gold>, 144, true, 200);
 	tinkers.addCastingTable(<sky_orchards:sapling_silver>, <integrateddynamics:menril_sapling>, <liquid:silver>, 144, true, 200);
 	tinkers.addCastingTable(<sky_orchards:sapling_nickel>, <sky_orchards:sapling_iron>, <liquid:nickel>, 144, true, 200);
+	tinkers.addCastingTable(<sky_orchards:sapling_osmium>, <integrateddynamics:menril_sapling>, <liquid:osmium>, 144, true, 200);
+	tinkers.addCastingTable(<minecraft:golden_apple>, <minecraft:apple>, <liquid:gold>, 1152, true, 200);
 
 	// ==================================
 	// Casting Basin
 	// ==================================
 	tinkers.addCastingBasin(<minecraft:netherrack>, <sky_orchards:amber_redstone>, <liquid:lava>, 250, true, 200);
 	tinkers.addCastingBasin(<minecraft:soul_sand>, <minecraft:sand>, <liquid:xpjuice>, 250, true, 200);
+	tinkers.addCastingBasin(<minecraft:end_stone>, <minecraft:glowstone>, <liquid:lava>, 1000, true, 200);
 
 	// ==================================
 	// Acorn Melting

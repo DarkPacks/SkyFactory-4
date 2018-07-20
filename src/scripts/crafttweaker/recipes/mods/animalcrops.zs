@@ -60,7 +60,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:wooden_door>, null]
 		]
 	],
-
+	<animalcrops:seeds>.withTag({entity: "minecraft:enderman"}): [
+		[
+			[<minecraft:blaze_powder>, <minecraft:pumpkin>, <minecraft:blaze_powder>], 
+			[null, <minecraft:end_stone>, null], 
+			[<ore:dyePurple>, <sky_orchards:acorn_obsidian>, <ore:dyePurple>]
+		]
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

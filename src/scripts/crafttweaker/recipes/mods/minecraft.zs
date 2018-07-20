@@ -80,6 +80,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>]
 		]
 	],
+	<minecraft:netherrack>: [
+		[
+			[<sky_orchards:resin_netherrack>, <sky_orchards:acorn_netherrack>, <sky_orchards:resin_netherrack>],
+			[<sky_orchards:acorn_netherrack>, <sky_orchards:resin_netherrack>, <sky_orchards:acorn_netherrack>],
+			[<sky_orchards:resin_netherrack>, <sky_orchards:acorn_netherrack>, <sky_orchards:resin_netherrack>]
+		]
+	],
 	<minecraft:paper>: [
 		[
 			[<minecraft:string>, <minecraft:string>],
