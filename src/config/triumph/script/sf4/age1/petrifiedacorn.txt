@@ -1,0 +1,16 @@
+setTitle("Petrified Acorn")
+
+setIcon("sky_orchards:acorn_petrified")
+
+setDescription("Dry a Dirt on a Drying Rack to make a Petrified Acorn")
+
+setParent("sf4:age1/dryingrack")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("sky_orchards:acorn_petrified")
+
+//Rewards
+setRewardExperience(4)

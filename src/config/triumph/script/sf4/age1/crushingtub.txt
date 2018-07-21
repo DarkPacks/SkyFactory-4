@@ -1,0 +1,16 @@
+setTitle("Crushing Tub")
+
+setIcon("rustic:crushing_tub")
+
+setDescription("Crushing Tub")
+
+setParent("sf4:age1/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("rustic:crushing_tub")
+
+//Rewards
+setRewardExperience(4)

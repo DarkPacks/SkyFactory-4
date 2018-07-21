@@ -1,0 +1,17 @@
+setTitle("Cobblestone")
+
+setIcon("minecraft:cobblestone")
+
+setDescription("Craft Cobblestone")
+
+addParent("sf4:age1/petrifiedsapling")
+addParent("sf4:age1/petrifiedacorn")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:cobblestone")
+
+//Rewards
+setRewardExperience(4)

@@ -1,0 +1,17 @@
+setTitle("Water Bucket")
+
+setIcon("ceramics:clay_bucket", 0, {FluidName:"water",Amount:1000})
+
+setDescription("Collect Rain Water in a Cauldron or by jumping on a Sapling in a Crushing Tub. Collect it using a Clay Bucket")
+
+addParent("sf4:age1/crushingtub")
+addParent("sf4:age1/cauldron")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("ceramics:clay_bucket", 0, {FluidName:"water",Amount:1000})
+
+//Rewards
+setRewardExperience(4)

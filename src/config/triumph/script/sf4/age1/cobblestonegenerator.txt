@@ -1,0 +1,16 @@
+setTitle("Cobblestone Generator")
+
+setIcon("minecraft:cobblestone")
+
+setDescription("Craft or create a Cobblestone Generator and fill all slots but your hotbar with Cobblestone")
+
+addParent("sf4:age1/cobblestone")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:cobblestone", 1728)
+
+//Rewards
+setRewardExperience(4)

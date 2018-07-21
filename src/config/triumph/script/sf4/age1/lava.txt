@@ -1,0 +1,17 @@
+setTitle("Lava Bucket")
+
+setIcon("ceramics:clay_bucket", 0, {FluidName:"lava",Amount:1000})
+
+setDescription("Create lava by using Cobble in a Cauldron collect it in a clay bucket")
+
+addParent("sf4:age1/cobblestone")
+addParent("sf4:age1/cauldron")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("ceramics:clay_bucket", 0, {FluidName:"lava",Amount:1000})
+
+//Rewards
+setRewardExperience(4)
