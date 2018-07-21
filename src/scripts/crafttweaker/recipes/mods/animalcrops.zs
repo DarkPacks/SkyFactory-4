@@ -66,7 +66,91 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:end_stone>, null], 
 			[<ore:dyePurple>, <sky_orchards:acorn_obsidian>, <ore:dyePurple>]
 		]
-	]
+	],
+	<animalcrops:seeds>.withTag({entity: "minecraft:donkey"}): [
+		[
+			[null, <minecraft:chest>, null], 
+			[<minecraft:apple>, <animalcrops:seeds>.withTag({entity: "minecraft:horse"}), <minecraft:apple>], 
+			[null, <minecraft:chest>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "minecraft:llama"}): [
+		[
+			[null, <minecraft:carpet>, null], 
+			[<minecraft:hay_block>, <animalcrops:seeds>.withTag({entity: "minecraft:pig"}), <minecraft:hay_block>], 
+			[null, <minecraft:carpet>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "minecraft:ocelot"}): [
+		[
+			[null, <minecraft:fish>, null], 
+			[<minecraft:string>, <minecraft:dye:3>, <minecraft:string>], 
+			[null, <minecraft:fish>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "minecraft:parrot"}): [
+		[
+			[null, <minecraft:cookie>, null], 
+			[<minecraft:feather>, <minecraft:melon_seeds>, <minecraft:feather>], 
+			[null, <minecraft:cookie>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "minecraft:polar_bear"}): [
+		[
+			[null, <minecraft:snow>, null], 
+			[<minecraft:fish>, <animalcrops:seeds>.withTag({entity: "minecraft:cow"}), <minecraft:fish>], 
+			[null, <minecraft:snow>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "minecraft:rabbit"}): [
+		[
+			[null, <minecraft:carrot>, null], 
+			[<xlfoodmod:lettuce>, <xlfoodmod:lettuce_seeds>, <xlfoodmod:lettuce>], 
+			[null, <minecraft:carrot>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "minecraft:wolf"}): [
+		[
+			[null, <xlfoodmod:sausage>, null], 
+			[<minecraft:bone>, <animalcrops:seeds>.withTag({entity: "minecraft:sheep"}), <minecraft:bone>], 
+			[null, <xlfoodmod:sausage>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "waddles:adelie_penguin"}): [
+		[
+			[null, <minecraft:ice>, null], 
+			[<minecraft:fish:2>, <animalcrops:seeds>.withTag({entity: "minecraft:polar_bear"}), <minecraft:fish>], 
+			[null, <minecraft:ice>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "minecraft:blaze"}): [
+		[
+			[null, <tconstruct:firewood>, null], 
+			[<mekanism:otherdust:3>, <animalcrops:seeds>.withTag({entity: "minecraft:chicken"}), <mekanism:otherdust:3>], 
+			[null, <tconstruct:firewood>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "twilightforest:mini_ghast"}): [
+		[
+			[null, <minecraft:fire_charge>, null], 
+			[<minecraft:quartz>, <tp:mycelium_seeds>, <minecraft:quartz>], 
+			[null, <minecraft:fire_charge>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "minecraft:magma_cube"}): [
+		[
+			[null, <minecraft:slime_ball>, null], 
+			[<tconstruct:edible:4>, <tp:mycelium_seeds>, <tconstruct:edible:4>], 
+			[null, <minecraft:slime_ball>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "minecraft:slime"}): [
+		[
+			[null, <minecraft:slime_ball>, null], 
+			[<ore:dyeGreen>, <tp:mycelium_seeds>, <ore:dyeGreen>], 
+			[null, <minecraft:slime_ball>, null]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

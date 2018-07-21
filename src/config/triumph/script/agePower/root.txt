@@ -1,6 +1,6 @@
-setTitle("SkyFactory IIII")
+setTitle("Age of Power")
 
-setIcon("minecraft:sapling")
+setIcon("chisel:technicalnew", 3)
 
 setDescription("Hey")
 

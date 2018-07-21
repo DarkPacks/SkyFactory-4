@@ -12,7 +12,8 @@ static seedsToAdd as WeightedItemStack[] = [
 	<minecraft:melon_seeds>.weight(100),
 	<minecraft:potato>.weight(100),
 	<minecraft:pumpkin_seeds>.weight(100),
-	<minecraft:wheat_seeds>.weight(100)
+	<minecraft:wheat_seeds>.weight(100),
+	<xlfoodmod:lettuce_seeds>.weight(100)
 ];
 
 /*

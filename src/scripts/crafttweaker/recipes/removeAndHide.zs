@@ -46,9 +46,37 @@ static removeAndHideIngredients as IIngredient[] = [
 	<thermalfoundation:upgrade:35>,
 	<thermalfoundation:upgrade:256>,
 	<tombstone:dust_of_vanishing>,
-	<inspirations:materials:7>
+	<inspirations:materials:7>,
+	<astralsorcery:blockportalnode>,
+	<baubles:ring>,
+	<charset:icon>,
+	<tombstone:fake_fog>,
+	<tombstone:soul>,
+	<tombstone:advancement_001>,
+	<tombstone:advancement_002>,
+	<tombstone:advancement_003>,
+	<tp:bam_tshirt>,
+	<minecraft:command_block_minecart>,
+	<compactstorage:compactchest:4>,
+	<animalcrops:bush>,
 
-
+	//Creative
+	<bibliocraft:bibliocreativelock>,
+	<enderutilities:endercapacitor:3>,
+	<enderutilities:enderpart:30>,
+	<enderutilities:enderpart:81>,
+	<enderutilities:dolly>,
+	<totemic:medicine_bag>,
+	<totemic:ceremony_cheat>,
+	<vc:modules/item_module_creative>,
+	<vc:airships/item_airship_creative>,
+	<bibliocraft:bookcasecreative>,
+	<bibliocraft:bookcasecreative:3>,
+	<bibliocraft:bookcasecreative:6>,
+	<bibliocraft:bookcasecreative:1>,
+	<bibliocraft:bookcasecreative:4>,
+	<bibliocraft:bookcasecreative:2>,
+	<bibliocraft:bookcasecreative:5>,
 ];
 
 function init() {

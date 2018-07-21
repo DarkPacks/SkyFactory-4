@@ -32,6 +32,7 @@
   "custom entries": {
     "__comment": "You can define additional items to be sold by the Market here. Defaults can be overridden. Prefix with ! to blacklist instead.",
     "examplemod:example_item": "2*minecraft:emerald",
-    "minecraft:cactus": "8*minecraft:vine"
+    "minecraft:cactus": "8*minecraft:vine",
+    "xlfoodmod:lettuce_seeds": "8*minecraft:leaves"
   }
 }

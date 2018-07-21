@@ -1,0 +1,16 @@
+setTitle("Watering Can")
+
+setIcon("tp:watering_can")
+
+setDescription("Craft a watering can")
+
+setParent("ageFarming:root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("tp:watering_can")
+
+//Rewards
+setRewardExperience(4)

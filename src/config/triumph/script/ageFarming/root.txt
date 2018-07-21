@@ -1,6 +1,6 @@
-setTitle("SkyFactory IIII")
+setTitle("Age of Farming")
 
-setIcon("minecraft:sapling")
+setIcon("minecraft:iron_hoe")
 
 setDescription("Hey")
 

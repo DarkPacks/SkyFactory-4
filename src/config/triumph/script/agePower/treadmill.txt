@@ -1,0 +1,16 @@
+setTitle("Pig Treadmill")
+
+setIcon(<sync:item_treadmill>)
+
+setDescription("Use a treadmill to make Pig Power!")
+
+setParent("agePower:root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem(<sync:item_treadmill>)
+
+//Rewards
+setRewardExperience(4)

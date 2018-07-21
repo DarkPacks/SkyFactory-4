@@ -1,8 +1,8 @@
-setTitle("SkyFactory IIII")
+setTitle("Age of Exploration")
 
-setIcon("minecraft:sapling")
+setIcon("huntingdim:portal")
 
-setDescription("Hey")
+setDescription("Go do stuff")
 
 setBackground("minecraft:textures/blocks/cobblestone.png")
 

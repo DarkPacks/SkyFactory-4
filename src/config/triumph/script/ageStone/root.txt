@@ -1,6 +1,6 @@
 setTitle("SkyFactory IIII")
 
-setIcon("minecraft:sapling")
+setIcon("minecraft:stone")
 
 setDescription("Hey")
 
@@ -20,3 +20,6 @@ addCriteria("inventoryChange", "minecraft:inventory_changed")
 addCriteria("killEntity", "minecraft:player_killed_entity")
 addCriteria("killedByEntity", "minecraft:entity_killed_player")
 addCriteria("location", "minecraft:location")
+
+//Rewards
+setRewardFunction("triumph:stage-tutorial_trigger")
