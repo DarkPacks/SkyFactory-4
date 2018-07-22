@@ -141,7 +141,7 @@ zenClass Inspirations {
 	}
 
 	function addCauldronFill(input as IIngredient, fluid as ILiquidStack, amount as int, container as IItemStack) {
-		addCauldronFill(input, fluid, amount, container, null);
+		addCauldronFill(input, fluid, amount, container, false);
 	}
 
 	function addCauldronFill(input as IIngredient, fluid as ILiquidStack, amount as int, container as IItemStack, boiling as bool) {
