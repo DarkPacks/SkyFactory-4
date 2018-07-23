@@ -15,7 +15,8 @@ function init() {
 	// Apply Molten to Materials
 	registerDefaultMolten([
 		materials.modularium,
-		materials.osmium
+		materials.osmium,
+		materials.reinforcedObsidian
 	]);
 
 	// ==================================

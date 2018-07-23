@@ -12,5 +12,6 @@ static materials as Material[string] = {
 	"ardite": MaterialSystem.getMaterialBuilder().setName("Ardite").setColor(Color.fromHex("d14210")).build(),
 	"cobalt": MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor(Color.fromHex("2882d4")).build(),
 	"modularium": MaterialSystem.getMaterialBuilder().setName("Modularium").setColor(Color.fromHex("2F80C1")).build(),
-	"osmium": MaterialSystem.getMaterialBuilder().setName("Osmium").setColor(Color.fromHex("aabbd2")).build()
+	"osmium": MaterialSystem.getMaterialBuilder().setName("Osmium").setColor(Color.fromHex("aabbd2")).build(),
+	"reinforcedObsidian": MaterialSystem.getMaterialBuilder().setName("Reinforced Obsidian").setColor(Color.fromHex("1d1d25")).build()
 };
