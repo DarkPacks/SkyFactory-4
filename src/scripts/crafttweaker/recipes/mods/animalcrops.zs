@@ -151,6 +151,41 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:slime_ball>, null]
 		]
 	],
+	<animalcrops:seeds>.withTag({entity: "minecraft:creeper"}): [
+		[
+			[null, <ore:dyeGreen>, null], 
+			[<minecraft:gunpowder>, <minecraft:wheat_seeds>, <minecraft:gunpowder>], 
+			[null, <ore:dyeGreen>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "minecraft:zombie"}): [
+		[
+			[null, <minecraft:potato>, null], 
+			[<minecraft:rotten_flesh>, <minecraft:wheat_seeds>, <minecraft:rotten_flesh>], 
+			[null, <minecraft:potato>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "minecraft:skeleton"}): [
+	  	[
+	  		[null, <minecraft:flint>, null], 
+	  		[<minecraft:dye:15>, <minecraft:wheat_seeds>, <minecraft:dye:15>], 
+	  		[null, <minecraft:flint>, null]
+	  	]
+	],	
+	<animalcrops:seeds>.withTag({entity: "minecraft:spider"}): [
+		[
+			[null, <minecraft:string>, null], 
+			[<ore:dyeBlack>, <minecraft:wheat_seeds>, <ore:dyeBlack>], 
+			[null, <minecraft:string>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "minecraft:witch"}): [
+		[
+			[null, <minecraft:glass_bottle>, null], 
+			[<minecraft:redstone>, <minecraft:wheat_seeds>, <minecraft:glowstone_dust>], 
+			[null, <minecraft:glass_bottle>, null]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
