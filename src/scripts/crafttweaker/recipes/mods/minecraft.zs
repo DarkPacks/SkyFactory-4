@@ -136,15 +136,29 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<sky_orchards:resin_quartz>, <sky_orchards:acorn_quartz>, <sky_orchards:resin_quartz>]
 		]
 	],
+	<minecraft:redstone_block>: [
+		[
+			[<sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>],
+			[<sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>],
+			[<sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>]
+		]
+	],
+	<minecraft:lapis_block>: [
+		[
+			[<sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>],
+			[<sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>],
+			[<sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>]
+		]
+	],
 
 	//MAYBE I WILL MOVE THIS LATER!
 	<clickmachine:auto_clicker>: [
-		[
-			[<minecraft:stone:4>, <minecraft:stone:4>, <minecraft:stone:4>],
-			[<minecraft:stone:4>, <minecraft:dispenser>, <minecraft:stone:4>],
-			[<minecraft:stone:4>, <minecraft:redstone_block>, <minecraft:stone:4>]
-		]
-	],
+	 	[
+	 		[<minecraft:stone:4>, <minecraft:stone:4>, <minecraft:stone:4>],
+	 		[<minecraft:stone:4>, <minecraft:dispenser>, <minecraft:stone:4>],
+	 		[<minecraft:stone:4>, <minecraft:redstone_block>, <minecraft:stone:4>]
+	 	]
+	]	
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
