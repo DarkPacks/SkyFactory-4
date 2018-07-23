@@ -9,6 +9,8 @@ import mods.contenttweaker.Material;
 import mods.contenttweaker.MaterialSystem;
 
 static materials as Material[string] = {
+	"ardite": MaterialSystem.getMaterialBuilder().setName("Ardite").setColor(Color.fromHex("d14210")).build(),
+	"cobalt": MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor(Color.fromHex("2882d4")).build(),
 	"modularium": MaterialSystem.getMaterialBuilder().setName("Modularium").setColor(Color.fromHex("2F80C1")).build(),
 	"osmium": MaterialSystem.getMaterialBuilder().setName("Osmium").setColor(Color.fromHex("aabbd2")).build()
 };

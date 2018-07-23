@@ -1,6 +1,8 @@
 {
   "materialMappings": {
+    "ardite_dust": 2,
     "modularium_molten": 0,
+    "cobalt_dust": 3,
     "osmium_molten": 1
   }
 }

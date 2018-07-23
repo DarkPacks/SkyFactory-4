@@ -17,11 +17,24 @@ function init() {
 		materials.modularium,
 		materials.osmium
 	]);
+
+	// ==================================
+	// Create dust
+	registerPartNoParams("dust", [
+		materials.ardite,
+		materials.cobalt
+	]);
 }
 
 function registerDefaultMolten(fluidMaterials as Material[]) {
 	for i, fluid in fluidMaterials {
 		var fluidMaterialsData as MaterialPartData = fluid.registerPart("molten").getData();
 		addDefaultMoltenData(fluidMaterialsData);
+	}
+}
+
+function registerPartNoParams(partName as string, partMaterials as Material[]) {
+	for material in partMaterials {
+		material.registerPart(partName);
 	}
 }
