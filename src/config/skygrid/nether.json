@@ -70,7 +70,7 @@
     "biomes": []
   },
   {
-    "block": "tp:lava_block",
+    "block": "tp:nether_lava_block",
     "meta": 0,
     "weight": 50,
     "plants": [],

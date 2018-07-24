@@ -153,12 +153,19 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 
 	//MAYBE I WILL MOVE THIS LATER!
 	<clickmachine:auto_clicker>: [
-	 	[
-	 		[<minecraft:stone:4>, <minecraft:stone:4>, <minecraft:stone:4>],
-	 		[<minecraft:stone:4>, <minecraft:dispenser>, <minecraft:stone:4>],
-	 		[<minecraft:stone:4>, <minecraft:redstone_block>, <minecraft:stone:4>]
-	 	]
-	]	
+		[
+			[<minecraft:stone:4>, <minecraft:stone:4>, <minecraft:stone:4>],
+			[<minecraft:stone:4>, <minecraft:dispenser>, <minecraft:stone:4>],
+			[<minecraft:stone:4>, <minecraft:redstone_block>, <minecraft:stone:4>]
+		]
+	],
+	<pressure:water_source>: [
+		[
+			[<tp:reinforced_obsidian_ingot>, <tp:reinforced_obsidian_ingot>, <tp:reinforced_obsidian_ingot>],
+			[<minecraft:packed_ice>, <cookingforblockheads:sink>, <minecraft:packed_ice>],
+			[<tp:reinforced_obsidian_ingot>, <tp:reinforced_obsidian_ingot>, <tp:reinforced_obsidian_ingot>]
+		]
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -186,7 +193,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-	<clickmachine:auto_clicker>
+	<clickmachine:auto_clicker>,
+	<pressure:water_source>
 ];
 
 function init() {

@@ -55,7 +55,6 @@ static removeAndHideIngredients as IIngredient[] = [
 	<tombstone:advancement_001>,
 	<tombstone:advancement_002>,
 	<tombstone:advancement_003>,
-	<tp:bam_tshirt>,
 	<minecraft:command_block_minecart>,
 	<compactstorage:compactchest:4>,
 	<animalcrops:bush>,

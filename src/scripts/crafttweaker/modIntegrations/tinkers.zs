@@ -33,6 +33,11 @@ function init() {
 	tinkers.addMelting(<liquid:pyrotheum> * 250, <thermalfoundation:material:1024>, 1300); 
 
 	// ==================================
+	// Reinforced  Melting
+	tinkers.addMelting(<liquid:reinforced_obsidian> * 144, <tp:reinforced_obsidian_ingot>); 
+	tinkers.addMelting(<liquid:reinforced_obsidian> * 1296, <tp:reinforced_obsidian>); 
+
+	// ==================================
 	// Drying
 	// ==================================
 	tinkers.removeDrying(<minecraft:deadbush>);
@@ -54,6 +59,7 @@ function init() {
 	tinkers.addCastingTable(<sky_orchards:sapling_nickel>, <sky_orchards:sapling_iron>, <liquid:nickel>, 144, true, 200);
 	tinkers.addCastingTable(<sky_orchards:sapling_osmium>, <integrateddynamics:menril_sapling>, <liquid:osmium>, 144, true, 200);
 	tinkers.addCastingTable(<minecraft:golden_apple>, <minecraft:apple>, <liquid:gold>, 1152, true, 200);
+	tinkers.addCastingTable(<tp:reinforced_obsidian_ingot>, <tconstruct:cast_custom>, <liquid:reinforced_obsidian>, 144, false, 200);
 
 	// ==================================
 	// Casting Basin
@@ -61,6 +67,7 @@ function init() {
 	tinkers.addCastingBasin(<minecraft:netherrack>, <sky_orchards:amber_redstone>, <liquid:lava>, 250, true, 200);
 	tinkers.addCastingBasin(<minecraft:soul_sand>, <minecraft:sand>, <liquid:xpjuice>, 250, true, 200);
 	tinkers.addCastingBasin(<minecraft:end_stone>, <minecraft:glowstone>, <liquid:lava>, 1000, true, 200);
+	tinkers.addCastingBasin(<tp:reinforced_obsidian>, null, <liquid:reinforced_obsidian>, 1296, false, 200);
 
 	// ==================================
 	// Acorn Melting
@@ -96,3 +103,6 @@ function init() {
 	tinkers.addMelting(<liquid:cobalt> * 144, <sky_orchards:amber_cobalt>); 
 	tinkers.addMelting(<liquid:osmium> * 288, <sky_orchards:amber_osmium>); 
 }
+
+//mods.tconstruct.Alloy.addRecipe(ILiquidStack output, ILiquidStack[] inputs);
+mods.tconstruct.Alloy.addRecipe(<liquid:reinforced_obsidian> * 5184, [<liquid:iron> * 270, <liquid:obsidian> * 1152]);

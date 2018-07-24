@@ -537,12 +537,12 @@
     "weight": 10,
     "plants": [
       {
-        "block": "tp:old_reed",
+        "block": "minecraft:cactus",
         "meta": 0
       },
       {
-        "block": "minecraft:cactus",
-        "meta": 0
+        "block": "tp:old_reed",
+        "meta": -1
       }
     ],
     "biomes": []
