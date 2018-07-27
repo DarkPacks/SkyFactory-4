@@ -102,7 +102,31 @@ function init() {
 	tinkers.addMelting(<liquid:ardite> * 144, <sky_orchards:amber_ardite>);  
 	tinkers.addMelting(<liquid:cobalt> * 144, <sky_orchards:amber_cobalt>); 
 	tinkers.addMelting(<liquid:osmium> * 288, <sky_orchards:amber_osmium>); 
+
+
+	// ==================================
+	// Thermal Dynamics Pipe Upgrades
+	// ==================================
+
+		//FIRSTNECRON FIX THIS PLEASE. IT NEEDS TO BE USING NBTS
+
+	tinkers.addCastingBasin(<thermaldynamics:duct_32:2>, <thermaldynamics:duct_32>, <liquid:glowstone>, 200, true, 80);
+	tinkers.addCastingBasin(<thermaldynamics:duct_32:3>, <thermaldynamics:duct_32:1>, <liquid:glowstone>, 200, true, 80);
+	tinkers.addCastingBasin(<thermaldynamics:duct_32:7>, <thermaldynamics:duct_32:5>, <liquid:glowstone>, 200, true, 80);
+	tinkers.addCastingBasin(<thermaldynamics:duct_32:7>.withTag({DenseType: 1 as byte}), <thermaldynamics:duct_32:5>, <liquid:glowstone>, 200, true, 80);
+	tinkers.addCastingBasin(<thermaldynamics:duct_32:7>.withTag({DenseType: 2 as byte}), <thermaldynamics:duct_32:5>, <liquid:glowstone>, 200, true, 80);
+	tinkers.addCastingBasin(<thermaldynamics:duct_32:6>, <thermaldynamics:duct_32:4>, <liquid:glowstone>, 200, true, 80);
+	tinkers.addCastingBasin(<thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}), <thermaldynamics:duct_32:4>, <liquid:glowstone>, 200, true, 80);
+	tinkers.addCastingBasin(<thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}), <thermaldynamics:duct_32:4>, <liquid:glowstone>, 200, true, 80);
+
+
 }
+
+
+
+
+
+
 
 //mods.tconstruct.Alloy.addRecipe(ILiquidStack output, ILiquidStack[] inputs);
 mods.tconstruct.Alloy.addRecipe(<liquid:reinforced_obsidian> * 5184, [<liquid:iron> * 270, <liquid:obsidian> * 1152]);
