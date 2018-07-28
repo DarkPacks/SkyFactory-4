@@ -77,6 +77,11 @@ function init() {
 	tinkers.addMelting(<liquid:osmium> * 288, <sky_orchards:amber_osmium>);
 
 	// ==================================
+	// Alloying
+	// ==================================
+	tinkers.addAlloying(<liquid:reinforced_obsidian> * 5184, [<liquid:iron> * 270, <liquid:obsidian> * 1152]);
+
+	// ==================================
 	// Drying
 	// ==================================
 	tinkers.removeDrying(<minecraft:deadbush>);
@@ -134,16 +139,3 @@ function init() {
 		}
 	}
 }
-
-
-
-
-
-
-
-//mods.tconstruct.Alloy.addRecipe(ILiquidStack output, ILiquidStack[] inputs);
-mods.tconstruct.Alloy.addRecipe(<liquid:reinforced_obsidian> * 5184, [<liquid:iron> * 270, <liquid:obsidian> * 1152]);
-mods.tconstruct.Alloy.addRecipe(<liquid:signalum> * 576, [<liquid:copper> * 432, <liquid:silver> * 144, <liquid:redstone> * 1000]);
-mods.tconstruct.Alloy.addRecipe(<liquid:lumium> * 576, [<liquid:tin> * 432, <liquid:silver> * 144, <liquid:glowstone> * 1000]);
-mods.tconstruct.Alloy.addRecipe(<liquid:enderium> * 576, [<liquid:lead> * 432, <liquid:platinum> * 144, <liquid:ender> * 1000]);
-mods.tconstruct.Alloy.addRecipe(<liquid:constantan> * 288, [<liquid:nickel> * 144, <liquid:copper> * 144]);
