@@ -27,6 +27,7 @@ function init() {
 	tinkers.addMelting(<liquid:ender> * 250, <ore:enderpearl>);
 	tinkers.addMelting(<liquid:glowstone> * 250, <ore:clathrateEnder>);
 	tinkers.addMelting(<liquid:glowstone> * 1000, <ore:oreClathrateEnder>);
+	tinkers.addMelting(<liquid:ender> * 1000, <endercrop:ender_seeds>);
 
 	// ==================================
 	// Pyrotheum Melting
@@ -130,3 +131,7 @@ function init() {
 
 //mods.tconstruct.Alloy.addRecipe(ILiquidStack output, ILiquidStack[] inputs);
 mods.tconstruct.Alloy.addRecipe(<liquid:reinforced_obsidian> * 5184, [<liquid:iron> * 270, <liquid:obsidian> * 1152]);
+mods.tconstruct.Alloy.addRecipe(<liquid:signalum> * 576, [<liquid:copper> * 432, <liquid:silver> * 144, <liquid:redstone> * 1000]);
+mods.tconstruct.Alloy.addRecipe(<liquid:lumium> * 576, [<liquid:tin> * 432, <liquid:silver> * 144, <liquid:glowstone> * 1000]);
+mods.tconstruct.Alloy.addRecipe(<liquid:enderium> * 576, [<liquid:lead> * 432, <liquid:platinum> * 144, <liquid:ender> * 1000]);
+mods.tconstruct.Alloy.addRecipe(<liquid:constantan> * 288, [<liquid:nickel> * 144, <liquid:copper> * 144]);
