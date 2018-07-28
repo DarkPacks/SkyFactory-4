@@ -5,6 +5,9 @@
 */
 function init() {
 	// ==================================
+	// Melting
+	// ==================================
+	// ==================================
 	// Destabilized Redstone
 	tinkers.addMelting(<liquid:redstone> * 100, <ore:dustRedstone>);
 	tinkers.addMelting(<liquid:redstone> * 250, <ore:clathrateRedstone>);
@@ -31,12 +34,44 @@ function init() {
 
 	// ==================================
 	// Pyrotheum Melting
-	tinkers.addMelting(<liquid:pyrotheum> * 250, <thermalfoundation:material:1024>, 1300); 
+	tinkers.addMelting(<liquid:pyrotheum> * 250, <thermalfoundation:material:1024>, 1300);
 
 	// ==================================
 	// Reinforced  Melting
-	tinkers.addMelting(<liquid:reinforced_obsidian> * 144, <tp:reinforced_obsidian_ingot>); 
-	tinkers.addMelting(<liquid:reinforced_obsidian> * 1296, <tp:reinforced_obsidian>); 
+	tinkers.addMelting(<liquid:reinforced_obsidian> * 144, <tp:reinforced_obsidian_ingot>);
+	tinkers.addMelting(<liquid:reinforced_obsidian> * 1296, <tp:reinforced_obsidian>);
+
+	// ==================================
+	// Acorn Melting
+	tinkers.addMelting(<liquid:iron> * 16, <sky_orchards:acorn_iron>);
+	tinkers.addMelting(<liquid:gold> * 16, <sky_orchards:acorn_gold>);
+	// tinkers.addMelting(<liquid:lapis> * 100, <sky_orchards:acorn_lapis>);
+	tinkers.addMelting(<liquid:redstone> * 100, <sky_orchards:acorn_redstone>);
+	tinkers.addMelting(<liquid:obsidian> * 8, <sky_orchards:acorn_obsidian>);
+	tinkers.addMelting(<liquid:copper> * 16, <sky_orchards:acorn_copper>);
+	tinkers.addMelting(<liquid:lead> * 16, <sky_orchards:acorn_lead>);
+	tinkers.addMelting(<liquid:tin> * 16, <sky_orchards:acorn_tin>);
+	tinkers.addMelting(<liquid:aluminum> * 16, <sky_orchards:acorn_aluminum>);
+	tinkers.addMelting(<liquid:silver> * 16, <sky_orchards:acorn_silver>);
+	tinkers.addMelting(<liquid:nickel> * 16, <sky_orchards:acorn_nickel>);
+	tinkers.addMelting(<liquid:emerald> * 74, <sky_orchards:acorn_emerald>);
+	tinkers.addMelting(<liquid:ardite> * 16, <sky_orchards:acorn_ardite>);
+	tinkers.addMelting(<liquid:cobalt> * 16, <sky_orchards:acorn_cobalt>);
+	tinkers.addMelting(<liquid:osmium> * 16, <sky_orchards:acorn_osmium>);
+
+	// ==================================
+	// Amber Melting
+	tinkers.addMelting(<liquid:iron> * 288, <sky_orchards:amber_iron>);
+	tinkers.addMelting(<liquid:gold> * 288, <sky_orchards:amber_gold>);
+	tinkers.addMelting(<liquid:lead> * 288, <sky_orchards:amber_lead>);
+	tinkers.addMelting(<liquid:copper> * 288, <sky_orchards:amber_copper>);
+	tinkers.addMelting(<liquid:tin> * 288, <sky_orchards:amber_tin>);
+	tinkers.addMelting(<liquid:aluminum> * 288, <sky_orchards:amber_aluminum>);
+	tinkers.addMelting(<liquid:silver> * 288, <sky_orchards:amber_silver>);
+	tinkers.addMelting(<liquid:nickel> * 288, <sky_orchards:amber_nickel>);
+	tinkers.addMelting(<liquid:ardite> * 144, <sky_orchards:amber_ardite>);
+	tinkers.addMelting(<liquid:cobalt> * 144, <sky_orchards:amber_cobalt>);
+	tinkers.addMelting(<liquid:osmium> * 288, <sky_orchards:amber_osmium>);
 
 	// ==================================
 	// Drying
@@ -71,46 +106,8 @@ function init() {
 	tinkers.addCastingBasin(<tp:reinforced_obsidian>, null, <liquid:reinforced_obsidian>, 1296, false, 200);
 
 	// ==================================
-	// Acorn Melting
-	// ==================================
-	tinkers.addMelting(<liquid:iron> * 16, <sky_orchards:acorn_iron>);
-	tinkers.addMelting(<liquid:gold> * 16, <sky_orchards:acorn_gold>);
-	//tinkers.addMelting(<liquid:lapis> * 100, <sky_orchards:acorn_lapis>);
-	tinkers.addMelting(<liquid:redstone> * 100, <sky_orchards:acorn_redstone>);
-	tinkers.addMelting(<liquid:obsidian> * 8, <sky_orchards:acorn_obsidian>);
-	tinkers.addMelting(<liquid:copper> * 16, <sky_orchards:acorn_copper>);
-	tinkers.addMelting(<liquid:lead> * 16, <sky_orchards:acorn_lead>);
-	tinkers.addMelting(<liquid:tin> * 16, <sky_orchards:acorn_tin>);
-	tinkers.addMelting(<liquid:aluminum> * 16, <sky_orchards:acorn_aluminum>);
-	tinkers.addMelting(<liquid:silver> * 16, <sky_orchards:acorn_silver>);
-	tinkers.addMelting(<liquid:nickel> * 16, <sky_orchards:acorn_nickel>);
-	tinkers.addMelting(<liquid:emerald> * 74, <sky_orchards:acorn_emerald>);
-	tinkers.addMelting(<liquid:ardite> * 16, <sky_orchards:acorn_ardite>);
-	tinkers.addMelting(<liquid:cobalt> * 16, <sky_orchards:acorn_cobalt>);
-	tinkers.addMelting(<liquid:osmium> * 16, <sky_orchards:acorn_osmium>);
-
-	// ==================================
-	// Amber Melting
-	// ==================================
-	tinkers.addMelting(<liquid:iron> * 288, <sky_orchards:amber_iron>);
-	tinkers.addMelting(<liquid:gold> * 288, <sky_orchards:amber_gold>);
-	tinkers.addMelting(<liquid:lead> * 288, <sky_orchards:amber_lead>);    	
-	tinkers.addMelting(<liquid:copper> * 288, <sky_orchards:amber_copper>);	
-	tinkers.addMelting(<liquid:tin> * 288, <sky_orchards:amber_tin>);  
-	tinkers.addMelting(<liquid:aluminum> * 288, <sky_orchards:amber_aluminum>);  
-	tinkers.addMelting(<liquid:silver> * 288, <sky_orchards:amber_silver>);  
-	tinkers.addMelting(<liquid:nickel> * 288, <sky_orchards:amber_nickel>);  
-	tinkers.addMelting(<liquid:ardite> * 144, <sky_orchards:amber_ardite>);  
-	tinkers.addMelting(<liquid:cobalt> * 144, <sky_orchards:amber_cobalt>); 
-	tinkers.addMelting(<liquid:osmium> * 288, <sky_orchards:amber_osmium>); 
-
-
-	// ==================================
 	// Thermal Dynamics Pipe Upgrades
-	// ==================================
-
-		//FIRSTNECRON FIX THIS PLEASE. IT NEEDS TO BE USING NBTS
-
+	// TODO: FIRSTNECRON FIX THIS PLEASE. IT NEEDS TO BE USING NBTS
 	tinkers.addCastingBasin(<thermaldynamics:duct_32:2>, <thermaldynamics:duct_32>, <liquid:glowstone>, 200, true, 80);
 	tinkers.addCastingBasin(<thermaldynamics:duct_32:3>, <thermaldynamics:duct_32:1>, <liquid:glowstone>, 200, true, 80);
 	tinkers.addCastingBasin(<thermaldynamics:duct_32:7>, <thermaldynamics:duct_32:5>, <liquid:glowstone>, 200, true, 80);
@@ -119,8 +116,6 @@ function init() {
 	tinkers.addCastingBasin(<thermaldynamics:duct_32:6>, <thermaldynamics:duct_32:4>, <liquid:glowstone>, 200, true, 80);
 	tinkers.addCastingBasin(<thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}), <thermaldynamics:duct_32:4>, <liquid:glowstone>, 200, true, 80);
 	tinkers.addCastingBasin(<thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}), <thermaldynamics:duct_32:4>, <liquid:glowstone>, 200, true, 80);
-
-
 }
 
 
