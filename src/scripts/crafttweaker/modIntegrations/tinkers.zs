@@ -3,6 +3,9 @@
 
 	This script utilizes the Tinker's integration to add/remove/modify recipes.
 */
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IItemStack;
+
 function init() {
 	// ==================================
 	// Melting
@@ -107,15 +110,24 @@ function init() {
 
 	// ==================================
 	// Thermal Dynamics Pipe Upgrades
-	// TODO: FIRSTNECRON FIX THIS PLEASE. IT NEEDS TO BE USING NBTS
-	tinkers.addCastingBasin(<thermaldynamics:duct_32:2>, <thermaldynamics:duct_32>, <liquid:glowstone>, 200, true, 80);
-	tinkers.addCastingBasin(<thermaldynamics:duct_32:3>, <thermaldynamics:duct_32:1>, <liquid:glowstone>, 200, true, 80);
-	tinkers.addCastingBasin(<thermaldynamics:duct_32:7>, <thermaldynamics:duct_32:5>, <liquid:glowstone>, 200, true, 80);
-	tinkers.addCastingBasin(<thermaldynamics:duct_32:7>.withTag({DenseType: 1 as byte}), <thermaldynamics:duct_32:5>, <liquid:glowstone>, 200, true, 80);
-	tinkers.addCastingBasin(<thermaldynamics:duct_32:7>.withTag({DenseType: 2 as byte}), <thermaldynamics:duct_32:5>, <liquid:glowstone>, 200, true, 80);
-	tinkers.addCastingBasin(<thermaldynamics:duct_32:6>, <thermaldynamics:duct_32:4>, <liquid:glowstone>, 200, true, 80);
-	tinkers.addCastingBasin(<thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}), <thermaldynamics:duct_32:4>, <liquid:glowstone>, 200, true, 80);
-	tinkers.addCastingBasin(<thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}), <thermaldynamics:duct_32:4>, <liquid:glowstone>, 200, true, 80);
+	var thermalDuct32 as IItemStack = <thermaldynamics:duct_32>;
+	var thermalDuct32Definition as IItemDefinition = <thermaldynamics:duct_32>.definition;
+	var thermalDuct32BaseMetadatas as int[] = [0, 1, 4, 5];
+
+	for thermalDuct32SubItem in thermalDuct32Definition.subItems {
+		// Check if its a base duct item, ignore otherwise
+		if (thermalDuct32BaseMetadatas has thermalDuct32SubItem.metadata) {
+			tinkers.addCastingBasin(
+				thermalDuct32Definition.makeStack(thermalDuct32SubItem.metadata + 2)
+					.withTag(thermalDuct32SubItem.tag),
+				thermalDuct32SubItem,
+				<liquid:glowstone>,
+				200,
+				true,
+				80
+			);
+		}
+	}
 }
 
 
