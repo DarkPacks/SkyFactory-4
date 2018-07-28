@@ -117,9 +117,14 @@ function init() {
 	for thermalDuct32SubItem in thermalDuct32Definition.subItems {
 		// Check if its a base duct item, ignore otherwise
 		if (thermalDuct32BaseMetadatas has thermalDuct32SubItem.metadata) {
+			var outputItem as IItemStack = thermalDuct32Definition.makeStack(thermalDuct32SubItem.metadata + 2);
+
+			if (thermalDuct32SubItem.hasTag) {
+				outputItem.withTag(thermalDuct32SubItem.tag);
+			}
+
 			tinkers.addCastingBasin(
-				thermalDuct32Definition.makeStack(thermalDuct32SubItem.metadata + 2)
-					.withTag(thermalDuct32SubItem.tag),
+				outputItem,
 				thermalDuct32SubItem,
 				<liquid:glowstone>,
 				200,
