@@ -1,4 +1,5 @@
 import mods.cyclicmagic.Packager;
+import mods.cyclicmagic.Dehydrator;
 
 // output, input
 //Packager.addRecipe(minecraft:grass, minecraft:dirt*9);
@@ -33,3 +34,15 @@ Packager.addRecipe(<sky_orchards:amber_nickel>, [<sky_orchards:acorn_nickel> * 4
 Packager.addRecipe(<sky_orchards:amber_cobalt>, [<sky_orchards:acorn_cobalt> * 4, <sky_orchards:resin_cobalt> * 5]);
 Packager.addRecipe(<sky_orchards:amber_ardite>, [<sky_orchards:acorn_ardite> * 4, <sky_orchards:resin_ardite> * 5]);
 Packager.addRecipe(<sky_orchards:amber_osmium>, [<sky_orchards:acorn_osmium> * 4, <sky_orchards:resin_osmium> * 5]);
+Packager.addRecipe(<minecraft:coal>, [<pickletweaks:coal_piece> * 8]);
+
+
+////
+//Dehydrator
+////
+
+
+		// output, input, ticks
+	Dehydrator.addRecipe(<minecraft:string>, <sky_orchards:leaves_cottonwood>, 450);
+	Dehydrator.addRecipe(<sky_orchards:acorn_petrified>, <sky_orchards:acorn_dirt>, 600);
+	Dehydrator.addRecipe(<minecraft:vine>, <minecraft:sapling:3>, 450);
