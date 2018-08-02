@@ -49,7 +49,6 @@ static removeAndHideIngredients as IIngredient[] = [
 	<inspirations:materials:7>,
 	<astralsorcery:blockportalnode>,
 	<baubles:ring>,
-	<charset:icon>,
 	<tombstone:fake_fog>,
 	<tombstone:soul>,
 	<tombstone:advancement_001>,
@@ -58,6 +57,7 @@ static removeAndHideIngredients as IIngredient[] = [
 	<minecraft:command_block_minecart>,
 	<compactstorage:compactchest:4>,
 	<animalcrops:bush>,
+	<astralsorcery:blockportalnode>,
 
 	//Creative
 	<bibliocraft:bibliocreativelock>,

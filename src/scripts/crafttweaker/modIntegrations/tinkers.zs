@@ -113,6 +113,24 @@ function init() {
 	tinkers.addCastingBasin(<minecraft:end_stone>, <minecraft:glowstone>, <liquid:lava>, 1000, true, 200);
 	tinkers.addCastingBasin(<tp:reinforced_obsidian>, null, <liquid:reinforced_obsidian>, 1296, false, 200);
 
+	//Hardened Glass
+	tinkers.addCastingBasin(<thermalfoundation:glass>, <minecraft:obsidian>, <liquid:copper>, 144, true, 160);
+	tinkers.addCastingBasin(<thermalfoundation:glass:1>, <minecraft:obsidian>, <liquid:tin>, 144, true, 160);
+	tinkers.addCastingBasin(<thermalfoundation:glass:2>, <minecraft:obsidian>, <liquid:silver>, 144, true, 160);
+	tinkers.addCastingBasin(<thermalfoundation:glass:3>, <minecraft:obsidian>, <liquid:lead>, 144, true, 160);
+	tinkers.addCastingBasin(<thermalfoundation:glass:4>, <minecraft:obsidian>, <liquid:aluminum>, 144, true, 160);
+	tinkers.addCastingBasin(<thermalfoundation:glass:5>, <minecraft:obsidian>, <liquid:nickel>, 144, true, 160);
+	tinkers.addCastingBasin(<thermalfoundation:glass:6>, <minecraft:obsidian>, <liquid:platinum>, 144, true, 160);
+	tinkers.addCastingBasin(<thermalfoundation:glass:7>, <minecraft:obsidian>, <liquid:iridium>, 144, true, 160);
+	tinkers.addCastingBasin(<thermalfoundation:glass_alloy>, <minecraft:obsidian>, <liquid:steel>, 144, true, 160);
+	tinkers.addCastingBasin(<thermalfoundation:glass_alloy:1>, <minecraft:obsidian>, <liquid:electrum>, 144, true, 160);
+	tinkers.addCastingBasin(<thermalfoundation:glass_alloy:2>, <minecraft:obsidian>, <liquid:invar>, 144, true, 160);
+	tinkers.addCastingBasin(<thermalfoundation:glass_alloy:3>, <minecraft:obsidian>, <liquid:bronze>, 144, true, 160);
+	tinkers.addCastingBasin(<thermalfoundation:glass_alloy:4>, <minecraft:obsidian>, <liquid:constantan>, 144, true, 160);
+	tinkers.addCastingBasin(<thermalfoundation:glass_alloy:5>, <minecraft:obsidian>, <liquid:signalum>, 144, true, 160);
+	tinkers.addCastingBasin(<thermalfoundation:glass_alloy:6>, <minecraft:obsidian>, <liquid:lumium>, 144, true, 160);
+	tinkers.addCastingBasin(<thermalfoundation:glass_alloy:7>, <minecraft:obsidian>, <liquid:enderium>, 144, true, 160);
+
 	// ==================================
 	// Thermal Dynamics Pipe Upgrades
 	var thermalDuct32 as IItemStack = <thermaldynamics:duct_32>;
