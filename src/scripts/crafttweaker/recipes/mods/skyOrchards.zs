@@ -12,6 +12,7 @@ import crafttweaker.item.IIngredient;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	// Saplings
 	<sky_orchards:sapling_clay>: [
+		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_clay>, <sky_orchards:sapling_dirt>),
 		[
 			[null, <sky_orchards:resin_petrified>, null],
 			[<sky_orchards:resin_petrified>, <sky_orchards:resin_dirt>, <sky_orchards:resin_petrified>],
@@ -22,6 +23,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<minecraft:dye:15>, <sky_orchards:sapling_petrified>)
 	],
 	<sky_orchards:sapling_cottonwood>: [
+		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_cottonwood>, <minecraft:sapling:3>),
 		[
 			[null, <minecraft:dye:15>, null],
 			[<minecraft:dye:15>, <minecraft:vine>, <minecraft:dye:15>],
@@ -69,6 +71,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<sky_orchards:sapling_lapis>: [
+		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_lapis>, <minecraft:sapling:5>),
 		[
 			[null, <sky_orchards:resin_bone>, null],
 			[<sky_orchards:resin_clay>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <sky_orchards:resin_clay>],
@@ -112,17 +115,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<sky_orchards:sapling_gravel>: [
 		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_gravel>, <sky_orchards:sapling_petrified>)
 	],
-	<sky_orchards:sapling_cottonwood>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_cottonwood>, <minecraft:sapling:3>)
-	],
 	<sky_orchards:sapling_dirt>: [
 		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_dirt>, <minecraft:sapling>)
-	],
-	<sky_orchards:sapling_clay>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_clay>, <sky_orchards:sapling_dirt>)
-	],
-	<sky_orchards:sapling_lapis>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_lapis>, <minecraft:sapling:5>)
 	],
 
 	// Amber Crafting
