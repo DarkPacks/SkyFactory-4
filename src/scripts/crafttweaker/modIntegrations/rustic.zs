@@ -18,13 +18,36 @@ function init() {
 	// ==================================
 	// Crushing Saplings into Water
 	// TODO: Need to use all saplings in this eventually
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_cottonwood>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_dirt>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_petrified>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_clay>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_sand>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_gravel>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_coal>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_iron>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_gold>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_lapis>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_redstone>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_diamond>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_bone>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_cookie>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_bacon>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_donut>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_obsidian>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_copper>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_lead>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_tin>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_aluminum>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_silver>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_nickel>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_emerald>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_quartz>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_netherrack>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_glowstone>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_cobalt>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_ardite>);
+	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_osmium>);
 
 	// Vanilla Saplings Crush into Water
 	rustic.addCrushingTub(<liquid:water> * 100, null, <minecraft:sapling>);
@@ -44,5 +67,9 @@ function init() {
 	// Crush Leaves to get Sugar Cane / liquid water
 	for leaf in <ore:treeLeaves>.items {
 		rustic.addCrushingTub(<liquid:water> * 100, <minecraft:reeds>, leaf);
+
+	//Crush Fertile Soil into Vanilla Dirt
+
+	rustic.addCrushingTub(<liquid:mud> * 1000, <minecraft:dirt> * 1, <rustic:fertile_soil>);
 	}
 }
