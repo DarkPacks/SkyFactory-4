@@ -165,6 +165,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:packed_ice>, <cookingforblockheads:sink>, <minecraft:packed_ice>],
 			[<tp:reinforced_obsidian_ingot>, <tp:reinforced_obsidian_ingot>, <tp:reinforced_obsidian_ingot>]
 		]
+	],
+	<tp:wooden_shears>: [
+		[
+			[<ore:stickWood>, null, null],
+			[<ore:stickWood>, null, null],
+			[<ore:plankWood>, <ore:stickWood>, <ore:stickWood>]
+		]
 	]
 };
 
@@ -194,7 +201,17 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 */
 static removeRecipes as IItemStack[] = [
 	<clickmachine:auto_clicker>,
-	<pressure:water_source>
+	<pressure:water_source>,
+	<sonarcore:reinforceddirtblock>,
+	<inspirations:mulch:1>,
+	<inspirations:mulch:2>,
+	<inspirations:mulch:3>,
+	<inspirations:mulch:4>,
+	<inspirations:mulch:5>,
+	<inspirations:mulch:6>,
+	<inspirations:mulch:7>,
+	<tp:wooden_shears>
+
 ];
 
 function init() {

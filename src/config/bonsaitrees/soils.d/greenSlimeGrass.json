@@ -1,0 +1,16 @@
+{
+  "name": "tconstruct:slime_dirt",
+  "mod": "tconstruct",
+  "soil": {
+    "name": "tconstruct:slime_dirt",
+    "data": 0,
+    "ignoreMeta": false
+  },
+
+  "modifiers": {
+    "growTime": 1.0,
+    "dropChance": 1.0
+  },
+
+  "providedTags": [ "slime" ]
+}

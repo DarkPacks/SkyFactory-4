@@ -1,6 +1,6 @@
 setTitle("End Cake")
 
-setIcon("dimensionalcake:blockendcake")
+setIcon("dimensionaledibles:end_cake")
 
 setDescription("Craft, place, and eat End Cake to go to the End")
 
@@ -10,7 +10,7 @@ drawDirectLines(true)
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem("dimensionalcake:blockendcake")
+criteria.setItem("dimensionaledibles:end_cake")
 
 //Rewards
 setRewardExperience(4)

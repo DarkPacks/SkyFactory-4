@@ -1,0 +1,34 @@
+{
+  "name": "test002",
+  "description": "",
+  "size": 0,
+  "blocks": [
+    {
+      "block": "bonsaitrees:bonsaipot",
+      "x": 0,
+      "y": 2,
+      "z": 2,
+      "nbt": "H4sIAAAAAAAAAHWQMUsDQRCFX5IzWRcEQUEsLQWRYHmVEEml/oLgsd5tLot3O8fMHpo01mJn4z+w8z/5K6zdy1nYWA3De2++x2gggaZHb/naGgmvi7fP75fJmYKetRKovjW1BUbYyakiBqAU9mRlGjt3lfWdeigP64w4XxkussJxmE4vzjUmYprK+VJh6Aoc/zFJ+itt3fH2jFof4u3BEOMrU5syIiNz8BRxozjXcT0dQzVMJVuRy+cvoLdsuphGIuSqnnTAsbjL06XlECtmnfIfo08c1c7bnM0ypF3inrwY11BIsLv9zA1J2G/vPt5P5hv8AD2KhdoyAQAA"
+    },
+    {
+      "block": "tconstruct:rack",
+      "x": 1,
+      "y": 1,
+      "z": 2,
+      "meta": 8,
+      "nbt": "H4sIAAAAAAAAAHWPMU/DQAyFnYSWNoINpkpMTAywd6QVUuf+gMi9uOGUyzm6cyDpr8eHqnZAyINlW997fiVACcsPDg1tUbCEO6FRhkDvjk27gNzW8NhZTybgUdbfzDX5Kjo8FDDb8OAFALIc5lvssCEdFnB7loDVFTwkufjWO/RtrBjbAuZHNNY3ihRa2ahorn3SxYv2UxJewmwn1MUyDRnc7B3L5eEN9np4xigBXeRgKExrg31lFamwGxxJ9cmuppDeSlEe/kTBkf5PkpCnKyKGvZoNRl5/LQIazXG/81/khcO0t6fEZfADjSSYgVYBAAA\u003d"
+    },
+    {
+      "block": "bonsaitrees:bonsaipot",
+      "x": 2,
+      "y": 2,
+      "z": 2,
+      "nbt": "H4sIAAAAAAAAAHWQMUvEQBCFX854ty4IgoJYWgoiZ5tKOLlK/QViWJO93GKyE2Y26F1jLXY2/gM7/5O/wtrNxcLGahjee/M9RgMpND16y1fWSHi9ffv8fpmcKuhZJ4GaG9NYYAvbBdXEAJTCrixNa+eutr5XD+RhlRMXS8NlXjoO0+n5mcZETFs7XymMXImjPybJfqWNO96eUedDvJ2MML40jakiMjKTp4hL4lzF9WQM1TJVbEUunr+AwbLuYxqpkKsH0j7H4q7IFpZDrJj3yn+MIXHYOG8LNouQ9Yl78mJcSyHFzuYz1yRhr7v7eD+er/ED5keFeTIBAAA\u003d"
+    }
+  ],
+  "spawn": [
+    2.456980298635699,
+    1.0,
+    3.4114789138877395
+  ]
+}
