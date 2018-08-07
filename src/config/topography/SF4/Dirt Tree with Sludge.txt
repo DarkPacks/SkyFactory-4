@@ -1,0 +1,8 @@
+
+
+setSpawnStructure("dirt_tree")
+
+layers = new LayerGenerator()
+layers.addLayer(1~55, <industrialforegoing:sludge>)
+layers.addLayer(0~0, <minecraft:bedrock>)
+addGenerator(layers)

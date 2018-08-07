@@ -1,0 +1,11 @@
+setIcon("minecraft:skull", 1)
+
+setTitle("Kill the Wither")
+
+setDescription("Kill the Wither")
+
+addParent("sf4:ageExploration/nether")
+drawDirectLines(true)
+
+criteria = addCriteria("killed_spider", "minecraft:player_killed_entity")
+criteria.setEntityType("withercrumbs:wither crumb")

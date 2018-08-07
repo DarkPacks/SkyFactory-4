@@ -1,0 +1,19 @@
+setTitle("7x7x7")
+
+setIcon("compactmachines3:machine", 2)
+
+setDescription("Obtain Netherrack")
+
+addParent("compactmachines:test/5x5x5")
+addParent("compactmachines:test/5x5x52")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:netherrack>)
+
+//Rewards
+setRewardExperience(4)
+
+setRewardItem("compactmachines3:machine", 2)

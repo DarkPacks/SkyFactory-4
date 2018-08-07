@@ -1,4 +1,4 @@
-setTitle("SkyFactory IIII")
+setTitle("Age of Enhancement")
 
 setIcon("minecraft:stone")
 

@@ -1,0 +1,24 @@
+
+setSingleBiome("minecraft:void")
+
+glassNLava = new SkyIslandType("minecraft:void")
+glassNLava.setMainBlock(<minecraft:glass>)
+glassNLava.setBlockInRange(<minecraft:lava>, 0.0~0.5)
+glassNLava.disableBiomeBlockReplacement()
+glassNLava.disableDecorations()
+glassNLava.disableAnimals()
+
+
+skyIslands = new SkyIslandGenerator()
+skyIslands.setRegionSize(29)
+addGenerator(skyIslands)
+
+
+medium = skyIslands.addSkyIslands(50, 32, true)
+medium.addType(glassNLava)
+
+small = skyIslands.addSkyIslands(25, 64, true)
+small.addType(glassNLava)
+
+tiny = skyIslands.addSkyIslands(10, 128, true)
+tiny.addType(glassNLava)

@@ -10,7 +10,7 @@ drawDirectLines(true)
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem(<minecraft:grass>)
+criteria.addItem(<minecraft:grass>)
 
 //Rewards
 setRewardExperience(4)

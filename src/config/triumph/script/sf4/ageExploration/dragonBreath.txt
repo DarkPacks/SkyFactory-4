@@ -1,0 +1,16 @@
+setTitle("Dragon's Breath")
+
+setIcon("minecraft:dragon_breath")
+
+setDescription("Collect Dragon's Breath from the End")
+
+setParent("sf4:ageExploration/dragonKill")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:dragon_breath")
+
+//Rewards
+setRewardExperience(4)

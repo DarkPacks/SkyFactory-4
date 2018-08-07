@@ -1,0 +1,4 @@
+
+setSpawnStructure("dirt_tree")
+
+disableSkylight()

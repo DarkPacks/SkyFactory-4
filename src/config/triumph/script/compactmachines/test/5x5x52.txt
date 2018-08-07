@@ -1,0 +1,24 @@
+setTitle("5x5x5")
+
+setIcon("compactmachines3:machine", 1)
+
+setDescription("Craft a Simple Generator")
+
+setParent("compactmachines:test/3x3x3")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<simplegenerators:combustion_simple>)
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.addItem(<simplegenerators:culinary_simple>)
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.addItem(<simplegenerators:ender_simple>)
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.addItem(<simplegenerators:nether_simple>)
+
+//Rewards
+setRewardExperience(4)
+
+setRewardItem("compactmachines3:machine", 1)

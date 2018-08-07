@@ -1,0 +1,2 @@
+
+setSpawnStructure("dirt_tree")

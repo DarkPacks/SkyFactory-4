@@ -1,0 +1,7 @@
+
+setSpawnStructure("dirt_tree")
+
+layers = new LayerGenerator()
+layers.addLayer(1~20, <minecraft:lava>)
+layers.addLayer(0~0, <minecraft:bedrock>)
+addGenerator(layers)

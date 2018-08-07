@@ -1,0 +1,8 @@
+
+
+setSpawnStructure("dirt_tree")
+
+layers = new LayerGenerator()
+layers.addLayer(92~92, <thermalfoundation:fluid_glowstone>)
+layers.addLayer(254~254, <minecraft:bedrock>)
+addGenerator(layers)

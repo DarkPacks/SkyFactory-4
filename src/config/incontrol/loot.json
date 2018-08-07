@@ -1,1 +1,39 @@
-[]
+[
+  {
+    "mob": "withercrumbs:wither crumb",
+    "remove": "tombstone:scroll_of_knowledge"
+  },
+  {
+    "mob": "withercrumbs:wither crumb",
+    "remove": "tombstone:scroll_buff@0"
+  },
+  {
+    "mob": "withercrumbs:wither crumb",
+    "remove": "tombstone:scroll_buff@1"
+  },
+  {
+    "mob": "withercrumbs:wither crumb",
+    "remove": "tombstone:scroll_buff@2"
+  },
+  {
+    "mob": "withercrumbs:wither crumb",
+    "remove": "tombstone:scroll_buff@3"
+  },
+  {
+    "mob": "withercrumbs:wither crumb",
+    "remove": "tombstone:scroll_buff@4"
+  },
+  {
+    "mob": "withercrumbs:wither crumb",
+    "remove": "minecraft:nether_star"
+  },
+  {
+    "mob": "withercrumbs:wither crumb",
+    "remove": "withercrumbs:crumb_star"
+  },
+  {
+    "mob": "withercrumbs:wither crumb",
+    "item": "minecraft:nether_star",
+    "random": 1.0
+  }
+]

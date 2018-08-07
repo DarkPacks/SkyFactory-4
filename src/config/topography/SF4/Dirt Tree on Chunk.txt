@@ -1,0 +1,2 @@
+
+setSpawnStructure("chunk_dirt_tree")
