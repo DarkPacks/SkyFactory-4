@@ -1,0 +1,18 @@
+setTitle("Ore Processing")
+
+setIcon("tcomplement:porcelain_melter")
+
+setDescription("Craft a Melter to process your metals")
+
+setParent("sf4:ageEnhancement/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("tcomplement:porcelain_melter")
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.addItem("tcomplement:melter")
+
+//Rewards
+setRewardExperience(4)

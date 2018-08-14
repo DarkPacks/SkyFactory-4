@@ -10,7 +10,7 @@ drawDirectLines(true)
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("minecraft:cobblestone", 0, 1728)
+criteria.addItem("minecraft:cobblestone", 1728)
 
 //Rewards
 setRewardExperience(4)

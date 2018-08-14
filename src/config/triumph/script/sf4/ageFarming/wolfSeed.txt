@@ -11,7 +11,7 @@ setPos(13, 10)
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("ceramics:clay_bucket", {entity: "minecraft:wolf"})
+criteria.addItem("animalcrops:seeds", 0, {entity: "minecraft:wolf"})
 
 //Rewards
 setRewardExperience(4)

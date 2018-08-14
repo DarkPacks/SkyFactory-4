@@ -2,7 +2,7 @@ setTitle("Iron Ingot")
 
 setIcon("minecraft:iron_ingot")
 
-setDescription("Create an Iron Ingot)
+setDescription("Create an Iron Ingot")
 
 setParent("sf4:age1/ironSapling")
 
