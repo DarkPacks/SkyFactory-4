@@ -10,7 +10,7 @@ drawDirectLines(true)
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem("rustic:crushing_tub")
+criteria.addItem("rustic:crushing_tub")
 
 //Rewards
 setRewardExperience(4)

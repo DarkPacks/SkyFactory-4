@@ -1,0 +1,16 @@
+setTitle("Sand Sapling")
+
+setIcon("sky_orchards:sapling_sand")
+
+setDescription("Craft a Sand Sapling")
+
+setParent("sf4:age1/petrifiedSapling")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("sky_orchards:sapling_sand")
+
+//Rewards
+setRewardExperience(4)

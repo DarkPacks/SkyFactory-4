@@ -10,7 +10,7 @@ drawDirectLines(true)
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem("inspirations:wooden_crook")
+criteria.addItem("inspirations:wooden_crook")
 
 //Rewards
 setRewardExperience(4)

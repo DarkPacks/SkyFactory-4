@@ -10,7 +10,7 @@ drawDirectLines(true)
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem("sky_orchards:sapling_dirt")
+criteria.addItem("sky_orchards:sapling_dirt")
 
 //Rewards
 setRewardExperience(4)

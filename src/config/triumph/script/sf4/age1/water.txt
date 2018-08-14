@@ -4,7 +4,7 @@ setIcon("ceramics:clay_bucket", 0, {FluidName:"water",Amount:1000})
 
 setDescription("Collect Rain Water in a Cauldron or by jumping on a Sapling in a Crushing Tub. Collect it using a Clay Bucket")
 
-addParent("sf4:age1/crushingtub")
+addParent("sf4:age1/crushingTub")
 addParent("sf4:age1/cauldron")
 
 drawDirectLines(true)

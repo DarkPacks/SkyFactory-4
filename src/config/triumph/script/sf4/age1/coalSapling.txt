@@ -1,0 +1,16 @@
+setTitle("Coal Sapling")
+
+setIcon("sky_orchards:sapling_coal")
+
+setDescription("Craft a Coal Sapling")
+
+setParent("sf4:age1/sandSapling")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("sky_orchards:sapling_coal")
+
+//Rewards
+setRewardExperience(4)
