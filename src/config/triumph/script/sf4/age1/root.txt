@@ -23,7 +23,4 @@ addCriteria("location", "minecraft:location")
 
 //Rewards
 setRewardFunction("triumph:prestige_add")
-//setRewardItem(<minecraft:stick, nbt:{ench:[{lvl:1s,id:51s}],display:{Name:"Builder's Wand"}}>)
 setRewardItem(<minecraft:torch>)
-//setRewardItem(<tconstruct:edible>)
-//setRewardItem(<xlfoodmod:donut>)
