@@ -2,7 +2,7 @@
   "jetpack_type": {
     "name": "platinum",
     "disable": false,
-    "tier": 4,
+    "tier": 5,
     "color": 7334639,
     "armor_points": 4,
     "enchantability": 12,
@@ -10,13 +10,13 @@
     "force_recipes": false
   },
   "jetpack_info": {
-    "capacity": 36000000,
-    "usage": 720,
+    "capacity": 64000000,
+    "usage": 900,
     "speed_vertical": 0.92,
     "accel_vertical": 0.155,
     "speed_sideways": 0.193,
-    "speed_hover_descend": 0.42,
-    "speed_hover": 0.005,
+    "speed_hover_descend": 0.45,
+    "speed_hover": 0.0025,
     "sprint_speed_multi": 1.8,
     "sprint_fuel_multi": 3.8
   }

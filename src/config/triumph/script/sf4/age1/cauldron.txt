@@ -2,7 +2,7 @@ setTitle("Cauldron")
 
 setIcon("morecauldrons:oak_cauldron")
 
-setDescription("Cauldron")
+setDescription("Craft a Cauldron")
 
 setParent("sf4:age1/root")
 

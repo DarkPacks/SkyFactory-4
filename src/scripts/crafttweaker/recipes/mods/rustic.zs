@@ -43,8 +43,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-	<rustic:crushing_tub>,
-	<rustic:fertile_soil>
+	<rustic:crushing_tub>
 ];
 
 function init() {

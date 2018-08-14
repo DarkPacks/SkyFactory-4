@@ -28,7 +28,18 @@ static stageNames as string[] = [
 	"twilightForest",
 
 	// Misc Prestiege-related Stages
-	"smeltery"
+	"smeltery",
+	"fertilesoil",
+	"brownmulch",
+	"yellowmulch",
+	"ambermulch",
+	"bluemulch",
+	"redmulch",
+	"rubymulch",
+	"blackmulch",
+	"blueslimedirt",
+	"purpleslimedirt",
+	"orangeslimedirt"
 ];
 
 // ==================================

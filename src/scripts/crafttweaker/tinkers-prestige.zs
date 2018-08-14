@@ -18,6 +18,20 @@ mods.prestige.Rewards.registerCommandReward("portalgun", "gamestage add @p porta
 mods.prestige.Rewards.registerCommandReward("twilightforest", "gamestage add @p twilightforest");
 mods.prestige.Rewards.registerCommandReward("mystcraft", "gamestage add @p mystcraft");
 
+mods.prestige.Rewards.registerCommandReward("fertilesoil", "gamestage add @p fertilesoil");
+mods.prestige.Rewards.registerCommandReward("brownmulch", "gamestage add @p brownmulch");
+mods.prestige.Rewards.registerCommandReward("yellowmulch", "gamestage add @p yellowmulch");
+mods.prestige.Rewards.registerCommandReward("ambermulch", "gamestage add @p ambermulch");
+mods.prestige.Rewards.registerCommandReward("bluemulch", "gamestage add @p bluemulch");
+mods.prestige.Rewards.registerCommandReward("redmulch", "gamestage add @p redmulch");
+mods.prestige.Rewards.registerCommandReward("rubymulch", "gamestage add @p rubymulch");
+mods.prestige.Rewards.registerCommandReward("blackmulch", "gamestage add @p blackmulch");
+mods.prestige.Rewards.registerCommandReward("blueslimedirt", "gamestage add @p blueslimedirt");
+mods.prestige.Rewards.registerCommandReward("purpleslimedirt", "gamestage add @p purpleslimedirt");
+mods.prestige.Rewards.registerCommandReward("orangeslimedirt", "gamestage add @p orangeslimedirt");
+
+
+
 //stageBonsaiTrees
 //stageFluxNetworks
 //stageMobGrindingUtils

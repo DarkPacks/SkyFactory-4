@@ -1,0 +1,17 @@
+setTitle("Zombie Seed")
+
+setIcon("animalcrops:seeds", 0, {entity: "minecraft:zombie"})
+
+setDescription("Craft and plant a Zombie Seed")
+
+addParent("sf4:ageFarming/wheatSeeds")
+
+drawDirectLines(true)
+setPos(11, 11)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("ceramics:clay_bucket", {entity: "minecraft:zombie"})
+
+//Rewards
+setRewardExperience(4)

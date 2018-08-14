@@ -1,0 +1,17 @@
+setTitle("Donkey Seed")
+
+setIcon("animalcrops:seeds", 0, {entity: "minecraft:donkey"})
+
+setDescription("Craft and plant a Donkey Seed")
+
+addParent("sf4:ageFarming/wheatSeeds")
+
+drawDirectLines(true)
+setPos(14, 10)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("ceramics:clay_bucket", {entity: "minecraft:donkey"})
+
+//Rewards
+setRewardExperience(4)

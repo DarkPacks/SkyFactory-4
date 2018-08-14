@@ -17,7 +17,14 @@ import scripts.crafttweaker.stages.stagePortalGun;
 import scripts.crafttweaker.stages.stageProjectE;
 import scripts.crafttweaker.stages.stageTwilightForest;
 import scripts.crafttweaker.stages.stageSmeltery;
-
+import scripts.crafttweaker.stages.stageFertileSoil;
+import scripts.crafttweaker.stages.stageBrownMulch;
+import scripts.crafttweaker.stages.stageYellowMulch;
+import scripts.crafttweaker.stages.stageAmberMulch;
+import scripts.crafttweaker.stages.stageBlueMulch;
+import scripts.crafttweaker.stages.stageRedMulch;
+import scripts.crafttweaker.stages.stageRubyMulch;
+import scripts.crafttweaker.stages.stageBlackMulch;
 // Contains all "useful" stages
 static ALL_STAGES as Stage[] = [
 	// Mod Stages
@@ -33,7 +40,15 @@ static ALL_STAGES as Stage[] = [
 	stageTwilightForest,
 
 	// Misc Prestiege-related Stages
-	stageSmeltery
+	stageSmeltery,
+	stageFertileSoil,
+	stageBrownMulch,
+	stageYellowMulch,
+	stageAmberMulch,
+	stageBlueMulch,
+	stageRedMulch,
+	stageRubyMulch,
+	stageBlackMulch
 ];
 
 function init() {

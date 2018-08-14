@@ -2,7 +2,7 @@ setTitle("Compact Machine")
 
 setIcon("compactmachines3:psd")
 
-setDescription("Go do stuff")
+setDescription("This is for the Compact Machine World Type Only!")
 
 setBackground("compactmachines3:textures/blocks/wall.png")
 

@@ -1,0 +1,16 @@
+setTitle("Seeds")
+
+setIcon("minecraft:wheat_seeds")
+
+setDescription("Break Tall Grass to find Wheat Seeds")
+
+addParent("sf4:ageFarming/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("minecraft:wheat_seeds")
+
+//Rewards
+setRewardExperience(4)

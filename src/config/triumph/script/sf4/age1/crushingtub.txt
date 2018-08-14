@@ -2,7 +2,7 @@ setTitle("Crushing Tub")
 
 setIcon("rustic:crushing_tub")
 
-setDescription("Crushing Tub")
+setDescription("Craft a Crushing Tub")
 
 setParent("sf4:age1/root")
 

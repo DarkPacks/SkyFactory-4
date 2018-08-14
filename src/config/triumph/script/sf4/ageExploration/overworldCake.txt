@@ -1,0 +1,16 @@
+setTitle("Overworld Cake")
+
+setIcon("dimensionaledibles:overworld_cake")
+
+setDescription("Craft, place, and eat Overworld ")
+
+setParent("sf4:ageExploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("dimensionaledibles:overworld_cake")
+
+//Rewards
+setRewardExperience(4)

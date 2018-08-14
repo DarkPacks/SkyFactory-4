@@ -1,0 +1,17 @@
+setTitle("Mooshroom Seed")
+
+setIcon("animalcrops:seeds", 0, {entity: "minecraft:mooshroom"})
+
+setDescription("Craft and plant a Mooshroom Seed")
+
+addParent("sf4:ageFarming/wheatSeeds")
+
+drawDirectLines(true)
+setPos(5, 10)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("ceramics:clay_bucket", {entity: "minecraft:mooshroom"})
+
+//Rewards
+setRewardExperience(4)

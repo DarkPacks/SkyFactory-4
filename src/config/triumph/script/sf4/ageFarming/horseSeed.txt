@@ -1,0 +1,17 @@
+setTitle("Horse Seed")
+
+setIcon("animalcrops:seeds", 0, {entity: "minecraft:horse"})
+
+setDescription("Craft and plant a Horse Seed")
+
+addParent("sf4:ageFarming/wheatSeeds")
+
+drawDirectLines(true)
+setPos(15, 10)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("ceramics:clay_bucket", {entity: "minecraft:horse"})
+
+//Rewards
+setRewardExperience(4)

@@ -1,0 +1,17 @@
+setTitle("Cow Seed")
+
+setIcon("animalcrops:seeds", 0, {entity: "minecraft:cow"})
+
+setDescription("Craft and plant a Cow Seed")
+
+addParent("sf4:ageFarming/wheatSeeds")
+
+drawDirectLines(true)
+setPos(1, 10)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("ceramics:clay_bucket", {entity: "minecraft:cow"})
+
+//Rewards
+setRewardExperience(4)

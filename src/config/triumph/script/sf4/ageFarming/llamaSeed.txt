@@ -1,0 +1,17 @@
+setTitle("Llama Seed")
+
+setIcon("animalcrops:seeds", 0, {entity: "minecraft:llama"})
+
+setDescription("Craft and plant a Llama Seed")
+
+addParent("sf4:ageFarming/wheatSeeds")
+
+drawDirectLines(true)
+setPos(6, 10)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("ceramics:clay_bucket", {entity: "minecraft:llama"})
+
+//Rewards
+setRewardExperience(4)

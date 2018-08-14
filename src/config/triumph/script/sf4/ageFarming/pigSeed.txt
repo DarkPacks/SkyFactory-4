@@ -1,0 +1,17 @@
+setTitle("Pig Seed")
+
+setIcon("animalcrops:seeds", 0, {entity: "minecraft:pig"})
+
+setDescription("Craft and plant a Pig Seed")
+
+addParent("sf4:ageFarming/wheatSeeds")
+
+drawDirectLines(true)
+setPos(4, 10)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("ceramics:clay_bucket", {entity: "minecraft:pig"})
+
+//Rewards
+setRewardExperience(4)

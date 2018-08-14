@@ -1,0 +1,17 @@
+setTitle("Spider Seed")
+
+setIcon("animalcrops:seeds", 0, {entity: "minecraft:spider"})
+
+setDescription("Craft and plant a Spider Seed")
+
+addParent("sf4:ageFarming/wheatSeeds")
+
+drawDirectLines(true)
+setPos(8, 11)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("ceramics:clay_bucket", {entity: "minecraft:spider"})
+
+//Rewards
+setRewardExperience(4)

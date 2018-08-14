@@ -2,7 +2,7 @@ setTitle("SkyFactory IIII")
 
 setIcon("minecraft:stone")
 
-setDescription("Hey")
+setDescription("Lorem ipsum dolor sit amet")
 
 setBackground("minecraft:textures/blocks/cobblestone.png")
 

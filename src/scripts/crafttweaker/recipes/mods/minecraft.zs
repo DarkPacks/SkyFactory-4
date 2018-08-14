@@ -203,13 +203,6 @@ static removeRecipes as IItemStack[] = [
 	<clickmachine:auto_clicker>,
 	<pressure:water_source>,
 	<sonarcore:reinforceddirtblock>,
-	<inspirations:mulch:1>,
-	<inspirations:mulch:2>,
-	<inspirations:mulch:3>,
-	<inspirations:mulch:4>,
-	<inspirations:mulch:5>,
-	<inspirations:mulch:6>,
-	<inspirations:mulch:7>,
 	<tp:wooden_shears>
 
 ];

@@ -2,7 +2,7 @@ setTitle("Age of Exploration")
 
 setIcon("huntingdim:portal")
 
-setDescription("Go do stuff")
+setDescription("Lorem ipsum dolor sit amet")
 
 setBackground("minecraft:textures/blocks/cobblestone.png")
 

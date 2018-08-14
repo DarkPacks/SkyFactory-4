@@ -18,3 +18,4 @@
 <ore:cauldron>.add(<morecauldrons:smooth_diorite_cauldron>);
 <ore:cauldron>.add(<morecauldrons:andesite_cauldron>);
 <ore:cauldron>.add(<morecauldrons:smooth_andesite_cauldron>);
+<ore:dyeBlack>.add(<thermalfoundation:material:768>);
