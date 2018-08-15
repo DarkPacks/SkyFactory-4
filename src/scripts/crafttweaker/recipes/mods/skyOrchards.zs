@@ -6,13 +6,15 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import scripts.crafttweaker.craftingUtils;
+
 /*
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	// Saplings
 	<sky_orchards:sapling_clay>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_clay>, <sky_orchards:sapling_dirt>),
+		craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_clay>, <sky_orchards:sapling_dirt>),
 		[
 			[null, <sky_orchards:resin_petrified>, null],
 			[<sky_orchards:resin_petrified>, <sky_orchards:resin_dirt>, <sky_orchards:resin_petrified>],
@@ -20,10 +22,10 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<sky_orchards:sapling_bone>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<minecraft:dye:15>, <sky_orchards:sapling_petrified>)
+		craftingUtils.createSurroundedRecipe(<minecraft:dye:15>, <sky_orchards:sapling_petrified>)
 	],
 	<sky_orchards:sapling_cottonwood>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_cottonwood>, <minecraft:sapling:3>),
+		craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_cottonwood>, <minecraft:sapling:3>),
 		[
 			[null, <minecraft:dye:15>, null],
 			[<minecraft:dye:15>, <minecraft:vine>, <minecraft:dye:15>],
@@ -31,7 +33,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<sky_orchards:sapling_redstone>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_redstone>, <sky_orchards:sapling_coal>),
+		craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_redstone>, <sky_orchards:sapling_coal>),
 		[
 			[null, <ore:dyeRed>, null],
 			[<sky_orchards:resin_iron>, <sky_orchards:resin_petrified>, <sky_orchards:resin_iron>],
@@ -39,15 +41,15 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<sky_orchards:sapling_diamond>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_diamond>, <sky_orchards:sapling_redstone>),
+		craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_diamond>, <sky_orchards:sapling_redstone>),
 		[
-			[null, <ore:treeResinSilver>, null], 
-			[<ore:treeResinGold>, <ore:treeResinLapis>, <ore:treeResinGold>], 
+			[null, <ore:treeResinSilver>, null],
+			[<ore:treeResinGold>, <ore:treeResinLapis>, <ore:treeResinGold>],
 			[null, <sky_orchards:sapling_redstone>, null]
 		]
 	],
 	<sky_orchards:sapling_cookie>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_cookie>, <minecraft:sapling:3>),
+		craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_cookie>, <minecraft:sapling:3>),
 		[
 			[null, <minecraft:cookie>, null],
 			[<minecraft:cookie>, <minecraft:sugar>, <minecraft:cookie>],
@@ -55,7 +57,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<sky_orchards:sapling_bacon>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_bacon>, <minecraft:sapling:3>),
+		craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_bacon>, <minecraft:sapling:3>),
 		[
 			[null, <tconstruct:edible>, null],
 			[<tconstruct:edible>, <minecraft:sugar>, <tconstruct:edible>],
@@ -63,7 +65,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<sky_orchards:sapling_donut>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_donut>, <minecraft:sapling:3>),
+		craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_donut>, <minecraft:sapling:3>),
 		[
 			[null, <xlfoodmod:donut>, null],
 			[<xlfoodmod:donut>, <minecraft:sugar>, <xlfoodmod:donut>],
@@ -71,7 +73,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<sky_orchards:sapling_lapis>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_lapis>, <minecraft:sapling:5>),
+		craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_lapis>, <minecraft:sapling:5>),
 		[
 			[null, <sky_orchards:resin_bone>, null],
 			[<sky_orchards:resin_clay>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <sky_orchards:resin_clay>],
@@ -80,43 +82,43 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<sky_orchards:sapling_emerald>: [
 		[
-			[null, <sky_orchards:resin_nickel>, null], 
-			[<sky_orchards:resin_aluminum>, <tconstruct:materials:9>, <sky_orchards:resin_aluminum>], 
+			[null, <sky_orchards:resin_nickel>, null],
+			[<sky_orchards:resin_aluminum>, <tconstruct:materials:9>, <sky_orchards:resin_aluminum>],
 			[null, <sky_orchards:sapling_diamond>, null]
 		]
 	],
 	<sky_orchards:sapling_quartz>: [
 		[
-			[null, <ore:gemQuartz>, null], 
-			[<ore:netherrack>, <tconstruct:materials:11>, <ore:netherrack>], 
+			[null, <ore:gemQuartz>, null],
+			[<ore:netherrack>, <tconstruct:materials:11>, <ore:netherrack>],
 			[null, <sky_orchards:sapling_obsidian>, null]
 		]
 	],
 	<sky_orchards:sapling_glowstone>: [
 		[
-			[null, <integrateddynamics:menril_berries>, null], 
-			[<sky_orchards:resin_quartz>, <ore:dustBlaze>, <sky_orchards:resin_quartz>], 
+			[null, <integrateddynamics:menril_berries>, null],
+			[<sky_orchards:resin_quartz>, <ore:dustBlaze>, <sky_orchards:resin_quartz>],
 			[null, <sky_orchards:sapling_redstone>, null]
 		]
 	],
 	<sky_orchards:sapling_netherrack>: [
 		[
-			[null, <minecraft:netherrack>, null], 
-			[<sky_orchards:resin_diamond>, <sky_orchards:resin_gold>, <sky_orchards:resin_diamond>], 
+			[null, <minecraft:netherrack>, null],
+			[<sky_orchards:resin_diamond>, <sky_orchards:resin_gold>, <sky_orchards:resin_diamond>],
 			[null, <sky_orchards:sapling_obsidian>, null]
 		]
 	],
 	<sky_orchards:sapling_petrified>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_petrified>, <sky_orchards:sapling_dirt>)
+		craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_petrified>, <sky_orchards:sapling_dirt>)
 	],
 	<sky_orchards:sapling_sand>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_sand>, <sky_orchards:sapling_petrified>)
+		craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_sand>, <sky_orchards:sapling_petrified>)
 	],
 	<sky_orchards:sapling_gravel>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_gravel>, <sky_orchards:sapling_petrified>)
+		craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_gravel>, <sky_orchards:sapling_petrified>)
 	],
 	<sky_orchards:sapling_dirt>: [
-		scripts.crafttweaker.craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_dirt>, <minecraft:sapling>)
+		craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_dirt>, <minecraft:sapling>)
 	],
 
 	// Amber Crafting
@@ -207,13 +209,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<sky_orchards:amber_aluminum>: [
 		[
-			[<sky_orchards:resin_bone>, <sky_orchards:resin_lapis>, <sky_orchards:resin_bone>], 
-			[<sky_orchards:resin_redstone>, <minecraft:apple>, <sky_orchards:resin_redstone>], 
+			[<sky_orchards:resin_bone>, <sky_orchards:resin_lapis>, <sky_orchards:resin_bone>],
+			[<sky_orchards:resin_redstone>, <minecraft:apple>, <sky_orchards:resin_redstone>],
 			[<sky_orchards:resin_bone>, <sky_orchards:resin_lapis>, <sky_orchards:resin_bone>]
 		],
 		[
-			[<sky_orchards:resin_bone>, <sky_orchards:resin_redstone>, <sky_orchards:resin_bone>], 
-			[<sky_orchards:resin_lapis>, <minecraft:apple>, <sky_orchards:resin_lapis>], 
+			[<sky_orchards:resin_bone>, <sky_orchards:resin_redstone>, <sky_orchards:resin_bone>],
+			[<sky_orchards:resin_lapis>, <minecraft:apple>, <sky_orchards:resin_lapis>],
 			[<sky_orchards:resin_bone>, <sky_orchards:resin_redstone>, <sky_orchards:resin_bone>]
 		],
 		[
@@ -224,13 +226,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<sky_orchards:amber_silver>: [
 		[
-			[<sky_orchards:resin_petrified>, <sky_orchards:resin_lead>, <sky_orchards:resin_petrified>], 
-			[<sky_orchards:resin_tin>, <ore:dyeLightGray>, <sky_orchards:resin_tin>], 
+			[<sky_orchards:resin_petrified>, <sky_orchards:resin_lead>, <sky_orchards:resin_petrified>],
+			[<sky_orchards:resin_tin>, <ore:dyeLightGray>, <sky_orchards:resin_tin>],
 			[<sky_orchards:resin_petrified>, <sky_orchards:resin_lead>, <sky_orchards:resin_petrified>]
 		],
 		[
-			[<sky_orchards:resin_petrified>, <sky_orchards:resin_tin>, <sky_orchards:resin_petrified>], 
-			[<sky_orchards:resin_lead>, <ore:dyeLightGray>, <sky_orchards:resin_lead>], 
+			[<sky_orchards:resin_petrified>, <sky_orchards:resin_tin>, <sky_orchards:resin_petrified>],
+			[<sky_orchards:resin_lead>, <ore:dyeLightGray>, <sky_orchards:resin_lead>],
 			[<sky_orchards:resin_petrified>, <sky_orchards:resin_tin>, <sky_orchards:resin_petrified>]
 		],
 		[
@@ -241,13 +243,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<sky_orchards:amber_nickel>: [
 		[
-			[<sky_orchards:resin_petrified>, <sky_orchards:resin_bone>, <sky_orchards:resin_petrified>], 
-			[<sky_orchards:resin_sand>, <ore:dyeBrown>, <sky_orchards:resin_sand>], 
+			[<sky_orchards:resin_petrified>, <sky_orchards:resin_bone>, <sky_orchards:resin_petrified>],
+			[<sky_orchards:resin_sand>, <ore:dyeBrown>, <sky_orchards:resin_sand>],
 			[<sky_orchards:resin_petrified>, <sky_orchards:resin_bone>, <sky_orchards:resin_petrified>]
 		],
 		[
-			[<sky_orchards:resin_petrified>, <sky_orchards:resin_sand>, <sky_orchards:resin_petrified>], 
-			[<sky_orchards:resin_bone>, <ore:dyeBrown>, <sky_orchards:resin_bone>], 
+			[<sky_orchards:resin_petrified>, <sky_orchards:resin_sand>, <sky_orchards:resin_petrified>],
+			[<sky_orchards:resin_bone>, <ore:dyeBrown>, <sky_orchards:resin_bone>],
 			[<sky_orchards:resin_petrified>, <sky_orchards:resin_sand>, <sky_orchards:resin_petrified>]
 		],
 		[
@@ -272,8 +274,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<sky_orchards:amber_cobalt>: [
 		[
-			[<sky_orchards:resin_ardite>, <tconstruct:materials:17>, <sky_orchards:resin_ardite>], 
-			[<tconstruct:materials:17>, <practicallogistics2:sapphiredust>, <tconstruct:materials:17>], 
+			[<sky_orchards:resin_ardite>, <tconstruct:materials:17>, <sky_orchards:resin_ardite>],
+			[<tconstruct:materials:17>, <practicallogistics2:sapphiredust>, <tconstruct:materials:17>],
 			[<sky_orchards:resin_ardite>, <tconstruct:materials:17>, <sky_orchards:resin_ardite>]
 		],
 		[
@@ -284,8 +286,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<sky_orchards:amber_ardite>: [
 		[
-			[<minecraft:blaze_rod>, <sky_orchards:resin_tin>, <minecraft:blaze_rod>], 
-			[<sky_orchards:resin_lead>, <sky_orchards:resin_diamond>, <sky_orchards:resin_lead>], 
+			[<minecraft:blaze_rod>, <sky_orchards:resin_tin>, <minecraft:blaze_rod>],
+			[<sky_orchards:resin_lead>, <sky_orchards:resin_diamond>, <sky_orchards:resin_lead>],
 			[<minecraft:blaze_rod>, <sky_orchards:resin_tin>, <minecraft:blaze_rod>]
 		],
 		[
@@ -296,13 +298,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<sky_orchards:amber_osmium>: [
 		[
-			[<sky_orchards:resin_iron>, <sky_orchards:resin_copper>, <sky_orchards:resin_iron>], 
-			[<sky_orchards:resin_quartz>, <sky_orchards:resin_nickel>, <sky_orchards:resin_quartz>], 
+			[<sky_orchards:resin_iron>, <sky_orchards:resin_copper>, <sky_orchards:resin_iron>],
+			[<sky_orchards:resin_quartz>, <sky_orchards:resin_nickel>, <sky_orchards:resin_quartz>],
 			[<sky_orchards:resin_iron>, <sky_orchards:resin_copper>, <sky_orchards:resin_iron>]
 		],
 		[
-			[<sky_orchards:resin_iron>, <sky_orchards:resin_quartz>, <sky_orchards:resin_iron>], 
-			[<sky_orchards:resin_copper>, <sky_orchards:resin_nickel>, <sky_orchards:resin_copper>], 
+			[<sky_orchards:resin_iron>, <sky_orchards:resin_quartz>, <sky_orchards:resin_iron>],
+			[<sky_orchards:resin_copper>, <sky_orchards:resin_nickel>, <sky_orchards:resin_copper>],
 			[<sky_orchards:resin_iron>, <sky_orchards:resin_quartz>, <sky_orchards:resin_iron>]
 		],
 		[
