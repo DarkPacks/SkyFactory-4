@@ -15,31 +15,31 @@ printLogo(PACK_VERSION);
 // Stage Naming
 static stageNames as string[] = [
 	// Mod Stages
-	"bonsaiTrees",
-	"fluxNetworks",
-	"ironJetpacks",
-	"mobGrindingUtils",
+	"bonsai_trees",
+	"flux_networks",
+	"iron_jetpacks",
+	"mob_grinding_utils",
 	"mystcraft",
-	"mysticalAgradditions",
-	"mysticalAgriculture",
-	"openComputers",
-	"portalGun",
-	"projectE",
-	"twilightForest",
+	"mystical_agradditions",
+	"mystical_agriculture",
+	"open_computers",
+	"portal_gun",
+	"project_e",
+	"twilight_forest",
 
 	// Misc Prestiege-related Stages
 	"smeltery",
-	"fertilesoil",
-	"brownmulch",
-	"yellowmulch",
-	"ambermulch",
-	"bluemulch",
-	"redmulch",
-	"rubymulch",
-	"blackmulch",
-	"blueslimedirt",
-	"purpleslimedirt",
-	"orangeslimedirt"
+	"fertile_soil",
+	"brown_mulch",
+	"yellow_mulch",
+	"amber_mulch",
+	"blue_mulch",
+	"red_mulch",
+	"ruby_mulch",
+	"black_mulch",
+	"blue_slime_dirt",
+	"purple_slime_dirt",
+	"orange_slime_dirt"
 ];
 
 // ==================================
