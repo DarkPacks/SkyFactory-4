@@ -51,18 +51,6 @@ static removeRecipes as IItemStack[] = [
 
 function init() {
 	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = removeRecipes;
-
-	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
     recipeUtil.process(shapelessRecipes);
