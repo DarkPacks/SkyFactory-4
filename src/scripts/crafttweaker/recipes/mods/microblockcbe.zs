@@ -42,16 +42,16 @@ static removeRecipes as IItemStack[] = [
 
 function init() {
 	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.microblockcbe.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.microblockcbe.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.microblockcbe.shapelessRecipes;
+	var shapedRecipes as IIngredient[][][][IItemStack] = shapedRecipes;
+	var mirroredRecipes as IIngredient[][][][IItemStack] = mirroredRecipes;
+	var shapelessRecipes as IIngredient[][][IItemStack] = shapelessRecipes;
 
 	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.microblockcbe.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.microblockcbe.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.microblockcbe.namedShapelessRecipes;
+	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = namedShapedRecipes;
+	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = namedMirroredRecipes;
+	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = namedShapelessRecipes;
 
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.microblockcbe.removeRecipes;
+	var removeRecipes as IItemStack[] = removeRecipes;
 
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);

@@ -70,7 +70,7 @@ static removeAndHideIngredients as IIngredient[] = [
 ];
 
 function init() {
-	for ingredient in scripts.crafttweaker.recipes.removeAndHide.removeAndHideIngredients {
+	for ingredient in removeAndHideIngredients {
 		JEI.removeAndHide(ingredient);
 	}
 }

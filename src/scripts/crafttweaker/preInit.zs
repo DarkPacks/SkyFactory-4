@@ -8,8 +8,8 @@
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
-var PACK_VERSION as string = "4.0.0"; // Keep below 11 characters
-printLogo(PACK_VERSION);
+static PACK_VERSION as string = "4.0.0"; // Keep below 11 characters
+printLogo();
 
 // ==================================
 // Stage Naming
@@ -48,7 +48,7 @@ for stage in stageNames {
 	ZenStager.initStage(stage);
 }
 
-function printLogo(PACK_VERSION as string) {
+function printLogo() {
 	// ==================================
 	// Logging
 	var packVersionForLogo as string = "v" ~ PACK_VERSION;

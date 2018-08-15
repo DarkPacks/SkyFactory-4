@@ -28,8 +28,8 @@ static seedsToRemove as IItemStack[] = [
 */
 
 function init() {
-	var seedsToAdd as WeightedItemStack[] = scripts.crafttweaker.grassSeedDrop.seedsToAdd;
-	// var seedsToRemove as IItemStack[] = scripts.crafttweaker.grassSeedDrop.seedsToRemove;
+	var seedsToAdd as WeightedItemStack[] = seedsToAdd;
+	// var seedsToRemove as IItemStack[] = seedsToRemove;
 
 	for seed in seedsToAdd {
 		vanilla.seeds.addSeed(seed);

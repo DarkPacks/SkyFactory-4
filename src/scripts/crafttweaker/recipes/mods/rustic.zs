@@ -48,16 +48,16 @@ static removeRecipes as IItemStack[] = [
 
 function init() {
 	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.rustic.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.rustic.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.rustic.shapelessRecipes;
+	var shapedRecipes as IIngredient[][][][IItemStack] = shapedRecipes;
+	var mirroredRecipes as IIngredient[][][][IItemStack] = mirroredRecipes;
+	var shapelessRecipes as IIngredient[][][IItemStack] = shapelessRecipes;
 
 	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.rustic.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.rustic.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.rustic.namedShapelessRecipes;
+	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = namedShapedRecipes;
+	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = namedMirroredRecipes;
+	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = namedShapelessRecipes;
 
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.rustic.removeRecipes;
+	var removeRecipes as IItemStack[] = removeRecipes;
 
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);

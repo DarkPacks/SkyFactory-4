@@ -59,9 +59,7 @@ static ALL_STAGES as Stage[] = [
 ];
 
 function init() {
-	var allStages as Stage[] = scripts.crafttweaker.staging.itemsAndRecipes.stages.ALL_STAGES;
-
-	for stage in allStages {
+	for stage in ALL_STAGES {
 		stage.addRecipeRegex("crafttweaker:stage" ~
 			scripts.crafttweaker.utils.capitalize(stage.stage) ~
 			"_.*"
