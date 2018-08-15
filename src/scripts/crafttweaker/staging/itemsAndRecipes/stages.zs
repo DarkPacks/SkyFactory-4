@@ -25,6 +25,7 @@ import scripts.crafttweaker.stages.stageBlueMulch;
 import scripts.crafttweaker.stages.stageRedMulch;
 import scripts.crafttweaker.stages.stageRubyMulch;
 import scripts.crafttweaker.stages.stageBlackMulch;
+
 // Contains all "useful" stages
 static ALL_STAGES as Stage[] = [
 	// Mod Stages

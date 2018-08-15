@@ -7,13 +7,13 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
-import scripts.crafttweaker.stages.stageBrownMulch;
-import scripts.crafttweaker.stages.stageYellowMulch;
 import scripts.crafttweaker.stages.stageAmberMulch;
+import scripts.crafttweaker.stages.stageBlackMulch;
 import scripts.crafttweaker.stages.stageBlueMulch;
+import scripts.crafttweaker.stages.stageBrownMulch;
 import scripts.crafttweaker.stages.stageRedMulch;
 import scripts.crafttweaker.stages.stageRubyMulch;
-import scripts.crafttweaker.stages.stageBlackMulch;
+import scripts.crafttweaker.stages.stageYellowMulch;
 
 static stagedItems as IIngredient[][string] = {
 	stageBrownMulch.stage: [
