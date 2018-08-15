@@ -18,6 +18,7 @@ initItemsAndRecipesStaging();
 initItemModifiers();
 initRecipes();
 initIntegration();
+scripts.crafttweaker.prestige.init();
 
 // ==================================
 // Build the Stages
