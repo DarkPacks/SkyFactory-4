@@ -25,6 +25,9 @@ import scripts.crafttweaker.stages.stageBlueMulch;
 import scripts.crafttweaker.stages.stageRedMulch;
 import scripts.crafttweaker.stages.stageRubyMulch;
 import scripts.crafttweaker.stages.stageBlackMulch;
+import scripts.crafttweaker.stages.stageBlueSlimeDirt;
+import scripts.crafttweaker.stages.stagePurpleSlimeDirt;
+import scripts.crafttweaker.stages.stageOrangeSlimeDirt;
 
 // Contains all "useful" stages
 static ALL_STAGES as Stage[] = [
@@ -49,7 +52,10 @@ static ALL_STAGES as Stage[] = [
 	stageBlueMulch,
 	stageRedMulch,
 	stageRubyMulch,
-	stageBlackMulch
+	stageBlackMulch,
+	stageBlueSlimeDirt,
+	stagePurpleSlimeDirt,
+	stageOrangeSlimeDirt
 ];
 
 function init() {
