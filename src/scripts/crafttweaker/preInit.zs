@@ -11,43 +11,6 @@ import mods.zenstages.Stage;
 static PACK_VERSION as string = "4.0.0"; // Keep below 11 characters
 printLogo();
 
-// ==================================
-// Stage Naming
-static stageNames as string[] = [
-	// Mod Stages
-	"bonsai_trees",
-	"flux_networks",
-	"iron_jetpacks",
-	"mob_grinding_utils",
-	"mystcraft",
-	"mystical_agradditions",
-	"mystical_agriculture",
-	"open_computers",
-	"portal_gun",
-	"project_e",
-	"twilight_forest",
-
-	// Misc Prestiege-related Stages
-	"smeltery",
-	"fertile_soil",
-	"brown_mulch",
-	"yellow_mulch",
-	"amber_mulch",
-	"blue_mulch",
-	"red_mulch",
-	"ruby_mulch",
-	"black_mulch",
-	"blue_slime_dirt",
-	"purple_slime_dirt",
-	"orange_slime_dirt"
-];
-
-// ==================================
-// Stage Creation
-for stage in stageNames {
-	ZenStager.initStage(stage);
-}
-
 function printLogo() {
 	// ==================================
 	// Logging
