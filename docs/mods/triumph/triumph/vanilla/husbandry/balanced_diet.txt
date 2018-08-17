@@ -1,0 +1,114 @@
+setIcon("minecraft:apple")
+setTranslatedTitle("advancements.husbandry.balanced_diet.title")
+setTranslatedDescription("advancements.husbandry.balanced_diet.description")
+
+setFrameType("challenge")
+
+addParent("triumph:vanilla/husbandry/plant_seed")
+
+setRewardExperience(100)
+
+criteria = addCriteria("apple", "minecraft:consume_item")
+criteria.setItem("minecraft:apple")
+
+criteria = addCriteria("mushroom_stew", "minecraft:consume_item")
+criteria.setItem("minecraft:mushroom_stew")
+
+criteria = addCriteria("bread", "minecraft:consume_item")
+criteria.setItem("minecraft:bread")
+
+criteria = addCriteria("porkchop", "minecraft:consume_item")
+criteria.setItem("minecraft:porkchop")
+
+criteria = addCriteria("cooked_porkchop", "minecraft:consume_item")
+criteria.setItem("minecraft:cooked_porkchop")
+
+criteria = addCriteria("golden_apple", "minecraft:consume_item")
+criteria.setItem("minecraft:golden_apple", 0)
+
+criteria = addCriteria("enchanted_golden_apple", "minecraft:consume_item")
+criteria.setItem("minecraft:golden_apple", 1)
+
+criteria = addCriteria("raw_cod", "minecraft:consume_item")
+criteria.setItem("minecraft:fish", 0)
+
+criteria = addCriteria("raw_salmon", "minecraft:consume_item")
+criteria.setItem("minecraft:fish", 1)
+
+criteria = addCriteria("clownfish", "minecraft:consume_item")
+criteria.setItem("minecraft:fish", 2)
+
+criteria = addCriteria("pufferfish", "minecraft:consume_item")
+criteria.setItem("minecraft:fish", 3)
+
+criteria = addCriteria("cooked_cod", "minecraft:consume_item")
+criteria.setItem("minecraft:cooked_fish", 0)
+
+criteria = addCriteria("cooked_salmon", "minecraft:consume_item")
+criteria.setItem("minecraft:cooked_fish", 1)
+
+criteria = addCriteria("cookie", "minecraft:consume_item")
+criteria.setItem("minecraft:cookie")
+
+criteria = addCriteria("melon", "minecraft:consume_item")
+criteria.setItem("minecraft:melon")
+
+criteria = addCriteria("beef", "minecraft:consume_item")
+criteria.setItem("minecraft:beef")
+
+criteria = addCriteria("cooked_beef", "minecraft:consume_item")
+criteria.setItem("minecraft:cooked_beef")
+
+criteria = addCriteria("chicken", "minecraft:consume_item")
+criteria.setItem("minecraft:chicken")
+
+criteria = addCriteria("cooked_chicken", "minecraft:consume_item")
+criteria.setItem("minecraft:cooked_chicken")
+
+criteria = addCriteria("rotten_flesh", "minecraft:consume_item")
+criteria.setItem("minecraft:rotten_flesh")
+
+criteria = addCriteria("spider_eye", "minecraft:consume_item")
+criteria.setItem("minecraft:spider_eye")
+
+criteria = addCriteria("carrot", "minecraft:consume_item")
+criteria.setItem("minecraft:carrot")
+
+criteria = addCriteria("potato", "minecraft:consume_item")
+criteria.setItem("minecraft:potato")
+
+criteria = addCriteria("baked_potato", "minecraft:consume_item")
+criteria.setItem("minecraft:baked_potato")
+
+criteria = addCriteria("poisonous_potato", "minecraft:consume_item")
+criteria.setItem("minecraft:poisonous_potato")
+
+criteria = addCriteria("golden_carrot", "minecraft:consume_item")
+criteria.setItem("minecraft:golden_carrot")
+
+criteria = addCriteria("pumpkin_pie", "minecraft:consume_item")
+criteria.setItem("minecraft:pumpkin_pie")
+
+criteria = addCriteria("rabbit", "minecraft:consume_item")
+criteria.setItem("minecraft:rabbit")
+
+criteria = addCriteria("cooked_rabbit", "minecraft:consume_item")
+criteria.setItem("minecraft:cooked_rabbit")
+
+criteria = addCriteria("rabbit_stew", "minecraft:consume_item")
+criteria.setItem("minecraft:rabbit_stew")
+
+criteria = addCriteria("mutton", "minecraft:consume_item")
+criteria.setItem("minecraft:mutton")
+
+criteria = addCriteria("cooked_mutton", "minecraft:consume_item")
+criteria.setItem("minecraft:cooked_mutton")
+
+criteria = addCriteria("chorus_fruit", "minecraft:consume_item")
+criteria.setItem("minecraft:chorus_fruit")
+
+criteria = addCriteria("beetroot", "minecraft:consume_item")
+criteria.setItem("minecraft:beetroot")
+
+criteria = addCriteria("beetroot_soup", "minecraft:consume_item")
+criteria.setItem("minecraft:beetroot_soup")

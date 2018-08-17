@@ -1,0 +1,10 @@
+setIcon("minecraft:elytra")
+setTranslatedTitle("advancements.end.elytra.title")
+setTranslatedDescription("advancements.end.elytra.description")
+
+setFrameType("goal")
+
+addParent("triumph:vanilla/end/find_end_city")
+
+criteria = addCriteria("elytra", "minecraft:inventory_changed")
+criteria.addItem("minecraft:elytra")

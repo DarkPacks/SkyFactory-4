@@ -1,0 +1,11 @@
+
+setIcon("minecraft:totem_of_undying")
+setTranslatedTitle("advancements.adventure.totem_of_undying.title")
+setTranslatedDescription("advancements.adventure.totem_of_undying.description")
+
+setFrameType("goal")
+
+addParent("triumph:vanilla/adventure/kill_a_mob")
+
+criteria = addCriteria("used_totem", "minecraft:used_totem")
+criteria.setItem("minecraft:totem_of_undying")

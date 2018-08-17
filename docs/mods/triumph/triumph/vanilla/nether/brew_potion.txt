@@ -1,0 +1,7 @@
+setIcon("minecraft:potion")
+setTranslatedTitle("advancements.nether.brew_potion.title")
+setTranslatedDescription("advancements.nether.brew_potion.description")
+
+addParent("triumph:vanilla/nether/obtain_blaze_rod")
+
+criteria = addCriteria("potion", "minecraft:brewed_potion")

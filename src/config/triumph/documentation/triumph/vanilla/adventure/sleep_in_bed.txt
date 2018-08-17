@@ -1,8 +1,0 @@
-
-setIcon("minecraft:bed")
-setTranslatedTitle("advancements.adventure.sleep_in_bed.title")
-setTranslatedDescription("advancements.adventure.sleep_in_bed.description")
-
-addParent("triumph:vanilla/adventure/root")
-
-addCriteria("slept_in_bed", "minecraft:slept_in_bed")

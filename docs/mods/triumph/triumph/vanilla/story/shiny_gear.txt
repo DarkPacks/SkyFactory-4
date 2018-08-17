@@ -1,0 +1,19 @@
+setIcon("minecraft:diamond_chestplate")
+setTranslatedTitle("advancements.story.shiny_gear.title")
+setTranslatedDescription("advancements.story.shiny_gear.description")
+
+addParent("triumph:vanilla/story/mine_diamond")
+
+criteria = addCriteria("diamond_helmet", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond_helmet")
+
+criteria = addCriteria("diamond_chestplate", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond_chestplate")
+
+criteria = addCriteria("diamond_leggings", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond_leggings")
+
+criteria = addCriteria("diamond_boots", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond_boots")
+
+setRequirements("any")

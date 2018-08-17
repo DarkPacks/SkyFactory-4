@@ -1,0 +1,9 @@
+
+setIcon("minecraft:nether_star")
+setTranslatedTitle("advancements.nether.summon_wither.title")
+setTranslatedDescription("advancements.nether.summon_wither.description")
+
+addParent("triumph:vanilla/nether/get_wither_skull")
+
+criteria = addCriteria("summoned", "minecraft:summoned_entity")
+criteria.setEntityType("wither")

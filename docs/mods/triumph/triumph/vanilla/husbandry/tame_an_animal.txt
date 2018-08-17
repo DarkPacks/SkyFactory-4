@@ -1,0 +1,7 @@
+setIcon("minecraft:lead")
+setTranslatedTitle("advancements.husbandry.tame_an_animal.title")
+setTranslatedDescription("advancements.husbandry.tame_an_animal.description")
+
+addParent("triumph:vanilla/husbandry/root")
+
+criteria = addCriteria("tamed_animal", "minecraft:tame_animal")

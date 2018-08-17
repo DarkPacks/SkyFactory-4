@@ -1,0 +1,11 @@
+addParent("triumph:vanilla/recipes/root")
+
+addRewardRecipe("minecraft:golden_carrot")
+
+criteria = addCriteria("has_gold_nugget", "minecraft:inventory_changed")
+criteria.addItem("minecraft:gold_nugget")
+
+criteria = addCriteria("has_the_recipe", "minecraft:recipe_unlocked")
+criteria.setRecipe("golden_carrot")
+
+setRequirements("any")

@@ -1,0 +1,37 @@
+setIcon("minecraft:wheat")
+setTranslatedTitle("advancements.husbandry.breed_an_animal.title")
+setTranslatedDescription("advancements.husbandry.breed_an_animal.description")
+
+addParent("triumph:vanilla/husbandry/root")
+
+criteria = addCriteria("bred_horse", "minecraft:bred_animals")
+criteria.setParentType("minecraft:horse")
+
+criteria = addCriteria("bred_sheep", "minecraft:bred_animals")
+criteria.setParentType("minecraft:sheep")
+
+criteria = addCriteria("bred_cow", "minecraft:bred_animals")
+criteria.setParentType("minecraft:cow")
+
+criteria = addCriteria("bred_mooshroom", "minecraft:bred_animals")
+criteria.setParentType("minecraft:mooshroom")
+
+criteria = addCriteria("bred_pig", "minecraft:bred_animals")
+criteria.setParentType("minecraft:pig")
+
+criteria = addCriteria("bred_chicken", "minecraft:bred_animals")
+criteria.setParentType("minecraft:chicken")
+
+criteria = addCriteria("bred_wolf", "minecraft:bred_animals")
+criteria.setParentType("minecraft:wolf")
+
+criteria = addCriteria("bred_ocelot", "minecraft:bred_animals")
+criteria.setParentType("minecraft:ocelot")
+
+criteria = addCriteria("bred_rabbit", "minecraft:bred_animals")
+criteria.setParentType("minecraft:rabbit")
+
+criteria = addCriteria("bred_llama", "minecraft:bred_animals")
+criteria.setParentType("minecraft:llama")
+
+setRequirements("any")

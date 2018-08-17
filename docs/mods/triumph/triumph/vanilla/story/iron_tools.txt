@@ -1,0 +1,8 @@
+setIcon("minecraft:iron_pickaxe")
+setTranslatedTitle("advancements.story.iron_tools.title")
+setTranslatedDescription("advancements.story.iron_tools.description")
+
+addParent("triumph:vanilla/story/smelt_iron")
+
+criteria = addCriteria("iron_pickaxe", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_pickaxe")

@@ -1,0 +1,14 @@
+
+setIcon("minecraft:shulker_shell")
+setTranslatedTitle("advancements.end.levitate.title")
+setTranslatedDescription("advancements.end.levitate.description")
+
+setFrameType("challenge")
+
+addParent("triumph:vanilla/end/find_end_city")
+
+setRewardExperience(50)
+
+criteria = addCriteria("levitated", "minecraft:levitation")
+distance = criteria.getDistanceData()
+distance.setYMin(50)

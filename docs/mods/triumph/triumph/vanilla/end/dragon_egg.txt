@@ -1,0 +1,10 @@
+setIcon("minecraft:dragon_egg")
+setTranslatedTitle("advancements.end.dragon_egg.title")
+setTranslatedDescription("advancements.end.dragon_egg.description")
+
+setFrameType("goal")
+
+addParent("triumph:vanilla/end/kill_dragon")
+
+criteria = addCriteria("dragon_egg", "minecraft:inventory_changed")
+criteria.setItem("minecraft:dragon_egg")

@@ -1,0 +1,17 @@
+
+setIcon("minecraft:ghast_tear")
+setTranslatedTitle("advancements.nether.uneasy_alliance.title")
+setTranslatedDescription("advancements.nether.uneasy_alliance.description")
+
+setFrameType("challenge")
+
+addParent("triumph:vanilla/nether/return_to_sender")
+
+setRewardExperience(100)
+
+criteria = addCriteria("killed_ghast", "minecraft:player_killed_entity")
+
+criteria.setEntityType("minecraft:ghast")
+entityData = criteria.getEntityData()
+location = entityData.getLocationData()
+location.setDimensionType("overworld")

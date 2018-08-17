@@ -1,0 +1,22 @@
+setIcon("minecraft:milk_bucket")
+setTranslatedTitle("advancements.nether.all_potions.title")
+setTranslatedDescription("advancements.nether.all_potions.description")
+
+setFrameType("challenge")
+
+addParent("triumph:vanilla/nether/brew_potion")
+
+setRewardExperience(100)
+
+criteria = addCriteria("all_effects", "minecraft:effects_changed")
+criteria.addEffect("minecraft:speed")
+criteria.addEffect("minecraft:slowness")
+criteria.addEffect("minecraft:strength")
+criteria.addEffect("minecraft:jump_boost")
+criteria.addEffect("minecraft:regeneration")
+criteria.addEffect("minecraft:fire_resistance")
+criteria.addEffect("minecraft:water_breathing")
+criteria.addEffect("minecraft:invisibility")
+criteria.addEffect("minecraft:night_vision")
+criteria.addEffect("minecraft:weakness")
+criteria.addEffect("minecraft:poison")

@@ -1,0 +1,11 @@
+
+setIcon("minecraft:end_crystal")
+setTranslatedTitle("advancements.end.respawn_dragon.title")
+setTranslatedDescription("advancements.end.respawn_dragon.description")
+
+setFrameType("goal")
+
+addParent("triumph:vanilla/end/kill_dragon")
+
+criteria = addCriteria("summoned_dragon", "minecraft:summoned_entity")
+criteria.setEntityType("ender_dragon")

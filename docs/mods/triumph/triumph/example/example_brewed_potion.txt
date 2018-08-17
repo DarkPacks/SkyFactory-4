@@ -1,0 +1,25 @@
+//Set icon item
+setIcon(<minecraft:brewing_stand>)
+
+//Set title String
+setTitle("Liquid health!")
+
+//Set description String
+setDescription("Brew a healing potion")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(15, 10)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+//Adds criteria named "brewedPotion" with the trigger type "minecraft:brewed_potion". This function returns the criteria trigger as an object
+criteria = addCriteria("brewedPotion", "minecraft:brewed_potion")
+
+//Sets the required potion type for the criteria. This is the potion type that needs to be brewed.
+criteria.setPotionType("minecraft:healing")
+
+//By not setting anything about requirements here, all criteria are automatically required
