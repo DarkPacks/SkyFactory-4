@@ -27,9 +27,6 @@ static stagedMods as string[][string] = {
 	stageIronJetpacks.stage: [
 		"ironjetpacks"
 	],
-	stageMobGrindingUtils.stage: [
-		"mob_grinding_utils"
-	],
 	stageMystcraft.stage: [
 		"mystcraft"
 	],
