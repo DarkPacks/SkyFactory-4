@@ -60,9 +60,6 @@ static ALL_STAGES as Stage[] = [
 
 function init() {
 	for stage in ALL_STAGES {
-		stage.addRecipeRegex("crafttweaker:stage" ~
-			scripts.crafttweaker.utils.capitalize(stage.stage) ~
-			"_.*"
-		);
+		stage.addRecipeRegex(stage.recipeRegex);
 	}
 }
