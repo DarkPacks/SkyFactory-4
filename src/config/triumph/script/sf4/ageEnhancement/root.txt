@@ -1,6 +1,6 @@
 setTitle("Age of Enhancement")
 
-setIcon("minecraft:stone")
+setIcon("minecraft:anvil")
 
 setDescription("Lorem ipsum dolor sit amet")
 

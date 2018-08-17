@@ -49,6 +49,7 @@ static removeAndHideIngredients as IIngredient[] = [
 	<compactstorage:compactchest:4>,
 	<animalcrops:bush>,
 	<astralsorcery:blockportalnode>,
+	<storagenetwork:remote:1>,
 
 	//Creative
 	<bibliocraft:bibliocreativelock>,

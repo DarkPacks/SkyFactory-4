@@ -1,0 +1,17 @@
+setTitle("Pattern Chest")
+
+setIcon("tconstruct:tooltables", 4)
+
+setDescription("Craft a Pattern Chest")
+
+setParent("sf4:ageEnhancement/partBuilder")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("tconstruct:tooltables", 4)
+
+
+//Rewards
+setRewardExperience(4)

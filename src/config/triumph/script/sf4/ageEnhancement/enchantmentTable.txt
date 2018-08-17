@@ -1,0 +1,16 @@
+setTitle("Enchantment Table")
+
+setIcon("minecraft:enchanting_table")
+
+setDescription("Craft an Enchantment Table")
+
+setParent("sf4:ageEnhancement/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("minecraft:enchanting_table")
+
+//Rewards
+setRewardExperience(4)

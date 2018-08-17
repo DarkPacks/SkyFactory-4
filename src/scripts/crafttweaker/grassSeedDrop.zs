@@ -8,11 +8,11 @@ import crafttweaker.item.WeightedItemStack;
 
 static seedsToAdd as WeightedItemStack[] = [
 	<minecraft:beetroot_seeds>.weight(100),
-	<minecraft:carrot>.weight(100),
 	<minecraft:melon_seeds>.weight(100),
-	<minecraft:potato>.weight(100),
 	<minecraft:pumpkin_seeds>.weight(100),
 	<minecraft:wheat_seeds>.weight(100),
+	<inspirations:carrot_seeds>.weight(100),
+	<inspirations:potato_seeds>.weight(100),
 	<xlfoodmod:lettuce_seeds>.weight(100)
 ];
 

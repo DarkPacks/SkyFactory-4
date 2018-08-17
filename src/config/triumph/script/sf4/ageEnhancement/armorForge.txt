@@ -1,0 +1,16 @@
+setTitle("Armor Forge")
+
+setIcon("conarm:armorforge")
+
+setDescription("Craft a Armor Forge")
+
+setParent("sf4:ageEnhancement/armorStation")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("conarm:armorforge")
+
+//Rewards
+setRewardExperience(4)

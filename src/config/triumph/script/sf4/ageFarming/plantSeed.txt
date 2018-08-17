@@ -1,0 +1,14 @@
+setIcon("minecraft:wheat")
+
+setTitle("Plant Seeds")
+
+setDescription("Grow Wheat")
+
+addParent("sf4:ageFarming/wheatSeeds")
+
+drawDirectLines(true)
+
+criteria = addCriteria("wheat", "minecraft:placed_block")
+criteria.setBlock("minecraft:wheat")
+
+setRequirements("any")
