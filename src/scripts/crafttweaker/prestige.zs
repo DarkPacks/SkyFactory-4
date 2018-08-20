@@ -22,6 +22,7 @@ import scripts.crafttweaker.stages.stageRubyMulch;
 import scripts.crafttweaker.stages.stageSmeltery;
 import scripts.crafttweaker.stages.stageTwilightForest;
 import scripts.crafttweaker.stages.stageYellowMulch;
+import scripts.crafttweaker.stages.stageOreExcavation;
 
 function init() {
     // Mod ID
