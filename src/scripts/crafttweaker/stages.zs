@@ -34,3 +34,4 @@ static stageBlackMulch as Stage = ZenStager.initStage("black_mulch");
 static stageBlueSlimeDirt as Stage = ZenStager.initStage("blue_slime_dirt");
 static stagePurpleSlimeDirt as Stage = ZenStager.initStage("purple_slime_dirt");
 static stageOrangeSlimeDirt as Stage = ZenStager.initStage("orange_slime_dirt");
+static stageOreExcavation as Stage = ZenStager.initStage("ore_excavation");

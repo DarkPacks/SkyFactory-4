@@ -47,6 +47,6 @@ function init() {
     Rewards.registerCommandReward("purpleslimedirt", "gamestage add @p " ~ stagePurpleSlimeDirt.stage);
     Rewards.registerCommandReward("orangeslimedirt", "gamestage add @p " ~ stageOrangeSlimeDirt.stage);
 
-    //Enable Excavation via game stage/Prestige
-    Rewards.registerCommandReward("ore_excavation", "gamestage add @p ore_excavation");
+    // Enable Excavation via game stage/Prestige
+    Rewards.registerCommandReward("ore_excavation", "gamestage add @p " ~ stageOreExcavation.stage);
 }
