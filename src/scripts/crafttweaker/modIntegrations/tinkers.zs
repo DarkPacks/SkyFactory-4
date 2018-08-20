@@ -50,7 +50,6 @@ function init() {
 	tinkers.addMelting(<liquid:gold> * 16, <sky_orchards:acorn_gold>);
 	// tinkers.addMelting(<liquid:lapis> * 100, <sky_orchards:acorn_lapis>);
 	tinkers.addMelting(<liquid:redstone> * 100, <sky_orchards:acorn_redstone>);
-	tinkers.addMelting(<liquid:obsidian> * 8, <sky_orchards:acorn_obsidian>);
 	tinkers.addMelting(<liquid:copper> * 16, <sky_orchards:acorn_copper>);
 	tinkers.addMelting(<liquid:lead> * 16, <sky_orchards:acorn_lead>);
 	tinkers.addMelting(<liquid:tin> * 16, <sky_orchards:acorn_tin>);
@@ -104,6 +103,8 @@ function init() {
 	tinkers.addCastingTable(<sky_orchards:sapling_osmium>, <integrateddynamics:menril_sapling>, <liquid:osmium>, 144, true, 200);
 	tinkers.addCastingTable(<minecraft:golden_apple>, <minecraft:apple>, <liquid:gold>, 1152, true, 200);
 	tinkers.addCastingTable(<tp:reinforced_obsidian_ingot>, <tconstruct:cast_custom>, <liquid:reinforced_obsidian>, 144, false, 200);
+	tinkers.addCastingTable(<sky_orchards:sapling_ardite>, <tconstruct:slime_sapling:2>, <liquid:ardite>, 144, true, 200);
+	tinkers.addCastingTable(<sky_orchards:sapling_cobalt>, <tconstruct:slime_sapling:1>, <liquid:cobalt>, 144, true, 200);
 
 	// ==================================
 	// Casting Basin

@@ -22,7 +22,6 @@ Extractor.add(<totemic:cedar_log>, <liquid:latex> * 6);
 
 Extractor.add(<sky_orchards:log_iron>, <liquid:iron> * 1, 0.15);
 Extractor.add(<sky_orchards:log_gold>, <liquid:gold> * 1, 0.15);
-Extractor.add(<sky_orchards:log_obsidian>, <liquid:obsidian> * 1, 0.15);
 Extractor.add(<sky_orchards:log_copper>, <liquid:copper> * 1, 0.15);
 Extractor.add(<sky_orchards:log_lead>, <liquid:lead> * 1, 0.15);
 Extractor.add(<sky_orchards:log_tin>, <liquid:tin> * 1, 0.15);

@@ -1,0 +1,16 @@
+setTitle("Iron Bucket")
+
+setIcon("minecraft:bucket")
+
+setDescription("Make an Iron Bucket")
+
+setParent("sf4:age1/ironIngot")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("minecraft:bucket")
+
+//Rewards
+setRewardExperience(4)

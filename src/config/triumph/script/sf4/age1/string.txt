@@ -1,0 +1,16 @@
+setTitle("Cottonwood Trees")
+
+setIcon("minecraft:string")
+
+setDescription("Use the Drying Rack to dry out Cottonwood Leaves to make String")
+
+setParent("sf4:age1/dryingRack")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("minecraft:string")
+
+//Rewards
+setRewardExperience(4)

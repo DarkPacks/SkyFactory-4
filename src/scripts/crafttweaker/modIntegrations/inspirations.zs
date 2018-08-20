@@ -26,6 +26,9 @@ function init() {
 	// Dip Sticks into Liquid Sap to make Torches
 	inspirations.addCauldronFluid(<minecraft:torch>, <minecraft:stick>, <liquid:sap>);
 
+	//Converts lava into Obsidian Block
+	inspirations.addCauldronFluid(<minecraft:obsidian>, <minecraft:water_bucket>, <liquid:lava>, 4);
+
 	// Washing Sand off to bonemeal
 	inspirations.addCauldronFluid(<minecraft:dye:15> * 3, <minecraft:sand>, <liquid:water>);
 
@@ -34,9 +37,6 @@ function init() {
 
 	// Create grass from mud and leaves
 	inspirations.addCauldronFluid(<minecraft:grass>, <ore:treeLeaves> * 4, <liquid:mud>, 4);
-
-	// Obsidian Sapling from dipping diamond sapling in lava
-	inspirations.addCauldronFluid(<sky_orchards:sapling_obsidian>, <sky_orchards:sapling_diamond>, <liquid:lava>, 4);
 
 	// Acacia sapling from apple juice 
 	// TODO: NEED TO CONVERT WATER TO APPLE JUICE WHEN RECIPE COMPLETES
@@ -61,7 +61,7 @@ function init() {
 	// Fill Recipes
 	// ==================================
 	// Converts stone to lava
-	inspirations.addCauldronFill(<minecraft:cobblestone>, <liquid:lava>, 1);
+	inspirations.addCauldronFill(<minecraft:cobblestone>, <liquid:lava>, 1, null, true);
 
 	// ==================================
 	// Cauldron Dyeing Recipes
@@ -72,4 +72,5 @@ function init() {
 	// Cauldron Fluid Transformation Recipes
 	// ==================================
 	inspirations.addCauldronFluidTransform(<liquid:mud>, <minecraft:dirt>, <liquid:water>, 4);
+
 }

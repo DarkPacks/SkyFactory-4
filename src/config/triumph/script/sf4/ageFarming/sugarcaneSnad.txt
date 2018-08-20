@@ -1,0 +1,15 @@
+setIcon("minecraft:reeds")
+
+setTitle("Plant Sugarcane on Snad")
+
+setDescription("Place Snad and grow sugarcane atop it")
+
+addParent("sf4:ageFarming/sugarcaneSeed")
+
+drawDirectLines(true)
+
+criteria = addCriteria("wheat", "minecraft:placed_block")
+criteria.setBlock("minecraft:reeds")
+
+criteria = addCriteria("placedDirt", "minecraft:placed_block")
+criteria.setBlock("snad:snad")

@@ -1,0 +1,16 @@
+setTitle("Auto Packager")
+
+setIcon(<cyclicmagic:auto_packager>)
+
+setDescription("Craft and use an Auto Packager to autocraft Amber and other select blocks")
+
+setParent("sf4:agePower/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<cyclicmagic:auto_packager>)
+
+//Rewards
+setRewardExperience(4)

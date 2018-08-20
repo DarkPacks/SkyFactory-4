@@ -91,7 +91,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[null, <ore:gemQuartz>, null],
 			[<ore:netherrack>, <tconstruct:materials:11>, <ore:netherrack>],
-			[null, <sky_orchards:sapling_obsidian>, null]
+			[null, <sky_orchards:sapling_emerald>, null]
 		]
 	],
 	<sky_orchards:sapling_glowstone>: [
@@ -105,7 +105,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[null, <minecraft:netherrack>, null],
 			[<sky_orchards:resin_diamond>, <sky_orchards:resin_gold>, <sky_orchards:resin_diamond>],
-			[null, <sky_orchards:sapling_obsidian>, null]
+			[null, <sky_orchards:sapling_redstone>, null]
 		]
 	],
 	<sky_orchards:sapling_petrified>: [

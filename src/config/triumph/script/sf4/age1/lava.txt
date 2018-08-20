@@ -1,6 +1,6 @@
 setTitle("Lava Bucket")
 
-setIcon("ceramics:clay_bucket", 0, {FluidName:"lava",Amount:1000})
+setIcon("minecraft:lava_bucket")
 
 setDescription("Create lava by using Cobble in a Cauldron collect it in a clay bucket")
 

@@ -59,13 +59,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<sky_orchards:resin_coal>, <sky_orchards:acorn_coal>, <sky_orchards:resin_coal>]
 		]
 	],
-	<minecraft:obsidian>: [
-		[
-			[<sky_orchards:resin_obsidian>, <sky_orchards:acorn_obsidian>, <sky_orchards:resin_obsidian>],
-			[<sky_orchards:acorn_obsidian>, <sky_orchards:resin_obsidian>, <sky_orchards:acorn_obsidian>],
-			[<sky_orchards:resin_obsidian>, <sky_orchards:acorn_obsidian>, <sky_orchards:resin_obsidian>]
-		]
-	],
 	<minecraft:diamond>: [
 		[
 			[<sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>],

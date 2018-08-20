@@ -1,0 +1,11 @@
+setIcon(<minecraft:bed>)
+
+setTitle("Nap Time")
+
+setDescription("Sleep in a bed")
+
+addParent("sf4:age1/string")
+
+drawDirectLines(true)
+
+criteria = addCriteria("slept_in_bed", "minecraft:slept_in_bed")

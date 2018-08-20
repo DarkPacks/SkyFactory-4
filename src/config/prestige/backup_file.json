@@ -4,8 +4,8 @@
     "title": "Portal Gun",
     "description": "Unlocks Portal Gun",
     "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"portalgun:item_portalgun\",Count:1b,tag:{lastFired:1b,width:1,channelName:\"Chell\",grabStrength:4,uuid:\"Global\",username:\"Global\",height:2},Damage:0s}",
-    "x": 277,
-    "y": 249,
+    "x": 288,
+    "y": 189,
     "cost": 250,
     "parents": [],
     "children": [],
@@ -16,8 +16,8 @@
     "title": "Magma Slime Dirt",
     "description": "Magma Slime Dirt",
     "icon": "{id:\"tconstruct:slime_dirt\",Count:1,Damage:3s}",
-    "x": 330,
-    "y": 168,
+    "x": 341,
+    "y": 108,
     "cost": 400,
     "parents": [
       "purpleslimedirt"
@@ -30,8 +30,8 @@
     "title": "Tinkers\u0027 Smeltery",
     "description": "This unlocks the Tinkers\u0027 Construct Smeltery",
     "icon": "{id:\"tconstruct:smeltery_controller\",Count:1b,Damage:0s}",
-    "x": 257,
-    "y": 218,
+    "x": 268,
+    "y": 158,
     "cost": 100,
     "parents": [],
     "children": [],
@@ -42,8 +42,8 @@
     "title": "Mystcraft",
     "description": "it.",
     "icon": "{id:\"mystcraft:page\",Count:1b,tag:{symbol:\"mystcraft:modmat_log2_0\"},Damage:0s}",
-    "x": 344,
-    "y": 218,
+    "x": 355,
+    "y": 158,
     "cost": 750,
     "parents": [],
     "children": [],
@@ -54,8 +54,8 @@
     "title": "Red Mulch",
     "description": "Red Rum",
     "icon": "{id:\"inspirations:mulch\",Count:1,Damage:5s}",
-    "x": 330,
-    "y": 124,
+    "x": 341,
+    "y": 64,
     "cost": 600,
     "parents": [
       "bluemulch"
@@ -70,8 +70,8 @@
     "title": "Black Mulch",
     "description": "Black",
     "icon": "{id:\"inspirations:mulch\",Count:1,Damage:6s}",
-    "x": 382,
-    "y": 73,
+    "x": 393,
+    "y": 13,
     "cost": 800,
     "parents": [
       "rubymulch"
@@ -80,12 +80,24 @@
     "placed": true
   },
   {
+    "identifier": "ore_excavation",
+    "title": "Ore Excavation",
+    "description": "Turns on Ore Excavation",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"minecraft:diamond_pickaxe\",Count:1,Damage:0s}",
+    "x": 245,
+    "y": 221,
+    "cost": 500,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
     "identifier": "projecte",
     "title": "ProjectE",
     "description": "This unlocks the ProjectE mod",
     "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"projecte:item.pe_transmutation_tablet\",Count:1b,Damage:0s}",
-    "x": 299,
-    "y": 218,
+    "x": 310,
+    "y": 158,
     "cost": 1000,
     "parents": [],
     "children": [],
@@ -96,8 +108,8 @@
     "title": "Blue Mulch",
     "description": "Blue",
     "icon": "{id:\"inspirations:mulch\",Count:1,Damage:7s}",
-    "x": 330,
-    "y": 73,
+    "x": 341,
+    "y": 13,
     "cost": 500,
     "parents": [
       "ambermulch"
@@ -112,8 +124,8 @@
     "title": "Mystical Agradditions",
     "description": "Unlocks this mod.",
     "icon": "{id:\"mysticalagradditions:insanium\",Count:1b,Damage:0s}",
-    "x": 353,
-    "y": 281,
+    "x": 364,
+    "y": 221,
     "cost": 1500,
     "parents": [
       "mysticalagriculture"
@@ -126,8 +138,8 @@
     "title": "Blue Slime Dirt",
     "description": "Blue Slime Dirt",
     "icon": "{id:\"tconstruct:slime_dirt\",Count:1,Damage:1s}",
-    "x": 229,
-    "y": 168,
+    "x": 240,
+    "y": 108,
     "cost": 200,
     "parents": [],
     "children": [
@@ -140,8 +152,8 @@
     "title": "Amber Mulch",
     "description": "Amber",
     "icon": "{id:\"inspirations:mulch\",Count:1,Damage:3s}",
-    "x": 277,
-    "y": 73,
+    "x": 288,
+    "y": 13,
     "cost": 400,
     "parents": [
       "yellowmulch"
@@ -156,8 +168,8 @@
     "title": "Purple Slime Dirt",
     "description": "Blue Slime Dirt",
     "icon": "{id:\"tconstruct:slime_dirt\",Count:1,Damage:2s}",
-    "x": 277,
-    "y": 168,
+    "x": 288,
+    "y": 108,
     "cost": 300,
     "parents": [
       "blueslimedirt"
@@ -172,8 +184,8 @@
     "title": "Iron Jetpacks",
     "description": "Unlocks Iron Jetpacks",
     "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"ironjetpacks:platinum_jetpack\",Count:1,Damage:0s}",
-    "x": 234,
-    "y": 249,
+    "x": 245,
+    "y": 189,
     "cost": 500,
     "parents": [],
     "children": [],
@@ -184,8 +196,8 @@
     "title": "Twilight Forest",
     "description": "Yes.",
     "icon": "{id:\"huntingdim:portal\",Count:1b,Damage:0s}",
-    "x": 323,
-    "y": 249,
+    "x": 334,
+    "y": 189,
     "cost": 600,
     "parents": [],
     "children": [],
@@ -196,8 +208,8 @@
     "title": "Fertile Soil",
     "description": "Fertile Soil Get. Winrar",
     "icon": "{id:\"rustic:fertile_soil\",Count:1b,Damage:0s}",
-    "x": 229,
-    "y": 73,
+    "x": 240,
+    "y": 13,
     "cost": 100,
     "parents": [],
     "children": [
@@ -210,8 +222,8 @@
     "title": "Brown Mulch",
     "description": "Brown",
     "icon": "{id:\"inspirations:mulch\",Count:1,Damage:1s}",
-    "x": 229,
-    "y": 124,
+    "x": 240,
+    "y": 64,
     "cost": 200,
     "parents": [
       "fertilesoil"
@@ -226,8 +238,8 @@
     "title": "Ruby Mulch",
     "description": "Ruby",
     "icon": "{id:\"inspirations:mulch\",Count:1,Damage:4s}",
-    "x": 382,
-    "y": 124,
+    "x": 393,
+    "y": 64,
     "cost": 700,
     "parents": [
       "redmulch"
@@ -242,8 +254,8 @@
     "title": "Mystical Agriculture",
     "description": "Unlocks Mystical Agriculture",
     "icon": "{id:\"mysticalagriculture:crafting\",Count:1b,Damage:4s}",
-    "x": 281,
-    "y": 281,
+    "x": 292,
+    "y": 221,
     "cost": 750,
     "parents": [],
     "children": [
@@ -256,8 +268,8 @@
     "title": "Yellow Mulch",
     "description": "It\u0027s yellow",
     "icon": "{id:\"inspirations:mulch\",Count:1,Damage:2s}",
-    "x": 276,
-    "y": 124,
+    "x": 287,
+    "y": 64,
     "cost": 300,
     "parents": [
       "brownmulch"

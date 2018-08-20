@@ -1,0 +1,23 @@
+<tconstruct:tooltables:3>
+<tconstruct:tooltables:5>
+<tconstruct:tooltables:4>
+<tconstruct:toolforge>
+
+
+setTitle("Part Builder")
+
+setIcon("tconstruct:tooltables", 2)
+
+setDescription("Craft a Part Builder")
+
+setParent("sf4:ageEnhancement/stencilTable")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("tconstruct:tooltables", 2)
+
+
+//Rewards
+setRewardExperience(4)

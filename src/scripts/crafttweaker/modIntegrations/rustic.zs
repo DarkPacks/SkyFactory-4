@@ -34,7 +34,6 @@ function init() {
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_cookie>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_bacon>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_donut>);
-	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_obsidian>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_copper>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_lead>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_tin>);
@@ -66,7 +65,7 @@ function init() {
 
 	// Crush Leaves to get Sugar Cane / liquid water
 	for leaf in <ore:treeLeaves>.items {
-		rustic.addCrushingTub(<liquid:water> * 100, <minecraft:reeds>, leaf);
+		rustic.addCrushingTub(<liquid:water> * 100, <inspirations:sugar_cane_seeds>, leaf);
 
 	//Crush Fertile Soil into Vanilla Dirt
 
