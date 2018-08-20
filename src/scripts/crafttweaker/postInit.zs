@@ -52,6 +52,7 @@ function initItemsAndRecipesStaging() {
 	// ==================================
 	// Staging Mod's Items and Recipes
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.inspirations.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.mobGrindingUtils.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.rustic.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.tconstruct.init();
 }
