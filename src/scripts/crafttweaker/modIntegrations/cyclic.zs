@@ -18,7 +18,6 @@ Packager.addRecipe(<minecraft:sand>, [<sky_orchards:acorn_sand> * 4, <sky_orchar
 Packager.addRecipe(<minecraft:gravel>, [<sky_orchards:acorn_gravel> * 4, <sky_orchards:resin_gravel> * 5]);
 Packager.addRecipe(<minecraft:bone_block>, [<sky_orchards:acorn_bone> * 4, <sky_orchards:resin_bone> * 5]);
 Packager.addRecipe(<minecraft:coal>, [<sky_orchards:acorn_coal> * 4, <sky_orchards:resin_coal> * 5]);
-Packager.addRecipe(<minecraft:obsidian>, [<sky_orchards:acorn_obsidian> * 4, <sky_orchards:resin_obsidian> * 5]);
 Packager.addRecipe(<minecraft:netherrack>, [<sky_orchards:acorn_netherrack> * 4, <sky_orchards:resin_netherrack> * 5]);
 Packager.addRecipe(<minecraft:glowstone>, [<sky_orchards:acorn_glowstone> * 4, <sky_orchards:resin_glowstone> * 5]);
 Packager.addRecipe(<minecraft:quartz>, [<sky_orchards:acorn_quartz> * 4, <sky_orchards:resin_quartz> * 5]);

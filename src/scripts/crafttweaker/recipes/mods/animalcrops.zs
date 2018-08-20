@@ -63,7 +63,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<minecraft:blaze_powder>, <minecraft:pumpkin>, <minecraft:blaze_powder>],
 			[null, <minecraft:end_stone>, null],
-			[<ore:dyePurple>, <sky_orchards:acorn_obsidian>, <ore:dyePurple>]
+			[<ore:dyePurple>, <minecraft:obsidian>, <ore:dyePurple>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:donkey"}): [
@@ -165,11 +165,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:skeleton"}): [
-	  	[
-	  		[null, <minecraft:flint>, null],
-	  		[<minecraft:dye:15>, <minecraft:wheat_seeds>, <minecraft:dye:15>],
-	  		[null, <minecraft:flint>, null]
-	  	]
+		[
+			[null, <minecraft:flint>, null],
+			[<minecraft:dye:15>, <minecraft:wheat_seeds>, <minecraft:dye:15>],
+			[null, <minecraft:flint>, null]
+		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:spider"}): [
 		[

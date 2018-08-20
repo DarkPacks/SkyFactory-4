@@ -12,3 +12,17 @@ mods.mekanism.crusher.addRecipe(<sky_orchards:amber_silver>, <mekanism:dust:5> *
 mods.mekanism.crusher.addRecipe(<sky_orchards:amber_osmium>, <mekanism:dust:2> * 2);
 mods.mekanism.crusher.addRecipe(<sky_orchards:amber_nickel>, <thermalfoundation:material:69> * 2);
 mods.mekanism.crusher.addRecipe(<sky_orchards:amber_aluminum>, <thermalfoundation:material:68> * 2);
+
+////
+//
+//
+// Enrichment Chamber
+//
+//
+////
+//mods.mekanism.enrichment.addRecipe(IItemStack inputStack, IItemStack outputStack)
+mods.mekanism.enrichment.addRecipe(<matteroverdrive:tritanium_ore>, <matteroverdrive:tritanium_dust> * 2);
+
+
+
+

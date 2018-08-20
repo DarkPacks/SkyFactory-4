@@ -34,7 +34,6 @@ function init() {
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_cookie>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_bacon>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_donut>);
-	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_obsidian>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_copper>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_lead>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_tin>);

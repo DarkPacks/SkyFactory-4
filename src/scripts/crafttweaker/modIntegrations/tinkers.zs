@@ -50,7 +50,6 @@ function init() {
 	tinkers.addMelting(<liquid:gold> * 16, <sky_orchards:acorn_gold>);
 	// tinkers.addMelting(<liquid:lapis> * 100, <sky_orchards:acorn_lapis>);
 	tinkers.addMelting(<liquid:redstone> * 100, <sky_orchards:acorn_redstone>);
-	tinkers.addMelting(<liquid:obsidian> * 8, <sky_orchards:acorn_obsidian>);
 	tinkers.addMelting(<liquid:copper> * 16, <sky_orchards:acorn_copper>);
 	tinkers.addMelting(<liquid:lead> * 16, <sky_orchards:acorn_lead>);
 	tinkers.addMelting(<liquid:tin> * 16, <sky_orchards:acorn_tin>);
