@@ -29,14 +29,18 @@ function initRecipes() {
 
 	// Mod Specific Recipes
 	scripts.crafttweaker.recipes.mods.animalcrops.init();
+	scripts.crafttweaker.recipes.mods.clickMachine.init();
 	scripts.crafttweaker.recipes.mods.industrialForegoing.init();
 	scripts.crafttweaker.recipes.mods.inspirations.init();
 	scripts.crafttweaker.recipes.mods.microblockcbe.init();
 	scripts.crafttweaker.recipes.mods.minecraft.init();
+	scripts.crafttweaker.recipes.mods.pressurePipes.init();
 	scripts.crafttweaker.recipes.mods.rustic.init();
 	scripts.crafttweaker.recipes.mods.skyOrchards.init();
+	scripts.crafttweaker.recipes.mods.sonarcore.init();
 	scripts.crafttweaker.recipes.mods.statues.init();
 	scripts.crafttweaker.recipes.mods.tconstruct.init();
+	scripts.crafttweaker.recipes.mods.tinyProgressions.init();
 }
 
 function initItemsAndRecipesStaging() {
