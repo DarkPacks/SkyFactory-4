@@ -78,7 +78,7 @@ function init() {
 	// ==================================
 	// Alloying
 	// ==================================
-	tinkers.addAlloying(<liquid:reinforced_obsidian> * 5184, [<liquid:iron> * 270, <liquid:obsidian> * 1152]);
+	tinkers.addAlloying(<liquid:reinforced_obsidian> * 2592, [<liquid:iron> * 270, <liquid:obsidian> * 1152]);
 
 	// ==================================
 	// Drying

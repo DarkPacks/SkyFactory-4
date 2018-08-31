@@ -1,0 +1,22 @@
+setTitle("Glitch Infused Armor")
+
+setIcon("conarm:armorstation")
+
+setDescription("Craft the entire Glitch Infused Armor Set")
+
+setParent("sf4:ageEnhancement/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:glitch_infused_helmet>)
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.addItem(<deepmoblearning:glitch_infused_chestplate>)
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.addItem(<deepmoblearning:glitch_infused_leggings>)
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.addItem(<deepmoblearning:glitch_infused_boots>)
+
+//Rewards
+setRewardExperience(4)

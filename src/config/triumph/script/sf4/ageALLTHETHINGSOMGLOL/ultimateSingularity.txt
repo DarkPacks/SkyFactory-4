@@ -1,0 +1,16 @@
+setTitle("Ultimate Singularity")
+
+setIcon(<extendedcrafting:singularity_ultimate>)
+
+setDescription("Craft an Ultimate Singularity")
+
+addParent("sf4:ageALLTHETHINGSOMGLOL/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<extendedcrafting:singularity_ultimate>)
+
+//Rewards
+setRewardExperience(4)

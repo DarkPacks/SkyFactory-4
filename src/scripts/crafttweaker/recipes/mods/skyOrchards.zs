@@ -274,22 +274,12 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<sky_orchards:amber_cobalt>: [
 		[
-			[<sky_orchards:resin_ardite>, <tconstruct:materials:17>, <sky_orchards:resin_ardite>],
-			[<tconstruct:materials:17>, <practicallogistics2:sapphiredust>, <tconstruct:materials:17>],
-			[<sky_orchards:resin_ardite>, <tconstruct:materials:17>, <sky_orchards:resin_ardite>]
-		],
-		[
 			[<sky_orchards:resin_cobalt>, <sky_orchards:acorn_cobalt>, <sky_orchards:resin_cobalt>],
 			[<sky_orchards:acorn_cobalt>, <sky_orchards:resin_cobalt>, <sky_orchards:acorn_cobalt>],
 			[<sky_orchards:resin_cobalt>, <sky_orchards:acorn_cobalt>, <sky_orchards:resin_cobalt>]
 		]
 	],
 	<sky_orchards:amber_ardite>: [
-		[
-			[<minecraft:blaze_rod>, <sky_orchards:resin_tin>, <minecraft:blaze_rod>],
-			[<sky_orchards:resin_lead>, <sky_orchards:resin_diamond>, <sky_orchards:resin_lead>],
-			[<minecraft:blaze_rod>, <sky_orchards:resin_tin>, <minecraft:blaze_rod>]
-		],
 		[
 			[<sky_orchards:resin_ardite>, <sky_orchards:acorn_ardite>, <sky_orchards:resin_ardite>],
 			[<sky_orchards:acorn_ardite>, <sky_orchards:resin_ardite>, <sky_orchards:acorn_ardite>],
@@ -311,6 +301,21 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<sky_orchards:resin_osmium>, <sky_orchards:acorn_osmium>, <sky_orchards:resin_osmium>],
 			[<sky_orchards:acorn_osmium>, <sky_orchards:resin_osmium>, <sky_orchards:acorn_osmium>],
 			[<sky_orchards:resin_osmium>, <sky_orchards:acorn_osmium>, <sky_orchards:resin_osmium>]
+		]
+	],
+
+	<sky_orchards:sapling_cobalt>: [
+		[
+			[null, <sky_orchards:resin_ardite>, null],
+			[<mekanism:ingot:3>, <deepmoblearning:pristine_matter_wither>, <mekanism:ingot:3>],
+			[null, <tconstruct:slime_sapling:1>, null]
+		]
+	],
+	<sky_orchards:sapling_ardite>: [
+		[
+			[null, <minecraft:nether_star>, null],
+			[<mekanism:ingot:3>, <deepmoblearning:pristine_matter_blaze>, <mekanism:ingot:3>],
+			[null, <tconstruct:slime_sapling:2>, null]
 		]
 	]
 };

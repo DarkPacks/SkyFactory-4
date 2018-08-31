@@ -50,4 +50,7 @@ function init() {
 
     // Enable Excavation via game stage/Prestige
     Rewards.registerCommandReward("ore_excavation", "gamestage add @p " ~ stageOreExcavation.stage);
+
+    // Enable Mega Torch via prestige
+    Rewards.registerCommandReward("mega_torch", "gamestage add @p mega_torch");
 }

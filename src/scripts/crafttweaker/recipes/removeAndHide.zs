@@ -68,6 +68,7 @@ static removeAndHideIngredients as IIngredient[] = [
 	<bibliocraft:bookcasecreative:4>,
 	<bibliocraft:bookcasecreative:2>,
 	<bibliocraft:bookcasecreative:5>,
+	<torchmaster:mega_torch:1>
 ];
 
 function init() {

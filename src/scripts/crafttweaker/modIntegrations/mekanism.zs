@@ -13,6 +13,10 @@ mods.mekanism.crusher.addRecipe(<sky_orchards:amber_osmium>, <mekanism:dust:2> *
 mods.mekanism.crusher.addRecipe(<sky_orchards:amber_nickel>, <thermalfoundation:material:69> * 2);
 mods.mekanism.crusher.addRecipe(<sky_orchards:amber_aluminum>, <thermalfoundation:material:68> * 2);
 
+mods.mekanism.crusher.addRecipe(<practicallogistics2:sapphireore>, <practicallogistics2:sapphiredust> * 2);
+mods.mekanism.crusher.addRecipe(<practicallogistics2:sapphire>, <practicallogistics2:sapphiredust> * 1);
+
+
 ////
 //
 //
@@ -24,5 +28,12 @@ mods.mekanism.crusher.addRecipe(<sky_orchards:amber_aluminum>, <thermalfoundatio
 mods.mekanism.enrichment.addRecipe(<matteroverdrive:tritanium_ore>, <matteroverdrive:tritanium_dust> * 2);
 
 
+////
+//
+//
+// Metallurgic Infuser
+//
+//
+////
 
-
+mods.mekanism.infuser.addRecipe("DIAMOND", 160, <sky_orchards:amber_silver>, <thermalfoundation:material:70>);

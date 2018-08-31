@@ -1,0 +1,16 @@
+setTitle("Peaceful Blaze Statue")
+
+setIcon(<statues:blockblazestatuet4>)
+
+setDescription("Craft a Peaceful Blaze Statue")
+
+addParent("sf4:ageALLTHETHINGSOMGLOL/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<statues:blockblazestatuet4>)
+
+//Rewards
+setRewardExperience(4)

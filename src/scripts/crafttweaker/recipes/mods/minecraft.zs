@@ -141,6 +141,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>],
 			[<sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>]
 		]
+	],
+	<torchmaster:mega_torch>: [
+		[
+			[<integrateddynamics:menril_torch>, <integrateddynamics:menril_torch>, <integrateddynamics:menril_torch>],
+			[<mekanism:ingot:3>, <ore:logWood>, <mekanism:ingot:3>],
+			[<minecraft:prismarine>, <ore:logWood>, <minecraft:prismarine>]
+		]
 	]
 };
 
@@ -168,7 +175,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IItemStack[] = [];
+static removeRecipes as IItemStack[] = [
+<torchmaster:mega_torch>
+];
 
 function init() {
 	// Un-named recipes

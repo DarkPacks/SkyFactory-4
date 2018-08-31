@@ -18,6 +18,27 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:stickWood>, null, null],
 			[<ore:plankWood>, <ore:stickWood>, <ore:stickWood>]
 		]
+	],
+	<tp:reinforced_obsidian> * 2: [
+		[
+			[<minecraft:iron_bars>, <minecraft:obsidian>, <minecraft:iron_bars>],
+			[<minecraft:obsidian>, <minecraft:iron_bars>, <minecraft:obsidian>],
+			[<minecraft:iron_bars>, <minecraft:obsidian>, <minecraft:iron_bars>]
+		]
+	],
+	<tp:reinforced_obsidian>: [
+		[
+			[<tp:reinforced_obsidian_ingot>, <tp:reinforced_obsidian_ingot>, <tp:reinforced_obsidian_ingot>],
+			[<tp:reinforced_obsidian_ingot>, <tp:reinforced_obsidian_ingot>, <tp:reinforced_obsidian_ingot>],
+			[<tp:reinforced_obsidian_ingot>, <tp:reinforced_obsidian_ingot>, <tp:reinforced_obsidian_ingot>]
+		]
+	],
+	<tp:reinforced_glass> * 2: [
+		[
+			[<tp:dirty_glass>, <minecraft:obsidian>, <tp:dirty_glass>],
+			[<minecraft:obsidian>, <tp:dirty_glass>, <minecraft:obsidian>],
+			[<tp:dirty_glass>, <minecraft:obsidian>, <tp:dirty_glass>]
+		]
 	]
 };
 
@@ -46,7 +67,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-	<tp:wooden_shears>
+	<tp:wooden_shears>,
+	<tp:reinforced_obsidian>,
+	<tp:reinforced_glass>
 ];
 
 function init() {

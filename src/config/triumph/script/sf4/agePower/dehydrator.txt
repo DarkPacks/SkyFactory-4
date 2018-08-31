@@ -1,0 +1,16 @@
+setTitle("Dehydrator")
+
+setIcon(<cyclicmagic:dehydrator>)
+
+setDescription("Craft a Dehydrator Machine")
+
+setParent("sf4:agePower/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<cyclicmagic:dehydrator>)
+
+//Rewards
+setRewardExperience(4)
