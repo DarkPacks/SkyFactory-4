@@ -132,6 +132,10 @@ function init() {
 	tinkers.addCastingBasin(<thermalfoundation:glass_alloy:6>, <minecraft:obsidian>, <liquid:lumium>, 144, true, 160);
 	tinkers.addCastingBasin(<thermalfoundation:glass_alloy:7>, <minecraft:obsidian>, <liquid:enderium>, 144, true, 160);
 
+	tinkers.addCastingBasin(<minecraft:glowstone>, null, <liquid:glowstone>, 1000, true, 160);
+
+
+
 	// ==================================
 	// Thermal Dynamics Pipe Upgrades
 	var thermalDuct32 as IItemStack = <thermaldynamics:duct_32>;

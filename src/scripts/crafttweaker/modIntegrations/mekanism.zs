@@ -17,6 +17,7 @@ mods.mekanism.crusher.addRecipe(<practicallogistics2:sapphireore>, <practicallog
 mods.mekanism.crusher.addRecipe(<practicallogistics2:sapphire>, <practicallogistics2:sapphiredust> * 1);
 
 
+
 ////
 //
 //
@@ -26,6 +27,22 @@ mods.mekanism.crusher.addRecipe(<practicallogistics2:sapphire>, <practicallogist
 ////
 //mods.mekanism.enrichment.addRecipe(IItemStack inputStack, IItemStack outputStack)
 mods.mekanism.enrichment.addRecipe(<matteroverdrive:tritanium_ore>, <matteroverdrive:tritanium_dust> * 2);
+
+mods.mekanism.enrichment.addRecipe(<minecraft:wheat>, <minecraft:wheat_seeds> * 2);
+
+////
+//
+//
+// Combiner
+//
+//
+////
+mods.mekanism.combiner.addRecipe(<thermaldynamics:duct_32>, <minecraft:glowstone_dust>, <thermaldynamics:duct_32:2>);
+
+
+
+
+
 
 
 ////

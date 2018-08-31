@@ -7,6 +7,7 @@ setDescription("Craft a Simple Generator")
 setParent("compactmachines:test/3x3x3")
 
 drawDirectLines(true)
+setRequirements("any")
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")

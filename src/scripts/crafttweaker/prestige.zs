@@ -23,6 +23,7 @@ import scripts.crafttweaker.stages.stageSmeltery;
 import scripts.crafttweaker.stages.stageTwilightForest;
 import scripts.crafttweaker.stages.stageYellowMulch;
 import scripts.crafttweaker.stages.stageOreExcavation;
+import scripts.crafttweaker.stages.stageBonsaiTrees;
 
 function init() {
     // Mod ID
@@ -47,6 +48,10 @@ function init() {
     Rewards.registerCommandReward("blueslimedirt", "gamestage add @p " ~ stageBlueSlimeDirt.stage);
     Rewards.registerCommandReward("purpleslimedirt", "gamestage add @p " ~ stagePurpleSlimeDirt.stage);
     Rewards.registerCommandReward("orangeslimedirt", "gamestage add @p " ~ stageOrangeSlimeDirt.stage);
+
+
+    Rewards.registerCommandReward("bonsai", "gamestage add @p " ~ stageBonsaiTrees.stage);
+
 
     // Enable Excavation via game stage/Prestige
     Rewards.registerCommandReward("ore_excavation", "gamestage add @p " ~ stageOreExcavation.stage);

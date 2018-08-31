@@ -2,7 +2,7 @@ setTitle("Dirt")
 
 setIcon("minecraft:dirt")
 
-setDescription("Craft a Dirt Block")
+setDescription("Craft a Dirt Block using Dirt Acorns and Dirt Resin")
 
 setParent("sf4:age1/root")
 
