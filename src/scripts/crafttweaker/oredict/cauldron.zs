@@ -23,3 +23,11 @@
 <ore:cauldron>.add(<morecauldrons:smooth_diorite_cauldron>);
 <ore:cauldron>.add(<morecauldrons:andesite_cauldron>);
 <ore:cauldron>.add(<morecauldrons:smooth_andesite_cauldron>);
+
+//Wood Cauldron
+<ore:woodCauldron>.add(<morecauldrons:acacia_cauldron>);
+<ore:woodCauldron>.add(<morecauldrons:big_oak_cauldron>);
+<ore:woodCauldron>.add(<morecauldrons:birch_cauldron>);
+<ore:woodCauldron>.add(<morecauldrons:jungle_cauldron>);
+<ore:woodCauldron>.add(<morecauldrons:oak_cauldron>);
+<ore:woodCauldron>.add(<morecauldrons:spruce_cauldron>);

@@ -16,6 +16,15 @@ mods.mekanism.crusher.addRecipe(<sky_orchards:amber_aluminum>, <thermalfoundatio
 mods.mekanism.crusher.addRecipe(<practicallogistics2:sapphireore>, <practicallogistics2:sapphiredust> * 2);
 mods.mekanism.crusher.addRecipe(<practicallogistics2:sapphire>, <practicallogistics2:sapphiredust> * 1);
 
+//Tcon Metals
+mods.mekanism.crusher.addRecipe(<tconstruct:ingots:1>, <contenttweaker:ardite_dust> * 1);
+mods.mekanism.crusher.addRecipe(<tconstruct:ingots>, <contenttweaker:cobalt_dust> * 1);
+
+mods.mekanism.crusher.addRecipe(<sky_orchards:amber_ardite>, <contenttweaker:ardite_dust> * 1);
+mods.mekanism.crusher.addRecipe(<sky_orchards:amber_cobalt>, <contenttweaker:cobalt_dust> * 1);
+
+
+
 
 
 ////
@@ -30,7 +39,18 @@ mods.mekanism.enrichment.addRecipe(<matteroverdrive:tritanium_ore>, <matteroverd
 
 mods.mekanism.enrichment.addRecipe(<minecraft:wheat>, <minecraft:wheat_seeds> * 2);
 
-////
+//Tcon Metals
+mods.mekanism.enrichment.addRecipe(<tconstruct:ore:1>, <contenttweaker:ardite_dust> * 2);
+mods.mekanism.enrichment.addRecipe(<tconstruct:ore>, <contenttweaker:cobalt_dust> * 2);
+
+//Making plates!
+mods.mekanism.enrichment.addRecipe(<minecraft:iron_ingot>, <thermalfoundation:material:32>);
+mods.mekanism.enrichment.addRecipe(<minecraft:gold_ingot>, <thermalfoundation:material:33>);
+mods.mekanism.enrichment.addRecipe(<mekanism:ingot:5>, <thermalfoundation:material:320>);
+mods.mekanism.enrichment.addRecipe(<mekanism:ingot:6>, <thermalfoundation:material:321>);
+mods.mekanism.enrichment.addRecipe(<thermalfoundation:material:130>, <thermalfoundation:material:322>);
+mods.mekanism.enrichment.addRecipe(<thermalfoundation:material:131>, <thermalfoundation:material:323>);
+
 //
 //
 // Combiner

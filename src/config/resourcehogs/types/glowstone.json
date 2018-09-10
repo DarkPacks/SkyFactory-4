@@ -1,0 +1,21 @@
+{
+  "id": "glowstone",
+  "inputs": [
+    "minecraft:glowstone"
+  ],
+  "typeName": "Glowstone",
+  "output": "minecraft:glowstone_dust",
+  "diggableBlocks": [
+    "minecraft:dirt"
+  ],
+  "renderBlock": "minecraft:glowstone",
+  "validDimensions": [
+    -1,
+    0,
+    1
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

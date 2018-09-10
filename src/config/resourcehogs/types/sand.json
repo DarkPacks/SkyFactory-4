@@ -1,0 +1,21 @@
+{
+  "id": "sand",
+  "inputs": [
+    "minecraft:sand"
+  ],
+  "typeName": "Sand",
+  "output": "minecraft:sand",
+  "diggableBlocks": [
+    "minecraft:dirt"
+  ],
+  "renderBlock": "minecraft:sand",
+  "validDimensions": [
+    -1,
+    0,
+    1
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

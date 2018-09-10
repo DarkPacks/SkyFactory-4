@@ -1,0 +1,21 @@
+{
+  "id": "quartz",
+  "inputs": [
+    "minecraft:quartz"
+  ],
+  "typeName": "Quartz",
+  "output": "minecraft:quartz",
+  "diggableBlocks": [
+    "minecraft:netherrack"
+  ],
+  "renderBlock": "minecraft:quartz_ore",
+  "validDimensions": [
+    -1,
+    0,
+    1
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

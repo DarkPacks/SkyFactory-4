@@ -1,0 +1,21 @@
+{
+  "id": "lead",
+  "inputs": [
+    "ore:dustLead"
+  ],
+  "typeName": "Lead",
+  "output": "sky_orchards:amber_lead",
+  "diggableBlocks": [
+    "minecraft:dirt"
+  ],
+  "renderBlock": "thermalfoundation:ore:3",
+  "validDimensions": [
+    -1,
+    0,
+    1
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

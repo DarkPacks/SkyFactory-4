@@ -24,6 +24,7 @@ import scripts.crafttweaker.stages.stageTwilightForest;
 import scripts.crafttweaker.stages.stageYellowMulch;
 import scripts.crafttweaker.stages.stageOreExcavation;
 import scripts.crafttweaker.stages.stageBonsaiTrees;
+import scripts.crafttweaker.stages.stageAndroid;
 
 function init() {
     // Mod ID
@@ -58,4 +59,14 @@ function init() {
 
     // Enable Mega Torch via prestige
     Rewards.registerCommandReward("mega_torch", "gamestage add @p mega_torch");
+
+    // Enable Matter Overdrive Pills via Prestige
+    Rewards.registerCommandReward("android", "gamestage add @p android");
+    Rewards.registerCommandReward("android", "give @p matteroverdrive:android_pill");
+    Rewards.registerCommandReward("android", "give @p matteroverdrive:android_pill 1 1");
+    Rewards.registerCommandReward("android", "give @p matteroverdrive:android_pill 1 2");
+
+
+
 }
+

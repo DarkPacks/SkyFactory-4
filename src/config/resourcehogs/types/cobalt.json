@@ -1,0 +1,21 @@
+{
+  "id": "cobalt",
+  "inputs": [
+    "ore:dustCobalt"
+  ],
+  "typeName": "Cobalt",
+  "output": "sky_orchards:amber_cobalt",
+  "diggableBlocks": [
+    "minecraft:soul_sand"
+  ],
+  "renderBlock": "tconstruct:ore",
+  "validDimensions": [
+    -1,
+    0,
+    1
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 10,
+  "digTickDelay": 1200
+}

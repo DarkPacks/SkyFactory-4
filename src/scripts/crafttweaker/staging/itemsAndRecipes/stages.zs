@@ -28,6 +28,7 @@ import scripts.crafttweaker.stages.stageBlackMulch;
 import scripts.crafttweaker.stages.stageBlueSlimeDirt;
 import scripts.crafttweaker.stages.stagePurpleSlimeDirt;
 import scripts.crafttweaker.stages.stageOrangeSlimeDirt;
+import scripts.crafttweaker.stages.stageAndroid;
 
 // Contains all "useful" stages
 static ALL_STAGES as Stage[] = [
@@ -43,7 +44,7 @@ static ALL_STAGES as Stage[] = [
 	stageProjectE,
 	stageTwilightForest,
 
-	// Misc Prestiege-related Stages
+	// Misc Prestige-related Stages
 	stageSmeltery,
 	stageFertileSoil,
 	stageBrownMulch,
@@ -55,7 +56,8 @@ static ALL_STAGES as Stage[] = [
 	stageBlackMulch,
 	stageBlueSlimeDirt,
 	stagePurpleSlimeDirt,
-	stageOrangeSlimeDirt
+	stageOrangeSlimeDirt,
+	stageAndroid
 ];
 
 function init() {

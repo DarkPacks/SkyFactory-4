@@ -1,0 +1,20 @@
+{
+  "id": "ender",
+  "inputs": [
+    "cyclicmagic:horse_upgrade_jump"
+  ],
+  "output": "minecraft:ender_pearl",
+  "diggableBlocks": [
+    "minecraft:end_stone"
+  ],
+  "renderBlock": "extendedcrafting:storage:5",
+  "validDimensions": [
+    -1,
+    0,
+    1
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

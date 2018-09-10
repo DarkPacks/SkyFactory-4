@@ -1,0 +1,21 @@
+{
+  "id": "ironbars",
+  "inputs": [
+    "minecraft:iron_bars"
+  ],
+  "typeName": "Ironbars",
+  "output": "minecraft:iron_bars",
+  "diggableBlocks": [
+    "minecraft:dirt"
+  ],
+  "renderBlock": "minecraft:iron_bars",
+  "validDimensions": [
+    -1,
+    0,
+    1
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

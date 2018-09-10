@@ -1,0 +1,21 @@
+{
+  "id": "redstone",
+  "inputs": [
+    "ore:dustRedstone"
+  ],
+  "typeName": "Redstone",
+  "output": "minecraft:redstone",
+  "diggableBlocks": [
+    "minecraft:dirt"
+  ],
+  "renderBlock": "minecraft:redstone_ore",
+  "validDimensions": [
+    -1,
+    0,
+    1
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.75,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

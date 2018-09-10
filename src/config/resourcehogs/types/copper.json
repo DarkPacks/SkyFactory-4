@@ -1,0 +1,20 @@
+{
+  "id": "copper",
+  "inputs": [
+    "ore:dustCopper"
+  ],
+  "output": "sky_orchards:amber_copper",
+  "diggableBlocks": [
+    "minecraft:dirt"
+  ],
+  "renderBlock": "mekanism:oreblock:1",
+  "validDimensions": [
+    -1,
+    0,
+    1
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

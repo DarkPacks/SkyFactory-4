@@ -55,6 +55,7 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.mobGrindingUtils.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.rustic.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.tconstruct.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.matteroverdrive.init();
 }
 
 function initIntegration() {

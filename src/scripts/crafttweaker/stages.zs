@@ -21,7 +21,7 @@ static stagePortalGun as Stage = ZenStager.initStage("portal_gun");
 static stageProjectE as Stage = ZenStager.initStage("project_e");
 static stageTwilightForest as Stage = ZenStager.initStage("twilight_forest");
 
-// Misc Prestiege-related Stages
+// Misc Prestige-related Stages
 static stageSmeltery as Stage = ZenStager.initStage("smeltery");
 static stageFertileSoil as Stage = ZenStager.initStage("fertile_soil");
 static stageBrownMulch as Stage = ZenStager.initStage("brown_mulch");
@@ -35,3 +35,6 @@ static stageBlueSlimeDirt as Stage = ZenStager.initStage("blue_slime_dirt");
 static stagePurpleSlimeDirt as Stage = ZenStager.initStage("purple_slime_dirt");
 static stageOrangeSlimeDirt as Stage = ZenStager.initStage("orange_slime_dirt");
 static stageOreExcavation as Stage = ZenStager.initStage("ore_excavation");
+
+static stageAndroid as Stage = ZenStager.initStage("android");
+

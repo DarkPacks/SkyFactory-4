@@ -1,0 +1,21 @@
+{
+  "id": "gold",
+  "inputs": [
+    "ore:dustGold"
+  ],
+  "output": "sky_orchards:amber_gold",
+  "diggableBlocks": [
+    "minecraft:dirt"
+  ],
+  "renderBlock": "minecraft:gold_ore",
+  "validDimensions": [
+    -1,
+    0,
+    1
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}
+
