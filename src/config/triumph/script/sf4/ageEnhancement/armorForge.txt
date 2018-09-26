@@ -14,3 +14,5 @@ criteria.addItem("conarm:armorforge")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

@@ -16,3 +16,7 @@ criteria.addItem(<minecraft:grass>)
 setRewardExperience(4)
 
 setRewardItem(<compactmachines3:machine>)
+setPos(32,50)
+
+hideLines()
+alwaysVisible()

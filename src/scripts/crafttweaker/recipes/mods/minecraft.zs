@@ -151,16 +151,16 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<bdsandm:wood_crate>: [
 		[
-			[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>], 
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 
 			[null, <minecraft:chest>, null], 
-			[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]
 	],
 	<bdsandm:wood_barrel>: [
 		[
-			[<minecraft:planks>, <minecraft:wooden_pressure_plate>, <minecraft:planks>], 
-			[<minecraft:planks>, <ore:woodCauldron>, <minecraft:planks>], 
-			[<minecraft:planks>, <minecraft:wooden_pressure_plate>, <minecraft:planks>]
+			[<ore:plankWood>, <minecraft:wooden_pressure_plate>, <ore:plankWood>], 
+			[<ore:plankWood>, <ore:woodCauldron>, <ore:plankWood>], 
+			[<ore:plankWood>, <minecraft:wooden_pressure_plate>, <ore:plankWood>]
 		]
 	],
 	<bdsandm:metal_crate>: [
@@ -218,7 +218,27 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:plankWood>, <minecraft:book>, <ore:plankWood>], 
 			[<ore:plankWood>, <minecraft:dye:4>, <ore:plankWood>]
 		]
-	]
+	],
+	<minecraft:prismarine_shard>: [
+		[
+			[<minecraft:prismarine_crystals>, <minecraft:prismarine_crystals>], 
+			[<minecraft:prismarine_crystals>, <minecraft:prismarine_crystals>]
+		]
+	],
+	<rftoolspower:power_core2>: [
+		[
+			[null, <minecraft:emerald>, null], 
+			[<minecraft:prismarine_crystals>, <ore:blockRedstone>, <minecraft:prismarine_crystals>], 
+			[null, <minecraft:prismarine_crystals>, null]
+		]
+	],
+	<rftoolspower:power_core3>: [
+		[
+			[null, <minecraft:emerald>, null], 
+			[<matteroverdrive:tritanium_ingot>, <ore:blockRedstone>, <matteroverdrive:tritanium_ingot>], 
+			[null, <matteroverdrive:dilithium_crystal>, null]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -237,6 +257,9 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+    <minecraft:waterlily> * 4: [
+        [<deepmoblearning:living_matter_overworldian>, <minecraft:vine>]
+    ]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
@@ -256,7 +279,9 @@ static removeRecipes as IItemStack[] = [
 	<bdsandm:upgrade:1>,
 	<bdsandm:upgrade:2>,
 	<bdsandm:upgrade:3>,
-	<bdsandm:upgrade:5>
+	<bdsandm:upgrade:5>,
+	<rftoolspower:power_core2>,
+	<rftoolspower:power_core3>
 ];
 
 function init() {

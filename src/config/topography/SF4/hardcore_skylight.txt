@@ -1,0 +1,9 @@
+setSpawnStructure("dirt_tree")
+
+attributes = addEntityEffect(0)
+attributes.addEntityType("MOB")
+attributes.addAttribute("generic.armor", "armor addition", 4, 0)
+attributes.addAttribute("generic.maxHealth", "health multiplication", 0.3, 1)
+attributes.addAttribute("generic.attackDamage", "attack multiplication", 0.3, 1)
+
+setCelestialAngle(0.5)

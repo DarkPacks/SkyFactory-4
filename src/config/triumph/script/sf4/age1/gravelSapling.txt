@@ -14,3 +14,6 @@ criteria.addItem("sky_orchards:sapling_gravel")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()
+setPos(-62,185)

@@ -35,7 +35,7 @@
     "biomes": []
   },
   {
-    "block": "gdaddons:dragon_egg",
+    "block": "ogdragon:dragon_egg",
     "meta": 0,
     "weight": 4,
     "plants": [],

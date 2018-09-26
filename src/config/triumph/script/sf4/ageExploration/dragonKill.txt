@@ -9,3 +9,5 @@ drawDirectLines(true)
 
 criteria = addCriteria("killed_spider", "minecraft:player_killed_entity")
 criteria.setEntityType("minecraft:ender_dragon")
+
+alwaysVisible()

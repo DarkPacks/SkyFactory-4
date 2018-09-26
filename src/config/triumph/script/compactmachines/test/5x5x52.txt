@@ -23,3 +23,7 @@ criteria3.addItem(<simplegenerators:nether_simple>)
 setRewardExperience(4)
 
 setRewardItem("compactmachines3:machine", 1)
+setPos(62,69)
+
+hideLines()
+alwaysVisible()

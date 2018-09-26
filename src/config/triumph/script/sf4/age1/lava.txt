@@ -2,7 +2,7 @@ setTitle("Lava Bucket")
 
 setIcon("minecraft:lava_bucket")
 
-setDescription("Create lava by using Cobble in a Cauldron collect it in a clay bucket or regular bucket. To melt cobble, you need to have a fire, magma block, or lava directly under the Cauldron")
+setDescription("Create lava by using Cobble in a Cauldron collect it in a clay bucket or regular bucket. To melt cobble, you need to have a torch, fire, magma block, or lava directly under the Cauldron")
 
 addParent("sf4:age1/cobblestone")
 addParent("sf4:age1/cauldron")
@@ -20,3 +20,6 @@ setRequirements("any")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()
+setPos(1,77)

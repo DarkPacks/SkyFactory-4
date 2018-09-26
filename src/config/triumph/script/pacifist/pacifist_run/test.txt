@@ -1,0 +1,20 @@
+setTitle("You lose")
+
+setIcon("minecraft:iron_sword")
+
+setDescription("You killed an innocent animal. You have lost access to the pacifist recipes")
+
+setParent("pacifist:pacifist_run/root")
+setRequiresParents()
+
+hideLines()
+setHidden(true)
+
+//Criteria
+criteria = addCriteria("killed poor innocent creature", "minecraft:player_killed_entity")
+
+//Rewards
+setRewardExperience(4)
+setRewardFunction("triumph:pacifist")
+setRewardItem(<minecraft:paper,ore:paper,meta:0,count:1,nbt:{RepairCost:0,display:{Name:"Murderer"}}>)
+

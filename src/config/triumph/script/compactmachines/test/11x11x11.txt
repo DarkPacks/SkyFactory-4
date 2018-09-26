@@ -1,0 +1,23 @@
+setTitle("11x11x11")
+
+setIcon("compactmachines3:machine", 4)
+
+setDescription("Obtain a Nether Star")
+
+addParent("compactmachines:test/9x9x9")
+addParent("compactmachines:test/9x9x92")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:nether_star>)
+
+//Rewards
+setRewardExperience(4)
+
+setRewardItem("compactmachines3:machine", 4)
+setPos(158,35)
+
+hideLines()
+alwaysVisible()

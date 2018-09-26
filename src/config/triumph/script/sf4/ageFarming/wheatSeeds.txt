@@ -14,3 +14,6 @@ criteria.addItem("minecraft:wheat_seeds")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()
+setPos(-39,283)

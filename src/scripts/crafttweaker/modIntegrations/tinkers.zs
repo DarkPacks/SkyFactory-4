@@ -34,7 +34,8 @@ function init() {
 	tinkers.addMelting(<liquid:glowstone> * 250, <ore:clathrateEnder>);
 	tinkers.addMelting(<liquid:glowstone> * 1000, <ore:oreClathrateEnder>);
 	tinkers.addMelting(<liquid:ender> * 1000, <endercrop:ender_seeds>);
-
+	tinkers.addMelting(<liquid:ender> * 250, <thermalfoundation:material:895>);
+	tinkers.addMelting(<liquid:ender> * 25, <animalcrops:seeds>.withTag({entity: "minecraft:enderman"}));
 	// ==================================
 	// Pyrotheum Melting
 	tinkers.addMelting(<liquid:pyrotheum> * 250, <thermalfoundation:material:1024>, 1300);
@@ -60,6 +61,14 @@ function init() {
 	tinkers.addMelting(<liquid:ardite> * 16, <sky_orchards:acorn_ardite>);
 	tinkers.addMelting(<liquid:cobalt> * 16, <sky_orchards:acorn_cobalt>);
 	tinkers.addMelting(<liquid:osmium> * 16, <sky_orchards:acorn_osmium>);
+
+	//I added osmium because apparently NO ONE ELSE IS ABLE TO DO IT
+	//So, I GUESS ILL BE THE ONE TO ADD IT. 
+	tinkers.addMelting(<liquid:osmium> * 144, <mekanism:dust:2>);
+	tinkers.addMelting(<liquid:osmium> * 144, <mekanism:ingot:1>);
+	tinkers.addMelting(<liquid:osmium> * 16, <mekanism:nugget:1>);
+	tinkers.addMelting(<liquid:osmium> * 1296, <mekanism:basicblock>);
+	tinkers.addMelting(<liquid:osmium> * 288, <mekanism:oreblock>);
 
 	// ==================================
 	// Amber Melting
@@ -105,6 +114,18 @@ function init() {
 	tinkers.addCastingTable(<tp:reinforced_obsidian_ingot>, <tconstruct:cast_custom>, <liquid:reinforced_obsidian>, 144, false, 200);
 	tinkers.addCastingTable(<sky_orchards:sapling_ardite>, <tconstruct:slime_sapling:2>, <liquid:ardite>, 144, true, 200);
 	tinkers.addCastingTable(<sky_orchards:sapling_cobalt>, <tconstruct:slime_sapling:1>, <liquid:cobalt>, 144, true, 200);
+	tinkers.addCastingTable(<sky_orchards:sapling_cobalt>, <tconstruct:slime_sapling:1>, <liquid:cobalt>, 144, true, 200);
+	tinkers.addCastingTable(<sky_orchards:sapling_cobalt>, <tconstruct:slime_sapling:1>, <liquid:cobalt>, 144, true, 200);
+
+	//Ender Pearl and Seed Casting
+	tinkers.addCastingTable(<minecraft:ender_pearl>, <tconstruct:cast_custom:2>, <liquid:ender>, 250, false, 200);
+	tinkers.addCastingTable(<endercrop:ender_seeds>, <tconstruct:cast_custom:1>, <liquid:ender>, 1000, false, 200);
+
+	//Osmium Casting
+	tinkers.addCastingTable(<mekanism:ingot:1>, <tconstruct:cast_custom>, <liquid:osmium>, 144, false, 200);
+	tinkers.addCastingTable(<mekanism:nugget:1>, <tconstruct:cast_custom:1>, <liquid:osmium>, 16, false, 200);
+	tinkers.addCastingBasin(<mekanism:basicblock>, null, <liquid:osmium>, 1296, true, 400);
+
 
 	// ==================================
 	// Casting Basin

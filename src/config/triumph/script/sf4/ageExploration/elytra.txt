@@ -14,3 +14,5 @@ criteria.addItem("minecraft:elytra")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

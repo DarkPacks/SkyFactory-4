@@ -23,9 +23,7 @@ mods.mekanism.crusher.addRecipe(<tconstruct:ingots>, <contenttweaker:cobalt_dust
 mods.mekanism.crusher.addRecipe(<sky_orchards:amber_ardite>, <contenttweaker:ardite_dust> * 1);
 mods.mekanism.crusher.addRecipe(<sky_orchards:amber_cobalt>, <contenttweaker:cobalt_dust> * 1);
 
-
-
-
+mods.mekanism.crusher.addRecipe(<minecraft:prismarine_shard>, <minecraft:prismarine_crystals> * 4);
 
 ////
 //

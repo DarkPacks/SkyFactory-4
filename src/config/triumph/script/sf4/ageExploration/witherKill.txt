@@ -9,3 +9,6 @@ drawDirectLines(true)
 
 criteria = addCriteria("killed_spider", "minecraft:player_killed_entity")
 criteria.setEntityType("withercrumbs:wither crumb")
+
+hideLines()
+alwaysVisible()

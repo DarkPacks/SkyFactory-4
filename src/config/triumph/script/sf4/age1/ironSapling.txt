@@ -17,3 +17,6 @@ criteria.addItem("sky_orchards:sapling_iron")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()
+setPos(-6,185)

@@ -14,3 +14,5 @@ criteria.addItem("tconstruct:toolforge")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

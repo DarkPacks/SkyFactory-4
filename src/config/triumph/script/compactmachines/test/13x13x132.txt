@@ -1,0 +1,23 @@
+setTitle("13x13x13")
+
+setIcon("compactmachines3:machine", 5)
+
+setDescription("Obtain Chorus Fruit")
+
+addParent("compactmachines:test/11x11x11")
+addParent("compactmachines:test/11x11x112")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:chorus_fruit>)
+
+//Rewards
+setRewardExperience(4)
+
+setRewardItem("compactmachines3:machine", 5)
+setPos(191,36)
+
+hideLines()
+alwaysVisible()

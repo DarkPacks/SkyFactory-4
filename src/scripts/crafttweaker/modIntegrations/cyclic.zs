@@ -34,7 +34,39 @@ Packager.addRecipe(<sky_orchards:amber_cobalt>, [<sky_orchards:acorn_cobalt> * 4
 Packager.addRecipe(<sky_orchards:amber_ardite>, [<sky_orchards:acorn_ardite> * 4, <sky_orchards:resin_ardite> * 5]);
 Packager.addRecipe(<sky_orchards:amber_osmium>, [<sky_orchards:acorn_osmium> * 4, <sky_orchards:resin_osmium> * 5]);
 Packager.addRecipe(<minecraft:coal>, [<pickletweaks:coal_piece> * 8]);
-
+Packager.addRecipe(<tconstruct:ingots>, [<resourcehogs:truffle>.withTag({ResourceType: "cobalt"}) * 4]);
+Packager.addRecipe(<minecraft:ender_pearl>, [<resourcehogs:truffle>.withTag({ResourceType: "ender"}) * 4]);
+Packager.addRecipe(<sky_orchards:amber_aluminum>, [<resourcehogs:truffle>.withTag({ResourceType: "aluminum"}) * 4]);
+Packager.addRecipe(<tconstruct:ingots:2>, [<resourcehogs:truffle>.withTag({ResourceType: "manyullyn"}) * 4]);
+Packager.addRecipe(<minecraft:glowstone_dust>, [<resourcehogs:truffle>.withTag({ResourceType: "glowstone"}) * 4]);
+Packager.addRecipe(<minecraft:clay_ball>, [<resourcehogs:truffle>.withTag({ResourceType: "clay"}) * 4]);
+Packager.addRecipe(<minecraft:iron_bars>, [<resourcehogs:truffle>.withTag({ResourceType: "ironbars"}) * 4]);
+Packager.addRecipe(<sky_orchards:amber_gold>, [<resourcehogs:truffle>.withTag({ResourceType: "gold"}) * 4]);
+Packager.addRecipe(<minecraft:cobblestone>, [<resourcehogs:truffle>.withTag({ResourceType: "cobblestone"}) * 4]);
+Packager.addRecipe(<sky_orchards:amber_tin>, [<resourcehogs:truffle>.withTag({ResourceType: "tin"}) * 4]);
+Packager.addRecipe(<sky_orchards:amber_copper>, [<resourcehogs:truffle>.withTag({ResourceType: "copper"}) * 4]);
+Packager.addRecipe(<minecraft:netherrack>, [<resourcehogs:truffle>.withTag({ResourceType: "netherrack"}) * 4]);
+Packager.addRecipe(<sky_orchards:amber_ardite>, [<resourcehogs:truffle>.withTag({ResourceType: "ardite"}) * 4]);
+Packager.addRecipe(<minecraft:glass>, [<resourcehogs:truffle>.withTag({ResourceType: "glass"}) * 4]);
+Packager.addRecipe(<minecraft:obsidian>, [<resourcehogs:truffle>.withTag({ResourceType: "obsidian"}) * 4]);
+Packager.addRecipe(<minecraft:dirt>, [<resourcehogs:truffle>.withTag({ResourceType: "dirt"}) * 4]);
+Packager.addRecipe(<sky_orchards:amber_cobalt>, [<resourcehogs:truffle>.withTag({ResourceType: "osmium"}) * 4]);
+Packager.addRecipe(<minecraft:quartz>, [<resourcehogs:truffle>.withTag({ResourceType: "quartz"}) * 4]);
+Packager.addRecipe(<minecraft:bone>, [<resourcehogs:truffle>.withTag({ResourceType: "bone"}) * 4]);
+Packager.addRecipe(<sky_orchards:amber_lead>, [<resourcehogs:truffle>.withTag({ResourceType: "lead"}) * 4]);
+Packager.addRecipe(<minecraft:gravel>, [<resourcehogs:truffle>.withTag({ResourceType: "gravel"}) * 4]);
+Packager.addRecipe(<minecraft:sand>, [<resourcehogs:truffle>.withTag({ResourceType: "sand"}) * 4]);
+Packager.addRecipe(<minecraft:diamond>, [<resourcehogs:truffle>.withTag({ResourceType: "diamond"}) * 4]);
+Packager.addRecipe(<minecraft:coal>, [<resourcehogs:truffle>.withTag({ResourceType: "coal"}) * 4]);
+Packager.addRecipe(<sky_orchards:amber_iron>, [<resourcehogs:truffle>.withTag({ResourceType: "iron"}) * 4]);
+Packager.addRecipe(<sky_orchards:amber_silver>, [<resourcehogs:truffle>.withTag({ResourceType: "silver"}) * 4]);
+Packager.addRecipe(<minecraft:emerald>, [<resourcehogs:truffle>.withTag({ResourceType: "emerald"}) * 4]);
+Packager.addRecipe(<minecraft:dye:4>, [<resourcehogs:truffle>.withTag({ResourceType: "lapis_lazuli"}) * 4]);
+Packager.addRecipe(<minecraft:redstone>, [<resourcehogs:truffle>.withTag({ResourceType: "redstone"}) * 4]);
+Packager.addRecipe(<minecraft:soul_sand>, [<resourcehogs:truffle>.withTag({ResourceType: "soul_sand"}) * 4]);
+Packager.addRecipe(<minecraft:prismarine_crystals>, [<resourcehogs:truffle>.withTag({ResourceType: "prismarine"}) * 4]);
+Packager.addRecipe(<tconstruct:materials>, [<resourcehogs:truffle>.withTag({ResourceType: "seared_brick"}) * 4]);
+Packager.addRecipe(<matteroverdrive:tritanium_ingot>, [<resourcehogs:truffle>.withTag({ResourceType: "tritanium"}) * 4]);
 
 ////
 //Dehydrator

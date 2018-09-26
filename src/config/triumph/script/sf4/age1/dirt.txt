@@ -14,3 +14,7 @@ criteria.setItem("minecraft:dirt")
 
 //Rewards
 setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-117,9)

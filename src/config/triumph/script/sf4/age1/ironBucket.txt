@@ -14,3 +14,6 @@ criteria.addItem("minecraft:bucket")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()
+setPos(72,185)

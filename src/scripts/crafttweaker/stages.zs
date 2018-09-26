@@ -35,6 +35,8 @@ static stageBlueSlimeDirt as Stage = ZenStager.initStage("blue_slime_dirt");
 static stagePurpleSlimeDirt as Stage = ZenStager.initStage("purple_slime_dirt");
 static stageOrangeSlimeDirt as Stage = ZenStager.initStage("orange_slime_dirt");
 static stageOreExcavation as Stage = ZenStager.initStage("ore_excavation");
+static stagePacifist as Stage = ZenStager.initStage("pacifist");
+
 
 static stageAndroid as Stage = ZenStager.initStage("android");
 

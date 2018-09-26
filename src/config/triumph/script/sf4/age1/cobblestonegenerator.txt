@@ -14,3 +14,6 @@ criteria.addItem("minecraft:cobblestone", 1728)
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()
+setPos(37,119)

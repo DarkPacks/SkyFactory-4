@@ -303,7 +303,111 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<sky_orchards:resin_osmium>, <sky_orchards:acorn_osmium>, <sky_orchards:resin_osmium>]
 		]
 	],
-
+	<sky_orchards:amber_netherrack>: [
+		[
+			[<sky_orchards:resin_netherrack>, <sky_orchards:acorn_netherrack>, <sky_orchards:resin_netherrack>],
+			[<sky_orchards:acorn_netherrack>, <sky_orchards:resin_netherrack>, <sky_orchards:acorn_netherrack>],
+			[<sky_orchards:resin_netherrack>, <sky_orchards:acorn_netherrack>, <sky_orchards:resin_netherrack>]
+		]
+	],
+	<sky_orchards:amber_quartz>: [
+		[
+			[<sky_orchards:resin_quartz>, <sky_orchards:acorn_quartz>, <sky_orchards:resin_quartz>],
+			[<sky_orchards:acorn_quartz>, <sky_orchards:resin_quartz>, <sky_orchards:acorn_quartz>],
+			[<sky_orchards:resin_quartz>, <sky_orchards:acorn_quartz>, <sky_orchards:resin_quartz>]
+		]
+	],
+	<sky_orchards:amber_emerald>: [
+		[
+			[<sky_orchards:resin_emerald>, <sky_orchards:acorn_emerald>, <sky_orchards:resin_emerald>],
+			[<sky_orchards:acorn_emerald>, <sky_orchards:resin_emerald>, <sky_orchards:acorn_emerald>],
+			[<sky_orchards:resin_emerald>, <sky_orchards:acorn_emerald>, <sky_orchards:resin_emerald>]
+		]
+	],
+	<sky_orchards:amber_donut>: [
+		[
+			[<sky_orchards:resin_donut>, <sky_orchards:acorn_donut>, <sky_orchards:resin_donut>],
+			[<sky_orchards:acorn_donut>, <sky_orchards:resin_donut>, <sky_orchards:acorn_donut>],
+			[<sky_orchards:resin_donut>, <sky_orchards:acorn_donut>, <sky_orchards:resin_donut>]
+		]
+	],
+	<sky_orchards:amber_bacon>: [
+		[
+			[<sky_orchards:resin_bacon>, <sky_orchards:acorn_bacon>, <sky_orchards:resin_bacon>],
+			[<sky_orchards:acorn_bacon>, <sky_orchards:resin_bacon>, <sky_orchards:acorn_bacon>],
+			[<sky_orchards:resin_bacon>, <sky_orchards:acorn_bacon>, <sky_orchards:resin_bacon>]
+		]
+	],
+	<sky_orchards:amber_cookie>: [
+		[
+			[<sky_orchards:resin_cookie>, <sky_orchards:acorn_cookie>, <sky_orchards:resin_cookie>],
+			[<sky_orchards:acorn_cookie>, <sky_orchards:resin_cookie>, <sky_orchards:acorn_cookie>],
+			[<sky_orchards:resin_cookie>, <sky_orchards:acorn_cookie>, <sky_orchards:resin_cookie>]
+		]
+	],
+	<sky_orchards:amber_bone>: [
+		[
+			[<sky_orchards:resin_bone>, <sky_orchards:acorn_bone>, <sky_orchards:resin_bone>],
+			[<sky_orchards:acorn_bone>, <sky_orchards:resin_bone>, <sky_orchards:acorn_bone>],
+			[<sky_orchards:resin_bone>, <sky_orchards:acorn_bone>, <sky_orchards:resin_bone>]
+		]
+	],
+	<sky_orchards:amber_diamond>: [
+		[
+			[<sky_orchards:resin_diamond>, <sky_orchards:acorn_diamond>, <sky_orchards:resin_diamond>],
+			[<sky_orchards:acorn_diamond>, <sky_orchards:resin_diamond>, <sky_orchards:acorn_diamond>],
+			[<sky_orchards:resin_diamond>, <sky_orchards:acorn_diamond>, <sky_orchards:resin_diamond>]
+		]
+	],
+	<sky_orchards:amber_lapis>: [
+		[
+			[<sky_orchards:resin_lapis>, <sky_orchards:acorn_lapis>, <sky_orchards:resin_lapis>],
+			[<sky_orchards:acorn_lapis>, <sky_orchards:resin_lapis>, <sky_orchards:acorn_lapis>],
+			[<sky_orchards:resin_lapis>, <sky_orchards:acorn_lapis>, <sky_orchards:resin_lapis>]
+		]
+	],
+	<sky_orchards:amber_gravel>: [
+		[
+			[<sky_orchards:resin_gravel>, <sky_orchards:acorn_gravel>, <sky_orchards:resin_gravel>],
+			[<sky_orchards:acorn_gravel>, <sky_orchards:resin_gravel>, <sky_orchards:acorn_gravel>],
+			[<sky_orchards:resin_gravel>, <sky_orchards:acorn_gravel>, <sky_orchards:resin_gravel>]
+		]
+	],
+	<sky_orchards:amber_sand>: [
+		[
+			[<sky_orchards:resin_sand>, <sky_orchards:acorn_sand>, <sky_orchards:resin_sand>],
+			[<sky_orchards:acorn_sand>, <sky_orchards:resin_sand>, <sky_orchards:acorn_sand>],
+			[<sky_orchards:resin_sand>, <sky_orchards:acorn_sand>, <sky_orchards:resin_sand>]
+		]
+	],
+	<sky_orchards:amber_clay>: [
+		[
+			[<sky_orchards:resin_clay>, <sky_orchards:acorn_clay>, <sky_orchards:resin_clay>],
+			[<sky_orchards:acorn_clay>, <sky_orchards:resin_clay>, <sky_orchards:acorn_clay>],
+			[<sky_orchards:resin_clay>, <sky_orchards:acorn_clay>, <sky_orchards:resin_clay>]
+		]
+	],
+	<sky_orchards:amber_petrified>: [
+		[
+			[<sky_orchards:resin_petrified>, <sky_orchards:acorn_petrified>, <sky_orchards:resin_petrified>],
+			[<sky_orchards:acorn_petrified>, <sky_orchards:resin_petrified>, <sky_orchards:acorn_petrified>],
+			[<sky_orchards:resin_petrified>, <sky_orchards:acorn_petrified>, <sky_orchards:resin_petrified>]
+		]
+	],
+	<sky_orchards:amber_dirt>: [
+		[
+			[<sky_orchards:resin_dirt>, <sky_orchards:acorn_dirt>, <sky_orchards:resin_dirt>],
+			[<sky_orchards:acorn_dirt>, <sky_orchards:resin_dirt>, <sky_orchards:acorn_dirt>],
+			[<sky_orchards:resin_dirt>, <sky_orchards:acorn_dirt>, <sky_orchards:resin_dirt>]
+		]
+	],
+	<sky_orchards:amber_cottonwood>: [
+		[
+			[<sky_orchards:resin_cottonwood>, <sky_orchards:acorn_cottonwood>, <sky_orchards:resin_cottonwood>],
+			[<sky_orchards:acorn_cottonwood>, <sky_orchards:resin_cottonwood>, <sky_orchards:acorn_cottonwood>],
+			[<sky_orchards:resin_cottonwood>, <sky_orchards:acorn_cottonwood>, <sky_orchards:resin_cottonwood>]
+		]
+	],
 	<sky_orchards:sapling_cobalt>: [
 		[
 			[null, <sky_orchards:resin_ardite>, null],

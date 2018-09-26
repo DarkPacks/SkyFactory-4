@@ -24,3 +24,4 @@ addCriteria("location", "minecraft:location")
 //Rewards
 setRewardFunction("triumph:prestige_add")
 setRewardItem(<minecraft:torch>)
+setPos(-155,76)

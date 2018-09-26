@@ -1,9 +1,3 @@
-<tconstruct:tooltables:3>
-<tconstruct:tooltables:5>
-<tconstruct:tooltables:4>
-<tconstruct:toolforge>
-
-
 setTitle("Part Builder")
 
 setIcon("tconstruct:tooltables", 2)
@@ -18,6 +12,7 @@ drawDirectLines(true)
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.addItem("tconstruct:tooltables", 2)
 
-
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

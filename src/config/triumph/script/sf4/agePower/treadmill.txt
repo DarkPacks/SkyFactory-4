@@ -14,3 +14,5 @@ criteria.addItem(<sync:item_treadmill>)
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

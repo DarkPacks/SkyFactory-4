@@ -14,3 +14,6 @@ criteria.addItem("tp:fmf_block")
 
 //Rewards
 setRewardExperience(4)
+
+hideLines()
+alwaysVisible()

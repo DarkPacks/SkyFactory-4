@@ -15,3 +15,7 @@ setRequirements("any")
 //Criteria
 criteria = addCriteria("superflat", "minecraft:location")
 criteria.setWorldType("compactsky")
+
+//Rewards
+setRewardItem(<compactmachines3:psd,meta:0,count:1,enchant:cofhcore:soulbound:2,nbt:{ench:[{lvl:2s,id:31s}],RepairCost:1}>)
+setPos(1,51)

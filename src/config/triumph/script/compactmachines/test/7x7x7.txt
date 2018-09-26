@@ -17,3 +17,7 @@ criteria.addItem(<minecraft:netherrack>)
 setRewardExperience(4)
 
 setRewardItem("compactmachines3:machine", 2)
+setPos(95,35)
+
+hideLines()
+alwaysVisible()

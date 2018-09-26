@@ -4,7 +4,7 @@
     "tconstruct:metal:2"
   ],
   "typeName": "Manyullyn",
-  "output": "tconstruct:ingots:2",
+  "output": "tconstruct:nuggets:2",
   "diggableBlocks": [
     "minecraft:soul_sand"
   ],
@@ -17,6 +17,6 @@
   "maxHealth": 15.0,
   "movementSpeed": 0.25,
   "armorAmount": 10,
-  "digTickDelay": 1200
+  "digTickDelay": 2400
 }
 

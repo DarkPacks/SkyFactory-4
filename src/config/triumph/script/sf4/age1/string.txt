@@ -14,3 +14,6 @@ criteria.addItem("minecraft:string")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()
+setPos(-155,153)

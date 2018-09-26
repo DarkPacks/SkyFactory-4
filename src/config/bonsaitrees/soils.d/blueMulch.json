@@ -1,9 +1,9 @@
 {
-  "name": "inspirations:mulch:4",
+  "name": "inspirations:mulch:7",
   "mod": "inspirations",
   "soil": {
     "name": "inspirations:mulch",
-    "data": 4,
+    "data": 7,
     "ignoreMeta": false
   },
 

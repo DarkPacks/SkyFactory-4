@@ -1,0 +1,2 @@
+advancement revoke @p through pacifist:pacifist_run/root
+gamestage remove @p pacifist

@@ -14,3 +14,7 @@ criteria.addItem("inspirations:wooden_crook")
 
 //Rewards
 setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-117,76)

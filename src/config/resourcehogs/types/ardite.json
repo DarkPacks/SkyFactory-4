@@ -4,7 +4,7 @@
     "ore:dustArdite"
   ],
   "typeName": "Ardite",
-  "output": "sky_orchards:amber_ardite",
+  "output": "tconstruct:nuggets:1",
   "diggableBlocks": [
     "minecraft:soul_sand"
   ],
@@ -17,5 +17,5 @@
   "maxHealth": 15.0,
   "movementSpeed": 0.25,
   "armorAmount": 10,
-  "digTickDelay": 1200
+  "digTickDelay": 2000
 }

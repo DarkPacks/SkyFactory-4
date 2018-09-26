@@ -1,5 +1,5 @@
 {
-  "loadOnLogin": true,
+  "loadOnLogin": false,
   "mustRead": false,
   "pages": [
     {

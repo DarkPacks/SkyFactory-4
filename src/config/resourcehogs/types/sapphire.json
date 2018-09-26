@@ -1,0 +1,21 @@
+{
+  "id": "sapphire",
+  "inputs": [
+    "practicallogistics2:sapphire"
+  ],
+  "typeName": "Sapphire",
+  "output": "practicallogistics2:sapphire",
+  "diggableBlocks": [
+    "minecraft:dirt"
+  ],
+  "renderBlock": "practicallogistics2:sapphireore",
+  "validDimensions": [
+    -1,
+    0,
+    1
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1600
+}

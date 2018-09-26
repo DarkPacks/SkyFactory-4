@@ -1,0 +1,23 @@
+setTitle("9x9x9")
+
+setIcon("compactmachines3:machine", 3)
+
+setDescription("Obtain a block of End Stone")
+
+addParent("compactmachines:test/7x7x7")
+addParent("compactmachines:test/7x7x72")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:end_stone>)
+
+//Rewards
+setRewardExperience(4)
+
+setRewardItem("compactmachines3:machine", 3)
+setPos(127,35)
+
+hideLines()
+alwaysVisible()

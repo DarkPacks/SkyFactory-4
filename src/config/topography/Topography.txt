@@ -1,66 +1,72 @@
 //If this file is deleted, a new set of default configs will be generated.
 
 //Registers a preset. First argument is name, second is the image name, third is a description.
-SF4 = registerPreset("Sky Factory IIII", "images/SF4", "Insert memes.")
+SF4 = registerPreset("Sky Factory IIII", "images/DirtTree", "Standard Sky Factory World")
+SF4.registerDimension(0, "SF4/Dirt Tree")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+
+SF4 = registerPreset("Sky Factory IIII with No Skylight", "images/SF4", "Standard Sky Factory World with no skylight")
+SF4.registerDimension(0, "SF4/Dirt Tree with No Skylight")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+
+SF4 = registerPreset("Sky Factory IIII with Cobwebs", "images/Cobweb", "Tree, but instead of void, Cobwebs")
+SF4.registerDimension(0, "SF4/Dirt Tree with Cobwebs")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+
+SF4 = registerPreset("Sky Factory IIII with Cobblestone", "images/SF4", "Tree, but instead of void, totally real Cobblestone")
+SF4.registerDimension(0, "SF4/Dirt Tree with Cobblestone")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+
+SF4 = registerPreset("Sky Factory IIII with Sludge", "images/SF4", "Tree, but instead of void, liquid Sludge")
+SF4.registerDimension(0, "SF4/Dirt Tree with Sludge")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+
+SF4 = registerPreset("Sky Factory IIII with Resonant Ender", "images/SF4", "Tree, but instead of void, Resonant Ender")
+SF4.registerDimension(0, "SF4/Dirt Tree with Resonant Ender")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+
+SF4 = registerPreset("Sky Factory IIII with Gelid Cryotheum", "images/SF4", "Tree, but instead of void, Gelid Cryotheum")
+SF4.registerDimension(0, "SF4/Dirt Tree with Gelid Cryotheum")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+
+SF4 = registerPreset("Sky Factory IIII with Pyrotheum", "images/SF4", "Tree, but instead of void, Pyrotheum")
+SF4.registerDimension(0, "SF4/Dirt Tree with Pyrotheum")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+
+SF4 = registerPreset("Sky Factory IIII with Lava Floor", "images/SF4", "Tree, but instead of void, Lava")
+SF4.registerDimension(0, "SF4/Dirt Tree with Lava Floor")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+
+SF4 = registerPreset("Sky Factory IIII with Water Floor", "images/SF4", "Tree, but instead of void, Water")
+SF4.registerDimension(0, "SF4/Dirt Tree with Water Floor")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+
+SF4 = registerPreset("Sky Factory IIII on Chunk", "images/Chunk", "One Chunk in a void world")
+SF4.registerDimension(0, "SF4/Dirt Tree on Chunk")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+
+basicSkyIslands = registerPreset("Basic Sky Islands", "Sky Islands")
+basicSkyIslands.registerDimension(0, "Sky Islands/Basic Sky Islands")
+
+materialSkyIslands = registerPreset("Material Sky Islands", "Sky Islands made from Resources")
+materialSkyIslands.registerDimension(0, "Sky Islands/Material Sky Islands")
+
+glassLavaSkyIslands = registerPreset("Glass n Lava Sky Islands", "Glass Sky Islands filled with Lava")
+glassLavaSkyIslands.registerDimension(0, "Sky Islands/Glass n Lava Sky Islands")
+
+SF4 = registerPreset("Hardcore Skylight", "images/Open Roof Cell Nether", "Hardcore World with increased mob health, armor, and damage with permanent night")
+SF4.registerDimension(0, "SF4/hardcore_skylight")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+SF4.enableHardcore()
+
+SF4 = registerPreset("Hardcore No Skylight", "images/Open Roof Cell Nether", "Hardcore World with increased mob health, armor, and damage with no skylight")
+SF4.registerDimension(0, "SF4/hardcore_no_skylight")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+SF4.enableHardcore()
+
+SF4 = registerPreset("Pacifist Run", "images/DirtTree", "Standard world made for Pacifist Run")
 SF4.registerDimension(0, "SF4/Dirt Tree")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 
 
-
-SF4 = registerPreset("Sky Factory IIII with No Skylight", "images/SF4", "Insert memes.")
-SF4.registerDimension(0, "SF4/Dirt Tree with No Skylight")
-SF4.registerDimension(-1, "SF4/Cell Nether")
-
-
-SF4 = registerPreset("Sky Factory IIII with Cobwebs", "images/SF4", "Insert memes.")
-SF4.registerDimension(0, "SF4/Dirt Tree with Cobwebs")
-SF4.registerDimension(-1, "SF4/Cell Nether")
-
-SF4 = registerPreset("Sky Factory IIII with Cobblestone", "images/SF4", "Insert memes.")
-SF4.registerDimension(0, "SF4/Dirt Tree with Cobblestone")
-SF4.registerDimension(-1, "SF4/Cell Nether")
-
-SF4 = registerPreset("Sky Factory IIII with Sludge", "images/SF4", "Insert memes.")
-SF4.registerDimension(0, "SF4/Dirt Tree with Sludge")
-SF4.registerDimension(-1, "SF4/Cell Nether")
-
-SF4 = registerPreset("Sky Factory IIII with Resonant Ender", "images/SF4", "Insert memes.")
-SF4.registerDimension(0, "SF4/Dirt Tree with Resonant Ender")
-SF4.registerDimension(-1, "SF4/Cell Nether")
-
-SF4 = registerPreset("Sky Factory IIII with Liquid Glowstone", "images/SF4", "Insert memes.")
-SF4.registerDimension(0, "SF4/Dirt Tree with Liquid Glowstone")
-SF4.registerDimension(-1, "SF4/Cell Nether")
-
-SF4 = registerPreset("Sky Factory IIII with Gelid Cryotheum", "images/SF4", "Insert memes.")
-SF4.registerDimension(0, "SF4/Dirt Tree with Gelid Cryotheum")
-SF4.registerDimension(-1, "SF4/Cell Nether")
-
-SF4 = registerPreset("Sky Factory IIII with Pyrotheum", "images/SF4", "Insert memes.")
-SF4.registerDimension(0, "SF4/Dirt Tree with Pyrotheum")
-SF4.registerDimension(-1, "SF4/Cell Nether")
-
-SF4 = registerPreset("Sky Factory IIII with Lava Floor", "images/SF4", "Insert memes.")
-SF4.registerDimension(0, "SF4/Dirt Tree with Lava Floor")
-SF4.registerDimension(-1, "SF4/Cell Nether")
-
-SF4 = registerPreset("Sky Factory IIII with Water Floor", "images/SF4", "Insert memes. Lots of them. All the memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes. Memes.")
-SF4.registerDimension(0, "SF4/Dirt Tree with Water Floor")
-SF4.registerDimension(-1, "SF4/Cell Nether")
-
-SF4 = registerPreset("Sky Factory IIII on Chunk", "images/SF4", "Insert memes.")
-SF4.registerDimension(0, "SF4/Dirt Tree on Chunk")
-SF4.registerDimension(-1, "SF4/Cell Nether")
-
-basicSkyIslands = registerPreset("Basic Sky Islands", "")
-basicSkyIslands.registerDimension(0, "Sky Islands/Basic Sky Islands")
-
-materialSkyIslands = registerPreset("Material Sky Islands", "")
-materialSkyIslands.registerDimension(0, "Sky Islands/Material Sky Islands")
-
-glassLavaSkyIslands = registerPreset("Glass n Lava Sky Islands", "")
-glassLavaSkyIslands.registerDimension(0, "Sky Islands/Glass n Lava Sky Islands")
-
-bnb2 = registerPreset("BnB 2.0", "")
-bnb2.registerDimension(0, "Sky Islands/Basic Sky Islands")
-bnb2.registerDimension(-1, "BnB2/Icy Cell Nether")
+setAsDefaultWorldType()

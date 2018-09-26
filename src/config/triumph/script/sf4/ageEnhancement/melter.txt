@@ -16,3 +16,5 @@ criteria1.addItem("tcomplement:melter")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

@@ -14,3 +14,6 @@ criteria.addItem("sky_orchards:sapling_petrified")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()
+setPos(-117,157)

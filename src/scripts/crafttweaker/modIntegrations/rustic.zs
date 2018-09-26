@@ -48,6 +48,8 @@ function init() {
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_ardite>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <sky_orchards:sapling_osmium>);
 
+	rustic.addCrushingTub(<liquid:blood> * 100, <minecraft:blaze_powder>, <minecraft:netherrack>);
+
 	// Vanilla Saplings Crush into Water
 	rustic.addCrushingTub(<liquid:water> * 100, null, <minecraft:sapling>);
 	rustic.addCrushingTub(<liquid:water> * 100, null, <minecraft:sapling:1>);

@@ -14,3 +14,5 @@ criteria.addItem("conarm:armorstation")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

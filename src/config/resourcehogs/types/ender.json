@@ -7,7 +7,7 @@
   "diggableBlocks": [
     "minecraft:end_stone"
   ],
-  "renderBlock": "extendedcrafting:storage:5",
+  "renderBlock": "thermalfoundation:storage_alloy:7",
   "validDimensions": [
     -1,
     0,

@@ -14,3 +14,7 @@ criteria.addItem("sky_orchards:sapling_dirt")
 
 //Rewards
 setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-155,42)

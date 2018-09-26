@@ -1,0 +1,21 @@
+{
+  "id": "obsidian",
+  "inputs": [
+    "mekanism:basicblock:2"
+  ],
+  "typeName": "Obsidian",
+  "output": "minecraft:obsidian",
+  "diggableBlocks": [
+    "minecraft:dirt"
+  ],
+  "renderBlock": "minecraft:obsidian",
+  "validDimensions": [
+    -1,
+    0,
+    1
+  ],
+  "maxHealth": 25.0,
+  "movementSpeed": 0.1,
+  "armorAmount": 6,
+  "digTickDelay": 1400
+}

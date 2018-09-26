@@ -15,3 +15,6 @@ criteria.setDimensionDestination("DIM_-1")
 
 //Rewards
 setRewardExperience(4)
+
+hideLines()
+alwaysVisible()

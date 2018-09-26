@@ -17,12 +17,14 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "texture" : "test:textures/gui/title/background/longbutton.png",
-            "posX" : -100,
-            "posY" : 25,
-            "width" : 200,
-            "height" : 20,
+            "texture" : "test:textures/gui/title/background/button.png",
+            "posX" : -200,
+            "posY" : -125,
+            "width" : 140,
+            "height" : 38,
             "alignment" : "center",
+            "imageWidth": "624",
+            "imageHeight": "167",
             "action" : 
             {
                 "type" : "openGui",
@@ -33,12 +35,14 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "texture" : "test:textures/gui/title/background/longbutton.png",            
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
-            "height" : 20,
-            "alignment" : "center",            
+            "texture" : "test:textures/gui/title/background/button.png",            
+            "posX" : -200,
+            "posY" : -88,
+            "width" : 140,
+            "height" : 38,
+            "alignment" : "center",
+            "imageWidth": "624",
+            "imageHeight": "167",         
             "action" : 
             {
                 "type" : "openGui",
@@ -49,12 +53,14 @@
         "mods":
         {
             "text" : "fml.menu.mods",
-            "texture" : "test:textures/gui/title/background/longbutton.png",            
-            "posX" : -100,
-            "posY" : 71,
-            "width" : 200,
-            "height" : 20,
-            "alignment" : "center",            
+            "texture" : "test:textures/gui/title/background/button.png",            
+            "posX" : -200,
+            "posY" : -51,
+            "width" : 140,
+            "height" : 38,
+            "alignment" : "center",
+            "imageWidth": "624",
+            "imageHeight": "167",           
             "action" : 
             {
                 "type" : "openGui",
@@ -64,13 +70,15 @@
             
         "options":
         {
-            "text" : "menu.options",
-            "texture" : "test:textures/gui/title/background/shortbutton.png",            
-            "posX" : -100,
-            "posY" : 94,
-            "width" : 98,
-            "height" : 20,
-            "alignment" : "center",            
+            "text" : "Options",
+            "texture" : "test:textures/gui/title/background/button.png",            
+            "posX" : -200,
+            "posY" : -14,
+            "width" : 140,
+            "height" : 38,
+            "alignment" : "center",
+            "imageWidth": "624",
+            "imageHeight": "167",             
             "action" : 
             {
                 "type" : "openGui",
@@ -81,12 +89,14 @@
         "quit":
         {
             "text" : "menu.quit",
-            "texture" : "test:textures/gui/title/background/shortbutton.png",            
-            "posX" : 2,
-            "posY" : 94,
-            "width" : 98,
-            "height" : 20,
-            "alignment" : "center",            
+            "texture" : "test:textures/gui/title/background/button.png",            
+            "posX" : -200,
+            "posY" : 60,
+            "width" : 140,
+            "height" : 38,
+            "alignment" : "center",
+            "imageWidth": "624",
+            "imageHeight": "167",          
             "action" : 
             {
                 "type" : "quit"
@@ -95,21 +105,40 @@
         
         "language":
         {
-            "text" : " ",
-            "texture" : "test:textures/gui/title/background/lang.png",            
-            "posX" : -124,
-            "posY" : 94,
-            "width" : 20,
-            "height" : 20,
-            "alignment" : "center",            
-            "imageWidth": "40",
-            "imageHeight": "40",
+            "text" : "Language",
+            "texture" : "test:textures/gui/title/background/button.png",            
+            "posX" : -200,
+            "posY" : 23,
+            "width" : 140,
+            "height" : 38,
+            "alignment" : "center",
+            "imageWidth": "624",
+            "imageHeight": "167",  
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "languages"
             }
+        },
+
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 295,
+            "posY" : 250,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
         }
+
+
+
+
+        
     },
     
     "labels":
@@ -137,7 +166,7 @@
     {
         "background":
         {
-            "image" : "test:textures/gui/title/background/background.png",
+            "image" : "test:textures/gui/title/background/BG_FULL.png",
             "mode" : "stretch"
             }
         }

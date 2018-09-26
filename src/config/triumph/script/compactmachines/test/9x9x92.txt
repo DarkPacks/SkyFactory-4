@@ -1,0 +1,23 @@
+setTitle("9x9x9")
+
+setIcon("compactmachines3:machine", 3)
+
+setDescription("Obtain Resonant Clathrate by mining a Resonant End Stone block in the End dimension")
+
+addParent("compactmachines:test/7x7x7")
+addParent("compactmachines:test/7x7x72")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<thermalfoundation:material:895>)
+
+//Rewards
+setRewardExperience(4)
+
+setRewardItem("compactmachines3:machine", 3)
+setPos(126,71)
+
+hideLines()
+alwaysVisible()

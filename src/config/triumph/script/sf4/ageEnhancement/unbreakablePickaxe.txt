@@ -15,6 +15,4 @@ criteria.addItem(<tconstruct:pickaxe, nbt:{Unbreakable:1b}>)
 //Rewards
 setRewardExperience(4)
 
-
-
-
+alwaysVisible()

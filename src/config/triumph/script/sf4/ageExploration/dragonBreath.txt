@@ -14,3 +14,5 @@ criteria.addItem("minecraft:dragon_breath")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

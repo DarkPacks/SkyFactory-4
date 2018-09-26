@@ -1,0 +1,16 @@
+setTitle("Black Hole Test")
+
+setIcon(<industrialforegoing:black_hole_tank>)
+
+setDescription("Fill a Black Hole Tank with any Liquid and Right Click it")
+
+setParent("sf4:ageALLTHETHINGSOMGLOL/root")
+
+drawDirectLines(true)
+
+//Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock(<industrialforegoing:black_hole_tank,tile:{fluids:{tanks:[{Amount:2147483000}]}}>)
+
+//Rewards
+setRewardExperience(4)
