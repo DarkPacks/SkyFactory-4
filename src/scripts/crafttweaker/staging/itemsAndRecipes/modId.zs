@@ -5,47 +5,35 @@
 */
 import mods.zenstages.ZenStager;
 
-import scripts.crafttweaker.stages.stageBonsaiTrees;
-import scripts.crafttweaker.stages.stageFluxNetworks;
-import scripts.crafttweaker.stages.stageIronJetpacks;
-import scripts.crafttweaker.stages.stageMobGrindingUtils;
-import scripts.crafttweaker.stages.stageMystcraft;
-import scripts.crafttweaker.stages.stageMysticalAgradditions;
-import scripts.crafttweaker.stages.stageMysticalAgriculture;
-import scripts.crafttweaker.stages.stageOpenComputers;
-import scripts.crafttweaker.stages.stagePortalGun;
-import scripts.crafttweaker.stages.stageProjectE;
-import scripts.crafttweaker.stages.stageTwilightForest;
-
 static stagedMods as string[][string] = {
-	stageBonsaiTrees.stage: [
+	stages.bonsaiTrees.stage: [
 		"bonsaitrees"
 	],
-	stageFluxNetworks.stage: [
+	stages.fluxNetworks.stage: [
 		"fluxnetworks"
 	],
-	stageIronJetpacks.stage: [
+	stages.ironJetpacks.stage: [
 		"ironjetpacks"
 	],
-	stageMystcraft.stage: [
+	stages.mystcraft.stage: [
 		"mystcraft"
 	],
-	stageMysticalAgradditions.stage: [
+	stages.mysticalAgradditions.stage: [
 		"mysticalagradditions"
 	],
-	stageMysticalAgriculture.stage: [
+	stages.mysticalAgriculture.stage: [
 		"mysticalagriculture"
 	],
-	stageOpenComputers.stage: [
+	stages.openComputers.stage: [
 		"opencomputers"
 	],
-	stagePortalGun.stage: [
+	stages.portalGun.stage: [
 		"portalgun"
 	],
-	stageProjectE.stage: [
+	stages.projectE.stage: [
 		"projecte"
 	],
-	stageTwilightForest.stage: [
+	stages.twilightForest.stage: [
 		"twilightforest"
 	]
 };

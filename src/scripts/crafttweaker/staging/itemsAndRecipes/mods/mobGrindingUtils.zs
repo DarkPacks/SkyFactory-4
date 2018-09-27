@@ -7,10 +7,8 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
-import scripts.crafttweaker.stages.stageMobGrindingUtils;
-
 static stagedItems as IIngredient[][string] = {
-	stageMobGrindingUtils.stage: [
+	stages.mobGrindingUtils.stage: [
 		<mob_grinding_utils:absorption_hopper:0>,
 		<mob_grinding_utils:absorption_upgrade:0>,
 		<mob_grinding_utils:dark_oak_stone:0>,

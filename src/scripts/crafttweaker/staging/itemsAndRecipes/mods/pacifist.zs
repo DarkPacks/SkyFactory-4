@@ -7,10 +7,8 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
-import scripts.crafttweaker.stages.stagePacifist;
-
 static stagedItems as IIngredient[][string] = {
-	stagePacifist.stage: [
+	stages.pacifist.stage: [
 		<deepmoblearning:data_model_zombie>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}),
 		<deepmoblearning:data_model_skeleton>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}),
 		<deepmoblearning:data_model_creeper>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}),

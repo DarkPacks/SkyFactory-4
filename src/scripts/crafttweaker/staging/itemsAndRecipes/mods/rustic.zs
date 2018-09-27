@@ -7,10 +7,8 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
-import scripts.crafttweaker.stages.stageFertileSoil;
-
 static stagedItems as IIngredient[][string] = {
-	stageFertileSoil.stage: [
+	stages.fertileSoil.stage: [
 		<rustic:fertile_soil>,
 	]
 };

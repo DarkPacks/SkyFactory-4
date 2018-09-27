@@ -6,64 +6,8 @@
 */
 import mods.zenstages.Stage;
 
-import scripts.crafttweaker.stages.stageFluxNetworks;
-import scripts.crafttweaker.stages.stageIronJetpacks;
-import scripts.crafttweaker.stages.stageMobGrindingUtils;
-import scripts.crafttweaker.stages.stageMystcraft;
-import scripts.crafttweaker.stages.stageMysticalAgradditions;
-import scripts.crafttweaker.stages.stageMysticalAgriculture;
-import scripts.crafttweaker.stages.stageOpenComputers;
-import scripts.crafttweaker.stages.stagePortalGun;
-import scripts.crafttweaker.stages.stageProjectE;
-import scripts.crafttweaker.stages.stageTwilightForest;
-import scripts.crafttweaker.stages.stageSmeltery;
-import scripts.crafttweaker.stages.stageFertileSoil;
-import scripts.crafttweaker.stages.stageBrownMulch;
-import scripts.crafttweaker.stages.stageYellowMulch;
-import scripts.crafttweaker.stages.stageAmberMulch;
-import scripts.crafttweaker.stages.stageBlueMulch;
-import scripts.crafttweaker.stages.stageRedMulch;
-import scripts.crafttweaker.stages.stageRubyMulch;
-import scripts.crafttweaker.stages.stageBlackMulch;
-import scripts.crafttweaker.stages.stageBlueSlimeDirt;
-import scripts.crafttweaker.stages.stagePurpleSlimeDirt;
-import scripts.crafttweaker.stages.stageOrangeSlimeDirt;
-import scripts.crafttweaker.stages.stageAndroid;
-import scripts.crafttweaker.stages.stagePacifist;
-
-// Contains all "useful" stages
-static ALL_STAGES as Stage[] = [
-	// Mod Stages
-	stageFluxNetworks,
-	stageIronJetpacks,
-	stageMobGrindingUtils,
-	stageMystcraft,
-	stageMysticalAgradditions,
-	stageMysticalAgriculture,
-	stageOpenComputers,
-	stagePortalGun,
-	stageProjectE,
-	stageTwilightForest,
-
-	// Misc Prestige-related Stages
-	stageSmeltery,
-	stageFertileSoil,
-	stageBrownMulch,
-	stageYellowMulch,
-	stageAmberMulch,
-	stageBlueMulch,
-	stageRedMulch,
-	stageRubyMulch,
-	stageBlackMulch,
-	stageBlueSlimeDirt,
-	stagePurpleSlimeDirt,
-	stageOrangeSlimeDirt,
-	stageAndroid,
-	stagePacifist
-];
-
 function init() {
-	for stage in ALL_STAGES {
+	for stageName, stage in stages {
 		stage.addRecipeRegex(stage.recipeRegex);
 	}
 }
