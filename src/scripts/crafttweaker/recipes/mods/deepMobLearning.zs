@@ -6,23 +6,24 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import mods.zenstages.Utils;
+
 /*
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-
-
-
-	<deepmoblearning:data_model_zombie>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): [
-		[
-			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-			[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
-			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
-		]
-	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	<deepmoblearning:data_model_zombie>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): {
+		Utils.genRecipeName(stages.pacifist, <deepmoblearning:data_model_zombie>): [
+			[
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+				[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
+				[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+			]
+		]
+	}
 };
 
 /*
