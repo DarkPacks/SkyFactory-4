@@ -5,7 +5,7 @@ SF4 = registerPreset("Sky Factory IIII", "images/DirtTree", "Standard Sky Factor
 SF4.registerDimension(0, "SF4/Dirt Tree")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 
-SF4 = registerPreset("Sky Factory IIII with No Skylight", "images/SF4", "Standard Sky Factory World with no skylight")
+SF4 = registerPreset("Sky Factory IIII with No Skylight", "images/NoSkylight", "Standard Sky Factory World with no skylight")
 SF4.registerDimension(0, "SF4/Dirt Tree with No Skylight")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 
@@ -29,7 +29,7 @@ SF4 = registerPreset("Sky Factory IIII with Gelid Cryotheum", "images/SF4", "Tre
 SF4.registerDimension(0, "SF4/Dirt Tree with Gelid Cryotheum")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 
-SF4 = registerPreset("Sky Factory IIII with Pyrotheum", "images/SF4", "Tree, but instead of void, Pyrotheum")
+SF4 = registerPreset("Sky Factory IIII with Pyrotheum", "images/Pyrotheum", "Tree, but instead of void, Pyrotheum")
 SF4.registerDimension(0, "SF4/Dirt Tree with Pyrotheum")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 
@@ -37,7 +37,7 @@ SF4 = registerPreset("Sky Factory IIII with Lava Floor", "images/SF4", "Tree, bu
 SF4.registerDimension(0, "SF4/Dirt Tree with Lava Floor")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 
-SF4 = registerPreset("Sky Factory IIII with Water Floor", "images/SF4", "Tree, but instead of void, Water")
+SF4 = registerPreset("Sky Factory IIII with Water Floor", "images/Water", "Tree, but instead of void, Water")
 SF4.registerDimension(0, "SF4/Dirt Tree with Water Floor")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 

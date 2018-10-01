@@ -4,7 +4,7 @@ setIcon(<minecraft:red_flower:8>)
 
 setDescription("Lorem ipsum dolor sit amet")
 
-setBackground("minecraft:textures/blocks/leaves_oak.png")
+setBackground("chisel:textures/blocks/valentines/2.png")
 
 setShowToast(false)
 

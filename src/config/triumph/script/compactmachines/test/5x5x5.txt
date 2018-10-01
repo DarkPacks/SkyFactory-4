@@ -5,6 +5,7 @@ setIcon("compactmachines3:machine", 1)
 setDescription("Obtain a Melter or a Porcelain Melter")
 
 setParent("compactmachines:test/3x3x3")
+setRequiresParents()
 
 drawDirectLines(true)
 setRequirements("any")
@@ -18,7 +19,6 @@ criteria1.addItem(<tcomplement:melter>)
 //Rewards
 setRewardExperience(4)
 setRewardItem("compactmachines3:machine", 1)
-setPos(62,35)
+setPos(62,22)
 
-hideLines()
 alwaysVisible()

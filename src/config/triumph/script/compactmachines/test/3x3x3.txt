@@ -5,8 +5,7 @@ setIcon("compactmachines3:machine")
 setDescription("Obtain Grass Block")
 
 setParent("compactmachines:test/root")
-
-drawDirectLines(true)
+setRequiresParents()
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
@@ -16,7 +15,6 @@ criteria.addItem(<minecraft:grass>)
 setRewardExperience(4)
 
 setRewardItem(<compactmachines3:machine>)
-setPos(32,50)
+setPos(32,52)
 
-hideLines()
 alwaysVisible()

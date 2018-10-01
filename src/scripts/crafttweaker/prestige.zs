@@ -42,5 +42,13 @@ function init() {
 
 
 
+    //Unlock Mob Grinding Utils via Prestige
+
+    Rewards.registerCommandReward("mob_grinding_utils", "gamestage add @p mob_grinding_utils");
+
+
+
+
+
 }
 

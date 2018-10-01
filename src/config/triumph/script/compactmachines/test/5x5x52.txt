@@ -5,6 +5,7 @@ setIcon("compactmachines3:machine", 1)
 setDescription("Craft a Simple Generator")
 
 setParent("compactmachines:test/3x3x3")
+setRequiresParents()
 
 drawDirectLines(true)
 setRequirements("any")
@@ -23,7 +24,6 @@ criteria3.addItem(<simplegenerators:nether_simple>)
 setRewardExperience(4)
 
 setRewardItem("compactmachines3:machine", 1)
-setPos(62,69)
+setPos(62,82)
 
-hideLines()
 alwaysVisible()

@@ -1,0 +1,28 @@
+setTitle("Sky Islands")
+
+setIcon(<rustic:cloudsbluff>)
+
+setDescription("Lorem ipsum dolor sit amet")
+
+setBackground("chisel:textures/blocks/obsidian/panel-shiny.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("superflat1", "minecraft:location")
+criteria1.setGeneratorOptions({"Topography-Preset":"Basic Sky Islands"})
+
+criteria2 = addCriteria("superflat2", "minecraft:location")
+criteria2.setGeneratorOptions({"Topography-Preset":"Material Sky Islands"})
+
+criteria3 = addCriteria("superflat3", "minecraft:location")
+criteria3.setGeneratorOptions({"Topography-Preset":"Glass n Lava Sky Islands"})
+
+
+//Rewards
+setRewardFunction("triumph:prestige_add")
+setRewardFunction("triumph:sky_islands_start")

@@ -16,8 +16,8 @@
     "title": "Android",
     "description": "I Found Pills!",
     "icon": "{id:\"matteroverdrive:android_pill\",Count:1,Damage:0s}",
-    "x": 309,
-    "y": 230,
+    "x": 274,
+    "y": 232,
     "cost": 200,
     "parents": [],
     "children": [],
@@ -108,8 +108,8 @@
     "title": "Bonsai Trees",
     "description": "Unlocks Bonsai Pots to automate Tree Growth",
     "icon": "{id:\"bonsaitrees:bonsaipot\",Count:1,Damage:0s}",
-    "x": 250,
-    "y": 230,
+    "x": 227,
+    "y": 232,
     "cost": 50,
     "parents": [],
     "children": [],
@@ -283,6 +283,18 @@
     "children": [
       "blackmulch"
     ],
+    "placed": true
+  },
+  {
+    "identifier": "mob_grinding_utils",
+    "title": "Mob Grinding Utils",
+    "description": "Unlocks MGU",
+    "icon": "{id:\"mob_grinding_utils:absorption_upgrade\",Count:1b,Damage:0s}",
+    "x": 309,
+    "y": 232,
+    "cost": 200,
+    "parents": [],
+    "children": [],
     "placed": true
   },
   {

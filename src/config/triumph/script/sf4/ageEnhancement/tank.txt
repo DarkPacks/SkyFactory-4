@@ -5,6 +5,7 @@ setIcon("tcomplement:porcelain_tank")
 setDescription("Craft a Tank to heat your Melter")
 
 setParent("sf4:ageEnhancement/root")
+setRequirements("any")
 
 drawDirectLines(true)
 

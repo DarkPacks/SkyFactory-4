@@ -1,1 +1,3 @@
 gamestage add @p pacifist
+gamestage remove @p mob_spawns
+gamerule tfEnforcedProgression false

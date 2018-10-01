@@ -6,6 +6,7 @@ setDescription("Obtain a block of End Stone")
 
 addParent("compactmachines:test/7x7x7")
 addParent("compactmachines:test/7x7x72")
+setRequiresParents()
 
 drawDirectLines(true)
 
@@ -17,7 +18,6 @@ criteria.addItem(<minecraft:end_stone>)
 setRewardExperience(4)
 
 setRewardItem("compactmachines3:machine", 3)
-setPos(127,35)
+setPos(182,22)
 
-hideLines()
 alwaysVisible()

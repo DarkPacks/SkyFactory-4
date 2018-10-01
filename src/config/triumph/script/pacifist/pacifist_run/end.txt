@@ -1,0 +1,20 @@
+setTitle("End")
+
+setIcon("dimensionaledibles:end_cake")
+
+setDescription("Go to the End")
+
+setParent("pacifist:pacifist_run/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("entered_end", "minecraft:changed_dimension")
+criteria.setDimensionDestination("the_end")
+
+//Rewards
+setRewardExperience(4)
+setRewardFunction("triumph:dragon_kill")
+
+hideLines()
+alwaysVisible()

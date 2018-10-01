@@ -33,6 +33,15 @@
     "__comment": "You can define additional items to be sold by the Market here. Defaults can be overridden. Prefix with ! to blacklist instead.",
     "examplemod:example_item": "2*minecraft:emerald",
     "minecraft:cactus": "8*minecraft:vine",
-    "xlfoodmod:lettuce_seeds": "8*minecraft:leaves"
+    "xlfoodmod:lettuce_seeds": "8*minecraft:leaves",
+    "minecraft:porkchop": "8*minecraft:carrot",
+    "minecraft:beef": "8*minecraft:wheat",
+    "minecraft:chicken": "8*minecraft:wheat",
+    "minecraft:rabbit": "8*minecraft:carrot",
+    "minecraft:mutton": "8*minecraft:wheat",
+    "minecraft:rabbit_foot": "8*minecraft:carrot",
+    "minecraft:rabbit_hide": "8*minecraft:carrot",
+    "minecraft:feather": "minecraft:wheat_seeds",
+    "minecraft:egg": "minecraft:wheat_seeds"
   }
 }

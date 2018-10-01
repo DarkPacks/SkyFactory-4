@@ -6,6 +6,7 @@ setDescription("Obtain a Pristine Wither Matter")
 
 addParent("compactmachines:test/9x9x9")
 addParent("compactmachines:test/9x9x92")
+setRequiresParents()
 
 drawDirectLines(true)
 
@@ -17,7 +18,6 @@ criteria.addItem(<deepmoblearning:pristine_matter_wither>)
 setRewardExperience(4)
 
 setRewardItem("compactmachines3:machine", 4)
-setPos(158,73)
+setPos(242,82)
 
-hideLines()
 alwaysVisible()

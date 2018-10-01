@@ -5,6 +5,7 @@ setIcon("tcomplement:porcelain_melter")
 setDescription("Craft a Melter to process your metals")
 
 setParent("sf4:ageEnhancement/root")
+setRequirements("any")
 
 drawDirectLines(true)
 

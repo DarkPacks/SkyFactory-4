@@ -6,6 +6,7 @@ setDescription("Obtain an Ender Eye")
 
 addParent("compactmachines:test/5x5x5")
 addParent("compactmachines:test/5x5x52")
+setRequiresParents()
 
 drawDirectLines(true)
 
@@ -17,7 +18,6 @@ criteria.addItem(<minecraft:ender_eye>)
 setRewardExperience(4)
 
 setRewardItem("compactmachines3:machine", 2)
-setPos(94,70)
+setPos(122,82)
 
-hideLines()
 alwaysVisible()

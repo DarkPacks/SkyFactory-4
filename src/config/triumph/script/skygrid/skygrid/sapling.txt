@@ -1,0 +1,19 @@
+setTitle("Sapling")
+
+setIcon(<minecraft:sapling>)
+
+setDescription("Obtain a Sapling")
+
+setParent("skygrid:skygrid/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<ore:treeSapling>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(32,27)

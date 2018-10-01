@@ -6,6 +6,7 @@ setDescription("Obtain Elytra")
 
 addParent("compactmachines:test/11x11x11")
 addParent("compactmachines:test/11x11x112")
+setRequiresParents()
 
 drawDirectLines(true)
 
@@ -17,7 +18,6 @@ criteria.addItem(<minecraft:elytra>)
 setRewardExperience(4)
 
 setRewardItem("compactmachines3:machine", 5)
-setPos(189,74)
+setPos(302,82)
 
-hideLines()
 alwaysVisible()
