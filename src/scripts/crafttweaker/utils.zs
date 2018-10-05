@@ -10,10 +10,7 @@ function capitalize(str as string) as string {
 }
 
 function convertSnakeToCamel(str as string) as string {
-	print("convertSnakeToCamel IN: " + str);
 	var splitString as string[] = str.split("_");
-	print("convertSnakeToCamel SPLIT LENGTH: " + splitString.length);
-
 	var newString as string = splitString[0];
 
 	for i, substring in splitString {
