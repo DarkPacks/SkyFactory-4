@@ -16,3 +16,4 @@ criteria.addItem(<tconstruct:pickaxe, nbt:{Unbreakable:1b}>)
 setRewardExperience(4)
 
 alwaysVisible()
+setPos(64,108)

@@ -4,8 +4,8 @@
     "title": "Portal Gun",
     "description": "Unlocks Portal Gun",
     "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"portalgun:item_portalgun\",Count:1b,tag:{lastFired:1b,width:1,channelName:\"Chell\",grabStrength:4,uuid:\"Global\",username:\"Global\",height:2},Damage:0s}",
-    "x": 270,
-    "y": 164,
+    "x": 302,
+    "y": 93,
     "cost": 250,
     "parents": [],
     "children": [],
@@ -16,36 +16,10 @@
     "title": "Android",
     "description": "I Found Pills!",
     "icon": "{id:\"matteroverdrive:android_pill\",Count:1,Damage:0s}",
-    "x": 274,
-    "y": 232,
+    "x": 201,
+    "y": 193,
     "cost": 200,
     "parents": [],
-    "children": [],
-    "placed": true
-  },
-  {
-    "identifier": "mega_torch",
-    "title": "Mega Torch",
-    "description": "Unlocks the Mega Torch",
-    "icon": "{id:\"torchmaster:mega_torch\",Count:1,Damage:0s}",
-    "x": 344,
-    "y": 164,
-    "cost": 250,
-    "parents": [],
-    "children": [],
-    "placed": true
-  },
-  {
-    "identifier": "magmaslimedirt",
-    "title": "Magma Slime Dirt",
-    "description": "Allows the placement of Slime Saplings in Bonsai Pots and further increases speed",
-    "icon": "{id:\"tconstruct:slime_dirt\",Count:1,Damage:3s}",
-    "x": 323,
-    "y": 83,
-    "cost": 400,
-    "parents": [
-      "purpleslimedirt"
-    ],
     "children": [],
     "placed": true
   },
@@ -54,21 +28,9 @@
     "title": "Tinkers\u0027 Smeltery",
     "description": "This unlocks the Tinkers\u0027 Construct Smeltery",
     "icon": "{id:\"tconstruct:smeltery_controller\",Count:1b,Damage:0s}",
-    "x": 250,
-    "y": 133,
+    "x": 201,
+    "y": 93,
     "cost": 100,
-    "parents": [],
-    "children": [],
-    "placed": true
-  },
-  {
-    "identifier": "mystcraft",
-    "title": "Mystcraft",
-    "description": "it.",
-    "icon": "{id:\"mystcraft:page\",Count:1b,tag:{symbol:\"mystcraft:modmat_log2_0\"},Damage:0s}",
-    "x": 330,
-    "y": 133,
-    "cost": 750,
     "parents": [],
     "children": [],
     "placed": true
@@ -78,8 +40,8 @@
     "title": "Red Mulch",
     "description": "Further Increases Bonsai sapling growth speed and droprates",
     "icon": "{id:\"inspirations:mulch\",Count:1,Damage:5s}",
-    "x": 323,
-    "y": 39,
+    "x": 302,
+    "y": 42,
     "cost": 600,
     "parents": [
       "bluemulch"
@@ -90,39 +52,13 @@
     "placed": true
   },
   {
-    "identifier": "blackmulch",
-    "title": "Black Mulch",
-    "description": "Further Increases Bonsai sapling growth speed and droprates",
-    "icon": "{id:\"inspirations:mulch\",Count:1,Damage:6s}",
-    "x": 375,
-    "y": -12,
-    "cost": 800,
-    "parents": [
-      "rubymulch"
-    ],
-    "children": [],
-    "placed": true
-  },
-  {
-    "identifier": "bonsai",
-    "title": "Bonsai Trees",
-    "description": "Unlocks Bonsai Pots to automate Tree Growth",
-    "icon": "{id:\"bonsaitrees:bonsaipot\",Count:1,Damage:0s}",
-    "x": 227,
-    "y": 232,
-    "cost": 50,
-    "parents": [],
-    "children": [],
-    "placed": true
-  },
-  {
-    "identifier": "ore_excavation",
-    "title": "Ore Excavation",
-    "description": "Turns on Ore Excavation",
-    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"minecraft:diamond_pickaxe\",Count:1,Damage:0s}",
-    "x": 227,
-    "y": 196,
-    "cost": 500,
+    "identifier": "flux_networks",
+    "title": "Flux Networks",
+    "description": "Unlocks Flux Networks",
+    "icon": "{id:\"fluxnetworks:fluxplug\",Count:1b,Damage:0s}",
+    "x": 302,
+    "y": 193,
+    "cost": 400,
     "parents": [],
     "children": [],
     "placed": true
@@ -132,55 +68,11 @@
     "title": "ProjectE",
     "description": "This unlocks the ProjectE mod",
     "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"projecte:item.pe_transmutation_tablet\",Count:1b,Damage:0s}",
-    "x": 292,
-    "y": 133,
+    "x": 248,
+    "y": 139,
     "cost": 1000,
     "parents": [],
     "children": [],
-    "placed": true
-  },
-  {
-    "identifier": "bluemulch",
-    "title": "Blue Mulch",
-    "description": "Further Increases Bonsai sapling growth speed and droprates",
-    "icon": "{id:\"inspirations:mulch\",Count:1,Damage:7s}",
-    "x": 323,
-    "y": -12,
-    "cost": 500,
-    "parents": [
-      "ambermulch"
-    ],
-    "children": [
-      "redmulch"
-    ],
-    "placed": true
-  },
-  {
-    "identifier": "mysticalagradditions",
-    "title": "Mystical Agradditions",
-    "description": "Unlocks this mod.",
-    "icon": "{id:\"mysticalagradditions:insanium\",Count:1b,Damage:0s}",
-    "x": 346,
-    "y": 196,
-    "cost": 1500,
-    "parents": [
-      "mysticalagriculture"
-    ],
-    "children": [],
-    "placed": true
-  },
-  {
-    "identifier": "blueslimedirt",
-    "title": "Blue Slime Dirt",
-    "description": "Allows the placement of Slime Saplings in Bonsai Pots",
-    "icon": "{id:\"tconstruct:slime_dirt\",Count:1,Damage:1s}",
-    "x": 222,
-    "y": 83,
-    "cost": 200,
-    "parents": [],
-    "children": [
-      "purpleslimedirt"
-    ],
     "placed": true
   },
   {
@@ -188,8 +80,8 @@
     "title": "Amber Mulch",
     "description": "Further Increases Bonsai sapling growth speed and droprates",
     "icon": "{id:\"inspirations:mulch\",Count:1,Damage:3s}",
-    "x": 270,
-    "y": -12,
+    "x": 249,
+    "y": -9,
     "cost": 400,
     "parents": [
       "yellowmulch"
@@ -204,8 +96,8 @@
     "title": "Purple Slime Dirt",
     "description": "Allows the placement of Slime Saplings in Bonsai Pots and increases speed",
     "icon": "{id:\"tconstruct:slime_dirt\",Count:1,Damage:2s}",
-    "x": 270,
-    "y": 83,
+    "x": 403,
+    "y": -9,
     "cost": 300,
     "parents": [
       "blueslimedirt"
@@ -220,21 +112,9 @@
     "title": "Iron Jetpacks",
     "description": "Unlocks Iron Jetpacks",
     "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"ironjetpacks:platinum_jetpack\",Count:1,Damage:0s}",
-    "x": 227,
-    "y": 164,
+    "x": 248,
+    "y": 93,
     "cost": 500,
-    "parents": [],
-    "children": [],
-    "placed": true
-  },
-  {
-    "identifier": "twilightforest",
-    "title": "Twilight Forest",
-    "description": "Yes.",
-    "icon": "{id:\"huntingdim:portal\",Count:1b,Damage:0s}",
-    "x": 309,
-    "y": 164,
-    "cost": 600,
     "parents": [],
     "children": [],
     "placed": true
@@ -244,8 +124,8 @@
     "title": "Fertile Soil",
     "description": "Increases Bonsai sapling growth speed and droprates",
     "icon": "{id:\"rustic:fertile_soil\",Count:1,Damage:0s}",
-    "x": 222,
-    "y": -12,
+    "x": 201,
+    "y": -9,
     "cost": 100,
     "parents": [],
     "children": [
@@ -258,8 +138,8 @@
     "title": "Brown Mulch",
     "description": "Further Increases Bonsai sapling growth speed and droprates",
     "icon": "{id:\"inspirations:mulch\",Count:1,Damage:1s}",
-    "x": 222,
-    "y": 39,
+    "x": 201,
+    "y": 42,
     "cost": 200,
     "parents": [
       "fertilesoil"
@@ -270,12 +150,144 @@
     "placed": true
   },
   {
+    "identifier": "mega_torch",
+    "title": "Mega Torch",
+    "description": "Unlocks the Mega Torch",
+    "icon": "{id:\"torchmaster:mega_torch\",Count:1,Damage:0s}",
+    "x": 346,
+    "y": 142,
+    "cost": 250,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "magmaslimedirt",
+    "title": "Magma Slime Dirt",
+    "description": "Allows the placement of Slime Saplings in Bonsai Pots and further increases speed",
+    "icon": "{id:\"tconstruct:slime_dirt\",Count:1,Damage:3s}",
+    "x": 457,
+    "y": -9,
+    "cost": 400,
+    "parents": [
+      "purpleslimedirt"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "mystcraft",
+    "title": "Mystcraft",
+    "description": "it.",
+    "icon": "{id:\"mystcraft:page\",Count:1b,tag:{symbol:\"mystcraft:modmat_log2_0\"},Damage:0s}",
+    "x": 354,
+    "y": 93,
+    "cost": 750,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "blackmulch",
+    "title": "Black Mulch",
+    "description": "Further Increases Bonsai sapling growth speed and droprates",
+    "icon": "{id:\"inspirations:mulch\",Count:1,Damage:6s}",
+    "x": 354,
+    "y": -9,
+    "cost": 800,
+    "parents": [
+      "rubymulch"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "bonsai",
+    "title": "Bonsai Trees",
+    "description": "Unlocks Bonsai Pots to automate Tree Growth",
+    "icon": "{id:\"bonsaitrees:bonsaipot\",Count:1,Damage:0s}",
+    "x": 166,
+    "y": 14,
+    "cost": 50,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "ore_excavation",
+    "title": "Ore Excavation",
+    "description": "Turns on Ore Excavation",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"minecraft:diamond_pickaxe\",Count:1,Damage:0s}",
+    "x": 201,
+    "y": 139,
+    "cost": 500,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "bluemulch",
+    "title": "Blue Mulch",
+    "description": "Further Increases Bonsai sapling growth speed and droprates",
+    "icon": "{id:\"inspirations:mulch\",Count:1,Damage:7s}",
+    "x": 302,
+    "y": -9,
+    "cost": 500,
+    "parents": [
+      "ambermulch"
+    ],
+    "children": [
+      "redmulch"
+    ],
+    "placed": true
+  },
+  {
+    "identifier": "mysticalagradditions",
+    "title": "Mystical Agradditions",
+    "description": "Unlocks this mod.",
+    "icon": "{id:\"mysticalagradditions:insanium\",Count:1b,Damage:0s}",
+    "x": 403,
+    "y": 142,
+    "cost": 1500,
+    "parents": [
+      "mysticalagriculture"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "blueslimedirt",
+    "title": "Blue Slime Dirt",
+    "description": "Allows the placement of Slime Saplings in Bonsai Pots",
+    "icon": "{id:\"tconstruct:slime_dirt\",Count:1,Damage:1s}",
+    "x": 403,
+    "y": 42,
+    "cost": 200,
+    "parents": [],
+    "children": [
+      "purpleslimedirt"
+    ],
+    "placed": true
+  },
+  {
+    "identifier": "twilightforest",
+    "title": "Twilight Forest",
+    "description": "Yes.",
+    "icon": "{id:\"huntingdim:portal\",Count:1b,Damage:0s}",
+    "x": 302,
+    "y": 139,
+    "cost": 600,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
     "identifier": "rubymulch",
     "title": "Ruby Mulch",
     "description": "Further Increases Bonsai sapling growth speed and droprates",
     "icon": "{id:\"inspirations:mulch\",Count:1,Damage:4s}",
-    "x": 381,
-    "y": 33,
+    "x": 354,
+    "y": 42,
     "cost": 700,
     "parents": [
       "redmulch"
@@ -290,8 +302,8 @@
     "title": "Mob Grinding Utils",
     "description": "Unlocks MGU",
     "icon": "{id:\"mob_grinding_utils:absorption_upgrade\",Count:1b,Damage:0s}",
-    "x": 309,
-    "y": 232,
+    "x": 248,
+    "y": 193,
     "cost": 200,
     "parents": [],
     "children": [],
@@ -302,8 +314,8 @@
     "title": "Mystical Agriculture",
     "description": "Unlocks Mystical Agriculture",
     "icon": "{id:\"mysticalagriculture:crafting\",Count:1b,Damage:4s}",
-    "x": 274,
-    "y": 196,
+    "x": 403,
+    "y": 93,
     "cost": 750,
     "parents": [],
     "children": [
@@ -316,8 +328,8 @@
     "title": "Yellow Mulch",
     "description": "Further Increases Bonsai sapling growth speed and droprates",
     "icon": "{id:\"inspirations:mulch\",Count:1,Damage:2s}",
-    "x": 269,
-    "y": 39,
+    "x": 248,
+    "y": 42,
     "cost": 300,
     "parents": [
       "brownmulch"

@@ -1,0 +1,23 @@
+setTitle("SkyFactory 4 Hardcore Mode")
+
+setIcon(<minecraft:skull>)
+
+setDescription("Lorem ipsum dolor sit amet")
+
+setBackground("minecraft:textures/blocks/soul_sand.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("superflat1", "minecraft:location")
+criteria1.setGeneratorOptions({"Topography-Preset":"Hardcore Skylight"})
+
+criteria2 = addCriteria("superflat2", "minecraft:location")
+criteria2.setGeneratorOptions({"Topography-Preset":"Hardcore No Skylight"})
+
+//Rewards
+setRewardFunction("triumph:forgiving_void_disable")

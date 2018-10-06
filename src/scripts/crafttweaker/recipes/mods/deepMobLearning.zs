@@ -212,6 +212,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 				[<deepmoblearning:data_model_blank>, <tconstruct:edible:1>]
 			]
 		]
+	},
+	<statues:itemstatuecore>: {
+		Utils.genRecipeName(stages.pacifist, <statues:itemstatuecore>): [
+			[
+				[<minecraft:stick>, <minecraft:clay_ball>, <minecraft:stick>],
+				[<minecraft:clay_ball>, <deepmoblearning:living_matter_overworldian>, <minecraft:clay_ball>],
+				[<minecraft:stick>, <minecraft:clay_ball>, <minecraft:stick>]
+			]
+		]
 	}
 };
 

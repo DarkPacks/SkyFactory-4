@@ -37,7 +37,7 @@ addGenerator(skyIslands)
 
 
 //Adds sky islands. Arguments are radius, number of times to attempt to generate in each region, and whether each island should choose a random type (true), or if types should be used in order (false).
-large = skyIslands.addSkyIslands(100, 1, true)
+large = skyIslands.addSkyIslands(100, 1, false)
 //Adds a SkyIslandType to the island generator.
 large.addType(forest)
 large.addType(cold_taiga)
@@ -53,7 +53,7 @@ large.addType(savanna)
 large.addType(roofed_forest)
 large.addType(redwood_taiga)
 
-medium = skyIslands.addSkyIslands(50, 32, true)
+medium = skyIslands.addSkyIslands(50, 32, false)
 medium.addType(forest)
 medium.addType(cold_taiga)
 medium.addType(desert)
@@ -68,7 +68,7 @@ medium.addType(savanna)
 medium.addType(roofed_forest)
 medium.addType(redwood_taiga)
 
-small = skyIslands.addSkyIslands(25, 64, true)
+small = skyIslands.addSkyIslands(25, 64, false)
 small.addType(forest)
 small.addType(cold_taiga)
 small.addType(desert)
@@ -83,7 +83,7 @@ small.addType(savanna)
 small.addType(roofed_forest)
 small.addType(redwood_taiga)
 
-tiny = skyIslands.addSkyIslands(10, 128, true)
+tiny = skyIslands.addSkyIslands(10, 128, false)
 tiny.addType(forest)
 tiny.addType(cold_taiga)
 tiny.addType(desert)

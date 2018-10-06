@@ -21,5 +21,4 @@ addCriteria("killEntity", "minecraft:player_killed_entity")
 addCriteria("killedByEntity", "minecraft:entity_killed_player")
 addCriteria("location", "minecraft:location")
 
-setRewardItem(<minecraft:stick, nbt:{ench:[{lvl:1s,id:51s}],display:{Name:"Builder's Wand"}}>)
 setPos(10,283)

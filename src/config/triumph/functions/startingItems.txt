@@ -1,0 +1,4 @@
+give @p minecraft:torch
+give @p tconstruct:edible
+give @p xlfoodmod:donut
+give @p minecraft:stick 1 0 {ench:[{lvl:1s,id:51s}],display:{Name:"Builder's Wand"}}

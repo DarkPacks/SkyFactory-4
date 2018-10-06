@@ -1,0 +1,18 @@
+setTitle("Tinkers' Mattock")
+
+setIcon(<tconstruct:mattock>)
+
+setDescription("Craft a Tinkers' Construct Mattock")
+
+setParent("sf4:ageFarming/root")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:mattock>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+hideLines()
+setPos(62,231)

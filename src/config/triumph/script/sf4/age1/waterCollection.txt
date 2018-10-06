@@ -1,0 +1,19 @@
+setTitle("Water Collection")
+
+setIcon(<minecraft:cauldron>)
+
+setDescription("Collect Rain Water in a Cauldron and right click on the block")
+
+addParent("sf4:age1/crushingTub")
+addParent("sf4:age1/cauldron")
+
+//Criteria
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock(<ore:cauldron,meta:1~4,tile:{state:{water:1b}}>)
+
+//Rewards
+setRewardExperience(4)
+
+drawDirectLines(true)
+alwaysVisible()
+setPos(-28,44)

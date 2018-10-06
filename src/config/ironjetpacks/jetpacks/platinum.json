@@ -4,7 +4,7 @@
     "disable": false,
     "tier": 5,
     "color": 7334639,
-    "armor_points": 4,
+    "armor_points": 6,
     "enchantability": 12,
     "crafting_material": "ore:ingotPlatinum",
     "force_recipes": false
@@ -12,12 +12,12 @@
   "jetpack_info": {
     "capacity": 64000000,
     "usage": 900,
-    "speed_vertical": 0.92,
+    "speed_vertical": 0.95,
     "accel_vertical": 0.155,
     "speed_sideways": 0.193,
     "speed_hover_descend": 0.45,
     "speed_hover": 0.0025,
     "sprint_speed_multi": 1.8,
-    "sprint_fuel_multi": 3.8
+    "sprint_fuel_multi": 4
   }
 }

@@ -5,6 +5,7 @@ setIcon(<tp:lava_block>)
 setDescription("Break a Lava Source Stone to create a Lava Source")
 
 setParent("skygrid:skygrid/root")
+setRequiresParents()
 
 drawDirectLines(true)
 

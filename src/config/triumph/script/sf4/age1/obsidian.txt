@@ -1,0 +1,19 @@
+setTitle("Study in the Dark Arts")
+
+setIcon(<minecraft:obsidian>)
+
+setDescription("Click a lava filled Cauldron with a Water Bucket to make Obsidian")
+
+setParent("sf4:age1/lava")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:obsidian>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(31,77)

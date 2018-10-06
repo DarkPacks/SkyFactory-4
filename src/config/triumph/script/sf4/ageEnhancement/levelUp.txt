@@ -1,0 +1,18 @@
+setTitle("Level Up Tinkers'!")
+
+setIcon(<tconstruct:pickaxe>)
+
+setDescription("Level up a Tinkers' Construct Pickaxe")
+
+setParent("sf4:ageEnhancement/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:pickaxe, nbt:{Modifiers: [{identifier: "toolleveling", level: 2}]}>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()

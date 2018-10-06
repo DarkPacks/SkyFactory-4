@@ -23,5 +23,7 @@ addCriteria("location", "minecraft:location")
 
 //Rewards
 setRewardFunction("triumph:prestige_add")
-setRewardItem(<minecraft:torch>)
+setRewardFunction("triumph:startingItems")
+setRewardFunction("triumph:forgiving_void_enable")
+
 setPos(-155,76)

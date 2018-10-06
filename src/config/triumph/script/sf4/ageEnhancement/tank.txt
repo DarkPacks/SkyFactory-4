@@ -19,3 +19,4 @@ criteria1.addItem("tcomplement:porcelain_tank")
 setRewardExperience(4)
 
 alwaysVisible()
+setPos(32,26)

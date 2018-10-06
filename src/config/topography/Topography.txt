@@ -21,7 +21,7 @@ SF4 = registerPreset("Sky Factory IIII with Sludge", "images/SF4", "Tree, but in
 SF4.registerDimension(0, "SF4/Dirt Tree with Sludge")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 
-SF4 = registerPreset("Sky Factory IIII with Resonant Ender", "images/SF4", "Tree, but instead of void, Resonant Ender")
+SF4 = registerPreset("Sky Factory IIII with Resonant Ender", "images/ResonantEnder", "Tree, but instead of void, Resonant Ender")
 SF4.registerDimension(0, "SF4/Dirt Tree with Resonant Ender")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 
@@ -33,7 +33,7 @@ SF4 = registerPreset("Sky Factory IIII with Pyrotheum", "images/Pyrotheum", "Tre
 SF4.registerDimension(0, "SF4/Dirt Tree with Pyrotheum")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 
-SF4 = registerPreset("Sky Factory IIII with Lava Floor", "images/SF4", "Tree, but instead of void, Lava")
+SF4 = registerPreset("Sky Factory IIII with Lava Floor", "images/Lava", "Tree, but instead of void, Lava")
 SF4.registerDimension(0, "SF4/Dirt Tree with Lava Floor")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 
@@ -45,21 +45,24 @@ SF4 = registerPreset("Sky Factory IIII on Chunk", "images/Chunk", "One Chunk in 
 SF4.registerDimension(0, "SF4/Dirt Tree on Chunk")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 
-basicSkyIslands = registerPreset("Basic Sky Islands", "Sky Islands")
+basicSkyIslands = registerPreset("Basic Sky Islands", "images/SkyIslands", "Sky Islands")
 basicSkyIslands.registerDimension(0, "Sky Islands/Basic Sky Islands")
+basicSkyIslands.registerDimension(-1, "SF4/Cell Nether")
 
-materialSkyIslands = registerPreset("Material Sky Islands", "Sky Islands made from Resources")
+materialSkyIslands = registerPreset("Material Sky Islands", "images/ResourceIslands", "Sky Islands made from Resources")
 materialSkyIslands.registerDimension(0, "Sky Islands/Material Sky Islands")
+materialSkyIslands.registerDimension(-1, "SF4/Cell Nether")
 
-glassLavaSkyIslands = registerPreset("Glass n Lava Sky Islands", "Glass Sky Islands filled with Lava")
+glassLavaSkyIslands = registerPreset("Glass n Lava Sky Islands", "images/GlassLavaIslands",  "Glass Sky Islands filled with Lava")
 glassLavaSkyIslands.registerDimension(0, "Sky Islands/Glass n Lava Sky Islands")
+glassLavaSkyIslands.registerDimension(-1, "SF4/Cell Nether")
 
 SF4 = registerPreset("Hardcore Skylight", "images/Open Roof Cell Nether", "Hardcore World with increased mob health, armor, and damage with permanent night")
 SF4.registerDimension(0, "SF4/hardcore_skylight")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 SF4.enableHardcore()
 
-SF4 = registerPreset("Hardcore No Skylight", "images/Open Roof Cell Nether", "Hardcore World with increased mob health, armor, and damage with no skylight")
+SF4 = registerPreset("Hardcore No Skylight", "images/HardcoreNoLight", "Hardcore World with increased mob health, armor, and damage with no skylight")
 SF4.registerDimension(0, "SF4/hardcore_no_skylight")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 SF4.enableHardcore()

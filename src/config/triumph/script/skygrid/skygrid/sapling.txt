@@ -5,6 +5,7 @@ setIcon(<minecraft:sapling>)
 setDescription("Obtain a Sapling")
 
 setParent("skygrid:skygrid/root")
+setRequiresParents()
 
 drawDirectLines(true)
 

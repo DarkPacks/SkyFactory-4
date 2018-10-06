@@ -4,7 +4,7 @@
     "disable": false,
     "tier": 3,
     "color": 10981685,
-    "armor_points": 2,
+    "armor_points": 4,
     "enchantability": 18,
     "crafting_material": "ore:ingotElectrum",
     "force_recipes": false

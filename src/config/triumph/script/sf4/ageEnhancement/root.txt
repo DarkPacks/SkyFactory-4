@@ -23,4 +23,3 @@ addCriteria("location", "minecraft:location")
 
 //Rewards
 setRewardFunction("triumph:stage-tutorial_trigger")
-setRewardItem(<xlfoodmod:donut>)

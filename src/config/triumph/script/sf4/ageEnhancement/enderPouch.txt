@@ -1,0 +1,19 @@
+setTitle("Ender Pouch")
+
+setIcon(<enderstorage:ender_pouch>)
+
+setDescription("Link an Ender Pouch to an Ender Chest by Shift Right-Clicking an Ender Chest with the Pouch")
+
+setParent("sf4:age1/obsidian")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<enderstorage:ender_pouch, nbt:{}>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(72,77)

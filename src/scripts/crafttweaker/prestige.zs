@@ -46,7 +46,8 @@ function init() {
 
     Rewards.registerCommandReward("mob_grinding_utils", "gamestage add @p mob_grinding_utils");
 
-
+    //Unlock Flux Networks via Prestige
+    Rewards.registerCommandReward("flux_networks", "gamestage add @p flux_networks");
 
 
 

@@ -5,6 +5,7 @@ setIcon("dimensionaledibles:end_cake")
 setDescription("Go to the End")
 
 setParent("pacifist:pacifist_run/root")
+setRequiresParents()
 
 drawDirectLines(true)
 

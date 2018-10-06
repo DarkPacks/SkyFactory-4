@@ -1,0 +1,18 @@
+setTitle("Metal Pickaxe Upgrade")
+
+setIcon(<tconstruct:cast,ore:cast,meta:0,count:1,nbt:{PartType:"tconstruct:pick_head"}>)
+
+setDescription("Create a non-clay Pickaxe Head Cast to begin upgrading your tools")
+
+setParent("sf4:ageEnhancement/root")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:cast,ore:cast,meta:0,count:1,nbt:{PartType:"tconstruct:pick_head"}>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-29,134)
