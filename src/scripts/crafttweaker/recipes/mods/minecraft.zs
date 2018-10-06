@@ -6,6 +6,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import scripts.crafttweaker.craftingUtils;
+
 /*
     Shaped Recipes
 */
@@ -60,18 +62,10 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<minecraft:diamond>: [
-		[
-			[<sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>],
-			[<sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>],
-			[<sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>, <sky_orchards:acorn_diamond>]
-		]
+		craftingUtils.create3By3(<sky_orchards:acorn_diamond>)
 	],
 	<minecraft:emerald>: [
-		[
-			[<sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>],
-			[<sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>],
-			[<sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>, <sky_orchards:acorn_emerald>]
-		]
+		craftingUtils.create3By3(<sky_orchards:acorn_emerald>)
 	],
 	<minecraft:netherrack>: [
 		[
@@ -129,18 +123,10 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<minecraft:redstone_block>: [
-		[
-			[<sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>],
-			[<sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>],
-			[<sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>, <sky_orchards:acorn_redstone>]
-		]
+		craftingUtils.create3By3(<sky_orchards:acorn_redstone>)
 	],
 	<minecraft:lapis_block>: [
-		[
-			[<sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>],
-			[<sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>],
-			[<sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>]
-		]
+		craftingUtils.create3By3(<sky_orchards:acorn_lapis>)
 	],
 	<minecraft:prismarine_shard>: [
 		[

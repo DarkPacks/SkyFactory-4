@@ -22,3 +22,14 @@ function createSurroundedRecipe(surroundIngredient as IIngredient, coreIngredien
 		[surroundIngredient, surroundIngredient, surroundIngredient]
 	];
 }
+
+/**
+ * Creates a 3x3 recipe using a single ingredient
+ */
+function create3By3(singleIngredient as IIngredient) as IIngredient[][] {
+	return [
+		[singleIngredient, singleIngredient, singleIngredient],
+		[singleIngredient, singleIngredient, singleIngredient],
+		[singleIngredient, singleIngredient, singleIngredient]
+	];
+}
