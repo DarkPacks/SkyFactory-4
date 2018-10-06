@@ -142,103 +142,12 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>, <sky_orchards:acorn_lapis>]
 		]
 	],
-	<torchmaster:mega_torch>: [
-		[
-			[<integrateddynamics:menril_torch>, <integrateddynamics:menril_torch>, <integrateddynamics:menril_torch>],
-			[<mekanism:ingot:3>, <ore:logWood>, <mekanism:ingot:3>],
-			[<minecraft:prismarine>, <ore:logWood>, <minecraft:prismarine>]
-		]
-	],
-	<bdsandm:wood_crate>: [
-		[
-			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 
-			[null, <minecraft:chest>, null], 
-			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
-		]
-	],
-	<bdsandm:wood_barrel>: [
-		[
-			[<ore:plankWood>, <minecraft:wooden_pressure_plate>, <ore:plankWood>], 
-			[<ore:plankWood>, <ore:woodCauldron>, <ore:plankWood>], 
-			[<ore:plankWood>, <minecraft:wooden_pressure_plate>, <ore:plankWood>]
-		]
-	],
-	<bdsandm:metal_crate>: [
-		[
-			[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], 
-			[null, <bdsandm:wood_crate>, null], 
-			[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
-		]
-	],
-	<bdsandm:metal_barrel>: [
-		[
-			[<ore:plateIron>, <minecraft:heavy_weighted_pressure_plate>, <ore:plateIron>], 
-			[<ore:plateIron>, <bdsandm:wood_barrel>, <ore:plateIron>], 
-			[<ore:plateIron>, <minecraft:heavy_weighted_pressure_plate>, <ore:plateIron>]
-		]
-	],
-	<bdsandm:shipping_container>: [
-		[
-			[<minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>], 
-			[<minecraft:iron_block>, <bdsandm:metal_crate>, <minecraft:iron_block>], 
-			[<minecraft:iron_block>, <minecraft:iron_bars>, <minecraft:iron_block>]
-		]
-	],
-	<bdsandm:upgrade>: [
-		[
-			[<ore:plankWood>, <minecraft:chest>, <ore:plankWood>], 
-			[<ore:plankWood>, <minecraft:item_frame>, <ore:plankWood>], 
-			[<ore:plankWood>, <minecraft:chest>, <ore:plankWood>]
-		]
-	],
-	<bdsandm:upgrade:1>: [
-		[
-			[<ore:ingotAluminum>, <minecraft:chest>, <ore:ingotAluminum>], 
-			[<ore:ingotAluminum>, <minecraft:item_frame>, <ore:ingotAluminum>], 
-			[<ore:ingotAluminum>, <minecraft:chest>, <ore:ingotAluminum>]
-		]
-	],
-	<bdsandm:upgrade:2>: [
-		[
-			[<minecraft:gold_ingot>, <mekanism:compresseddiamond>, <minecraft:gold_ingot>], 
-			[<minecraft:gold_ingot>, <tconstruct:fancy_frame:5>, <minecraft:gold_ingot>], 
-			[<minecraft:gold_ingot>, <mekanism:compresseddiamond>, <minecraft:gold_ingot>]
-		]
-	],
-	<bdsandm:upgrade:3>: [
-	  	[
-	  		[<tconstruct:ingots>, <mekanism:compressedobsidian>, <tconstruct:ingots>], 
-	  		[<tconstruct:ingots>, <tconstruct:fancy_frame:2>, <tconstruct:ingots>], 
-	  		[<tconstruct:ingots>, <mekanism:compressedobsidian>, <tconstruct:ingots>]
-	  	]
-	],	
-	<bdsandm:upgrade:5>: [
-		[
-			[<ore:plankWood>, <minecraft:dye:4>, <ore:plankWood>], 
-			[<ore:plankWood>, <minecraft:book>, <ore:plankWood>], 
-			[<ore:plankWood>, <minecraft:dye:4>, <ore:plankWood>]
-		]
-	],
 	<minecraft:prismarine_shard>: [
 		[
-			[<minecraft:prismarine_crystals>, <minecraft:prismarine_crystals>], 
+			[<minecraft:prismarine_crystals>, <minecraft:prismarine_crystals>],
 			[<minecraft:prismarine_crystals>, <minecraft:prismarine_crystals>]
 		]
-	],
-	<rftoolspower:power_core2>: [
-		[
-			[null, <minecraft:emerald>, null], 
-			[<minecraft:prismarine_crystals>, <ore:blockRedstone>, <minecraft:prismarine_crystals>], 
-			[null, <minecraft:prismarine_crystals>, null]
-		]
-	],
-	<rftoolspower:power_core3>: [
-		[
-			[null, <minecraft:emerald>, null], 
-			[<matteroverdrive:tritanium_ingot>, <ore:blockRedstone>, <matteroverdrive:tritanium_ingot>], 
-			[null, <matteroverdrive:dilithium_crystal>, null]
-		]
-	],
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -269,19 +178,6 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-	<torchmaster:mega_torch>,
-	<bdsandm:wood_crate>,
-	<bdsandm:wood_barrel>,
-	<bdsandm:metal_crate>,
-	<bdsandm:metal_barrel>,
-	<bdsandm:shipping_container>,
-	<bdsandm:upgrade>,
-	<bdsandm:upgrade:1>,
-	<bdsandm:upgrade:2>,
-	<bdsandm:upgrade:3>,
-	<bdsandm:upgrade:5>,
-	<rftoolspower:power_core2>,
-	<rftoolspower:power_core3>
 ];
 
 function init() {
