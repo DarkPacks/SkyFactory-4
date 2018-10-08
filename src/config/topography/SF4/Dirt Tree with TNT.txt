@@ -1,0 +1,8 @@
+
+
+
+setSpawnStructure("dirt_tree")
+
+layers = new LayerGenerator()
+layers.addLayer(1~55, <minecraft:tnt>)
+addGenerator(layers)

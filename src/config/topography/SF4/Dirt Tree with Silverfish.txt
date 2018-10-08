@@ -1,0 +1,15 @@
+
+
+
+
+
+setSpawnStructure("dirt_tree")
+
+
+
+layers = new LayerGenerator()
+layers.addLayer(1~60, <minecraft:monster_egg>)
+addGenerator(layers)
+
+
+
