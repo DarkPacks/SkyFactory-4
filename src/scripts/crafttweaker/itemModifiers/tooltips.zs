@@ -3,7 +3,7 @@
 
 
 <rustic:apple_seeds>.addTooltip(format.red("When planted becomes an Apple Sapling"));
-
+<rustic:sapling_apple>.addTooltip(format.red("Made when planting Apple Seeds"));
 
 //Add modifier tooltips 
 <rustic:fertile_soil>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));

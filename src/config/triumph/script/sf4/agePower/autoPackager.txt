@@ -16,3 +16,4 @@ criteria.addItem(<cyclicmagic:auto_packager>)
 setRewardExperience(4)
 
 alwaysVisible()
+setPos(22,81)

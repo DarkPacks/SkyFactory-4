@@ -1,0 +1,18 @@
+setTitle("Pristine Zombie Matter")
+
+setIcon(<deepmoblearning:pristine_matter_zombie>)
+
+setDescription("Acquire a Pristine Zombie Matter from Deep Mob Learning")
+
+setParent("sf4:agePower/root")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:pristine_matter_zombie>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-145,37)

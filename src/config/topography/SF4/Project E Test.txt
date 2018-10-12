@@ -1,0 +1,4 @@
+
+setSpawnStructure("ProjectE")
+
+.lock()

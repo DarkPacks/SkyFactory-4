@@ -1,0 +1,18 @@
+setTitle("Pristine Enderman Matter")
+
+setIcon(<deepmoblearning:pristine_matter_enderman>)
+
+setDescription("Acquire a Pristine Enderman Matter from Deep Mob Learning")
+
+setParent("sf4:agePower/pristineZombieMatter")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:pristine_matter_enderman>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-84,38)

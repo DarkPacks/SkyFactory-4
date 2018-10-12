@@ -1,0 +1,18 @@
+setTitle("Overworldian Matter")
+
+setIcon(<deepmoblearning:living_matter_overworldian>)
+
+setDescription("Acquire an Overworldian Matter from Deep Mob Learning")
+
+setParent("sf4:agePower/root")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:living_matter_overworldian>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-84,77)

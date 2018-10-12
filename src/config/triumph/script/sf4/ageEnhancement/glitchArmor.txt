@@ -1,6 +1,6 @@
 setTitle("Glitch Infused Armor")
 
-setIcon("conarm:armorstation")
+setIcon(<deepmoblearning:glitch_infused_chestplate>)
 
 setDescription("Craft the entire Glitch Infused Armor Set")
 

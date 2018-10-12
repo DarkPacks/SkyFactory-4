@@ -1,0 +1,18 @@
+setTitle("Twilight Matter")
+
+setIcon(<deepmoblearning:living_matter_twilight>)
+
+setDescription("Acquire a Twilight Matter from Deep Mob Learning")
+
+setParent("sf4:agePower/root")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:living_matter_twilight>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-173,77)

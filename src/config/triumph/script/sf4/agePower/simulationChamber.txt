@@ -1,0 +1,18 @@
+setTitle("Simulation Chamber")
+
+setIcon(<deepmoblearning:simulation_chamber>)
+
+setDescription("Acquire a Simulation Chamber from Deep Mob Learning")
+
+setParent("sf4:agePower/root")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:simulation_chamber>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-79,127)

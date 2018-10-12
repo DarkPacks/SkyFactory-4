@@ -1,0 +1,7 @@
+
+setSpawnStructure("StoneTest")
+
+
+layers = new LayerGenerator()
+layers.addLayer(1~256, <minecraft:stone>)
+addGenerator(layers)

@@ -6,10 +6,17 @@ setDescription("Collect Rain Water in a Cauldron and right click on the block")
 
 addParent("sf4:age1/crushingTub")
 addParent("sf4:age1/cauldron")
+setRequirements("any")
+
 
 //Criteria
-criteria = addCriteria("clickedBlock", "triumph:right_click_block")
-criteria.setBlock(<ore:cauldron,meta:1~4,tile:{state:{water:1b}}>)
+criteria1 = addCriteria("clickedBlock1", "triumph:right_click_block")
+criteria1.setBlock(<ore:cauldron,meta:1~4,tile:{state:{water:1b}}>)
+
+criteria2 = addCriteria("clickedBlock2", "triumph:right_click_block")
+criteria2.setBlock(<minecraft:cauldron,meta:1~4,tile:{state:{water:1b}}>)
+
+
 
 //Rewards
 setRewardExperience(4)

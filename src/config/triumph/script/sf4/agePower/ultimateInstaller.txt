@@ -1,0 +1,18 @@
+setTitle("Ultimate Installer")
+
+setIcon(<mekanism:tierinstaller:3>)
+
+setDescription("Craft an Ultimate Installer from Mekanism")
+
+setParent("sf4:agePower/root")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:tierinstaller:3>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-49,148)

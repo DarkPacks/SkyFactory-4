@@ -183,3 +183,7 @@ function init() {
 		}
 	}
 }
+
+
+//mods.tconstruct.Fuel.registerFuel(ILiquidStack fuel, int duration);
+mods.tconstruct.Fuel.registerFuel(<liquid:pyrotheum> * 50, 140);

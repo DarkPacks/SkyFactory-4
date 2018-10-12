@@ -50,6 +50,8 @@ function init() {
     Rewards.registerCommandReward("flux_networks", "gamestage add @p flux_networks");
 
 
+    //Unlock World types via prestige
+    Rewards.registerCommandReward("projecte_world", "topography unlock Project E Test");
 
 }
 

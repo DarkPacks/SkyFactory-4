@@ -16,3 +16,4 @@ criteria.addItem(<clickmachine:auto_clicker>)
 setRewardExperience(4)
 
 alwaysVisible()
+setPos(31,127)

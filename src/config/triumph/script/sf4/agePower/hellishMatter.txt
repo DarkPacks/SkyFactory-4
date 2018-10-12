@@ -1,0 +1,18 @@
+setTitle("Hellish Matter")
+
+setIcon(<deepmoblearning:living_matter_hellish>)
+
+setDescription("Acquire a Hellish Matter from Deep Mob Learning")
+
+setParent("sf4:agePower/root")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:living_matter_hellish>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-115,75)

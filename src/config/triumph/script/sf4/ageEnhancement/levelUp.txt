@@ -16,3 +16,4 @@ criteria.addItem(<tconstruct:pickaxe, nbt:{Modifiers: [{identifier: "toollevelin
 setRewardExperience(4)
 
 alwaysVisible()
+setPos(-62,54)
