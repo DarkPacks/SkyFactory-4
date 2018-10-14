@@ -67,17 +67,24 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<bdsandm:upgrade:3>: [
-	  	[
-	  		[<tconstruct:ingots>, <mekanism:compressedobsidian>, <tconstruct:ingots>],
-	  		[<tconstruct:ingots>, <tconstruct:fancy_frame:2>, <tconstruct:ingots>],
-	  		[<tconstruct:ingots>, <mekanism:compressedobsidian>, <tconstruct:ingots>]
-	  	]
+		[
+			[<tconstruct:ingots>, <mekanism:compressedobsidian>, <tconstruct:ingots>],
+			[<tconstruct:ingots>, <tconstruct:fancy_frame:2>, <tconstruct:ingots>],
+			[<tconstruct:ingots>, <mekanism:compressedobsidian>, <tconstruct:ingots>]
+		]
 	],
 	<bdsandm:upgrade:5>: [
 		[
 			[<ore:plankWood>, <minecraft:dye:4>, <ore:plankWood>],
 			[<ore:plankWood>, <minecraft:book>, <ore:plankWood>],
 			[<ore:plankWood>, <minecraft:dye:4>, <ore:plankWood>]
+		]
+	],
+	<bdsandm:upgrade:6>: [
+		[
+			[<chisel:voidstone>, <minecraft:chest>, <chisel:voidstone>],
+			[<chisel:voidstone>, <tconstruct:fancy_frame>, <chisel:voidstone>],
+			[<chisel:voidstone>, <minecraft:chest>, <chisel:voidstone>]
 		]
 	]
 };
@@ -116,7 +123,8 @@ static removeRecipes as IItemStack[] = [
 	<bdsandm:upgrade:5>,
 	<bdsandm:upgrade>,
 	<bdsandm:wood_barrel>,
-	<bdsandm:wood_crate>
+	<bdsandm:wood_crate>,
+	<bdsandm:upgrade:6>
 ];
 
 function init() {

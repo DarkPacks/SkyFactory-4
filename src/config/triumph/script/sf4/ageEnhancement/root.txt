@@ -4,7 +4,7 @@ setIcon("minecraft:anvil")
 
 setDescription("Lorem ipsum dolor sit amet")
 
-setBackground("minecraft:textures/blocks/cobblestone.png")
+setBackground("minecraft:textures/blocks/hardened_clay_stained_cyan.png")
 
 setShowToast(false)
 
