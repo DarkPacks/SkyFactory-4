@@ -6,6 +6,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import mods.zenstages.Utils;
+
 import scripts.crafttweaker.craftingUtils;
 
 /*
