@@ -32,7 +32,12 @@
           }
         ]
       },
-      "dimension": "all"
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          0
+        ]
+      }
     },
     "oil_shale_clathrate": {
       "distribution": "uniform",

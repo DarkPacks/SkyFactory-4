@@ -23,6 +23,26 @@ SF4.registerDimension(0, "SF4/VillageTest")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 
 
+SF4 = registerPreset("Underwater World", "images/DirtTree", "Underwater world test")
+SF4.registerDimension(0, "SF4/GlassCage")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+
+
+SF4 = registerPreset("Underlava World", "images/DirtTree", "Underlava world test")
+SF4.registerDimension(0, "SF4/LavaCage")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+
+
+SF4 = registerPreset("Liquid Ender Cage", "images/DirtTree", "Liquid Ender Cage")
+SF4.registerDimension(0, "SF4/Ender Cage")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+
+
+SF4 = registerPreset("Bedrock Cage", "images/DirtTree", "Bedrock Cage world test")
+SF4.registerDimension(0, "SF4/BedrockCage")
+SF4.registerDimension(-1, "SF4/Cell Nether")
+
+
 
 SF4 = registerPreset("Sky Factory IIII Encased in Bedrock", "images/Bedrock", "Encased in Bedrock")
 SF4.registerDimension(0, "SF4/Encased in Bedrock")

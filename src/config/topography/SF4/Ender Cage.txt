@@ -1,0 +1,7 @@
+
+setSpawnStructure("GlassCage")
+
+layers = new LayerGenerator()
+layers.addLayer(1~255, <thermalfoundation:fluid_ender>)
+layers.addLayer(0~0, <minecraft:bedrock>)
+addGenerator(layers)
