@@ -1,7 +1,7 @@
 /*
-    SkyFactory 4 Statues Recipe Script
+    SkyFactory 4 DarkUtils Recipe Script
 
-    This script handles the recipes for Statues.
+    This script handles the recipes for DarkUtils.
 */
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -12,23 +12,26 @@ import mods.zenstages.Utils;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<statues:blockdisplaystand>: [
-		[
-			[<bibliocraft:armorstand>],
-			[<minecraft:quartz_block>]
-		]
-	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
-	<statues:itemstatuecore>: {
-		Utils.genRecipeName(stages.pacifist): [
-			[
-				[<minecraft:stick>, <minecraft:clay_ball>, <minecraft:stick>],
-				[<minecraft:clay_ball>, <deepmoblearning:living_matter_overworldian>, <minecraft:clay_ball>],
-				[<minecraft:stick>, <minecraft:clay_ball>, <minecraft:stick>]
-			]
-		]
+	<darkutils:material> * 3: {
+	  	Utils.genRecipeName(stages.pacifist): [
+	  		[
+	  			[<deepmoblearning:living_matter_hellish>, <ore:dustCoal>, <deepmoblearning:living_matter_hellish>],
+	  			[<ore:dustCoal>, <minecraft:blaze_powder>, <ore:dustCoal>],
+	  			[<deepmoblearning:living_matter_hellish>, <ore:dustCoal>, <deepmoblearning:living_matter_hellish>]
+	  		]
+	  	]
+	},
+	<darkutils:shulker_pearl>: {
+	  	Utils.genRecipeName(stages.pacifist): [
+	  		[
+	  			[null, <minecraft:chorus_fruit>, null],
+	  			[<minecraft:chorus_fruit>, <darkutils:material:1>, <minecraft:chorus_fruit>],
+	  			[null, <minecraft:chorus_fruit>, null]
+	  		]
+	  	]
 	}
 };
 
@@ -53,9 +56,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IItemStack[] = [
-	<statues:blockdisplaystand>
-];
+static removeRecipes as IItemStack[] = [];
 
 function init() {
 	// Un-named recipes

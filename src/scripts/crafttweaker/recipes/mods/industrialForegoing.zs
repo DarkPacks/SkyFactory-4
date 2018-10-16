@@ -18,17 +18,19 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [<minecraft:water_bucket>, <teslacorelib:machine_case>, <minecraft:water_bucket>],
             [<industrialforegoing:plastic>, <ore:gearGold>, <industrialforegoing:plastic>]
         ]
-    ],
-    <ichunutil:compact_porkchop>: [
-        [
-            [<sky_orchards:resin_bacon>, <sky_orchards:acorn_bacon>, <sky_orchards:resin_bacon>],
-            [<sky_orchards:acorn_bacon>, <sky_orchards:resin_bacon>, <sky_orchards:acorn_bacon>],
-            [<sky_orchards:resin_bacon>, <sky_orchards:acorn_bacon>, <sky_orchards:resin_bacon>]
-        ]
     ]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	<industrialforegoing:laser_lens>: {
+	  	Utils.genRecipeName(stages.pacifist): [
+	  		[
+	  			[null, <tconstruct:edible:2>, null],
+	  			[<tconstruct:edible:2>, <minecraft:stained_glass_pane>, <tconstruct:edible:2>],
+	  			[null, <tconstruct:edible:2>, null]
+	  		]
+	  	]
+	}
 };
 
 /*

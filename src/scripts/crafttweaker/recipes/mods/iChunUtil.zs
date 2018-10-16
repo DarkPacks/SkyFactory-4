@@ -1,35 +1,25 @@
 /*
-    SkyFactory 4 Statues Recipe Script
+    SkyFactory 4 iChunUtil Recipe Script
 
-    This script handles the recipes for Statues.
+    This script handles the recipes for iChunUtil.
 */
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-
-import mods.zenstages.Utils;
 
 /*
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<statues:blockdisplaystand>: [
-		[
-			[<bibliocraft:armorstand>],
-			[<minecraft:quartz_block>]
-		]
-	]
+	<ichunutil:compact_porkchop>: [
+        [
+            [<sky_orchards:resin_bacon>, <sky_orchards:acorn_bacon>, <sky_orchards:resin_bacon>],
+            [<sky_orchards:acorn_bacon>, <sky_orchards:resin_bacon>, <sky_orchards:acorn_bacon>],
+            [<sky_orchards:resin_bacon>, <sky_orchards:acorn_bacon>, <sky_orchards:resin_bacon>]
+        ]
+    ]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
-	<statues:itemstatuecore>: {
-		Utils.genRecipeName(stages.pacifist): [
-			[
-				[<minecraft:stick>, <minecraft:clay_ball>, <minecraft:stick>],
-				[<minecraft:clay_ball>, <deepmoblearning:living_matter_overworldian>, <minecraft:clay_ball>],
-				[<minecraft:stick>, <minecraft:clay_ball>, <minecraft:stick>]
-			]
-		]
-	}
 };
 
 /*
@@ -53,9 +43,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IItemStack[] = [
-	<statues:blockdisplaystand>
-];
+static removeRecipes as IItemStack[] = [];
 
 function init() {
 	// Un-named recipes

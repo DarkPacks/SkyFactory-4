@@ -24,51 +24,6 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	  		]
 	  	]
 	},
-	<darkutils:material> * 3: {
-	  	Utils.genRecipeName(stages.pacifist): [
-	  		[
-	  			[<deepmoblearning:living_matter_hellish>, <ore:dustCoal>, <deepmoblearning:living_matter_hellish>],
-	  			[<ore:dustCoal>, <minecraft:blaze_powder>, <ore:dustCoal>],
-	  			[<deepmoblearning:living_matter_hellish>, <ore:dustCoal>, <deepmoblearning:living_matter_hellish>]
-	  		]
-	  	]
-	},
-	<darkutils:shulker_pearl>: {
-	  	Utils.genRecipeName(stages.pacifist): [
-	  		[
-	  			[null, <minecraft:chorus_fruit>, null],
-	  			[<minecraft:chorus_fruit>, <darkutils:material:1>, <minecraft:chorus_fruit>],
-	  			[null, <minecraft:chorus_fruit>, null]
-	  		]
-	  	]
-	},
-	<minecraft:dragon_breath>: {
-	  	Utils.genRecipeName(stages.pacifist): [
-	  		[
-	  			[<minecraft:end_crystal>, <minecraft:fire_charge>, <minecraft:end_crystal>],
-	  			[<forge:bucketfilled>.withTag({FluidName: "liquidchorus", Amount: 1000}), <deepmoblearning:living_matter_extraterrestrial>, <forge:bucketfilled>.withTag({FluidName: "liquidchorus", Amount: 1000})],
-	  			[<minecraft:end_crystal>, <minecraft:glass_bottle>, <minecraft:end_crystal>]
-	  		]
-	  	]
-	},
-	<industrialforegoing:laser_lens>: {
-	  	Utils.genRecipeName(stages.pacifist): [
-	  		[
-	  			[null, <tconstruct:edible:2>, null],
-	  			[<tconstruct:edible:2>, <minecraft:stained_glass_pane>, <tconstruct:edible:2>],
-	  			[null, <tconstruct:edible:2>, null]
-	  		]
-	  	]
-	},
-	<cookingforblockheads:cow_jar>: {
-	  	Utils.genRecipeName(stages.pacifist): [
-	  		[
-	  			[<minecraft:glass_pane>, <minecraft:anvil>, <minecraft:glass_pane>],
-	  			[<minecraft:glass_pane>, <animalcrops:seeds>.withTag({entity: "minecraft:cow"}), <minecraft:glass_pane>],
-	  			[<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>]
-	  		]
-	  	]
-	},
 	<deepmoblearning:data_model_zombie>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): {
 		Utils.genRecipeName(stages.pacifist): [
 			[
@@ -208,15 +163,6 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		Utils.genRecipeName(stages.pacifist): [
 			[
 				[<deepmoblearning:data_model_blank>, <tconstruct:edible:1>]
-			]
-		]
-	},
-	<statues:itemstatuecore>: {
-		Utils.genRecipeName(stages.pacifist): [
-			[
-				[<minecraft:stick>, <minecraft:clay_ball>, <minecraft:stick>],
-				[<minecraft:clay_ball>, <deepmoblearning:living_matter_overworldian>, <minecraft:clay_ball>],
-				[<minecraft:stick>, <minecraft:clay_ball>, <minecraft:stick>]
 			]
 		]
 	}
