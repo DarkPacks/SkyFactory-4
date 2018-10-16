@@ -1,7 +1,7 @@
 /*
-    SkyFactory 4 Statues Recipe Script
+    SkyFactory 4 Cooking For Blockheads Recipe Script
 
-    This script handles the recipes for Statues.
+    This script handles the recipes for Cooking For Blockheads.
 */
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -12,23 +12,17 @@ import mods.zenstages.Utils;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<statues:blockdisplaystand>: [
-		[
-			[<bibliocraft:armorstand>],
-			[<minecraft:quartz_block>]
-		]
-	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
-	<statues:itemstatuecore>: {
-		Utils.genRecipeName(stages.pacifist): [
-			[
-				[<minecraft:stick>, <minecraft:clay_ball>, <minecraft:stick>],
-				[<minecraft:clay_ball>, <deepmoblearning:living_matter_overworldian>, <minecraft:clay_ball>],
-				[<minecraft:stick>, <minecraft:clay_ball>, <minecraft:stick>]
-			]
-		]
+	<cookingforblockheads:cow_jar>: {
+	  	Utils.genRecipeName(stages.pacifist): [
+	  		[
+	  			[<minecraft:glass_pane>, <minecraft:anvil>, <minecraft:glass_pane>],
+	  			[<minecraft:glass_pane>, <animalcrops:seeds>.withTag({entity: "minecraft:cow"}), <minecraft:glass_pane>],
+	  			[<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>]
+	  		]
+	  	]
 	}
 };
 
@@ -53,9 +47,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IItemStack[] = [
-	<statues:blockdisplaystand>
-];
+static removeRecipes as IItemStack[] = [];
 
 function init() {
 	// Un-named recipes

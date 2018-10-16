@@ -137,6 +137,15 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	<minecraft:dragon_breath>: {
+	  	Utils.genRecipeName(stages.pacifist): [
+	  		[
+	  			[<minecraft:end_crystal>, <minecraft:fire_charge>, <minecraft:end_crystal>],
+	  			[<forge:bucketfilled>.withTag({FluidName: "liquidchorus", Amount: 1000}), <deepmoblearning:living_matter_extraterrestrial>, <forge:bucketfilled>.withTag({FluidName: "liquidchorus", Amount: 1000})],
+	  			[<minecraft:end_crystal>, <minecraft:glass_bottle>, <minecraft:end_crystal>]
+	  		]
+	  	]
+	}
 };
 
 /*
