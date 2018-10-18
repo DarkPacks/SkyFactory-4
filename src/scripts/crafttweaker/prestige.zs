@@ -5,12 +5,13 @@ function init() {
     Rewards.registerCommandReward("projecte", "gamestage add @p " ~ stages.projectE.stage);
     Rewards.registerCommandReward("ironjetpacks", "gamestage add @p " ~ stages.ironJetpacks.stage);
     Rewards.registerCommandReward("mysticalagriculture", "gamestage add @p " ~ stages.mysticalAgriculture.stage);
+    Rewards.registerCommandReward("mysticalagriculture", "gamestage add @p prosperity_tree");
     Rewards.registerCommandReward("mysticalagradditions", "gamestage add @p " ~ stages.mysticalAgradditions.stage);
     Rewards.registerCommandReward("portalgun", "gamestage add @p " ~ stages.portalGun.stage);
     Rewards.registerCommandReward("twilightforest", "gamestage add @p " ~ stages.twilightForest.stage);
     Rewards.registerCommandReward("mystcraft", "gamestage add @p " ~ stages.mystcraft.stage);
 
-    // More specific prestiege rewards
+    // mOrE SpECiFIC PrEStiGE rEWArds
     Rewards.registerCommandReward("smeltery", "gamestage add @p " ~ stages.smeltery.stage);
     Rewards.registerCommandReward("fertilesoil", "gamestage add @p " ~ stages.fertileSoil.stage);
     Rewards.registerCommandReward("brownmulch", "gamestage add @p " ~ stages.brownMulch.stage);

@@ -61,6 +61,7 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.rustic.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.tconstruct.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.matteroverdrive.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.prosperityTree.init();
 }
 
 function initIntegration() {

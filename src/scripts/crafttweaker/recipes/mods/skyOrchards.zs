@@ -421,6 +421,15 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<mekanism:ingot:3>, <deepmoblearning:pristine_matter_blaze>, <mekanism:ingot:3>],
 			[null, <tconstruct:slime_sapling:2>, null]
 		]
+	],
+
+	//Prosperity Shard Tree
+	<sky_orchards:sapling_prosperity>: [
+		[
+			[null, <mysticalagriculture:tier1_inferium_seeds>, null],
+			[<mysticalagriculture:tier1_inferium_seeds>, <sky_orchards:sapling_cobalt>, <mysticalagriculture:tier1_inferium_seeds>],
+			[null, <mysticalagriculture:tier1_inferium_seeds>, null]
+		]
 	]
 };
 

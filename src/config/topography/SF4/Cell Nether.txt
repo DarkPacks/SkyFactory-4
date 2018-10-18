@@ -43,3 +43,5 @@ quartz.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(quartz)
 
 enableRelightChecks()
+
+disableRespawning()

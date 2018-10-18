@@ -35,5 +35,257 @@
     "mob": "withercrumbs:wither crumb",
     "item": "minecraft:nether_star",
     "random": 1.0
+  },
+  {
+    "mob": "Skeleton",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Skeleton",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Skeleton",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Zombie",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Zombie",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Zombie",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Spider",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Spider",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Spider",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Witch",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Witch",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Witch",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Enderman",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Enderman",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Enderman",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Zombie_villager",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Zombie_villager",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Zombie_villager",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Husk",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Husk",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Husk",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Zombie_pigman",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Zombie_pigman",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Zombie_pigman",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Ghast",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Ghast",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Ghast",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Blaze",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Blaze",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Blaze",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Creeper",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Creeper",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Creeper",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
   }
 ]

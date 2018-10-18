@@ -5,23 +5,22 @@ SF4 = registerPreset("Sky Factory IIII", "images/DirtTree", "Standard Sky Factor
 SF4.registerDimension(0, "SF4/Dirt Tree")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 
+SF4 = registerPreset("Sky Factory Classic Mode", "images/DirtTree", "Sky Factory 4 minus all unlocks. You will not be able to acquire prestige points in this world type")
+SF4.registerDimension(0, "SF4/Dirt Tree")
+SF4.registerDimension(-1, "SF4/Cell Nether")
 
 SF4 = registerPreset("Project E Test", "images/ProjectE", "Unlockable world with a ProjectE start")
 SF4.registerDimension(0, "SF4/Project E Test")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 SF4.lock()
 
-
 SF4 = registerPreset("StoneTest", "images/EncasedStone", "Standard Sky Factory Tree surrounded by stone")
 SF4.registerDimension(0, "SF4/StoneTest")
 SF4.registerDimension(-1, "SF4/Cell Nether")
 
-
-
 SF4 = registerPreset("VillageTest", "images/DirtTree", "Test to determine whether or not a village could be a spawn location")
 SF4.registerDimension(0, "SF4/VillageTest")
 SF4.registerDimension(-1, "SF4/Cell Nether")
-
 
 SF4 = registerPreset("Underwater World", "images/DirtTree", "Underwater world test")
 SF4.registerDimension(0, "SF4/GlassCage")

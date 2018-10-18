@@ -41,7 +41,7 @@ var stageStrings as string[] = [
 	"orange_slime_dirt",
 	"ore_excavation",
 	"pacifist",
-
+	"prosperity_tree",
 	"android"
 ];
 

@@ -1,0 +1,61 @@
+{
+  "type": "sky_orchard:prosperity",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_prosperity",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_prosperity",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "  a  ",
+      " aa  ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  ",
+      "  b  ",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      "  a  ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      " aaaa",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ]
+}
