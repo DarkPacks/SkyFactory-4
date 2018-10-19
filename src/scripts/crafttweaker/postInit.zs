@@ -55,13 +55,25 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.stages.init();
 
 	// ==================================
-	// Staging Mod's Items and Recipes
-	scripts.crafttweaker.staging.itemsAndRecipes.mods.inspirations.init();
-	scripts.crafttweaker.staging.itemsAndRecipes.mods.mobGrindingUtils.init();
-	scripts.crafttweaker.staging.itemsAndRecipes.mods.rustic.init();
-	scripts.crafttweaker.staging.itemsAndRecipes.mods.tconstruct.init();
-	scripts.crafttweaker.staging.itemsAndRecipes.mods.matteroverdrive.init();
-	scripts.crafttweaker.staging.itemsAndRecipes.mods.prosperityTree.init();
+	// Initialize Item Staging
+	scripts.crafttweaker.staging.itemsAndRecipes.items.amberMulch.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.android.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.blackMulch.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.blueMulch.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.blueSlimeDirt.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.brownMulch.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.fertileSoil.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.mobGrindingUtils.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.orangeSlimeDirt.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.prosperityTree.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.purpleSlimeDirt.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.redMulch.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.rubyMulch.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.smeltery.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.yellowMulch.init();
+
+	// ==================================
+	// Initialize Recipe Staging
 }
 
 function initIntegration() {
