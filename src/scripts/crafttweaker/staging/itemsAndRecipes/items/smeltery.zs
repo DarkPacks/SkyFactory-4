@@ -17,7 +17,5 @@ static stagedItems as IIngredient[] = [
 ];
 
 function init() {
-	for item in stagedItems {
-		stage.addIngredients(items);
-	}
+	stage.addIngredients(stagedItems);
 }
