@@ -35,9 +35,6 @@ static stagedMods as string[][string] = {
 	],
 	stages.twilightForest.stage: [
 		"twilightforest"
-	],
-	stages.prosperityTree.stage: [
-		"prosperity_tree"
 	]
 };
 
