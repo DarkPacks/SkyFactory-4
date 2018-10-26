@@ -1,0 +1,6 @@
+setSpawnStructure("Diamonds")
+
+layers = new LayerGenerator()
+layers.addLayer(1~50, <mekanism:saltblock>)
+layers.addLayer(0~0, <minecraft:prismarine:2>)
+addGenerator(layers)

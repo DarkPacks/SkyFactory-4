@@ -49,18 +49,32 @@ function init() {
 	// Acorn Melting
 	tinkers.addMelting(<liquid:iron> * 16, <sky_orchards:acorn_iron>);
 	tinkers.addMelting(<liquid:gold> * 16, <sky_orchards:acorn_gold>);
-	// tinkers.addMelting(<liquid:lapis> * 100, <sky_orchards:acorn_lapis>);
-	tinkers.addMelting(<liquid:redstone> * 100, <sky_orchards:acorn_redstone>);
 	tinkers.addMelting(<liquid:copper> * 16, <sky_orchards:acorn_copper>);
 	tinkers.addMelting(<liquid:lead> * 16, <sky_orchards:acorn_lead>);
 	tinkers.addMelting(<liquid:tin> * 16, <sky_orchards:acorn_tin>);
 	tinkers.addMelting(<liquid:aluminum> * 16, <sky_orchards:acorn_aluminum>);
 	tinkers.addMelting(<liquid:silver> * 16, <sky_orchards:acorn_silver>);
 	tinkers.addMelting(<liquid:nickel> * 16, <sky_orchards:acorn_nickel>);
-	tinkers.addMelting(<liquid:emerald> * 74, <sky_orchards:acorn_emerald>);
 	tinkers.addMelting(<liquid:ardite> * 16, <sky_orchards:acorn_ardite>);
 	tinkers.addMelting(<liquid:cobalt> * 16, <sky_orchards:acorn_cobalt>);
 	tinkers.addMelting(<liquid:osmium> * 16, <sky_orchards:acorn_osmium>);
+	tinkers.addMelting(<liquid:redstone> * 100, <sky_orchards:acorn_redstone>);
+	tinkers.addMelting(<liquid:emerald> * 74, <sky_orchards:acorn_emerald>);
+
+	tinkers.addMelting(<liquid:iron> * 12, <sky_orchards:resin_iron>);
+	tinkers.addMelting(<liquid:gold> * 12, <sky_orchards:resin_gold>);
+	tinkers.addMelting(<liquid:copper> * 12, <sky_orchards:resin_copper>);
+	tinkers.addMelting(<liquid:lead> * 12, <sky_orchards:resin_lead>);
+	tinkers.addMelting(<liquid:tin> * 12, <sky_orchards:resin_tin>);
+	tinkers.addMelting(<liquid:aluminum> * 12, <sky_orchards:resin_aluminum>);
+	tinkers.addMelting(<liquid:silver> * 12, <sky_orchards:resin_silver>);
+	tinkers.addMelting(<liquid:nickel> * 12, <sky_orchards:resin_nickel>);
+	tinkers.addMelting(<liquid:ardite> * 12, <sky_orchards:resin_ardite>);
+	tinkers.addMelting(<liquid:cobalt> * 12, <sky_orchards:resin_cobalt>);
+	tinkers.addMelting(<liquid:osmium> * 12, <sky_orchards:resin_osmium>);
+	tinkers.addMelting(<liquid:redstone> * 100, <sky_orchards:resin_redstone>);
+	tinkers.addMelting(<liquid:emerald> * 74, <sky_orchards:resin_emerald>);
+
 
 	//I added osmium because apparently NO ONE ELSE IS ABLE TO DO IT
 	//So, I GUESS ILL BE THE ONE TO ADD IT. 
@@ -93,10 +107,26 @@ function init() {
 	// Drying
 	// ==================================
 	tinkers.removeDrying(<minecraft:deadbush>);
+	tinkers.removeDrying(<minecraft:leather>);
 
 	tinkers.addDrying(<sky_orchards:acorn_petrified>, <sky_orchards:acorn_dirt>, 1200);
 	tinkers.addDrying(<minecraft:string>, <sky_orchards:leaves_cottonwood>, 900);
 	tinkers.addDrying(<minecraft:vine>, <minecraft:sapling:3>, 900);
+	tinkers.addDrying(<minecraft:leather>, <minecraft:cooked_beef>, 1800);
+	tinkers.addDrying(<minecraft:leather>, <minecraft:cooked_porkchop>, 1800);
+	tinkers.addDrying(<minecraft:leather>, <minecraft:cooked_fish>, 1800);
+	tinkers.addDrying(<minecraft:leather>, <minecraft:cooked_fish:1>, 1800);
+	tinkers.addDrying(<minecraft:leather>, <minecraft:cooked_chicken>, 1800);
+	tinkers.addDrying(<minecraft:leather>, <minecraft:cooked_rabbit>, 1800);
+	tinkers.addDrying(<minecraft:leather>, <minecraft:cooked_mutton>, 1800);
+
+
+
+
+
+
+
+
 
 	// ==================================
 	// Casting Table

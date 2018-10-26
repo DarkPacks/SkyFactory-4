@@ -73,7 +73,16 @@ Packager.addRecipe(<matteroverdrive:tritanium_ingot>, [<resourcehogs:truffle>.wi
 ////
 
 
-		// output, input, ticks
+	// output, input, ticks
 	Dehydrator.addRecipe(<minecraft:string>, <sky_orchards:leaves_cottonwood>, 450);
 	Dehydrator.addRecipe(<sky_orchards:acorn_petrified>, <sky_orchards:acorn_dirt>, 600);
 	Dehydrator.addRecipe(<minecraft:vine>, <minecraft:sapling:3>, 450);
+	Dehydrator.addRecipe(<minecraft:leather>, <minecraft:cooked_beef>, 600);
+	Dehydrator.addRecipe(<minecraft:leather>, <minecraft:cooked_porkchop>, 600);
+	Dehydrator.addRecipe(<minecraft:leather>, <minecraft:cooked_fish>, 600);
+	Dehydrator.addRecipe(<minecraft:leather>, <minecraft:cooked_fish:1>, 600);
+	Dehydrator.addRecipe(<minecraft:leather>, <minecraft:cooked_chicken>, 600);
+	Dehydrator.addRecipe(<minecraft:leather>, <minecraft:cooked_rabbit>, 600);
+	Dehydrator.addRecipe(<minecraft:leather>, <minecraft:cooked_mutton>, 600);
+
+

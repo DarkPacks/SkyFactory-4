@@ -1,0 +1,10 @@
+
+setSpawnStructure("chunk_dirt_tree")
+
+sky = setSkyRenderer()
+//top, bottom, north, south, east, west
+
+night = sky.addSkybox("test:textures/skybox/galaxy_pos_y.png", "test:textures/skybox/galaxy_neg_y.png", "test:textures/skybox/galaxy_pos_z.png", "test:textures/skybox/galaxy_neg_z.png", "test:textures/skybox/galaxy_pos_x.png", "test:textures/skybox/galaxy_neg_x.png")
+
+//Lazy method for adding a sun and moon since I don't want to make the effort for proper custom ones yet.
+sky.addSunMoon()

@@ -190,27 +190,6 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-	<deepmoblearning:data_model_blaze>,
-	<deepmoblearning:data_model_creeper>,
-	<deepmoblearning:data_model_dragon>,
-	<deepmoblearning:data_model_enderman>,
-	<deepmoblearning:data_model_ghast>,
-	<deepmoblearning:data_model_guardian>,
-	<deepmoblearning:data_model_shulker>,
-	<deepmoblearning:data_model_skeleton>,
-	<deepmoblearning:data_model_slime>,
-	<deepmoblearning:data_model_spider>,
-	<deepmoblearning:data_model_thermal_elemental>,
-	<deepmoblearning:data_model_tinker_slime>,
-	<deepmoblearning:data_model_twilight_darkwood>,
-	<deepmoblearning:data_model_twilight_forest>,
-	<deepmoblearning:data_model_twilight_glacier>,
-	<deepmoblearning:data_model_twilight_swamp>,
-	<deepmoblearning:data_model_witch>,
-	<deepmoblearning:data_model_wither_skeleton>,
-	<deepmoblearning:data_model_wither>,
-	<deepmoblearning:data_model_zombie>,
-	<deepmoblearning:simulation_chamber>
 ];
 
 function init() {
