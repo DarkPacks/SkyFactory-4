@@ -1,0 +1,19 @@
+setTitle("Slimy Dirt")
+
+setIcon(<tconstruct:slime_dirt:0>)
+
+setDescription("Planting Slime Saplings in the world or in a Bonsai Pot requires slimy dirt. Craft Green Slimy Dirt to get started!")
+
+setParent("sf4:age1/claySapling")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:slime_dirt:0>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(1,210)

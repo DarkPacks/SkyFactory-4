@@ -1,0 +1,17 @@
+setTitle("Diamond!")
+
+setIcon(<minecraft:diamond>)
+
+setDescription("Obtain a Diamond!")
+
+setParent("sf4:age1/diamondSapling")
+
+drawDirectLines(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:diamond>)
+
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(76,210)

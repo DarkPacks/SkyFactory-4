@@ -2,9 +2,9 @@ setTitle("Ender Pouch")
 
 setIcon(<enderstorage:ender_pouch>)
 
-setDescription("Link an Ender Pouch to an Ender Chest by Shift Right-Clicking an Ender Chest with the Pouch")
+setDescription("Craft an Ender Pouch and Shift Right-Click on an Ender Chest to connect them")
 
-setParent("sf4:age1/obsidian")
+setParent("sf4:ageEnhancement/root")
 
 drawDirectLines(true)
 
@@ -16,4 +16,4 @@ criteria.addItem(<enderstorage:ender_pouch, nbt:{}>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(72,77)
+setPos(-62,189)

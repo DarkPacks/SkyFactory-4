@@ -10,12 +10,9 @@ drawDirectLines(true)
 alwaysVisible()
 
 criteria = addCriteria("clickedBlock", "triumph:right_click_block")
-criteria.setBlock(<matteroverdrive:fusion_reactor_controller,tile:{EnergyPerTick:15000}>)
+criteria.setBlock(<matteroverdrive:fusion_reactor_controller,tile:{EnergyPerTick:15000~}>)
 
 //Rewards
 setRewardExperience(4)
-
-
-
 
 setPos(-26,4)

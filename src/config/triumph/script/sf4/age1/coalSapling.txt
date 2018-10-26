@@ -16,4 +16,4 @@ criteria.addItem("sky_orchards:sapling_coal")
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-6,149)
+setPos(1,185)

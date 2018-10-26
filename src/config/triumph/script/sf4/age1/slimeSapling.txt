@@ -1,0 +1,19 @@
+setTitle("Slimy Trees")
+
+setIcon(<tconstruct:slime_sapling>)
+
+setDescription("Acquire a Blue Slime Sapling")
+
+setParent("sf4:age1/claySapling")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:slime_sapling>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(1,236)

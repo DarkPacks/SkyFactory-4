@@ -1,0 +1,19 @@
+setTitle("Diamond Sapling")
+
+setIcon(<sky_orchards:sapling_diamond>)
+
+setDescription("Craft a Diamond Sapling")
+
+setParent("sf4:age1/goldSapling")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_diamond>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(76,185)
