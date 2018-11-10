@@ -56,12 +56,8 @@ mods.mekanism.enrichment.addRecipe(<thermalfoundation:material:131>, <thermalfou
 //
 ////
 mods.mekanism.combiner.addRecipe(<thermaldynamics:duct_32>, <minecraft:glowstone_dust>, <thermaldynamics:duct_32:2>);
-
-
-
-
-
-
+mods.mekanism.combiner.addRecipe(<thermaldynamics:duct_64:3> * 2, <thermalfoundation:material:1026>, <thermaldynamics:duct_64> * 2);
+mods.mekanism.combiner.addRecipe(<thermaldynamics:duct_0:6>, <minecraft:redstone> * 2, <thermaldynamics:duct_0:2>);
 
 ////
 //

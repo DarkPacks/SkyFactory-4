@@ -46,6 +46,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.statues.init();
 	scripts.crafttweaker.recipes.mods.tconstruct.init();
 	scripts.crafttweaker.recipes.mods.tinyProgressions.init();
+	scripts.crafttweaker.recipes.mods.twilightForest.init();
 }
 
 function initItemsAndRecipesStaging() {

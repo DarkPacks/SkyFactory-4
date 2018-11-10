@@ -6,7 +6,7 @@
   "typeName": "Tritanium",
   "output": "matteroverdrive:tritanium_ingot",
   "diggableBlocks": [
-    "minecraft:dirt"
+    "minecraft:stone"
   ],
   "renderBlock": "matteroverdrive:tritanium_ore",
   "validDimensions": [

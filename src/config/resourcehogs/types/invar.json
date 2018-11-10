@@ -1,14 +1,14 @@
 {
-  "id": "ironbars",
+  "id": "invar",
   "inputs": [
-    "minecraft:iron_bars"
+    "ore:dustInvar"
   ],
-  "typeName": "Ironbars",
-  "output": "minecraft:iron_bars",
+  "typeName": "Invar",
+  "output": "thermalfoundation:material:162",
   "diggableBlocks": [
     "minecraft:stone"
   ],
-  "renderBlock": "minecraft:iron_bars",
+  "renderBlock": "thermalfoundation:storage_alloy:2",
   "validDimensions": [
     -1,
     0,
@@ -17,5 +17,5 @@
   "maxHealth": 15.0,
   "movementSpeed": 0.25,
   "armorAmount": 6,
-  "digTickDelay": 1200
+  "digTickDelay": 1600
 }

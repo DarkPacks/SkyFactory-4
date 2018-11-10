@@ -6,7 +6,7 @@
   "typeName": "Redstone",
   "output": "minecraft:redstone",
   "diggableBlocks": [
-    "minecraft:dirt"
+    "minecraft:stone"
   ],
   "renderBlock": "minecraft:redstone_ore",
   "validDimensions": [

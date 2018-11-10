@@ -1,14 +1,14 @@
 {
-  "id": "ironbars",
+  "id": "bronze",
   "inputs": [
-    "minecraft:iron_bars"
+    "ore:dustBronze"
   ],
-  "typeName": "Ironbars",
-  "output": "minecraft:iron_bars",
+  "typeName": "Bronze",
+  "output": "thermalfoundation:material:99",
   "diggableBlocks": [
     "minecraft:stone"
   ],
-  "renderBlock": "minecraft:iron_bars",
+  "renderBlock": "thermalfoundation:storage_alloy:3",
   "validDimensions": [
     -1,
     0,
@@ -17,5 +17,5 @@
   "maxHealth": 15.0,
   "movementSpeed": 0.25,
   "armorAmount": 6,
-  "digTickDelay": 1200
+  "digTickDelay": 1600
 }

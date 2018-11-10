@@ -3,9 +3,10 @@
   "inputs": [
     "ore:dustCoal"
   ],
+  "typeName": "Coal",
   "output": "sky_orchards:amber_coal",
   "diggableBlocks": [
-    "minecraft:dirt"
+    "minecraft:stone"
   ],
   "renderBlock": "minecraft:coal_ore",
   "validDimensions": [

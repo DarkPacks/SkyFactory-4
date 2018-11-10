@@ -6,7 +6,7 @@
   "typeName": "Quartz",
   "output": "minecraft:quartz",
   "diggableBlocks": [
-    "minecraft:netherrack"
+    "minecraft:soul_sand"
   ],
   "renderBlock": "minecraft:quartz_ore",
   "validDimensions": [

@@ -1,14 +1,14 @@
 {
-  "id": "clay",
+  "id": "nickel",
   "inputs": [
-    "minecraft:clay"
+    "ore:dustNickel"
   ],
-  "typeName": "Clay",
-  "output": "minecraft:clay_ball",
+  "typeName": "Nickel",
+  "output": "sky_orchards:amber_nickel",
   "diggableBlocks": [
-    "minecraft:clay"
+    "minecraft:stone"
   ],
-  "renderBlock": "minecraft:clay",
+  "renderBlock": "thermalfoundation:ore:5",
   "validDimensions": [
     -1,
     0,

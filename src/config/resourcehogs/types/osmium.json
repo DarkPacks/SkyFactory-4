@@ -6,7 +6,7 @@
   "typeName": "Osmium",
   "output": "sky_orchards:amber_osmium",
   "diggableBlocks": [
-    "minecraft:dirt"
+    "minecraft:stone"
   ],
   "renderBlock": "mekanism:oreblock",
   "validDimensions": [

@@ -1,14 +1,14 @@
 {
-  "id": "ironbars",
+  "id": "steel",
   "inputs": [
-    "minecraft:iron_bars"
+    "ore:dustSteel"
   ],
-  "typeName": "Ironbars",
-  "output": "minecraft:iron_bars",
+  "typeName": "Steel",
+  "output": "mekanism:ingot:4",
   "diggableBlocks": [
     "minecraft:stone"
   ],
-  "renderBlock": "minecraft:iron_bars",
+  "renderBlock": "mekanism:basicblock:5",
   "validDimensions": [
     -1,
     0,
@@ -17,5 +17,5 @@
   "maxHealth": 15.0,
   "movementSpeed": 0.25,
   "armorAmount": 6,
-  "digTickDelay": 1200
+  "digTickDelay": 2000
 }

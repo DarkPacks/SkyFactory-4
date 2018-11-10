@@ -22,4 +22,4 @@ criteria2.addItem("minecraft:lava_bucket")
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(1,77)
+setPos(1,76)

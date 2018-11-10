@@ -1,7 +1,5 @@
 
 
-
-
 <rustic:apple_seeds>.addTooltip(format.red("When planted becomes an Apple Sapling"));
 <rustic:sapling_apple>.addTooltip(format.red("Made when planting Apple Seeds"));
 
@@ -59,3 +57,5 @@
 <tconstruct:slime_grass:5>.addTooltip(format.yellow("Growth Rate: 90% Drop Chance: 90%"));
 <tconstruct:slime_grass:10>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
 <tconstruct:slime_grass:10>.addTooltip(format.yellow("Growth Rate: 90% Drop Chance: 90%"));
+
+<resourcehogs:mud_bucket:*>.addTooltip(format.yellow("Use on a Pig to convert into a Resource Hog"));

@@ -3,9 +3,10 @@
   "inputs": [
     "ore:dustCopper"
   ],
+  "typeName": "Copper",
   "output": "sky_orchards:amber_copper",
   "diggableBlocks": [
-    "minecraft:dirt"
+    "minecraft:stone"
   ],
   "renderBlock": "mekanism:oreblock:1",
   "validDimensions": [

@@ -6,7 +6,7 @@
   "typeName": "Gravel",
   "output": "minecraft:gravel",
   "diggableBlocks": [
-    "minecraft:dirt"
+    "minecraft:gravel"
   ],
   "renderBlock": "minecraft:gravel",
   "validDimensions": [

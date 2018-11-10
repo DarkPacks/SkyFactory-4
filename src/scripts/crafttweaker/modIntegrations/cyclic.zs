@@ -67,6 +67,13 @@ Packager.addRecipe(<minecraft:soul_sand>, [<resourcehogs:truffle>.withTag({Resou
 Packager.addRecipe(<minecraft:prismarine_crystals>, [<resourcehogs:truffle>.withTag({ResourceType: "prismarine"}) * 4]);
 Packager.addRecipe(<tconstruct:materials>, [<resourcehogs:truffle>.withTag({ResourceType: "seared_brick"}) * 4]);
 Packager.addRecipe(<matteroverdrive:tritanium_ingot>, [<resourcehogs:truffle>.withTag({ResourceType: "tritanium"}) * 4]);
+Packager.addRecipe(<mekanism:ingot:4>, [<resourcehogs:truffle>.withTag({ResourceType: "steel"}) * 4]);
+Packager.addRecipe(<astralsorcery:itemcraftingcomponent>, [<resourcehogs:truffle>.withTag({ResourceType: "aquamarine"}) * 4]);
+Packager.addRecipe(<thermalfoundation:material:134>, [<resourcehogs:truffle>.withTag({ResourceType: "platinum"}) * 4]);
+Packager.addRecipe(<thermalfoundation:material:162>, [<resourcehogs:truffle>.withTag({ResourceType: "invar"}) * 4]);
+Packager.addRecipe(<thermalfoundation:material:161>, [<resourcehogs:truffle>.withTag({ResourceType: "electrum"}) * 4]);
+Packager.addRecipe(<thermalfoundation:material:133>, [<resourcehogs:truffle>.withTag({ResourceType: "nickel"}) * 4]);
+Packager.addRecipe(<mekanism:ingot:2>, [<resourcehogs:truffle>.withTag({ResourceType: "bronze"}) * 4]);
 
 ////
 //Dehydrator

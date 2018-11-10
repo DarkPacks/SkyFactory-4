@@ -16,4 +16,4 @@ criteria.addItem(<minecraft:obsidian>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(31,77)
+setPos(31,76)

@@ -1,0 +1,18 @@
+setTitle("Hog Tied")
+
+setIcon(<resourcehogs:mud_bucket, meta:0, count:1, nbt:{ResourceType:"cobblestone"}>)
+
+setDescription("Craft a Cobblestone Mud Bucket which you can feed to a pig to transform it into a Resource Hog")
+
+setParent("sf4:age1/root")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<resourcehogs:mud_bucket, meta:0, count:1, nbt:{ResourceType:"cobblestone"}>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+hideLines()
+setPos(105,157)

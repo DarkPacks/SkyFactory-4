@@ -6,7 +6,7 @@
   "typeName": "Glowstone",
   "output": "minecraft:glowstone_dust",
   "diggableBlocks": [
-    "minecraft:dirt"
+    "minecraft:soul_sand"
   ],
   "renderBlock": "minecraft:glowstone",
   "validDimensions": [

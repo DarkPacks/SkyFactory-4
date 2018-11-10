@@ -5,7 +5,7 @@
   ],
   "output": "minecraft:emerald",
   "diggableBlocks": [
-    "minecraft:dirt"
+    "minecraft:stone"
   ],
   "renderBlock": "minecraft:emerald_ore",
   "validDimensions": [

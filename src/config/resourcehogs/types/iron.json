@@ -3,9 +3,10 @@
   "inputs": [
     "ore:dustIron"
   ],
+  "typeName": "Iron",
   "output": "sky_orchards:amber_iron",
   "diggableBlocks": [
-    "minecraft:dirt"
+    "minecraft:stone"
   ],
   "renderBlock": "minecraft:iron_block",
   "validDimensions": [

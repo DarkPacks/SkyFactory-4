@@ -6,7 +6,7 @@
   "typeName": "Tin",
   "output": "sky_orchards:amber_tin",
   "diggableBlocks": [
-    "minecraft:dirt"
+    "minecraft:stone"
   ],
   "renderBlock": "mekanism:oreblock:2",
   "validDimensions": [

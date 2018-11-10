@@ -6,7 +6,7 @@
   "typeName": "Netherrack",
   "output": "minecraft:netherrack",
   "diggableBlocks": [
-    "minecraft:netherrack"
+    "minecraft:soul_sand"
   ],
   "renderBlock": "minecraft:netherrack",
   "validDimensions": [

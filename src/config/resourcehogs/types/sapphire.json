@@ -6,7 +6,7 @@
   "typeName": "Sapphire",
   "output": "practicallogistics2:sapphire",
   "diggableBlocks": [
-    "minecraft:dirt"
+    "minecraft:stone"
   ],
   "renderBlock": "practicallogistics2:sapphireore",
   "validDimensions": [

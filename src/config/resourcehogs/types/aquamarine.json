@@ -1,14 +1,14 @@
 {
-  "id": "sand",
+  "id": "aquamarine",
   "inputs": [
-    "minecraft:sand"
+    "astralsorcery:itemcraftingcomponent"
   ],
-  "typeName": "Sand",
-  "output": "minecraft:sand",
+  "typeName": "Aquamarine",
+  "output": "astralsorcery:itemcraftingcomponent",
   "diggableBlocks": [
     "minecraft:sand"
   ],
-  "renderBlock": "minecraft:sand",
+  "renderBlock": "astralsorcery:blockcustomsandore",
   "validDimensions": [
     -1,
     0,

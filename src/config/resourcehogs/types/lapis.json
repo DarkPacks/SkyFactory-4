@@ -6,7 +6,7 @@
   "typeName": "Lapis Lazuli",
   "output": "minecraft:dye:4",
   "diggableBlocks": [
-    "minecraft:dirt"
+    "minecraft:stone"
   ],
   "renderBlock": "minecraft:lapis_ore",
   "validDimensions": [

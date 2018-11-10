@@ -5,7 +5,7 @@
   ],
   "output": "minecraft:diamond",
   "diggableBlocks": [
-    "minecraft:dirt"
+    "minecraft:stone"
   ],
   "renderBlock": "minecraft:diamond_ore",
   "validDimensions": [

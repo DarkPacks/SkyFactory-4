@@ -16,6 +16,6 @@
   ],
   "maxHealth": 25.0,
   "movementSpeed": 0.1,
-  "armorAmount": 6,
+  "armorAmount": 15,
   "digTickDelay": 1400
 }
