@@ -1,11 +1,11 @@
 //If this file is deleted, a new set of default configs will be generated.
 
 //Registers a preset. First argument is name, second is the image name, third is a description.
-SF4 = registerPreset("Sky Factory 4", "images/DirtTree", "Traditional Sky Factory world starting on a tree in the void.")
+SF4 = registerPreset("Sky Factory Classic Mode", "images/DirtTree", "Traditional Sky Factory world. This world does not require unlocks via prestige but will also not allow you to accumulate prestige to unlock for other world types.")
 SF4.registerDimension(0, "SF4/dirt_tree")
 SF4.registerDimension(-1, "SF4/cell_nether")
 
-SF4 = registerPreset("Sky Factory Classic Mode", "images/DirtTree", "Traditional Sky Factory world. This world does not require unlocks via prestige but will also not allow you to accumulate prestige to unlock for other world types.")
+SF4 = registerPreset("Sky Factory 4", "images/DirtTree", "Traditional Sky Factory world starting on a tree in the void.")
 SF4.registerDimension(0, "SF4/dirt_tree")
 SF4.registerDimension(-1, "SF4/cell_nether")
 

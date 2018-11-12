@@ -2,7 +2,7 @@ setTitle("Cottonwood Trees")
 
 setIcon("minecraft:string")
 
-setDescription("Use the Drying Rack to dry out Cottonwood Leaves to make String")
+setDescription("String has a chance to drop from Cottonwood Leaves or use the Drying Rack to dry out Cottonwood Leaves to make String")
 
 setParent("sf4:age1/dryingRack")
 

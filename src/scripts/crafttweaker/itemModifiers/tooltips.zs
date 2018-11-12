@@ -59,3 +59,10 @@
 <tconstruct:slime_grass:10>.addTooltip(format.yellow("Growth Rate: 90% Drop Chance: 90%"));
 
 <resourcehogs:mud_bucket:*>.addTooltip(format.yellow("Use on a Pig to convert into a Resource Hog"));
+
+<teslacorelib:base_addon>.addTooltip(format.yellow("Used in Industrial Foregoing upgrade recipes"));
+<teslacorelib:energy_tier1>.addTooltip(format.yellow("Upgrades Industrial Foregoing machines"));
+<teslacorelib:energy_tier2>.addTooltip(format.yellow("Upgrades Industrial Foregoing machines"));
+<teslacorelib:speed_tier1>.addTooltip(format.yellow("Upgrades Industrial Foregoing machines"));
+<teslacorelib:speed_tier2>.addTooltip(format.yellow("Upgrades Industrial Foregoing machines"));
+<teslacorelib:wrench>.addTooltip(format.yellow("Used to manipulate Industrial Foregoing machines"));
