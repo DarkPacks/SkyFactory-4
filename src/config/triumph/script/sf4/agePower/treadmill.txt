@@ -16,4 +16,4 @@ criteria.addItem(<sync:item_treadmill>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(34,159)
+setPos(-241,135)

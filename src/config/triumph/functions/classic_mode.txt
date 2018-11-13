@@ -9,7 +9,6 @@ gamestage add @p mystical_agradditions
 gamestage add @p mystical_agriculture
 gamestage add @p open_computers
 gamestage add @p portal_gun
-gamestage add @p project_e
 gamestage add @p twilight_forest
 gamestage add @p smeltery
 gamestage add @p fertile_soil

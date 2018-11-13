@@ -18,25 +18,25 @@ SF4 = registerPreset("Stone Factory", "images/EncasedStone", "Traditional Sky Fa
 SF4.registerDimension(0, "SF4/stone_cage")
 SF4.registerDimension(-1, "SF4/cell_nether")
 
-SF4 = registerPreset("Sky Village", "images/DirtTree", "Spawn inside a small village with a Dirt Tree.")
+SF4 = registerPreset("Sky Village", "images/Village", "Spawn inside a small village with a Dirt Tree.")
 SF4.registerDimension(0, "SF4/village")
 SF4.registerDimension(-1, "SF4/cell_nether")
 
-SF4 = registerPreset("Sea World", "images/DirtTree", "Surrounded by water in a glass cage with a Dirt Tree.")
+SF4 = registerPreset("Sea World", "images/WaterCage", "Surrounded by water in a glass cage with a Dirt Tree.")
 SF4.registerDimension(0, "SF4/glass_cage")
-SF4.registerDimension(-1, "SF4/cell_nether")
+SF4.registerDimension(-1, "SF4/water_nether")
 
-SF4 = registerPreset("Lava Factory", "images/DirtTree", "Surrounded by lava in a glass cage with a Dirt Tree.")
+SF4 = registerPreset("Lava Factory", "images/LavaCage", "Surrounded by lava in a glass cage with a Dirt Tree.")
 SF4.registerDimension(0, "SF4/lava_cage")
-SF4.registerDimension(-1, "SF4/cell_nether")
+SF4.registerDimension(-1, "SF4/sunken_nether")
 
-SF4 = registerPreset("Ender the Sea", "images/DirtTree", "Surrounded by liquid ender in a glass cage with a Dirt Tree. Good luck.")
+SF4 = registerPreset("Ender the Sea", "images/EnderCage", "Surrounded by liquid ender in a glass cage with a Dirt Tree. Good luck.")
 SF4.registerDimension(0, "SF4/resonant_ender_cage")
 SF4.registerDimension(-1, "SF4/cell_nether")
 
-SF4 = registerPreset("Bedrock Your World", "images/DirtTree", "Dirt Tree surrounded by bedrock.")
+SF4 = registerPreset("Bedrock Your World", "images/BedrockChunk", "Dirt Tree surrounded by bedrock.")
 SF4.registerDimension(0, "SF4/bedrock_cage")
-SF4.registerDimension(-1, "SF4/cell_nether")
+SF4.registerDimension(-1, "SF4/nether_cage")
 
 SF4 = registerPreset("Between Bedrock and a Hard Place", "images/Bedrock", "Dirt Tree floating between a bedrock floor and ceiling.")
 SF4.registerDimension(0, "SF4/bedrock_floor_and_ceiling")

@@ -16,4 +16,4 @@ criteria.addItem(<cyclicmagic:dehydrator>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(34,202)
+setPos(-241,165)

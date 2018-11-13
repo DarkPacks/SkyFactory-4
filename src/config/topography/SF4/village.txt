@@ -1,2 +1,2 @@
 
-setSpawnStructure("Village")
+setSpawnStructure("VillageV2")
