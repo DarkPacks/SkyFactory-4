@@ -8,49 +8,46 @@ setLightBrightnessTable([0.1, 0.11578947, 0.13333333, 0.15294117, 0.175, 0.20000
 
 setSingleBiome("minecraft:hell")
 
-layers = new LayerGenerator()
-layers.addLayer(1~20, <minecraft:lava>)
-addGenerator(layers)
+//layers = new LayerGenerator()
+//layers.addLayer(1~20, <minecraft:lava>)
+//addGenerator(layers)
 
-tendrils = new CellNoiseGenerator(<minecraft:netherrack>)
+tendrils = new CellNoiseGenerator(<minecraft:tnt>)
 tendrils.openTop()
 addGenerator(tendrils)
+
 
 layers = new LayerGenerator()
 layers.addLayer(0~0, <minecraft:bedrock>)
 addGenerator(layers)
 
+layers = new LayerGenerator()
+layers.addLayer(1~1, <minecraft:tnt>)
+addGenerator(layers)
+
 spheres = new DeformedSphereGenerator(<minecraft:soul_sand>, 10, 32, 32, 8)
-spheres.addRequiredBlock(<minecraft:netherrack>)
+spheres.addRequiredBlock(<minecraft:tnt>)
 addGenerator(spheres)
 
-fire = new ScatteredBlockGenerator(<minecraft:fire>, 5, 64)
-fire.addRequiredBlock(<minecraft:netherrack>)
-addGenerator(fire)
-
-lava = new FluidPocketGenerator(<minecraft:flowing_lava>, 16, false)
-lava.addRequiredBlock(<minecraft:netherrack>)
-addGenerator(lava)
-
 glowstone = new HangingCrystalGenerator(<minecraft:glowstone>, 20, 1500)
-glowstone.addRequiredBlock(<minecraft:netherrack>)
+glowstone.addRequiredBlock(<minecraft:tnt>)
 addGenerator(glowstone)
 
 quartz = new DeformedSphereGenerator(<minecraft:quartz_ore>, 2, 3, 32, 8)
 quartz.setDeformScale(4)
-quartz.addRequiredBlock(<minecraft:netherrack>)
+quartz.addRequiredBlock(<minecraft:tnt>)
 addGenerator(quartz)
 
 ardite = new DeformedSphereGenerator(<tconstruct:ore:1>, 3, 2, 64, 10)
 ardite.setDeformScale(4)
-ardite.addRequiredBlock(<minecraft:netherrack>)
+ardite.addRequiredBlock(<minecraft:tnt>)
 addGenerator(ardite)
 
 cobalt = new DeformedSphereGenerator(<tconstruct:ore>, 2, 3, 52, 10)
 cobalt.setDeformScale(4)
-cobalt.addRequiredBlock(<minecraft:netherrack>)
+cobalt.addRequiredBlock(<minecraft:tnt>)
 addGenerator(cobalt)
 
-enableRelightChecks()
 
+enableRelightChecks()
 disableRespawning()

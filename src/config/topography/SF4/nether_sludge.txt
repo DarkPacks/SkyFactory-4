@@ -1,4 +1,4 @@
-setFogColor(#330707)
+setFogColor(#5F0481)
 setCelestialAngle(0.5)
 disableSky()
 disableClouds()
@@ -9,7 +9,7 @@ setLightBrightnessTable([0.1, 0.11578947, 0.13333333, 0.15294117, 0.175, 0.20000
 setSingleBiome("minecraft:hell")
 
 layers = new LayerGenerator()
-layers.addLayer(1~20, <minecraft:lava>)
+layers.addLayer(1~45, <industrialforegoing:sludge>)
 addGenerator(layers)
 
 tendrils = new CellNoiseGenerator(<minecraft:netherrack>)
@@ -28,9 +28,6 @@ fire = new ScatteredBlockGenerator(<minecraft:fire>, 5, 64)
 fire.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(fire)
 
-lava = new FluidPocketGenerator(<minecraft:flowing_lava>, 16, false)
-lava.addRequiredBlock(<minecraft:netherrack>)
-addGenerator(lava)
 
 glowstone = new HangingCrystalGenerator(<minecraft:glowstone>, 20, 1500)
 glowstone.addRequiredBlock(<minecraft:netherrack>)
@@ -40,6 +37,7 @@ quartz = new DeformedSphereGenerator(<minecraft:quartz_ore>, 2, 3, 32, 8)
 quartz.setDeformScale(4)
 quartz.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(quartz)
+
 
 ardite = new DeformedSphereGenerator(<tconstruct:ore:1>, 3, 2, 64, 10)
 ardite.setDeformScale(4)

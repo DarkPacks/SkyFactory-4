@@ -1,4 +1,4 @@
-setFogColor(#4BA5DC)
+setFogColor(#04815F)
 setCelestialAngle(0.5)
 disableSky()
 disableClouds()
@@ -9,7 +9,7 @@ setLightBrightnessTable([0.1, 0.11578947, 0.13333333, 0.15294117, 0.175, 0.20000
 setSingleBiome("minecraft:hell")
 
 layers = new LayerGenerator()
-layers.addLayer(1~70, <minecraft:water>)
+layers.addLayer(1~40, <thermalfoundation:fluid_ender>)
 addGenerator(layers)
 
 tendrils = new CellNoiseGenerator(<minecraft:packed_ice>)
@@ -28,7 +28,7 @@ fire = new ScatteredBlockGenerator(<cyclicmagic:fire_frost>, 5, 64)
 fire.addRequiredBlock(<minecraft:packed_ice>)
 addGenerator(fire)
 
-water = new FluidPocketGenerator(<thermalfoundation:fluid_cryotheum>, 16, false)
+water = new FluidPocketGenerator(<thermalfoundation:fluid_ender>, 16, false)
 water.addRequiredBlock(<minecraft:packed_ice>)
 addGenerator(water)
 

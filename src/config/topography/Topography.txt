@@ -14,6 +14,11 @@ SF4.registerDimension(0, "SF4/project_e")
 SF4.registerDimension(-1, "SF4/cell_nether")
 SF4.lock()
 
+SF4 = registerPreset("Sky FacTree", "images/DirtTree", "T H I C C.")
+SF4.registerDimension(0, "SF4/overworld_large_tree")
+SF4.registerDimension(-1, "SF4/cell_nether")
+
+
 SF4 = registerPreset("Stone Factory", "images/EncasedStone", "Traditional Sky Factory Tree surrounded by stone")
 SF4.registerDimension(0, "SF4/stone_cage")
 SF4.registerDimension(-1, "SF4/cell_nether")
@@ -32,7 +37,7 @@ SF4.registerDimension(-1, "SF4/sunken_nether")
 
 SF4 = registerPreset("Ender the Sea", "images/EnderCage", "Surrounded by liquid ender in a glass cage with a Dirt Tree. Good luck.")
 SF4.registerDimension(0, "SF4/resonant_ender_cage")
-SF4.registerDimension(-1, "SF4/cell_nether")
+SF4.registerDimension(-1, "SF4/nether_ender")
 
 SF4 = registerPreset("Bedrock Your World", "images/BedrockChunk", "Dirt Tree surrounded by bedrock.")
 SF4.registerDimension(0, "SF4/bedrock_cage")
@@ -48,7 +53,7 @@ SF4.registerDimension(-1, "SF4/cell_nether")
 
 SF4 = registerPreset("Minesweeper", "images/TNT", "Dirt Tree floating over a sea of TNT blocks.")
 SF4.registerDimension(0, "SF4/dirt_tree_tnt")
-SF4.registerDimension(-1, "SF4/cell_nether")
+SF4.registerDimension(-1, "SF4/nether_tnt")
 
 SF4 = registerPreset("Lights Out!", "images/NoSkylight", "Traditional Sky Factory World with no skylight.")
 SF4.registerDimension(0, "SF4/dirt_tree_no_skylight")
@@ -64,19 +69,19 @@ SF4.registerDimension(-1, "SF4/cell_nether")
 
 SF4 = registerPreset("Sludgehammer", "images/Sludge", "Floating Dirt Tree, but instead of void, liquid Sludge.")
 SF4.registerDimension(0, "SF4/dirt_tree_sludge_ocean")
-SF4.registerDimension(-1, "SF4/cell_nether")
+SF4.registerDimension(-1, "SF4/nether_sludge")
 
 SF4 = registerPreset("Resonant Sleeper", "images/ResonantEnder", "Floating Dirt Tree, but instead of void, Resonant Ender.")
 SF4.registerDimension(0, "SF4/dirt_tree_resonant_ender_ocean")
-SF4.registerDimension(-1, "SF4/cell_nether")
+SF4.registerDimension(-1, "SF4/nether_ender")
 
 SF4 = registerPreset("Chill Out", "images/Cryotheum", "Floating Dirt Tree, but instead of void, Gelid Cryotheum.")
 SF4.registerDimension(0, "SF4/dirt_tree_gelid_cryotheum")
-SF4.registerDimension(-1, "SF4/cell_nether")
+SF4.registerDimension(-1, "SF4/water_nether")
 
 SF4 = registerPreset("Hot Topic", "images/Pyrotheum", "Floating Dirt Tree, but instead of void, Pyrotheum.")
 SF4.registerDimension(0, "SF4/dirt_tree_pyrotheum_ocean")
-SF4.registerDimension(-1, "SF4/cell_nether")
+SF4.registerDimension(-1, "SF4/nether_pyrotheum")
 
 SF4 = registerPreset("The Floor is Lava", "images/Lava", "Floating Dirt Tree, but instead of void, Lava.")
 SF4.registerDimension(0, "SF4/dirt_tree_lava_ocean")
@@ -84,7 +89,7 @@ SF4.registerDimension(-1, "SF4/cell_nether")
 
 SF4 = registerPreset("Seven Seas", "images/Water", "Floating Dirt Tree, but instead of void, Water.")
 SF4.registerDimension(0, "SF4/dirt_tree_water_ocean")
-SF4.registerDimension(-1, "SF4/cell_nether")
+SF4.registerDimension(-1, "SF4/water_nether")
 
 SF4 = registerPreset("Chunk Norris", "images/Chunk", "One Chunk in a void world.")
 SF4.registerDimension(0, "SF4/dirt_tree_chunk")
@@ -92,15 +97,15 @@ SF4.registerDimension(-1, "SF4/cell_nether")
 
 basicSkyIslands = registerPreset("Skiiiilands", "images/SkyIslands", "Sky Islands.")
 basicSkyIslands.registerDimension(0, "Sky Islands/basic_sky_islands")
-basicSkyIslands.registerDimension(-1, "SF4/cell_nether")
+basicSkyIslands.registerDimension(-1, "Sky Islands/nether_sky_islands")
 
 materialSkyIslands = registerPreset("Material Girl in a Material World", "images/ResourceIslands", "Sky Islands made from Resources.")
 materialSkyIslands.registerDimension(0, "Sky Islands/material_sky_islands")
-materialSkyIslands.registerDimension(-1, "SF4/cell_nether")
+materialSkyIslands.registerDimension(-1, "Sky Islands/material_sky_islands_nether")
 
 glassLavaSkyIslands = registerPreset("Lava Cake", "images/GlassLavaIslands",  "Glass Sky Islands filled with Lava.")
 glassLavaSkyIslands.registerDimension(0, "Sky Islands/glass_and_lava_sky_islands")
-glassLavaSkyIslands.registerDimension(-1, "SF4/cell_nether")
+glassLavaSkyIslands.registerDimension(-1, "Sky Islands/nether_glass_and_lava_sky_islands")
 
 SF4 = registerPreset("Hardcore", "images/HardcoreSkylight", "Hardcore World with increased mob health, armor, and damage with permanent night.")
 SF4.registerDimension(0, "SF4/hardcore_skylight")

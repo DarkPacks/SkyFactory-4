@@ -8,17 +8,50 @@ setLightBrightnessTable([0.1, 0.11578947, 0.13333333, 0.15294117, 0.175, 0.20000
 
 setSingleBiome("minecraft:hell")
 
-layers = new LayerGenerator()
-layers.addLayer(1~20, <minecraft:lava>)
-addGenerator(layers)
+//Creates a new SkyIslandType. The argument is a biome id.
+hell = new SkyIslandType("minecraft:hell")
 
-tendrils = new CellNoiseGenerator(<minecraft:netherrack>)
-tendrils.openTop()
-addGenerator(tendrils)
 
-layers = new LayerGenerator()
-layers.addLayer(0~0, <minecraft:bedrock>)
-addGenerator(layers)
+
+
+
+//Creates a new SkyIslandType. The argument is a biome id.
+netherrack = new SkyIslandType("minecraft:hell")
+//Sets the block the island is made of. Defaults to stone. Look at a block in world and use the command `/bnb block` to generate the syntax.
+netherrack.setMainBlock(<minecraft:netherrack>)
+//Disables biome block replacement
+netherrack.disableBiomeBlockReplacement()
+//Disables biome decorations
+netherrack.disableDecorations()
+//Disables initial animal spawning
+netherrack.disableAnimals()
+
+skyIslands = new SkyIslandGenerator()
+skyIslands.setRegionSize(29)
+addGenerator(skyIslands)
+
+
+//Adds sky islands. Arguments are radius, number of times to attempt to generate in each region, and whether each island should choose a random type (true), or if types should be used in order (false).
+large = skyIslands.addSkyIslands(100, 1, false)
+//Adds a SkyIslandType to the island generator.
+large.addType(netherrack)
+
+medium = skyIslands.addSkyIslands(50, 32, false)
+medium.addType(netherrack)
+
+small = skyIslands.addSkyIslands(25, 64, false)
+small.addType(netherrack)
+
+tiny = skyIslands.addSkyIslands(10, 128, false)
+tiny.addType(netherrack)
+
+
+
+
+
+
+
+
 
 spheres = new DeformedSphereGenerator(<minecraft:soul_sand>, 10, 32, 32, 8)
 spheres.addRequiredBlock(<minecraft:netherrack>)
@@ -50,7 +83,5 @@ cobalt = new DeformedSphereGenerator(<tconstruct:ore>, 2, 3, 52, 10)
 cobalt.setDeformScale(4)
 cobalt.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(cobalt)
-
-enableRelightChecks()
 
 disableRespawning()
