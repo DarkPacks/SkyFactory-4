@@ -18,7 +18,6 @@ SF4 = registerPreset("Sky FacTree", "images/DirtTree", "T H I C C.")
 SF4.registerDimension(0, "SF4/overworld_large_tree")
 SF4.registerDimension(-1, "SF4/cell_nether")
 
-
 SF4 = registerPreset("Stone Factory", "images/EncasedStone", "Traditional Sky Factory Tree surrounded by stone")
 SF4.registerDimension(0, "SF4/stone_cage")
 SF4.registerDimension(-1, "SF4/cell_nether")
@@ -42,6 +41,7 @@ SF4.registerDimension(-1, "SF4/nether_ender")
 SF4 = registerPreset("Bedrock Your World", "images/BedrockChunk", "Dirt Tree surrounded by bedrock.")
 SF4.registerDimension(0, "SF4/bedrock_cage")
 SF4.registerDimension(-1, "SF4/nether_cage")
+SF4.registerDimension(1, "SF4/end_bedrock_cage")
 
 SF4 = registerPreset("Between Bedrock and a Hard Place", "images/Bedrock", "Dirt Tree floating between a bedrock floor and ceiling.")
 SF4.registerDimension(0, "SF4/bedrock_floor_and_ceiling")
@@ -102,6 +102,7 @@ basicSkyIslands.registerDimension(-1, "Sky Islands/nether_sky_islands")
 materialSkyIslands = registerPreset("Material Girl in a Material World", "images/ResourceIslands", "Sky Islands made from Resources.")
 materialSkyIslands.registerDimension(0, "Sky Islands/material_sky_islands")
 materialSkyIslands.registerDimension(-1, "Sky Islands/material_sky_islands_nether")
+materialSkyIslands.registerDimension(1, "Sky Islands/end_material_islands")
 
 glassLavaSkyIslands = registerPreset("Lava Cake", "images/GlassLavaIslands",  "Glass Sky Islands filled with Lava.")
 glassLavaSkyIslands.registerDimension(0, "Sky Islands/glass_and_lava_sky_islands")

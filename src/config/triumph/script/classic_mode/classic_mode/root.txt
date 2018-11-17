@@ -22,5 +22,4 @@ setRewardFunction("triumph:startingItems")
 setRewardFunction("triumph:classic_mode")
 setRewardFunction("triumph:forgiving_void_enable")
 
-
 setPos(-155,76)

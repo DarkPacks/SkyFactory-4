@@ -1,4 +1,4 @@
-setSpawnStructure("TwilightTree")
+setSpawnStructure("TwilightTree2")
 
 sky = setSkyRenderer()
 //top, bottom, north, south, east, west

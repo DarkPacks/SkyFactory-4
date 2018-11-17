@@ -1,3 +1,4 @@
 gamestage add @p pacifist
 gamerule doMobLoot false
 gamerule tfEnforcedProgression false
+difficulty 0

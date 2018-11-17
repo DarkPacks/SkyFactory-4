@@ -119,21 +119,8 @@
                 "type" : "openGui",
                 "gui" : "languages"
             }
-        },
-
-        "refresh":
-        {
-            "text" : "",
-            "posX" : 295,
-            "posY" : 250,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
         }
+
 
 
 

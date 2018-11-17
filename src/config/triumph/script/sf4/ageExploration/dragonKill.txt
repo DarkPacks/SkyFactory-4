@@ -7,7 +7,11 @@ setDescription("Kill the Ender Dragon")
 addParent("sf4:ageExploration/endcake")
 drawDirectLines(true)
 
-criteria = addCriteria("killed_spider", "minecraft:player_killed_entity")
-criteria.setEntityType("minecraft:ender_dragon")
+criteria1 = addCriteria("vanilla_dragon", "minecraft:player_killed_entity")
+criteria1.setEntityType("minecraft:ender_dragon")
+criteria2 = addCriteria("og_dragon", "minecraft:player_killed_entity")
+criteria2.setEntityType("ogdragon:dragon")
 
+setRequirements("any")
 alwaysVisible()
+setRewardFunction("triumph:dragon_loot")

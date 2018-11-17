@@ -14,14 +14,13 @@ setRequirements("any")
 
 //Criteria
 criteria1 = addCriteria("superflat1", "minecraft:location")
-criteria1.setGeneratorOptions({"Topography-Preset":"Basic Sky Islands"})
+criteria1.setGeneratorOptions({"Topography-Preset":"Skiiiilands"})
 
 criteria2 = addCriteria("superflat2", "minecraft:location")
-criteria2.setGeneratorOptions({"Topography-Preset":"Material Sky Islands"})
+criteria2.setGeneratorOptions({"Topography-Preset":"Material Girl in a Material World"})
 
 criteria3 = addCriteria("superflat3", "minecraft:location")
-criteria3.setGeneratorOptions({"Topography-Preset":"Glass n Lava Sky Islands"})
-
+criteria3.setGeneratorOptions({"Topography-Preset":"Lava Cake"})
 
 //Rewards
 setRewardFunction("triumph:prestige_add")

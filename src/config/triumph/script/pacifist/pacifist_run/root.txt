@@ -14,7 +14,7 @@ setRequirements("any")
 
 //Criteria
 criteria = addCriteria("superflat", "minecraft:location")
-criteria.setGeneratorOptions({"Topography-Preset":"Pacifist Run"})
+criteria.setGeneratorOptions({"Topography-Preset":"Peace Out"})
 
 //Rewards
 setRewardFunction("triumph:pacifist_start")

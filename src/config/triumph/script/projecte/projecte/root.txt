@@ -13,7 +13,8 @@ setAnnounceToChat(false)
 setRequirements("any")
 
 //Criteria
-
+criteria = addCriteria("superflat", "minecraft:location")
+criteria.setGeneratorOptions({"Topography-Preset":"Project E Start"})
 
 //Rewards
 criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")

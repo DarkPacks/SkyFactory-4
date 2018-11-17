@@ -1,1 +1,0 @@
-prestige add @p 50000
