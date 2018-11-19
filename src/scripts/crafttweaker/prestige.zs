@@ -52,7 +52,7 @@ function init() {
 
 
     //Unlock World types via prestige
-    Rewards.registerCommandReward("projecte_world", "topography unlock Project E Test");
+    Rewards.registerCommandReward("projecte_world", "topography unlock Project E Start");
 
 }
 
