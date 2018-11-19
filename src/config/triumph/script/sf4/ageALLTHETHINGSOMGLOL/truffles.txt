@@ -92,4 +92,4 @@ criteria41.addItem(<resourcehogs:truffle, nbt:{ResourceType: "bronze"}>)
 
 drawDirectLines(true)
 alwaysVisible()
-setPos(39,-23)
+setPos(42,-20)

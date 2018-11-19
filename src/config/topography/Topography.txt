@@ -18,7 +18,7 @@ SF4.registerDimension(0, "SF4/project_e")
 SF4.registerDimension(-1, "SF4/cell_nether")
 SF4.lock()
 
-SF4 = registerPreset("Sky FacTree", "images/DirtTree", "T H I C C.")
+SF4 = registerPreset("Sky FacTree", "images/DirtTree", "T H I C C. Structure made by: JCGriff")
 SF4.registerDimension(0, "SF4/overworld_large_tree")
 SF4.registerDimension(-1, "SF4/nether_hedge_maze")
 

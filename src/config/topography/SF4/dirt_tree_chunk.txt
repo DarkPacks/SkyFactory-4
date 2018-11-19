@@ -17,3 +17,12 @@ day.addAlpha(0.719889~0.8037514, 0~1)
 
 //Lazy method for adding a sun and moon since I don't want to make the effort for proper custom ones yet.
 sky.addSunMoon()
+
+//Sunset
+addFogColor(#2F80C1, 0.19904304~0.29625022, 1~0)
+//Night
+addFogColor(#2F80C1, 0.29625022~0.719889, 0~0)
+//Sunrise
+addFogColor(#2F80C1, 0.719889~0.8037514, 0~1)
+//Day
+addFogColor(#22053c)
