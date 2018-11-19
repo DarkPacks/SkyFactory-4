@@ -43,15 +43,14 @@ function init() {
 
 
 
-    //Unlock Mob Grinding Utils via Prestige
-
+    // Unlock Mob Grinding Utils via Prestige
     Rewards.registerCommandReward("mob_grinding_utils", "gamestage add @p mob_grinding_utils");
 
-    //Unlock Flux Networks via Prestige
+    // Unlock Flux Networks via Prestige
     Rewards.registerCommandReward("flux_networks", "gamestage add @p flux_networks");
 
 
-    //Unlock World types via prestige
+    // Unlock World types via prestige
     Rewards.registerCommandReward("projecte_world", "topography unlock Project E Start");
 
 }
