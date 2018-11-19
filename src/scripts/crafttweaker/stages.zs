@@ -27,22 +27,23 @@ var stageStrings as string[] = [
 	"twilight_forest",
 
 	// Misc Prestige-related Stages
-	"smeltery",
-	"fertile_soil",
-	"brown_mulch",
-	"yellow_mulch",
 	"amber_mulch",
-	"blue_mulch",
-	"red_mulch",
-	"ruby_mulch",
+	"android",
 	"black_mulch",
+	"blue_mulch",
 	"blue_slime_dirt",
-	"purple_slime_dirt",
+	"brown_mulch",
+	"fertile_soil",
+	"mega_torch",
 	"orange_slime_dirt",
 	"ore_excavation",
 	"pacifist",
 	"prosperity_tree",
-	"android"
+	"purple_slime_dirt",
+	"red_mulch",
+	"ruby_mulch",
+	"smeltery",
+	"yellow_mulch"
 ];
 
 for stageString in stageStrings {

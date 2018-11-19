@@ -64,6 +64,7 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.items.blueSlimeDirt.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.brownMulch.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.fertileSoil.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.megaTorch.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.mobGrindingUtils.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.orangeSlimeDirt.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.prosperityTree.init();
