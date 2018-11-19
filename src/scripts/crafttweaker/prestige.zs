@@ -33,10 +33,10 @@ function init() {
     Rewards.registerCommandReward("ore_excavation", "gamestage add @p " ~ stages.oreExcavation.stage);
 
     // Enable Mega Torch via prestige
-    Rewards.registerCommandReward("mega_torch", "gamestage add @p mega_torch");
+    Rewards.registerCommandReward("mega_torch", "gamestage add @p " ~ stages.megaTorch.stage);
 
     // Enable Matter Overdrive Pills via Prestige
-    Rewards.registerCommandReward("android", "gamestage add @p android");
+    Rewards.registerCommandReward("android", "gamestage add @p " ~ stages.android.stage);
     Rewards.registerCommandReward("android", "give @p matteroverdrive:android_pill");
     Rewards.registerCommandReward("android", "give @p matteroverdrive:android_pill 1 1");
     Rewards.registerCommandReward("android", "give @p matteroverdrive:android_pill 1 2");
@@ -44,10 +44,10 @@ function init() {
 
 
     // Unlock Mob Grinding Utils via Prestige
-    Rewards.registerCommandReward("mob_grinding_utils", "gamestage add @p mob_grinding_utils");
+    Rewards.registerCommandReward("mob_grinding_utils", "gamestage add @p " ~ stages.mobGrindingUtils.stage);
 
     // Unlock Flux Networks via Prestige
-    Rewards.registerCommandReward("flux_networks", "gamestage add @p flux_networks");
+    Rewards.registerCommandReward("flux_networks", "gamestage add @p " ~ stages.fluxNetworks.stage);
 
 
     // Unlock World types via prestige
