@@ -1,7 +1,7 @@
 /*
-	SkyFactory 4 Rustic Integration Script
+	SkyFactory 4 Inspirations Integration Script
 
-	This script utilizes the Rustic integration to add/remove/modify recipes.
+	This script utilizes the Inspirations integration to add/remove/modify recipes.
 	All liquid values are in Vanilla Bottle Amounts (3 equals 1 bucket)
 */
 function init() {
@@ -38,7 +38,7 @@ function init() {
 	// Create grass from mud and leaves
 	inspirations.addCauldronFluid(<minecraft:grass>, <ore:treeLeaves> * 4, <liquid:mud>, 4);
 
-	// Acacia sapling from apple juice 
+	// Acacia sapling from apple juice
 	// TODO: NEED TO CONVERT WATER TO APPLE JUICE WHEN RECIPE COMPLETES
 	inspirations.addCauldronFluid(<minecraft:sapling:4>, <rustic:sapling_apple>, <liquid:water>, 4);
 
