@@ -3,6 +3,7 @@
 /*
 	SkyFactory 4 ContentTweaker Misc Script.
 */
+import mods.contenttweaker.DropTableBuilder;
 import mods.contenttweaker.Material;
 import mods.contenttweaker.MaterialPartData;
 
@@ -25,4 +26,9 @@ function init() {
 	var oreQuartzData = materials.quartz.registerPart("ore").getData();
 	addDefaultOreData(oreQuartzData);
 	oreQuartzData.addDataValue("variants", "minecraft:ice_packed");
+	oreQuartzData.addDataValue("harvestLevel", "1");
+	oreQuartzData.addDataValue("drops", DropTableBuilder.newSlot()
+		.addItem("minecraft:quartz")
+		.enableFortune()
+	);
 }
