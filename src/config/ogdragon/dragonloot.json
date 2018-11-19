@@ -12,6 +12,12 @@
     "weight": -1,
     "stackSize": 1
   },
+  "elytra": {
+    "item": "minecraft:elytra",
+    "meta": 0,
+    "weight": -1,
+    "stackSize": 1
+  },
   "overworld_cake": {
     "item": "dimensionaledibles:overworld_cake",
     "meta": 0,

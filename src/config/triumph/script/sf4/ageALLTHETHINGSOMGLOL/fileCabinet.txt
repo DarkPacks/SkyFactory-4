@@ -1,0 +1,18 @@
+setTitle("Real File Cabinets")
+
+setIcon(<realfilingcabinet:emptyfolder>)
+
+setDescription("Fill any Real File Cabinet with a folder that contains at least 1 million items of any type")
+
+setParent("sf4:ageALLTHETHINGSOMGLOL/root")
+
+drawDirectLines(true)
+alwaysVisible()
+
+//Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock(<realfilingcabinet:modelcabinet,tile:{inventory:{Items:[{ForgeCaps:{"realfilingcabinet:folder":{folderSize:1000000L~}}}]}}>)
+
+//Rewards
+setRewardExperience(4)
+setPos(14,-23)

@@ -1,5 +1,2 @@
-kill @e[type=ender_dragon]
-kill @e[type=ender_crystal]
-
-kill @e[type=ender_dragon]
-kill @e[type=ender_crystal]
+execute @e[type=ender_dragon] ~ ~ ~ kill @e[type=ender_dragon]
+execute @e[type=ender_crystal] ~ ~ ~ kill @e[type=ender_crystal]

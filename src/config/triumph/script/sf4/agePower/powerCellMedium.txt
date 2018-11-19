@@ -1,0 +1,17 @@
+setTitle("Powercell Medium")
+
+setIcon(<rftoolspower:cell2>)
+
+setDescription("Craft a RF Tools Medium Powercell")
+
+setParent("sf4:agePower/powerCellLow")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<rftoolspower:cell2>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(-208,225)

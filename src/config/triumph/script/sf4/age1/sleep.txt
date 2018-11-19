@@ -11,4 +11,4 @@ drawDirectLines(true)
 criteria = addCriteria("slept_in_bed", "minecraft:slept_in_bed")
 
 alwaysVisible()
-setPos(-155,188)
+setPos(-155,203)

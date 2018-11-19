@@ -10,8 +10,12 @@ setRequiresParents()
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("entered_end", "minecraft:changed_dimension")
-criteria.setDimensionDestination("the_end")
+criteria1 = addCriteria("entered_end", "minecraft:changed_dimension")
+criteria1.setDimensionDestination("the_end")
+
+criteria2 = addCriteria("entered_end_biome", "minecraft:location")
+criteria2.setBiome("minecraft:sky")
+
 
 //Rewards
 setRewardExperience(4)

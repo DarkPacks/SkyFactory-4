@@ -16,5 +16,5 @@ criteria = addCriteria("killed poor innocent creature", "minecraft:player_killed
 //Rewards
 setRewardExperience(4)
 setRewardFunction("triumph:pacifist")
+setRewardFunction("triumph:difficulty_normal")
 setRewardItem(<minecraft:paper,ore:paper,meta:0,count:1,nbt:{RepairCost:0,display:{Name:"Murderer"}}>)
-

@@ -1,17 +1,20 @@
 setIcon("minecraft:skull", 5)
 
-setTitle("Kill the Ender Dragon")
+setTitle("The End")
 
-setDescription("Kill the Ender Dragon")
+setDescription("Travel to the End Dimension")
 
 addParent("sf4:ageExploration/endcake")
 drawDirectLines(true)
 
-criteria1 = addCriteria("vanilla_dragon", "minecraft:player_killed_entity")
-criteria1.setEntityType("minecraft:ender_dragon")
-criteria2 = addCriteria("og_dragon", "minecraft:player_killed_entity")
-criteria2.setEntityType("ogdragon:dragon")
+//Criteria
+criteria1 = addCriteria("entered_end", "minecraft:changed_dimension")
+criteria1.setDimensionDestination("the_end")
+criteria2 = addCriteria("entered_end_biome", "minecraft:location")
+criteria2.setBiome("minecraft:sky")
 
-setRequirements("any")
 alwaysVisible()
+
+setRewardExperience(4)
 setRewardFunction("triumph:dragon_loot")
+setRewardFunction("triumph:dragon_kill")

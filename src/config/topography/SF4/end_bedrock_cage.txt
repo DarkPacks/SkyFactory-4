@@ -2,7 +2,7 @@ setFogColor(#000000)
 
 setSingleBiome("minecraft:sky")
 
-setSpawnStructure("BedrockCageV2", 0)
+setSpawnStructure("BedrockCageEnd", 0)
 
 layers = new LayerGenerator()
 layers.addLayer(1~255, <minecraft:bedrock>)

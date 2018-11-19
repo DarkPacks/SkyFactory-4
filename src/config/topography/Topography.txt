@@ -9,6 +9,10 @@ SF4 = registerPreset("Sky Factory 4", "images/DirtTree", "Traditional Sky Factor
 SF4.registerDimension(0, "SF4/dirt_tree")
 SF4.registerDimension(-1, "SF4/cell_nether")
 
+SF4 = registerPreset("Peace Out", "images/DirtTree", "Standard world made for a Pacifist Run. Mobs will not drop loot. If you kill a mob, you will lose the run.")
+SF4.registerDimension(0, "SF4/dirt_tree")
+SF4.registerDimension(-1, "SF4/cell_nether")
+
 SF4 = registerPreset("Project E Start", "images/ProjectE", "Start with a Project E Transmutation Table. Unlock this world via prestige.")
 SF4.registerDimension(0, "SF4/project_e")
 SF4.registerDimension(-1, "SF4/cell_nether")
@@ -16,7 +20,7 @@ SF4.lock()
 
 SF4 = registerPreset("Sky FacTree", "images/DirtTree", "T H I C C.")
 SF4.registerDimension(0, "SF4/overworld_large_tree")
-SF4.registerDimension(-1, "SF4/cell_nether")
+SF4.registerDimension(-1, "SF4/nether_hedge_maze")
 
 SF4 = registerPreset("Stone Factory", "images/EncasedStone", "Traditional Sky Factory Tree surrounded by stone")
 SF4.registerDimension(0, "SF4/stone_cage")
@@ -118,8 +122,6 @@ SF4.registerDimension(0, "SF4/hardcore_no_skylight")
 SF4.registerDimension(-1, "SF4/cell_nether")
 SF4.enableHardcore()
 
-SF4 = registerPreset("Peace Out", "images/DirtTree", "Standard world made for a Pacifist Run. Mobs will not drop loot. If you kill a mob, you will lose the run.")
-SF4.registerDimension(0, "SF4/dirt_tree")
-SF4.registerDimension(-1, "SF4/cell_nether")
+
 
 setAsDefaultWorldType()

@@ -15,4 +15,4 @@ criteria.setBlock(<industrialforegoing:black_hole_unit,tile:{amount:2147483583}>
 
 //Rewards
 setRewardExperience(4)
-setPos(32,36)
+setPos(64,27)

@@ -2,7 +2,7 @@ setTitle("Dragon's Breath")
 
 setIcon("minecraft:dragon_breath")
 
-setDescription("Collect Dragon's Breath from the End")
+setDescription("Craft Dragon's Breath")
 
 setParent("sf4:ageExploration/dragonKill")
 

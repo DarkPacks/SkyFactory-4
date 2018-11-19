@@ -15,4 +15,4 @@ criteria.setBlock(<matteroverdrive:fusion_reactor_controller,tile:{EnergyPerTick
 //Rewards
 setRewardExperience(4)
 
-setPos(32,128)
+setPos(14,102)

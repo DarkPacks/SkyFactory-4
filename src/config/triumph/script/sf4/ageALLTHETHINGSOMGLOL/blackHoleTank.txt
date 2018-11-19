@@ -15,4 +15,4 @@ criteria.setBlock(<industrialforegoing:black_hole_tank,tile:{fluids:{tanks:[{Amo
 
 //Rewards
 setRewardExperience(4)
-setPos(32,67)
+setPos(64,52)
