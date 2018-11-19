@@ -11,7 +11,7 @@ function init() {
     Rewards.registerCommandReward("mystcraft", "gamestage add @p " ~ stages.mystcraft.stage);
     Rewards.registerCommandReward("mysticalagradditions", "gamestage add @p " ~ stages.mysticalAgradditions.stage);
     Rewards.registerCommandReward("mysticalagriculture", "gamestage add @p " ~ stages.mysticalAgriculture.stage);
-    Rewards.registerCommandReward("mysticalagriculture", "gamestage add @p prosperity_tree");
+    Rewards.registerCommandReward("mysticalagriculture", "gamestage add @p " ~ stages.prosperityTree.stage);
     Rewards.registerCommandReward("portalgun", "gamestage add @p " ~ stages.portalGun.stage);
     Rewards.registerCommandReward("projecte", "gamestage add @p " ~ stages.projectE.stage);
     Rewards.registerCommandReward("twilightforest", "gamestage add @p " ~ stages.twilightForest.stage);
