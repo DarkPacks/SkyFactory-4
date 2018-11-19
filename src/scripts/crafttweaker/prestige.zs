@@ -1,18 +1,25 @@
 import mods.prestige.Rewards;
 
 function init() {
-    // Mod ID
-    Rewards.registerCommandReward("projecte", "gamestage add @p " ~ stages.projectE.stage);
+	// ==================================
+    // Mod-Based Rewards
+	// ==================================
+	Rewards.registerCommandReward("bonsai", "gamestage add @p " ~ stages.bonsaiTrees.stage);
+	Rewards.registerCommandReward("flux_networks", "gamestage add @p " ~ stages.fluxNetworks.stage);
+	Rewards.registerCommandReward("mob_grinding_utils", "gamestage add @p " ~ stages.mobGrindingUtils.stage);
     Rewards.registerCommandReward("ironjetpacks", "gamestage add @p " ~ stages.ironJetpacks.stage);
+    Rewards.registerCommandReward("mystcraft", "gamestage add @p " ~ stages.mystcraft.stage);
+    Rewards.registerCommandReward("mysticalagradditions", "gamestage add @p " ~ stages.mysticalAgradditions.stage);
     Rewards.registerCommandReward("mysticalagriculture", "gamestage add @p " ~ stages.mysticalAgriculture.stage);
     Rewards.registerCommandReward("mysticalagriculture", "gamestage add @p prosperity_tree");
-    Rewards.registerCommandReward("mysticalagradditions", "gamestage add @p " ~ stages.mysticalAgradditions.stage);
     Rewards.registerCommandReward("portalgun", "gamestage add @p " ~ stages.portalGun.stage);
+    Rewards.registerCommandReward("projecte", "gamestage add @p " ~ stages.projectE.stage);
     Rewards.registerCommandReward("twilightforest", "gamestage add @p " ~ stages.twilightForest.stage);
-    Rewards.registerCommandReward("mystcraft", "gamestage add @p " ~ stages.mystcraft.stage);
 
+	// ==================================
     // mOrE SpECiFIC PrEStiGE rEWArds
-    Rewards.registerCommandReward("smeltery", "gamestage add @p " ~ stages.smeltery.stage);
+	// ==================================
+	// Soils & Dirt
     Rewards.registerCommandReward("fertilesoil", "gamestage add @p " ~ stages.fertileSoil.stage);
     Rewards.registerCommandReward("brownmulch", "gamestage add @p " ~ stages.brownMulch.stage);
     Rewards.registerCommandReward("yellowmulch", "gamestage add @p " ~ stages.yellowMulch.stage);
@@ -25,14 +32,9 @@ function init() {
     Rewards.registerCommandReward("purpleslimedirt", "gamestage add @p " ~ stages.purpleSlimeDirt.stage);
     Rewards.registerCommandReward("orangeslimedirt", "gamestage add @p " ~ stages.orangeSlimeDirt.stage);
 
-
-    Rewards.registerCommandReward("bonsai", "gamestage add @p " ~ stages.bonsaiTrees.stage);
-
-
-    // Enable Excavation via game stage/Prestige
+	// Misc
+	Rewards.registerCommandReward("smeltery", "gamestage add @p " ~ stages.smeltery.stage);
     Rewards.registerCommandReward("ore_excavation", "gamestage add @p " ~ stages.oreExcavation.stage);
-
-    // Enable Mega Torch via prestige
     Rewards.registerCommandReward("mega_torch", "gamestage add @p " ~ stages.megaTorch.stage);
 
     // Enable Matter Overdrive Pills via Prestige
@@ -41,17 +43,8 @@ function init() {
     Rewards.registerCommandReward("android", "give @p matteroverdrive:android_pill 1 1");
     Rewards.registerCommandReward("android", "give @p matteroverdrive:android_pill 1 2");
 
-
-
-    // Unlock Mob Grinding Utils via Prestige
-    Rewards.registerCommandReward("mob_grinding_utils", "gamestage add @p " ~ stages.mobGrindingUtils.stage);
-
-    // Unlock Flux Networks via Prestige
-    Rewards.registerCommandReward("flux_networks", "gamestage add @p " ~ stages.fluxNetworks.stage);
-
-
-    // Unlock World types via prestige
+	// ==================================
+    // Topography Rewards
+	// ==================================
     Rewards.registerCommandReward("projecte_world", "topography unlock Project E Start");
-
 }
-
