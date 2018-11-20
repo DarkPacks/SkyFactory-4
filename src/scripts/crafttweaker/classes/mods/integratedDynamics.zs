@@ -21,23 +21,23 @@ zenClass IntegratedDynamics {
 	/*
 		Add a Drying Basin recipe.
 	*/
-	addDryingBasin(mechanicalRecipe as bool, inputStack as IItemStack, inputFluid as ILiquidStack, outputStack as IItemStack, outputFluid as ILiquidStack, duration as int) {
+	function addDryingBasin(mechanicalRecipe as bool, inputStack as IItemStack, inputFluid as ILiquidStack, outputStack as IItemStack, outputFluid as ILiquidStack, duration as int) {
 		// TODO: Flesh out this function (multiple to allow different options) https://github.com/CyclopsMC/IntegratedDynamics-Compat/blob/master-1.12/src/main/java/org/cyclops/integrateddynamicscompat/modcompat/minetweaker/handlers/DryingBasinHandler.java
 	}
 
 	/*
 		Remove a Drying Basin recipe.
 	*/
-	removeDryingBasin(mechanicalRecipe as bool, inputStack as IItemStack, inputFluid as ILiquidStack, outputStack as IItemStack, outputFluid as ILiquidStack, duration as int) {
+	function removeDryingBasin(mechanicalRecipe as bool, inputStack as IItemStack, inputFluid as ILiquidStack, outputStack as IItemStack, outputFluid as ILiquidStack, duration as int) {
 		// TODO: Flesh out this function (multiple to allow different options) https://github.com/CyclopsMC/IntegratedDynamics-Compat/blob/master-1.12/src/main/java/org/cyclops/integrateddynamicscompat/modcompat/minetweaker/handlers/DryingBasinHandler.java
 	}
-	removeDryingBasinWithOutput(mechanicalRecipe as bool, outputItem as IItemStack) {
+	function removeDryingBasinWithOutput(mechanicalRecipe as bool, outputItem as IItemStack) {
 		removeDryingBasinWithOutput(mechanicalRecipe, outputItem, null);
 	}
-	removeDryingBasinWithOutput(mechanicalRecipe as bool, outputFluid as ILiquidStack) {
+	function removeDryingBasinWithOutput(mechanicalRecipe as bool, outputFluid as ILiquidStack) {
 		removeDryingBasinWithOutput(mechanicalRecipe, null, outputFluid);
 	}
-	removeDryingBasinWithOutput(mechanicalRecipe as bool, outputItem as IItemStack, outputFluid as ILiquidStack) {
+	function removeDryingBasinWithOutput(mechanicalRecipe as bool, outputItem as IItemStack, outputFluid as ILiquidStack) {
 		if (mechanicalRecipe) {
 			MechanicalDryingBasin.removeRecipesWithOutput(output, outputFluid);
 		} else {
@@ -48,17 +48,17 @@ zenClass IntegratedDynamics {
 	/*
 		Add a Squeezer recipe.
 	*/
-	addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack as IItemStack, outputFluid as ILiquidStack) {
+	function addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack as IItemStack, outputFluid as ILiquidStack) {
 		addSqueezer(mechanicalRecipe, inputStack, outputStack, 1.0, null, 1.0, null, 1.0, outputFluid);
 	}
-	addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack as IItemStack, outputStackChance as float, outputFluid as ILiquidStack) {
+	function addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack as IItemStack, outputStackChance as float, outputFluid as ILiquidStack) {
 		addSqueezer(mechanicalRecipe, inputStack, outputStack, outputStackChance, null, 1.0, null, 1.0, outputFluid);
 	}
-	addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
+	function addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
 		outputStack2 as IItemStack, outputStackChance2 as float, outputFluid as ILiquidStack) {
 			addSqueezer(mechanicalRecipe, inputStack, outputStack1, outputStackChance1, outputStack2, outputStackChance2, null, 1.0, outputFluid);
 	}
-	addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
+	function addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
 		outputStack2 as IItemStack, outputStackChance2 as float, outputStack3 as IItemStack, outputStackChance3 as float, outputFluid as ILiquidStack) {
 		if (mechanicalRecipe) {
 			MechanicalSqueezer.addRecipe(
@@ -88,17 +88,17 @@ zenClass IntegratedDynamics {
 	/*
 		Remove a Squeezer recipe.
 	*/
-	removeSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack as IItemStack, outputFluid as ILiquidStack) {
+	function removeSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack as IItemStack, outputFluid as ILiquidStack) {
 		removeSqueezer(mechanicalRecipe, inputStack, outputStack, 1.0, null, 1.0, null, 1.0, outputFluid);
 	}
-	removeSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack as IItemStack, outputStackChance as float, outputFluid as ILiquidStack) {
+	function removeSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack as IItemStack, outputStackChance as float, outputFluid as ILiquidStack) {
 		removeSqueezer(mechanicalRecipe, inputStack, outputStack, outputStackChance, null, 1.0, null, 1.0, outputFluid);
 	}
-	removeSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
+	function removeSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
 		outputStack2 as IItemStack, outputStackChance2 as float, outputFluid as ILiquidStack) {
 			removeSqueezer(mechanicalRecipe, inputStack, outputStack1, outputStackChance1, outputStack2, outputStackChance2, null, 1.0, outputFluid);
 	}
-	removeSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
+	function removeSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
 		outputStack2 as IItemStack, outputStackChance2 as float, outputStack3 as IItemStack, outputStackChance3 as float, outputFluid as ILiquidStack) {
 		if (mechanicalRecipe) {
 			MechanicalSqueezer.removeRecipe(
@@ -124,24 +124,17 @@ zenClass IntegratedDynamics {
 			);
 		}
 	}
-	removeSqueezerWithOutput(mechanicalRecipe as bool, outputStack as IItemStack, outputFluid as ILiquidStack) {
-		if (mechanicalRecipe) {
-			MechanicalSqueezer.removeRecipesWithOutput();
-		} else {
-			Squeezer.removeRecipesWithOutput();
-		}
-	}
-	removeSqueezerWithOutput(mechanicalRecipe as bool, outputStack as IItemStack, outputFluid as ILiquidStack) {
+	function removeSqueezerWithOutput(mechanicalRecipe as bool, outputStack as IItemStack, outputFluid as ILiquidStack) {
 		removeSqueezerWithOutput(mechanicalRecipe, inputStack, outputStack, 1.0, null, 1.0, null, 1.0, outputFluid);
 	}
-	removeSqueezerWithOutput(mechanicalRecipe as bool, outputStack as IItemStack, outputStackChance as float, outputFluid as ILiquidStack) {
+	function removeSqueezerWithOutput(mechanicalRecipe as bool, outputStack as IItemStack, outputStackChance as float, outputFluid as ILiquidStack) {
 		removeSqueezerWithOutput(mechanicalRecipe, inputStack, outputStack, outputStackChance, null, 1.0, null, 1.0, outputFluid);
 	}
-	removeSqueezerWithOutput(mechanicalRecipe as bool, outputStack1 as IItemStack, outputStackChance1 as float,
+	function removeSqueezerWithOutput(mechanicalRecipe as bool, outputStack1 as IItemStack, outputStackChance1 as float,
 		outputStack2 as IItemStack, outputStackChance2 as float, outputFluid as ILiquidStack) {
 			removeSqueezerWithOutput(mechanicalRecipe, inputStack, outputStack1, outputStackChance1, outputStack2, outputStackChance2, null, 1.0, outputFluid);
 	}
-	removeSqueezerWithOutput(mechanicalRecipe as bool, outputStack1 as IItemStack, outputStackChance1 as float,
+	function removeSqueezerWithOutput(mechanicalRecipe as bool, outputStack1 as IItemStack, outputStackChance1 as float,
 		outputStack2 as IItemStack, outputStackChance2 as float, outputStack3 as IItemStack, outputStackChance3 as float, outputFluid as ILiquidStack) {
 		if (mechanicalRecipe) {
 			MechanicalSqueezer.removeRecipesWithOutput(
