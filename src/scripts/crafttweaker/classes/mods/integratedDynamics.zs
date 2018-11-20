@@ -9,10 +9,10 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 
-mods.integrateddynamics.DryingBasin;
-mods.integrateddynamics.MechanicalDryingBasin;
-mods.integrateddynamics.MechanicalSqueezer;
-mods.integrateddynamics.Squeezer;
+import mods.integrateddynamics.DryingBasin;
+import mods.integrateddynamics.MechanicalDryingBasin;
+import mods.integrateddynamics.MechanicalSqueezer;
+import mods.integrateddynamics.Squeezer;
 
 zenClass IntegratedDynamics {
 	zenConstructor() {
@@ -39,9 +39,9 @@ zenClass IntegratedDynamics {
 	}
 	function removeDryingBasinWithOutput(mechanicalRecipe as bool, outputItem as IItemStack, outputFluid as ILiquidStack) {
 		if (mechanicalRecipe) {
-			MechanicalDryingBasin.removeRecipesWithOutput(output, outputFluid);
+			MechanicalDryingBasin.removeRecipesWithOutput(outputItem, outputFluid);
 		} else {
-			DryingBasin.removeRecipesWithOutput(output, outputFluid);
+			DryingBasin.removeRecipesWithOutput(outputItem, outputFluid);
 		}
 	}
 
@@ -125,14 +125,14 @@ zenClass IntegratedDynamics {
 		}
 	}
 	function removeSqueezerWithOutput(mechanicalRecipe as bool, outputStack as IItemStack, outputFluid as ILiquidStack) {
-		removeSqueezerWithOutput(mechanicalRecipe, inputStack, outputStack, 1.0, null, 1.0, null, 1.0, outputFluid);
+		removeSqueezerWithOutput(mechanicalRecipe, outputStack, 1.0, null, 1.0, null, 1.0, outputFluid);
 	}
 	function removeSqueezerWithOutput(mechanicalRecipe as bool, outputStack as IItemStack, outputStackChance as float, outputFluid as ILiquidStack) {
-		removeSqueezerWithOutput(mechanicalRecipe, inputStack, outputStack, outputStackChance, null, 1.0, null, 1.0, outputFluid);
+		removeSqueezerWithOutput(mechanicalRecipe, outputStack, outputStackChance, null, 1.0, null, 1.0, outputFluid);
 	}
 	function removeSqueezerWithOutput(mechanicalRecipe as bool, outputStack1 as IItemStack, outputStackChance1 as float,
 		outputStack2 as IItemStack, outputStackChance2 as float, outputFluid as ILiquidStack) {
-			removeSqueezerWithOutput(mechanicalRecipe, inputStack, outputStack1, outputStackChance1, outputStack2, outputStackChance2, null, 1.0, outputFluid);
+			removeSqueezerWithOutput(mechanicalRecipe, outputStack1, outputStackChance1, outputStack2, outputStackChance2, null, 1.0, outputFluid);
 	}
 	function removeSqueezerWithOutput(mechanicalRecipe as bool, outputStack1 as IItemStack, outputStackChance1 as float,
 		outputStack2 as IItemStack, outputStackChance2 as float, outputStack3 as IItemStack, outputStackChance3 as float, outputFluid as ILiquidStack) {
