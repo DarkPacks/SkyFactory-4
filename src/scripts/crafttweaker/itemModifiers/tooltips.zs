@@ -1,68 +1,158 @@
-<rustic:apple_seeds>.addTooltip(format.red("When planted becomes an Apple Sapling"));
-<rustic:sapling_apple>.addTooltip(format.red("Made when planting Apple Seeds"));
+/*
+	SkyFactory 4 Tooltips Modification Script
 
-// Add modifier tooltips
-<rustic:fertile_soil>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<rustic:fertile_soil>.addTooltip(format.yellow("Growth Rate: 117% Drop Chance: 125%"));
-<inspirations:mulch:1>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<inspirations:mulch:1>.addTooltip(format.yellow("Growth Rate: 142% Drop Chance: 140%"));
-<inspirations:mulch:2>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<inspirations:mulch:2>.addTooltip(format.yellow("Growth Rate: 166% Drop Chance: 150%"));
-<inspirations:mulch:3>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<inspirations:mulch:3>.addTooltip(format.yellow("Growth Rate: 200% Drop Chance: 170%"));
-<inspirations:mulch:7>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<inspirations:mulch:7>.addTooltip(format.yellow("Growth Rate: 250% Drop Chance: 200%"));
-<inspirations:mulch:5>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<inspirations:mulch:5>.addTooltip(format.yellow("Growth Rate: 333% Drop Chance: 240%"));
-<inspirations:mulch:4>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<inspirations:mulch:4>.addTooltip(format.yellow("Growth Rate: 500% Drop Chance: 290%"));
-<inspirations:mulch:6>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<inspirations:mulch:6>.addTooltip(format.yellow("Growth Rate: 1000% Drop Chance: 350%"));
+	This script allows modification of tooltips.
+*/
+import crafttweaker.formatting.IFormattedText;
+import crafttweaker.item.IItemStack;
 
-<tconstruct:slime_dirt>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_dirt>.addTooltip(format.yellow("Growth Rate: 100% Drop Chance: 100%"));
-<tconstruct:slime_grass:1>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_grass:1>.addTooltip(format.yellow("Growth Rate: 100% Drop Chance: 100%"));
-<tconstruct:slime_grass:6>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_grass:6>.addTooltip(format.yellow("Growth Rate: 100% Drop Chance: 100%"));
-<tconstruct:slime_grass:11>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_grass:11>.addTooltip(format.yellow("Growth Rate: 100% Drop Chance: 100%"));
-<tconstruct:slime_dirt:1>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_dirt:1>.addTooltip(format.yellow("Growth Rate: 200% Drop Chance: 150%"));
-<tconstruct:slime_grass:2>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_grass:2>.addTooltip(format.yellow("Growth Rate: 200% Drop Chance: 150%"));
-<tconstruct:slime_grass:7>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_grass:7>.addTooltip(format.yellow("Growth Rate: 200% Drop Chance: 150%"));
-<tconstruct:slime_grass:12>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_grass:12>.addTooltip(format.yellow("Growth Rate: 200% Drop Chance: 150%"));
-<tconstruct:slime_dirt:2>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_dirt:2>.addTooltip(format.yellow("Growth Rate: 400% Drop Chance: 200%"));
-<tconstruct:slime_grass:3>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_grass:3>.addTooltip(format.yellow("Growth Rate: 400% Drop Chance: 200%"));
-<tconstruct:slime_grass:8>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_grass:8>.addTooltip(format.yellow("Growth Rate: 400% Drop Chance: 200%"));
-<tconstruct:slime_grass:13>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_grass:13>.addTooltip(format.yellow("Growth Rate: 400% Drop Chance: 200%"));
-<tconstruct:slime_grass:4>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_grass:4>.addTooltip(format.yellow("Growth Rate: 800% Drop Chance: 300%"));
-<tconstruct:slime_grass:9>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_grass:9>.addTooltip(format.yellow("Growth Rate: 800% Drop Chance: 300%"));
-<tconstruct:slime_grass:14>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_grass:14>.addTooltip(format.yellow("Growth Rate: 800% Drop Chance: 300%"));
-<tconstruct:slime_grass>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_grass>.addTooltip(format.yellow("Growth Rate: 90% Drop Chance: 90%"));
-<tconstruct:slime_grass:5>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_grass:5>.addTooltip(format.yellow("Growth Rate: 90% Drop Chance: 90%"));
-<tconstruct:slime_grass:10>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
-<tconstruct:slime_grass:10>.addTooltip(format.yellow("Growth Rate: 90% Drop Chance: 90%"));
+static itemTooltipMap as IFormattedText[][IItemStack] = {
+	<rustic:apple_seeds>: [
+		format.red("When planted becomes an Apple Sapling")
+	],
+	<rustic:sapling_apple>: [
+		format.red("Made when planting Apple Seeds")
+	],
+	<resourcehogs:mud_bucket:*>: [
+		format.yellow("Use on a Pig to convert into a Resource Hog")
+	],
+	<animalcrops:seeds>: [
+		format.yellow("Grows on Grass")
+	],
 
-<resourcehogs:mud_bucket:*>.addTooltip(format.yellow("Use on a Pig to convert into a Resource Hog"));
+	// ==================================
+	// Add modifier tooltips
+	<rustic:fertile_soil>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 117% Drop Chance: 125%")
+	],
+	<inspirations:mulch:1>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 142% Drop Chance: 140%")
+	],
+	<inspirations:mulch:2>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 166% Drop Chance: 150%")
+	],
+	<inspirations:mulch:3>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 200% Drop Chance: 170%")
+	],
+	<inspirations:mulch:7>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 250% Drop Chance: 200%")
+	],
+	<inspirations:mulch:5>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 333% Drop Chance: 240%")
+	],
+	<inspirations:mulch:4>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 500% Drop Chance: 290%")
+	],
+	<inspirations:mulch:6>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 1000% Drop Chance: 350%")
+	],
+	<tconstruct:slime_dirt>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 100% Drop Chance: 100%")
+	],
+	<tconstruct:slime_grass:1>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 100% Drop Chance: 100%")
+	],
+	<tconstruct:slime_grass:6>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 100% Drop Chance: 100%")
+	],
+	<tconstruct:slime_grass:11>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 100% Drop Chance: 100%")
+	],
+	<tconstruct:slime_dirt:1>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 200% Drop Chance: 150%")
+	],
+	<tconstruct:slime_grass:2>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 200% Drop Chance: 150%")
+	],
+	<tconstruct:slime_grass:7>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 200% Drop Chance: 150%")
+	],
+	<tconstruct:slime_grass:12>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 200% Drop Chance: 150%")
+	],
+	<tconstruct:slime_dirt:2>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 400% Drop Chance: 200%")
+	],
+	<tconstruct:slime_grass:3>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 400% Drop Chance: 200%")
+	],
+	<tconstruct:slime_grass:8>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 400% Drop Chance: 200%")
+	],
+	<tconstruct:slime_grass:13>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 400% Drop Chance: 200%")
+	],
+	<tconstruct:slime_grass:4>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 800% Drop Chance: 300%")
+	],
+	<tconstruct:slime_grass:9>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 800% Drop Chance: 300%")
+	],
+	<tconstruct:slime_grass:14>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 800% Drop Chance: 300%")
+	],
+	<tconstruct:slime_grass>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 90% Drop Chance: 90%")
+	],
+	<tconstruct:slime_grass:5>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 90% Drop Chance: 90%")
+	],
+	<tconstruct:slime_grass:10>: [
+		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
+		format.yellow("Growth Rate: 90% Drop Chance: 90%")
+	],
 
-<teslacorelib:base_addon>.addTooltip(format.yellow("Used in Industrial Foregoing upgrade recipes"));
-<teslacorelib:energy_tier1>.addTooltip(format.yellow("Upgrades Industrial Foregoing machines"));
-<teslacorelib:energy_tier2>.addTooltip(format.yellow("Upgrades Industrial Foregoing machines"));
-<teslacorelib:speed_tier1>.addTooltip(format.yellow("Upgrades Industrial Foregoing machines"));
-<teslacorelib:speed_tier2>.addTooltip(format.yellow("Upgrades Industrial Foregoing machines"));
-<teslacorelib:wrench>.addTooltip(format.yellow("Used to manipulate Industrial Foregoing machines"));
+	// ==================================
+	// IF Upgrades
+	<teslacorelib:base_addon>: [
+		format.yellow("Used in Industrial Foregoing upgrade recipes")
+	],
+	<teslacorelib:energy_tier1>: [
+		format.yellow("Upgrades Industrial Foregoing machines")
+	],
+	<teslacorelib:energy_tier2>: [
+		format.yellow("Upgrades Industrial Foregoing machines")
+	],
+	<teslacorelib:speed_tier1>: [
+		format.yellow("Upgrades Industrial Foregoing machines")
+	],
+	<teslacorelib:speed_tier2>: [
+		format.yellow("Upgrades Industrial Foregoing machines")
+	],
+	<teslacorelib:wrench>: [
+		format.yellow("Used to manipulate Industrial Foregoing machines")
+	]
+};
 
-<animalcrops:seeds>.addTooltip(format.yellow("Grows on Grass"));
+function init() {
+	for item, tooltips in itemTooltipMap {
+		for tooltip in tooltips {
+			item.addTooltip(tooltip);
+		}
+	}
+}
