@@ -1,6 +1,8 @@
-import mods.integrateddynamics.Squeezer;
+/*
+	SkyFactory 4 Integrated Dynamics Integration Script
 
-//Squeezer.addRecipe(IItemStack inputStack, @Optional IItemStack outputStack, @Optional ILiquidStack outputFluid);Squeezer.addRecipe(<minecraft:melon>, <minecraft:stick>, <liquid:water> * 100);
-
-
-Squeezer.addRecipe(<minecraft:cooked_porkchop>, <tconstruct:edible> * 2, null);
+	This script utilizes the Integrated Dynamics integration to add/remove/modify recipes.
+*/
+function init() {
+	integratedDynamics.addSqueezer(<minecraft:cooked_porkchop>, <tconstruct:edible> * 2, null);
+}
