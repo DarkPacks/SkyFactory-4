@@ -2,7 +2,7 @@
 	SkyFactory 4 Inspirations Integration Script
 
 	This script utilizes the Inspirations integration to add/remove/modify recipes.
-	All liquid values are in Vanilla Bottle Amounts (3 equals 1 bucket)
+	All liquid values are in Vanilla Bottle Amounts (4 equals 1 bucket)
 */
 function init() {
 	// ==================================
@@ -72,5 +72,4 @@ function init() {
 	// Cauldron Fluid Transformation Recipes
 	// ==================================
 	inspirations.addCauldronFluidTransform(<liquid:mud>, <minecraft:dirt>, <liquid:water>, 4);
-
 }
