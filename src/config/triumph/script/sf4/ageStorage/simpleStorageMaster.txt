@@ -1,0 +1,19 @@
+setTitle("Simple Storage Network - Master")
+
+setIcon(<storagenetwork:master>)
+
+setDescription("Craft a Simple Storage Network Master Block")
+
+setParent("sf4:ageStorage/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<storagenetwork:master>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(-326,81)

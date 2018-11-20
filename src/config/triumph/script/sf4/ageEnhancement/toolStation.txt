@@ -16,3 +16,4 @@ criteria.addItem("tconstruct:tooltables", 3)
 setRewardExperience(4)
 
 alwaysVisible()
+setPos(84,180)

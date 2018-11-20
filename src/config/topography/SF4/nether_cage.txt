@@ -13,4 +13,5 @@ layers = new LayerGenerator()
 layers.addLayer(0~255, <minecraft:bedrock>)
 addGenerator(layers)
 
+captureTeleports()
 disableRespawning()

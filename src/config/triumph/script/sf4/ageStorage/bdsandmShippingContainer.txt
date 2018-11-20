@@ -1,0 +1,20 @@
+setTitle("Shipping Container")
+
+setIcon(<bdsandm:shipping_container>)
+
+setDescription("Craft a Barrels, Drum, Storage, and More Shipping Container")
+
+setParent("sf4:ageStorage/bdsandmMetalCrate")
+setParent("sf4:ageStorage/bdsandmMetalBarrel")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<bdsandm:shipping_container>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(-184,176)

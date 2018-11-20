@@ -1178,5 +1178,17 @@
   {
     "energy": 4800,
     "id": "sky_orchards:acorn_osmium:1"
+  },
+  {
+    "energy": 600000000,
+    "id": "extendedcrafting:singularity_custom:2"
+  },
+  {
+    "energy": 600000000,
+    "id": "extendedcrafting:singularity_custom:3"
+  },
+  {
+    "energy": 60000000,
+    "id": "extendedcrafting:singularity_custom:1"
   }
 ]

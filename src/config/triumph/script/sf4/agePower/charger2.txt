@@ -1,0 +1,19 @@
+setTitle("Charger II")
+
+setIcon(<chargers:charger:1>)
+
+setDescription("Craft a Tier 2 Charger")
+
+setParent("sf4:agePower/charger1")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<chargers:charger:1>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(-374,138)

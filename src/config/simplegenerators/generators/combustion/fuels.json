@@ -1,0 +1,4922 @@
+[
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal3"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke3"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:twilight_log"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wool6"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "fenceoverhaul:oak_overhauledfence"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:palace_lantern"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal12"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_netherrack"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:carpeted_trapdoor_white"
+  },
+  {
+    "energy": 3456000,
+    "id": "mysticalagriculture:coal_block3"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-acacia2"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:desk4"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:mapframe1"
+  },
+  {
+    "energy": 32000,
+    "id": "nuclearcraft:dust8"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_jungle4"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:furniturepaneler4"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:bookcase1"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal18"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:reinforcedplasticblock10"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:acacia_fence"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke21"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:mapframe5"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:thatch_roof_tile_edge_slab"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:case1"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:twilight_sapling9"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:fishing_rod"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:sapling"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:painted_wood_magenta"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:armorstand3"
+  },
+  {
+    "energy": 6000,
+    "id": "bdsandm:wood_crate"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:pumpkin_seeds"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:tower_wood1"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-jungle1"
+  },
+  {
+    "energy": 2960,
+    "id": "minecraft:wooden_slab1"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:furniturepaneler3"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal2"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:seat3"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:magic_log1"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:glowplasticblock5"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:fancyworkbench2"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:fence_gate"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:armorstand6"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:table6"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:bookshelf1"
+  },
+  {
+    "energy": 18432000,
+    "id": "projecte:fuel_block2"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:banner2"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:sort_gate"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:bookcase"
+  },
+  {
+    "energy": 6000,
+    "id": "malisisdoors:big_door_dark_oak_3x3"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:bookcase2"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:drum"
+  },
+  {
+    "energy": 4000,
+    "id": "inspirations:wooden_crook"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:painted_wood_orange"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "malisisdoors:garage_door"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-oak3"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-oak7"
+  },
+  {
+    "energy": 6000,
+    "id": "slabmachines:tool_station_slab"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:cedar_stairs"
+  },
+  {
+    "energy": 6000,
+    "id": "mystcraft:blockinkmixer"
+  },
+  {
+    "energy": 6000,
+    "id": "supersoundmuffler:sound_muffler"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:reinforcedplasticblock9"
+  },
+  {
+    "energy": 6000,
+    "id": "fenceoverhaul:dark_oak_overhauledfence"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:painting"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_acacia9"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal5"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_oak6"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:banner14"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:mulch6"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:shelf1"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:twilight_sapling6"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke1"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-jungle13"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:fence_olive"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar_base6"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:potionshelf2"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:planks5"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal15"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-jungle4"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:desk6"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_lead"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:toolrack6"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:reinforcedplasticblock4"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:toolrack1"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframemiddle5"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:iron_sliding_door"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:plasticblock4"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:roadplasticblock6"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:curtain_green"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframefancy5"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_aluminum"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:saloon"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:fancysign3"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:curtain_blue"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframemiddle1"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:log1"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:fancyworkbench6"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:slickplasticblock3"
+  },
+  {
+    "energy": 6000,
+    "id": "tconstruct:tooltables2"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:bench"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal12"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:glowplasticblock4"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_spruce8"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_darkoak4"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal19"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:furniturepaneler6"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:magic_log_core2"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_spruce3"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke16"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:burnt_thorns"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wool7"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:twilight_leaves_31"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:cedar_slab"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_jungle7"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:mangrove_plate"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:carpeted_trapdoor_blue"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal11"
+  },
+  {
+    "energy": 4000,
+    "id": "minecraft:wooden_sword"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:framedchest1"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:roadplasticblock8"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:table_acacia"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:verticalhatch"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 64000,
+    "id": "thermalfoundation:material892"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:twilight_oak_plate"
+  },
+  {
+    "energy": 6000,
+    "id": "astralsorcery:blockinfusedwood5"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar6"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:paper"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:spruce_fence_gate"
+  },
+  {
+    "energy": 6000,
+    "id": "malisisdoors:big_door_birch_3x3"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:twilight_sapling8"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-acacia1"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:bowl"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:potionshelf3"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:reinforcedplasticblock13"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar1"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_darkoak5"
+  },
+  {
+    "energy": 6000,
+    "id": "tconstruct:lavawood_stairs"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar10"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar_base1"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:table_oak"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframesimple1"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:glowplasticblock"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal1"
+  },
+  {
+    "energy": 32000,
+    "id": "minecraft:coal"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal7"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:sign"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_oak5"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:lithel_deco"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:curtain_brown"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-acacia4"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframefancy"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:chair_acacia"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:desk2"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_glowstone"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_darkoak7"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:chair_spruce"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:tower_device4"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:cabinet"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:shelf2"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_cottonwood"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wool1"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:painted_wood_gray"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 128000,
+    "id": "projecte:item.pe_fuel"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal9"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:giant_log"
+  },
+  {
+    "energy": 6000,
+    "id": "tconstruct:firewood"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_copper"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_acacia1"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar_base4"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_prosperity"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal14"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:label1"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframeborderless3"
+  },
+  {
+    "energy": 6000,
+    "id": "malisisdoors:big_door_acacia_3x3"
+  },
+  {
+    "energy": 6000,
+    "id": "tconstruct:rack"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:stripped_cedar_log"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:sapling3"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:fu"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:label"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal111"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-oak5"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframeborderless"
+  },
+  {
+    "energy": 6000,
+    "id": "morecauldrons:oak_cauldron"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:canopy_gate"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar4"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_osmium"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:table1"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:chair_birch"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:framedchest6"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wheat_seeds"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:melon_seeds"
+  },
+  {
+    "energy": 4000,
+    "id": "chineseworkshop:chinese_oak_door"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:banner7"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_oak8"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:mapframe3"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:log"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_gold"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal6"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:thorns"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:totem_pole"
+  },
+  {
+    "energy": 6000,
+    "id": "slabmachines:pattern_chest_slab"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:painted_wood_brown"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:banner15"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:fancysign1"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal11"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_cobalt"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:carpeted_trapdoor_lime"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:carpeted_trapdoor_green"
+  },
+  {
+    "energy": 1280,
+    "id": "minecraft:carpet1"
+  },
+  {
+    "energy": 4000,
+    "id": "chineseworkshop:high_door"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_iron"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:painted_wood_white"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wool"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:cedar_plank"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 1280,
+    "id": "minecraft:carpet5"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_darkoak2"
+  },
+  {
+    "energy": 6000,
+    "id": "astralsorcery:blockinfusedwood"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:table2"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "malisisdoors:trapdoor_dark_oak"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wool11"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframemiddle6"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_birch1"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframeflat6"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar3"
+  },
+  {
+    "energy": 6000,
+    "id": "tconstruct:tooltables4"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:seat6"
+  },
+  {
+    "energy": 6000,
+    "id": "sonarcore:reinforceddirtgate"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:clock4"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_darkoak"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:banner4"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:curtain_white"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:fence_gate_olive"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:carving"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke111"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:painted_wood_lime"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_bacon"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_spruce4"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke10"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:banner3"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_acacia4"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal15"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:magic_log_core1"
+  },
+  {
+    "energy": 6000,
+    "id": "astralsorcery:blockinfusedwood4"
+  },
+  {
+    "energy": 6000,
+    "id": "tconstruct:firewood_stairs"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:case4"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:thatch_tile_roof_slab"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:case5"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:birch_boat"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_donut"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:birch_stairs"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:mangrove_stairs"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:glowplasticblock15"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:twilight_sapling5"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-jungle6"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wool5"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:dark_green_pillar"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:thatch_roof"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:chair_big_oak"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-oak12"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframeborderless1"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke11"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:beetroot_seeds"
+  },
+  {
+    "energy": 6000,
+    "id": "sonarcore:reinforcedstonebrickgate"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:jukebox"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:plasticblock7"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal115"
+  },
+  {
+    "energy": 768000,
+    "id": "mysticalagriculture:coal4"
+  },
+  {
+    "energy": 1536000,
+    "id": "mysticalagradditions:insanium5"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke113"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:leaves1"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:painted_wood_blue"
+  },
+  {
+    "energy": 4000,
+    "id": "chineseworkshop:door"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:plasticblock10"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:acacia_fence_gate"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:totem_pole"
+  },
+  {
+    "energy": 6000,
+    "id": "astralsorcery:blockbore"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:glowplasticblock10"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframesimple4"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:birch_fence_gate"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar2"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-birch9"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:oak_chinese_fence"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-dark-oak"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:time_fence"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:roadplasticblock2"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:tower_device2"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal3"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:framedchest5"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:magic_leaves3"
+  },
+  {
+    "energy": 6000,
+    "id": "tconstruct:tooltables"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:trapdoor"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-dark-oak1"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar9"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_jungle"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:mulch1"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar_base2"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 320000,
+    "id": "nuclearcraft:ingot_block8"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal113"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:bookcasecreative5"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:reinforcedplasticblock7"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar5"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:curtain_magenta"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal13"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:slickplasticblock14"
+  },
+  {
+    "energy": 864000,
+    "id": "mysticalagriculture:coal_block1"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:plasticblock8"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:slickplasticblock7"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframefancy1"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:crushing_tub"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_acacia8"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframemiddle3"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:root1"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:dark_oak_stairs"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:carpeted_trapdoor_gray"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke8"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:banner5"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-oak1"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar_base12"
+  },
+  {
+    "energy": 512000,
+    "id": "projecte:item.pe_fuel1"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-oak8"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:planks3"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:reinforcedplasticblock15"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal17"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-oak9"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:roadplasticblock4"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal114"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 2000,
+    "id": "integrateddynamics:menril_leaves"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-birch2"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:bookcasecreative6"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:glowplasticblock13"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:planks2"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframefancy3"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:slickplasticblock11"
+  },
+  {
+    "energy": 4000,
+    "id": "minecraft:wooden_pickaxe"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:table_big_oak"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-dark-oak5"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:dark_leaves"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:totem_pole"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:waterlily"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:slickplasticblock"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:painted_wood_light_blue"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:mine_stairs"
+  },
+  {
+    "energy": 1728000,
+    "id": "mysticalagriculture:coal_block2"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:potionshelf1"
+  },
+  {
+    "energy": 6000,
+    "id": "mystcraft:blockbookstand"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_birch8"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:roadplasticblock14"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:toolrack4"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:toolrack"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:curtain_orange"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:toolrack2"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:plasticblock6"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:crafting_table"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke4"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:mine_plate"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:leaves3"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:canopy_plate"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:label3"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-birch6"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframefancy4"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:glowplasticblock14"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:mulch3"
+  },
+  {
+    "energy": 2000,
+    "id": "rustic:leaves_apple"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:wooden_window"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:oak_wall"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:carpeted_trapdoor_magenta"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:jungle_boat"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-jungle5"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframefancy2"
+  },
+  {
+    "energy": 2960,
+    "id": "minecraft:wooden_slab5"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:curtain_lime"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:fence_gate_ironwood"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:twilight_leaves3"
+  },
+  {
+    "energy": 6000,
+    "id": "astralsorcery:blockinfusedwood3"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:curtain_black"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:log2"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_darkoak3"
+  },
+  {
+    "energy": 6000,
+    "id": "torchmaster:terrain_lighter"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:roadplasticblock15"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "morecauldrons:birch_cauldron"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:jail_door"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar_base3"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal4"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-oak2"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:twilight_leaves1"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:glowplasticblock7"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:totem_pole"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframeflat2"
+  },
+  {
+    "energy": 6000,
+    "id": "tconstruct:firewood1"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:twilight_sapling2"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar_base9"
+  },
+  {
+    "energy": 2000,
+    "id": "tconstruct:slime_sapling1"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:painted_wood_black"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:mapframe4"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:magic_log"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke12"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wool4"
+  },
+  {
+    "energy": 32000,
+    "id": "nuclearcraft:ingot8"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-birch"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:log"
+  },
+  {
+    "energy": 6000,
+    "id": "malisisdoors:carriage_door"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal2"
+  },
+  {
+    "energy": 4000,
+    "id": "minecraft:wooden_axe"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-oak4"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:cedar_log"
+  },
+  {
+    "energy": 6000,
+    "id": "malisisdoors:camofencegate"
+  },
+  {
+    "energy": 1280,
+    "id": "minecraft:carpet4"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-dark-oak13"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:armorstand2"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframeborderless4"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:sort_plate"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_oak"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:shelf5"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:carpeted_trapdoor_yellow"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:magic_log_core"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-acacia14"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:sort_fence"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:banner13"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframesimple3"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:twilight_log2"
+  },
+  {
+    "energy": 6000,
+    "id": "torchmaster:mega_torch1"
+  },
+  {
+    "energy": 2000,
+    "id": "tconstruct:slime_leaves1"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:fancyworkbench1"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:planks4"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:banner8"
+  },
+  {
+    "energy": 4000,
+    "id": "nuclearcraft:reactor_door_item"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:twilight_leaves2"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar_base13"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal10"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:ladder"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal11"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:reinforcedplasticblock12"
+  },
+  {
+    "energy": 6000,
+    "id": "malisisdoors:big_door_jungle_3x3"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:tower_device12"
+  },
+  {
+    "energy": 6000,
+    "id": "fenceoverhaul:spruce_overhauledfence"
+  },
+  {
+    "energy": 6000,
+    "id": "tconstruct:tooltables5"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal2"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-jungle2"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-dark-oak11"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal1"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal2"
+  },
+  {
+    "energy": 6000,
+    "id": "tconstruct:firewood_slab"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:chair_oak"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:armorstand1"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframeflat1"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:jungle_stairs"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:cedar_fence_gate"
+  },
+  {
+    "energy": 1280,
+    "id": "minecraft:carpet6"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:huge_stalk"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:plasticblock11"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:curtain_yellow"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar_base5"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_cookie"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_birch"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-acacia13"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:mine_gate"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-spruce13"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "morecauldrons:jungle_cauldron"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:carpeted_trapdoor_purple"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:shelf"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:upper_door_frame"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:potionshelf5"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:table5"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal1"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:desk"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:roadplasticblock7"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-birch12"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-acacia9"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_quartz"
+  },
+  {
+    "energy": 4000,
+    "id": "minecraft:wooden_shovel"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal19"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:bookshelf3"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframesimple"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal112"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:magic_leaves"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wooden_button"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:magic_leaves2"
+  },
+  {
+    "energy": 2960,
+    "id": "minecraft:wooden_slab2"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:root"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:olive_slab_item"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:dark_oak_door"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal12"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:bookshelf"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:cedar_fence"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:trans_plate"
+  },
+  {
+    "energy": 2960,
+    "id": "minecraft:wooden_slab3"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:stairs_olive"
+  },
+  {
+    "energy": 6000,
+    "id": "cookingforblockheads:spice_rack"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:carpeted_trapdoor_brown"
+  },
+  {
+    "energy": 48000,
+    "id": "mysticalagriculture:coal"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:carpeted_trapdoor_pink"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:banner12"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:dark_oak_fence"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_acacia5"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframeflat4"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:liquid_barrel"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-spruce14"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:noteblock"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke1"
+  },
+  {
+    "energy": 320000,
+    "id": "tp:charcoal_block"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke19"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:clock5"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:toolrack5"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar_base10"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:glowplasticblock8"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "schematics:architect_desk"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke2"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wool14"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:framedchest"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_spruce"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-birch1"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wool3"
+  },
+  {
+    "energy": 480000,
+    "id": "thermalfoundation:material1024"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:shelf6"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:painted_wood_green"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:fancysign4"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_oak4"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:roadplasticblock10"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wool9"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_acacia3"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-birch4"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-acacia3"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:paper_window"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar7"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wool12"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:banner11"
+  },
+  {
+    "energy": 2000,
+    "id": "rustic:leaves1"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke7"
+  },
+  {
+    "energy": 6000,
+    "id": "torchmaster:feral_flare_lantern"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-jungle7"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:wooden_pressure_plate"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:reinforcedplasticblock8"
+  },
+  {
+    "energy": 1280,
+    "id": "minecraft:carpet7"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_spruce9"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal8"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:thatch_tile_ridge_roof_edge_top"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:plasticblock9"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:seat2"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:planks"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:tower_device9"
+  },
+  {
+    "energy": 1280,
+    "id": "minecraft:carpet14"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:fence_ironwood"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:dark_oak_boat"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "slabmachines:stencil_table_slab"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:thatch_tile_ridge_roof"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:slickplasticblock8"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:leaves2"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_birch6"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:twilight_sapling"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:roadplasticblock"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:mulch5"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:slickplasticblock15"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_emerald"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_jungle5"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:tallgrass2"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-dark-oak4"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-spruce1"
+  },
+  {
+    "energy": 6000,
+    "id": "integrateddynamics:menril_planks_stairs"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:slickplasticblock4"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_acacia2"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-jungle14"
+  },
+  {
+    "energy": 2048000,
+    "id": "projecte:item.pe_fuel2"
+  },
+  {
+    "energy": 2960,
+    "id": "minecraft:wooden_slab4"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:curtain_red"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:roadplasticblock1"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:barrel"
+  },
+  {
+    "energy": 2000,
+    "id": "rustic:sapling1"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal14"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke6"
+  },
+  {
+    "energy": 6000,
+    "id": "malisisdoors:trapdoor_birch"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframeflat"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:armorstand5"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-jungle9"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-oak13"
+  },
+  {
+    "energy": 4000,
+    "id": "pickletweaks:wooden_paxel"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:fancyworkbench5"
+  },
+  {
+    "energy": 6000,
+    "id": "morecauldrons:spruce_cauldron"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:twilight_sapling7"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:mulch7"
+  },
+  {
+    "energy": 6000,
+    "id": "fenceoverhaul:birch_overhauledfence"
+  },
+  {
+    "energy": 6000,
+    "id": "integrateddynamics:drying_basin"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:planks1"
+  },
+  {
+    "energy": 6000,
+    "id": "cookingforblockheads:fruit_basket"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframesimple5"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "integrateddynamics:menril_planks"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:brewing_barrel"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_birch9"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:slickplasticblock5"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:tower_device6"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:slickplasticblock13"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:totem_pole"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:desk5"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke14"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:table"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:deadbush"
+  },
+  {
+    "energy": 6000,
+    "id": "cookingforblockheads:tool_rack"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:totem_pole"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-spruce12"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:clock2"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "slabmachines:trapped_chest_slab"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:bookcasecreative3"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:furniturepaneler5"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-jungle3"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:label6"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal21"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar8"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_silver"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-oak"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-birch3"
+  },
+  {
+    "energy": 6000,
+    "id": "slabmachines:workbench_slab"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:sapling1"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:reinforcedplasticblock3"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:bookcase3"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:cinder_furnace"
+  },
+  {
+    "energy": 2000,
+    "id": "tconstruct:slime_leaves2"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:glowplasticblock1"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke13"
+  },
+  {
+    "energy": 6000,
+    "id": "farmingforblockheads:feeding_trough"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:chair_ironwood"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke17"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-dark-oak14"
+  },
+  {
+    "energy": 1280,
+    "id": "minecraft:carpet15"
+  },
+  {
+    "energy": 384000,
+    "id": "mysticalagriculture:coal3"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:glowplasticblock3"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wool8"
+  },
+  {
+    "energy": 64000,
+    "id": "thermalfoundation:material802"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:carpeted_trapdoor_silver"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wool15"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:factory_door"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-jungle10"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 640000,
+    "id": "thermalfoundation:storage_resource1"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal114"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal15"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:birch_door"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-spruce5"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:painted_wood_yellow"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:label5"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:toolrack3"
+  },
+  {
+    "energy": 6000,
+    "id": "cyclicmagic:block_library_ctrl"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:label2"
+  },
+  {
+    "energy": 32000,
+    "id": "minecraft:coal1"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:glowplasticblock2"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:thorns1"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_oak9"
+  },
+  {
+    "energy": 6000,
+    "id": "enderutilities:floor"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:mapframe2"
+  },
+  {
+    "energy": 4000,
+    "id": "chineseworkshop:wooden_window_door"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:mulch"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_spruce5"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal6"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:magic_log3"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal12"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-dark-oak12"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:dark_plate"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:plasticblock13"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:bookcase5"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:banner10"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-acacia7"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_darkoak1"
+  },
+  {
+    "energy": 288000,
+    "id": "mekanism:basicblock3"
+  },
+  {
+    "energy": 2000,
+    "id": "rustic:sapling_apple"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:thatch_tile_roof_slab_top"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_sand"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:plasticblock3"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:potionshelf"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:tower_device10"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:seat"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:table_spruce"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:mangrove_gate"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:plasticblock15"
+  },
+  {
+    "energy": 6000,
+    "id": "mystcraft:blocklectern"
+  },
+  {
+    "energy": 320000,
+    "id": "thermalfoundation:storage_resource"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:reinforcedplasticblock"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:totem_pole"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframesimple6"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:jungle_fence_gate"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:roadplasticblock3"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:log3"
+  },
+  {
+    "energy": 16000,
+    "id": "thermalfoundation:material832"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:mapframe"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:furniturepaneler"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:plasticblock1"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:armorstand"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:reinforcedplasticblock2"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:log21"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:carpeted_trapdoor_light_blue"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:carpeted_trapdoor_black"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:table_olive"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:trans_fence"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal14"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal16"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:framedchest4"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:fancysign5"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:twilight_sapling3"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:time_gate"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:glowplasticblock6"
+  },
+  {
+    "energy": 6000,
+    "id": "sonarcore:reinforcedstonegate"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:plasticblock5"
+  },
+  {
+    "energy": 6000,
+    "id": "malisisdoors:medieval_door"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:thatch_tile_ridge_roof_edge"
+  },
+  {
+    "energy": 48000,
+    "id": "minecraft:blaze_rod"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:red_lantern"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:leaves"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal14"
+  },
+  {
+    "energy": 6000,
+    "id": "fenceoverhaul:acacia_overhauledfence"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:thatch_roof_tile_edge1"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_oak3"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:framedchest3"
+  },
+  {
+    "energy": 32000,
+    "id": "nuclearcraft:gem_dust7"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal115"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke15"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:red_pillar"
+  },
+  {
+    "energy": 1280,
+    "id": "minecraft:carpet3"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal13"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:bow"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-jungle"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_darkoak6"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:painted_wood_red"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_oak2"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal5"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:sapling4"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_oak1"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:table3"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframeborderless5"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:press"
+  },
+  {
+    "energy": 2000,
+    "id": "tconstruct:slime_sapling2"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-spruce8"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:fancysign2"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:time_plate"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:wooden_threshold"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke112"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar_base"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:carpeted_trapdoor_cyan"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:roadplasticblock12"
+  },
+  {
+    "energy": 4000,
+    "id": "tp:wooden_spear"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:bookshelf"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:uncrafting_table"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal13"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke12"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_oak7"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:birch_fence"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:totem_pole"
+  },
+  {
+    "energy": 2000,
+    "id": "rustic:leaves"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:fancysign6"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:acacia_stairs"
+  },
+  {
+    "energy": 6000,
+    "id": "slabmachines:note_slab"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar_base11"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:twilight_sapling4"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-spruce4"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:seat5"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "tconstruct:tooltables3"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:planks1"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_spruce7"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_birch3"
+  },
+  {
+    "energy": 4000,
+    "id": "pickletweaks:coal_piece"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframeborderless6"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "morecauldrons:acacia_cauldron"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:planks"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:totem_pole"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wool2"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:mulch4"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:reinforcedplasticblock6"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:plasticblock2"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal9"
+  },
+  {
+    "energy": 4608000,
+    "id": "projecte:fuel_block1"
+  },
+  {
+    "energy": 2000,
+    "id": "rustic:sapling"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:log1"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:dark_fence"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:roadplasticblock9"
+  },
+  {
+    "energy": 6000,
+    "id": "morecauldrons:big_oak_cauldron"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:laboratory_door"
+  },
+  {
+    "energy": 320000,
+    "id": "minecraft:coal_block"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:twilight_oak_stairs"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:spruce_door"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 96000,
+    "id": "mysticalagriculture:coal1"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:clock"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar_base8"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:sapling2"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:spruce_fence"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:desk3"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:case3"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:chest"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke110"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-acacia10"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:painted_wood_cyan"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:table"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:slickplasticblock9"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:magic_log2"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:canopy_fence"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wool13"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:bookcase6"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:leaves21"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_jungle1"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:table4"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:totem_pole"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:tower_wood"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:table_birch"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal13"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:totem_base"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:furniturepaneler2"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-birch14"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-spruce2"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_spruce1"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal112"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:chair_olive"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:shelf3"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:apiary"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:curtain_silver"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframemiddle"
+  },
+  {
+    "energy": 6000,
+    "id": "farmingforblockheads:market"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 1280,
+    "id": "minecraft:carpet9"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_spruce6"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:seat1"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "integrateddynamics:menril_log_filled"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:oak_stairs"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:curtain_gray"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:slickplasticblock1"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-dark-oak8"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:reinforcedplasticblock14"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:stairs_ironwood"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-dark-oak10"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:dark_oak_fence_gate"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:wood_sliding_door"
+  },
+  {
+    "energy": 6000,
+    "id": "astralsorcery:blockinfusedwood2"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal10"
+  },
+  {
+    "energy": 6000,
+    "id": "tconstruct:rack1"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-oak14"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:bookcasecreative4"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:clock1"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_dirt"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:furniturepaneler1"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:sapling5"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:reinforcedplasticblock11"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_tin"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:desk1"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:candle"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-acacia"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-birch11"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:framedchest2"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-jungle8"
+  },
+  {
+    "energy": 6000,
+    "id": "integrateddynamics:menril_log"
+  },
+  {
+    "energy": 2000,
+    "id": "tconstruct:slime_leaves"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-oak11"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-oak6"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:cinder_log"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:slickplasticblock10"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar_base7"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_spruce2"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal16"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:magic_log_core3"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:twilight_oak_gate"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_redstone"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:sort_stairs"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal8"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframemiddle4"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:canopy_stairs"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:shelf4"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 1280,
+    "id": "minecraft:carpet11"
+  },
+  {
+    "energy": 1280,
+    "id": "minecraft:carpet13"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-spruce3"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:tower_device"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal15"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_birch2"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:dark_gate"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:log2"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:roadplasticblock5"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke15"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_birch5"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 1280,
+    "id": "minecraft:carpet"
+  },
+  {
+    "energy": 1280,
+    "id": "minecraft:carpet2"
+  },
+  {
+    "energy": 4000,
+    "id": "rustic:olive_door"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:twilight_sapling1"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:boat"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_bone"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-spruce7"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-acacia8"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar13"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_petrified"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:stick"
+  },
+  {
+    "energy": 6000,
+    "id": "malisisdoors:trapdoor_spruce"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:totem_pole"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_ardite"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframeflat3"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal4"
+  },
+  {
+    "energy": 6000,
+    "id": "slabmachines:chest_slab"
+  },
+  {
+    "energy": 6000,
+    "id": "malisisdoors:big_door_oak_3x3"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:curtain_pink"
+  },
+  {
+    "energy": 1280,
+    "id": "minecraft:carpet10"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:table_ironwood"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:tower_device5"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_nickel"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal7"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-dark-oak9"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:totem_pole"
+  },
+  {
+    "energy": 6000,
+    "id": "cyclicmagic:block_screen"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:slickplasticblock2"
+  },
+  {
+    "energy": 6000,
+    "id": "tconstruct:firewood_slab1"
+  },
+  {
+    "energy": 6000,
+    "id": "tconstruct:tooltables1"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:acacia_boat"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-spruce10"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:totem_pole"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke11"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-birch13"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke9"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:case2"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:tower_wood3"
+  },
+  {
+    "energy": 6000,
+    "id": "astralsorcery:blockinfusedwood1"
+  },
+  {
+    "energy": 6000,
+    "id": "fenceoverhaul:jungle_overhauledfence"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:curtain_light_blue"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:curtain_cyan"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:banner1"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:roadplasticblock11"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:potionshelf6"
+  },
+  {
+    "energy": 2960,
+    "id": "rustic:wildberry_bush"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:reinforcedplasticblock1"
+  },
+  {
+    "energy": 6000,
+    "id": "sonarcore:reinforceddirtbrickgate"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:spruce_boat"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:seat4"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-dark-oak2"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:clock6"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:trans_gate"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:tower_wood4"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-spruce6"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:roadplasticblock13"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:potionshelf4"
+  },
+  {
+    "energy": 6000,
+    "id": "tconstruct:wooden_hopper"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:plasticblock14"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:banner"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:thatch_tile_ridge_roof_top"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-birch8"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:painted_wood_pink"
+  },
+  {
+    "energy": 4000,
+    "id": "pickletweaks:coal_piece1"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:twilight_oak_fence"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "astralsorcery:blockinfusedwood6"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:thatch_roof_tile_edge_slab1"
+  },
+  {
+    "energy": 6000,
+    "id": "cyclicmagic:fluid_placer"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:case"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:glowplasticblock9"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_jungle6"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframemiddle2"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:painted_wood_silver"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 16000,
+    "id": "thermalfoundation:material833"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-spruce"
+  },
+  {
+    "energy": 192000,
+    "id": "mysticalagriculture:coal2"
+  },
+  {
+    "energy": 6000,
+    "id": "extendedcrafting:crafting_table"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-dark-oak6"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:chair_jungle"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-jungle11"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal18"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:mulch2"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:vine"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:twilight_leaves"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:slickplasticblock6"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-dark-oak3"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal1"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_gravel"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_jungle3"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-birch7"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:twilight_log3"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:reinforcedplasticblock5"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:spruce_stairs"
+  },
+  {
+    "energy": 6000,
+    "id": "malisisdoors:trapdoor_jungle"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:plasticblock"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframeflat5"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal111"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_clay"
+  },
+  {
+    "energy": 2000,
+    "id": "tconstruct:slime_sapling"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:painted_wood_purple"
+  },
+  {
+    "energy": 432000,
+    "id": "mysticalagriculture:coal_block"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:fence"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke14"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:tallgrass1"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:typesettingtable"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke18"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:bookcasecreative"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke2"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_birch7"
+  },
+  {
+    "energy": 6000,
+    "id": "malisisdoors:big_door_spruce_3x3"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal11"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:fancyworkbench"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:banner6"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-acacia12"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-birch10"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:fancyworkbench4"
+  },
+  {
+    "energy": 6000,
+    "id": "enderutilities:floor1"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:bookcase4"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:fancysign"
+  },
+  {
+    "energy": 6000,
+    "id": "slabmachines:crafting_station_slab"
+  },
+  {
+    "energy": 6912000,
+    "id": "mysticalagriculture:coal_block4"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:jungle_door"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:banner9"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframefancy6"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke115"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:ironwood_slab_item"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:wool10"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_acacia"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-birch5"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:label4"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar11"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-dark-oak7"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:mangrove_fence"
+  },
+  {
+    "energy": 2960,
+    "id": "minecraft:wooden_slab"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:dark_stairs"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:jungle_fence"
+  },
+  {
+    "energy": 6000,
+    "id": "mystcraft:blockbookbinder"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:bookshelf2"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke13"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke114"
+  },
+  {
+    "energy": 4000,
+    "id": "minecraft:wooden_hoe"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-acacia5"
+  },
+  {
+    "energy": 6000,
+    "id": "conarm:armorstation"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_acacia7"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:time_stairs"
+  },
+  {
+    "energy": 6000,
+    "id": "malisisdoors:trapdoor_acacia"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:thatch_roof_tile_edge"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:trans_stairs"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal113"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_coal110"
+  },
+  {
+    "energy": 6000,
+    "id": "cyclicmagic:block_library"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:shoji_door"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:trapped_chest"
+  },
+  {
+    "energy": 640000,
+    "id": "chisel:block_coal_coke5"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-acacia6"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:clock3"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:mapframe6"
+  },
+  {
+    "energy": 6000,
+    "id": "slabmachines:part_builder_slab"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_coal"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_lapis"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_acacia6"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:plasticblock12"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-spruce9"
+  },
+  {
+    "energy": 6000,
+    "id": "totemic:wooden_pillar12"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_birch4"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_jungle9"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:wooden_door"
+  },
+  {
+    "energy": 4000,
+    "id": "malisisdoors:curtain_purple"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:carpeted_trapdoor_red"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframesimple2"
+  },
+  {
+    "energy": 6000,
+    "id": "torchmaster:mega_torch"
+  },
+  {
+    "energy": 1152000,
+    "id": "projecte:fuel_block"
+  },
+  {
+    "energy": 6000,
+    "id": "sky_orchards:log_diamond"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:fancyworkbench3"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal17"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:glowplasticblock12"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:glowplasticblock11"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-acacia11"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:twilight_leaves_3"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopping_block"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_jungle2"
+  },
+  {
+    "energy": 4000,
+    "id": "chineseworkshop:window_door"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_darkoak8"
+  },
+  {
+    "energy": 6000,
+    "id": "rustic:table_jungle"
+  },
+  {
+    "energy": 6000,
+    "id": "chineseworkshop:bracket_set"
+  },
+  {
+    "energy": 2000,
+    "id": "integrateddynamics:menril_sapling"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-oak10"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:armorstand4"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:bookcasecreative2"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 1280,
+    "id": "minecraft:carpet12"
+  },
+  {
+    "energy": 6000,
+    "id": "inspirations:carpeted_trapdoor_orange"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-spruce11"
+  },
+  {
+    "energy": 6000,
+    "id": "slabmachines:part_chest_slab"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:paintingframeborderless2"
+  },
+  {
+    "energy": 6000,
+    "id": "horsepower:chopper"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:acacia_door"
+  },
+  {
+    "energy": 1280,
+    "id": "minecraft:carpet8"
+  },
+  {
+    "energy": 2000,
+    "id": "twilightforest:magic_leaves1"
+  },
+  {
+    "energy": 4000,
+    "id": "integrateddynamics:menril_door"
+  },
+  {
+    "energy": 6000,
+    "id": "minecraft:daylight_detector"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:twilight_log1"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:case6"
+  },
+  {
+    "energy": 6000,
+    "id": "huntingdim:frame"
+  },
+  {
+    "energy": 13824000,
+    "id": "mysticalagradditions:storage2"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:planks-jungle12"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:mine_fence"
+  },
+  {
+    "energy": 4000,
+    "id": "rustic:ironwood_door"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_darkoak9"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal21"
+  },
+  {
+    "energy": 6000,
+    "id": "chisel:bookshelf_jungle8"
+  },
+  {
+    "energy": 6000,
+    "id": "mekanism:slickplasticblock12"
+  },
+  {
+    "energy": 320000,
+    "id": "chisel:block_charcoal110"
+  },
+  {
+    "energy": 6000,
+    "id": "bibliocraft:bookcasecreative1"
+  },
+  {
+    "energy": 2000,
+    "id": "minecraft:leaves2"
+  },
+  {
+    "energy": 6000,
+    "id": "twilightforest:tower_wood2"
+  },
+  {
+    "energy": 350000000,
+    "id": "extendedcrafting:singularity"
+  }
+]

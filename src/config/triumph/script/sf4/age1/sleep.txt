@@ -1,6 +1,6 @@
-setIcon(<minecraft:bed>)
-
 setTitle("Nap Time")
+
+setIcon(<minecraft:bed>)
 
 setDescription("Sleep in a bed")
 

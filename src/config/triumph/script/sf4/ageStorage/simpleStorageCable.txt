@@ -1,0 +1,19 @@
+setTitle("Simple Storage Network - Cable")
+
+setIcon(<storagenetwork:kabel>)
+
+setDescription("Craft a Simple Storage Network Cable")
+
+setParent("sf4:ageStorage/simpleStorageMaster")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<storagenetwork:kabel>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(-278,81)

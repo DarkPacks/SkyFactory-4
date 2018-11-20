@@ -1,0 +1,18 @@
+setTitle("Mega Torch")
+
+setIcon(<torchmaster:mega_torch>)
+
+setDescription("Craft a Mega Torch")
+
+setParent("sf4:ageEnhancement/root")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<torchmaster:mega_torch>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(122,97)

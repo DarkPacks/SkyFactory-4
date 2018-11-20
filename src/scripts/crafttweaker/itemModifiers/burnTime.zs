@@ -8,4 +8,5 @@ function init() {
 
 	furnace.setFuel(<ore:treeSapling>, 100);
 	furnace.setFuel(<ore:treeLeaves>, 100);
+	furnace.setFuel(<extendedcrafting:singularity>, 17000000);
 }

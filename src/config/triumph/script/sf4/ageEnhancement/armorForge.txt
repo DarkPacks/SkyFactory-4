@@ -16,3 +16,4 @@ criteria.addItem("conarm:armorforge")
 setRewardExperience(4)
 
 alwaysVisible()
+setPos(111,230)

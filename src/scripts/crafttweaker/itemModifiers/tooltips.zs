@@ -66,3 +66,5 @@
 <teslacorelib:speed_tier1>.addTooltip(format.yellow("Upgrades Industrial Foregoing machines"));
 <teslacorelib:speed_tier2>.addTooltip(format.yellow("Upgrades Industrial Foregoing machines"));
 <teslacorelib:wrench>.addTooltip(format.yellow("Used to manipulate Industrial Foregoing machines"));
+
+<animalcrops:seeds>.addTooltip(format.yellow("Grows on Grass"));

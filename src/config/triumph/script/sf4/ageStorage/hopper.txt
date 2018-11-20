@@ -1,0 +1,17 @@
+setTitle("Hopper")
+
+setIcon(<minecraft:hopper>)
+
+setDescription("Craft a Hopper")
+
+setParent("sf4:ageStorage/woodenHopper")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:hopper>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(-177,49)

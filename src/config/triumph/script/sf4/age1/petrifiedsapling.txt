@@ -1,4 +1,4 @@
-setTitle("Petrified Acorn")
+setTitle("Petrified Sapling")
 
 setIcon("sky_orchards:sapling_petrified")
 

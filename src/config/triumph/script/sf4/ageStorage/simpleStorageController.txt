@@ -1,0 +1,19 @@
+setTitle("Simple Storage Network - Processing Controller")
+
+setIcon(<storagenetwork:controller>)
+
+setDescription("Craft a Simple Storage Network Processing Controller Block")
+
+setParent("sf4:ageStorage/simpleStorageRequest")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<storagenetwork:controller>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(-323,10)

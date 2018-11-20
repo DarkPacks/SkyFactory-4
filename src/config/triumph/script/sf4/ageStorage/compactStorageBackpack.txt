@@ -1,0 +1,19 @@
+setTitle("Compact Storage - Backpack")
+
+setIcon(<compactstorage:backpack, nbt:{size:[I;24,12]}>)
+
+setDescription("Craft a maximum size Compact Storage Backpack")
+
+setParent("sf4:ageStorage/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<compactstorage:backpack, nbt:{size:[I;24,12]}>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(-326,134)

@@ -16,6 +16,16 @@ mods.mekanism.crusher.addRecipe(<sky_orchards:amber_aluminum>, <thermalfoundatio
 mods.mekanism.crusher.addRecipe(<practicallogistics2:sapphireore>, <practicallogistics2:sapphiredust> * 2);
 mods.mekanism.crusher.addRecipe(<practicallogistics2:sapphire>, <practicallogistics2:sapphiredust> * 1);
 
+////
+//
+//
+// Sawmill
+//
+//
+////
+
+mods.mekanism.sawmill.addRecipe(<minecraft:cooked_porkchop>, <tconstruct:edible> * 2, <tconstruct:edible> * 2, 0.25);
+
 //Tcon Metals
 mods.mekanism.crusher.addRecipe(<tconstruct:ingots:1>, <contenttweaker:ardite_dust> * 1);
 mods.mekanism.crusher.addRecipe(<tconstruct:ingots>, <contenttweaker:cobalt_dust> * 1);

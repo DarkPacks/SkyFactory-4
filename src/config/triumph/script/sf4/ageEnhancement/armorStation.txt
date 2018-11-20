@@ -16,3 +16,4 @@ criteria.addItem("conarm:armorstation")
 setRewardExperience(4)
 
 alwaysVisible()
+setPos(84,230)

@@ -1,0 +1,18 @@
+setTitle("Weirding Gadget")
+
+setIcon(<weirdinggadget:weirding_gadget>)
+
+setDescription("Craft a Weirding Gadget to chunk load")
+
+setParent("sf4:ageEnhancement/root")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<weirdinggadget:weirding_gadget>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(122,72)

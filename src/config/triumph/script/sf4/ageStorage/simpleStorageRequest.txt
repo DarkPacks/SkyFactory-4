@@ -1,0 +1,19 @@
+setTitle("Simple Storage Network - Request")
+
+setIcon(<storagenetwork:request>)
+
+setDescription("Craft a Simple Storage Network Request Block")
+
+setParent("sf4:ageStorage/simpleStorageMaster")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<storagenetwork:request>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(-359,46)

@@ -1,0 +1,19 @@
+setTitle("Bacon Singularity")
+
+setIcon(<extendedcrafting:singularity_custom:2>)
+
+setDescription("Craft a Bacon Singularity")
+
+addParent("sf4:ageALLTHETHINGSOMGLOL/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<extendedcrafting:singularity_custom:2>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(-80,138)

@@ -1,0 +1,19 @@
+setTitle("Wood Crate")
+
+setIcon(<bdsandm:wood_crate>)
+
+setDescription("Craft a Barrels, Drum, Storage, and More Wood Crate")
+
+setParent("sf4:ageStorage/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<bdsandm:wood_crate>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(-250,148)

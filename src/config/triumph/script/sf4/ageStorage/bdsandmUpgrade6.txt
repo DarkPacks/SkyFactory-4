@@ -1,0 +1,19 @@
+setTitle("Upgrade 7")
+
+setIcon(<bdsandm:upgrade:6>)
+
+setDescription("Craft a Barrels, Drum, Storage, and More Upgrade")
+
+setParent("sf4:ageStorage/bdsandmUpgrade5")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<bdsandm:upgrade:6>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(-64,104)

@@ -1,0 +1,19 @@
+setTitle("Who Stole the Cookies from the Cookie Jar")
+
+setIcon(<bibliocraft:cookiejar>)
+
+setDescription("Fill a Cookie Jar with Cookies and Right-Click it!")
+
+setParent("sf4:ageALLTHETHINGSOMGLOL/root")
+
+//Criteria
+//Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock(<bibliocraft:cookiejar,tile:{shift:0,cookiecount:8,isOpen:0b,names:["item.cookie","item.cookie","item.cookie","item.cookie","item.cookie","item.cookie","item.cookie","item.cookie"],x:6,y:70,angle:2,z:5,id:"minecraft:cookiejar",position:1,locked:0b,lockee:"",Inventory:[{Slot:0b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:1b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:2b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:3b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:4b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:5b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:6b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:7b,id:"minecraft:cookie",Count:64b,Damage:0s}]}>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-81,41)
