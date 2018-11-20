@@ -7,6 +7,7 @@
 */
 // Mods
 global inspirations as scripts.crafttweaker.classes.mods.inspirations.Inspirations = scripts.crafttweaker.classes.mods.inspirations.Inspirations();
+global integratedDynamics as scripts.crafttweaker.classes.mods.integratedDynamics.IntegratedDynamics = scripts.crafttweaker.classes.mods.integratedDynamics.IntegratedDynamics();
 global rustic as scripts.crafttweaker.classes.mods.rustic.Rustic = scripts.crafttweaker.classes.mods.rustic.Rustic();
 global tinkers as scripts.crafttweaker.classes.mods.tinkers.Tinkers = scripts.crafttweaker.classes.mods.tinkers.Tinkers();
 
