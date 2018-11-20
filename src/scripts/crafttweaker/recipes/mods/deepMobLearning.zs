@@ -12,7 +12,6 @@ import mods.zenstages.Utils;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-
 	<deepmoblearning:data_model_dragon>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): [
 		[
 			[<deepmoblearning:data_model_blank>, <minecraft:dragon_breath>]
@@ -189,7 +188,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-<deepmoblearning:data_model_dragon>
+	<deepmoblearning:data_model_dragon>
 ];
 
 function init() {

@@ -1,14 +1,14 @@
 [
-  {
-    "energy": 30000,
-    "id": "minecraft:ender_pearl"
-  },
-  {
-    "energy": 120000,
-    "id": "minecraft:ender_eye"
-  },
-  {
-    "energy": 256000,
-    "id": "minecraft:dragon_breath"
-  }
+    {
+        "energy": 30000,
+        "id": "minecraft:ender_pearl"
+    },
+    {
+        "energy": 120000,
+        "id": "minecraft:ender_eye"
+    },
+    {
+        "energy": 256000,
+        "id": "minecraft:dragon_breath"
+    }
 ]

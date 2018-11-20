@@ -1,9 +1,7 @@
-
-
 <rustic:apple_seeds>.addTooltip(format.red("When planted becomes an Apple Sapling"));
 <rustic:sapling_apple>.addTooltip(format.red("Made when planting Apple Seeds"));
 
-//Add modifier tooltips 
+// Add modifier tooltips
 <rustic:fertile_soil>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
 <rustic:fertile_soil>.addTooltip(format.yellow("Growth Rate: 117% Drop Chance: 125%"));
 <inspirations:mulch:1>.addTooltip(format.yellow("Upgrades Bonsai Growth and Loot Drops"));
