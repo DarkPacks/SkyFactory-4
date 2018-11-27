@@ -39,7 +39,6 @@ function init() {
 	inspirations.addCauldronFluid(<minecraft:grass>, <ore:treeLeaves> * 1, <liquid:mud>, 1);
 
 	// Acacia sapling from apple juice
-	// TODO: NEED TO CONVERT WATER TO APPLE JUICE WHEN RECIPE COMPLETES
 	inspirations.addCauldronFluid(<minecraft:sapling:4>, <rustic:sapling_apple>, <liquid:water>, 4);
 
 	// Blue Slime Trees
