@@ -35,6 +35,7 @@ var stageStrings as string[] = [
 	"brown_mulch",
 	"fertile_soil",
 	"mega_torch",
+	"non_pacifist",
 	"orange_slime_dirt",
 	"ore_excavation",
 	"pacifist",
