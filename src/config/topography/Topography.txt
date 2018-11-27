@@ -12,6 +12,8 @@ SF4.registerDimension(-1, "SF4/cell_nether")
 SF4 = registerPreset("Peace Out", "images/DirtTree", "Standard world made for a Pacifist Run. Mobs will not drop loot. If you kill a mob, you will lose the run.")
 SF4.registerDimension(0, "SF4/dirt_tree")
 SF4.registerDimension(-1, "SF4/cell_nether")
+SF4.setDifficulty(0)
+SF4.lockDifficulty()
 
 SF4 = registerPreset("Project E Start", "images/ProjectE", "Start with a Project E Transmutation Table. Unlock this world via prestige.")
 SF4.registerDimension(0, "SF4/project_e")

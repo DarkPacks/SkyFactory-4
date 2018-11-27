@@ -1,0 +1,18 @@
+setTitle("If I Only Had a Heart")
+
+setIcon(<cyclicmagic:heart_food>)
+
+setDescription("Craft and eat a Cyclic Heart Container")
+
+setParent("sf4:ageEnhancement/root")
+
+//Criteria
+criteria = addCriteria("consumed", "minecraft:consume_item")
+criteria.setItem(<cyclicmagic:heart_food>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(97,72)

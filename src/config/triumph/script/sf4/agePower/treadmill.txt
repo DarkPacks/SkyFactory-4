@@ -6,8 +6,6 @@ setDescription("Use a treadmill to make Pig Power!")
 
 setParent("sf4:agePower/root")
 
-drawDirectLines(true)
-
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.addItem(<sync:item_treadmill>)
@@ -15,5 +13,6 @@ criteria.addItem(<sync:item_treadmill>)
 //Rewards
 setRewardExperience(4)
 
+hideLines()
 alwaysVisible()
-setPos(-241,135)
+setPos(-260,146)

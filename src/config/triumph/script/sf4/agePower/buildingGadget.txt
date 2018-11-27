@@ -1,0 +1,20 @@
+setTitle("Building Gadget")
+
+setIcon(<buildinggadgets:buildingtool>)
+
+setDescription("The Building Gadget helps you build!")
+
+setParent("sf4:agePower/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem(<buildinggadgets:buildingtool>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-210,221)

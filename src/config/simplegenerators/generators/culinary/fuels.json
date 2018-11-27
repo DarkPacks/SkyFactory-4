@@ -460,14 +460,6 @@
         "id": "nuclearcraft:marshmallow"
     },
     {
-        "energy": 0,
-        "id": "xlfoodmod:strong_energy_drink"
-    },
-    {
-        "energy": 0,
-        "id": "withercrumbs:crumb_star"
-    },
-    {
         "energy": 14400,
         "id": "xlfoodmod:corn"
     },
@@ -588,16 +580,12 @@
         "id": "tconstruct:edible20"
     },
     {
-        "energy": 864000,
+        "energy": 101010,
         "id": "twilightforest:hydra_chop"
     },
     {
         "energy": 14400,
         "id": "xlfoodmod:lettuce"
-    },
-    {
-        "energy": 0,
-        "id": "xlfoodmod:salt"
     },
     {
         "energy": 21600,
@@ -644,10 +632,6 @@
         "id": "xlfoodmod:bacon"
     },
     {
-        "energy": 0,
-        "id": "xlfoodmod:speedy_energy_drink"
-    },
-    {
         "energy": 24000,
         "id": "tconstruct:edible30"
     },
@@ -668,12 +652,8 @@
         "id": "xlfoodmod:baguette"
     },
     {
-        "energy": 691200,
+        "energy": 291200,
         "id": "nuclearcraft:dominos"
-    },
-    {
-        "energy": 0,
-        "id": "xlfoodmod:stealthy_energy_drink"
     },
     {
         "energy": 115200,
@@ -828,10 +808,6 @@
         "id": "totemic:buffalo_meat"
     },
     {
-        "energy": 0,
-        "id": "xlfoodmod:deadly_energy_drink"
-    },
-    {
         "energy": 153600,
         "id": "minecraft:cooked_beef"
     },
@@ -910,10 +886,6 @@
     {
         "energy": 28800,
         "id": "xlfoodmod:spicy_chips"
-    },
-    {
-        "energy": 0,
-        "id": "matteroverdrive:android_pill"
     },
     {
         "energy": 43200,

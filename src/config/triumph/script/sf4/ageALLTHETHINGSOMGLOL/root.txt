@@ -4,7 +4,7 @@ setIcon("minecraft:clock")
 
 setDescription("Lorem ipsum dolor sit amet")
 
-setBackground("chisel:textures/blocks/concrete_black/raw.png")
+setBackground("test:textures/colors/dark_purple.png")
 
 setShowToast(false)
 

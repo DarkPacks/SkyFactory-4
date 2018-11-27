@@ -4,7 +4,7 @@ setIcon("minecraft:chest")
 
 setDescription("Lorem ipsum dolor sit amet")
 
-setBackground("minecraft:textures/blocks/hardened_clay_stained_gray.png")
+setBackground("test:textures/colors/grey.png")
 
 setShowToast(false)
 

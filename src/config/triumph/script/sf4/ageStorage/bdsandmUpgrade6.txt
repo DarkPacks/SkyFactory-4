@@ -16,4 +16,4 @@ criteria.addItem(<bdsandm:upgrade:6>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-64,104)
+setPos(-66,111)

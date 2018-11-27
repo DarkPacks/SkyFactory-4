@@ -1,6 +1,6 @@
 [
     {
-        "energy": 30000,
+        "energy": 60000,
         "id": "minecraft:ender_pearl"
     },
     {
@@ -8,7 +8,7 @@
         "id": "minecraft:ender_eye"
     },
     {
-        "energy": 256000,
+        "energy": 240000,
         "id": "minecraft:dragon_breath"
     }
 ]

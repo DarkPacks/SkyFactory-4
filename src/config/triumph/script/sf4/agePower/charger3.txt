@@ -16,4 +16,4 @@ criteria.addItem(<chargers:charger:2>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-414,138)
+setPos(-389,146)

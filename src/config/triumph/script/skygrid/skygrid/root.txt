@@ -4,7 +4,7 @@ setIcon(<chisel:glass:12>)
 
 setDescription("Lorem ipsum dolor sit amet")
 
-setBackground("chisel:textures/blocks/obsidian/panel-shiny.png")
+setBackground("test:textures/colors/grid.png")
 
 
 

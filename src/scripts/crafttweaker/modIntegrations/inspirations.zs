@@ -36,7 +36,7 @@ function init() {
 	inspirations.addCauldronFluid(<minecraft:sapling:3>, <sky_orchards:sapling_clay>, <liquid:mud>);
 
 	// Create grass from mud and leaves
-	inspirations.addCauldronFluid(<minecraft:grass>, <ore:treeLeaves> * 4, <liquid:mud>, 4);
+	inspirations.addCauldronFluid(<minecraft:grass>, <ore:treeLeaves> * 1, <liquid:mud>, 1);
 
 	// Acacia sapling from apple juice
 	// TODO: NEED TO CONVERT WATER TO APPLE JUICE WHEN RECIPE COMPLETES

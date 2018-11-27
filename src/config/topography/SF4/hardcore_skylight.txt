@@ -10,7 +10,6 @@ setCelestialAngle(0.5)
 
 sky = setSkyRenderer()
 //top, bottom, north, south, east, west
-
 night = sky.addSkybox("test:textures/skybox/night.png")
 day = sky.addSkybox("test:textures/skybox/day.png")
 
@@ -24,3 +23,4 @@ day.addAlpha(0.719889~0.8037514, 0~1)
 
 //Lazy method for adding a sun and moon since I don't want to make the effort for proper custom ones yet.
 sky.addSunMoon()
+setFogColor(#000000)

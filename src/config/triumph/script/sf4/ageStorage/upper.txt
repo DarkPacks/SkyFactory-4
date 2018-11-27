@@ -14,4 +14,4 @@ criteria.addItem(<uppers:upper>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-146,48)
+setPos(-146,50)

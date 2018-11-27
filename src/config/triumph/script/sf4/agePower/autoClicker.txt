@@ -6,8 +6,6 @@ setDescription("Craft an Auto Clicker machine")
 
 setParent("sf4:agePower/root")
 
-drawDirectLines(true)
-
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.addItem(<clickmachine:auto_clicker>)
@@ -15,5 +13,6 @@ criteria.addItem(<clickmachine:auto_clicker>)
 //Rewards
 setRewardExperience(4)
 
+hideLines()
 alwaysVisible()
-setPos(-241,103)
+setPos(-260,96)

@@ -2,7 +2,7 @@ setIcon("minecraft:skull", 5)
 
 setTitle("The End")
 
-setDescription("Travel to the End Dimension")
+setDescription("Travel to the End Dimension. Unfortunately, due to budget constraints we could not afford a dragon this time around. Sorry")
 
 addParent("sf4:ageExploration/endcake")
 drawDirectLines(true)

@@ -4,7 +4,7 @@ setIcon("minecraft:sapling")
 
 setDescription("Lorem ipsum dolor sit amet")
 
-setBackground("minecraft:textures/blocks/hardened_clay_stained_purple.png")
+setBackground("test:textures/colors/purple.png")
 
 setShowToast(false)
 

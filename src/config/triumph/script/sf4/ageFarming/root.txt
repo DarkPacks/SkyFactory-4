@@ -4,7 +4,7 @@ setIcon("minecraft:iron_hoe")
 
 setDescription("Lorem ipsum dolor sit amet")
 
-setBackground("minecraft:textures/blocks/hardened_clay_stained_green.png")
+setBackground("test:textures/colors/green.png")
 
 setShowToast(false)
 

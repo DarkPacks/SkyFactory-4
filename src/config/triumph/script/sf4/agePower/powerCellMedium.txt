@@ -14,4 +14,4 @@ criteria.addItem(<rftoolspower:cell2>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-208,225)
+setPos(-285,221)

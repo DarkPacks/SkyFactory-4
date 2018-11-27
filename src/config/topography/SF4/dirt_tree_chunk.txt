@@ -19,10 +19,10 @@ day.addAlpha(0.719889~0.8037514, 0~1)
 sky.addSunMoon()
 
 //Sunset
-addFogColor(#2F80C1, 0.19904304~0.29625022, 1~0)
+addFogColor(#22053c, 0.19904304~0.29625022, 0~1)
 //Night
-addFogColor(#2F80C1, 0.29625022~0.719889, 0~0)
+addFogColor(#22053c, 0.29625022~0.719889, 1~1)
 //Sunrise
-addFogColor(#2F80C1, 0.719889~0.8037514, 0~1)
+addFogColor(#22053c, 0.719889~0.8037514, 1~0)
 //Day
-addFogColor(#22053c)
+addFogColor(#2F80C1)

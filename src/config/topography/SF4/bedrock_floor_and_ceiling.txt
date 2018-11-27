@@ -1,4 +1,3 @@
-
 setSpawnStructure("dirt_tree")
 
 
@@ -9,3 +8,4 @@ addGenerator(layers)
 
 disableSkylight()
 disableSky()
+setFogColor(#000000)

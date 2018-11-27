@@ -4,7 +4,7 @@ setIcon("huntingdim:portal")
 
 setDescription("Lorem ipsum dolor sit amet")
 
-setBackground("minecraft:textures/blocks/hardened_clay_stained_blue.png")
+setBackground("test:textures/colors/black.png")
 
 setShowToast(false)
 

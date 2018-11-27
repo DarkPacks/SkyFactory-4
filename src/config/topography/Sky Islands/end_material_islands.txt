@@ -110,6 +110,4 @@ tiny.addType(purpurpillar)
 tiny.addType(endbricks)
 tiny.addType(dragonegg)
 
-
-
 disableRespawning()

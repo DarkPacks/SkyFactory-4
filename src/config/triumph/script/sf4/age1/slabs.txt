@@ -1,0 +1,26 @@
+setTitle("Stop Slabbing Yourself")
+
+setIcon(<slabmachines:crafting_station_slab>)
+
+setDescription("Save space and craft a Crafting Slab, Furnace Slab, or Chest Slab")
+
+setParent("sf4:age1/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria1 = addCriteria("Crafting Station Slab", "triumph:player_crafted_item")
+criteria1.setItem(<slabmachines:crafting_station_slab>)
+criteria2 = addCriteria("Chest Slab", "triumph:player_crafted_item")
+criteria2.setItem(<slabmachines:chest_slab>)
+criteria3 = addCriteria("Furnace Slab", "triumph:player_crafted_item")
+criteria3.setItem(<slabmachines:furnace_slab>)
+
+setRequirements("any")
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-188,119)

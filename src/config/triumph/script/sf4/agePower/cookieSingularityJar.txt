@@ -17,4 +17,4 @@ criteria.setBlock(<bibliocraft:cookiejar, tile:{shift:0,cookiecount:8,isOpen:0b,
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-117,44)
+setPos(-104,51)

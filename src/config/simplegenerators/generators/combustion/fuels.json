@@ -1452,7 +1452,7 @@
         "id": "totemic:wooden_pillar_base12"
     },
     {
-        "energy": 512000,
+        "energy": 112000,
         "id": "projecte:item.pe_fuel1"
     },
     {
@@ -2560,7 +2560,7 @@
         "id": "chisel:planks-jungle14"
     },
     {
-        "energy": 2048000,
+        "energy": 448000,
         "id": "projecte:item.pe_fuel2"
     },
     {
@@ -3464,7 +3464,7 @@
         "id": "chisel:block_coal9"
     },
     {
-        "energy": 4608000,
+        "energy": 1608000,
         "id": "projecte:fuel_block1"
     },
     {
@@ -4736,7 +4736,7 @@
         "id": "torchmaster:mega_torch"
     },
     {
-        "energy": 1152000,
+        "energy": 152000,
         "id": "projecte:fuel_block"
     },
     {
