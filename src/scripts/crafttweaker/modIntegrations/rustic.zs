@@ -68,9 +68,8 @@ function init() {
 	// Crush Leaves to get Sugar Cane / liquid water
 	for leaf in <ore:treeLeaves>.items {
 		rustic.addCrushingTub(<liquid:water> * 100, <inspirations:sugar_cane_seeds>, leaf);
-
-	//Crush Fertile Soil into Vanilla Dirt
-
-	rustic.addCrushingTub(<liquid:mud> * 1000, <minecraft:dirt> * 1, <rustic:fertile_soil>);
 	}
+
+	// Crush Fertile Soil into Vanilla Dirt
+	rustic.addCrushingTub(<liquid:mud> * 1000, <minecraft:dirt> * 1, <rustic:fertile_soil>);
 }
