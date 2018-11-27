@@ -14,7 +14,7 @@ scripts.crafttweaker.grassSeedDrop.init();
 
 // ==================================
 // Initialize Scripts
-initItemsAndRecipesStaging();
+initStaging();
 initItemModifiers();
 initRecipes();
 initIntegration();
@@ -49,14 +49,18 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.twilightForest.init();
 }
 
-function initItemsAndRecipesStaging() {
+function initStaging() {
+	// ==================================
+	// Stage Others
+	scripts.crafttweaker.staging.tooltips.init();
+
 	// ==================================
 	// Staging Items and Recipes
 	scripts.crafttweaker.staging.itemsAndRecipes.modId.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.stages.init();
 
 	// ==================================
-	// Initialize Item Staging
+	// Initialize Item and Recipe Staging
 	scripts.crafttweaker.staging.itemsAndRecipes.items.amberMulch.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.android.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.blackMulch.init();
@@ -74,9 +78,6 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.items.rubyMulch.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.smeltery.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.yellowMulch.init();
-
-	// ==================================
-	// Initialize Recipe Staging
 }
 
 function initIntegration() {
