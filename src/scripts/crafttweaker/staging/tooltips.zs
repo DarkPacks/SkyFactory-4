@@ -7,7 +7,8 @@ import mods.zenstages.ZenStager;
 
 static stagedTooltips as string[][string] = {
 	stages.projectE.stage: [
-		"EMC:"
+		"§eEMC:",
+		"§eStack EMC:"
 	]
 };
 
