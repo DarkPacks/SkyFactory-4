@@ -13,9 +13,9 @@ static stagedTooltips as string[][string] = {
 
 function init() {
 	for stageName, tooltips in stagedTooltips {
-        // TODO: Refactor to using zenStages when feature is added
-        for tooltip in tooltips {
-		    mods.ItemStages.stageTooltip(stageName, tooltip);
-        }
+		// TODO: Refactor to using zenStages when feature is added
+		for tooltip in tooltips {
+			mods.ItemStages.stageTooltip(stageName, tooltip);
+		}
 	}
 }
