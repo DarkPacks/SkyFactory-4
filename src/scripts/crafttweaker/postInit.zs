@@ -83,6 +83,7 @@ function initStaging() {
 
 function initIntegration() {
 	scripts.crafttweaker.modIntegrations.inspirations.init();
+	scripts.crafttweaker.modIntegrations.mekanism.init();
 	scripts.crafttweaker.modIntegrations.rustic.init();
 	scripts.crafttweaker.modIntegrations.tinkers.init();
 }
