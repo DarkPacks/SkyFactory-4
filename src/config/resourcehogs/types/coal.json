@@ -4,7 +4,7 @@
     "ore:dustCoal"
   ],
   "typeName": "Coal",
-  "output": "sky_orchards:amber_coal",
+  "output": "minecraft:coal",
   "diggableBlocks": [
     "minecraft:stone"
   ],

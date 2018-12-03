@@ -1,0 +1,18 @@
+setTitle("Crafting Upgrade")
+
+setIcon(<cyclicmagic:crafting_food>)
+
+setDescription("Craft and eat a Crafting Upgrade from Cyclic")
+
+setParent("sf4:ageEnhancement/root")
+
+//Criteria
+criteria = addCriteria("consumed", "minecraft:consume_item")
+criteria.setItem(<cyclicmagic:crafting_food>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(97,122)

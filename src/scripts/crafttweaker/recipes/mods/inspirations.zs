@@ -10,6 +10,48 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+    <inspirations:mulch:2> * 2: [
+        [
+            [null, <mekanism:biofuel>, null], 
+            [<mekanism:biofuel>, <inspirations:mulch:1>, <mekanism:biofuel>], 
+            [null, <mekanism:biofuel>, null]
+        ]
+    ],
+    <inspirations:mulch:3> * 2: [
+        [
+            [null, <mekanism:biofuel>, null], 
+            [<mekanism:substrate>, <inspirations:mulch:2>, <mekanism:substrate>], 
+            [null, <mekanism:biofuel>, null]
+        ]
+    ],
+    <inspirations:mulch:7> * 2: [
+        [
+            [null, <mekanism:substrate>, null], 
+            [<mekanism:polyethene>, <inspirations:mulch:3>, <mekanism:polyethene>], 
+            [null, <mekanism:substrate>, null]
+        ]
+    ],
+    <inspirations:mulch:5> * 2: [
+        [
+            [null, <mekanism:polyethene:2>, null], 
+            [<mekanism:polyethene:1>, <inspirations:mulch:7>, <mekanism:polyethene:1>], 
+            [null, <mekanism:polyethene:2>, null]
+        ]
+    ],
+    <inspirations:mulch:4> * 2: [
+        [
+            [null, <industrialforegoing:fertilizer>, null], 
+            [<industrialforegoing:fertilizer>, <inspirations:mulch:5>, <industrialforegoing:fertilizer>], 
+            [null, <industrialforegoing:fertilizer>, null]
+        ]
+    ],
+    <inspirations:mulch:6> * 2: [
+        [
+            [null, <industrialforegoing:artificial_dye:15>, null], 
+            [<darkutils:material>, <inspirations:mulch:4>, <darkutils:material>], 
+            [null, <industrialforegoing:artificial_dye:15>, null]
+        ]
+    ]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -44,7 +86,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-	<inspirations:materials:8>
+	<inspirations:materials:8>,
+    <inspirations:mulch:2>,
+    <inspirations:mulch:3>,
+    <inspirations:mulch:7>,
+    <inspirations:mulch:5>,
+    <inspirations:mulch:4>,
+    <inspirations:mulch:6>
 ];
 
 function init() {

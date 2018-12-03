@@ -47,6 +47,14 @@ function init() {
 	// Blue Slime Trees
 	inspirations.addCauldronFluid(<tconstruct:slime_sapling>, <sky_orchards:sapling_lapis>, <liquid:milk>, 4);
 
+	//Blue Slime Liquid and created slime vines
+	inspirations.addCauldronFluidTransform(<liquid:blueslime>, <tconstruct:edible:1>, <liquid:milk>);
+	inspirations.addCauldronFluid(<tconstruct:slime_vine_blue>, <minecraft:vine>, <liquid:blueslime>, 1);
+
+	//Purple Slime Liquid and created slime vines
+	inspirations.addCauldronFluidTransform(<liquid:purpleslime>, <tconstruct:edible:2>, <liquid:milk>);
+	inspirations.addCauldronFluid(<tconstruct:slime_vine_purple>, <minecraft:vine>, <liquid:purpleslime>, 1);
+
 	// Green Slime Dirt
 	inspirations.addCauldronFluid(<tconstruct:slime_dirt>, <minecraft:cactus>, <liquid:milk>, 4);
 
