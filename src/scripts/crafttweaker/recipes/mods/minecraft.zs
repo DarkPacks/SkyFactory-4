@@ -143,13 +143,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<forge:bucketfilled>.withTag({FluidName: "liquidchorus", Amount: 1000}), <deepmoblearning:living_matter_extraterrestrial>, <forge:bucketfilled>.withTag({FluidName: "liquidchorus", Amount: 1000})],
 			[<minecraft:end_crystal>, <minecraft:glass_bottle>, <minecraft:end_crystal>]
 		]
-	],
-	<mekanismgenerators:generator:6>:  [
-		[
-			[null, <mekanismgenerators:turbineblade>, null],
-			[<mekanism:ingot:1>, <mekanism:controlcircuit:3>, <mekanism:ingot:1>],
-			[<mekanism:ingot:1>, <mekanism:energycube>.withTag({tier: 1, mekData: {}}), <mekanism:ingot:1>]
-		]
 	]
 };
 
@@ -181,7 +174,6 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-<mekanismgenerators:generator:6>
 ];
 
 function init() {

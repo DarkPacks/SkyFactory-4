@@ -37,6 +37,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.iChunUtil.init();
 	scripts.crafttweaker.recipes.mods.industrialForegoing.init();
 	scripts.crafttweaker.recipes.mods.inspirations.init();
+	scripts.crafttweaker.recipes.mods.mekanism.init();
 	scripts.crafttweaker.recipes.mods.microblockcbe.init();
 	scripts.crafttweaker.recipes.mods.minecraft.init();
 	scripts.crafttweaker.recipes.mods.rftools.init();
