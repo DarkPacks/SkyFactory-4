@@ -34,6 +34,12 @@ function init() {
 
 	mekanism.addCrusher(<minecraft:prismarine_shard>, <minecraft:prismarine_crystals> * 4);
 
+	// Nerf Biofuel output yield
+	mekanism.removeCrusher(<mekanism:biofuel:0>, <minecraft:potato:0>);
+	mekanism.addCrusher(<minecraft:potato:0>, <mekanism:biofuel:0> * 2);
+	mekanism.removeCrusher(<mekanism:biofuel:0>, <minecraft:carrot:0>);
+	mekanism.addCrusher(<minecraft:carrot:0>, <mekanism:biofuel:0> * 2);
+
 	// ==================================
 	// Sawmill
 	// ==================================
