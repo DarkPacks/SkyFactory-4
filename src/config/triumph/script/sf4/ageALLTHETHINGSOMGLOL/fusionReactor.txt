@@ -6,7 +6,7 @@ setDescription("Create a Matter Overdrive Fusion Reactor that produces at least 
 
 setParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
-drawDirectLines(true)
+hideLines()
 alwaysVisible()
 
 criteria = addCriteria("clickedBlock", "triumph:right_click_block")
@@ -15,4 +15,4 @@ criteria.setBlock(<matteroverdrive:fusion_reactor_controller,tile:{EnergyPerTick
 //Rewards
 setRewardExperience(4)
 
-setPos(40,98)
+setPos(64,101)

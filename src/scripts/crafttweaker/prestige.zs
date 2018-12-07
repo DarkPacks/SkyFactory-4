@@ -46,5 +46,5 @@ function init() {
 	// ==================================
     // Topography Rewards
 	// ==================================
-    Rewards.registerCommandReward("projecte_world", "topography unlock Project E Start");
+    Rewards.registerCommandReward("projecte_world", "topography unlock Project trEe");
 }

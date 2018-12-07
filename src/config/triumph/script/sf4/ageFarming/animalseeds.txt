@@ -6,7 +6,7 @@ setDescription("Craft all of the Animal Seeds")
 
 addParent("sf4:ageFarming/wheatSeeds")
 
-drawDirectLines(true)
+hideLines()
 setPos(-39,335)
 
 //Criteria

@@ -1,0 +1,19 @@
+setTitle("Market")
+
+setIcon(<farmingforblockheads:market>)
+
+setDescription("Craft and place the Market to buy seeds and saplings")
+
+addParent("sf4:ageFarming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<farmingforblockheads:market>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(-39,231)

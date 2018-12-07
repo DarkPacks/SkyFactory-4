@@ -5,7 +5,7 @@ setIcon(<minecraft:wooden_sword>)
 setDescription("Do 20 or more damage to a mob")
 
 setParent("sf4:ageEnhancement/root")
-drawDirectLines(true)
+hideLines()
 
 //Criteria
 criteria = addCriteria("crazyDamage", "minecraft:player_hurt_entity")
@@ -17,4 +17,4 @@ damage.setDealtMin(20)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-34,26)
+setPos(8,85)

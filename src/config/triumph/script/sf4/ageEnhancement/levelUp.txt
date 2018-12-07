@@ -6,7 +6,7 @@ setDescription("Level up a Tinkers' Construct Pickaxe")
 
 setParent("sf4:ageEnhancement/root")
 
-drawDirectLines(true)
+hideLines()
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
@@ -16,4 +16,4 @@ criteria.addItem(<tconstruct:pickaxe, nbt:{Modifiers: [{identifier: "toollevelin
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-62,54)
+setPos(-17,85)

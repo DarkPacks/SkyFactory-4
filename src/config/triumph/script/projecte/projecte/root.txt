@@ -14,7 +14,7 @@ setRequirements("any")
 
 //Criteria
 criteria = addCriteria("superflat", "minecraft:location")
-criteria.setGeneratorOptions({"Topography-Preset":"Project E Start"})
+criteria.setGeneratorOptions({"Topography-Preset":"Project trEe"})
 
 //Rewards
 criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
@@ -25,11 +25,3 @@ criteria2.addItem(<projecte:item.pe_philosophers_stone>)
 
 criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
 criteria3.addItem(<projecte:alchemical_chest>)
-
-
-
-
-
-
-
-

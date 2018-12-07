@@ -1,0 +1,20 @@
+setTitle("Amplified")
+
+setIcon(<minecraft:skull>)
+
+setDescription("Lorem ipsum dolor sit amet")
+
+setBackground("projecte:textures/blocks/dm.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("superflat", "minecraft:location")
+criteria.setWorldType("amplified")
+
+//Rewards
+setRewardFunction("triumph:sky_islands_start")

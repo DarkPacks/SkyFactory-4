@@ -15,7 +15,7 @@ SF4.registerDimension(-1, "SF4/cell_nether")
 SF4.setDifficulty(0)
 SF4.lockDifficulty()
 
-SF4 = registerPreset("Project E Start", "images/ProjectE", "Start with a Project E Transmutation Table. Unlock this world via prestige.")
+SF4 = registerPreset("Project trEe", "images/ProjectE", "Start with a Project E Transmutation Table. Unlock this world via prestige.")
 SF4.registerDimension(0, "SF4/project_e")
 SF4.registerDimension(-1, "SF4/cell_nether")
 SF4.lock()

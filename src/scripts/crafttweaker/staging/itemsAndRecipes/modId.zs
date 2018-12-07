@@ -6,9 +6,6 @@
 import mods.zenstages.ZenStager;
 
 static stagedMods as string[][string] = {
-	stages.bonsaiTrees.stage: [
-		"bonsaitrees"
-	],
 	stages.fluxNetworks.stage: [
 		"fluxnetworks"
 	],

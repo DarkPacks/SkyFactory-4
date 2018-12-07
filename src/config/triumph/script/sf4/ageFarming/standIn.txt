@@ -1,0 +1,19 @@
+setTitle("Stand By Me")
+
+setIcon(<stand_ins:stand_in>)
+
+setDescription("Craft and place the Stand In to allow a mob farm in other dimensions to function without a player being present")
+
+addParent("sf4:ageFarming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<stand_ins:stand_in>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(103,231)

@@ -19,7 +19,10 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<animalcrops:seeds>: [
 		format.yellow("Grows on Grass")
 	],
-
+	<xlfoodmod:grass>: [
+		format.yellow("Break for XL Food Seeds")
+	],
+	
 	// ==================================
 	// Add modifier tooltips
 	<rustic:fertile_soil>: [

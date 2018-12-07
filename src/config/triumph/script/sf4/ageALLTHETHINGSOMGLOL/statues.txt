@@ -6,7 +6,7 @@ setDescription("Craft all the Peaceful Statues")
 
 addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
-drawDirectLines(true)
+hideLines()
 
 //Criteria
 
@@ -62,4 +62,4 @@ criteria.addItem(<statues:blockrabbitwhitestatuet4>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(64,74)
+setPos(64,76)

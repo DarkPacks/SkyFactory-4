@@ -6,8 +6,7 @@ setDescription("Craft a Tank to heat your Melter")
 
 setParent("sf4:ageEnhancement/root")
 setRequirements("any")
-
-drawDirectLines(true)
+hideLines()
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
@@ -19,4 +18,4 @@ criteria1.addItem("tcomplement:porcelain_tank")
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(32,26)
+setPos(58,85)

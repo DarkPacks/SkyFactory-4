@@ -23,6 +23,9 @@ function init() {
 	inspirations.addCauldronFluid(<sky_orchards:sapling_dirt>, <minecraft:sapling:4>, <liquid:mud>);
 	inspirations.addCauldronFluid(<sky_orchards:sapling_dirt>, <minecraft:sapling:5>, <liquid:mud>);
 
+	// Creates XLFood Grass from dipping vanilla grass in yellow dyed water
+	inspirations.addCauldronDyeing(<xlfoodmod:grass>, <minecraft:tallgrass:1>, "yellow");
+
 	// Dip Sticks into Liquid Sap to make Torches
 	inspirations.addCauldronFluid(<minecraft:torch>, <minecraft:stick>, <liquid:sap>);
 

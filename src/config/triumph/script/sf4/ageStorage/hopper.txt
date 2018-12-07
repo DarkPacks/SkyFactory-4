@@ -14,4 +14,4 @@ criteria.addItem(<minecraft:hopper>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-177,50)
+setPos(-176,52)

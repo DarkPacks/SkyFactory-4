@@ -7,7 +7,7 @@ setDescription("Craft a Melter to process your metals")
 setParent("sf4:ageEnhancement/root")
 setRequirements("any")
 
-drawDirectLines(true)
+hideLines()
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
@@ -19,4 +19,4 @@ criteria1.addItem("tcomplement:melter")
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(0,26)
+setPos(33,85)

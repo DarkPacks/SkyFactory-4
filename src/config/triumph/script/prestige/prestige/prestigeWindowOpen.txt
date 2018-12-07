@@ -1,0 +1,24 @@
+setTitle("Hacky Solution")
+
+setIcon(<parabox:parabox>)
+
+setDescription("Left click the Parabox to open the Prestige Window")
+setParent("prestige:prestige/root")
+
+drawDirectLines(true)
+sh
+
+
+//Criteria
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria.setBlock(<parabox:parabox>)
+
+//Rewards
+setRewardFunction("triumph:prestige_window")
+setRewardFunction("triumph:hackyFunction")
+
+setAnnounceToChat(false)
+setRepeatTime(1)
+hideLines()
+alwaysVisible()
+setPos(7,42)

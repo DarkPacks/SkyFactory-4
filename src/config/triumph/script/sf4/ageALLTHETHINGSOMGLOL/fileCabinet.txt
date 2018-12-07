@@ -6,7 +6,7 @@ setDescription("Fill any Real File Cabinet with a folder that contains at least 
 
 setParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
-drawDirectLines(true)
+hideLines()
 alwaysVisible()
 
 //Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
@@ -15,4 +15,4 @@ criteria.setBlock(<realfilingcabinet:modelcabinet,tile:{inventory:{Items:[{Forge
 
 //Rewards
 setRewardExperience(4)
-setPos(14,-23)
+setPos(64,-24)

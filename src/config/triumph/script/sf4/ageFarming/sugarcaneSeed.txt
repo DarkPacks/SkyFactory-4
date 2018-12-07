@@ -6,7 +6,7 @@ setDescription("Crush Leaves in the Crushing Tub to acquire Sugar Cane Seeds")
 
 addParent("sf4:ageFarming/root")
 
-drawDirectLines(true)
+hideLines()
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")

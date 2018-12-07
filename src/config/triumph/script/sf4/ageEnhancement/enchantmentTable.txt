@@ -6,7 +6,7 @@ setDescription("Craft an Enchantment Table")
 
 setParent("sf4:ageEnhancement/root")
 
-drawDirectLines(true)
+hideLines()
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
@@ -16,3 +16,4 @@ criteria.addItem("minecraft:enchanting_table")
 setRewardExperience(4)
 
 alwaysVisible()
+setPos(25,121)

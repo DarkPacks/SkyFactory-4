@@ -6,7 +6,7 @@ setDescription("Break Tall Grass to find Wheat Seeds")
 
 addParent("sf4:ageFarming/root")
 
-drawDirectLines(true)
+hideLines()
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")

@@ -6,7 +6,7 @@ setDescription("Craft the entire Glitch Infused Armor Set")
 
 setParent("sf4:ageEnhancement/root")
 
-drawDirectLines(true)
+hideLines()
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
@@ -22,3 +22,4 @@ criteria3.addItem(<deepmoblearning:glitch_infused_boots>)
 setRewardExperience(4)
 
 alwaysVisible()
+setPos(0,121)

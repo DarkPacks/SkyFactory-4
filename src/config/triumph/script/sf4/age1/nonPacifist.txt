@@ -7,13 +7,12 @@ setDescription("Hidden advancement to grant non-pacifist stage to player on ever
 setParent("sf4:age1/root")
 
 //Criteria
-addCriteria("location", "minecraft:location")
 criteria1 = addCriteria("superflat1", "minecraft:location")
 criteria1.setGeneratorOptions({"Topography-Preset":"Sky Factory Classic Mode"})
 criteria2 = addCriteria("superflat2", "minecraft:location")
 criteria2.setGeneratorOptions({"Topography-Preset":"Sky Factory 4"})
 criteria4 = addCriteria("superflat4", "minecraft:location")
-criteria4.setGeneratorOptions({"Topography-Preset":"Project E Start"})
+criteria4.setGeneratorOptions({"Topography-Preset":"Project trEe"})
 criteria5 = addCriteria("superflat5", "minecraft:location")
 criteria5.setGeneratorOptions({"Topography-Preset":"Sky FacTree"})
 criteria6 = addCriteria("superflat6", "minecraft:location")

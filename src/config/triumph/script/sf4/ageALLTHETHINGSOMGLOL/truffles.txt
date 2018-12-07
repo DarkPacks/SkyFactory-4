@@ -90,6 +90,6 @@ criteria40.addItem(<resourcehogs:truffle, nbt:{ResourceType: "nickel"}>)
 criteria41 = addCriteria("Bronze", "minecraft:inventory_changed")
 criteria41.addItem(<resourcehogs:truffle, nbt:{ResourceType: "bronze"}>)
 
-drawDirectLines(true)
+hideLines()
 alwaysVisible()
-setPos(40,3)
+setPos(64,1)

@@ -13,6 +13,6 @@ criteria.setBlock("minecraft:reeds")
 
 criteria = addCriteria("placedDirt", "minecraft:placed_block")
 criteria.setBlock("snad:snad")
-setPos(62,335)
+setPos(100,283)
 
 alwaysVisible()
