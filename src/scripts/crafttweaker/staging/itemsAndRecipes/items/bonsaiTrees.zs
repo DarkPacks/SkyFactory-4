@@ -1,7 +1,7 @@
 /*
-	SkyFactory 4 Hopper Bonsai Stage Item Staging Script
+	SkyFactory 4 Bonsai Trees Stage Item Staging Script
 
-	Stages the items for the Bonsai Tree stage
+	Stages the items for the Bonsai Trees stage
 */
 import crafttweaker.item.IIngredient;
 
