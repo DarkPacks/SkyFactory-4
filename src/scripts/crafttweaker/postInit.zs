@@ -64,10 +64,10 @@ function initStaging() {
 	// Initialize Item and Recipe Staging
 	scripts.crafttweaker.staging.itemsAndRecipes.items.amberMulch.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.android.init();
-	scripts.crafttweaker.staging.itemsAndRecipes.items.bonsaiTrees.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.blackMulch.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.blueMulch.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.blueSlimeDirt.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.bonsaiTrees.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.brownMulch.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.fertileSoil.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.megaTorch.init();
