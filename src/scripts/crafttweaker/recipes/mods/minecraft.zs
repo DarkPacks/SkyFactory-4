@@ -143,20 +143,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<forge:bucketfilled>.withTag({FluidName: "liquidchorus", Amount: 1000}), <deepmoblearning:living_matter_extraterrestrial>, <forge:bucketfilled>.withTag({FluidName: "liquidchorus", Amount: 1000})],
 			[<minecraft:end_crystal>, <minecraft:glass_bottle>, <minecraft:end_crystal>]
 		]
-	],
-	<parabox:parabox>:  [
-		[
-			[<ore:blockSteel>, <matteroverdrive:spacetime_accelerator>, <ore:blockSteel>],
-			[<minecraft:stained_glass:10>, <mekanism:energycube>.withTag({tier: 2, mekData: {}}), <minecraft:stained_glass:10>],
-			[<ore:blockSteel>, <matteroverdrive:spacetime_equalizer>, <ore:blockSteel>]
-		]
-	],
-	<stand_ins:stand_in>:  [
-		[
-			[null, <ore:itemSkull>, null],
-			[<minecraft:stick>, <minecraft:hay_block>, <minecraft:stick>],
-			[null, <minecraft:wooden_slab>, null]
-		]
 	]
 };
 
