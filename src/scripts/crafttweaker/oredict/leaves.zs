@@ -5,13 +5,6 @@
 */
 import crafttweaker.item.IItemStack;
 
-<ore:treeLeaves>.remove(<minecraft:leaves:*>);
-<ore:treeLeaves>.remove(<minecraft:leaves2:*>);
-<ore:treeLeaves>.remove(<tconstruct:slime_leaves:*>);
-<ore:treeLeaves>.remove(<twilightforest:magic_leaves:*>);
-<ore:treeLeaves>.remove(<twilightforest:twilight_leaves_3:*>);
-<ore:treeLeaves>.remove(<twilightforest:twilight_leaves:*>);
-
 var wildcardLeaves as IItemStack[] = [
 	<minecraft:leaves:*>,
 	<minecraft:leaves2:*>,
@@ -22,6 +15,8 @@ var wildcardLeaves as IItemStack[] = [
 ];
 
 for wildcardLeaf in wildcardLeaves {
+	<ore:treeLeaves>.remove(wildcardLeaf);
+
 	for subItem in wildcardLeaf.definition.subItems {
 		<ore:treeLeaves>.add(subItem);
 	}
