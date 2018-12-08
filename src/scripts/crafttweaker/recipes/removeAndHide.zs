@@ -245,7 +245,10 @@ static removeAndHideIngredients as IIngredient[] = [
 	<tombstone:dust_of_vanishing>,
 	<tombstone:fake_fog>,
 	<tombstone:soul>,
-	<torchmaster:mega_torch:1>
+	<torchmaster:mega_torch:1>,
+	//FirstNecron is lame
+	<tcomplement:porcelain_melter:8>,
+	<tcomplement:melter:8>
 ];
 
 function init() {

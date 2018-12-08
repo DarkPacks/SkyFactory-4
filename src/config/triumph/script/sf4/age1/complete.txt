@@ -2,7 +2,7 @@ setTitle("You Win!")
 
 setIcon(<minecraft:cooked_chicken>)
 
-setDescription("Complete all the advancements on the page")
+setDescription("Complete all the advancements on the page. This will award you with 1 prestige point")
 
 setParent("sf4:age1/cauldron")
 setParent("sf4:age1/claySapling")
@@ -45,6 +45,7 @@ addCriteria("location", "minecraft:location")
 
 //Rewards
 setRewardExperience(30)
+setRewardFunction("triumph:prestige_add")
 
 hideLines()
 alwaysVisible()

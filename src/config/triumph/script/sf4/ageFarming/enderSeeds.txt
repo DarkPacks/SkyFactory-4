@@ -1,0 +1,19 @@
+setTitle("Ender Seeds")
+
+setIcon(<endercrop:ender_seeds>)
+
+setDescription("You can grow Ender Pearls using seeds, make sure to plant on tilled Dirt or Endstone")
+
+addParent("sf4:ageFarming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<endercrop:ender_seeds>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(142,231)

@@ -22,7 +22,31 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<xlfoodmod:grass>: [
 		format.yellow("Break for XL Food Seeds")
 	],
-
+	<xlfoodmod:rice_seeds>: [
+		format.yellow("Obtain by breaking XL Food Mod Grass")
+	],
+	<xlfoodmod:pepper_seeds>: [
+		format.yellow("Obtain by breaking XL Food Mod Grass")
+	],
+	<xlfoodmod:corn_seeds>: [
+		format.yellow("Obtain by breaking XL Food Mod Grass")
+	],
+	<xlfoodmod:cucumber_seeds>: [
+		format.yellow("Obtain by breaking XL Food Mod Grass")
+	],
+	<xlfoodmod:lettuce_seeds>: [
+		format.yellow("Obtain by breaking XL Food Mod Grass")
+	],
+	<xlfoodmod:tomato_seeds>: [
+		format.yellow("Obtain by breaking XL Food Mod Grass")
+	],
+	<xlfoodmod:strawberry_seeds>: [
+		format.yellow("Obtain by breaking XL Food Mod Grass")
+	],
+	<xlfoodmod:onion>: [
+		format.yellow("Obtain by breaking XL Food Mod Grass")
+	],
+	
 	// ==================================
 	// Add modifier tooltips
 	<rustic:fertile_soil>: [

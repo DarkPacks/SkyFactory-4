@@ -1,5 +1,4 @@
-
-
+gamestage add @p mega_torch
 gamestage add @p bonsai_trees
 gamestage add @p flux_networks
 gamestage add @p iron_jetpacks

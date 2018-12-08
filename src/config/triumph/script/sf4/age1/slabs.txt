@@ -9,12 +9,15 @@ setParent("sf4:age1/root")
 drawDirectLines(true)
 
 //Criteria
-criteria1 = addCriteria("Crafting Station Slab", "triumph:player_crafted_item")
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
 criteria1.setItem(<slabmachines:crafting_station_slab>)
-criteria2 = addCriteria("Chest Slab", "triumph:player_crafted_item")
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
 criteria2.setItem(<slabmachines:chest_slab>)
-criteria3 = addCriteria("Furnace Slab", "triumph:player_crafted_item")
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
 criteria3.setItem(<slabmachines:furnace_slab>)
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.setItem(<slabmachines:workbench_slab>)
+
 
 setRequirements("any")
 

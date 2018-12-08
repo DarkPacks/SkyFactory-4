@@ -1,0 +1,32 @@
+setTitle("Completionist")
+
+setIcon(<minecraft:cooked_chicken>)
+
+setDescription("Complete all the advancements on the page. This will award you with 1 prestige point")
+
+setParent("sf4:ageExploration/compactMachines")
+setParent("sf4:ageExploration/dragonBreath")
+setParent("sf4:ageExploration/dragonKill")
+setParent("sf4:ageExploration/elytra")
+setParent("sf4:ageExploration/endcake")
+setParent("sf4:ageExploration/floaty")
+setParent("sf4:ageExploration/huntingDimension")
+setParent("sf4:ageExploration/lostCities")
+setParent("sf4:ageExploration/nether")
+setParent("sf4:ageExploration/overworldCake")
+setParent("sf4:ageExploration/twilightForest")
+setParent("sf4:ageExploration/witherKill")
+
+setRequiresParents()
+setFrameType("challenge")
+
+//Criteria
+addCriteria("location", "minecraft:location")
+
+//Rewards
+setRewardExperience(30)
+setRewardFunction("triumph:prestige_add")
+
+hideLines()
+alwaysVisible()
+setPos(-62,0)

@@ -1,0 +1,19 @@
+setTitle("Beanboozled")
+
+setIcon(<cyclicmagic:sprout_seed>)
+
+setDescription("Grow Cyclic Magic Beans to obtain any seeds or flowers")
+
+addParent("sf4:ageFarming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<cyclicmagic:sprout_seed>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(142,283)

@@ -1,0 +1,19 @@
+setTitle("Bonsai!!!")
+
+setIcon(<bonsaitrees:bonsaipot>)
+
+setDescription("Use a Bonsai Pot to grow trees. Make sure to add soil or mulch first, then add a sapling. Right-click fully grown trees to harvest them")
+
+addParent("sf4:ageFarming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<bonsaitrees:bonsaipot>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(62,283)

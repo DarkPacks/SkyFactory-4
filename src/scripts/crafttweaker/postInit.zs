@@ -32,11 +32,13 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.bdsandm.init();
 	scripts.crafttweaker.recipes.mods.clickMachine.init();
 	scripts.crafttweaker.recipes.mods.cookingForBlockheads.init();
+	scripts.crafttweaker.recipes.mods.cyclic.init();
 	scripts.crafttweaker.recipes.mods.darkutils.init();
 	scripts.crafttweaker.recipes.mods.deepMobLearning.init();
 	scripts.crafttweaker.recipes.mods.iChunUtil.init();
 	scripts.crafttweaker.recipes.mods.industrialForegoing.init();
 	scripts.crafttweaker.recipes.mods.inspirations.init();
+	scripts.crafttweaker.recipes.mods.matterOverdrive.init();
 	scripts.crafttweaker.recipes.mods.mekanism.init();
 	scripts.crafttweaker.recipes.mods.microblockcbe.init();
 	scripts.crafttweaker.recipes.mods.minecraft.init();

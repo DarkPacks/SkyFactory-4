@@ -2,7 +2,7 @@ setTitle("Deep Learner")
 
 setIcon(<deepmoblearning:deep_learner>)
 
-setDescription("Craft a Deep Learner from Deep Mob Learning")
+setDescription("Craft a Deep Learner from Deep Mob Learning. Insert Data Modules inside to begin collecting data for your Simulation Chamber")
 
 setParent("sf4:agePower/root")
 

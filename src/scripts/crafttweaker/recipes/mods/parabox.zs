@@ -12,9 +12,9 @@ import crafttweaker.item.IIngredient;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<parabox:parabox>: [
 		[
-			[<ore:blockSteel>, <matteroverdrive:spacetime_accelerator>, <ore:blockSteel>],
-			[<minecraft:stained_glass:10>, <mekanism:energycube>.withTag({tier: 2, mekData: {}}), <minecraft:stained_glass:10>],
-			[<ore:blockSteel>, <matteroverdrive:spacetime_equalizer>, <ore:blockSteel>]
+			[<ore:blockIron>, <bibliocraft:clock:*>, <ore:blockIron>],
+			[<minecraft:stained_glass:10>, <mekanism:energycube>.withTag({tier: 1, mekData: {}}), <minecraft:stained_glass:10>],
+			[<ore:blockIron>, <matteroverdrive:spacetime_equalizer>, <ore:blockIron>]
 		]
 	]
 };
