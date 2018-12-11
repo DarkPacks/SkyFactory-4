@@ -347,9 +347,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<sky_orchards:amber_bone>: [
 		[
-			[<sky_orchards:resin_bone>, <sky_orchards:acorn_bone>, <sky_orchards:resin_bone>],
 			[<sky_orchards:acorn_bone>, <sky_orchards:resin_bone>, <sky_orchards:acorn_bone>],
-			[<sky_orchards:resin_bone>, <sky_orchards:acorn_bone>, <sky_orchards:resin_bone>]
+			[<sky_orchards:resin_bone>, <sky_orchards:resin_bone>, <sky_orchards:resin_bone>],
+			[<sky_orchards:acorn_bone>, <sky_orchards:resin_bone>, <sky_orchards:acorn_bone>]
 		]
 	],
 	<sky_orchards:amber_diamond>: [

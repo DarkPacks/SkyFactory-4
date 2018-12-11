@@ -1,15 +1,15 @@
 //If this file is deleted, a new set of default configs will be generated.
 
 //Registers a preset. First argument is name, second is the image name, third is a description.
-SF4 = registerPreset("Sky Factory Classic Mode", "images/DirtTree", "Traditional Sky Factory world. This world does not require unlocks via prestige but will also not allow you to accumulate prestige to unlock for other world types.")
+SF4 = registerPreset("Sky Factory Classic Mode", "images/SF4mk2", "Traditional Sky Factory world. This world does not require unlocks via prestige but will also not allow you to accumulate prestige to unlock for other world types.")
 SF4.registerDimension(0, "SF4/dirt_tree")
 SF4.registerDimension(-1, "SF4/cell_nether")
 
-SF4 = registerPreset("Sky Factory 4", "images/DirtTree", "Traditional Sky Factory world starting on a tree in the void.")
+SF4 = registerPreset("Sky Factory 4", "images/SF4mk2", "Traditional Sky Factory world starting on a tree in the void.")
 SF4.registerDimension(0, "SF4/dirt_tree")
 SF4.registerDimension(-1, "SF4/cell_nether")
 
-SF4 = registerPreset("Peace Out", "images/DirtTree", "Standard world made for a Pacifist Run. Mobs will not drop loot. If you kill a mob, you will lose the run.")
+SF4 = registerPreset("Peace Out", "images/SF4mk2", "Standard world made for a Pacifist Run. Mobs will not drop loot. If you kill a mob, you will lose the run.")
 SF4.registerDimension(0, "SF4/dirt_tree")
 SF4.registerDimension(-1, "SF4/cell_nether")
 SF4.setDifficulty(0)
@@ -24,11 +24,11 @@ SF4 = registerPreset("Sky FacTree", "images/DirtTree", "T H I C C. Structure mad
 SF4.registerDimension(0, "SF4/overworld_large_tree")
 SF4.registerDimension(-1, "SF4/nether_hedge_maze")
 
-SF4 = registerPreset("Stone Factory", "images/EncasedStone", "Traditional Sky Factory Tree surrounded by stone")
+SF4 = registerPreset("Stone Factory", "images/EncasedStonemk2", "Traditional Sky Factory Tree surrounded by stone")
 SF4.registerDimension(0, "SF4/stone_cage")
 SF4.registerDimension(-1, "SF4/cell_nether")
 
-SF4 = registerPreset("Sky Village", "images/Village", "Spawn inside a small village with a Dirt Tree.")
+SF4 = registerPreset("Sky Village", "images/Villagemk2", "Spawn inside a small village with a Dirt Tree.")
 SF4.registerDimension(0, "SF4/village")
 SF4.registerDimension(-1, "SF4/cell_nether")
 
@@ -97,7 +97,7 @@ SF4 = registerPreset("Seven Seas", "images/Water", "Floating Dirt Tree, but inst
 SF4.registerDimension(0, "SF4/dirt_tree_water_ocean")
 SF4.registerDimension(-1, "SF4/water_nether")
 
-SF4 = registerPreset("Chunk Norris", "images/Chunk", "One Chunk in a void world.")
+SF4 = registerPreset("Chunk Norris", "images/Chunkmk2", "One Chunk in a void world.")
 SF4.registerDimension(0, "SF4/dirt_tree_chunk")
 SF4.registerDimension(-1, "SF4/cell_nether")
 

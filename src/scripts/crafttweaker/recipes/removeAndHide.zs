@@ -248,7 +248,20 @@ static removeAndHideIngredients as IIngredient[] = [
 	<torchmaster:mega_torch:1>,
 	//FirstNecron is lame
 	<tcomplement:porcelain_melter:8>,
-	<tcomplement:melter:8>
+	<tcomplement:melter:8>,
+	<nuclearcraft:ore>,
+	<nuclearcraft:ore:1>,
+	<nuclearcraft:ore:2>,
+	//FirstNecron smells
+	<nuclearcraft:dust>,
+	<nuclearcraft:dust:1>,
+	<nuclearcraft:dust:2>,
+	<nuclearcraft:ingot>,
+	<nuclearcraft:ingot:1>,
+	<nuclearcraft:ingot:2>,
+	<nuclearcraft:ingot_block>,
+	<nuclearcraft:ingot_block:1>,
+	<nuclearcraft:ingot_block:2>
 ];
 
 function init() {

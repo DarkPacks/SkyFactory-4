@@ -38,6 +38,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.iChunUtil.init();
 	scripts.crafttweaker.recipes.mods.industrialForegoing.init();
 	scripts.crafttweaker.recipes.mods.inspirations.init();
+	scripts.crafttweaker.recipes.mods.ironJetpacks.init();
 	scripts.crafttweaker.recipes.mods.matterOverdrive.init();
 	scripts.crafttweaker.recipes.mods.mekanism.init();
 	scripts.crafttweaker.recipes.mods.microblockcbe.init();

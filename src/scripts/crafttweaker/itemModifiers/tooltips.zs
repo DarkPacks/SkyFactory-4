@@ -173,7 +173,39 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 	<teslacorelib:wrench>: [
 		format.yellow("Used to manipulate Industrial Foregoing machines")
+	],
+
+	// ==================================
+	// Oregen tooltips
+	<nuclearcraft:ore:3>: [
+		format.yellow("Found in Twilight Forest and"),
+		format.yellow("Lost Cities Dimensions")
+	],
+	<nuclearcraft:ore:4>: [
+		format.yellow("Found in Twilight Forest and"),
+		format.yellow("Lost Cities Dimensions")
+	],
+	<nuclearcraft:ore:5>: [
+		format.yellow("Found in Twilight Forest and"),
+		format.yellow("Lost Cities Dimensions")
+	],
+	<nuclearcraft:ore:6>: [
+		format.yellow("Found in Twilight Forest and"),
+		format.yellow("Lost Cities Dimensions")
+	],
+	<nuclearcraft:ore:7>: [
+		format.yellow("Found in Twilight Forest and"),
+		format.yellow("Lost Cities Dimensions")
+	],
+	<matteroverdrive:dilithium_ore>: [
+		format.yellow("Found in Twilight Forest and"),
+		format.yellow("Lost Cities Dimensions")
+	],
+	<matteroverdrive:tritanium_ore>: [
+		format.yellow("Found in Twilight Forest and"),
+		format.yellow("Lost Cities Dimensions")
 	]
+
 };
 
 function init() {
