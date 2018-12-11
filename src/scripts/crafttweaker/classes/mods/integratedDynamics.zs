@@ -85,6 +85,22 @@ zenClass IntegratedDynamics {
 		}
 	}
 
+	function addSqueezerBoth(inputStack as IItemStack, outputStack as IItemStack, outputFluid as ILiquidStack) {
+		addSqueezerBoth(inputStack, outputStack, 1.0, null, 1.0, null, 1.0, outputFluid);
+	}
+	function addSqueezerBoth(inputStack as IItemStack, outputStack as IItemStack, outputStackChance as float, outputFluid as ILiquidStack) {
+		addSqueezerBoth(inputStack, outputStack, outputStackChance, null, 1.0, null, 1.0, outputFluid);
+	}
+	function addSqueezerBoth(inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
+		outputStack2 as IItemStack, outputStackChance2 as float, outputFluid as ILiquidStack) {
+			addSqueezerBoth(inputStack, outputStack1, outputStackChance1, outputStack2, outputStackChance2, null, 1.0, outputFluid);
+	}
+	function addSqueezerBoth(inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
+		outputStack2 as IItemStack, outputStackChance2 as float, outputStack3 as IItemStack, outputStackChance3 as float, outputFluid as ILiquidStack) {
+			addSqueezer(true, inputStack, outputStack1, outputStackChance1, outputStack2, outputStackChance2, null, 1.0, outputFluid);
+			addSqueezer(false, inputStack, outputStack1, outputStackChance1, outputStack2, outputStackChance2, null, 1.0, outputFluid);
+	}
+
 	/*
 		Remove a Squeezer recipe.
 	*/
