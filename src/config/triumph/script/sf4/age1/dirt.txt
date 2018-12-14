@@ -10,7 +10,7 @@ drawDirectLines(true)
 
 //Criteria
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
-criteria.setItem("minecraft:dirt")
+criteria.addItem("minecraft:dirt")
 
 //Rewards
 setRewardExperience(4)
