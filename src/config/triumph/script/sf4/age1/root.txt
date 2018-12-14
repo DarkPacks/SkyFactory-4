@@ -22,7 +22,6 @@ addCriteria("killedByEntity", "minecraft:entity_killed_player")
 addCriteria("location", "minecraft:location")
 
 //Rewards
-setRewardFunction("triumph:prestige_add")
 setRewardFunction("triumph:startingItems")
 setRewardFunction("triumph:forgiving_void_enable")
 

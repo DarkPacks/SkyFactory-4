@@ -21,6 +21,10 @@ function init() {
 	mekanism.addCrusher(<sky_orchards:amber_nickel>, <thermalfoundation:material:69> * 2);
 	mekanism.addCrusher(<sky_orchards:amber_aluminum>, <thermalfoundation:material:68> * 2);
 
+	//Cotton Wool from Amber or acorn
+	mekanism.addCrusher(<sky_orchards:amber_cottonwood>, <minecraft:wool>);
+	mekanism.addCrusher(<sky_orchards:acorn_cottonwood>, <minecraft:string>);
+
 	// Sapphire
 	mekanism.addCrusher(<practicallogistics2:sapphireore>, <practicallogistics2:sapphiredust> * 2);
 	mekanism.addCrusher(<practicallogistics2:sapphire>, <practicallogistics2:sapphiredust> * 1);
@@ -125,3 +129,5 @@ function init() {
 	// ==================================
 	mekanism.addInfusion("DIAMOND", 160, <sky_orchards:amber_silver>, <thermalfoundation:material:70>);
 }
+
+recipes.removeByRecipeName("mekanism:paper");

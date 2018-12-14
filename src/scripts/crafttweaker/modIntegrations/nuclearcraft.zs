@@ -48,3 +48,7 @@ mods.nuclearcraft.manufactory.addRecipe([<resourcehogs:bacon>.withTag({ResourceT
 mods.nuclearcraft.manufactory.addRecipe([<resourcehogs:bacon>.withTag({ResourceType: "boron"}), <nuclearcraft:dust:5>]);
 mods.nuclearcraft.manufactory.addRecipe([<resourcehogs:bacon>.withTag({ResourceType: "emerald"}), <minecraft:emerald>]);
 mods.nuclearcraft.manufactory.addRecipe([<resourcehogs:bacon>.withTag({ResourceType: "redstone"}), <minecraft:redstone>]);
+
+//Wool from Cotton Amber
+mods.nuclearcraft.manufactory.addRecipe([<sky_orchards:amber_cottonwood>, <minecraft:wool>]);
+mods.nuclearcraft.manufactory.addRecipe([<sky_orchards:acorn_cottonwood>, <minecraft:string>]);

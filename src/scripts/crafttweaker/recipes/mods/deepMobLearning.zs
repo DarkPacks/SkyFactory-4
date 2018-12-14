@@ -46,42 +46,42 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<deepmoblearning:data_model_creeper>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): {
 		Utils.genRecipeName(stages.pacifist): [
 			[
-				[<deepmoblearning:data_model_blank>, <minecraft:gunpowder>]
+				[<minecraft:gunpowder>, <deepmoblearning:data_model_blank>, <minecraft:gunpowder>]
 			]
 		]
 	},
 	<deepmoblearning:data_model_spider>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): {
 		Utils.genRecipeName(stages.pacifist): [
 			[
-				[<deepmoblearning:data_model_blank>, <minecraft:string>]
+				[<minecraft:string>, <deepmoblearning:data_model_blank>, <minecraft:string>]
 			]
 		]
 	},
 	<deepmoblearning:data_model_slime>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): {
 		Utils.genRecipeName(stages.pacifist): [
 			[
-				[<deepmoblearning:data_model_blank>, <minecraft:slime_ball>]
+				[<minecraft:slime_ball>, <deepmoblearning:data_model_blank>, <minecraft:slime_ball>]
 			]
 		]
 	},
 	<deepmoblearning:data_model_witch>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): {
 		Utils.genRecipeName(stages.pacifist): [
 			[
-				[<deepmoblearning:data_model_blank>, <minecraft:glowstone_dust>]
+				[<minecraft:glowstone_dust>, <deepmoblearning:data_model_blank>, <minecraft:glowstone_dust>]
 			]
 		]
 	},
 	<deepmoblearning:data_model_blaze>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): {
-		Utils.genRecipeName(stages.pacifist): [
-			[
-				[<deepmoblearning:data_model_blank>, <minecraft:blaze_powder>]
-			]
-		]
-	},
+	  	Utils.genRecipeName(stages.pacifist): [
+	  		[
+	  			[<minecraft:blaze_powder>, <deepmoblearning:data_model_blank>, <minecraft:blaze_powder>]
+	  		]
+	  	]
+	},	
 	<deepmoblearning:data_model_ghast>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): {
 		Utils.genRecipeName(stages.pacifist): [
 			[
-				[<deepmoblearning:data_model_blank>, <minecraft:ghast_tear>]
+				[<minecraft:gunpowder>, <deepmoblearning:data_model_blank>, <minecraft:ghast_tear>]
 			]
 		]
 	},
@@ -95,7 +95,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<deepmoblearning:data_model_enderman>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): {
 		Utils.genRecipeName(stages.pacifist): [
 			[
-				[<deepmoblearning:data_model_blank>, <minecraft:ender_pearl>]
+				[<minecraft:end_stone>, <deepmoblearning:data_model_blank>, <minecraft:ender_pearl>]
 			]
 		]
 	},
@@ -118,35 +118,35 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<deepmoblearning:data_model_guardian>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): {
 		Utils.genRecipeName(stages.pacifist): [
 			[
-				[<deepmoblearning:data_model_blank>, <minecraft:prismarine_shard>]
+				[<minecraft:prismarine_crystals>, <deepmoblearning:data_model_blank>, <minecraft:prismarine_shard>]
 			]
 		]
 	},
 	<deepmoblearning:data_model_thermal_elemental>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): {
 		Utils.genRecipeName(stages.pacifist): [
 			[
-				[<deepmoblearning:data_model_blank>, <thermalfoundation:material:1024>]
+				[<thermalfoundation:material:1024>, <deepmoblearning:data_model_blank>, <thermalfoundation:material:1024>]
 			]
 		]
 	},
 	<deepmoblearning:data_model_twilight_forest>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): {
 		Utils.genRecipeName(stages.pacifist): [
 			[
-				[<deepmoblearning:data_model_blank>, <twilightforest:firefly>]
+				[<twilightforest:firefly>, <deepmoblearning:data_model_blank>, <twilightforest:firefly>]
 			]
 		]
 	},
 	<deepmoblearning:data_model_twilight_swamp>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): {
 		Utils.genRecipeName(stages.pacifist): [
 			[
-				[<deepmoblearning:data_model_blank>, <minecraft:waterlily>]
+				[<minecraft:waterlily>, <deepmoblearning:data_model_blank>, <minecraft:waterlily>]
 			]
 		]
 	},
 	<deepmoblearning:data_model_twilight_darkwood>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): {
 		Utils.genRecipeName(stages.pacifist): [
 			[
-				[<deepmoblearning:data_model_blank>, <twilightforest:twilight_log:3>]
+				[<twilightforest:twilight_log:3>, <deepmoblearning:data_model_blank>, <twilightforest:twilight_log:3>]
 			]
 		]
 	},
@@ -160,7 +160,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<deepmoblearning:data_model_tinker_slime>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): {
 		Utils.genRecipeName(stages.pacifist): [
 			[
-				[<deepmoblearning:data_model_blank>, <tconstruct:edible:1>]
+				[<tconstruct:edible:1>, <deepmoblearning:data_model_blank>, <tconstruct:edible:1>]
 			]
 		]
 	}

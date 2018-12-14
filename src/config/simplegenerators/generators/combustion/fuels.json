@@ -1,7 +1,7 @@
 [
     {
         "energy": 320000,
-        "id": "chisel:block_coal3"
+        "id": "chisel:block_coal:3"
     },
     {
         "energy": 6000,
@@ -9,7 +9,7 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke3"
+        "id": "chisel:block_coal_coke:3"
     },
     {
         "energy": 6000,
@@ -21,7 +21,7 @@
     },
     {
         "energy": 2000,
-        "id": "minecraft:wool6"
+        "id": "minecraft:wool:6"
     },
     {
         "energy": 6000,
@@ -41,7 +41,7 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal12"
+        "id": "chisel:block_coal:12"
     },
     {
         "energy": 6000,
@@ -61,27 +61,27 @@
     },
     {
         "energy": 3456000,
-        "id": "mysticalagriculture:coal_block3"
+        "id": "mysticalagriculture:coal_block:3"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-acacia2"
+        "id": "chisel:planks-acacia:2"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:desk4"
+        "id": "bibliocraft:desk:4"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:mapframe1"
+        "id": "bibliocraft:mapframe:1"
     },
     {
         "energy": 32000,
-        "id": "nuclearcraft:dust8"
+        "id": "nuclearcraft:dust:8"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_jungle4"
+        "id": "chisel:bookshelf_jungle:4"
     },
     {
         "energy": 6000,
@@ -89,19 +89,19 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:furniturepaneler4"
+        "id": "bibliocraft:furniturepaneler:4"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:bookcase1"
+        "id": "bibliocraft:bookcase:1"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal18"
+        "id": "chisel:block_coal:18"
     },
     {
         "energy": 6000,
-        "id": "mekanism:reinforcedplasticblock10"
+        "id": "mekanism:reinforcedplasticblock:10"
     },
     {
         "energy": 6000,
@@ -109,11 +109,11 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke21"
+        "id": "chisel:block_coal_coke:21"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:mapframe5"
+        "id": "bibliocraft:mapframe:5"
     },
     {
         "energy": 6000,
@@ -129,11 +129,11 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:case1"
+        "id": "bibliocraft:case:1"
     },
     {
         "energy": 2000,
-        "id": "twilightforest:twilight_sapling9"
+        "id": "twilightforest:twilight_sapling:9"
     },
     {
         "energy": 6000,
@@ -153,7 +153,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:armorstand3"
+        "id": "bibliocraft:armorstand:3"
     },
     {
         "energy": 6000,
@@ -165,39 +165,39 @@
     },
     {
         "energy": 6000,
-        "id": "twilightforest:tower_wood1"
+        "id": "twilightforest:tower_wood:1"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-jungle1"
+        "id": "chisel:planks-jungle:1"
     },
     {
         "energy": 2960,
-        "id": "minecraft:wooden_slab1"
+        "id": "minecraft:wooden_slab:1"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:furniturepaneler3"
+        "id": "bibliocraft:furniturepaneler:3"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal2"
+        "id": "chisel:block_coal:2"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:seat3"
+        "id": "bibliocraft:seat:3"
     },
     {
         "energy": 6000,
-        "id": "twilightforest:magic_log1"
+        "id": "twilightforest:magic_log:1"
     },
     {
         "energy": 6000,
-        "id": "mekanism:glowplasticblock5"
+        "id": "mekanism:glowplasticblock:5"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:fancyworkbench2"
+        "id": "bibliocraft:fancyworkbench:2"
     },
     {
         "energy": 6000,
@@ -205,23 +205,23 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:armorstand6"
+        "id": "bibliocraft:armorstand:6"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:table6"
+        "id": "bibliocraft:table:6"
     },
     {
         "energy": 6000,
-        "id": "inspirations:bookshelf1"
+        "id": "inspirations:bookshelf:1"
     },
     {
         "energy": 18432000,
-        "id": "projecte:fuel_block2"
+        "id": "projecte:fuel_block:2"
     },
     {
         "energy": 6000,
-        "id": "minecraft:banner2"
+        "id": "minecraft:banner:2"
     },
     {
         "energy": 6000,
@@ -233,11 +233,11 @@
     },
     {
         "energy": 6000,
-        "id": "malisisdoors:big_door_dark_oak_3x3"
+        "id": "malisisdoors:big_door_dark_oak_3x:3"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:bookcase2"
+        "id": "bibliocraft:bookcase:2"
     },
     {
         "energy": 6000,
@@ -261,11 +261,11 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-oak3"
+        "id": "chisel:planks-oak:3"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-oak7"
+        "id": "chisel:planks-oak:7"
     },
     {
         "energy": 6000,
@@ -285,7 +285,7 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:reinforcedplasticblock9"
+        "id": "mekanism:reinforcedplasticblock:9"
     },
     {
         "energy": 6000,
@@ -297,39 +297,39 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_acacia9"
+        "id": "chisel:bookshelf_acacia:9"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal5"
+        "id": "chisel:block_coal:5"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_oak6"
+        "id": "chisel:bookshelf_oak:6"
     },
     {
         "energy": 6000,
-        "id": "minecraft:banner14"
+        "id": "minecraft:banner:14"
     },
     {
         "energy": 6000,
-        "id": "inspirations:mulch6"
+        "id": "inspirations:mulch:6"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:shelf1"
+        "id": "bibliocraft:shelf:1"
     },
     {
         "energy": 2000,
-        "id": "twilightforest:twilight_sapling6"
+        "id": "twilightforest:twilight_sapling:6"
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke1"
+        "id": "chisel:block_coal_coke:1"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-jungle13"
+        "id": "chisel:planks-jungle:13"
     },
     {
         "energy": 6000,
@@ -337,27 +337,27 @@
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar_base6"
+        "id": "totemic:wooden_pillar_base:6"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:potionshelf2"
+        "id": "bibliocraft:potionshelf:2"
     },
     {
         "energy": 6000,
-        "id": "minecraft:planks5"
+        "id": "minecraft:planks:5"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal15"
+        "id": "chisel:block_coal:15"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-jungle4"
+        "id": "chisel:planks-jungle:4"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:desk6"
+        "id": "bibliocraft:desk:6"
     },
     {
         "energy": 6000,
@@ -365,19 +365,19 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:toolrack6"
+        "id": "bibliocraft:toolrack:6"
     },
     {
         "energy": 6000,
-        "id": "mekanism:reinforcedplasticblock4"
+        "id": "mekanism:reinforcedplasticblock:4"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:toolrack1"
+        "id": "bibliocraft:toolrack:1"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframemiddle5"
+        "id": "bibliocraft:paintingframemiddle:5"
     },
     {
         "energy": 4000,
@@ -385,11 +385,11 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:plasticblock4"
+        "id": "mekanism:plasticblock:4"
     },
     {
         "energy": 6000,
-        "id": "mekanism:roadplasticblock6"
+        "id": "mekanism:roadplasticblock:6"
     },
     {
         "energy": 4000,
@@ -397,7 +397,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframefancy5"
+        "id": "bibliocraft:paintingframefancy:5"
     },
     {
         "energy": 6000,
@@ -413,7 +413,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:fancysign3"
+        "id": "bibliocraft:fancysign:3"
     },
     {
         "energy": 4000,
@@ -421,23 +421,23 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframemiddle1"
+        "id": "bibliocraft:paintingframemiddle:1"
     },
     {
         "energy": 6000,
-        "id": "rustic:log1"
+        "id": "rustic:log:1"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:fancyworkbench6"
+        "id": "bibliocraft:fancyworkbench:6"
     },
     {
         "energy": 6000,
-        "id": "mekanism:slickplasticblock3"
+        "id": "mekanism:slickplasticblock:3"
     },
     {
         "energy": 6000,
-        "id": "tconstruct:tooltables2"
+        "id": "tconstruct:tooltables:2"
     },
     {
         "energy": 6000,
@@ -445,39 +445,39 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal12"
+        "id": "chisel:block_charcoal:12"
     },
     {
         "energy": 6000,
-        "id": "mekanism:glowplasticblock4"
+        "id": "mekanism:glowplasticblock:4"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_spruce8"
+        "id": "chisel:bookshelf_spruce:8"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_darkoak4"
+        "id": "chisel:bookshelf_darkoak:4"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal19"
+        "id": "chisel:block_charcoal:19"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:furniturepaneler6"
+        "id": "bibliocraft:furniturepaneler:6"
     },
     {
         "energy": 6000,
-        "id": "twilightforest:magic_log_core2"
+        "id": "twilightforest:magic_log_core:2"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_spruce3"
+        "id": "chisel:bookshelf_spruce:3"
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke16"
+        "id": "chisel:block_coal_coke:16"
     },
     {
         "energy": 6000,
@@ -485,11 +485,11 @@
     },
     {
         "energy": 2000,
-        "id": "minecraft:wool7"
+        "id": "minecraft:wool:7"
     },
     {
         "energy": 2000,
-        "id": "twilightforest:twilight_leaves_31"
+        "id": "twilightforest:twilight_leaves_:31"
     },
     {
         "energy": 6000,
@@ -497,7 +497,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_jungle7"
+        "id": "chisel:bookshelf_jungle:7"
     },
     {
         "energy": 6000,
@@ -509,7 +509,7 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal11"
+        "id": "chisel:block_coal:11"
     },
     {
         "energy": 4000,
@@ -517,11 +517,11 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:framedchest1"
+        "id": "bibliocraft:framedchest:1"
     },
     {
         "energy": 6000,
-        "id": "mekanism:roadplasticblock8"
+        "id": "mekanism:roadplasticblock:8"
     },
     {
         "energy": 6000,
@@ -541,7 +541,7 @@
     },
     {
         "energy": 64000,
-        "id": "thermalfoundation:material892"
+        "id": "thermalfoundation:material:892"
     },
     {
         "energy": 6000,
@@ -549,11 +549,11 @@
     },
     {
         "energy": 6000,
-        "id": "astralsorcery:blockinfusedwood5"
+        "id": "astralsorcery:blockinfusedwood:5"
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar6"
+        "id": "totemic:wooden_pillar:6"
     },
     {
         "energy": 2000,
@@ -565,11 +565,11 @@
     },
     {
         "energy": 6000,
-        "id": "malisisdoors:big_door_birch_3x3"
+        "id": "malisisdoors:big_door_birch_3x:3"
     },
     {
         "energy": 2000,
-        "id": "twilightforest:twilight_sapling8"
+        "id": "twilightforest:twilight_sapling:8"
     },
     {
         "energy": 6000,
@@ -577,7 +577,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-acacia1"
+        "id": "chisel:planks-acacia:1"
     },
     {
         "energy": 2000,
@@ -585,19 +585,19 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:potionshelf3"
+        "id": "bibliocraft:potionshelf:3"
     },
     {
         "energy": 6000,
-        "id": "mekanism:reinforcedplasticblock13"
+        "id": "mekanism:reinforcedplasticblock:13"
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar1"
+        "id": "totemic:wooden_pillar:1"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_darkoak5"
+        "id": "chisel:bookshelf_darkoak:5"
     },
     {
         "energy": 6000,
@@ -605,11 +605,11 @@
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar10"
+        "id": "totemic:wooden_pillar:10"
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar_base1"
+        "id": "totemic:wooden_pillar_base:1"
     },
     {
         "energy": 6000,
@@ -625,7 +625,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframesimple1"
+        "id": "bibliocraft:paintingframesimple:1"
     },
     {
         "energy": 6000,
@@ -633,7 +633,7 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal1"
+        "id": "chisel:block_coal:1"
     },
     {
         "energy": 32000,
@@ -641,7 +641,7 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal7"
+        "id": "chisel:block_charcoal:7"
     },
     {
         "energy": 6000,
@@ -649,7 +649,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_oak5"
+        "id": "chisel:bookshelf_oak:5"
     },
     {
         "energy": 6000,
@@ -661,7 +661,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-acacia4"
+        "id": "chisel:planks-acacia:4"
     },
     {
         "energy": 6000,
@@ -677,7 +677,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:desk2"
+        "id": "bibliocraft:desk:2"
     },
     {
         "energy": 6000,
@@ -685,7 +685,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_darkoak7"
+        "id": "chisel:bookshelf_darkoak:7"
     },
     {
         "energy": 6000,
@@ -693,7 +693,7 @@
     },
     {
         "energy": 6000,
-        "id": "twilightforest:tower_device4"
+        "id": "twilightforest:tower_device:4"
     },
     {
         "energy": 6000,
@@ -705,7 +705,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:shelf2"
+        "id": "bibliocraft:shelf:2"
     },
     {
         "energy": 6000,
@@ -713,7 +713,7 @@
     },
     {
         "energy": 2000,
-        "id": "minecraft:wool1"
+        "id": "minecraft:wool:1"
     },
     {
         "energy": 6000,
@@ -729,7 +729,7 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal9"
+        "id": "chisel:block_charcoal:9"
     },
     {
         "energy": 6000,
@@ -745,11 +745,11 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_acacia1"
+        "id": "chisel:bookshelf_acacia:1"
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar_base4"
+        "id": "totemic:wooden_pillar_base:4"
     },
     {
         "energy": 6000,
@@ -757,19 +757,19 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal14"
+        "id": "chisel:block_charcoal:14"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:label1"
+        "id": "bibliocraft:label:1"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframeborderless3"
+        "id": "bibliocraft:paintingframeborderless:3"
     },
     {
         "energy": 6000,
-        "id": "malisisdoors:big_door_acacia_3x3"
+        "id": "malisisdoors:big_door_acacia_3x:3"
     },
     {
         "energy": 6000,
@@ -781,7 +781,7 @@
     },
     {
         "energy": 2000,
-        "id": "minecraft:sapling3"
+        "id": "minecraft:sapling:3"
     },
     {
         "energy": 6000,
@@ -801,11 +801,11 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal111"
+        "id": "chisel:block_coal:111"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-oak5"
+        "id": "chisel:planks-oak:5"
     },
     {
         "energy": 6000,
@@ -821,7 +821,7 @@
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar4"
+        "id": "totemic:wooden_pillar:4"
     },
     {
         "energy": 6000,
@@ -829,7 +829,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:table1"
+        "id": "bibliocraft:table:1"
     },
     {
         "energy": 6000,
@@ -837,7 +837,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:framedchest6"
+        "id": "bibliocraft:framedchest:6"
     },
     {
         "energy": 2000,
@@ -853,11 +853,11 @@
     },
     {
         "energy": 6000,
-        "id": "minecraft:banner7"
+        "id": "minecraft:banner:7"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_oak8"
+        "id": "chisel:bookshelf_oak:8"
     },
     {
         "energy": 6000,
@@ -865,7 +865,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:mapframe3"
+        "id": "bibliocraft:mapframe:3"
     },
     {
         "energy": 6000,
@@ -877,7 +877,7 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal6"
+        "id": "chisel:block_charcoal:6"
     },
     {
         "energy": 6000,
@@ -905,15 +905,15 @@
     },
     {
         "energy": 6000,
-        "id": "minecraft:banner15"
+        "id": "minecraft:banner:15"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:fancysign1"
+        "id": "bibliocraft:fancysign:1"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal11"
+        "id": "chisel:block_charcoal:11"
     },
     {
         "energy": 6000,
@@ -941,7 +941,7 @@
     },
     {
         "energy": 1280,
-        "id": "minecraft:carpet1"
+        "id": "minecraft:carpet:1"
     },
     {
         "energy": 4000,
@@ -969,11 +969,11 @@
     },
     {
         "energy": 1280,
-        "id": "minecraft:carpet5"
+        "id": "minecraft:carpet:5"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_darkoak2"
+        "id": "chisel:bookshelf_darkoak:2"
     },
     {
         "energy": 6000,
@@ -981,7 +981,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:table2"
+        "id": "bibliocraft:table:2"
     },
     {
         "energy": 6000,
@@ -1001,31 +1001,31 @@
     },
     {
         "energy": 2000,
-        "id": "minecraft:wool11"
+        "id": "minecraft:wool:11"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframemiddle6"
+        "id": "bibliocraft:paintingframemiddle:6"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_birch1"
+        "id": "chisel:bookshelf_birch:1"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframeflat6"
+        "id": "bibliocraft:paintingframeflat:6"
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar3"
+        "id": "totemic:wooden_pillar:3"
     },
     {
         "energy": 6000,
-        "id": "tconstruct:tooltables4"
+        "id": "tconstruct:tooltables:4"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:seat6"
+        "id": "bibliocraft:seat:6"
     },
     {
         "energy": 6000,
@@ -1033,7 +1033,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:clock4"
+        "id": "bibliocraft:clock:4"
     },
     {
         "energy": 6000,
@@ -1045,7 +1045,7 @@
     },
     {
         "energy": 6000,
-        "id": "minecraft:banner4"
+        "id": "minecraft:banner:4"
     },
     {
         "energy": 4000,
@@ -1061,7 +1061,7 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke111"
+        "id": "chisel:block_coal_coke:111"
     },
     {
         "energy": 6000,
@@ -1073,11 +1073,11 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_spruce4"
+        "id": "chisel:bookshelf_spruce:4"
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke10"
+        "id": "chisel:block_coal_coke:10"
     },
     {
         "energy": 6000,
@@ -1085,23 +1085,23 @@
     },
     {
         "energy": 6000,
-        "id": "minecraft:banner3"
+        "id": "minecraft:banner:3"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_acacia4"
+        "id": "chisel:bookshelf_acacia:4"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal15"
+        "id": "chisel:block_coal:15"
     },
     {
         "energy": 6000,
-        "id": "twilightforest:magic_log_core1"
+        "id": "twilightforest:magic_log_core:1"
     },
     {
         "energy": 6000,
-        "id": "astralsorcery:blockinfusedwood4"
+        "id": "astralsorcery:blockinfusedwood:4"
     },
     {
         "energy": 6000,
@@ -1113,7 +1113,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:case4"
+        "id": "bibliocraft:case:4"
     },
     {
         "energy": 6000,
@@ -1129,7 +1129,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:case5"
+        "id": "bibliocraft:case:5"
     },
     {
         "energy": 6000,
@@ -1153,15 +1153,15 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:glowplasticblock15"
+        "id": "mekanism:glowplasticblock:15"
     },
     {
         "energy": 2000,
-        "id": "twilightforest:twilight_sapling5"
+        "id": "twilightforest:twilight_sapling:5"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-jungle6"
+        "id": "chisel:planks-jungle:6"
     },
     {
         "energy": 6000,
@@ -1169,7 +1169,7 @@
     },
     {
         "energy": 2000,
-        "id": "minecraft:wool5"
+        "id": "minecraft:wool:5"
     },
     {
         "energy": 6000,
@@ -1185,15 +1185,15 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-oak12"
+        "id": "chisel:planks-oak:12"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframeborderless1"
+        "id": "bibliocraft:paintingframeborderless:1"
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke11"
+        "id": "chisel:block_coal_coke:11"
     },
     {
         "energy": 2000,
@@ -1209,27 +1209,27 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:plasticblock7"
+        "id": "mekanism:plasticblock:7"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal115"
+        "id": "chisel:block_coal:115"
     },
     {
         "energy": 768000,
-        "id": "mysticalagriculture:coal4"
+        "id": "mysticalagriculture:coal:4"
     },
     {
         "energy": 1536000,
-        "id": "mysticalagradditions:insanium5"
+        "id": "mysticalagradditions:insanium:5"
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke113"
+        "id": "chisel:block_coal_coke:113"
     },
     {
         "energy": 2000,
-        "id": "minecraft:leaves1"
+        "id": "minecraft:leaves:1"
     },
     {
         "energy": 6000,
@@ -1241,7 +1241,7 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:plasticblock10"
+        "id": "mekanism:plasticblock:10"
     },
     {
         "energy": 6000,
@@ -1261,11 +1261,11 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:glowplasticblock10"
+        "id": "mekanism:glowplasticblock:10"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframesimple4"
+        "id": "bibliocraft:paintingframesimple:4"
     },
     {
         "energy": 6000,
@@ -1277,11 +1277,11 @@
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar2"
+        "id": "totemic:wooden_pillar:2"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-birch9"
+        "id": "chisel:planks-birch:9"
     },
     {
         "energy": 6000,
@@ -1305,23 +1305,23 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:roadplasticblock2"
+        "id": "mekanism:roadplasticblock:2"
     },
     {
         "energy": 6000,
-        "id": "twilightforest:tower_device2"
+        "id": "twilightforest:tower_device:2"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal3"
+        "id": "chisel:block_charcoal:3"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:framedchest5"
+        "id": "bibliocraft:framedchest:5"
     },
     {
         "energy": 2000,
-        "id": "twilightforest:magic_leaves3"
+        "id": "twilightforest:magic_leaves:3"
     },
     {
         "energy": 6000,
@@ -1333,11 +1333,11 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-dark-oak1"
+        "id": "chisel:planks-dark-oak:1"
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar9"
+        "id": "totemic:wooden_pillar:9"
     },
     {
         "energy": 6000,
@@ -1345,11 +1345,11 @@
     },
     {
         "energy": 6000,
-        "id": "inspirations:mulch1"
+        "id": "inspirations:mulch:1"
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar_base2"
+        "id": "totemic:wooden_pillar_base:2"
     },
     {
         "energy": 6000,
@@ -1357,23 +1357,23 @@
     },
     {
         "energy": 320000,
-        "id": "nuclearcraft:ingot_block8"
+        "id": "nuclearcraft:ingot_block:8"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal113"
+        "id": "chisel:block_coal:113"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:bookcasecreative5"
+        "id": "bibliocraft:bookcasecreative:5"
     },
     {
         "energy": 6000,
-        "id": "mekanism:reinforcedplasticblock7"
+        "id": "mekanism:reinforcedplasticblock:7"
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar5"
+        "id": "totemic:wooden_pillar:5"
     },
     {
         "energy": 4000,
@@ -1381,15 +1381,15 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal13"
+        "id": "chisel:block_charcoal:13"
     },
     {
         "energy": 6000,
-        "id": "mekanism:slickplasticblock14"
+        "id": "mekanism:slickplasticblock:14"
     },
     {
         "energy": 864000,
-        "id": "mysticalagriculture:coal_block1"
+        "id": "mysticalagriculture:coal_block:1"
     },
     {
         "energy": 6000,
@@ -1397,15 +1397,15 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:plasticblock8"
+        "id": "mekanism:plasticblock:8"
     },
     {
         "energy": 6000,
-        "id": "mekanism:slickplasticblock7"
+        "id": "mekanism:slickplasticblock:7"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframefancy1"
+        "id": "bibliocraft:paintingframefancy:1"
     },
     {
         "energy": 6000,
@@ -1413,11 +1413,11 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_acacia8"
+        "id": "chisel:bookshelf_acacia:8"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframemiddle3"
+        "id": "bibliocraft:paintingframemiddle:3"
     },
     {
         "energy": 6000,
@@ -1425,7 +1425,7 @@
     },
     {
         "energy": 6000,
-        "id": "twilightforest:root1"
+        "id": "twilightforest:root:1"
     },
     {
         "energy": 6000,
@@ -1437,51 +1437,51 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke8"
+        "id": "chisel:block_coal_coke:8"
     },
     {
         "energy": 6000,
-        "id": "minecraft:banner5"
+        "id": "minecraft:banner:5"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-oak1"
+        "id": "chisel:planks-oak:1"
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar_base12"
+        "id": "totemic:wooden_pillar_base:12"
     },
     {
         "energy": 112000,
-        "id": "projecte:item.pe_fuel1"
+        "id": "projecte:item.pe_fuel:1"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-oak8"
+        "id": "chisel:planks-oak:8"
     },
     {
         "energy": 6000,
-        "id": "minecraft:planks3"
+        "id": "minecraft:planks:3"
     },
     {
         "energy": 6000,
-        "id": "mekanism:reinforcedplasticblock15"
+        "id": "mekanism:reinforcedplasticblock:15"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal17"
+        "id": "chisel:block_coal:17"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-oak9"
+        "id": "chisel:planks-oak:9"
     },
     {
         "energy": 6000,
-        "id": "mekanism:roadplasticblock4"
+        "id": "mekanism:roadplasticblock:4"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal114"
+        "id": "chisel:block_charcoal:114"
     },
     {
         "energy": 6000,
@@ -1493,15 +1493,15 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-birch2"
+        "id": "chisel:planks-birch:2"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:bookcasecreative6"
+        "id": "bibliocraft:bookcasecreative:6"
     },
     {
         "energy": 6000,
-        "id": "mekanism:glowplasticblock13"
+        "id": "mekanism:glowplasticblock:13"
     },
     {
         "energy": 6000,
@@ -1509,15 +1509,15 @@
     },
     {
         "energy": 6000,
-        "id": "minecraft:planks2"
+        "id": "minecraft:planks:2"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframefancy3"
+        "id": "bibliocraft:paintingframefancy:3"
     },
     {
         "energy": 6000,
-        "id": "mekanism:slickplasticblock11"
+        "id": "mekanism:slickplasticblock:11"
     },
     {
         "energy": 4000,
@@ -1529,7 +1529,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-dark-oak5"
+        "id": "chisel:planks-dark-oak:5"
     },
     {
         "energy": 2000,
@@ -1561,11 +1561,11 @@
     },
     {
         "energy": 1728000,
-        "id": "mysticalagriculture:coal_block2"
+        "id": "mysticalagriculture:coal_block:2"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:potionshelf1"
+        "id": "bibliocraft:potionshelf:1"
     },
     {
         "energy": 6000,
@@ -1573,15 +1573,15 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_birch8"
+        "id": "chisel:bookshelf_birch:8"
     },
     {
         "energy": 6000,
-        "id": "mekanism:roadplasticblock14"
+        "id": "mekanism:roadplasticblock:14"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:toolrack4"
+        "id": "bibliocraft:toolrack:4"
     },
     {
         "energy": 6000,
@@ -1593,7 +1593,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:toolrack2"
+        "id": "bibliocraft:toolrack:2"
     },
     {
         "energy": 6000,
@@ -1601,7 +1601,7 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:plasticblock6"
+        "id": "mekanism:plasticblock:6"
     },
     {
         "energy": 6000,
@@ -1609,7 +1609,7 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke4"
+        "id": "chisel:block_coal_coke:4"
     },
     {
         "energy": 6000,
@@ -1617,7 +1617,7 @@
     },
     {
         "energy": 2000,
-        "id": "minecraft:leaves3"
+        "id": "minecraft:leaves:3"
     },
     {
         "energy": 6000,
@@ -1629,23 +1629,23 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:label3"
+        "id": "bibliocraft:label:3"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-birch6"
+        "id": "chisel:planks-birch:6"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframefancy4"
+        "id": "bibliocraft:paintingframefancy:4"
     },
     {
         "energy": 6000,
-        "id": "mekanism:glowplasticblock14"
+        "id": "mekanism:glowplasticblock:14"
     },
     {
         "energy": 6000,
-        "id": "inspirations:mulch3"
+        "id": "inspirations:mulch:3"
     },
     {
         "energy": 2000,
@@ -1677,15 +1677,15 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-jungle5"
+        "id": "chisel:planks-jungle:5"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframefancy2"
+        "id": "bibliocraft:paintingframefancy:2"
     },
     {
         "energy": 2960,
-        "id": "minecraft:wooden_slab5"
+        "id": "minecraft:wooden_slab:5"
     },
     {
         "energy": 4000,
@@ -1697,11 +1697,11 @@
     },
     {
         "energy": 2000,
-        "id": "twilightforest:twilight_leaves3"
+        "id": "twilightforest:twilight_leaves:3"
     },
     {
         "energy": 6000,
-        "id": "astralsorcery:blockinfusedwood3"
+        "id": "astralsorcery:blockinfusedwood:3"
     },
     {
         "energy": 4000,
@@ -1713,7 +1713,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_darkoak3"
+        "id": "chisel:bookshelf_darkoak:3"
     },
     {
         "energy": 6000,
@@ -1721,7 +1721,7 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:roadplasticblock15"
+        "id": "mekanism:roadplasticblock:15"
     },
     {
         "energy": 6000,
@@ -1737,7 +1737,7 @@
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar_base3"
+        "id": "totemic:wooden_pillar_base:3"
     },
     {
         "energy": 6000,
@@ -1745,19 +1745,19 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal4"
+        "id": "chisel:block_coal:4"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-oak2"
+        "id": "chisel:planks-oak:2"
     },
     {
         "energy": 2000,
-        "id": "twilightforest:twilight_leaves1"
+        "id": "twilightforest:twilight_leaves:1"
     },
     {
         "energy": 6000,
-        "id": "mekanism:glowplasticblock7"
+        "id": "mekanism:glowplasticblock:7"
     },
     {
         "energy": 6000,
@@ -1765,23 +1765,23 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframeflat2"
+        "id": "bibliocraft:paintingframeflat:2"
     },
     {
         "energy": 6000,
-        "id": "tconstruct:firewood1"
+        "id": "tconstruct:firewood:1"
     },
     {
         "energy": 2000,
-        "id": "twilightforest:twilight_sapling2"
+        "id": "twilightforest:twilight_sapling:2"
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar_base9"
+        "id": "totemic:wooden_pillar_base:9"
     },
     {
         "energy": 2000,
-        "id": "tconstruct:slime_sapling1"
+        "id": "tconstruct:slime_sapling:1"
     },
     {
         "energy": 6000,
@@ -1793,7 +1793,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:mapframe4"
+        "id": "bibliocraft:mapframe:4"
     },
     {
         "energy": 6000,
@@ -1801,15 +1801,15 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke12"
+        "id": "chisel:block_coal_coke:12"
     },
     {
         "energy": 2000,
-        "id": "minecraft:wool4"
+        "id": "minecraft:wool:4"
     },
     {
         "energy": 32000,
-        "id": "nuclearcraft:ingot8"
+        "id": "nuclearcraft:ingot:8"
     },
     {
         "energy": 6000,
@@ -1825,7 +1825,7 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal2"
+        "id": "chisel:block_charcoal:2"
     },
     {
         "energy": 4000,
@@ -1837,7 +1837,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-oak4"
+        "id": "chisel:planks-oak:4"
     },
     {
         "energy": 6000,
@@ -1853,19 +1853,19 @@
     },
     {
         "energy": 1280,
-        "id": "minecraft:carpet4"
+        "id": "minecraft:carpet:4"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-dark-oak13"
+        "id": "chisel:planks-dark-oak:13"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:armorstand2"
+        "id": "bibliocraft:armorstand:2"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframeborderless4"
+        "id": "bibliocraft:paintingframeborderless:4"
     },
     {
         "energy": 6000,
@@ -1877,7 +1877,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:shelf5"
+        "id": "bibliocraft:shelf:5"
     },
     {
         "energy": 6000,
@@ -1889,7 +1889,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-acacia14"
+        "id": "chisel:planks-acacia:14"
     },
     {
         "energy": 6000,
@@ -1897,7 +1897,7 @@
     },
     {
         "energy": 6000,
-        "id": "minecraft:banner13"
+        "id": "minecraft:banner:13"
     },
     {
         "energy": 6000,
@@ -1905,7 +1905,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframesimple3"
+        "id": "bibliocraft:paintingframesimple:3"
     },
     {
         "energy": 320000,
@@ -1917,15 +1917,15 @@
     },
     {
         "energy": 6000,
-        "id": "twilightforest:twilight_log2"
+        "id": "twilightforest:twilight_log:2"
     },
     {
         "energy": 6000,
-        "id": "torchmaster:mega_torch1"
+        "id": "torchmaster:mega_torch:1"
     },
     {
         "energy": 2000,
-        "id": "tconstruct:slime_leaves1"
+        "id": "tconstruct:slime_leaves:1"
     },
     {
         "energy": 6000,
@@ -1933,15 +1933,15 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:fancyworkbench1"
+        "id": "bibliocraft:fancyworkbench:1"
     },
     {
         "energy": 6000,
-        "id": "minecraft:planks4"
+        "id": "minecraft:planks:4"
     },
     {
         "energy": 6000,
-        "id": "minecraft:banner8"
+        "id": "minecraft:banner:8"
     },
     {
         "energy": 4000,
@@ -1949,15 +1949,15 @@
     },
     {
         "energy": 2000,
-        "id": "twilightforest:twilight_leaves2"
+        "id": "twilightforest:twilight_leaves:2"
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar_base13"
+        "id": "totemic:wooden_pillar_base:13"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal10"
+        "id": "chisel:block_coal:10"
     },
     {
         "energy": 6000,
@@ -1965,19 +1965,19 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal11"
+        "id": "chisel:block_coal:11"
     },
     {
         "energy": 6000,
-        "id": "mekanism:reinforcedplasticblock12"
+        "id": "mekanism:reinforcedplasticblock:12"
     },
     {
         "energy": 6000,
-        "id": "malisisdoors:big_door_jungle_3x3"
+        "id": "malisisdoors:big_door_jungle_3x:3"
     },
     {
         "energy": 6000,
-        "id": "twilightforest:tower_device12"
+        "id": "twilightforest:tower_device:12"
     },
     {
         "energy": 6000,
@@ -1985,27 +1985,27 @@
     },
     {
         "energy": 6000,
-        "id": "tconstruct:tooltables5"
+        "id": "tconstruct:tooltables:5"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal2"
+        "id": "chisel:block_charcoal:2"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-jungle2"
+        "id": "chisel:planks-jungle:2"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-dark-oak11"
+        "id": "chisel:planks-dark-oak:11"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal1"
+        "id": "chisel:block_charcoal:1"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal2"
+        "id": "chisel:block_coal:2"
     },
     {
         "energy": 6000,
@@ -2017,11 +2017,11 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:armorstand1"
+        "id": "bibliocraft:armorstand:1"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframeflat1"
+        "id": "bibliocraft:paintingframeflat:1"
     },
     {
         "energy": 6000,
@@ -2037,7 +2037,7 @@
     },
     {
         "energy": 1280,
-        "id": "minecraft:carpet6"
+        "id": "minecraft:carpet:6"
     },
     {
         "energy": 6000,
@@ -2053,7 +2053,7 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:plasticblock11"
+        "id": "mekanism:plasticblock:11"
     },
     {
         "energy": 4000,
@@ -2061,7 +2061,7 @@
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar_base5"
+        "id": "totemic:wooden_pillar_base:5"
     },
     {
         "energy": 6000,
@@ -2077,7 +2077,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-acacia13"
+        "id": "chisel:planks-acacia:13"
     },
     {
         "energy": 6000,
@@ -2085,7 +2085,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-spruce13"
+        "id": "chisel:planks-spruce:13"
     },
     {
         "energy": 6000,
@@ -2109,11 +2109,11 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:potionshelf5"
+        "id": "bibliocraft:potionshelf:5"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:table5"
+        "id": "bibliocraft:table:5"
     },
     {
         "energy": 6000,
@@ -2125,7 +2125,7 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal1"
+        "id": "chisel:block_coal:1"
     },
     {
         "energy": 6000,
@@ -2133,15 +2133,15 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:roadplasticblock7"
+        "id": "mekanism:roadplasticblock:7"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-birch12"
+        "id": "chisel:planks-birch:12"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-acacia9"
+        "id": "chisel:planks-acacia:9"
     },
     {
         "energy": 6000,
@@ -2157,11 +2157,11 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal19"
+        "id": "chisel:block_coal:19"
     },
     {
         "energy": 6000,
-        "id": "inspirations:bookshelf3"
+        "id": "inspirations:bookshelf:3"
     },
     {
         "energy": 6000,
@@ -2169,7 +2169,7 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal112"
+        "id": "chisel:block_coal:112"
     },
     {
         "energy": 2000,
@@ -2181,11 +2181,11 @@
     },
     {
         "energy": 2000,
-        "id": "twilightforest:magic_leaves2"
+        "id": "twilightforest:magic_leaves:2"
     },
     {
         "energy": 2960,
-        "id": "minecraft:wooden_slab2"
+        "id": "minecraft:wooden_slab:2"
     },
     {
         "energy": 6000,
@@ -2201,7 +2201,7 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal12"
+        "id": "chisel:block_charcoal:12"
     },
     {
         "energy": 6000,
@@ -2221,7 +2221,7 @@
     },
     {
         "energy": 2960,
-        "id": "minecraft:wooden_slab3"
+        "id": "minecraft:wooden_slab:3"
     },
     {
         "energy": 6000,
@@ -2249,7 +2249,7 @@
     },
     {
         "energy": 6000,
-        "id": "minecraft:banner12"
+        "id": "minecraft:banner:12"
     },
     {
         "energy": 6000,
@@ -2257,11 +2257,11 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_acacia5"
+        "id": "chisel:bookshelf_acacia:5"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframeflat4"
+        "id": "bibliocraft:paintingframeflat:4"
     },
     {
         "energy": 6000,
@@ -2269,7 +2269,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-spruce14"
+        "id": "chisel:planks-spruce:14"
     },
     {
         "energy": 6000,
@@ -2277,7 +2277,7 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke1"
+        "id": "chisel:block_coal_coke:1"
     },
     {
         "energy": 320000,
@@ -2285,11 +2285,11 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke19"
+        "id": "chisel:block_coal_coke:19"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:clock5"
+        "id": "bibliocraft:clock:5"
     },
     {
         "energy": 6000,
@@ -2297,15 +2297,15 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:toolrack5"
+        "id": "bibliocraft:toolrack:5"
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar_base10"
+        "id": "totemic:wooden_pillar_base:10"
     },
     {
         "energy": 6000,
-        "id": "mekanism:glowplasticblock8"
+        "id": "mekanism:glowplasticblock:8"
     },
     {
         "energy": 6000,
@@ -2317,11 +2317,11 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke2"
+        "id": "chisel:block_coal_coke:2"
     },
     {
         "energy": 2000,
-        "id": "minecraft:wool14"
+        "id": "minecraft:wool:14"
     },
     {
         "energy": 6000,
@@ -2333,19 +2333,19 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-birch1"
+        "id": "chisel:planks-birch:1"
     },
     {
         "energy": 2000,
-        "id": "minecraft:wool3"
+        "id": "minecraft:wool:3"
     },
     {
         "energy": 480000,
-        "id": "thermalfoundation:material1024"
+        "id": "thermalfoundation:material:1024"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:shelf6"
+        "id": "bibliocraft:shelf:6"
     },
     {
         "energy": 6000,
@@ -2353,15 +2353,15 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:fancysign4"
+        "id": "bibliocraft:fancysign:4"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_oak4"
+        "id": "chisel:bookshelf_oak:4"
     },
     {
         "energy": 6000,
-        "id": "mekanism:roadplasticblock10"
+        "id": "mekanism:roadplasticblock:10"
     },
     {
         "energy": 6000,
@@ -2369,19 +2369,19 @@
     },
     {
         "energy": 2000,
-        "id": "minecraft:wool9"
+        "id": "minecraft:wool:9"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_acacia3"
+        "id": "chisel:bookshelf_acacia:3"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-birch4"
+        "id": "chisel:planks-birch:4"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-acacia3"
+        "id": "chisel:planks-acacia:3"
     },
     {
         "energy": 6000,
@@ -2389,23 +2389,23 @@
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar7"
+        "id": "totemic:wooden_pillar:7"
     },
     {
         "energy": 2000,
-        "id": "minecraft:wool12"
+        "id": "minecraft:wool:12"
     },
     {
         "energy": 6000,
-        "id": "minecraft:banner11"
+        "id": "minecraft:banner:11"
     },
     {
         "energy": 2000,
-        "id": "rustic:leaves1"
+        "id": "rustic:leaves:1"
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke7"
+        "id": "chisel:block_coal_coke:7"
     },
     {
         "energy": 6000,
@@ -2413,7 +2413,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-jungle7"
+        "id": "chisel:planks-jungle:7"
     },
     {
         "energy": 6000,
@@ -2421,19 +2421,19 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:reinforcedplasticblock8"
+        "id": "mekanism:reinforcedplasticblock:8"
     },
     {
         "energy": 1280,
-        "id": "minecraft:carpet7"
+        "id": "minecraft:carpet:7"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_spruce9"
+        "id": "chisel:bookshelf_spruce:9"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal8"
+        "id": "chisel:block_charcoal:8"
     },
     {
         "energy": 6000,
@@ -2445,11 +2445,11 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:plasticblock9"
+        "id": "mekanism:plasticblock:9"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:seat2"
+        "id": "bibliocraft:seat:2"
     },
     {
         "energy": 6000,
@@ -2469,11 +2469,11 @@
     },
     {
         "energy": 6000,
-        "id": "twilightforest:tower_device9"
+        "id": "twilightforest:tower_device:9"
     },
     {
         "energy": 1280,
-        "id": "minecraft:carpet14"
+        "id": "minecraft:carpet:14"
     },
     {
         "energy": 6000,
@@ -2497,15 +2497,15 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:slickplasticblock8"
+        "id": "mekanism:slickplasticblock:8"
     },
     {
         "energy": 2000,
-        "id": "minecraft:leaves2"
+        "id": "minecraft:leaves:2"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_birch6"
+        "id": "chisel:bookshelf_birch:6"
     },
     {
         "energy": 2000,
@@ -2517,11 +2517,11 @@
     },
     {
         "energy": 6000,
-        "id": "inspirations:mulch5"
+        "id": "inspirations:mulch:5"
     },
     {
         "energy": 6000,
-        "id": "mekanism:slickplasticblock15"
+        "id": "mekanism:slickplasticblock:15"
     },
     {
         "energy": 6000,
@@ -2529,19 +2529,19 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_jungle5"
+        "id": "chisel:bookshelf_jungle:5"
     },
     {
         "energy": 2000,
-        "id": "minecraft:tallgrass2"
+        "id": "minecraft:tallgrass:2"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-dark-oak4"
+        "id": "chisel:planks-dark-oak:4"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-spruce1"
+        "id": "chisel:planks-spruce:1"
     },
     {
         "energy": 6000,
@@ -2549,23 +2549,23 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:slickplasticblock4"
+        "id": "mekanism:slickplasticblock:4"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_acacia2"
+        "id": "chisel:bookshelf_acacia:2"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-jungle14"
+        "id": "chisel:planks-jungle:14"
     },
     {
         "energy": 448000,
-        "id": "projecte:item.pe_fuel2"
+        "id": "projecte:item.pe_fuel:2"
     },
     {
         "energy": 2960,
-        "id": "minecraft:wooden_slab4"
+        "id": "minecraft:wooden_slab:4"
     },
     {
         "energy": 4000,
@@ -2573,7 +2573,7 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:roadplasticblock1"
+        "id": "mekanism:roadplasticblock:1"
     },
     {
         "energy": 6000,
@@ -2581,15 +2581,15 @@
     },
     {
         "energy": 2000,
-        "id": "rustic:sapling1"
+        "id": "rustic:sapling:1"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal14"
+        "id": "chisel:block_charcoal:14"
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke6"
+        "id": "chisel:block_coal_coke:6"
     },
     {
         "energy": 6000,
@@ -2601,7 +2601,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:armorstand5"
+        "id": "bibliocraft:armorstand:5"
     },
     {
         "energy": 6000,
@@ -2609,11 +2609,11 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-jungle9"
+        "id": "chisel:planks-jungle:9"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-oak13"
+        "id": "chisel:planks-oak:13"
     },
     {
         "energy": 4000,
@@ -2621,7 +2621,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:fancyworkbench5"
+        "id": "bibliocraft:fancyworkbench:5"
     },
     {
         "energy": 6000,
@@ -2629,11 +2629,11 @@
     },
     {
         "energy": 2000,
-        "id": "twilightforest:twilight_sapling7"
+        "id": "twilightforest:twilight_sapling:7"
     },
     {
         "energy": 6000,
-        "id": "inspirations:mulch7"
+        "id": "inspirations:mulch:7"
     },
     {
         "energy": 6000,
@@ -2645,7 +2645,7 @@
     },
     {
         "energy": 6000,
-        "id": "rustic:planks1"
+        "id": "rustic:planks:1"
     },
     {
         "energy": 6000,
@@ -2653,7 +2653,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframesimple5"
+        "id": "bibliocraft:paintingframesimple:5"
     },
     {
         "energy": 6000,
@@ -2669,19 +2669,19 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_birch9"
+        "id": "chisel:bookshelf_birch:9"
     },
     {
         "energy": 6000,
-        "id": "mekanism:slickplasticblock5"
+        "id": "mekanism:slickplasticblock:5"
     },
     {
         "energy": 6000,
-        "id": "twilightforest:tower_device6"
+        "id": "twilightforest:tower_device:6"
     },
     {
         "energy": 6000,
-        "id": "mekanism:slickplasticblock13"
+        "id": "mekanism:slickplasticblock:13"
     },
     {
         "energy": 6000,
@@ -2689,11 +2689,11 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:desk5"
+        "id": "bibliocraft:desk:5"
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke14"
+        "id": "chisel:block_coal_coke:14"
     },
     {
         "energy": 6000,
@@ -2721,7 +2721,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-spruce12"
+        "id": "chisel:planks-spruce:12"
     },
     {
         "energy": 6000,
@@ -2729,7 +2729,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:clock2"
+        "id": "bibliocraft:clock:2"
     },
     {
         "energy": 6000,
@@ -2745,27 +2745,27 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:bookcasecreative3"
+        "id": "bibliocraft:bookcasecreative:3"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:furniturepaneler5"
+        "id": "bibliocraft:furniturepaneler:5"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-jungle3"
+        "id": "chisel:planks-jungle:3"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:label6"
+        "id": "bibliocraft:label:6"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal21"
+        "id": "chisel:block_coal:21"
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar8"
+        "id": "totemic:wooden_pillar:8"
     },
     {
         "energy": 6000,
@@ -2781,7 +2781,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-birch3"
+        "id": "chisel:planks-birch:3"
     },
     {
         "energy": 6000,
@@ -2789,15 +2789,15 @@
     },
     {
         "energy": 2000,
-        "id": "minecraft:sapling1"
+        "id": "minecraft:sapling:1"
     },
     {
         "energy": 6000,
-        "id": "mekanism:reinforcedplasticblock3"
+        "id": "mekanism:reinforcedplasticblock:3"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:bookcase3"
+        "id": "bibliocraft:bookcase:3"
     },
     {
         "energy": 6000,
@@ -2805,15 +2805,15 @@
     },
     {
         "energy": 2000,
-        "id": "tconstruct:slime_leaves2"
+        "id": "tconstruct:slime_leaves:2"
     },
     {
         "energy": 6000,
-        "id": "mekanism:glowplasticblock1"
+        "id": "mekanism:glowplasticblock:1"
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke13"
+        "id": "chisel:block_coal_coke:13"
     },
     {
         "energy": 6000,
@@ -2825,31 +2825,31 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke17"
+        "id": "chisel:block_coal_coke:17"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-dark-oak14"
+        "id": "chisel:planks-dark-oak:14"
     },
     {
         "energy": 1280,
-        "id": "minecraft:carpet15"
+        "id": "minecraft:carpet:15"
     },
     {
         "energy": 384000,
-        "id": "mysticalagriculture:coal3"
+        "id": "mysticalagriculture:coal:3"
     },
     {
         "energy": 6000,
-        "id": "mekanism:glowplasticblock3"
+        "id": "mekanism:glowplasticblock:3"
     },
     {
         "energy": 2000,
-        "id": "minecraft:wool8"
+        "id": "minecraft:wool:8"
     },
     {
         "energy": 64000,
-        "id": "thermalfoundation:material802"
+        "id": "thermalfoundation:material:802"
     },
     {
         "energy": 6000,
@@ -2861,7 +2861,7 @@
     },
     {
         "energy": 2000,
-        "id": "minecraft:wool15"
+        "id": "minecraft:wool:15"
     },
     {
         "energy": 4000,
@@ -2869,7 +2869,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-jungle10"
+        "id": "chisel:planks-jungle:10"
     },
     {
         "energy": 6000,
@@ -2877,15 +2877,15 @@
     },
     {
         "energy": 640000,
-        "id": "thermalfoundation:storage_resource1"
+        "id": "thermalfoundation:storage_resource:1"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal114"
+        "id": "chisel:block_coal:114"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal15"
+        "id": "chisel:block_charcoal:15"
     },
     {
         "energy": 6000,
@@ -2893,7 +2893,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-spruce5"
+        "id": "chisel:planks-spruce:5"
     },
     {
         "energy": 6000,
@@ -2901,11 +2901,11 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:label5"
+        "id": "bibliocraft:label:5"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:toolrack3"
+        "id": "bibliocraft:toolrack:3"
     },
     {
         "energy": 6000,
@@ -2913,23 +2913,23 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:label2"
+        "id": "bibliocraft:label:2"
     },
     {
         "energy": 32000,
-        "id": "minecraft:coal1"
+        "id": "minecraft:coal:1"
     },
     {
         "energy": 6000,
-        "id": "mekanism:glowplasticblock2"
+        "id": "mekanism:glowplasticblock:2"
     },
     {
         "energy": 6000,
-        "id": "twilightforest:thorns1"
+        "id": "twilightforest:thorns:1"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_oak9"
+        "id": "chisel:bookshelf_oak:9"
     },
     {
         "energy": 6000,
@@ -2937,7 +2937,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:mapframe2"
+        "id": "bibliocraft:mapframe:2"
     },
     {
         "energy": 4000,
@@ -2953,23 +2953,23 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_spruce5"
+        "id": "chisel:bookshelf_spruce:5"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal6"
+        "id": "chisel:block_coal:6"
     },
     {
         "energy": 6000,
-        "id": "twilightforest:magic_log3"
+        "id": "twilightforest:magic_log:3"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal12"
+        "id": "chisel:block_coal:12"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-dark-oak12"
+        "id": "chisel:planks-dark-oak:12"
     },
     {
         "energy": 6000,
@@ -2977,15 +2977,15 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:plasticblock13"
+        "id": "mekanism:plasticblock:13"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:bookcase5"
+        "id": "bibliocraft:bookcase:5"
     },
     {
         "energy": 6000,
-        "id": "minecraft:banner10"
+        "id": "minecraft:banner:10"
     },
     {
         "energy": 6000,
@@ -2993,7 +2993,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-acacia7"
+        "id": "chisel:planks-acacia:7"
     },
     {
         "energy": 6000,
@@ -3001,11 +3001,11 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_darkoak1"
+        "id": "chisel:bookshelf_darkoak:1"
     },
     {
         "energy": 288000,
-        "id": "mekanism:basicblock3"
+        "id": "mekanism:basicblock:3"
     },
     {
         "energy": 2000,
@@ -3025,7 +3025,7 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:plasticblock3"
+        "id": "mekanism:plasticblock:3"
     },
     {
         "energy": 6000,
@@ -3037,7 +3037,7 @@
     },
     {
         "energy": 6000,
-        "id": "twilightforest:tower_device10"
+        "id": "twilightforest:tower_device:10"
     },
     {
         "energy": 6000,
@@ -3053,7 +3053,7 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:plasticblock15"
+        "id": "mekanism:plasticblock:15"
     },
     {
         "energy": 6000,
@@ -3073,7 +3073,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframesimple6"
+        "id": "bibliocraft:paintingframesimple:6"
     },
     {
         "energy": 6000,
@@ -3081,7 +3081,7 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:roadplasticblock3"
+        "id": "mekanism:roadplasticblock:3"
     },
     {
         "energy": 6000,
@@ -3089,11 +3089,11 @@
     },
     {
         "energy": 6000,
-        "id": "minecraft:log3"
+        "id": "minecraft:log:3"
     },
     {
         "energy": 16000,
-        "id": "thermalfoundation:material832"
+        "id": "thermalfoundation:material:832"
     },
     {
         "energy": 6000,
@@ -3105,7 +3105,7 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:plasticblock1"
+        "id": "mekanism:plasticblock:1"
     },
     {
         "energy": 6000,
@@ -3117,11 +3117,11 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:reinforcedplasticblock2"
+        "id": "mekanism:reinforcedplasticblock:2"
     },
     {
         "energy": 6000,
-        "id": "minecraft:log21"
+        "id": "minecraft:log2:1"
     },
     {
         "energy": 6000,
@@ -3141,23 +3141,23 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal14"
+        "id": "chisel:block_coal:14"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal16"
+        "id": "chisel:block_charcoal:16"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:framedchest4"
+        "id": "bibliocraft:framedchest:4"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:fancysign5"
+        "id": "bibliocraft:fancysign:5"
     },
     {
         "energy": 2000,
-        "id": "twilightforest:twilight_sapling3"
+        "id": "twilightforest:twilight_sapling:3"
     },
     {
         "energy": 6000,
@@ -3165,7 +3165,7 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:glowplasticblock6"
+        "id": "mekanism:glowplasticblock:6"
     },
     {
         "energy": 6000,
@@ -3173,7 +3173,7 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:plasticblock5"
+        "id": "mekanism:plasticblock:5"
     },
     {
         "energy": 6000,
@@ -3197,7 +3197,7 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal14"
+        "id": "chisel:block_coal:14"
     },
     {
         "energy": 6000,
@@ -3205,27 +3205,27 @@
     },
     {
         "energy": 6000,
-        "id": "chineseworkshop:thatch_roof_tile_edge1"
+        "id": "chineseworkshop:thatch_roof_tile_edge:1"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_oak3"
+        "id": "chisel:bookshelf_oak:3"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:framedchest3"
+        "id": "bibliocraft:framedchest:3"
     },
     {
         "energy": 32000,
-        "id": "nuclearcraft:gem_dust7"
+        "id": "nuclearcraft:gem_dust:7"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal115"
+        "id": "chisel:block_charcoal:115"
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke15"
+        "id": "chisel:block_coal_coke:15"
     },
     {
         "energy": 6000,
@@ -3233,11 +3233,11 @@
     },
     {
         "energy": 1280,
-        "id": "minecraft:carpet3"
+        "id": "minecraft:carpet:3"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal13"
+        "id": "chisel:block_coal:13"
     },
     {
         "energy": 6000,
@@ -3253,7 +3253,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_darkoak6"
+        "id": "chisel:bookshelf_darkoak:6"
     },
     {
         "energy": 6000,
@@ -3261,27 +3261,27 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_oak2"
+        "id": "chisel:bookshelf_oak:2"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal5"
+        "id": "chisel:block_charcoal:5"
     },
     {
         "energy": 2000,
-        "id": "minecraft:sapling4"
+        "id": "minecraft:sapling:4"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_oak1"
+        "id": "chisel:bookshelf_oak:1"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:table3"
+        "id": "bibliocraft:table:3"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframeborderless5"
+        "id": "bibliocraft:paintingframeborderless:5"
     },
     {
         "energy": 6000,
@@ -3289,15 +3289,15 @@
     },
     {
         "energy": 2000,
-        "id": "tconstruct:slime_sapling2"
+        "id": "tconstruct:slime_sapling:2"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-spruce8"
+        "id": "chisel:planks-spruce:8"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:fancysign2"
+        "id": "bibliocraft:fancysign:2"
     },
     {
         "energy": 6000,
@@ -3313,7 +3313,7 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke112"
+        "id": "chisel:block_coal_coke:112"
     },
     {
         "energy": 6000,
@@ -3329,7 +3329,7 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:roadplasticblock12"
+        "id": "mekanism:roadplasticblock:12"
     },
     {
         "energy": 4000,
@@ -3345,15 +3345,15 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal13"
+        "id": "chisel:block_charcoal:13"
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke12"
+        "id": "chisel:block_coal_coke:12"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_oak7"
+        "id": "chisel:bookshelf_oak:7"
     },
     {
         "energy": 6000,
@@ -3369,7 +3369,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:fancysign6"
+        "id": "bibliocraft:fancysign:6"
     },
     {
         "energy": 6000,
@@ -3381,19 +3381,19 @@
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar_base11"
+        "id": "totemic:wooden_pillar_base:11"
     },
     {
         "energy": 2000,
-        "id": "twilightforest:twilight_sapling4"
+        "id": "twilightforest:twilight_sapling:4"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-spruce4"
+        "id": "chisel:planks-spruce:4"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:seat5"
+        "id": "bibliocraft:seat:5"
     },
     {
         "energy": 6000,
@@ -3401,19 +3401,19 @@
     },
     {
         "energy": 6000,
-        "id": "tconstruct:tooltables3"
+        "id": "tconstruct:tooltables:3"
     },
     {
         "energy": 6000,
-        "id": "minecraft:planks1"
+        "id": "minecraft:planks:1"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_spruce7"
+        "id": "chisel:bookshelf_spruce:7"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_birch3"
+        "id": "chisel:bookshelf_birch:3"
     },
     {
         "energy": 4000,
@@ -3421,7 +3421,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframeborderless6"
+        "id": "bibliocraft:paintingframeborderless:6"
     },
     {
         "energy": 6000,
@@ -3445,27 +3445,27 @@
     },
     {
         "energy": 2000,
-        "id": "minecraft:wool2"
+        "id": "minecraft:wool:2"
     },
     {
         "energy": 6000,
-        "id": "inspirations:mulch4"
+        "id": "inspirations:mulch:4"
     },
     {
         "energy": 6000,
-        "id": "mekanism:reinforcedplasticblock6"
+        "id": "mekanism:reinforcedplasticblock:6"
     },
     {
         "energy": 6000,
-        "id": "mekanism:plasticblock2"
+        "id": "mekanism:plasticblock:2"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal9"
+        "id": "chisel:block_coal:9"
     },
     {
         "energy": 1608000,
-        "id": "projecte:fuel_block1"
+        "id": "projecte:fuel_block:1"
     },
     {
         "energy": 2000,
@@ -3473,7 +3473,7 @@
     },
     {
         "energy": 6000,
-        "id": "minecraft:log1"
+        "id": "minecraft:log:1"
     },
     {
         "energy": 6000,
@@ -3481,7 +3481,7 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:roadplasticblock9"
+        "id": "mekanism:roadplasticblock:9"
     },
     {
         "energy": 6000,
@@ -3513,7 +3513,7 @@
     },
     {
         "energy": 96000,
-        "id": "mysticalagriculture:coal1"
+        "id": "mysticalagriculture:coal:1"
     },
     {
         "energy": 6000,
@@ -3521,11 +3521,11 @@
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar_base8"
+        "id": "totemic:wooden_pillar_base:8"
     },
     {
         "energy": 2000,
-        "id": "minecraft:sapling2"
+        "id": "minecraft:sapling:2"
     },
     {
         "energy": 6000,
@@ -3533,11 +3533,11 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:desk3"
+        "id": "bibliocraft:desk:3"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:case3"
+        "id": "bibliocraft:case:3"
     },
     {
         "energy": 6000,
@@ -3545,11 +3545,11 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke110"
+        "id": "chisel:block_coal_coke:110"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-acacia10"
+        "id": "chisel:planks-acacia:10"
     },
     {
         "energy": 6000,
@@ -3565,11 +3565,11 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:slickplasticblock9"
+        "id": "mekanism:slickplasticblock:9"
     },
     {
         "energy": 6000,
-        "id": "twilightforest:magic_log2"
+        "id": "twilightforest:magic_log:2"
     },
     {
         "energy": 6000,
@@ -3577,7 +3577,7 @@
     },
     {
         "energy": 2000,
-        "id": "minecraft:wool13"
+        "id": "minecraft:wool:13"
     },
     {
         "energy": 6000,
@@ -3585,19 +3585,19 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:bookcase6"
+        "id": "bibliocraft:bookcase:6"
     },
     {
         "energy": 2000,
-        "id": "minecraft:leaves21"
+        "id": "minecraft:leaves:21"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_jungle1"
+        "id": "chisel:bookshelf_jungle:1"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:table4"
+        "id": "bibliocraft:table:4"
     },
     {
         "energy": 6000,
@@ -3613,7 +3613,7 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal13"
+        "id": "chisel:block_coal:13"
     },
     {
         "energy": 6000,
@@ -3621,15 +3621,11 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:furniturepaneler2"
+        "id": "bibliocraft:furniturepaneler:2"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-birch14"
-    },
-    {
-        "energy": 6000,
-        "id": "horsepower:chopping_block"
+        "id": "chisel:planks-birch:14"
     },
     {
         "energy": 6000,
@@ -3637,11 +3633,15 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-spruce2"
+        "id": "horsepower:chopping_block"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_spruce1"
+        "id": "chisel:planks-spruce:2"
+    },
+    {
+        "energy": 6000,
+        "id": "chisel:bookshelf_spruce:1"
     },
     {
         "energy": 6000,
@@ -3653,7 +3653,7 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal112"
+        "id": "chisel:block_charcoal:112"
     },
     {
         "energy": 6000,
@@ -3661,7 +3661,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:shelf3"
+        "id": "bibliocraft:shelf:3"
     },
     {
         "energy": 6000,
@@ -3685,15 +3685,15 @@
     },
     {
         "energy": 1280,
-        "id": "minecraft:carpet9"
+        "id": "minecraft:carpet:9"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_spruce6"
+        "id": "chisel:bookshelf_spruce:6"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:seat1"
+        "id": "bibliocraft:seat:1"
     },
     {
         "energy": 6000,
@@ -3713,15 +3713,15 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:slickplasticblock1"
+        "id": "mekanism:slickplasticblock:1"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-dark-oak8"
+        "id": "chisel:planks-dark-oak:8"
     },
     {
         "energy": 6000,
-        "id": "mekanism:reinforcedplasticblock14"
+        "id": "mekanism:reinforcedplasticblock:14"
     },
     {
         "energy": 6000,
@@ -3729,7 +3729,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-dark-oak10"
+        "id": "chisel:planks-dark-oak:10"
     },
     {
         "energy": 6000,
@@ -3741,27 +3741,27 @@
     },
     {
         "energy": 6000,
-        "id": "astralsorcery:blockinfusedwood2"
+        "id": "astralsorcery:blockinfusedwood:2"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal10"
+        "id": "chisel:block_charcoal:10"
     },
     {
         "energy": 6000,
-        "id": "tconstruct:rack1"
+        "id": "tconstruct:rack:1"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-oak14"
+        "id": "chisel:planks-oak:14"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:bookcasecreative4"
+        "id": "bibliocraft:bookcasecreative:4"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:clock1"
+        "id": "bibliocraft:clock:1"
     },
     {
         "energy": 6000,
@@ -3773,15 +3773,15 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:furniturepaneler1"
+        "id": "bibliocraft:furniturepaneler:1"
     },
     {
         "energy": 2000,
-        "id": "minecraft:sapling5"
+        "id": "minecraft:sapling:5"
     },
     {
         "energy": 6000,
-        "id": "mekanism:reinforcedplasticblock11"
+        "id": "mekanism:reinforcedplasticblock:11"
     },
     {
         "energy": 6000,
@@ -3793,7 +3793,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:desk1"
+        "id": "bibliocraft:desk:1"
     },
     {
         "energy": 6000,
@@ -3805,11 +3805,11 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-birch11"
+        "id": "chisel:planks-birch:11"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:framedchest2"
+        "id": "bibliocraft:framedchest:2"
     },
     {
         "energy": 6000,
@@ -3817,7 +3817,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-jungle8"
+        "id": "chisel:planks-jungle:8"
     },
     {
         "energy": 6000,
@@ -3829,11 +3829,11 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-oak11"
+        "id": "chisel:planks-oak:11"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-oak6"
+        "id": "chisel:planks-oak:6"
     },
     {
         "energy": 6000,
@@ -3841,23 +3841,23 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:slickplasticblock10"
+        "id": "mekanism:slickplasticblock:10"
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar_base7"
+        "id": "totemic:wooden_pillar_base:7"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_spruce2"
+        "id": "chisel:bookshelf_spruce:2"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal16"
+        "id": "chisel:block_coal:16"
     },
     {
         "energy": 6000,
-        "id": "twilightforest:magic_log_core3"
+        "id": "twilightforest:magic_log_core:3"
     },
     {
         "energy": 6000,
@@ -3873,7 +3873,7 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal8"
+        "id": "chisel:block_coal:8"
     },
     {
         "energy": 6000,
@@ -3881,7 +3881,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframemiddle4"
+        "id": "bibliocraft:paintingframemiddle:4"
     },
     {
         "energy": 6000,
@@ -3889,7 +3889,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:shelf4"
+        "id": "bibliocraft:shelf:4"
     },
     {
         "energy": 6000,
@@ -3897,15 +3897,15 @@
     },
     {
         "energy": 1280,
-        "id": "minecraft:carpet11"
+        "id": "minecraft:carpet:11"
     },
     {
         "energy": 1280,
-        "id": "minecraft:carpet13"
+        "id": "minecraft:carpet:13"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-spruce3"
+        "id": "chisel:planks-spruce:3"
     },
     {
         "energy": 6000,
@@ -3913,11 +3913,11 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal15"
+        "id": "chisel:block_charcoal:15"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_birch2"
+        "id": "chisel:bookshelf_birch:2"
     },
     {
         "energy": 6000,
@@ -3929,19 +3929,19 @@
     },
     {
         "energy": 6000,
-        "id": "minecraft:log2"
+        "id": "minecraft:log:2"
     },
     {
         "energy": 6000,
-        "id": "mekanism:roadplasticblock5"
+        "id": "mekanism:roadplasticblock:5"
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke15"
+        "id": "chisel:block_coal_coke:15"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_birch5"
+        "id": "chisel:bookshelf_birch:5"
     },
     {
         "energy": 6000,
@@ -3953,7 +3953,7 @@
     },
     {
         "energy": 1280,
-        "id": "minecraft:carpet2"
+        "id": "minecraft:carpet:2"
     },
     {
         "energy": 4000,
@@ -3961,7 +3961,7 @@
     },
     {
         "energy": 2000,
-        "id": "twilightforest:twilight_sapling1"
+        "id": "twilightforest:twilight_sapling:1"
     },
     {
         "energy": 6000,
@@ -3973,11 +3973,11 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-spruce7"
+        "id": "chisel:planks-spruce:7"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-acacia8"
+        "id": "chisel:planks-acacia:8"
     },
     {
         "energy": 6000,
@@ -3985,7 +3985,7 @@
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar13"
+        "id": "totemic:wooden_pillar:13"
     },
     {
         "energy": 6000,
@@ -4025,11 +4025,11 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframeflat3"
+        "id": "bibliocraft:paintingframeflat:3"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal4"
+        "id": "chisel:block_charcoal:4"
     },
     {
         "energy": 6000,
@@ -4037,7 +4037,7 @@
     },
     {
         "energy": 6000,
-        "id": "malisisdoors:big_door_oak_3x3"
+        "id": "malisisdoors:big_door_oak_3x:3"
     },
     {
         "energy": 6000,
@@ -4049,7 +4049,7 @@
     },
     {
         "energy": 1280,
-        "id": "minecraft:carpet10"
+        "id": "minecraft:carpet:10"
     },
     {
         "energy": 6000,
@@ -4057,7 +4057,7 @@
     },
     {
         "energy": 6000,
-        "id": "twilightforest:tower_device5"
+        "id": "twilightforest:tower_device:5"
     },
     {
         "energy": 6000,
@@ -4065,11 +4065,11 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal7"
+        "id": "chisel:block_coal:7"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-dark-oak9"
+        "id": "chisel:planks-dark-oak:9"
     },
     {
         "energy": 6000,
@@ -4081,15 +4081,15 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:slickplasticblock2"
+        "id": "mekanism:slickplasticblock:2"
     },
     {
         "energy": 6000,
-        "id": "tconstruct:firewood_slab1"
+        "id": "tconstruct:firewood_slab:1"
     },
     {
         "energy": 6000,
-        "id": "tconstruct:tooltables1"
+        "id": "tconstruct:tooltables:1"
     },
     {
         "energy": 6000,
@@ -4097,7 +4097,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-spruce10"
+        "id": "chisel:planks-spruce:10"
     },
     {
         "energy": 6000,
@@ -4105,27 +4105,27 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke11"
+        "id": "chisel:block_coal_coke:11"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-birch13"
+        "id": "chisel:planks-birch:13"
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke9"
+        "id": "chisel:block_coal_coke:9"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:case2"
+        "id": "bibliocraft:case:2"
     },
     {
         "energy": 6000,
-        "id": "twilightforest:tower_wood3"
+        "id": "twilightforest:tower_wood:3"
     },
     {
         "energy": 6000,
-        "id": "astralsorcery:blockinfusedwood1"
+        "id": "astralsorcery:blockinfusedwood:1"
     },
     {
         "energy": 6000,
@@ -4141,15 +4141,15 @@
     },
     {
         "energy": 6000,
-        "id": "minecraft:banner1"
+        "id": "minecraft:banner:1"
     },
     {
         "energy": 6000,
-        "id": "mekanism:roadplasticblock11"
+        "id": "mekanism:roadplasticblock:11"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:potionshelf6"
+        "id": "bibliocraft:potionshelf:6"
     },
     {
         "energy": 2960,
@@ -4157,7 +4157,7 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:reinforcedplasticblock1"
+        "id": "mekanism:reinforcedplasticblock:1"
     },
     {
         "energy": 6000,
@@ -4169,15 +4169,15 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:seat4"
+        "id": "bibliocraft:seat:4"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-dark-oak2"
+        "id": "chisel:planks-dark-oak:2"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:clock6"
+        "id": "bibliocraft:clock:6"
     },
     {
         "energy": 6000,
@@ -4185,19 +4185,19 @@
     },
     {
         "energy": 6000,
-        "id": "twilightforest:tower_wood4"
+        "id": "twilightforest:tower_wood:4"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-spruce6"
+        "id": "chisel:planks-spruce:6"
     },
     {
         "energy": 6000,
-        "id": "mekanism:roadplasticblock13"
+        "id": "mekanism:roadplasticblock:13"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:potionshelf4"
+        "id": "bibliocraft:potionshelf:4"
     },
     {
         "energy": 6000,
@@ -4209,7 +4209,7 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:plasticblock14"
+        "id": "mekanism:plasticblock:14"
     },
     {
         "energy": 6000,
@@ -4225,7 +4225,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-birch8"
+        "id": "chisel:planks-birch:8"
     },
     {
         "energy": 6000,
@@ -4233,7 +4233,7 @@
     },
     {
         "energy": 4000,
-        "id": "pickletweaks:coal_piece1"
+        "id": "pickletweaks:coal_piece:1"
     },
     {
         "energy": 6000,
@@ -4245,11 +4245,11 @@
     },
     {
         "energy": 6000,
-        "id": "astralsorcery:blockinfusedwood6"
+        "id": "astralsorcery:blockinfusedwood:6"
     },
     {
         "energy": 6000,
-        "id": "chineseworkshop:thatch_roof_tile_edge_slab1"
+        "id": "chineseworkshop:thatch_roof_tile_edge_slab:1"
     },
     {
         "energy": 6000,
@@ -4261,15 +4261,15 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:glowplasticblock9"
+        "id": "mekanism:glowplasticblock:9"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_jungle6"
+        "id": "chisel:bookshelf_jungle:6"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframemiddle2"
+        "id": "bibliocraft:paintingframemiddle:2"
     },
     {
         "energy": 6000,
@@ -4281,7 +4281,7 @@
     },
     {
         "energy": 16000,
-        "id": "thermalfoundation:material833"
+        "id": "thermalfoundation:material:833"
     },
     {
         "energy": 6000,
@@ -4293,7 +4293,7 @@
     },
     {
         "energy": 192000,
-        "id": "mysticalagriculture:coal2"
+        "id": "mysticalagriculture:coal:2"
     },
     {
         "energy": 6000,
@@ -4305,7 +4305,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-dark-oak6"
+        "id": "chisel:planks-dark-oak:6"
     },
     {
         "energy": 6000,
@@ -4313,15 +4313,15 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-jungle11"
+        "id": "chisel:planks-jungle:11"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal18"
+        "id": "chisel:block_charcoal:18"
     },
     {
         "energy": 6000,
-        "id": "inspirations:mulch2"
+        "id": "inspirations:mulch:2"
     },
     {
         "energy": 2000,
@@ -4333,15 +4333,15 @@
     },
     {
         "energy": 6000,
-        "id": "mekanism:slickplasticblock6"
+        "id": "mekanism:slickplasticblock:6"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-dark-oak3"
+        "id": "chisel:planks-dark-oak:3"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal1"
+        "id": "chisel:block_charcoal:1"
     },
     {
         "energy": 6000,
@@ -4353,7 +4353,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_jungle3"
+        "id": "chisel:bookshelf_jungle:3"
     },
     {
         "energy": 6000,
@@ -4365,15 +4365,15 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-birch7"
+        "id": "chisel:planks-birch:7"
     },
     {
         "energy": 6000,
-        "id": "twilightforest:twilight_log3"
+        "id": "twilightforest:twilight_log:3"
     },
     {
         "energy": 6000,
-        "id": "mekanism:reinforcedplasticblock5"
+        "id": "mekanism:reinforcedplasticblock:5"
     },
     {
         "energy": 6000,
@@ -4393,7 +4393,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframeflat5"
+        "id": "bibliocraft:paintingframeflat:5"
     },
     {
         "energy": 6000,
@@ -4401,7 +4401,7 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal111"
+        "id": "chisel:block_charcoal:111"
     },
     {
         "energy": 6000,
@@ -4433,7 +4433,7 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke14"
+        "id": "chisel:block_coal_coke:14"
     },
     {
         "energy": 6000,
@@ -4441,7 +4441,7 @@
     },
     {
         "energy": 2000,
-        "id": "minecraft:tallgrass1"
+        "id": "minecraft:tallgrass:1"
     },
     {
         "energy": 6000,
@@ -4449,7 +4449,7 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke18"
+        "id": "chisel:block_coal_coke:18"
     },
     {
         "energy": 6000,
@@ -4457,7 +4457,7 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke2"
+        "id": "chisel:block_coal_coke:2"
     },
     {
         "energy": 6000,
@@ -4465,15 +4465,15 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_birch7"
+        "id": "chisel:bookshelf_birch:7"
     },
     {
         "energy": 6000,
-        "id": "malisisdoors:big_door_spruce_3x3"
+        "id": "malisisdoors:big_door_spruce_3x:3"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal11"
+        "id": "chisel:block_charcoal:11"
     },
     {
         "energy": 6000,
@@ -4485,11 +4485,11 @@
     },
     {
         "energy": 6000,
-        "id": "minecraft:banner6"
+        "id": "minecraft:banner:6"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-acacia12"
+        "id": "chisel:planks-acacia:12"
     },
     {
         "energy": 6000,
@@ -4497,19 +4497,19 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-birch10"
+        "id": "chisel:planks-birch:10"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:fancyworkbench4"
+        "id": "bibliocraft:fancyworkbench:4"
     },
     {
         "energy": 6000,
-        "id": "enderutilities:floor1"
+        "id": "enderutilities:floor:1"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:bookcase4"
+        "id": "bibliocraft:bookcase:4"
     },
     {
         "energy": 6000,
@@ -4521,7 +4521,7 @@
     },
     {
         "energy": 6912000,
-        "id": "mysticalagriculture:coal_block4"
+        "id": "mysticalagriculture:coal_block:4"
     },
     {
         "energy": 6000,
@@ -4529,15 +4529,15 @@
     },
     {
         "energy": 6000,
-        "id": "minecraft:banner9"
+        "id": "minecraft:banner:9"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframefancy6"
+        "id": "bibliocraft:paintingframefancy:6"
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke115"
+        "id": "chisel:block_coal_coke:115"
     },
     {
         "energy": 6000,
@@ -4545,7 +4545,7 @@
     },
     {
         "energy": 2000,
-        "id": "minecraft:wool10"
+        "id": "minecraft:wool:10"
     },
     {
         "energy": 6000,
@@ -4553,19 +4553,19 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-birch5"
+        "id": "chisel:planks-birch:5"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:label4"
+        "id": "bibliocraft:label:4"
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar11"
+        "id": "totemic:wooden_pillar:11"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-dark-oak7"
+        "id": "chisel:planks-dark-oak:7"
     },
     {
         "energy": 6000,
@@ -4593,7 +4593,7 @@
     },
     {
         "energy": 6000,
-        "id": "inspirations:bookshelf2"
+        "id": "inspirations:bookshelf:2"
     },
     {
         "energy": 6000,
@@ -4601,11 +4601,11 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke13"
+        "id": "chisel:block_coal_coke:13"
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke114"
+        "id": "chisel:block_coal_coke:114"
     },
     {
         "energy": 4000,
@@ -4613,7 +4613,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-acacia5"
+        "id": "chisel:planks-acacia:5"
     },
     {
         "energy": 6000,
@@ -4621,7 +4621,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_acacia7"
+        "id": "chisel:bookshelf_acacia:7"
     },
     {
         "energy": 6000,
@@ -4641,11 +4641,11 @@
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal113"
+        "id": "chisel:block_charcoal:113"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_coal110"
+        "id": "chisel:block_coal:110"
     },
     {
         "energy": 6000,
@@ -4661,19 +4661,19 @@
     },
     {
         "energy": 640000,
-        "id": "chisel:block_coal_coke5"
+        "id": "chisel:block_coal_coke:5"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-acacia6"
+        "id": "chisel:planks-acacia:6"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:clock3"
+        "id": "bibliocraft:clock:3"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:mapframe6"
+        "id": "bibliocraft:mapframe:6"
     },
     {
         "energy": 6000,
@@ -4693,27 +4693,27 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_acacia6"
+        "id": "chisel:bookshelf_acacia:6"
     },
     {
         "energy": 6000,
-        "id": "mekanism:plasticblock12"
+        "id": "mekanism:plasticblock:12"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-spruce9"
+        "id": "chisel:planks-spruce:9"
     },
     {
         "energy": 6000,
-        "id": "totemic:wooden_pillar12"
+        "id": "totemic:wooden_pillar:12"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_birch4"
+        "id": "chisel:bookshelf_birch:4"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_jungle9"
+        "id": "chisel:bookshelf_jungle:9"
     },
     {
         "energy": 6000,
@@ -4729,7 +4729,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframesimple2"
+        "id": "bibliocraft:paintingframesimple:2"
     },
     {
         "energy": 6000,
@@ -4745,27 +4745,27 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:fancyworkbench3"
+        "id": "bibliocraft:fancyworkbench:3"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal17"
+        "id": "chisel:block_charcoal:17"
     },
     {
         "energy": 6000,
-        "id": "mekanism:glowplasticblock12"
+        "id": "mekanism:glowplasticblock:12"
     },
     {
         "energy": 6000,
-        "id": "mekanism:glowplasticblock11"
+        "id": "mekanism:glowplasticblock:11"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-acacia11"
+        "id": "chisel:planks-acacia:11"
     },
     {
         "energy": 2000,
-        "id": "twilightforest:twilight_leaves_3"
+        "id": "twilightforest:twilight_leaves_:3"
     },
     {
         "energy": 6000,
@@ -4773,7 +4773,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_jungle2"
+        "id": "chisel:bookshelf_jungle:2"
     },
     {
         "energy": 4000,
@@ -4781,7 +4781,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_darkoak8"
+        "id": "chisel:bookshelf_darkoak:8"
     },
     {
         "energy": 6000,
@@ -4797,15 +4797,15 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-oak10"
+        "id": "chisel:planks-oak:10"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:armorstand4"
+        "id": "bibliocraft:armorstand:4"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:bookcasecreative2"
+        "id": "bibliocraft:bookcasecreative:2"
     },
     {
         "energy": 6000,
@@ -4813,7 +4813,7 @@
     },
     {
         "energy": 1280,
-        "id": "minecraft:carpet12"
+        "id": "minecraft:carpet:12"
     },
     {
         "energy": 6000,
@@ -4821,7 +4821,7 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-spruce11"
+        "id": "chisel:planks-spruce:11"
     },
     {
         "energy": 6000,
@@ -4829,7 +4829,7 @@
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:paintingframeborderless2"
+        "id": "bibliocraft:paintingframeborderless:2"
     },
     {
         "energy": 6000,
@@ -4841,11 +4841,11 @@
     },
     {
         "energy": 1280,
-        "id": "minecraft:carpet8"
+        "id": "minecraft:carpet:8"
     },
     {
         "energy": 2000,
-        "id": "twilightforest:magic_leaves1"
+        "id": "twilightforest:magic_leaves:1"
     },
     {
         "energy": 4000,
@@ -4857,11 +4857,11 @@
     },
     {
         "energy": 6000,
-        "id": "twilightforest:twilight_log1"
+        "id": "twilightforest:twilight_log:1"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:case6"
+        "id": "bibliocraft:case:6"
     },
     {
         "energy": 6000,
@@ -4869,11 +4869,11 @@
     },
     {
         "energy": 13824000,
-        "id": "mysticalagradditions:storage2"
+        "id": "mysticalagradditions:storage:2"
     },
     {
         "energy": 6000,
-        "id": "chisel:planks-jungle12"
+        "id": "chisel:planks-jungle:12"
     },
     {
         "energy": 6000,
@@ -4885,35 +4885,35 @@
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_darkoak9"
+        "id": "chisel:bookshelf_darkoak:9"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal21"
+        "id": "chisel:block_charcoal:21"
     },
     {
         "energy": 6000,
-        "id": "chisel:bookshelf_jungle8"
+        "id": "chisel:bookshelf_jungle:8"
     },
     {
         "energy": 6000,
-        "id": "mekanism:slickplasticblock12"
+        "id": "mekanism:slickplasticblock:12"
     },
     {
         "energy": 320000,
-        "id": "chisel:block_charcoal110"
+        "id": "chisel:block_charcoal:110"
     },
     {
         "energy": 6000,
-        "id": "bibliocraft:bookcasecreative1"
+        "id": "bibliocraft:bookcasecreative:1"
     },
     {
         "energy": 2000,
-        "id": "minecraft:leaves2"
+        "id": "minecraft:leaves:2"
     },
     {
         "energy": 6000,
-        "id": "twilightforest:tower_wood2"
+        "id": "twilightforest:tower_wood:2"
     },
     {
         "energy": 350000000,

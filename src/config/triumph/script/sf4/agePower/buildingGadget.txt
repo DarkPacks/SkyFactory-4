@@ -10,7 +10,7 @@ drawDirectLines(true)
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem(<buildinggadgets:buildingtool>)
+criteria.addItem(<buildinggadgets:buildingtool>)
 
 //Rewards
 setRewardExperience(4)

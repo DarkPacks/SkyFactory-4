@@ -102,4 +102,6 @@ function init() {
 	integratedDynamics.addSqueezer(false, <resourcehogs:bacon>.withTag({ResourceType: "boron"}), <nuclearcraft:dust:5> * 1, null);
 	integratedDynamics.addSqueezer(false, <resourcehogs:bacon>.withTag({ResourceType: "emerald"}), <minecraft:emerald> * 1, null);
 	integratedDynamics.addSqueezer(false, <resourcehogs:bacon>.withTag({ResourceType: "redstone"}), <minecraft:redstone> * 1, null);
+	integratedDynamics.addSqueezer(false, <sky_orchards:amber_cottonwood>, <minecraft:wool>, null);
+	integratedDynamics.addSqueezer(false, <sky_orchards:acorn_cottonwood>, <minecraft:string>, null);
 }

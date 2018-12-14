@@ -89,7 +89,7 @@
     },
     {
         "energy": 144000,
-        "id": "tconstruct:edible14"
+        "id": "tconstruct:edible:14"
     },
     {
         "energy": 4800,
@@ -169,7 +169,7 @@
     },
     {
         "energy": 4800,
-        "id": "minecraft:fish1"
+        "id": "minecraft:fish:1"
     },
     {
         "energy": 144000,
@@ -205,7 +205,7 @@
     },
     {
         "energy": 115200,
-        "id": "minecraft:cooked_fish1"
+        "id": "minecraft:cooked_fish:1"
     },
     {
         "energy": 14400,
@@ -225,7 +225,7 @@
     },
     {
         "energy": 192000,
-        "id": "tconstruct:edible11"
+        "id": "tconstruct:edible:11"
     },
     {
         "energy": 72000,
@@ -257,7 +257,7 @@
     },
     {
         "energy": 0,
-        "id": "matteroverdrive:android_pill1"
+        "id": "matteroverdrive:android_pill:1"
     },
     {
         "energy": 9600,
@@ -313,7 +313,7 @@
     },
     {
         "energy": 57600,
-        "id": "tconstruct:edible22"
+        "id": "tconstruct:edible:22"
     },
     {
         "energy": 86400,
@@ -329,7 +329,7 @@
     },
     {
         "energy": 72000,
-        "id": "tconstruct:edible31"
+        "id": "tconstruct:edible:31"
     },
     {
         "energy": 57600,
@@ -337,7 +337,7 @@
     },
     {
         "energy": 144000,
-        "id": "tconstruct:edible21"
+        "id": "tconstruct:edible:21"
     },
     {
         "energy": 4800,
@@ -349,7 +349,7 @@
     },
     {
         "energy": 192000,
-        "id": "tconstruct:edible13"
+        "id": "tconstruct:edible:13"
     },
     {
         "energy": 9600,
@@ -517,7 +517,7 @@
     },
     {
         "energy": 144000,
-        "id": "tconstruct:edible32"
+        "id": "tconstruct:edible:32"
     },
     {
         "energy": 172800,
@@ -533,7 +533,7 @@
     },
     {
         "energy": 57600,
-        "id": "tconstruct:edible23"
+        "id": "tconstruct:edible:23"
     },
     {
         "energy": 28800,
@@ -577,7 +577,7 @@
     },
     {
         "energy": 96000,
-        "id": "tconstruct:edible20"
+        "id": "tconstruct:edible:20"
     },
     {
         "energy": 101010,
@@ -633,15 +633,15 @@
     },
     {
         "energy": 24000,
-        "id": "tconstruct:edible30"
+        "id": "tconstruct:edible:30"
     },
     {
         "energy": 144000,
-        "id": "tconstruct:edible34"
+        "id": "tconstruct:edible:34"
     },
     {
         "energy": 115200,
-        "id": "tconstruct:edible12"
+        "id": "tconstruct:edible:12"
     },
     {
         "energy": 19200,
@@ -661,11 +661,11 @@
     },
     {
         "energy": 38400,
-        "id": "tconstruct:edible10"
+        "id": "tconstruct:edible:10"
     },
     {
         "energy": 115200,
-        "id": "minecraft:golden_apple1"
+        "id": "minecraft:golden_apple:1"
     },
     {
         "energy": 14400,
@@ -725,11 +725,11 @@
     },
     {
         "energy": 2400,
-        "id": "minecraft:fish2"
+        "id": "minecraft:fish:2"
     },
     {
         "energy": 36000,
-        "id": "tconstruct:edible3"
+        "id": "tconstruct:edible:3"
     },
     {
         "energy": 14400,
@@ -761,7 +761,7 @@
     },
     {
         "energy": 2400,
-        "id": "minecraft:fish3"
+        "id": "minecraft:fish:3"
     },
     {
         "energy": 115200,
@@ -773,11 +773,11 @@
     },
     {
         "energy": 28800,
-        "id": "twilightforest:experiment_115"
+        "id": "twilightforest:experiment_:115"
     },
     {
         "energy": 108000,
-        "id": "tconstruct:edible33"
+        "id": "tconstruct:edible:33"
     },
     {
         "energy": 144000,
@@ -801,7 +801,7 @@
     },
     {
         "energy": 24000,
-        "id": "tconstruct:edible1"
+        "id": "tconstruct:edible:1"
     },
     {
         "energy": 25199,
@@ -829,7 +829,7 @@
     },
     {
         "energy": 96000,
-        "id": "tconstruct:edible15"
+        "id": "tconstruct:edible:15"
     },
     {
         "energy": 57600,
@@ -917,7 +917,7 @@
     },
     {
         "energy": 48000,
-        "id": "tconstruct:edible4"
+        "id": "tconstruct:edible:4"
     },
     {
         "energy": 4800,

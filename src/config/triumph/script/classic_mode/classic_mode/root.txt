@@ -17,8 +17,6 @@ criteria = addCriteria("superflat", "minecraft:location")
 criteria.setGeneratorOptions({"Topography-Preset":"Sky Factory Classic Mode"})
 
 //Rewards
-setRewardFunction("triumph:prestige_add")
-setRewardFunction("triumph:startingItems")
 setRewardFunction("triumph:classic_mode")
 setRewardFunction("triumph:forgiving_void_enable")
 

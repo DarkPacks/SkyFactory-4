@@ -10,13 +10,13 @@ drawDirectLines(true)
 
 //Criteria
 criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
-criteria1.setItem(<slabmachines:crafting_station_slab>)
+criteria1.addItem(<slabmachines:crafting_station_slab>)
 criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
-criteria2.setItem(<slabmachines:chest_slab>)
+criteria2.addItem(<slabmachines:chest_slab>)
 criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
-criteria3.setItem(<slabmachines:furnace_slab>)
+criteria3.addItem(<slabmachines:furnace_slab>)
 criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
-criteria4.setItem(<slabmachines:workbench_slab>)
+criteria4.addItem(<slabmachines:workbench_slab>)
 
 
 setRequirements("any")

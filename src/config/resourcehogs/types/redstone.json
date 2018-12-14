@@ -12,7 +12,11 @@
   "validDimensions": [
     -1,
     0,
-    1
+    1,
+    7,
+    111,
+    144,
+    28885
   ],
   "maxHealth": 15.0,
   "movementSpeed": 0.75,

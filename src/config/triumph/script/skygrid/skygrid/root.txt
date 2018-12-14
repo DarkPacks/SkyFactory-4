@@ -21,5 +21,4 @@ criteria.setWorldType("skygrid")
 
 
 //Rewards
-setRewardFunction("triumph:prestige_add")
 setRewardFunction("triumph:skygrid_start")
