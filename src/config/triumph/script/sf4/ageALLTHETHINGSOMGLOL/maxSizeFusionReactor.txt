@@ -1,0 +1,17 @@
+setTitle("Max Size Fusion Reactor")
+
+setIcon(<nuclearcraft:fusion_electromagnet_idle>)
+
+setDescription("Build a Max Size 24 Nuclearcraft Fusion Reactor")
+
+setParent("sf4:ageALLTHETHINGSOMGLOL/root")
+
+hideLines()
+alwaysVisible()
+
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock(<nuclearcraft:fusion_core, tile:{size:24}>)
+
+//Rewards
+setRewardExperience(4)
+setPos(-137,-49)

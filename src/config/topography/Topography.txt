@@ -26,7 +26,7 @@ SF4.registerDimension(-1, "SF4/nether_hedge_maze")
 
 SF4 = registerPreset("Stone Factory", "images/EncasedStonemk2", "Traditional Sky Factory Tree surrounded by stone")
 SF4.registerDimension(0, "SF4/stone_cage")
-SF4.registerDimension(-1, "SF4/cell_nether")
+SF4.registerDimension(-1, "SF4/nether_stone")
 
 SF4 = registerPreset("Sky Village", "images/Villagemk2", "Spawn inside a small village with a Dirt Tree.")
 SF4.registerDimension(0, "SF4/village")

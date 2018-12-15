@@ -1,0 +1,17 @@
+setTitle("Fission Reactor")
+
+setIcon(<nuclearcraft:depleted_fuel_californium:7>)
+
+setDescription("Build a Nuclearcraft Fission Reactor that produces at least 25,000RF per tick")
+
+setParent("sf4:ageALLTHETHINGSOMGLOL/root")
+
+hideLines()
+alwaysVisible()
+
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock(<nuclearcraft:fission_controller_new_fixed, tile:{processPower:25000~}>)
+
+//Rewards
+setRewardExperience(4)
+setPos(-108,-24)

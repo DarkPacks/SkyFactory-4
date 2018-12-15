@@ -6,8 +6,8 @@
     "icon": "{id:\"teslacorelib:speed_tier1\",Count:1b,Damage:0s}",
     "x": 401,
     "y": 201,
-    "cost": 5,
-    "sellPrice": 5,
+    "cost": 6,
+    "sellPrice": 3,
     "parents": [
       "bonsai"
     ],
@@ -22,7 +22,7 @@
     "x": 280,
     "y": 69,
     "cost": 2,
-    "sellPrice": 2,
+    "sellPrice": 1,
     "parents": [
       "bonsai"
     ],
@@ -36,8 +36,8 @@
     "icon": "{id:\"matteroverdrive:android_pill\",Count:1b,Damage:0s}",
     "x": 334,
     "y": 158,
-    "cost": 5,
-    "sellPrice": 5,
+    "cost": 6,
+    "sellPrice": 3,
     "parents": [
       "bonsai"
     ],
@@ -51,8 +51,8 @@
     "icon": "{id:\"tconstruct:smeltery_controller\",Count:1b,Damage:0s}",
     "x": 195,
     "y": 125,
-    "cost": 5,
-    "sellPrice": 5,
+    "cost": 6,
+    "sellPrice": 3,
     "parents": [
       "bonsai"
     ],
@@ -67,7 +67,7 @@
     "x": 458,
     "y": 90,
     "cost": 10,
-    "sellPrice": 10,
+    "sellPrice": 0,
     "parents": [
       "bluemulch"
     ],
@@ -83,8 +83,8 @@
     "icon": "{id:\"fluxnetworks:fluxplug\",Count:1b,Damage:0s}",
     "x": 343,
     "y": 201,
-    "cost": 3,
-    "sellPrice": 3,
+    "cost": 4,
+    "sellPrice": 2,
     "parents": [
       "bonsai"
     ],
@@ -99,7 +99,7 @@
     "x": 220,
     "y": 215,
     "cost": 100,
-    "sellPrice": 100,
+    "sellPrice": 50,
     "parents": [
       "bonsai"
     ],
@@ -116,7 +116,7 @@
     "x": 405,
     "y": 39,
     "cost": 6,
-    "sellPrice": 6,
+    "sellPrice": 0,
     "parents": [
       "yellowmulch"
     ],
@@ -133,7 +133,7 @@
     "x": 458,
     "y": 148,
     "cost": 2,
-    "sellPrice": 2,
+    "sellPrice": 0,
     "parents": [
       "blueslimedirt"
     ],
@@ -150,7 +150,7 @@
     "x": 255,
     "y": 105,
     "cost": 10,
-    "sellPrice": 10,
+    "sellPrice": 5,
     "parents": [
       "bonsai"
     ],
@@ -165,7 +165,7 @@
     "x": 357,
     "y": 39,
     "cost": 1,
-    "sellPrice": 1,
+    "sellPrice": 0,
     "parents": [
       "bonsai"
     ],
@@ -182,7 +182,7 @@
     "x": 357,
     "y": 90,
     "cost": 2,
-    "sellPrice": 2,
+    "sellPrice": 0,
     "parents": [
       "fertilesoil"
     ],
@@ -199,7 +199,7 @@
     "x": 206,
     "y": 177,
     "cost": 2,
-    "sellPrice": 2,
+    "sellPrice": 1,
     "parents": [
       "bonsai"
     ],
@@ -214,7 +214,7 @@
     "x": 510,
     "y": 148,
     "cost": 4,
-    "sellPrice": 4,
+    "sellPrice": 0,
     "parents": [
       "purpleslimedirt"
     ],
@@ -229,7 +229,7 @@
     "x": 325,
     "y": 126,
     "cost": 10,
-    "sellPrice": 10,
+    "sellPrice": 5,
     "parents": [
       "bonsai"
     ],
@@ -243,8 +243,8 @@
     "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:6s}",
     "x": 510,
     "y": 39,
-    "cost": 12,
-    "sellPrice": 12,
+    "cost": 14,
+    "sellPrice": 0,
     "parents": [
       "rubymulch"
     ],
@@ -259,7 +259,7 @@
     "x": 255,
     "y": 150,
     "cost": 1,
-    "sellPrice": 1,
+    "sellPrice": 0,
     "parents": [],
     "children": [
       "portalgun",
@@ -288,7 +288,7 @@
     "x": 174,
     "y": 158,
     "cost": 1,
-    "sellPrice": 1,
+    "sellPrice": 0,
     "parents": [
       "bonsai"
     ],
@@ -303,7 +303,7 @@
     "x": 458,
     "y": 39,
     "cost": 8,
-    "sellPrice": 8,
+    "sellPrice": 0,
     "parents": [
       "ambermulch"
     ],
@@ -320,7 +320,7 @@
     "x": 212,
     "y": 35,
     "cost": 10,
-    "sellPrice": 10,
+    "sellPrice": 5,
     "parents": [
       "mysticalagriculture"
     ],
@@ -335,7 +335,7 @@
     "x": 405,
     "y": 148,
     "cost": 1,
-    "sellPrice": 1,
+    "sellPrice": 0,
     "parents": [
       "bonsai"
     ],
@@ -352,7 +352,7 @@
     "x": 294,
     "y": 216,
     "cost": 4,
-    "sellPrice": 4,
+    "sellPrice": 2,
     "parents": [
       "bonsai"
     ],
@@ -366,8 +366,8 @@
     "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:4s}",
     "x": 510,
     "y": 90,
-    "cost": 11,
-    "sellPrice": 11,
+    "cost": 12,
+    "sellPrice": 0,
     "parents": [
       "redmulch"
     ],
@@ -384,7 +384,7 @@
     "x": 257,
     "y": 195,
     "cost": 2,
-    "sellPrice": 2,
+    "sellPrice": 1,
     "parents": [
       "bonsai"
     ],
@@ -399,7 +399,7 @@
     "x": 220,
     "y": 261,
     "cost": 250,
-    "sellPrice": 250,
+    "sellPrice": 125,
     "parents": [
       "projecte"
     ],
@@ -414,7 +414,7 @@
     "x": 212,
     "y": 74,
     "cost": 10,
-    "sellPrice": 10,
+    "sellPrice": 5,
     "parents": [
       "bonsai"
     ],
@@ -431,7 +431,7 @@
     "x": 404,
     "y": 90,
     "cost": 4,
-    "sellPrice": 4,
+    "sellPrice": 0,
     "parents": [
       "brownmulch"
     ],
