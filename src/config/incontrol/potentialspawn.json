@@ -1,1 +1,19 @@
-[]
+[
+    {
+        "dimension": -1,
+        "mobs": [
+            {
+                "mob": "minecraft:blaze",
+                "weight": 1,
+                "groupcountmin": 2,
+                "groupcountmax": 4
+            },
+            {
+                "mob": "minecraft:wither_skeleton",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+      }
+]
