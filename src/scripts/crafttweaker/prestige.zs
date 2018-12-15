@@ -4,41 +4,41 @@ function init() {
 	// ==================================
     // Mod-Based Rewards
 	// ==================================
-	Rewards.registerCommandReward("bonsai", "gamestage add @p " ~ stages.bonsaiTrees.stage);
-	Rewards.registerCommandReward("flux_networks", "gamestage add @p " ~ stages.fluxNetworks.stage);
-	Rewards.registerCommandReward("mob_grinding_utils", "gamestage add @p " ~ stages.mobGrindingUtils.stage);
-    Rewards.registerCommandReward("ironjetpacks", "gamestage add @p " ~ stages.ironJetpacks.stage);
-    Rewards.registerCommandReward("mystcraft", "gamestage add @p " ~ stages.mystcraft.stage);
-    Rewards.registerCommandReward("mysticalagradditions", "gamestage add @p " ~ stages.mysticalAgradditions.stage);
-    Rewards.registerCommandReward("mysticalagriculture", "gamestage add @p " ~ stages.mysticalAgriculture.stage);
-    Rewards.registerCommandReward("mysticalagriculture", "gamestage add @p " ~ stages.prosperityTree.stage);
-    Rewards.registerCommandReward("portalgun", "gamestage add @p " ~ stages.portalGun.stage);
-    Rewards.registerCommandReward("projecte", "gamestage add @p " ~ stages.projectE.stage);
-    Rewards.registerCommandReward("twilightforest", "gamestage add @p " ~ stages.twilightForest.stage);
+	prestige.addGamestageReward("bonsai", stages.bonsaiTrees);
+	prestige.addGamestageReward("flux_networks", stages.fluxNetworks);
+	prestige.addGamestageReward("mob_grinding_utils", stages.mobGrindingUtils);
+    prestige.addGamestageReward("ironjetpacks", stages.ironJetpacks);
+    prestige.addGamestageReward("mystcraft", stages.mystcraft);
+    prestige.addGamestageReward("mysticalagradditions", stages.mysticalAgradditions);
+    prestige.addGamestageReward("mysticalagriculture", stages.mysticalAgriculture);
+    prestige.addGamestageReward("mysticalagriculture", stages.prosperityTree);
+    prestige.addGamestageReward("portalgun", stages.portalGun);
+    prestige.addGamestageReward("projecte", stages.projectE);
+    prestige.addGamestageReward("twilightforest", stages.twilightForest);
 
 	// ==================================
     // mOrE SpECiFIC PrEStiGE rEWArds
 	// ==================================
 	// Soils & Dirt
-    Rewards.registerCommandReward("fertilesoil", "gamestage add @p " ~ stages.fertileSoil.stage);
-    Rewards.registerCommandReward("brownmulch", "gamestage add @p " ~ stages.brownMulch.stage);
-    Rewards.registerCommandReward("yellowmulch", "gamestage add @p " ~ stages.yellowMulch.stage);
-    Rewards.registerCommandReward("ambermulch", "gamestage add @p " ~ stages.amberMulch.stage);
-    Rewards.registerCommandReward("bluemulch", "gamestage add @p " ~ stages.blueMulch.stage);
-    Rewards.registerCommandReward("redmulch", "gamestage add @p " ~ stages.redMulch.stage);
-    Rewards.registerCommandReward("rubymulch", "gamestage add @p " ~ stages.rubyMulch.stage);
-    Rewards.registerCommandReward("blackmulch", "gamestage add @p " ~ stages.blackMulch.stage);
-    Rewards.registerCommandReward("blueslimedirt", "gamestage add @p " ~ stages.blueSlimeDirt.stage);
-    Rewards.registerCommandReward("purpleslimedirt", "gamestage add @p " ~ stages.purpleSlimeDirt.stage);
-    Rewards.registerCommandReward("orangeslimedirt", "gamestage add @p " ~ stages.orangeSlimeDirt.stage);
+    prestige.addGamestageReward("fertilesoil", stages.fertileSoil);
+    prestige.addGamestageReward("brownmulch", stages.brownMulch);
+    prestige.addGamestageReward("yellowmulch", stages.yellowMulch);
+    prestige.addGamestageReward("ambermulch", stages.amberMulch);
+    prestige.addGamestageReward("bluemulch", stages.blueMulch);
+    prestige.addGamestageReward("redmulch", stages.redMulch);
+    prestige.addGamestageReward("rubymulch", stages.rubyMulch);
+    prestige.addGamestageReward("blackmulch", stages.blackMulch);
+    prestige.addGamestageReward("blueslimedirt", stages.blueSlimeDirt);
+    prestige.addGamestageReward("purpleslimedirt", stages.purpleSlimeDirt);
+    prestige.addGamestageReward("orangeslimedirt", stages.orangeSlimeDirt);
 
 	// Misc
-	Rewards.registerCommandReward("smeltery", "gamestage add @p " ~ stages.smeltery.stage);
-    Rewards.registerCommandReward("ore_excavation", "gamestage add @p " ~ stages.oreExcavation.stage);
-    Rewards.registerCommandReward("mega_torch", "gamestage add @p " ~ stages.megaTorch.stage);
+	prestige.addGamestageReward("smeltery", stages.smeltery);
+    prestige.addGamestageReward("ore_excavation", stages.oreExcavation);
+    prestige.addGamestageReward("mega_torch", stages.megaTorch);
 
     // Enable Matter Overdrive Pills via Prestige
-    Rewards.registerCommandReward("android", "gamestage add @p " ~ stages.android.stage);
+    prestige.addGamestageReward("android", stages.android);
     Rewards.registerCommandReward("android", "give @p matteroverdrive:android_pill");
     Rewards.registerCommandReward("android", "give @p matteroverdrive:android_pill 1 1");
     Rewards.registerCommandReward("android", "give @p matteroverdrive:android_pill 1 2");
@@ -46,5 +46,5 @@ function init() {
 	// ==================================
     // Topography Rewards
 	// ==================================
-    Rewards.registerCommandReward("projecte_world", "topography unlock Project trEe");
+    prestige.addTopographyReward("projecte_world", "Project trEe");
 }
