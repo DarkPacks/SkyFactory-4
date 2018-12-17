@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "mob": "Blaze",
+    "mincount": "25,Blaze",
+    "result": "deny"
+  },
+  {
+    "mob": "WitherSkeleton",
+    "mincount": "15,WitherSkeleton",
+    "result": "deny"
+  }
+]

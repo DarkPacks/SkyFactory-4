@@ -1,19 +1,32 @@
-setTitle("Unbreakable Tinkers' Tool")
+setTitle("Tinkers' Modifier")
 
 setIcon(<tconstruct:pickaxe, meta:2, count:1, durability:2, nbt:{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.07f,FreeModifiers:3,Durability:106,HarvestLevel:4,Attack:4.2f},Unbreakable:1b,Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.07f,FreeModifiers:62,Durability:106,HarvestLevel:4,Attack:4.2f},Special:{Categories:["tool","harvest","aoe"]},TinkerData:{UsedModifiers:5,Materials:["obsidian","obsidian","obsidian"],Modifiers:["toolleveling","reinforced","creative"]},Modifiers:[{identifier:"duritos",color:-10478396,level:1},{identifier:"toolleveling",color:16777215,level:1,xp:3,bonus_modifiers:0},{identifier:"reinforced",color:5254787,level:5},{identifier:"creative",color:0,level:64}],Traits:["duritos","toolleveling","reinforced"]}>)
 
-setDescription("Craft an Unbreakable Tinkers' Construct Pickaxe")
+setDescription("Craft a Tinkers' Tool and add a modifier to it")
 
 setParent("sf4:ageEnhancement/root")
-
 hideLines()
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem(<tconstruct:pickaxe, nbt:{Unbreakable:1b}>)
+
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.addItem(<nbt:{TinkerData:{UsedModifiers:1}}>)
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.addItem(<nbt:{TinkerData:{UsedModifiers:2}}>)
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.addItem(<nbt:{TinkerData:{UsedModifiers:3}}>)
+
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.addItem(<nbt:{TinkerData:{UsedModifiers:4}}>)
+
+criteria5 = addCriteria("hasRock5", "minecraft:inventory_changed")
+criteria5.addItem(<nbt:{TinkerData:{UsedModifiers:5}}>)
+
+setRequirements("any")
 
 //Rewards
 setRewardExperience(4)
-
 alwaysVisible()
-setPos(-37,108)
+setPos(-62,108)

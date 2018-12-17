@@ -16,4 +16,4 @@ criteria.addItem(<enderstorage:ender_pouch, nbt:{}>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-38,131)
+setPos(-37,133)

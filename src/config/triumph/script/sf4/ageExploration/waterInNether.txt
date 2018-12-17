@@ -1,0 +1,24 @@
+setTitle("Water in Nether")
+
+setIcon("minecraft:water_bucket")
+
+setDescription("Place Water in the Nether using a Bucket. Then place a Boat on the Water. Profit!")
+
+setParent("sf4:ageExploration/nether")
+
+drawDirectLines(true)
+
+criteria = addCriteria("Place Da Wata", "triumph:right_click_block")
+criteria.setItem(<minecraft:water_bucket>)
+criteria.setDimID(-1)
+
+criteria2 = addCriteria("Place Da Boat", "triumph:right_click_block")
+criteria2.setItem(<minecraft:boat>)
+criteria2.setDimID(-1)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+
+setPos(64,134)

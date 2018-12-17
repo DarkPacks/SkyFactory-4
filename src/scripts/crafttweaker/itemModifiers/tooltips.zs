@@ -204,8 +204,20 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<matteroverdrive:tritanium_ore>: [
 		format.yellow("Found in Twilight Forest and"),
 		format.yellow("Lost Cities Dimensions")
-	]
+	],
 
+	<bibliocraft:lanterngold:*>: [
+		format.yellow("Craft with Dye to change color"),
+	],
+	<bibliocraft:lanterniron:*>: [
+		format.yellow("Craft with Dye to change color"),
+	],
+	<bibliocraft:lampgold:*>: [
+		format.yellow("Craft with Dye to change color"),
+	],
+	<bibliocraft:lampiron:*>: [
+		format.yellow("Craft with Dye to change color"),
+	]
 };
 
 function init() {

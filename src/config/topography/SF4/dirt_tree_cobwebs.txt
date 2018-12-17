@@ -1,7 +1,7 @@
 setSpawnStructure("dirt_tree")
 
 layers = new LayerGenerator()
-layers.addLayer(1~55, <minecraft:web>)
+layers.addLayer(1~30, <minecraft:web>)
 addGenerator(layers)
 
 sky = setSkyRenderer()

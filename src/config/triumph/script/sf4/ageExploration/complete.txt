@@ -16,6 +16,8 @@ setParent("sf4:ageExploration/nether")
 setParent("sf4:ageExploration/overworldCake")
 setParent("sf4:ageExploration/twilightForest")
 setParent("sf4:ageExploration/witherKill")
+setParent("sf4:ageExploration/viescraft")
+setParent("sf4:ageExploration/waterInNether")
 
 setRequiresParents()
 setFrameType("challenge")

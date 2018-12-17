@@ -1,7 +1,9 @@
 setSpawnStructure("StoneTest")
 
 layers = new LayerGenerator()
-layers.addLayer(1~255, <minecraft:stone>)
+layers.addLayer(0~1, <minecraft:bedrock>)
+layers.addLayer(2~254, <minecraft:stone>)
+layers.addLayer(255~255, <minecraft:bedrock>)
 addGenerator(layers)
 
 sky = setSkyRenderer()

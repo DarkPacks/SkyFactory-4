@@ -2,7 +2,7 @@ setTitle("Petrified Acorn")
 
 setIcon("sky_orchards:acorn_petrified")
 
-setDescription("Dry a Dirt on a Drying Rack to make a Petrified Acorn")
+setDescription("Dry a Dirt Acorn on a Drying Rack to make a Petrified Acorn")
 
 setParent("sf4:age1/dryingRack")
 

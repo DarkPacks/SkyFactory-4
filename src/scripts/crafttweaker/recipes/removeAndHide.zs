@@ -219,7 +219,8 @@ static removeAndHideIngredients as IIngredient[] = [
 	<cyclicmagic:end_emerald_ore>,
 	<cyclicmagic:end_diamond_ore>,
 	<cyclicmagic:end_gold_ore>,
-	<cyclicmagic:end_iron_ore>
+	<cyclicmagic:end_iron_ore>,
+	<vc:symbols/item_display_symbol>
 ];
 
 function init() {

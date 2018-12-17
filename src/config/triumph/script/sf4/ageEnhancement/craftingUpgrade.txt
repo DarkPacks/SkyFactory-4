@@ -8,7 +8,7 @@ setParent("sf4:ageEnhancement/root")
 
 //Criteria
 criteria = addCriteria("consumed", "minecraft:consume_item")
-criteria.addItem(<cyclicmagic:crafting_food>)
+criteria.setItem(<cyclicmagic:crafting_food>)
 
 //Rewards
 setRewardExperience(4)

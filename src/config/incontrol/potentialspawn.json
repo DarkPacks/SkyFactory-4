@@ -1,12 +1,12 @@
 [
     {
-        "dimension": -1,
+        "biome": "Hell",
         "mobs": [
             {
                 "mob": "minecraft:blaze",
                 "weight": 1,
-                "groupcountmin": 2,
-                "groupcountmax": 4
+                "groupcountmin": 1,
+                "groupcountmax": 2
             },
             {
                 "mob": "minecraft:wither_skeleton",

@@ -27,6 +27,7 @@ setParent("sf4:ageEnhancement/toolStation")
 setParent("sf4:ageEnhancement/unbreakablePickaxe")
 setParent("sf4:ageEnhancement/weirdingGadget")
 setParent("sf4:ageEnhancement/yoyo")
+setParent("sf4:ageEnhancement/diagonalFences")
 
 setRequiresParents()
 setFrameType("challenge")

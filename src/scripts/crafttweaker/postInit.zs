@@ -48,7 +48,6 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.rustic.init();
 	scripts.crafttweaker.recipes.mods.skyOrchards.init();
 	scripts.crafttweaker.recipes.mods.sonarcore.init();
-	scripts.crafttweaker.recipes.mods.standIns.init();
 	scripts.crafttweaker.recipes.mods.statues.init();
 	scripts.crafttweaker.recipes.mods.tconstruct.init();
 	scripts.crafttweaker.recipes.mods.tinyProgressions.init();

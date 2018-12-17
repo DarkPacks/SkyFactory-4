@@ -1,3 +1,7 @@
-§e# Add Your ChangeLog to §c'changelog.txt'§r in the config files
-
-You can use Minecrafts §9Color §2Codes §6to§r §nmake your changlogs look Good.
+* Reduced lava energy per tick to 30 in the Geothermal Generator
+* Reduced pyrotheum energy per tick to 1600 in the Geothermal Generator
+* Removed prestige window open trigger when interacting with parabox
+* A number of new advancements were added (collect all tcon modifiers, yoyo modifiers, armor modifiers, etc)
+* Prestige can now be properly respecced. There is a timer between respecs and all advancements are not sold back at full value to dissuade users from exploiting the system
+* Reduced Bouncy Creeper spawn probability from 125 to 150
+* Removed excess development mods

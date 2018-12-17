@@ -1,0 +1,17 @@
+setTitle("Come Fly With Me")
+
+setIcon(<vc:airships/item_airship>)
+
+setDescription("Craft a Viescraft Airship to fly around")
+
+addParent("sf4:ageExploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<vc:airships/item_airship>)
+
+hideLines()
+alwaysVisible()
+setPos(32,162)
