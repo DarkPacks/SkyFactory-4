@@ -99,5 +99,6 @@ function initIntegration() {
 function initItemModifiers() {
 	scripts.crafttweaker.itemModifiers.burnTime.init();
 	scripts.crafttweaker.itemModifiers.hide.init();
+	scripts.crafttweaker.itemModifiers.rename.init();
 	scripts.crafttweaker.itemModifiers.tooltips.init();
 }
