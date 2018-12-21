@@ -4,7 +4,7 @@ setIcon(<tconstruct:materials:14>)
 
 setDescription("Use every Tinkers' Construct tool or weapon modifier at least once")
 
-setParent("sf4:ageALLTHETHINGSOMGLOL/root")
+addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 hideLines()
 
 //Criteria

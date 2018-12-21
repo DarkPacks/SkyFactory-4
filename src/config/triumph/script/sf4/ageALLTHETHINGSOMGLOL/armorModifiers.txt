@@ -4,7 +4,7 @@ setIcon(<conarm:chestplate>)
 
 setDescription("Use every Construct's Armory modifier at least once")
 
-setParent("sf4:ageALLTHETHINGSOMGLOL/root")
+addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 hideLines()
 
 //Criteria

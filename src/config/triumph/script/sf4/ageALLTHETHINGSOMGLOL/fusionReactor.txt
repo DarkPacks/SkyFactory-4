@@ -4,7 +4,7 @@ setIcon(<matteroverdrive:gravitational_anomaly>)
 
 setDescription("Create a Matter Overdrive Fusion Reactor that produces at least 15,000FE per tick")
 
-setParent("sf4:ageALLTHETHINGSOMGLOL/root")
+addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
 hideLines()
 alwaysVisible()

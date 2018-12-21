@@ -4,7 +4,7 @@ setIcon(<deepmoblearning:glitch_infused_chestplate>)
 
 setDescription("Craft the entire Glitch Infused Armor Set")
 
-setParent("sf4:ageEnhancement/root")
+addParent("sf4:ageEnhancement/root")
 
 hideLines()
 

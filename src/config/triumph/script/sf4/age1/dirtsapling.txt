@@ -4,7 +4,7 @@ setIcon("sky_orchards:sapling_dirt")
 
 setDescription("Acquire a dirt sapling to grow more dirt treeeeeees")
 
-setParent("sf4:age1/root")
+addParent("sf4:age1/root")
 
 drawDirectLines(true)
 

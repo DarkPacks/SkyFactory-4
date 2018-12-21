@@ -1,4 +1,6 @@
 import mods.prestige.Rewards;
+import crafttweaker.world.IWorld;
+import crafttweaker.player.IPlayer;
 
 function init() {
 	// ==================================
@@ -48,3 +50,61 @@ function init() {
 	// ==================================
     prestige.addTopographyReward("projecte_world", "Project trEe");
 }
+
+
+
+
+/////
+//
+// Prestige Button on World Selection Screen
+//
+/////
+
+
+//World Selection screen enable or disable prestige
+//mods.prestige.Rewards.registerDisabledCommand("gamemode 3 @p");
+
+/*
+mods.prestige.Rewards.registerDisabledAction(function(world as IWorld, player as IPlayer){
+    player.give(<minecraft:dirt> * 5);
+});
+*/
+
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p no_parabox");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p mega_torch");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p bonsai_trees");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p flux_networks");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p iron_jetpacks");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p mob_grinding_utils");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p mystcraft");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p mystical_agradditions");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p mystical_agriculture");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p open_computers");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p portal_gun");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p twilight_forest");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p smeltery");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p fertile_soil");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p brown_mulch");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p yellow_mulch");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p amber_mulch");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p blue_mulch");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p red_mulch");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p ruby_mulch");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p black_mulch");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p blue_slime_dirt");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p purple_slime_dirt");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p orange_slime_dirt");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p ore_excavation");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p pacifist");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p android");
+mods.prestige.Rewards.registerDisabledCommand("gamestage add @p prosperity_tree");
+
+//If enabled
+/*
+mods.prestige.Rewards.registerEnabledCommand("gamestage add @p parabox");
+
+mods.prestige.Rewards.registerEnabledAction(function(world as IWorld, player as IPlayer){
+    player.give(<minecraft:dirt>);
+});
+*/
+mods.prestige.Rewards.registerEnabledCommand("gamestage add @p parabox");

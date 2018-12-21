@@ -16,4 +16,4 @@ criteria.addItem(<cyclicmagic:sprout_seed>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(142,283)
+setPos(166,283)

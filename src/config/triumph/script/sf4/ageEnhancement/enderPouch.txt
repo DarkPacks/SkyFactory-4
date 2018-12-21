@@ -4,7 +4,7 @@ setIcon(<enderstorage:ender_pouch>)
 
 setDescription("Craft an Ender Pouch and Shift Right-Click on an Ender Chest to connect them")
 
-setParent("sf4:ageEnhancement/root")
+addParent("sf4:ageEnhancement/root")
 
 hideLines()
 

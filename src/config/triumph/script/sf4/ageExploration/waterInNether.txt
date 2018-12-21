@@ -4,7 +4,7 @@ setIcon("minecraft:water_bucket")
 
 setDescription("Place Water in the Nether using a Bucket. Then place a Boat on the Water. Profit!")
 
-setParent("sf4:ageExploration/nether")
+addParent("sf4:ageExploration/nether")
 
 drawDirectLines(true)
 
@@ -21,4 +21,4 @@ setRewardExperience(4)
 
 alwaysVisible()
 
-setPos(64,134)
+setPos(57,174)

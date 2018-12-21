@@ -4,7 +4,7 @@ setIcon("minecraft:elytra")
 
 setDescription("Travel to an End City and obtain Elytra")
 
-setParent("sf4:ageExploration/dragonKill")
+addParent("sf4:ageExploration/dragonKill")
 
 drawDirectLines(true)
 
@@ -16,3 +16,4 @@ criteria.addItem("minecraft:elytra")
 setRewardExperience(4)
 
 alwaysVisible()
+setPos(82,110)

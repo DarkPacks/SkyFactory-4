@@ -4,7 +4,7 @@ setIcon(<chargers:wireless_charger>)
 
 setDescription("Craft a Wireless Charger")
 
-setParent("sf4:agePower/root")
+addParent("sf4:agePower/root")
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")

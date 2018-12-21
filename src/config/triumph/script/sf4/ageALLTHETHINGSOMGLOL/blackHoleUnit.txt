@@ -4,7 +4,7 @@ setIcon(<industrialforegoing:black_hole_unit>)
 
 setDescription("Fill a Black Hole Unit with any item and Right Click it")
 
-setParent("sf4:ageALLTHETHINGSOMGLOL/root")
+addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
 hideLines()
 alwaysVisible()

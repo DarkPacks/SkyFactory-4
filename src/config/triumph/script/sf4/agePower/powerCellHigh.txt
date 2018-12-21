@@ -4,7 +4,7 @@ setIcon(<rftoolspower:cell3>)
 
 setDescription("Craft a RF Tools High Powercell")
 
-setParent("sf4:agePower/powerCellMedium")
+addParent("sf4:agePower/powerCellMedium")
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")

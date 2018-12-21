@@ -4,7 +4,7 @@ setIcon(<sync:item_treadmill>)
 
 setDescription("Use a treadmill to make Pig Power!")
 
-setParent("sf4:agePower/root")
+addParent("sf4:agePower/root")
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")

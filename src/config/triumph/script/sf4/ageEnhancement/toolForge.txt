@@ -4,7 +4,7 @@ setIcon("tconstruct:toolforge")
 
 setDescription("Craft a Tool Forge")
 
-setParent("sf4:ageEnhancement/toolStation")
+addParent("sf4:ageEnhancement/toolStation")
 
 drawDirectLines(true)
 

@@ -4,7 +4,7 @@ setIcon("statues:blockspiderstatuet4")
 
 setDescription("Hidden advancement to set player world to peaceful")
 
-setParent("pacifist:pacifist_run/root")
+addParent("pacifist:pacifist_run/root")
 setRequiresParents()
 
 hideLines()

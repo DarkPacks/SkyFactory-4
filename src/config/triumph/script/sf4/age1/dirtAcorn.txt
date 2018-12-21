@@ -4,7 +4,7 @@ setIcon("sky_orchards:acorn_dirt")
 
 setDescription("Obtain a Dirt Acorn from Dirt Tree Leaves. They can also be used as a food source raw or if cooked in a furnace")
 
-setParent("sf4:age1/dirtSapling")
+addParent("sf4:age1/dirtSapling")
 
 drawDirectLines(true)
 

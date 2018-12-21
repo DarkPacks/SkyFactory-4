@@ -4,7 +4,7 @@ setIcon(<storagenetwork:remote>)
 
 setDescription("Craft a Simple Storage Network Remote")
 
-setParent("sf4:ageStorage/simpleStorageMaster")
+addParent("sf4:ageStorage/simpleStorageMaster")
 
 drawDirectLines(true)
 

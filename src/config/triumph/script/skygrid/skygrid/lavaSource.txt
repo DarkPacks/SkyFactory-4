@@ -4,12 +4,12 @@ setIcon(<tp:lava_block>)
 
 setDescription("Break a Lava Source Stone to create a Lava Source")
 
-setParent("skygrid:skygrid/root")
+addParent("skygrid:skygrid/root")
 setRequiresParents()
 
 drawDirectLines(true)
 
-criteria = addCriteria("breakblock",  "triumph:player_break_block")
+criteria = addCriteria("breakblock", "triumph:player_break_block")
 criteria.setBlock(<tp:lava_block>)
 
 //Rewards

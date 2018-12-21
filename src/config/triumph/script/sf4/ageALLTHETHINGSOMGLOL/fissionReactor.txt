@@ -4,7 +4,7 @@ setIcon(<nuclearcraft:depleted_fuel_californium:7>)
 
 setDescription("Build a Nuclearcraft Fission Reactor that produces at least 25,000RF per tick")
 
-setParent("sf4:ageALLTHETHINGSOMGLOL/root")
+addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
 hideLines()
 alwaysVisible()

@@ -4,7 +4,7 @@ setIcon(<tconstruct:pickaxe>)
 
 setDescription("Level up a Tinkers' Construct Pickaxe")
 
-setParent("sf4:ageEnhancement/root")
+addParent("sf4:ageEnhancement/root")
 
 hideLines()
 

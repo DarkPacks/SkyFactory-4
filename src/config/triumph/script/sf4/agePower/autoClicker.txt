@@ -4,7 +4,7 @@ setIcon(<clickmachine:auto_clicker>)
 
 setDescription("Craft an Auto Clicker machine")
 
-setParent("sf4:agePower/root")
+addParent("sf4:agePower/root")
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")

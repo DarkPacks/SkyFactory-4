@@ -4,8 +4,8 @@ setIcon(<sky_orchards:sapling_gold>)
 
 setDescription("Craft a Gold Sapling")
 
-setParent("sf4:age1/ironSapling")
-setParent("sf4:age1/sandSapling")
+addParent("sf4:age1/ironSapling")
+addParent("sf4:age1/sandSapling")
 
 drawDirectLines(true)
 

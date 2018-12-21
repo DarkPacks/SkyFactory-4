@@ -4,7 +4,7 @@ setIcon(<sky_orchards:sapling_diamond>)
 
 setDescription("Craft a Diamond Sapling")
 
-setParent("sf4:age1/goldSapling")
+addParent("sf4:age1/goldSapling")
 
 drawDirectLines(true)
 

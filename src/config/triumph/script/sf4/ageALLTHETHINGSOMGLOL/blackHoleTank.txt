@@ -4,7 +4,7 @@ setIcon(<industrialforegoing:black_hole_tank>)
 
 setDescription("Fill a Black Hole Tank with any Liquid and Right Click it")
 
-setParent("sf4:ageALLTHETHINGSOMGLOL/root")
+addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
 hideLines()
 alwaysVisible()

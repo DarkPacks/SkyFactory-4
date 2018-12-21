@@ -4,7 +4,7 @@ setIcon(<buildinggadgets:buildingtool>)
 
 setDescription("The Building Gadget helps you build!")
 
-setParent("sf4:agePower/root")
+addParent("sf4:agePower/root")
 
 drawDirectLines(true)
 

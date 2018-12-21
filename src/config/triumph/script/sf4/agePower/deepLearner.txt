@@ -4,7 +4,7 @@ setIcon(<deepmoblearning:deep_learner>)
 
 setDescription("Craft a Deep Learner from Deep Mob Learning. Insert Data Modules inside to begin collecting data for your Simulation Chamber")
 
-setParent("sf4:agePower/root")
+addParent("sf4:agePower/root")
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")

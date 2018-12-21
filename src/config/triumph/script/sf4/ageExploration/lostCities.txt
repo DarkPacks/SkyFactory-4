@@ -14,3 +14,4 @@ criteria.setDimensionDestination("lostcities")
 
 hideLines()
 alwaysVisible()
+setPos(32,46)

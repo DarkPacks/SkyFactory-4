@@ -4,7 +4,7 @@ setIcon(<bibliocraft:cookiejar>)
 
 setDescription("Fill a Cookie Jar with Cookies and Right-Click it!")
 
-setParent("sf4:ageALLTHETHINGSOMGLOL/root")
+addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
 //Criteria
 //Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object

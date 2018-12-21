@@ -4,7 +4,7 @@ setIcon("inspirations:wooden_crook")
 
 setDescription("Craft and use a Wooden Crook on leaves to increase sapling drops")
 
-setParent("sf4:age1/root")
+addParent("sf4:age1/root")
 
 drawDirectLines(true)
 

@@ -4,7 +4,7 @@ setIcon(<minecraft:elytra>)
 
 setDescription("Obtain Elytra to enable Forgiving Void in the Overworld")
 
-setParent("hardcore:hardcore/root")
+addParent("hardcore:hardcore/root")
 
 drawDirectLines(true)
 alwaysVisible()

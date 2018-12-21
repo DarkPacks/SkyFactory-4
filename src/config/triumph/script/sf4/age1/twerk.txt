@@ -4,7 +4,7 @@ setIcon(<pickletweaks:ppm4:1>)
 
 setDescription("Collect 8 Dirt Saplings and 8 Oak Logs. Increase the speed of tree growth by rapidly pushing shift near a sapling or by running")
 
-setParent("sf4:age1/root")
+addParent("sf4:age1/root")
 
 //Criteria
 criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
@@ -18,4 +18,4 @@ setRewardExperience(4)
 
 alwaysVisible()
 hideLines()
-setPos(-188,76)
+setPos(-187,76)

@@ -6,3 +6,4 @@ keepAdvancements(["twilightforest"])
 removeAdvancements(["twilightforest:progress_castle", "twilightforest:progress_thorns"])
 
 allowDragging(true)
+useNewParentCompletionCriteriaNames()

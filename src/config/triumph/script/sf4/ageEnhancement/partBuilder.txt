@@ -4,7 +4,7 @@ setIcon("tconstruct:tooltables", 2)
 
 setDescription("Craft a Part Builder")
 
-setParent("sf4:ageEnhancement/stencilTable")
+addParent("sf4:ageEnhancement/stencilTable")
 
 drawDirectLines(true)
 

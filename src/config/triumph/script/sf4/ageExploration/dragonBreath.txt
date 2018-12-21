@@ -4,7 +4,7 @@ setIcon("minecraft:dragon_breath")
 
 setDescription("Craft Dragon's Breath")
 
-setParent("sf4:ageExploration/dragonKill")
+addParent("sf4:ageExploration/dragonKill")
 
 drawDirectLines(true)
 
@@ -16,3 +16,4 @@ criteria.addItem("minecraft:dragon_breath")
 setRewardExperience(4)
 
 alwaysVisible()
+setPos(82,85)

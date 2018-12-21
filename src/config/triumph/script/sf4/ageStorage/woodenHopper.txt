@@ -4,7 +4,7 @@ setIcon(<tconstruct:wooden_hopper>)
 
 setDescription("Craft a Wooden Hopper")
 
-setParent("sf4:ageStorage/root")
+addParent("sf4:ageStorage/root")
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")

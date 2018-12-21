@@ -4,7 +4,7 @@ setIcon(<storagenetwork:master>)
 
 setDescription("Craft a Simple Storage Network Master Block")
 
-setParent("sf4:ageStorage/root")
+addParent("sf4:ageStorage/root")
 
 drawDirectLines(true)
 
@@ -16,4 +16,4 @@ criteria.addItem(<storagenetwork:master>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-326,81)
+setPos(-326,82)

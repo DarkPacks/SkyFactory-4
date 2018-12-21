@@ -4,7 +4,7 @@ setIcon(<slabmachines:crafting_station_slab>)
 
 setDescription("Save space and craft a Crafting Slab, Furnace Slab, or Chest Slab")
 
-setParent("sf4:age1/root")
+addParent("sf4:age1/root")
 
 drawDirectLines(true)
 

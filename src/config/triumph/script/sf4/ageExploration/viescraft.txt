@@ -14,4 +14,4 @@ criteria.addItem(<vc:airships/item_airship>)
 
 hideLines()
 alwaysVisible()
-setPos(32,162)
+setPos(32,199)

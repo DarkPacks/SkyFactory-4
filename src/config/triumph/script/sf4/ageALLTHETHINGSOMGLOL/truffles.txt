@@ -4,7 +4,7 @@ setIcon(<resourcehogs:truffle, nbt:{ResourceType: "prismarine"}>)
 
 setDescription("When Resource Hogs are left on the correct soil type, they will dig up Truffles. Truffles can be collected and combined to create resources. Collect 1 of each Truffle")
 
-setParent("sf4:ageALLTHETHINGSOMGLOL/root")
+addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
 //Criteria
 criteria1 = addCriteria("Prismarine", "minecraft:inventory_changed")

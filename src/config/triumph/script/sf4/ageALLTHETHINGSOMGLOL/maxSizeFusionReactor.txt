@@ -4,7 +4,7 @@ setIcon(<nuclearcraft:fusion_electromagnet_idle>)
 
 setDescription("Build a Max Size 24 Nuclearcraft Fusion Reactor")
 
-setParent("sf4:ageALLTHETHINGSOMGLOL/root")
+addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
 hideLines()
 alwaysVisible()

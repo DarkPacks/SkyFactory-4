@@ -4,7 +4,7 @@ setIcon(<deepmoblearning:living_matter_extraterrestrial>)
 
 setDescription("Acquire an Extraterrestrial Matter from Deep Mob Learning")
 
-setParent("sf4:agePower/root")
+addParent("sf4:agePower/root")
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")

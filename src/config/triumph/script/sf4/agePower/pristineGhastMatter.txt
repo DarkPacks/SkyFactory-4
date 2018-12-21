@@ -4,7 +4,7 @@ setIcon(<deepmoblearning:pristine_matter_ghast>)
 
 setDescription("Acquire a Pristine Ghast Matter from Deep Mob Learning")
 
-setParent("sf4:agePower/pristineZombieMatter")
+addParent("sf4:agePower/pristineZombieMatter")
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")

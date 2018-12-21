@@ -4,8 +4,8 @@ setIcon(<bdsandm:shipping_container>)
 
 setDescription("Craft a Barrels, Drum, Storage, and More Shipping Container")
 
-setParent("sf4:ageStorage/bdsandmMetalCrate")
-setParent("sf4:ageStorage/bdsandmMetalBarrel")
+addParent("sf4:ageStorage/bdsandmMetalCrate")
+addParent("sf4:ageStorage/bdsandmMetalBarrel")
 
 drawDirectLines(true)
 

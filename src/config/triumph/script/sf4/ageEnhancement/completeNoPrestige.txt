@@ -1,0 +1,46 @@
+setTitle("Completionist Prestige off")
+
+setIcon(<minecraft:cooked_chicken>)
+
+setDescription("Complete all the advancements on the page. This will award you with 1 prestige point")
+
+addParent("sf4:ageEnhancement/20damage")
+addParent("sf4:ageEnhancement/armorForge")
+addParent("sf4:ageEnhancement/armorStation")
+addParent("sf4:ageEnhancement/cast")
+addParent("sf4:ageEnhancement/craftingUpgrade")
+addParent("sf4:ageEnhancement/enchantmentTable")
+addParent("sf4:ageEnhancement/enderPouch")
+addParent("sf4:ageEnhancement/glitchArmor")
+addParent("sf4:ageEnhancement/heartContainer")
+addParent("sf4:ageEnhancement/inventoryUpgrade")
+addParent("sf4:ageEnhancement/levelUp")
+addParent("sf4:ageEnhancement/lumberAxe")
+addParent("sf4:ageEnhancement/megaTorch")
+addParent("sf4:ageEnhancement/melter")
+addParent("sf4:ageEnhancement/partBuilder")
+addParent("sf4:ageEnhancement/patternChest")
+addParent("sf4:ageEnhancement/stencilTable")
+addParent("sf4:ageEnhancement/tank")
+addParent("sf4:ageEnhancement/toolForge")
+addParent("sf4:ageEnhancement/toolStation")
+addParent("sf4:ageEnhancement/unbreakablePickaxe")
+addParent("sf4:ageEnhancement/weirdingGadget")
+addParent("sf4:ageEnhancement/yoyo")
+addParent("sf4:ageEnhancement/diagonalFences")
+
+setRequiresParents()
+setFrameType("challenge")
+
+//Criteria
+criteria = addCriteria("Prestige Mode Disabled", "triumph:gamestage")
+criteria.setStage("no_parabox")
+
+hiddenUnless("no_parabox")
+
+//Rewards
+setRewardExperience(30)
+
+hideLines()
+alwaysVisible()
+setPos(-118,229)

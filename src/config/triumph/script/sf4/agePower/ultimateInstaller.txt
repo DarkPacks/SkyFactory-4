@@ -4,7 +4,7 @@ setIcon(<mekanism:tierinstaller:3>)
 
 setDescription("Craft an Ultimate Installer from Mekanism")
 
-setParent("sf4:agePower/root")
+addParent("sf4:agePower/root")
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")

@@ -4,7 +4,7 @@ setIcon(<torchmaster:mega_torch>)
 
 setDescription("Craft a Mega Torch")
 
-setParent("sf4:ageEnhancement/root")
+addParent("sf4:ageEnhancement/root")
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")

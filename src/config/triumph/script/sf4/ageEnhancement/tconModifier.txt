@@ -4,7 +4,7 @@ setIcon(<tconstruct:pickaxe, meta:2, count:1, durability:2, nbt:{StatsOriginal:{
 
 setDescription("Craft a Tinkers' Tool and add a modifier to it")
 
-setParent("sf4:ageEnhancement/root")
+addParent("sf4:ageEnhancement/root")
 hideLines()
 
 //Criteria

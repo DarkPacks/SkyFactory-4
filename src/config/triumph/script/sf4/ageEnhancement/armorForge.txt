@@ -4,7 +4,7 @@ setIcon("conarm:armorforge")
 
 setDescription("Craft a Armor Forge")
 
-setParent("sf4:ageEnhancement/armorStation")
+addParent("sf4:ageEnhancement/armorStation")
 
 drawDirectLines(true)
 

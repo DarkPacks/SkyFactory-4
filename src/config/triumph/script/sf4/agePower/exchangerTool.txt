@@ -4,7 +4,7 @@ setIcon(<buildinggadgets:exchangertool>)
 
 setDescription("The Exchanger Tool will allow you to easily swap out blocks")
 
-setParent("sf4:agePower/root")
+addParent("sf4:agePower/root")
 
 drawDirectLines(true)
 

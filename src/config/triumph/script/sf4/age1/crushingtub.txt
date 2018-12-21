@@ -4,7 +4,7 @@ setIcon("rustic:crushing_tub")
 
 setDescription("Craft a Crushing Tub")
 
-setParent("sf4:age1/root")
+addParent("sf4:age1/root")
 
 drawDirectLines(true)
 

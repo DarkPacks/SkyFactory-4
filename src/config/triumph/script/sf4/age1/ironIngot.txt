@@ -4,7 +4,7 @@ setIcon("minecraft:iron_ingot")
 
 setDescription("Create an Iron Ingot")
 
-setParent("sf4:age1/ironSapling")
+addParent("sf4:age1/ironSapling")
 
 drawDirectLines(true)
 

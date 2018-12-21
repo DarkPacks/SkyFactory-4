@@ -4,7 +4,7 @@ setIcon("tp:fmf_block")
 
 setDescription("Start a new island in the void by placing a Floaty McFloaty Block in the air")
 
-setParent("sf4:ageExploration/root")
+addParent("sf4:ageExploration/root")
 
 drawDirectLines(true)
 

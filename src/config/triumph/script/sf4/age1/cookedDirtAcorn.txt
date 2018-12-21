@@ -4,7 +4,7 @@ setIcon("sky_orchards:acorn_dirt", 1)
 
 setDescription("Cook Acorns to increase their nutrition value")
 
-setParent("sf4:age1/dirtAcorn")
+addParent("sf4:age1/dirtAcorn")
 
 drawDirectLines(true)
 

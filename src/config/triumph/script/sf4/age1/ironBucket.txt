@@ -4,7 +4,7 @@ setIcon("minecraft:bucket")
 
 setDescription("Make an Iron Bucket")
 
-setParent("sf4:age1/ironIngot")
+addParent("sf4:age1/ironIngot")
 
 drawDirectLines(true)
 

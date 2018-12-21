@@ -4,7 +4,7 @@ setIcon(<bdsandm:upgrade:1>)
 
 setDescription("Craft a Barrels, Drum, Storage, and More Upgrade")
 
-setParent("sf4:ageStorage/bdsandmUpgrade1")
+addParent("sf4:ageStorage/bdsandmUpgrade1")
 
 drawDirectLines(true)
 

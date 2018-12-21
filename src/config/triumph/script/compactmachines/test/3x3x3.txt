@@ -4,7 +4,7 @@ setIcon("compactmachines3:machine")
 
 setDescription("Obtain Grass Block")
 
-setParent("compactmachines:test/root")
+addParent("compactmachines:test/root")
 setRequiresParents()
 
 //Criteria

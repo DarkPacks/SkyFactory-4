@@ -16,4 +16,4 @@ criteria.addItem(<farmingforblockheads:market>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-39,231)
+setPos(-42,231)

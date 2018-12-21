@@ -4,7 +4,7 @@ setIcon("dimensionaledibles:end_cake")
 
 setDescription("Craft, place, and eat End Cake to go to the End")
 
-setParent("sf4:ageExploration/root")
+addParent("sf4:ageExploration/root")
 
 drawDirectLines(true)
 
@@ -17,3 +17,4 @@ setRewardExperience(4)
 
 hideLines()
 alwaysVisible()
+setPos(32,96)

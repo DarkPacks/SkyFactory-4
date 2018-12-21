@@ -4,7 +4,7 @@ setIcon(<bdsandm:upgrade:6>)
 
 setDescription("Craft a Barrels, Drum, Storage, and More Upgrade")
 
-setParent("sf4:ageStorage/bdsandmUpgrade5")
+addParent("sf4:ageStorage/bdsandmUpgrade5")
 
 drawDirectLines(true)
 
@@ -16,4 +16,4 @@ criteria.addItem(<bdsandm:upgrade:6>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-66,111)
+setPos(-131,111)

@@ -13,3 +13,4 @@ criteria.setDimensionDestination("hunting_dim")
 
 hideLines()
 alwaysVisible()
+setPos(32,224)

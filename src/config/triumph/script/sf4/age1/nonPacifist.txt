@@ -4,11 +4,9 @@ setIcon(<minecraft:cooked_porkchop>)
 
 setDescription("Hidden advancement to grant non-pacifist stage to player on every other world type.")
 
-setParent("sf4:age1/root")
+addParent("sf4:age1/root")
 
 //Criteria
-criteria1 = addCriteria("superflat1", "minecraft:location")
-criteria1.setGeneratorOptions({"Topography-Preset":"Sky Factory Classic Mode"})
 criteria2 = addCriteria("superflat2", "minecraft:location")
 criteria2.setGeneratorOptions({"Topography-Preset":"Sky Factory 4"})
 criteria4 = addCriteria("superflat4", "minecraft:location")

@@ -4,7 +4,7 @@ setIcon(<hydrogel:hydrogel>)
 
 setDescription("Craft Hydrogel to take the place of water in the middle of your farm")
 
-setParent("sf4:ageFarming/root")
+addParent("sf4:ageFarming/root")
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
@@ -15,4 +15,4 @@ setRewardExperience(4)
 
 alwaysVisible()
 hideLines()
-setPos(103,283)
+setPos(114,283)

@@ -4,7 +4,7 @@ setIcon(<chargers:charger:1>)
 
 setDescription("Craft a Tier 2 Charger")
 
-setParent("sf4:agePower/charger1")
+addParent("sf4:agePower/charger1")
 
 drawDirectLines(true)
 

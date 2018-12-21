@@ -4,7 +4,7 @@ setIcon(<cyclicmagic:heart_food>)
 
 setDescription("Craft and eat a Cyclic Heart Container")
 
-setParent("sf4:ageEnhancement/root")
+addParent("sf4:ageEnhancement/root")
 
 //Criteria
 criteria = addCriteria("consumed", "minecraft:consume_item")

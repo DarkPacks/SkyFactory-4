@@ -4,7 +4,7 @@ setIcon(<minecraft:obsidian>)
 
 setDescription("Click a lava filled Cauldron with a Water Bucket to make Obsidian")
 
-setParent("sf4:age1/lava")
+addParent("sf4:age1/lava")
 
 drawDirectLines(true)
 

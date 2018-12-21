@@ -4,7 +4,7 @@ setIcon(<nuclearcraft:fission_controller_new_fixed>)
 
 setDescription("Build a Max Size 24x24x24 Nuclearcraft Fission Reactor")
 
-setParent("sf4:ageALLTHETHINGSOMGLOL/root")
+addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
 hideLines()
 alwaysVisible()

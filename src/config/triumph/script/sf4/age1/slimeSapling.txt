@@ -4,7 +4,7 @@ setIcon(<tconstruct:slime_sapling>)
 
 setDescription("Acquire a Blue Slime Sapling")
 
-setParent("sf4:age1/claySapling")
+addParent("sf4:age1/claySapling")
 
 drawDirectLines(true)
 

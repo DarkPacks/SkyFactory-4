@@ -32,6 +32,9 @@ static stagedMods as string[][string] = {
 	],
 	stages.twilightForest.stage: [
 		"twilightforest"
+	],
+	stages.parabox.stage: [
+		"parabox"
 	]
 };
 

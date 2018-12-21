@@ -25,5 +25,6 @@ zenClass Prestige {
 	*/
 	function addTopographyReward(prestigeID as string, worldName as string) {
         Rewards.registerCommandReward(prestigeID, "topography unlock " ~ worldName);
+        Rewards.registerSellCommand(prestigeID, "topography lock " ~ worldName);       
 	}
 }

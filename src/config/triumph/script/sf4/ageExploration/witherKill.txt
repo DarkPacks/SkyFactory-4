@@ -12,4 +12,4 @@ criteria.setEntityType("withercrumbs:wither crumb")
 
 hideLines()
 alwaysVisible()
-setPos(96,135)
+setPos(82,174)

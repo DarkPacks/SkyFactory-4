@@ -4,7 +4,7 @@ setIcon("sky_orchards:sapling_sand")
 
 setDescription("Craft a Sand Sapling")
 
-setParent("sf4:age1/petrifiedSapling")
+addParent("sf4:age1/petrifiedSapling")
 
 drawDirectLines(true)
 

@@ -4,7 +4,7 @@ setIcon("minecraft:iron_sword")
 
 setDescription("You killed an innocent animal. You have lost access to the pacifist recipes")
 
-setParent("pacifist:pacifist_run/root")
+addParent("pacifist:pacifist_run/root")
 setRequiresParents()
 
 hideLines()

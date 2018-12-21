@@ -4,7 +4,7 @@ setIcon("compactmachines3:machine", 1)
 
 setDescription("Craft a Simple Generator")
 
-setParent("compactmachines:test/3x3x3")
+addParent("compactmachines:test/3x3x3")
 setRequiresParents()
 
 drawDirectLines(true)

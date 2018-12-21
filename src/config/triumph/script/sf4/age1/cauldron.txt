@@ -4,7 +4,7 @@ setIcon("morecauldrons:oak_cauldron")
 
 setDescription("Craft a Cauldron")
 
-setParent("sf4:age1/root")
+addParent("sf4:age1/root")
 
 drawDirectLines(true)
 

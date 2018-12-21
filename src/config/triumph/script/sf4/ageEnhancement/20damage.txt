@@ -4,7 +4,7 @@ setIcon(<minecraft:wooden_sword>)
 
 setDescription("Do 20 or more damage to a mob")
 
-setParent("sf4:ageEnhancement/root")
+addParent("sf4:ageEnhancement/root")
 hideLines()
 
 //Criteria

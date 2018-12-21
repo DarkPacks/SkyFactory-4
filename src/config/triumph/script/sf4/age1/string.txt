@@ -4,7 +4,7 @@ setIcon("minecraft:string")
 
 setDescription("String has a chance to drop from Cottonwood Leaves or use the Drying Rack to dry out Cottonwood Leaves to make String")
 
-setParent("sf4:age1/dryingRack")
+addParent("sf4:age1/dryingRack")
 
 drawDirectLines(true)
 

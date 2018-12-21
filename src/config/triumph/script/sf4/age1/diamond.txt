@@ -4,7 +4,7 @@ setIcon(<minecraft:diamond>)
 
 setDescription("Obtain a Diamond!")
 
-setParent("sf4:age1/diamondSapling")
+addParent("sf4:age1/diamondSapling")
 
 drawDirectLines(true)
 

@@ -4,7 +4,7 @@ setIcon(<storagenetwork:controller>)
 
 setDescription("Craft a Simple Storage Network Processing Controller Block")
 
-setParent("sf4:ageStorage/simpleStorageRequest")
+addParent("sf4:ageStorage/simpleStorageRequest")
 
 drawDirectLines(true)
 
@@ -16,4 +16,4 @@ criteria.addItem(<storagenetwork:controller>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-323,10)
+setPos(-326,10)

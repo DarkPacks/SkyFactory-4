@@ -4,7 +4,7 @@ setIcon("tp:watering_can")
 
 setDescription("Craft a watering can")
 
-setParent("sf4:ageFarming/root")
+addParent("sf4:ageFarming/root")
 
 hideLines()
 

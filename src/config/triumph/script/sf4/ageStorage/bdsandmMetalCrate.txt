@@ -4,7 +4,7 @@ setIcon(<bdsandm:metal_crate>)
 
 setDescription("Craft a Barrels, Drum, Storage, and More Metal Crate")
 
-setParent("sf4:ageStorage/bdsandmWoodenCrate")
+addParent("sf4:ageStorage/bdsandmWoodenCrate")
 
 drawDirectLines(true)
 

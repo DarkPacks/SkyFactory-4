@@ -14,4 +14,4 @@ criteria.addItem("inspirations:sugar_cane_seeds")
 
 //Rewards
 setRewardExperience(4)
-setPos(61,335)
+setPos(62,335)

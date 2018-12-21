@@ -4,7 +4,7 @@ setIcon(<tconstruct:lumberaxe>)
 
 setDescription("Craft a Lumber Axe in the Tool Forge to cut down whole trees")
 
-setParent("sf4:ageEnhancement/toolForge")
+addParent("sf4:ageEnhancement/toolForge")
 
 drawDirectLines(true)
 

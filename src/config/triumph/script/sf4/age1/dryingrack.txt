@@ -4,7 +4,7 @@ setIcon("tconstruct:rack", 1)
 
 setDescription("Drying Rack")
 
-setParent("sf4:age1/root")
+addParent("sf4:age1/root")
 
 drawDirectLines(true)
 

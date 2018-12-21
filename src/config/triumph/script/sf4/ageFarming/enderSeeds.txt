@@ -16,4 +16,4 @@ criteria.addItem(<endercrop:ender_seeds>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(142,231)
+setPos(114,231)

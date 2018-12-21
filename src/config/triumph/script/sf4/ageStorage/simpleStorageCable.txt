@@ -4,7 +4,7 @@ setIcon(<storagenetwork:kabel>)
 
 setDescription("Craft a Simple Storage Network Cable")
 
-setParent("sf4:ageStorage/simpleStorageMaster")
+addParent("sf4:ageStorage/simpleStorageMaster")
 
 drawDirectLines(true)
 
@@ -16,4 +16,4 @@ criteria.addItem(<storagenetwork:kabel>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-278,81)
+setPos(-278,82)

@@ -7,7 +7,7 @@ setDescription("Craft all of the Animal Seeds")
 addParent("sf4:ageFarming/wheatSeeds")
 
 hideLines()
-setPos(-39,335)
+setPos(-42,335)
 
 //Criteria
 criteria = addCriteria("Chicken Seed", "minecraft:inventory_changed")

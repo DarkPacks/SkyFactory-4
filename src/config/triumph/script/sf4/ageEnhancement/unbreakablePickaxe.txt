@@ -4,7 +4,7 @@ setIcon(<tconstruct:pickaxe, meta:2, count:1, durability:2, nbt:{StatsOriginal:{
 
 setDescription("Craft an Unbreakable Tinkers' Construct Pickaxe")
 
-setParent("sf4:ageEnhancement/root")
+addParent("sf4:ageEnhancement/root")
 
 hideLines()
 

@@ -4,7 +4,7 @@ setIcon(<yoyos:yoyo>)
 
 setDescription("Use every modifier on YoYo at least once")
 
-setParent("sf4:ageALLTHETHINGSOMGLOL/root")
+addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
 hideLines()
 

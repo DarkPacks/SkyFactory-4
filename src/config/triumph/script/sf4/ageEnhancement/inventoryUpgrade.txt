@@ -4,7 +4,7 @@ setIcon(<cyclicmagic:inventory_food>)
 
 setDescription("Craft and eat an Inventory Upgrade from Cyclic")
 
-setParent("sf4:ageEnhancement/root")
+addParent("sf4:ageEnhancement/root")
 
 //Criteria
 criteria = addCriteria("consumed", "minecraft:consume_item")

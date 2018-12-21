@@ -4,7 +4,7 @@ setIcon(<deepmoblearning:data_model_zombie>)
 
 setDescription("Craft a Zombie Data Model from Deep Mob Learning")
 
-setParent("sf4:agePower/root")
+addParent("sf4:agePower/root")
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")

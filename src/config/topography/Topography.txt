@@ -1,17 +1,23 @@
 //If this file is deleted, a new set of default configs will be generated.
 
 //Registers a preset. First argument is name, second is the image name, third is a description.
-SF4 = registerPreset("Sky Factory Classic Mode", "images/SF4mk2", "Traditional Sky Factory world. This world does not require unlocks via prestige but will also not allow you to accumulate prestige to unlock for other world types.")
-SF4.registerDimension(0, "SF4/dirt_tree")
-SF4.registerDimension(-1, "SF4/cell_nether")
-
-//SF4 = registerPreset("Testing World", "images/SF4mk2", "Testing")
-//SF4.registerDimension(0, "SF4/testing_world")
-//SF4.registerDimension(-1, "SF4/cell_nether")
-
 SF4 = registerPreset("Sky Factory 4", "images/SF4mk2", "Traditional Sky Factory world starting on a tree in the void.")
 SF4.registerDimension(0, "SF4/dirt_tree")
 SF4.registerDimension(-1, "SF4/cell_nether")
+
+SF4 = registerPreset("Skygrid", "images/SkyGrid", "This is Skygrid by Funwayguy", "skygrid")
+
+SF4 = registerPreset("Compactsky", "images/CompactMachines", "Needs Description", "compactsky")
+
+SF4 = registerPreset("Amplified", "images/Amplified", "Needs Description", "amplified")
+
+SF4 = registerPreset("Default", "images/Default", "Needs Description", "default")
+
+SF4 = registerPreset("LargeBiomes", "images/LargeBiomes", "Needs Description", "largeBiomes")
+
+SF4 = registerPreset("Lostcities", "images/LostCities", "Needs Description", "lostcities")
+
+SF4 = registerPreset("Flat", "images/Flat", "Needs Description", "flat")
 
 SF4 = registerPreset("Peace Out", "images/SF4mk2", "Standard world made for a Pacifist Run. Mobs will not drop loot. If you kill a mob, you will lose the run.")
 SF4.registerDimension(0, "SF4/dirt_tree")
