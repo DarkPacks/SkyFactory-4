@@ -31,6 +31,7 @@ function init() {
 
 	//Converts lava into Obsidian Block
 	inspirations.addCauldronFluid(<minecraft:obsidian>, <minecraft:water_bucket>, <liquid:lava>, 4);
+	inspirations.addCauldronFluid(<minecraft:obsidian>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <liquid:lava>, 4);
 
 	// Washing Sand off to bonemeal
 	inspirations.addCauldronFluid(<minecraft:dye:15> * 3, <minecraft:sand>, <liquid:water>);

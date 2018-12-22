@@ -8,7 +8,7 @@ addParent("sf4:agePower/root")
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem(<chargers:charger>)
+criteria.addItem(<chargers:charger:0>)
 
 //Rewards
 setRewardExperience(4)

@@ -1,0 +1,20 @@
+setTitle("Alloying")
+
+setIcon(<tcomplement:porcelain_alloy_tank>)
+
+setDescription("Place the Alloy Tank between two or more Tinkers' Complement Melters and it will combine to create a liquid alloy")
+
+addParent("sf4:ageEnhancement/root")
+setRequirements("any")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<tcomplement:porcelain_alloy_tank>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(83,85)
