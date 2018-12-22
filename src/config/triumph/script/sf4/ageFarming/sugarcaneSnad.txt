@@ -1,18 +1,14 @@
-setIcon("minecraft:reeds")
+setTitle("Plant Sugarcane Seeds on Snad")
 
-setTitle("Plant Sugarcane on Snad")
+setIcon(<minecraft:reeds>)
 
-setDescription("Place Snad and grow sugarcane atop it")
+setDescription("Place Snad to grow Sugarcane Seeds atop it at an accelerated rate")
 
 addParent("sf4:ageFarming/sugarcaneSeed")
 
 drawDirectLines(true)
+criteria = addCriteria("Placed Snad", "minecraft:placed_block")
+criteria.setBlock(<snad:snad>)
 
-criteria = addCriteria("wheat", "minecraft:placed_block")
-criteria.setBlock("minecraft:reeds")
-
-criteria = addCriteria("placedDirt", "minecraft:placed_block")
-criteria.setBlock("snad:snad")
 setPos(114,335)
-
 alwaysVisible()

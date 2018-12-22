@@ -1,4 +1,4 @@
-setIcon("inspirations:sugar_cane_seeds")
+setIcon(<inspirations:sugar_cane_seeds>)
 
 setTitle("Acquire Sugar Cane Seeds")
 
@@ -10,7 +10,7 @@ hideLines()
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("inspirations:sugar_cane_seeds")
+criteria.addItem(<inspirations:sugar_cane_seeds>)
 
 //Rewards
 setRewardExperience(4)

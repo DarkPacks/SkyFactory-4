@@ -1,0 +1,18 @@
+setTitle("Energized Smelter")
+
+setIcon(<mekanism:machineblock:10>)
+
+setDescription("You can use the Mekanism Energized Smelter in place of a vanilla furnace")
+
+addParent("sf4:agePower/root")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:machineblock:10>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-129,221)

@@ -117,6 +117,21 @@ function init() {
 	mekanism.addEnrichment(<thermalfoundation:material:130>, <thermalfoundation:material:322>);
 	mekanism.addEnrichment(<thermalfoundation:material:131>, <thermalfoundation:material:323>);
 
+	//Adding plate creation because mods don't do it automatically. Thx
+	mekanism.addEnrichment(<thermalfoundation:material:132>, <thermalfoundation:material:324>);
+	mekanism.addEnrichment(<thermalfoundation:material:133>, <thermalfoundation:material:325>);
+	mekanism.addEnrichment(<thermalfoundation:material:134>, <thermalfoundation:material:326>);
+	mekanism.addEnrichment(<thermalfoundation:material:135>, <thermalfoundation:material:327>);
+	mekanism.addEnrichment(<thermalfoundation:material:136>, <thermalfoundation:material:328>);
+	mekanism.addEnrichment(<mekanism:ingot:4>, <thermalfoundation:material:352>);
+	mekanism.addEnrichment(<thermalfoundation:material:161>, <thermalfoundation:material:353>);
+	mekanism.addEnrichment(<mekanism:ingot:2>, <thermalfoundation:material:355>);
+	mekanism.addEnrichment(<thermalfoundation:material:164>, <thermalfoundation:material:356>);
+	mekanism.addEnrichment(<thermalfoundation:material:162>, <thermalfoundation:material:354>);
+	mekanism.addEnrichment(<thermalfoundation:material:165>, <thermalfoundation:material:357>);
+	mekanism.addEnrichment(<thermalfoundation:material:166>, <thermalfoundation:material:358>);
+	mekanism.addEnrichment(<thermalfoundation:material:167>, <thermalfoundation:material:359>);
+
 	// ==================================
 	// Combiner
 	// ==================================
