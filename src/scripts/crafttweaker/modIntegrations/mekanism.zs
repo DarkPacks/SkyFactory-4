@@ -38,54 +38,10 @@ function init() {
 
 	mekanism.addCrusher(<minecraft:prismarine_shard>, <minecraft:prismarine_crystals> * 4);
 
-	//Bacon Crusher Recipes
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "prismarine"}) * 1, <minecraft:prismarine_crystals>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "steel"}) * 1, <mekanism:ingot:4>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "aquamarine"}) * 1, <astralsorcery:itemcraftingcomponent>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "soul_sand"}) * 1, <minecraft:soul_sand>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "cobalt"}) * 1, <tconstruct:nuggets>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "ender"}) * 1, <minecraft:ender_pearl>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "aluminum"}) * 1, <sky_orchards:amber_aluminum>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "manyullyn"}) * 1, <tconstruct:nuggets:2>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "glowstone"}) * 1, <minecraft:glowstone_dust>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "clay"}) * 1, <minecraft:clay_ball>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "ironbars"}) * 1, <minecraft:iron_bars>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "gold"}) * 1, <sky_orchards:amber_gold>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "lithium"}) * 1, <nuclearcraft:dust:6>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "platinum"}) * 1, <thermalfoundation:material:134>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "cobblestone"}) * 1, <minecraft:cobblestone>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "thorium"}) * 1, <nuclearcraft:dust:3>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "lapis_lazuli"}) * 1, <minecraft:dye:4>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "tin"}) * 1, <sky_orchards:amber_tin>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "tritanium"}) * 1, <matteroverdrive:tritanium_ingot>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "copper"}) * 1, <sky_orchards:amber_copper>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "invar"}) * 1, <thermalfoundation:material:162>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "netherrack"}) * 1, <minecraft:netherrack>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "ardite"}) * 1, <tconstruct:nuggets:1>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "sapphire"}) * 1, <practicallogistics2:sapphire>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "electrum"}) * 1, <thermalfoundation:material:161>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "nickel"}) * 1, <sky_orchards:amber_nickel>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "glass"}) * 1, <minecraft:glass>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "obsidian"}) * 1, <minecraft:obsidian>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "dirt"}) * 1, <minecraft:dirt>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "magnesium"}) * 1, <nuclearcraft:dust:7>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "osmium"}) * 1, <sky_orchards:amber_osmium>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "quartz"}) * 1, <minecraft:quartz>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "bone"}) * 1, <minecraft:bone>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "lead"}) * 1, <sky_orchards:amber_lead>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "bronze"}) * 1, <thermalfoundation:material:99>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "gravel"}) * 1, <minecraft:gravel>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "sand"}) * 1, <minecraft:sand>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "diamond"}) * 1, <minecraft:diamond>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "dilithium"}) * 1, <matteroverdrive:dilithium_crystal>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "seared_brick"}) * 1, <tconstruct:materials>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "coal"}) * 1, <minecraft:coal>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "iron"}) * 1, <sky_orchards:amber_iron>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "silver"}) * 1, <sky_orchards:amber_silver>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "uranium"}) * 1, <nuclearcraft:dust:4>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "boron"}) * 1, <nuclearcraft:dust:5>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "emerald"}) * 1, <minecraft:emerald>);
-	mekanism.addCrusher(<resourcehogs:bacon>.withTag({ResourceType: "redstone"}) * 1, <minecraft:redstone>);
+	// Bacon Crusher Recipes
+	for bacon, resourceOutput in baconResourceMap {
+		mekanism.addCrusher(bacon, resourceOutput);
+	}
 
 	// Nerf Biofuel output yield
 	mekanism.removeCrusher(<mekanism:biofuel:0>, <minecraft:potato:0>);
