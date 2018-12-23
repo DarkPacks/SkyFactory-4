@@ -164,7 +164,10 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 static shapelessRecipes as IIngredient[][][IItemStack] = {
     <minecraft:waterlily> * 4: [
         [<deepmoblearning:living_matter_overworldian>, <minecraft:vine>]
-    ]
+    ],
+	<minecraft:diamond:0>: [
+		[<projecte:item.pe_philosophers_stone>, <minecraft:emerald:0>]
+	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
