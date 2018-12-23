@@ -93,6 +93,7 @@ function initIntegration() {
 	scripts.crafttweaker.modIntegrations.inspirations.init();
 	scripts.crafttweaker.modIntegrations.integratedDynamics.init();
 	scripts.crafttweaker.modIntegrations.mekanism.init();
+	scripts.crafttweaker.modIntegrations.nuclearcraft.init();
 	scripts.crafttweaker.modIntegrations.rustic.init();
 	scripts.crafttweaker.modIntegrations.tinkers.init();
 }

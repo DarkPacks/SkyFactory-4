@@ -1,9 +1,14 @@
-//mods.nuclearcraft.manufactory.addRecipe([itemInput, itemOutput, {timeMultiplier (double), powerMultiplier (double), processRadiation (double)}]);
+/*
+	SkyFactory 4 NuclearCraft Integration Script
 
-for bacon, resourceOutput in baconResourceMap {
-	mods.nuclearcraft.manufactory.addRecipe([bacon, resourceOutput]);
+	This script utilizes the NuclearCraft integration to add/remove/modify recipes.
+*/
+function init() {
+	for bacon, resourceOutput in baconResourceMap {
+		nuclearCraft.addManufactory(bacon, resourceOutput);
+	}
+
+	// Wool from Cotton Amber
+	nuclearCraft.addManufactory(<sky_orchards:amber_cottonwood>, <minecraft:wool>);
+	nuclearCraft.addManufactory(<sky_orchards:acorn_cottonwood>, <minecraft:string>);
 }
-
-//Wool from Cotton Amber
-mods.nuclearcraft.manufactory.addRecipe([<sky_orchards:amber_cottonwood>, <minecraft:wool>]);
-mods.nuclearcraft.manufactory.addRecipe([<sky_orchards:acorn_cottonwood>, <minecraft:string>]);
