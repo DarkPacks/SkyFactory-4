@@ -10,7 +10,7 @@ import mods.cyclicmagic.Dehydrator;
 	Packager.addRecipe(<minecraft:emerald>, <sky_orchards:acorn_emerald> * 9);
 	Packager.addRecipe(<minecraft:redstone_block>, <sky_orchards:acorn_redstone> * 9);
 	Packager.addRecipe(<minecraft:lapis_block>, <sky_orchards:acorn_lapis> * 9);
-	
+
 	Packager.addRecipe(<minecraft:dirt>, [<sky_orchards:acorn_dirt> * 4, <sky_orchards:resin_dirt> * 5]);
 	Packager.addRecipe(<minecraft:cobblestone>, [<sky_orchards:acorn_petrified> * 4, <sky_orchards:resin_petrified> * 5]);
 	Packager.addRecipe(<minecraft:clay>, [<sky_orchards:acorn_clay> * 4, <sky_orchards:resin_clay> * 5]);
@@ -21,7 +21,7 @@ import mods.cyclicmagic.Dehydrator;
 	Packager.addRecipe(<minecraft:netherrack>, [<sky_orchards:acorn_netherrack> * 4, <sky_orchards:resin_netherrack> * 5]);
 	Packager.addRecipe(<minecraft:glowstone>, [<sky_orchards:acorn_glowstone> * 4, <sky_orchards:resin_glowstone> * 5]);
 	Packager.addRecipe(<minecraft:quartz>, [<sky_orchards:acorn_quartz> * 4, <sky_orchards:resin_quartz> * 5]);
-	
+
 	Packager.addRecipe(<sky_orchards:amber_iron>, [<sky_orchards:acorn_iron> * 4, <sky_orchards:resin_iron> * 5]);
 	Packager.addRecipe(<sky_orchards:amber_gold>, [<sky_orchards:acorn_gold> * 4, <sky_orchards:resin_gold> * 5]);
 	Packager.addRecipe(<sky_orchards:amber_lead>, [<sky_orchards:acorn_lead> * 4, <sky_orchards:resin_lead> * 5]);
