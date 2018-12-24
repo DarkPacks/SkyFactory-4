@@ -5,4 +5,4 @@
 
 	This script initializes all resources scripts.
 */
-scripts.crafttweaker.resources.bacon.init();
+scripts.crafttweaker.resources.resourceHogs.init();
