@@ -1,4 +1,5 @@
 setFogColor(#000000)
+generateEndCity()
 
 setSingleBiome("minecraft:sky")
 
@@ -111,3 +112,4 @@ tiny.addType(endbricks)
 tiny.addType(dragonegg)
 
 disableRespawning()
+captureTeleports()

@@ -85,31 +85,7 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
 		format.yellow("Growth Rate: 100% Drop Chance: 100%")
 	],
-	<tconstruct:slime_grass:1>: [
-		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
-		format.yellow("Growth Rate: 100% Drop Chance: 100%")
-	],
-	<tconstruct:slime_grass:6>: [
-		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
-		format.yellow("Growth Rate: 100% Drop Chance: 100%")
-	],
-	<tconstruct:slime_grass:11>: [
-		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
-		format.yellow("Growth Rate: 100% Drop Chance: 100%")
-	],
 	<tconstruct:slime_dirt:1>: [
-		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
-		format.yellow("Growth Rate: 200% Drop Chance: 150%")
-	],
-	<tconstruct:slime_grass:2>: [
-		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
-		format.yellow("Growth Rate: 200% Drop Chance: 150%")
-	],
-	<tconstruct:slime_grass:7>: [
-		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
-		format.yellow("Growth Rate: 200% Drop Chance: 150%")
-	],
-	<tconstruct:slime_grass:12>: [
 		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
 		format.yellow("Growth Rate: 200% Drop Chance: 150%")
 	],
@@ -117,27 +93,7 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
 		format.yellow("Growth Rate: 400% Drop Chance: 200%")
 	],
-	<tconstruct:slime_grass:3>: [
-		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
-		format.yellow("Growth Rate: 400% Drop Chance: 200%")
-	],
-	<tconstruct:slime_grass:8>: [
-		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
-		format.yellow("Growth Rate: 400% Drop Chance: 200%")
-	],
-	<tconstruct:slime_grass:13>: [
-		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
-		format.yellow("Growth Rate: 400% Drop Chance: 200%")
-	],
-	<tconstruct:slime_grass:4>: [
-		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
-		format.yellow("Growth Rate: 800% Drop Chance: 300%")
-	],
-	<tconstruct:slime_grass:9>: [
-		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
-		format.yellow("Growth Rate: 800% Drop Chance: 300%")
-	],
-	<tconstruct:slime_grass:14>: [
+	<tconstruct:slime_dirt:3>: [
 		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
 		format.yellow("Growth Rate: 800% Drop Chance: 300%")
 	],

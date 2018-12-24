@@ -1,0 +1,30 @@
+setFogColor(#000000)
+generateEndCity()
+
+setSingleBiome("minecraft:sky")
+
+//Creates a new SkyIslandType. The argument is a biome id.
+sky = new SkyIslandType("minecraft:sky")
+
+glassNLava = new SkyIslandType("minecraft:sky")
+glassNLava.setMainBlock(<tconstruct:clear_stained_glass:15>)
+glassNLava.setBlockInRange(<thermalfoundation:fluid_ender>, 0.0~0.5)
+glassNLava.disableBiomeBlockReplacement()
+glassNLava.disableDecorations()
+glassNLava.disableAnimals()
+
+skyIslands = new SkyIslandGenerator()
+skyIslands.setRegionSize(29)
+addGenerator(skyIslands)
+
+medium = skyIslands.addSkyIslands(50, 32, true)
+medium.addType(glassNLava)
+
+small = skyIslands.addSkyIslands(25, 64, true)
+small.addType(glassNLava)
+
+tiny = skyIslands.addSkyIslands(10, 128, true)
+tiny.addType(glassNLava)
+
+disableRespawning()
+captureTeleports()

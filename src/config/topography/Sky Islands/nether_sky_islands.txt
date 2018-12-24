@@ -85,3 +85,4 @@ cobalt.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(cobalt)
 
 disableRespawning()
+captureTeleports()

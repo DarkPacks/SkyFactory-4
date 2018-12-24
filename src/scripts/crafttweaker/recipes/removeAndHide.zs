@@ -220,7 +220,32 @@ static removeAndHideIngredients as IIngredient[] = [
 	<cyclicmagic:end_diamond_ore>,
 	<cyclicmagic:end_gold_ore>,
 	<cyclicmagic:end_iron_ore>,
-	<vc:symbols/item_display_symbol>
+	<vc:symbols/item_display_symbol>,
+	<tconstruct:slime_grass:7>,
+	<tconstruct:slime_grass:12>,
+	<tconstruct:slime_grass:9>,
+	<tconstruct:slime_grass:14>,
+	<tconstruct:slime_grass:4>,
+	<tconstruct:slime_grass:3>,
+	<tconstruct:slime_grass:1>,
+	<tconstruct:slime_grass:2>,
+	<tconstruct:slime_grass:8>,
+	<tconstruct:slime_grass:13>,
+	<tconstruct:slime_grass:6>,
+	<tconstruct:slime_grass:11>,
+	<tconstruct:slime_grass_tall>,
+	<tconstruct:slime_grass_tall:4>,
+	<tconstruct:slime_grass_tall:8>,
+	<tconstruct:slime_grass_tall:1>,
+	<tconstruct:slime_grass_tall:5>,
+	<tconstruct:slime_grass_tall:9>,
+	<tconstruct:slime_vine_blue_end>,
+	<tconstruct:slime_vine_blue_mid>,
+	<tconstruct:slime_vine_purple_end>,
+	<withercrumbs:crumb_star>,
+	<pickletweaks:ppm4>,
+	<pickletweaks:ppm4:1>,
+	<nuclearcraft:fission_controller_idle>
 ];
 
 function init() {

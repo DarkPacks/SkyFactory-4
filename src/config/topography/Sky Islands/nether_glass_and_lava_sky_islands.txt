@@ -12,7 +12,7 @@ setSingleBiome("minecraft:hell")
 hell = new SkyIslandType("minecraft:hell")
 
 glassNLava = new SkyIslandType("minecraft:hell")
-glassNLava.setMainBlock(<minecraft:glass>)
+glassNLava.setMainBlock(<tconstruct:clear_stained_glass:14>)
 glassNLava.setBlockInRange(<minecraft:lava>, 0.0~0.5)
 glassNLava.disableBiomeBlockReplacement()
 glassNLava.disableDecorations()
@@ -31,5 +31,5 @@ small.addType(glassNLava)
 tiny = skyIslands.addSkyIslands(10, 128, true)
 tiny.addType(glassNLava)
 
-
 disableRespawning()
+captureTeleports()
