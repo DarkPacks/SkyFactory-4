@@ -91,6 +91,7 @@ function initStaging() {
 }
 
 function initIntegration() {
+	scripts.crafttweaker.modIntegrations.horsePower.init();
 	scripts.crafttweaker.modIntegrations.inspirations.init();
 	scripts.crafttweaker.modIntegrations.integratedDynamics.init();
 	scripts.crafttweaker.modIntegrations.mekanism.init();
