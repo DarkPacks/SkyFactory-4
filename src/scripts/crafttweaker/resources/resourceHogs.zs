@@ -73,6 +73,7 @@ function initTruffleMap() {
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "aquamarine"})] = <astralsorcery:itemcraftingcomponent>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "ardite"})] = <sky_orchards:amber_ardite>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "bone"})] = <minecraft:bone>;
+	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "boron"})] = <nuclearcraft:dust:5>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "bronze"})] = <mekanism:ingot:2>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "clay"})] = <minecraft:clay_ball>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "coal"})] = <minecraft:coal>;
@@ -80,6 +81,7 @@ function initTruffleMap() {
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "cobblestone"})] = <minecraft:cobblestone>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "copper"})] = <sky_orchards:amber_copper>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "diamond"})] = <minecraft:diamond>;
+	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "dilithium"})] = <matteroverdrive:dilithium_crystal>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "dirt"})] = <minecraft:dirt>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "electrum"})] = <thermalfoundation:material:161>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "emerald"})] = <minecraft:emerald>;
@@ -93,6 +95,8 @@ function initTruffleMap() {
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "ironbars"})] = <minecraft:iron_bars>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "lapis_lazuli"})] = <minecraft:dye:4>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "lead"})] = <sky_orchards:amber_lead>;
+	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "lithium"})] = <nuclearcraft:dust:6>;
+	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "magnesium"})] = <nuclearcraft:dust:7>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "manyullyn"})] = <tconstruct:ingots:2>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "netherrack"})] = <minecraft:netherrack>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "nickel"})] = <thermalfoundation:material:133>;
@@ -103,10 +107,13 @@ function initTruffleMap() {
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "quartz"})] = <minecraft:quartz>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "redstone"})] = <minecraft:redstone>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "sand"})] = <minecraft:sand>;
+	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "sapphire"})] = <practicallogistics2:sapphire>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "seared_brick"})] = <tconstruct:materials>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "silver"})] = <sky_orchards:amber_silver>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "soul_sand"})] = <minecraft:soul_sand>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "steel"})] = <mekanism:ingot:4>;
+	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "thorium"})] = <nuclearcraft:dust:3>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "tin"})] = <sky_orchards:amber_tin>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "tritanium"})] = <matteroverdrive:tritanium_ingot>;
+	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: "uranium"})] = <nuclearcraft:dust:4>;
 }
