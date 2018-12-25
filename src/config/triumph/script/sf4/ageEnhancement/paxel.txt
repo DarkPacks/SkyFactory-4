@@ -1,18 +1,19 @@
-setTitle("Mega Torch")
+setTitle("Paxel")
 
-setIcon(<torchmaster:mega_torch>)
+setIcon(<pickletweaks:stone_paxel>)
 
-setDescription("Craft a Mega Torch")
+setDescription("Combine a Shovel, Pickaxe, and Axe to make a Paxel")
 
 addParent("sf4:ageEnhancement/root")
 
+
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem(<torchmaster:mega_torch>)
+criteria.addItem(<pickletweaks:stone_paxel>)
 
 //Rewards
 setRewardExperience(4)
 
 hideLines()
 alwaysVisible()
-setPos(140,96)
+setPos(-62,204)

@@ -224,7 +224,6 @@ mods.prestige.Rewards.registerDisabledCommand("gamestage add @p blue_slime_dirt"
 mods.prestige.Rewards.registerDisabledCommand("gamestage add @p purple_slime_dirt");
 mods.prestige.Rewards.registerDisabledCommand("gamestage add @p orange_slime_dirt");
 mods.prestige.Rewards.registerDisabledCommand("gamestage add @p ore_excavation");
-mods.prestige.Rewards.registerDisabledCommand("gamestage add @p pacifist");
 mods.prestige.Rewards.registerDisabledCommand("gamestage add @p android");
 mods.prestige.Rewards.registerDisabledCommand("gamestage add @p prosperity_tree");
 

@@ -1,0 +1,25 @@
+{
+  "id": "amber",
+  "inputs": [
+    "ore:gemAmber"
+  ],
+  "typeName": "Amber",
+  "output": "thaumcraft:amber",
+  "diggableBlocks": [
+    "minecraft:stone"
+  ],
+  "renderBlock": "thaumcraft:amber_block",
+  "validDimensions": [
+    -1,
+    0,
+    1,
+    7,
+    111,
+    144,
+    28885
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

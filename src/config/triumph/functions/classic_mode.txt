@@ -22,6 +22,5 @@ gamestage add @p blue_slime_dirt
 gamestage add @p purple_slime_dirt
 gamestage add @p orange_slime_dirt
 gamestage add @p ore_excavation
-gamestage add @p pacifist
 gamestage add @p android
 gamestage add @p prosperity_tree

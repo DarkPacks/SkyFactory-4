@@ -66,17 +66,19 @@ criteria30.setWorldType("skygrid")
 criteria31 = addCriteria("superflat31", "minecraft:location")
 criteria31.setWorldType("compactsky")
 criteria32 = addCriteria("superflat32", "minecraft:location")
-criteria32.setWorldType("default"
+criteria32.setWorldType("default")
 criteria33 = addCriteria("superflat33", "minecraft:location")
-criteria33.setWorldType("largeBiomes"
+criteria33.setWorldType("largeBiomes")
 criteria34 = addCriteria("superflat34", "minecraft:location")
-criteria34.setWorldType("amplified"
+criteria34.setWorldType("amplified")
 criteria35 = addCriteria("superflat35", "minecraft:location")
 criteria35.setWorldType("lostcities")
 criteria36 = addCriteria("superflat36", "minecraft:location")
 criteria36.setWorldType("flat")
 criteria37 = addCriteria("superflat37", "minecraft:location")
 criteria37.setWorldType("customized")
+criteria38 = addCriteria("superflat38", "minecraft:location")
+criteria38.setGeneratorOptions({"Topography-Preset":"You're a Hairy Wizard!"})
 
 setRequirements("any")
 

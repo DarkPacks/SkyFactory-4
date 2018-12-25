@@ -30,7 +30,7 @@ SF4.registerDimension(0, "SF4/project_e")
 SF4.registerDimension(-1, "SF4/cell_nether")
 SF4.lock()
 
-SF4 = registerPreset("Sky FacTree", "images/SkyFactreemk2", "T H I C C. Structure made by: JCGriff")
+SF4 = registerPreset("Sky FacTree", "images/SkyFactreemk2", "T H I C C. Structure by: JCGriff")
 SF4.registerDimension(0, "SF4/overworld_large_tree")
 SF4.registerDimension(-1, "SF4/nether_hedge_maze")
 
@@ -41,6 +41,10 @@ SF4.registerDimension(1, "SF4/end_stone_cage")
 
 SF4 = registerPreset("Sky Village", "images/Villagemk2", "Spawn inside a small village with a Dirt Tree.")
 SF4.registerDimension(0, "SF4/village")
+SF4.registerDimension(-1, "SF4/cell_nether")
+
+SF4 = registerPreset("You're a Hairy Wizard!", "images/Hogwarts", "A magical beginning! Structure by: Captain Q")
+SF4.registerDimension(0, "SF4/hogwarts")
 SF4.registerDimension(-1, "SF4/cell_nether")
 
 SF4 = registerPreset("Sea World", "images/WaterCage", "Surrounded by water in a glass cage with a Dirt Tree.")

@@ -1,0 +1,25 @@
+{
+  "id": "cinnabar",
+  "inputs": [
+    "ore:oreCinnabar"
+  ],
+  "typeName": "Cinnabar",
+  "output": "thaumcraft:ore_cinnabar",
+  "diggableBlocks": [
+    "minecraft:stone"
+  ],
+  "renderBlock": "thaumcraft:ore_cinnabar",
+  "validDimensions": [
+    -1,
+    0,
+    1,
+    7,
+    111,
+    144,
+    28885
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

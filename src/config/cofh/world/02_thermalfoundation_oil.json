@@ -89,7 +89,13 @@
           }
         ]
       },
-      "dimension": "all"
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          111,
+          7
+        ]
+      }
     },
     "oil_sand": {
       "distribution": "uniform",
