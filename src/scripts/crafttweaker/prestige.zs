@@ -199,7 +199,6 @@ mods.prestige.Rewards.registerDisabledAction(function(world as IWorld, player as
 });
 */
 
-mods.prestige.Rewards.registerDisabledCommand("gamestage add @p no_parabox");
 mods.prestige.Rewards.registerDisabledCommand("gamestage add @p mega_torch");
 mods.prestige.Rewards.registerDisabledCommand("gamestage add @p bonsai_trees");
 mods.prestige.Rewards.registerDisabledCommand("gamestage add @p flux_networks");
