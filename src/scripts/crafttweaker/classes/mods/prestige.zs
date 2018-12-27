@@ -27,4 +27,28 @@ zenClass Prestige {
         Rewards.registerCommandReward(prestigeID, "topography unlock " ~ worldName);
         Rewards.registerSellCommand(prestigeID, "topography lock " ~ worldName);
 	}
+
+	/*
+		Grants the player a stage when Prestige is disabled in the world
+	*/
+	function addPrestigeDisabledGamestage(stages as Stage[]) {
+		for stage in stages {
+			addPrestigeDisabledGamestage(stage);
+		}
+	}
+	function addPrestigeDisabledGamestage(stage as Stage) {
+		Rewards.registerDisabledCommand("gamestage add @p " ~ stage.stage);
+	}
+
+	/*
+		Grants the player a stage when Prestige is enabled in the world
+	*/
+	function addPrestigeEnabledGamestage(stages as Stage[]) {
+		for stage in stages {
+			addPrestigeEnabledGamestage(stage);
+		}
+	}
+	function addPrestigeEnabledGamestage(stage as Stage) {
+		Rewards.registerEnabledCommand("gamestage add @p " ~ stage.stage);
+	}
 }
