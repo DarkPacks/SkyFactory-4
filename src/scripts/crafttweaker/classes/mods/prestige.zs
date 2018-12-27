@@ -13,7 +13,7 @@ zenClass Prestige {
 	}
 
 	/*
-        Adds a Sell & reward command for the given namestage for the prestige ID
+        Adds a Sell & reward command for the given gamestage for the prestige ID
 	*/
 	function addGamestageReward(prestigeID as string, stage as Stage) {
 	    Rewards.registerCommandReward(prestigeID, "gamestage add @p " ~ stage.stage);
@@ -21,7 +21,7 @@ zenClass Prestige {
 	}
 
     /*
-        
+		Adds a Sell & Reward command for the given topography world for the prestige ID
 	*/
 	function addTopographyReward(prestigeID as string, worldName as string) {
         Rewards.registerCommandReward(prestigeID, "topography unlock " ~ worldName);
