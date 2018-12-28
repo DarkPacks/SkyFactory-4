@@ -1,7 +1,7 @@
 #priority 2600
 
 /*
-	SevTech: Ages Leaves OreDict Script.
+	SkyFactory 4 Leaves OreDict Script.
 */
 import crafttweaker.item.IItemStack;
 
