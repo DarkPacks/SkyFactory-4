@@ -1,7 +1,7 @@
 /*
-    SkyFactory 4 %mod% Recipe Script
+    SkyFactory 4 RFTools Recipe Script
 
-    This script handles the recipes for %mod%.
+    This script handles the recipes for RFTools.
 */
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
