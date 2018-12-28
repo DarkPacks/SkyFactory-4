@@ -1,4 +1,4 @@
-#priority 2399
+#priority 3100
 
 /*
 	SkyFactory 4 Class Creation Script.

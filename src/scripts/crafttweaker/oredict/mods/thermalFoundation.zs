@@ -1,4 +1,4 @@
-#priority 2600
+#priority 2700
 
 /*
 	SevTech: Ages Thermal Foundation OreDict Script.

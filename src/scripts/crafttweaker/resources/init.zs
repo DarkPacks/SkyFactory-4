@@ -1,4 +1,4 @@
-#priority 2500
+#priority 2300
 
 /*
 	SkyFactory 4 Resources Initializer.

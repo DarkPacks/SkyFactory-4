@@ -1,4 +1,4 @@
-#priority 2400
+#priority 3400
 
 /*
 	SkyFactory 4 NuclearCraft Class Script

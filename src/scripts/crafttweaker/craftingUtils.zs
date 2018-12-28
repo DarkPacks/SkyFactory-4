@@ -1,4 +1,4 @@
-#priority 2998
+#priority 4050
 
 /*
 	SkyFactory 4 Crafting Utils Script

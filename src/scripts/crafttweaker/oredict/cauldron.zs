@@ -1,4 +1,4 @@
-#priority 2600
+#priority 2700
 
 /*
 	SkyFactory 4 Cauldron OreDict Script.

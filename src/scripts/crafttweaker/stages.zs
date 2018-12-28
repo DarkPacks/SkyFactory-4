@@ -1,4 +1,4 @@
-#priority 3000
+#priority 3999
 
 /*
 	SkyFactory 4 Stages Stages Script

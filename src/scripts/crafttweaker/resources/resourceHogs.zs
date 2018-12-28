@@ -1,4 +1,4 @@
-#priority 2501
+#priority 2350
 
 /*
 	SkyFactory 4 Resource Hog Resources Script.
