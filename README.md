@@ -22,3 +22,23 @@ List of priorities used for creation of ZenScript files to ensure the load order
 | 1 - 2299          |                               |
 | 0                 | Normal Scripts                |
 | -100              | Run Script                    | **DON'T CHANGE** |
+
+### Stages
+#### Adding A New Stage
+To create a new stage, simply add the stage name to the `stageStrings` array in `scripts/crafttweaker/stages.zs`
+
+### Recipes
+#### Crafting Table Recipes
+Crafting table recipes are organized by mod id. Files are located in `scripts/crafttweaker/recipes/mods`.
+
+##### Creating A New File
+1. Create a new file with the same name as the mod ID of the mod you are modifying recipes of.
+2. Copy the contents of the example file at `docs/examples/modRecipe.zs`.
+3. Call the init function in `scripts/crafttweaker/postInit.zs`'s `initRecipes` function. *Example: `scripts.crafttweaker.recipes.mods.modID.init();`*
+
+### Creating New Resource Hogs
+1. Create the json in `config/resourcehogs/types`.
+2. Add the new type to the `resourceTypes` array in `scripts/crafttweaker/resources/resourceHogs.zs` in the format `"fileName": "resource ID"`. It is recommended to name the filename the same as the id, but it is not required.
+3. In the `initBaconMap` and `initTruffleMap` functions, add the new entry pairs. (Use already existing entries for examples on adding a new one)
+
+*Note: In development mode, a validator is run to ensure that the bacon map and the truffle map in `scripts/crafttweaker/resources/resourceHogs.zs` contains the resource types defined in the `resourceTypes` array.*
