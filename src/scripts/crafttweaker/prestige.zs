@@ -199,6 +199,7 @@ function init() {
 		stages.mystcraft,
 		stages.mysticalAgradditions,
 		stages.mysticalAgriculture,
+		stages.noParabox,
 		stages.openComputers,
 		stages.orangeSlimeDirt,
 		stages.oreExcavation,
@@ -209,8 +210,7 @@ function init() {
 		stages.rubyMulch,
 		stages.smeltery,
 		stages.twilightForest,
-		stages.yellowMulch,
-		stages.no_parabox
+		stages.yellowMulch
 	]);
 
 	// When the button is set to enabled
