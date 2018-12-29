@@ -1,4 +1,4 @@
-setTitle("Wireless Charger")
+setTitle("Tesla was Right!")
 
 setIcon(<chargers:wireless_charger>)
 
@@ -7,10 +7,9 @@ setDescription("Craft a Wireless Charger")
 addParent("sf4:agePower/root")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Wireless Charger", "minecraft:inventory_changed")
 criteria.addItem(<chargers:wireless_charger>)
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

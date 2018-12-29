@@ -1,4 +1,4 @@
-setTitle("Pristine Wither Skeleton Matter")
+setTitle("Withered Away")
 
 setIcon(<deepmoblearning:pristine_matter_wither_skeleton>)
 
@@ -7,10 +7,9 @@ setDescription("Acquire a Pristine Wither Skeleton Matter from Deep Mob Learning
 addParent("sf4:agePower/pristineZombieMatter")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Pristine Wither Skeleton Matter", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:pristine_matter_wither_skeleton>)
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

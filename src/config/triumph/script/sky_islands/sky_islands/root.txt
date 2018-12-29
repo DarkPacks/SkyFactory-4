@@ -2,7 +2,7 @@ setTitle("Sky Islands")
 
 setIcon(<rustic:cloudsbluff>)
 
-setDescription("Lorem ipsum dolor sit amet")
+setDescription("Hidden Root Advancement for Sky Islands World Type")
 
 setBackground("test:textures/colors/clear_sky.png")
 
@@ -24,3 +24,5 @@ criteria3.setGeneratorOptions({"Topography-Preset":"Lava Cake"})
 
 //Rewards
 setRewardFunction("triumph:sky_islands_start")
+
+alwaysHidden()

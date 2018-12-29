@@ -1,4 +1,4 @@
-setTitle("Energized Smelter")
+setTitle("Gotta Smelt Fast")
 
 setIcon(<mekanism:machineblock:10>)
 
@@ -7,10 +7,9 @@ setDescription("You can use the Mekanism Energized Smelter in place of a vanilla
 addParent("sf4:agePower/root")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Energized Smelter", "minecraft:inventory_changed")
 criteria.addItem(<mekanism:machineblock:10>)
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

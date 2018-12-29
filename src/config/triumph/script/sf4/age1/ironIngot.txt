@@ -1,6 +1,6 @@
-setTitle("Iron Ingot")
+setTitle("Oh, the Irony")
 
-setIcon("minecraft:iron_ingot")
+setIcon(<minecraft:iron_ingot>)
 
 setDescription("Create an Iron Ingot")
 
@@ -9,8 +9,8 @@ addParent("sf4:age1/ironSapling")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("minecraft:iron_ingot")
+criteria = addCriteria("Obtain Iron Ingot", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:iron_ingot>)
 
 //Rewards
 setRewardExperience(4)

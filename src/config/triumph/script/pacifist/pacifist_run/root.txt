@@ -1,4 +1,4 @@
-setTitle("Pacifist Run")
+setTitle("Pacifist World")
 
 setIcon(<minecraft:red_flower:8>)
 
@@ -21,4 +21,4 @@ criteria2.addItem("minecraft:torch")
 //Rewards
 setRewardExperience(4)
 setRewardFunction("triumph:pacifist_start")
-setPos(-8,0)
+setPos(-8,24)

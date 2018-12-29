@@ -1,4 +1,4 @@
-setTitle("Simple Storage Network - Processing Controller")
+setTitle("Control Yourself")
 
 setIcon(<storagenetwork:controller>)
 
@@ -9,10 +9,9 @@ addParent("sf4:ageStorage/simpleStorageRequest")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Processing Controller", "minecraft:inventory_changed")
 criteria.addItem(<storagenetwork:controller>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

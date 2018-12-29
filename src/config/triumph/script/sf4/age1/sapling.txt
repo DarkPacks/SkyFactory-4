@@ -1,0 +1,22 @@
+setTitle("Tree Harder")
+
+setIcon(<minecraft:sapling>)
+
+setDescription("Obtain any Sapling")
+
+addParent("sf4:age1/root")
+addParent("skygrid:skygrid/root")
+setRequiresParents()
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Has Sapling", "minecraft:inventory_changed")
+criteria.addItem(<ore:treeSapling>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+hiddenUnless("skygrid")
+setPos(-242,51)

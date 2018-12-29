@@ -25,3 +25,5 @@ criteria2.addItem(<projecte:item.pe_philosophers_stone>)
 
 criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
 criteria3.addItem(<projecte:alchemical_chest>)
+
+alwaysHidden()

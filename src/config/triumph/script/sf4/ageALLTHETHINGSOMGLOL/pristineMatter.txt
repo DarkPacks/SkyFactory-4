@@ -1,8 +1,8 @@
-setTitle("Who Stole the Cookies from the Cookie Jar")
+setTitle("Nothing Else Matters")
 
 setIcon(<deepmoblearning:pristine_matter_zombie>)
 
-setDescription("Fill a Cookie Jar with Cookies and Right-Click it!")
+setDescription("Obtain 1 of each Deep Mob Learning Pristine Matter")
 
 addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
@@ -27,7 +27,7 @@ criteria9 = addCriteria("Pristine Wither Skeleton Matter", "minecraft:inventory_
 criteria9.addItem(<deepmoblearning:pristine_matter_wither_skeleton>)
 criteria10= addCriteria("Pristine Enderman Matter", "minecraft:inventory_changed")
 criteria10.addItem(<deepmoblearning:pristine_matter_enderman>)
-criteria11= addCriteria("Pristine Wither Matter", minecraft:inventory_changed")
+criteria11= addCriteria("Pristine Wither Matter", "minecraft:inventory_changed")
 criteria11.addItem(<deepmoblearning:pristine_matter_wither>)
 criteria13= addCriteria("Pristine Shulker Matter", "minecraft:inventory_changed")
 criteria13.addItem(<deepmoblearning:pristine_matter_shulker>)

@@ -1,8 +1,8 @@
-setTitle("Ultimate Singularity")
+setTitle("Ender Game")
 
 setIcon(<extendedcrafting:singularity_ultimate>)
 
-setDescription("Craft an Ultimate Singularity")
+setDescription("Obtain an Ultimate Singularity")
 
 addParent("sf4:ageALLTHETHINGSOMGLOL/singularityBacon")
 addParent("sf4:ageALLTHETHINGSOMGLOL/singularityDonut")
@@ -10,7 +10,7 @@ addParent("sf4:ageALLTHETHINGSOMGLOL/singularityDonut")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Ultimate Singularity", "minecraft:inventory_changed")
 criteria.addItem(<extendedcrafting:singularity_ultimate>)
 
 //Rewards

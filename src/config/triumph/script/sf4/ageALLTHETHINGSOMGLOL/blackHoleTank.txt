@@ -1,4 +1,4 @@
-setTitle("Black Hole Test")
+setTitle("Bottoms Up")
 
 setIcon(<industrialforegoing:black_hole_tank>)
 
@@ -9,8 +9,8 @@ addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 hideLines()
 alwaysVisible()
 
-//Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
-criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+//Criteria
+criteria = addCriteria("Right Click Filled Black Hole Tank", "triumph:right_click_block")
 criteria.setBlock(<industrialforegoing:black_hole_tank,tile:{fluids:{tanks:[{Amount:2147483000}]}}>)
 
 //Rewards

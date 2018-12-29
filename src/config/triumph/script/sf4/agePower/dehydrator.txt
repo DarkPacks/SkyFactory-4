@@ -1,16 +1,15 @@
-setTitle("Dehydrator")
+setTitle("I'll Dehydrate You")
 
 setIcon(<cyclicmagic:dehydrator>)
 
-setDescription("Craft a Dehydrator Machine")
+setDescription("Craft a Cyclic Dehydrator Machine")
 
 addParent("sf4:agePower/root")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Dehydrator", "minecraft:inventory_changed")
 criteria.addItem(<cyclicmagic:dehydrator>)
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

@@ -1,4 +1,4 @@
-setTitle("Simple Storage Network - Remote")
+setTitle("Wares the Remote?")
 
 setIcon(<storagenetwork:remote>)
 
@@ -9,10 +9,9 @@ addParent("sf4:ageStorage/simpleStorageMaster")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Storage Network Remote", "minecraft:inventory_changed")
 criteria.addItem(<storagenetwork:remote>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

@@ -1,8 +1,8 @@
 setTitle("Age of Exploration")
 
-setIcon("huntingdim:portal")
+setIcon(<dimensionaledibles:overworld_cake>)
 
-setDescription("Lorem ipsum dolor sit amet")
+setDescription("Explore the world and dimensions around you")
 
 setBackground("test:textures/colors/black.png")
 

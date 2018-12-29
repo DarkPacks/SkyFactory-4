@@ -1,4 +1,4 @@
-setTitle("Fusion Reactor")
+setTitle("Third Times the Charm")
 
 setIcon(<nuclearcraft:fusion_core>)
 
@@ -9,7 +9,7 @@ addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 hideLines()
 alwaysVisible()
 
-criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria = addCriteria("Right Click Fusion Reactor Generating 3,333,333 RF/t", "triumph:right_click_block")
 criteria.setBlock(<nuclearcraft:fusion_core, tile:{processPower:3333333.0~}>)
 
 //Rewards

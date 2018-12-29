@@ -1,18 +1,17 @@
-setTitle("Unbreakable Tinkers' Tool")
+setTitle("Unbroken")
 
-setIcon(<tconstruct:pickaxe, meta:2, count:1, durability:2, nbt:{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.07f,FreeModifiers:3,Durability:106,HarvestLevel:4,Attack:4.2f},Unbreakable:1b,Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.07f,FreeModifiers:62,Durability:106,HarvestLevel:4,Attack:4.2f},Special:{Categories:["tool","harvest","aoe"]},TinkerData:{UsedModifiers:5,Materials:["obsidian","obsidian","obsidian"],Modifiers:["toolleveling","reinforced","creative"]},Modifiers:[{identifier:"duritos",color:-10478396,level:1},{identifier:"toolleveling",color:16777215,level:1,xp:3,bonus_modifiers:0},{identifier:"reinforced",color:5254787,level:5},{identifier:"creative",color:0,level:64}],Traits:["duritos","toolleveling","reinforced"]}>)
+setIcon(<tconstruct:materials:14>)
 
-setDescription("Craft an Unbreakable Tinkers' Construct Pickaxe")
+setDescription("Craft an Unbreakable Tinkers' Construct Tool or Weapon")
 
 addParent("sf4:ageEnhancement/root")
 
 hideLines()
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem(<tconstruct:pickaxe, nbt:{Unbreakable:1b}>)
+criteria = addCriteria("Obtain Unbreakable Tinkers' Tool or Weapon", "minecraft:inventory_changed")
+criteria.addItem(<nbt:{Unbreakable:1b}>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

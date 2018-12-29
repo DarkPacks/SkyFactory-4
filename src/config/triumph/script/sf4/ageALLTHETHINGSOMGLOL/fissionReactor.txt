@@ -1,4 +1,4 @@
-setTitle("Fission Reactor")
+setTitle("Gone Fission")
 
 setIcon(<nuclearcraft:depleted_fuel_californium:7>)
 
@@ -9,7 +9,7 @@ addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 hideLines()
 alwaysVisible()
 
-criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria = addCriteria("Right Click Fission Reactor Generating 25k RF/t", "triumph:right_click_block")
 criteria.setBlock(<nuclearcraft:fission_controller_new_fixed, tile:{processPower:25000~}>)
 
 //Rewards

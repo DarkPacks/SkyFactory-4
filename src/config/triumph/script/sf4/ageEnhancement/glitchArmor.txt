@@ -1,24 +1,23 @@
-setTitle("Glitch Infused Armor")
+setTitle("Armor 404")
 
 setIcon(<deepmoblearning:glitch_infused_chestplate>)
 
-setDescription("Craft the entire Glitch Infused Armor Set")
+setDescription("Craft the whole Glitch Infused Armor Set")
 
 addParent("sf4:ageEnhancement/root")
 
 hideLines()
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Glitch Infused Helmet", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:glitch_infused_helmet>)
-criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1 = addCriteria("Obtain Glitch Infused Chestplate", "minecraft:inventory_changed")
 criteria1.addItem(<deepmoblearning:glitch_infused_chestplate>)
-criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2 = addCriteria("Obtain Glitch Infused Leggings", "minecraft:inventory_changed")
 criteria2.addItem(<deepmoblearning:glitch_infused_leggings>)
-criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3 = addCriteria("Obtain Glitch Infused Boots", "minecraft:inventory_changed")
 criteria3.addItem(<deepmoblearning:glitch_infused_boots>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

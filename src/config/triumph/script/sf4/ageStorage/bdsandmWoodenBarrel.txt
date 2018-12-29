@@ -1,18 +1,17 @@
-setTitle("Wooden Barrel")
+setTitle("What Woodent You Store?")
 
 setIcon(<bdsandm:wood_barrel>)
 
-setDescription("Craft a Barrels, Drum, Storage, and More Wooden Barrel")
+setDescription("Craft a Barrels, Drums, Storage, and More Wooden Barrel")
 
 addParent("sf4:ageStorage/root")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Wooden Barrel", "minecraft:inventory_changed")
 criteria.addItem(<bdsandm:wood_barrel>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

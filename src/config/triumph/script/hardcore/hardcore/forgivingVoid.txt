@@ -4,11 +4,10 @@ setIcon(<minecraft:elytra>)
 
 setDescription("Obtain Elytra to enable Forgiving Void in the Overworld")
 
+addParent("sf4:ageExploration/root")
 addParent("hardcore:hardcore/root")
-
-drawDirectLines(true)
-alwaysVisible()
 setRequiresParents()
+hideLines()
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
@@ -17,3 +16,6 @@ criteria.addItem(<minecraft:elytra>)
 //Rewards
 setRewardExperience(4)
 setRewardFunction("triumph:forgiving_void_enable")
+
+hiddenUnless("hardcore:hardcore/root")
+setPos(85,126)

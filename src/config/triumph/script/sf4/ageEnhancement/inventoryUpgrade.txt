@@ -1,4 +1,4 @@
-setTitle("Inventory Upgrade")
+setTitle("Storage Wars")
 
 setIcon(<cyclicmagic:inventory_food>)
 
@@ -7,10 +7,9 @@ setDescription("Craft and eat an Inventory Upgrade from Cyclic")
 addParent("sf4:ageEnhancement/root")
 
 //Criteria
-criteria = addCriteria("consumed", "minecraft:consume_item")
+criteria = addCriteria("Eat Cyclic Inventory Upgrade", "minecraft:consume_item")
 criteria.setItem(<cyclicmagic:inventory_food>)
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

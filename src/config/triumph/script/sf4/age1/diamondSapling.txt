@@ -1,4 +1,4 @@
-setTitle("Diamond Sapling")
+setTitle("This Tree is Forever")
 
 setIcon(<sky_orchards:sapling_diamond>)
 
@@ -9,7 +9,7 @@ addParent("sf4:age1/goldSapling")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Diamond Sapling", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_diamond>)
 
 //Rewards

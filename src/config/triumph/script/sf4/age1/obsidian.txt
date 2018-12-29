@@ -9,11 +9,11 @@ addParent("sf4:age1/lava")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Obsidian", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:obsidian>)
 
 //Rewards
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(31,76)
+setPos(33,76)

@@ -1,8 +1,8 @@
 setTitle("Age of Enhancement")
 
-setIcon("minecraft:anvil")
+setIcon(<minecraft:anvil>)
 
-setDescription("Lorem ipsum dolor sit amet")
+setDescription("Advancements for the overall enhancement of items, tools, etc")
 
 setBackground("test:textures/colors/dark_gray.png")
 

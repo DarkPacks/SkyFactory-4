@@ -1,6 +1,6 @@
-setTitle("Enchantment Table")
+setTitle("An Enchanting Evening")
 
-setIcon("minecraft:enchanting_table")
+setIcon(<minecraft:enchanting_table>)
 
 setDescription("Craft an Enchantment Table")
 
@@ -9,10 +9,9 @@ addParent("sf4:ageEnhancement/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("minecraft:enchanting_table")
+criteria = addCriteria("Obtain Enchantment Table", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:enchanting_table>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

@@ -1,4 +1,4 @@
-setTitle("Plant Sugarcane Seeds on Snad")
+setTitle("Sugar Daddy")
 
 setIcon(<minecraft:reeds>)
 

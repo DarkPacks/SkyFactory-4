@@ -1,6 +1,6 @@
-setIcon(<twilightforest:miniature_structure>)
+setTitle("Enter the Twilight")
 
-setTitle("Twilight Forest")
+setIcon(<twilightforest:miniature_structure>)
 
 setDescription("Go to the Twilight Forest Dimension")
 
@@ -8,10 +8,9 @@ addParent("sf4:ageExploration/root")
 
 drawDirectLines(true)
 
-criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
-
+criteria = addCriteria("Entered Twilight Forest Dimension", "minecraft:changed_dimension")
 criteria.setDimensionDestination("twilight_forest")
 
 hideLines()
 alwaysVisible()
-setPos(32,71)
+setPos(7,78)

@@ -1,6 +1,6 @@
-setTitle("Cobblestone Generator")
+setTitle("Cobble Cobble")
 
-setIcon("minecraft:cobblestone")
+setIcon(<minecraft:cobblestone>)
 
 setDescription("Craft or create a Cobblestone Generator and fill all the slots of a Vanilla Chest. Open the Chest to complete the Advancement")
 
@@ -16,4 +16,4 @@ criteria.setBlock(<tile:{Items:[{Slot:0b,id:"minecraft:cobblestone",Count:64b,Da
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(37,119)
+setPos(33,119)

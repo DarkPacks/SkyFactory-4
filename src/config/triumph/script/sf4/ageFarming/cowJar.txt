@@ -1,6 +1,6 @@
-setTitle("Cow in a Jar")
+setTitle("Condensed Milk")
 
-setIcon("cookingforblockheads:cow_jar")
+setIcon(<cookingforblockheads:cow_jar>)
 
 setDescription("Create a Cow in a Jar")
 
@@ -9,10 +9,9 @@ addParent("sf4:ageFarming/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("cookingforblockheads:cow_jar")
+criteria = addCriteria("Obtain Cow in a Jar", "minecraft:inventory_changed")
+criteria.addItem(<cookingforblockheads:cow_jar>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

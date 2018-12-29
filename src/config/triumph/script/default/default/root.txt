@@ -2,7 +2,7 @@ setTitle("Default")
 
 setIcon(<minecraft:skull>)
 
-setDescription("Lorem ipsum dolor sit amet")
+setDescription("Hidden Root Advancement for Default World Type")
 
 setBackground("projecte:textures/blocks/dm.png")
 
@@ -18,3 +18,5 @@ criteria.setWorldType("default")
 
 //Rewards
 setRewardFunction("triumph:sky_islands_start")
+
+alwaysHidden()

@@ -27,7 +27,6 @@ addParent("sf4:ageEnhancement/toolStation")
 addParent("sf4:ageEnhancement/unbreakablePickaxe")
 addParent("sf4:ageEnhancement/weirdingGadget")
 addParent("sf4:ageEnhancement/yoyo")
-addParent("sf4:ageEnhancement/diagonalFences")
 
 setRequiresParents()
 setFrameType("challenge")
@@ -38,7 +37,6 @@ criteria.setStage("parabox")
 
 hiddenUnless("parabox")
 
-//Rewards
 setRewardExperience(30)
 setRewardFunction("triumph:prestige_add")
 

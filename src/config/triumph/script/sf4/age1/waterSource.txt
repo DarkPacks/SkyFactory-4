@@ -1,18 +1,21 @@
-setTitle("Water Source")
+setTitle("Wet Feet")
 
 setIcon(<tp:water_block>)
 
 setDescription("Break a Water Source Stone to create a Water Source")
 
+addParent("sf4:age1/root")
 addParent("skygrid:skygrid/root")
 setRequiresParents()
 
 drawDirectLines(true)
 
-criteria = addCriteria("breakblock",  "triumph:player_break_block")
+criteria = addCriteria("Break Water Source Block", "triumph:player_break_block")
 criteria.setBlock(<tp:water_block>)
 
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+hideLines()
+hiddenUnless("skygrid")
+setPos(-242,101)

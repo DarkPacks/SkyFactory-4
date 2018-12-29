@@ -1,8 +1,8 @@
 setTitle("Age of ALLTHETHINGSOMGLOL")
 
-setIcon("minecraft:clock")
+setIcon(<chisel:futura:3>)
 
-setDescription("Lorem ipsum dolor sit amet")
+setDescription("Difficult, tedious, and collection advancements for late game")
 
 setBackground("test:textures/colors/dark_purple.png")
 

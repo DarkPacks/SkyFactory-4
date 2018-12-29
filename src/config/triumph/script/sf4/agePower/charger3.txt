@@ -1,4 +1,4 @@
-setTitle("Charger III")
+setTitle("No Chargebacks")
 
 setIcon(<chargers:charger:2>)
 
@@ -9,10 +9,9 @@ addParent("sf4:agePower/charger2")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Tier 3 Charger", "minecraft:inventory_changed")
 criteria.addItem(<chargers:charger:2>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

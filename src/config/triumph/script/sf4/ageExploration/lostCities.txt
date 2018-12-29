@@ -1,6 +1,6 @@
-setIcon(<minecraft:glass>)
+setTitle("Lost and Found")
 
-setTitle("Lost Cities")
+setIcon(<minecraft:glass>)
 
 setDescription("Go to the Lost Cities Dimension")
 
@@ -8,10 +8,9 @@ addParent("sf4:ageExploration/root")
 
 drawDirectLines(true)
 
-criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
-
+criteria = addCriteria("Entered Lost Cities Dimension", "minecraft:changed_dimension")
 criteria.setDimensionDestination("lostcities")
 
 hideLines()
 alwaysVisible()
-setPos(32,46)
+setPos(32,78)

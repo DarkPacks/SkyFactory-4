@@ -1,4 +1,4 @@
-setTitle("Deep Learner")
+setTitle("The Study Guide")
 
 setIcon(<deepmoblearning:deep_learner>)
 
@@ -7,10 +7,9 @@ setDescription("Craft a Deep Learner from Deep Mob Learning. Insert Data Modules
 addParent("sf4:agePower/root")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Deep Learner", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:deep_learner>)
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

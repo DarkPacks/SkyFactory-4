@@ -1,18 +1,17 @@
-setTitle("Stencil Table")
+setTitle("Keep It Between the Lines")
 
-setIcon("tconstruct:tooltables", 1)
+setIcon(<tconstruct:tooltables:1>)
 
-setDescription("Craft a Stencil Table")
+setDescription("Craft a Tinkers' Construct Stencil Table")
 
 addParent("sf4:ageEnhancement/root")
 
 hideLines()
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("tconstruct:tooltables", 1)
+criteria = addCriteria("Obtain Tinkers' Stencil Table", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables:1>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

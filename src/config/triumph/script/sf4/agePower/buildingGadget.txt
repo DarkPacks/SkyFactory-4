@@ -1,4 +1,4 @@
-setTitle("Building Gadget")
+setTitle("Go, Go, Building Gadget")
 
 setIcon(<buildinggadgets:buildingtool>)
 
@@ -9,7 +9,7 @@ addParent("sf4:agePower/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Building Gadget", "minecraft:inventory_changed")
 criteria.addItem(<buildinggadgets:buildingtool>)
 
 //Rewards

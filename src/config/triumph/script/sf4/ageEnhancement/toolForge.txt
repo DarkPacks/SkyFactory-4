@@ -1,18 +1,17 @@
-setTitle("Tool Forge")
+setTitle("Forging Ahead")
 
-setIcon("tconstruct:toolforge")
+setIcon(<tconstruct:toolforge>)
 
-setDescription("Craft a Tool Forge")
+setDescription("Craft a Tinkers' Construct Tool Forge")
 
 addParent("sf4:ageEnhancement/toolStation")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("tconstruct:toolforge")
+criteria = addCriteria("Obtain Tool Forge", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:toolforge>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

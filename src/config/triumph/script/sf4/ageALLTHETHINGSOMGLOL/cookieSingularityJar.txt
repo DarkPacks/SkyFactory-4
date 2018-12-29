@@ -1,4 +1,4 @@
-setTitle("ALL THE COOKIES")
+setTitle("Cookie Clicker")
 
 setIcon(<extendedcrafting:singularity_custom:1>)
 
@@ -9,8 +9,7 @@ addParent("sf4:ageALLTHETHINGSOMGLOL/cookie")
 drawDirectLines(true)
 
 //Criteria
-//Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
-criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria = addCriteria("Right Click Cookie Jar Filled With Cookie Singularities", "triumph:right_click_block")
 criteria.setBlock(<bibliocraft:cookiejar, tile:{shift:0,cookiecount:8,isOpen:0b,names:["item.ec.singularity_custom_cookie","item.ec.singularity_custom_cookie","item.ec.singularity_custom_cookie","item.ec.singularity_custom_cookie","item.ec.singularity_custom_cookie","item.ec.singularity_custom_cookie","item.ec.singularity_custom_cookie","item.ec.singularity_custom_cookie"],x:8,y:70,angle:3,z:5,id:"minecraft:cookiejar",position:1,locked:0b,lockee:"",Inventory:[{Slot:0b,id:"extendedcrafting:singularity_custom",Count:64b,Damage:1s},{Slot:1b,id:"extendedcrafting:singularity_custom",Count:64b,Damage:1s},{Slot:2b,id:"extendedcrafting:singularity_custom",Count:64b,Damage:1s},{Slot:3b,id:"extendedcrafting:singularity_custom",Count:64b,Damage:1s},{Slot:4b,id:"extendedcrafting:singularity_custom",Count:64b,Damage:1s},{Slot:5b,id:"extendedcrafting:singularity_custom",Count:64b,Damage:1s},{Slot:6b,id:"extendedcrafting:singularity_custom",Count:64b,Damage:1s},{Slot:7b,id:"extendedcrafting:singularity_custom",Count:64b,Damage:1s}]}>)
 
 //Rewards

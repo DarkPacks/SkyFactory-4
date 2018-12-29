@@ -1,20 +1,19 @@
-setTitle("Crushing Tub")
+setTitle("I Love Lucy")
 
-setIcon("rustic:crushing_tub")
+setIcon(<rustic:crushing_tub>)
 
-setDescription("Craft a Crushing Tub")
+setDescription("Craft a Rustic Crushing Tub")
 
 addParent("sf4:age1/root")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("rustic:crushing_tub")
+criteria = addCriteria("Obtain Crushing Tub", "minecraft:inventory_changed")
+criteria.addItem(<rustic:crushing_tub>)
 
 //Rewards
 setRewardExperience(4)
-
 
 hideLines()
 alwaysVisible()

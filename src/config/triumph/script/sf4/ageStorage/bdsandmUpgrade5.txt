@@ -2,14 +2,14 @@ setTitle("Upgrade 6")
 
 setIcon(<bdsandm:upgrade:5>)
 
-setDescription("Craft a Barrels, Drum, Storage, and More Upgrade")
+setDescription("Craft a Barrels, Drums, Storage, and More Ore Dictionary Storage Upgrade")
 
 addParent("sf4:ageStorage/bdsandmUpgrade4")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Ore Dictionary Storage Upgrade", "minecraft:inventory_changed")
 criteria.addItem(<bdsandm:upgrade:5>)
 
 //Rewards

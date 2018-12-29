@@ -1,4 +1,4 @@
-setTitle("Powercell High")
+setTitle("Jacob's Ladder")
 
 setIcon(<rftoolspower:cell3>)
 
@@ -7,10 +7,9 @@ setDescription("Craft a RF Tools High Powercell")
 addParent("sf4:agePower/powerCellMedium")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain High Powercell", "minecraft:inventory_changed")
 criteria.addItem(<rftoolspower:cell3>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

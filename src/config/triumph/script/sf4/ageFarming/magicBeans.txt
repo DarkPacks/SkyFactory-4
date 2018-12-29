@@ -9,10 +9,9 @@ addParent("sf4:ageFarming/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Sprout Seeds", "minecraft:inventory_changed")
 criteria.addItem(<cyclicmagic:sprout_seed>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

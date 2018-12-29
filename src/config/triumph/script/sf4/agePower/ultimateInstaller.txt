@@ -1,4 +1,4 @@
-setTitle("Ultimate Installer")
+setTitle("I'm A Computah!")
 
 setIcon(<mekanism:tierinstaller:3>)
 
@@ -7,10 +7,9 @@ setDescription("Craft an Ultimate Installer from Mekanism")
 addParent("sf4:agePower/root")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Ultimate Installer", "minecraft:inventory_changed")
 criteria.addItem(<mekanism:tierinstaller:3>)
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

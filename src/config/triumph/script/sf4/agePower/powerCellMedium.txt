@@ -1,4 +1,4 @@
-setTitle("Powercell Medium")
+setTitle("It Keeps Going... and Going...")
 
 setIcon(<rftoolspower:cell2>)
 
@@ -7,10 +7,9 @@ setDescription("Craft a RF Tools Medium Powercell")
 addParent("sf4:agePower/powerCellLow")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Medium Powercell", "minecraft:inventory_changed")
 criteria.addItem(<rftoolspower:cell2>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

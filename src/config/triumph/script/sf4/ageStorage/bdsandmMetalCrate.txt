@@ -1,18 +1,17 @@
-setTitle("Metal Crate")
+setTitle("Metallicrate")
 
 setIcon(<bdsandm:metal_crate>)
 
-setDescription("Craft a Barrels, Drum, Storage, and More Metal Crate")
+setDescription("Craft a Barrels, Drums, Storage, and More Metal Crate")
 
 addParent("sf4:ageStorage/bdsandmWoodenCrate")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Metal Crate", "minecraft:inventory_changed")
 criteria.addItem(<bdsandm:metal_crate>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

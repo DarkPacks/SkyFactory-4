@@ -1,4 +1,4 @@
-setTitle("Tree Twerk")
+setTitle("Sticky Keys")
 
 setIcon(<pickletweaks:ppm4:1>)
 
@@ -7,10 +7,9 @@ setDescription("Collect 8 Dirt Saplings and 8 Oak Logs. Increase the speed of tr
 addParent("sf4:age1/root")
 
 //Criteria
-criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1 = addCriteria("Obtain 8 Dirt Saplings", "minecraft:inventory_changed")
 criteria1.addItem(<sky_orchards:sapling_dirt, count:8~>)
-
-criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2 = addCriteria("Obtain 8 Oak Logs", "minecraft:inventory_changed")
 criteria2.addItem(<minecraft:log, count:8~>)
 
 //Rewards

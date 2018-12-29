@@ -1,4 +1,4 @@
-setTitle("Power Cell")
+setTitle("Max Power")
 
 setIcon(<rftoolspower:cell1>)
 
@@ -7,10 +7,9 @@ setDescription("Craft a RF Tools Low Powercell")
 addParent("sf4:agePower/root")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Low Powercell", "minecraft:inventory_changed")
 criteria.addItem(<rftoolspower:cell1>)
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

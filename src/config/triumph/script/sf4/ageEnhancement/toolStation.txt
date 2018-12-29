@@ -1,18 +1,17 @@
-setTitle("Tool Station")
+setTitle("Rolling into the Station")
 
-setIcon("tconstruct:tooltables", 3)
+setIcon(<tconstruct:tooltables:3>)
 
-setDescription("Craft a Tool Station")
+setDescription("Craft a Tinkers' Construct Tool Station")
 
 addParent("sf4:ageEnhancement/partBuilder")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("tconstruct:tooltables", 3)
+criteria = addCriteria("Obtain Tool Station", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables:3>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

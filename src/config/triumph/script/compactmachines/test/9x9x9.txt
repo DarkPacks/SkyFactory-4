@@ -1,8 +1,8 @@
 setTitle("9x9x9")
 
-setIcon("compactmachines3:machine", 3)
+setIcon(<compactmachines3:machine:3>)
 
-setDescription("Obtain a block of End Stone")
+setDescription("Obtain a block of End Stone to gain a larger Compact Machine")
 
 addParent("compactmachines:test/7x7x7")
 addParent("compactmachines:test/7x7x72")
@@ -11,13 +11,13 @@ setRequiresParents()
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain End Stone", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:end_stone>)
 
 //Rewards
 setRewardExperience(4)
 
-setRewardItem("compactmachines3:machine", 3)
+setRewardItem(<compactmachines3:machine:3>)
 setPos(182,22)
 
 alwaysVisible()

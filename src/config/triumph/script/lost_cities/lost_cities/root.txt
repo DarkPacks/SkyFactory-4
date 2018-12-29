@@ -2,7 +2,7 @@ setTitle("Lost Cities")
 
 setIcon(<minecraft:skull>)
 
-setDescription("Lorem ipsum dolor sit amet")
+setDescription("Hidden Root Advancement for Lost Cities World Type")
 
 setBackground("projecte:textures/blocks/dm.png")
 
@@ -18,3 +18,5 @@ criteria.setWorldType("lostcities")
 
 //Rewards
 setRewardFunction("triumph:sky_islands_start")
+
+alwaysHidden()

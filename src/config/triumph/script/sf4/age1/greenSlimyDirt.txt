@@ -1,4 +1,4 @@
-setTitle("Slimy Dirt")
+setTitle("I've Been Slimed")
 
 setIcon(<tconstruct:slime_dirt:0>)
 
@@ -9,7 +9,7 @@ addParent("sf4:age1/claySapling")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Green Slime Dirt", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:slime_dirt:0>)
 
 //Rewards

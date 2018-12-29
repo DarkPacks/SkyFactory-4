@@ -1,6 +1,6 @@
-setTitle("Ore Processing Part 2")
+setTitle("Ore'nt You Glad I Didn't Say Banana")
 
-setIcon("tcomplement:porcelain_tank")
+setIcon(<tcomplement:porcelain_tank>)
 
 setDescription("Craft a Tank to heat your Melter")
 
@@ -9,13 +9,11 @@ setRequirements("any")
 hideLines()
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("tconstruct:seared_tank")
-criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
-criteria1.addItem("tcomplement:porcelain_tank")
+criteria = addCriteria("Obtain Tank", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:seared_tank>)
+criteria1 = addCriteria("Obtain Porcelain Tank", "minecraft:inventory_changed")
+criteria1.addItem(<tcomplement:porcelain_tank>)
 
-//Rewards
 setRewardExperience(4)
-
 alwaysVisible()
-setPos(58,85)
+setPos(59,85)

@@ -1,6 +1,6 @@
-setTitle("Cottonwood Trees")
+setTitle("You Cotton Something?")
 
-setIcon("minecraft:string")
+setIcon(<minecraft:string>)
 
 setDescription("String has a chance to drop from Cottonwood Leaves or use the Drying Rack to dry out Cottonwood Leaves to make String")
 
@@ -9,8 +9,8 @@ addParent("sf4:age1/dryingRack")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("minecraft:string")
+criteria = addCriteria("Obtain String", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:string>)
 
 //Rewards
 setRewardExperience(4)

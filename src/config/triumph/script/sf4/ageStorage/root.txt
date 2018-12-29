@@ -2,7 +2,7 @@ setTitle("Age of Storage")
 
 setIcon("minecraft:chest")
 
-setDescription("Lorem ipsum dolor sit amet")
+setDescription("All things related to storage!")
 
 setBackground("test:textures/colors/grey.png")
 

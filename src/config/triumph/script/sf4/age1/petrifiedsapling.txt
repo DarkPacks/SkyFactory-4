@@ -1,6 +1,6 @@
-setTitle("Petrified Sapling")
+setTitle("Hardwood")
 
-setIcon("sky_orchards:sapling_petrified")
+setIcon(<sky_orchards:sapling_petrified>)
 
 setDescription("Craft a Petrified Sapling")
 
@@ -9,8 +9,8 @@ addParent("sf4:age1/dryingRack")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("sky_orchards:sapling_petrified")
+criteria = addCriteria("Obtain Petrified Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_petrified>)
 
 //Rewards
 setRewardExperience(4)

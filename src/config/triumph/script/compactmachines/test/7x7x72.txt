@@ -1,8 +1,8 @@
-setTitle("7x7x7 2")
+setTitle("7x7x7")
 
-setIcon("compactmachines3:machine", 2)
+setIcon(<compactmachines3:machine:2>)
 
-setDescription("Obtain an Ender Eye")
+setDescription("Obtain an Eye of Ender to gain a larger Compact Machine")
 
 addParent("compactmachines:test/5x5x5")
 addParent("compactmachines:test/5x5x52")
@@ -11,13 +11,13 @@ setRequiresParents()
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Eye of Ender", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:ender_eye>)
 
 //Rewards
 setRewardExperience(4)
 
-setRewardItem("compactmachines3:machine", 2)
+setRewardItem(<compactmachines3:machine:2>)
 setPos(122,82)
 
 alwaysVisible()

@@ -1,16 +1,15 @@
-setTitle("Weirding Gadget")
+setTitle("Weirdly Mesmerizing")
 
 setIcon(<weirdinggadget:weirding_gadget>)
 
-setDescription("Craft a Weirding Gadget to chunk load")
+setDescription("Craft a Weirding Gadget to chunk load a 5x5 area")
 
 addParent("sf4:ageEnhancement/root")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Weirding Gadget", "minecraft:inventory_changed")
 criteria.addItem(<weirdinggadget:weirding_gadget>)
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

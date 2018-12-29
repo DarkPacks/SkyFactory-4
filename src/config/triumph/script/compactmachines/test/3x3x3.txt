@@ -1,14 +1,14 @@
 setTitle("3x3x3")
 
-setIcon("compactmachines3:machine")
+setIcon(<compactmachines3:machine>)
 
-setDescription("Obtain Grass Block")
+setDescription("Obtain Grass Block to gain a larger Compact Machine")
 
 addParent("compactmachines:test/root")
 setRequiresParents()
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Grass Block", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:grass>)
 
 //Rewards

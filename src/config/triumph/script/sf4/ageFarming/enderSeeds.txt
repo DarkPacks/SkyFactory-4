@@ -1,4 +1,4 @@
-setTitle("Ender Seeds")
+setTitle("It's the End of the World As We Know It")
 
 setIcon(<endercrop:ender_seeds>)
 
@@ -9,10 +9,9 @@ addParent("sf4:ageFarming/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Ender Seeds", "minecraft:inventory_changed")
 criteria.addItem(<endercrop:ender_seeds>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

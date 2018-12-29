@@ -2,7 +2,7 @@ setTitle("Large Biomes")
 
 setIcon(<minecraft:skull>)
 
-setDescription("Lorem ipsum dolor sit amet")
+setDescription("Hidden Root Advancement for Large Biomes World Type")
 
 setBackground("projecte:textures/blocks/dm.png")
 
@@ -18,3 +18,5 @@ criteria.setWorldType("largeBiomes")
 
 //Rewards
 setRewardFunction("triumph:sky_islands_start")
+
+alwaysHidden()

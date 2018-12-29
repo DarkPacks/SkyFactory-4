@@ -1,4 +1,4 @@
-setTitle("Max Size Fusion Reactor")
+setTitle("Go Big or Go Home")
 
 setIcon(<nuclearcraft:fusion_electromagnet_idle>)
 
@@ -9,7 +9,8 @@ addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 hideLines()
 alwaysVisible()
 
-criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+//Criteria
+criteria = addCriteria("Right Click Max Size Fusion Reactor", "triumph:right_click_block")
 criteria.setBlock(<nuclearcraft:fusion_core, tile:{size:24}>)
 
 //Rewards

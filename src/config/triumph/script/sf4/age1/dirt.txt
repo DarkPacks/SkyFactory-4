@@ -1,6 +1,6 @@
-setTitle("Dirt")
+setTitle("Dirty Dancing")
 
-setIcon("minecraft:dirt")
+setIcon(<minecraft:dirt>)
 
 setDescription("Craft a Dirt Block using Dirt Acorns and Dirt Resin")
 
@@ -9,8 +9,8 @@ addParent("sf4:age1/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("crafted", "triumph:player_crafted_item")
-criteria.setItem("minecraft:dirt")
+criteria = addCriteria("Craft Dirt Block", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:dirt>)
 
 //Rewards
 setRewardExperience(4)

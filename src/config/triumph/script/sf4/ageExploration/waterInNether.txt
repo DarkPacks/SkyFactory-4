@@ -1,4 +1,4 @@
-setTitle("Water in Nether")
+setTitle("Hell of a Boat Ride")
 
 setIcon("minecraft:water_bucket")
 
@@ -11,14 +11,11 @@ drawDirectLines(true)
 criteria = addCriteria("Place Da Wata", "triumph:right_click_block")
 criteria.setItem(<minecraft:water_bucket>)
 criteria.setDimID(-1)
-
 criteria2 = addCriteria("Place Da Boat", "triumph:right_click_block")
 criteria2.setItem(<minecraft:boat>)
 criteria2.setDimID(-1)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()
-
-setPos(57,174)
+setPos(38,185)

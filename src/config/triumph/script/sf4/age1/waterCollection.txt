@@ -1,4 +1,4 @@
-setTitle("Water Collection")
+setTitle("Wishing Well")
 
 setIcon(<minecraft:cauldron>)
 
@@ -8,19 +8,15 @@ addParent("sf4:age1/crushingTub")
 addParent("sf4:age1/cauldron")
 setRequirements("any")
 
-
 //Criteria
-criteria1 = addCriteria("clickedBlock1", "triumph:right_click_block")
+criteria1 = addCriteria("Right Click Cauldron with Water Inside", "triumph:right_click_block")
 criteria1.setBlock(<ore:cauldron,meta:1~4,tile:{state:{water:1b}}>)
-
-criteria2 = addCriteria("clickedBlock2", "triumph:right_click_block")
+criteria2 = addCriteria("Right Click Vanilla Cauldron with Water Inside", "triumph:right_click_block")
 criteria2.setBlock(<minecraft:cauldron,meta:1~4,tile:{state:{water:1b}}>)
-
-
 
 //Rewards
 setRewardExperience(4)
 
 drawDirectLines(true)
 alwaysVisible()
-setPos(-28,44)
+setPos(-31,43)

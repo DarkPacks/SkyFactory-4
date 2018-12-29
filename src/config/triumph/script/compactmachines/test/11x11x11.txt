@@ -1,8 +1,8 @@
 setTitle("11x11x11")
 
-setIcon("compactmachines3:machine", 4)
+setIcon(<compactmachines3:machine:4>)
 
-setDescription("Obtain a Nether Star")
+setDescription("Obtain a Nether Star to gain a larger Compact Machine")
 
 addParent("compactmachines:test/9x9x9")
 addParent("compactmachines:test/9x9x92")
@@ -11,13 +11,13 @@ setRequiresParents()
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Nether Star", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:nether_star>)
 
 //Rewards
 setRewardExperience(4)
 
-setRewardItem("compactmachines3:machine", 4)
+setRewardItem(<compactmachines3:machine:4>)
 setPos(242,22)
 
 alwaysVisible()

@@ -1,4 +1,4 @@
-setTitle("Exchanger Tool")
+setTitle("Oops I Did It Again")
 
 setIcon(<buildinggadgets:exchangertool>)
 
@@ -9,10 +9,9 @@ addParent("sf4:agePower/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Exchanger Tool", "minecraft:inventory_changed")
 criteria.addItem(<buildinggadgets:exchangertool>)
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

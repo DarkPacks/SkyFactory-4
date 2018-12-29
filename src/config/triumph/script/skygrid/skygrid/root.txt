@@ -2,12 +2,9 @@ setTitle("Sky Grid")
 
 setIcon(<chisel:glass:12>)
 
-setDescription("Lorem ipsum dolor sit amet")
+setDescription("Hidden Root Advancement for Sky Grid World Type")
 
 setBackground("test:textures/colors/grid.png")
-
-
-
 
 setShowToast(false)
 
@@ -19,6 +16,7 @@ setRequirements("any")
 criteria = addCriteria("superflat", "minecraft:location")
 criteria.setWorldType("skygrid")
 
-
 //Rewards
 setRewardFunction("triumph:skygrid_start")
+
+alwaysHidden()

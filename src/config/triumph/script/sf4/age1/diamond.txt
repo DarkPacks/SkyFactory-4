@@ -1,4 +1,4 @@
-setTitle("Diamond!")
+setTitle("Trees to Diamonds")
 
 setIcon(<minecraft:diamond>)
 
@@ -8,7 +8,7 @@ addParent("sf4:age1/diamondSapling")
 
 drawDirectLines(true)
 
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Diamond", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:diamond>)
 
 setRewardExperience(4)

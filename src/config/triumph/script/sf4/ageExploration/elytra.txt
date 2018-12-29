@@ -1,4 +1,4 @@
-setTitle("Elytra")
+setTitle("It Gives You Wings")
 
 setIcon("minecraft:elytra")
 
@@ -9,11 +9,10 @@ addParent("sf4:ageExploration/dragonKill")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Elytra", "minecraft:inventory_changed")
 criteria.addItem("minecraft:elytra")
 
-//Rewards
 setRewardExperience(4)
 
-alwaysVisible()
-setPos(82,110)
+hiddenIf("hardcore:hardcore/root")
+setPos(85,120)

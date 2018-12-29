@@ -1,4 +1,4 @@
-setTitle("End Cake")
+setTitle("B'Aiken a C'Aiken")
 
 setIcon("dimensionaledibles:end_cake")
 
@@ -9,12 +9,11 @@ addParent("sf4:ageExploration/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain End Cake", "minecraft:inventory_changed")
 criteria.addItem("dimensionaledibles:end_cake")
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()
 alwaysVisible()
-setPos(32,96)
+setPos(32,109)

@@ -1,6 +1,6 @@
-setTitle("Clay Sapling")
+setTitle("Clay Aiken")
 
-setIcon("sky_orchards:sapling_clay")
+setIcon(<sky_orchards:sapling_clay>)
 
 setDescription("Craft a Clay Sapling")
 
@@ -9,8 +9,8 @@ addParent("sf4:age1/petrifiedSapling")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("sky_orchards:sapling_clay")
+criteria = addCriteria("Obtain a Clay Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_clay>)
 
 //Rewards
 setRewardExperience(4)

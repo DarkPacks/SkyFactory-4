@@ -1,16 +1,15 @@
-setTitle("Clicker Machine")
+setTitle("Clicker Hero")
 
 setIcon(<clickmachine:auto_clicker>)
 
-setDescription("Craft an Auto Clicker machine")
+setDescription("Craft an Auto Clicker machine to click stuff for you! Batteries not included")
 
 addParent("sf4:agePower/root")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Auto Clicker", "minecraft:inventory_changed")
 criteria.addItem(<clickmachine:auto_clicker>)
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

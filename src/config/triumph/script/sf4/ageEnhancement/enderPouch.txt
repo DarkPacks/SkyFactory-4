@@ -1,4 +1,4 @@
-setTitle("Ender Pouch")
+setTitle("Hot Pockets")
 
 setIcon(<enderstorage:ender_pouch>)
 
@@ -9,10 +9,9 @@ addParent("sf4:ageEnhancement/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Ender Pouch", "minecraft:inventory_changed")
 criteria.addItem(<enderstorage:ender_pouch, nbt:{}>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

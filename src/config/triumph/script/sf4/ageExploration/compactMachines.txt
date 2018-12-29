@@ -1,16 +1,17 @@
+setTitle("Compact Your World")
+
 setIcon(<compactmachines3:psd>)
 
-setTitle("Compact Machines")
-
-setDescription("Go to the Compact Machines Dimension")
+setDescription("Travel to the Compact Machines Dimension")
 
 addParent("sf4:ageExploration/root")
 
 drawDirectLines(true)
 
-criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
-
+//Criteria
+criteria = addCriteria("Enter Compact Machines Dimension", "minecraft:changed_dimension")
 criteria.setDimensionDestination("CompactMachines")
 
 hideLines()
 alwaysVisible()
+setPos(32,148)

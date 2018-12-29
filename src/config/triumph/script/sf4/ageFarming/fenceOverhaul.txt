@@ -2,24 +2,24 @@ setTitle("Diagon Alley")
 
 setIcon(<fenceoverhaul:oak_overhauledfence>)
 
-setDescription("Diagonal Fences are a thing! Yeah! Fence Overhaul provides a set of fences that can be connected diagonally")
+setDescription("Craft any of the diagonal fences from Fence Overhaul")
 
 addParent("sf4:ageFarming/root")
 
 hideLines()
 
 //Criteria
-criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1 = addCriteria("Obtain Oak Diagonal Fence", "minecraft:inventory_changed")
 criteria1.addItem(<fenceoverhaul:oak_overhauledfence>)
-criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2 = addCriteria("Obtain Spruce Diagonal Fence", "minecraft:inventory_changed")
 criteria2.addItem(<fenceoverhaul:spruce_overhauledfence>)
-criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3 = addCriteria("Obtain Birch Diagonal Fence", "minecraft:inventory_changed")
 criteria3.addItem(<fenceoverhaul:birch_overhauledfence>)
-criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4 = addCriteria("Obtain Jungle Diagonal Fence", "minecraft:inventory_changed")
 criteria4.addItem(<fenceoverhaul:jungle_overhauledfence>)
-criteria5 = addCriteria("hasRock5", "minecraft:inventory_changed")
+criteria5 = addCriteria("Obtain Acacia Diagonal Fence", "minecraft:inventory_changed")
 criteria5.addItem(<fenceoverhaul:acacia_overhauledfence>)
-criteria6 = addCriteria("hasRock6", "minecraft:inventory_changed")
+criteria6 = addCriteria("Obtain Dark Oak Diagonal Fence", "minecraft:inventory_changed")
 criteria6.addItem(<fenceoverhaul:dark_oak_overhauledfence>)
 
 setRequirements("any")

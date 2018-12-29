@@ -1,6 +1,6 @@
-setTitle("Part Builder")
+setTitle("Tim the Tool Man Taylor")
 
-setIcon("tconstruct:tooltables", 2)
+setIcon(<tconstruct:tooltables:2>)
 
 setDescription("Craft a Part Builder")
 
@@ -9,10 +9,9 @@ addParent("sf4:ageEnhancement/stencilTable")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("tconstruct:tooltables", 2)
+criteria = addCriteria("Obtain Tinkers' Part Builder", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables:2>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

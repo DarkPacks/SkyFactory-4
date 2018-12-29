@@ -1,4 +1,4 @@
-setTitle("Paxel")
+setTitle("Paxel Rose")
 
 setIcon(<pickletweaks:stone_paxel>)
 
@@ -6,12 +6,10 @@ setDescription("Combine a Shovel, Pickaxe, and Axe to make a Paxel")
 
 addParent("sf4:ageEnhancement/root")
 
-
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Pickle Tweaks Paxel", "minecraft:inventory_changed")
 criteria.addItem(<pickletweaks:stone_paxel>)
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

@@ -1,4 +1,4 @@
-setTitle("Dragon Kill")
+setTitle("Quit Dragon My Heart Around")
 
 setIcon(<minecraft:end_stone>)
 
@@ -22,7 +22,6 @@ setRequirements("any")
 
 hiddenUnless("skygrid:skygrid/root")
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

@@ -9,10 +9,9 @@ addParent("sf4:ageEnhancement/toolForge")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Yoyo", "minecraft:inventory_changed")
 criteria.addItem(<yoyos:yoyo>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

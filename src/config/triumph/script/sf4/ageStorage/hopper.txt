@@ -1,4 +1,4 @@
-setTitle("Hopper")
+setTitle("Hop to It")
 
 setIcon(<minecraft:hopper>)
 
@@ -7,10 +7,9 @@ setDescription("Craft a Hopper")
 addParent("sf4:ageStorage/woodenHopper")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Hopper", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:hopper>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

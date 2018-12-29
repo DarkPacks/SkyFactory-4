@@ -1,4 +1,4 @@
-setTitle("Black Hole Unit")
+setTitle("Hoarder!")
 
 setIcon(<industrialforegoing:black_hole_unit>)
 
@@ -9,8 +9,8 @@ addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 hideLines()
 alwaysVisible()
 
-//Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
-criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+//Criteria
+criteria = addCriteria("Right Click Filled Black Hole Unit", "triumph:right_click_block")
 criteria.setBlock(<industrialforegoing:black_hole_unit,tile:{amount:2147483583}>)
 
 //Rewards

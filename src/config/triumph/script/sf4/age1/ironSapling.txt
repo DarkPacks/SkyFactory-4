@@ -1,6 +1,6 @@
-setTitle("Iron Sapling")
+setTitle("Ironwood")
 
-setIcon("sky_orchards:sapling_iron")
+setIcon(<sky_orchards:sapling_iron>)
 
 setDescription("Craft an Iron Sapling")
 
@@ -12,8 +12,8 @@ addParent("sf4:age1/claySapling")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("sky_orchards:sapling_iron")
+criteria = addCriteria("Obtain Iron Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_iron>)
 
 //Rewards
 setRewardExperience(4)

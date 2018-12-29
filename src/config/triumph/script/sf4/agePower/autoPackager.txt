@@ -1,4 +1,4 @@
-setTitle("Auto Packager")
+setTitle("Package Control")
 
 setIcon(<cyclicmagic:auto_packager>)
 
@@ -7,10 +7,9 @@ setDescription("Craft and use an Auto Packager to autocraft Amber and other sele
 addParent("sf4:agePower/root")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Auto Packager", "minecraft:inventory_changed")
 criteria.addItem(<cyclicmagic:auto_packager>)
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

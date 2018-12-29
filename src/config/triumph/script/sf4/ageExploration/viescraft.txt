@@ -9,9 +9,9 @@ addParent("sf4:ageExploration/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Airship", "minecraft:inventory_changed")
 criteria.addItem(<vc:airships/item_airship>)
 
 hideLines()
 alwaysVisible()
-setPos(32,199)
+setPos(75,220)

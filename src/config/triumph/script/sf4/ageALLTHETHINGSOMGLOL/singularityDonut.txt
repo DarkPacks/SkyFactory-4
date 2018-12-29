@@ -1,15 +1,15 @@
-setTitle("Donut Singularity")
+setTitle("Mmmm Donuts")
 
 setIcon(<extendedcrafting:singularity_custom:3>)
 
-setDescription("Craft a Donut Singularity")
+setDescription("Obtain a Donut Singularity")
 
 addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
 hideLines()
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Donut Singularity", "minecraft:inventory_changed")
 criteria.addItem(<extendedcrafting:singularity_custom:3>)
 
 //Rewards

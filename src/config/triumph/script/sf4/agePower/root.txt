@@ -2,7 +2,7 @@ setTitle("Age of Power")
 
 setIcon("chisel:technicalnew", 3)
 
-setDescription("Lorem ipsum dolor sit amet")
+setDescription("All things related to power!")
 
 setBackground("test:textures/colors/red.png")
 

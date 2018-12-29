@@ -1,4 +1,4 @@
-setTitle("Hydrogel")
+setTitle("Stay Hydrated")
 
 setIcon(<hydrogel:hydrogel>)
 
@@ -7,10 +7,9 @@ setDescription("Craft Hydrogel to take the place of water in the middle of your 
 addParent("sf4:ageFarming/root")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Hydrogel", "minecraft:inventory_changed")
 criteria.addItem(<hydrogel:hydrogel>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

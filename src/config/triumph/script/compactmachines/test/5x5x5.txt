@@ -1,8 +1,8 @@
 setTitle("5x5x5")
 
-setIcon("compactmachines3:machine", 1)
+setIcon(<compactmachines3:machine:1>)
 
-setDescription("Obtain a Melter or a Porcelain Melter")
+setDescription("Obtain a Melter or a Porcelain Melter to gain a larger Compact Machine")
 
 addParent("compactmachines:test/3x3x3")
 setRequiresParents()
@@ -11,14 +11,14 @@ drawDirectLines(true)
 setRequirements("any")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Porcelain Melter", "minecraft:inventory_changed")
 criteria.addItem(<tcomplement:porcelain_melter>)
-criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1 = addCriteria("Obtain Melter", "minecraft:inventory_changed")
 criteria1.addItem(<tcomplement:melter>)
 
 //Rewards
 setRewardExperience(4)
-setRewardItem("compactmachines3:machine", 1)
+setRewardItem(<compactmachines3:machine:1>)
 setPos(62,22)
 
 alwaysVisible()

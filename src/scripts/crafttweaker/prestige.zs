@@ -209,7 +209,8 @@ function init() {
 		stages.rubyMulch,
 		stages.smeltery,
 		stages.twilightForest,
-		stages.yellowMulch
+		stages.yellowMulch,
+		stages.no_parabox
 	]);
 
 	// When the button is set to enabled

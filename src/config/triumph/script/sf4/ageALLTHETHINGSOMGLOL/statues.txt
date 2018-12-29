@@ -1,4 +1,4 @@
-setTitle("Statues")
+setTitle("Hall of Fame")
 
 setIcon(<statues:blockbabyzombiestatuet4>)
 
@@ -9,7 +9,6 @@ addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 hideLines()
 
 //Criteria
-
 criteria = addCriteria("Peaceful Baby Zombie Statue", "minecraft:inventory_changed")
 criteria.addItem(<statues:blockbabyzombiestatuet4>)
 criteria = addCriteria("Peaceful Blaze Statue", "minecraft:inventory_changed")

@@ -1,4 +1,4 @@
-setTitle("Alloying")
+setTitle("I'll Be Your Alloy")
 
 setIcon(<tcomplement:porcelain_alloy_tank>)
 
@@ -10,11 +10,10 @@ setRequirements("any")
 hideLines()
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Alloying Tank", "minecraft:inventory_changed")
 criteria.addItem(<tcomplement:porcelain_alloy_tank>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(83,85)
+setPos(84,85)

@@ -2,7 +2,7 @@ setTitle("SkyFactory 4 Hardcore Mode")
 
 setIcon(<minecraft:skull>)
 
-setDescription("Lorem ipsum dolor sit amet")
+setDescription("Hidden Root Advancement for Hardcore World Type")
 
 setBackground("minecraft:textures/blocks/soul_sand.png")
 
@@ -21,3 +21,5 @@ criteria2.setGeneratorOptions({"Topography-Preset":"Are You Afraid of the Dark"}
 
 //Rewards
 setRewardFunction("triumph:forgiving_void_disable")
+
+alwaysHidden()

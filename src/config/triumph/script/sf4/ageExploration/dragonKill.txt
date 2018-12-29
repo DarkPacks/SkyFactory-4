@@ -1,6 +1,6 @@
-setIcon("minecraft:skull", 5)
+setTitle("Where's the Boss?")
 
-setTitle("The End")
+setIcon(<minecraft:skull:5>)
 
 setDescription("Travel to the End Dimension. Unfortunately, due to budget constraints we could not afford a dragon this time around. Sorry")
 
@@ -8,9 +8,9 @@ addParent("sf4:ageExploration/endcake")
 drawDirectLines(true)
 
 //Criteria
-criteria1 = addCriteria("entered_end", "minecraft:changed_dimension")
+criteria1 = addCriteria("Enter End Dimension", "minecraft:changed_dimension")
 criteria1.setDimensionDestination("the_end")
-criteria2 = addCriteria("entered_end_biome", "minecraft:location")
+criteria2 = addCriteria("Enter End Biome", "minecraft:location")
 criteria2.setBiome("minecraft:sky")
 
 alwaysVisible()
@@ -18,4 +18,4 @@ alwaysVisible()
 setRewardExperience(4)
 setRewardFunction("triumph:dragon_loot")
 setRewardFunction("triumph:dragon_kill")
-setPos(57,96)
+setPos(60,109)

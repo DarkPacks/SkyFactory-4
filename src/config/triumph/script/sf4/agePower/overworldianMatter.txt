@@ -1,4 +1,4 @@
-setTitle("Overworldian Matter")
+setTitle("Did You Just Assume My Location?")
 
 setIcon(<deepmoblearning:living_matter_overworldian>)
 
@@ -7,10 +7,9 @@ setDescription("Acquire an Overworldian Matter from Deep Mob Learning")
 addParent("sf4:agePower/root")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Overworldian Matter", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:living_matter_overworldian>)
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

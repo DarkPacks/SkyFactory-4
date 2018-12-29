@@ -1,4 +1,4 @@
-setTitle("Upper")
+setTitle("ɹǝddoH")
 
 setIcon(<uppers:upper>)
 
@@ -7,10 +7,9 @@ setDescription("Craft an Upper")
 addParent("sf4:ageStorage/hopper")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Upper", "minecraft:inventory_changed")
 criteria.addItem(<uppers:upper>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

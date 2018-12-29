@@ -1,4 +1,4 @@
-setTitle("Overworld Cake")
+setTitle("No Cake Like Home")
 
 setIcon("dimensionaledibles:overworld_cake")
 
@@ -9,10 +9,9 @@ addParent("sf4:ageExploration/root")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Overworld Cake", "minecraft:inventory_changed")
 criteria.addItem("dimensionaledibles:overworld_cake")
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

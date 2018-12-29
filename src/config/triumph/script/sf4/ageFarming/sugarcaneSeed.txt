@@ -1,6 +1,6 @@
-setIcon(<inspirations:sugar_cane_seeds>)
+setTitle("Citizen Cane")
 
-setTitle("Acquire Sugar Cane Seeds")
+setIcon(<inspirations:sugar_cane_seeds>)
 
 setDescription("Crush Leaves in the Crushing Tub to acquire Sugar Cane Seeds")
 
@@ -9,9 +9,8 @@ addParent("sf4:ageFarming/root")
 hideLines()
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Sugar Cane Seeds", "minecraft:inventory_changed")
 criteria.addItem(<inspirations:sugar_cane_seeds>)
 
-//Rewards
 setRewardExperience(4)
 setPos(62,335)

@@ -1,4 +1,4 @@
-setTitle("Gold Sapling")
+setTitle("Money Grows on Trees")
 
 setIcon(<sky_orchards:sapling_gold>)
 
@@ -9,7 +9,7 @@ addParent("sf4:age1/sandSapling")
 
 drawDirectLines(true)
 
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Gold Sapling", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_gold>)
 
 setRewardExperience(4)

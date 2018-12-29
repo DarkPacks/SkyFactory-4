@@ -1,18 +1,17 @@
-setTitle("Watering Can")
+setTitle("Yes We Can!")
 
 setIcon("tp:watering_can")
 
-setDescription("Craft a watering can")
+setDescription("Craft a Tiny Progressions watering can")
 
 addParent("sf4:ageFarming/root")
 
 hideLines()
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Watering Can", "minecraft:inventory_changed")
 criteria.addItem("tp:watering_can")
 
-//Rewards
 setRewardExperience(4)
 setPos(10,335)
 

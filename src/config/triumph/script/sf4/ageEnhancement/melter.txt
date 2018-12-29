@@ -1,6 +1,6 @@
-setTitle("Ore Processing")
+setTitle("To Be ORe Not to Be")
 
-setIcon("tcomplement:porcelain_melter")
+setIcon(<tcomplement:porcelain_melter>)
 
 setDescription("Craft a Melter to process your metals")
 
@@ -10,13 +10,12 @@ setRequirements("any")
 hideLines()
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("tcomplement:porcelain_melter")
-criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
-criteria1.addItem("tcomplement:melter")
+criteria = addCriteria("Obtain Porcelain Melter", "minecraft:inventory_changed")
+criteria.addItem(<tcomplement:porcelain_melter>)
+criteria1 = addCriteria("Obtain Melter", "minecraft:inventory_changed")
+criteria1.addItem(<tcomplement:melter>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(33,85)
+setPos(34,85)

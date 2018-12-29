@@ -1,18 +1,17 @@
-setTitle("Armor Station")
+setTitle("Blacksmith")
 
-setIcon("conarm:armorstation")
+setIcon(<conarm:armorstation>)
 
-setDescription("Craft a Armor Station")
+setDescription("Craft a Construct's Armory Armor Station")
 
 addParent("sf4:ageEnhancement/partBuilder")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem("conarm:armorstation")
+criteria = addCriteria("Obtain Armor Station", "minecraft:inventory_changed")
+criteria.addItem(<conarm:armorstation>)
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()

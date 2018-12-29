@@ -1,4 +1,4 @@
-setTitle("Information Screen")
+setTitle("Get Informed!")
 
 setIcon(<rftoolspower:information_screen>)
 
@@ -7,10 +7,9 @@ setDescription("Craft a RF Tools Power Information Screen")
 addParent("sf4:agePower/root")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Information Screen", "minecraft:inventory_changed")
 criteria.addItem(<rftoolspower:information_screen>)
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()

@@ -1,15 +1,15 @@
-setTitle("Cauldron")
+setTitle("Bubble, Bubble")
 
-setIcon("morecauldrons:oak_cauldron")
+setIcon(<morecauldrons:oak_cauldron>)
 
-setDescription("Craft a Cauldron")
+setDescription("Craft any Cauldron")
 
 addParent("sf4:age1/root")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain a Cauldron", "minecraft:inventory_changed")
 criteria.addItem(<ore:cauldron>)
 
 //Rewards

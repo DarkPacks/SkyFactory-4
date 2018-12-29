@@ -1,4 +1,4 @@
-setTitle("Dragon's Breath")
+setTitle("Need a Mint?")
 
 setIcon("minecraft:dragon_breath")
 
@@ -9,11 +9,10 @@ addParent("sf4:ageExploration/dragonKill")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Dragon's Breath", "minecraft:inventory_changed")
 criteria.addItem("minecraft:dragon_breath")
 
-//Rewards
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(82,85)
+setPos(85,95)

@@ -1,4 +1,4 @@
-setTitle("Configurator")
+setTitle("Config-a-ma-whatzit")
 
 setIcon(<mekanism:configurator>)
 
@@ -7,10 +7,9 @@ setDescription("The Mekanism Configurator allows you to configure pipes and mach
 addParent("sf4:agePower/root")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Configurator", "minecraft:inventory_changed")
 criteria.addItem(<mekanism:configurator>)
 
-//Rewards
 setRewardExperience(4)
 
 hideLines()
