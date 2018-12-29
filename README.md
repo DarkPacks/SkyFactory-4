@@ -25,7 +25,9 @@ List of priorities used for creation of ZenScript files to ensure the load order
 
 ### Stages
 #### Adding A New Stage
-To create a new stage, simply add the stage name to the `stageStrings` array in `scripts/crafttweaker/stages.zs`
+To create a new stage, simply add the stage name to the `stageStrings` array in `scripts/crafttweaker/stages.zs`.
+
+*Note: Stage names are in [snake_case](https://en.wikipedia.org/wiki/Snake_case). When referencing the stage within CraftTweaker script files using the stages map (`stages.stageName`) the stages are referenced using [camelCase](https://en.wikipedia.org/wiki/Camel_case).*
 
 ### Recipes
 #### Crafting Table Recipes
