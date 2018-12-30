@@ -47,132 +47,134 @@ function init() {
     Rewards.registerCommandReward("android", "give @p matteroverdrive:android_pill 1 1");
     Rewards.registerCommandReward("android", "give @p matteroverdrive:android_pill 1 2");
 
-	var fastForwardBagData as IData = {
-		COLOUR: 16383998,
-		ItemInventory: [
-			{
-				Slot: 0, id: "sky_orchards:sapling_gold", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 1, id: "sky_orchards:sapling_iron", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 2, id: "sky_orchards:sapling_coal", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 3, id: "sky_orchards:sapling_gravel", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 4, id: "sky_orchards:sapling_sand", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 5, id: "sky_orchards:sapling_clay", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 6, id: "sky_orchards:sapling_petrified", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 7, id: "sky_orchards:sapling_dirt", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 8, id: "sky_orchards:sapling_cottonwood", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 9, id: "sky_orchards:sapling_nickel", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 10, id: "sky_orchards:sapling_silver", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 11, id: "sky_orchards:sapling_aluminum", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 12, id: "sky_orchards:sapling_tin", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 13, id: "sky_orchards:sapling_lead", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 14, id: "sky_orchards:sapling_copper", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 15, id: "sky_orchards:sapling_bone", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 16, id: "sky_orchards:sapling_redstone", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 17, id: "sky_orchards:sapling_lapis", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 18, id: "tconstruct:slime_sapling", Count: 1 as byte, Damage: 1 as short
-			},
-			{
-				Slot: 19, id: "tconstruct:slime_sapling", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 20, id: "tconstruct:edible", Count: 16 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 21, id: "farmingforblockheads:market", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 22,
-				ForgeCaps: {
-					"astralsorcery:cap_item_amulet_holder": {}
+	Rewards.registerReward("fast_forward", function(world as IWorld, player as IPlayer) {
+		var fastForwardBagData as IData = {
+			COLOUR: 16383998,
+			ItemInventory: [
+				{
+					Slot: 0, id: "sky_orchards:sapling_gold", Count: 1 as byte, Damage: 0 as short
 				},
-				id: "buildinggadgets:buildingtool",
-				Count: 1 as byte,
-				tag: {
-					mode: "BuildToMe",
-					blockstate: {
-						Name: "minecraft:air"
-					}
+				{
+					Slot: 1, id: "sky_orchards:sapling_iron", Count: 1 as byte, Damage: 0 as short
 				},
-				Damage: 0 as short
-			},
-			{
-				Slot: 23, id: "minecraft:chest", Count: 64 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 24, id: "minecraft:dirt", Count: 18 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 25, id: "bonsaitrees:bonsaipot", Count: 20 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 26, id: "tconstruct:slime_dirt", Count: 2 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 27, id: "dimensionaledibles:overworld_cake", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 28, id: "dimensionaledibles:nether_cake", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 29, id: "xlfoodmod:bacon_pie", Count: 16 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 30, id: "xlfoodmod:corn_seeds", Count: 64 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 31, id: "tp:iron_cobblegen_block", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 32, id: "nuclearcraft:water_source", Count: 1 as byte, Damage: 0 as short
-			},
-			{
-				Slot: 33,
-				ForgeCaps: {
-					"astralsorcery:cap_item_amulet_holder": {}
+				{
+					Slot: 2, id: "sky_orchards:sapling_coal", Count: 1 as byte, Damage: 0 as short
 				},
-				id: "minecraft:diamond_axe",
-				Count: 1 as byte,
-				Damage: 0 as short
-			}
-		]
-	};
-	Rewards.registerCommandReward("fast_forward", 'give @p cyclicmagic:storage_bag 1 0 ' ~ fastForwardBagData.asString());
+				{
+					Slot: 3, id: "sky_orchards:sapling_gravel", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 4, id: "sky_orchards:sapling_sand", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 5, id: "sky_orchards:sapling_clay", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 6, id: "sky_orchards:sapling_petrified", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 7, id: "sky_orchards:sapling_dirt", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 8, id: "sky_orchards:sapling_cottonwood", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 9, id: "sky_orchards:sapling_nickel", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 10, id: "sky_orchards:sapling_silver", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 11, id: "sky_orchards:sapling_aluminum", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 12, id: "sky_orchards:sapling_tin", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 13, id: "sky_orchards:sapling_lead", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 14, id: "sky_orchards:sapling_copper", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 15, id: "sky_orchards:sapling_bone", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 16, id: "sky_orchards:sapling_redstone", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 17, id: "sky_orchards:sapling_lapis", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 18, id: "tconstruct:slime_sapling", Count: 1 as byte, Damage: 1 as short
+				},
+				{
+					Slot: 19, id: "tconstruct:slime_sapling", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 20, id: "tconstruct:edible", Count: 16 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 21, id: "farmingforblockheads:market", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 22,
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
+					id: "buildinggadgets:buildingtool",
+					Count: 1 as byte,
+					tag: {
+						mode: "BuildToMe",
+						blockstate: {
+							Name: "minecraft:air"
+						}
+					},
+					Damage: 0 as short
+				},
+				{
+					Slot: 23, id: "minecraft:chest", Count: 64 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 24, id: "minecraft:dirt", Count: 18 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 25, id: "bonsaitrees:bonsaipot", Count: 20 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 26, id: "tconstruct:slime_dirt", Count: 2 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 27, id: "dimensionaledibles:overworld_cake", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 28, id: "dimensionaledibles:nether_cake", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 29, id: "xlfoodmod:bacon_pie", Count: 16 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 30, id: "xlfoodmod:corn_seeds", Count: 64 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 31, id: "tp:iron_cobblegen_block", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 32, id: "nuclearcraft:water_source", Count: 1 as byte, Damage: 0 as short
+				},
+				{
+					Slot: 33,
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
+					id: "minecraft:diamond_axe",
+					Count: 1 as byte,
+					Damage: 0 as short
+				}
+			]
+		};
+		player.give(<cyclicmagic:storage_bag>.withTag(fastForwardBagData));
+	});
 
 	// ==================================
     // Topography Rewards
