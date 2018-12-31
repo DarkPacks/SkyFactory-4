@@ -2,7 +2,7 @@ setFogColor(#04815F)
 setCelestialAngle(0.5)
 disableSky()
 disableClouds()
-generateNetherFortress()
+generateNetherFortress(2, 16, 4)
 disableSkylight()
 setLightBrightnessTable([0.155, 0.210, 0.265, 0.32, 0.375, 0.43, 0.485, 0.54, 0.595, 0.65, 0.705, 0.76, 0.815, 0.87, 0.925, 1.0])
 

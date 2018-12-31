@@ -1,2 +1,0 @@
-gamestage add @p mob_spawns
-gamestage add @p pacifist

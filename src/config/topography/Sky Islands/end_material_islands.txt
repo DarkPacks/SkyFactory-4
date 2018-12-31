@@ -64,7 +64,6 @@ skyIslands = new SkyIslandGenerator()
 skyIslands.setRegionSize(29)
 addGenerator(skyIslands)
 
-
 //Adds sky islands. Arguments are radius, number of times to attempt to generate in each region, and whether each island should choose a random type (true), or if types should be used in order (false).
 large = skyIslands.addSkyIslands(100, 1, false)
 //Adds a SkyIslandType to the island generator.
@@ -76,7 +75,6 @@ large.addType(obsidian)
 large.addType(purpur)
 large.addType(purpurpillar)
 large.addType(endbricks)
-
 
 medium = skyIslands.addSkyIslands(50, 32, false)
 medium.addType(endstone)

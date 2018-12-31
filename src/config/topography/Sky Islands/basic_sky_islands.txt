@@ -1,7 +1,4 @@
-
 setSingleBiome("minecraft:void")
-
-
 
 //Creates a new SkyIslandType. The argument is a biome id.
 forest = new SkyIslandType("minecraft:forest")
@@ -30,11 +27,9 @@ roofed_forest = new SkyIslandType("minecraft:roofed_forest")
 
 redwood_taiga = new SkyIslandType("minecraft:redwood_taiga")
 
-
 skyIslands = new SkyIslandGenerator()
 skyIslands.setRegionSize(29)
 addGenerator(skyIslands)
-
 
 //Adds sky islands. Arguments are radius, number of times to attempt to generate in each region, and whether each island should choose a random type (true), or if types should be used in order (false).
 large = skyIslands.addSkyIslands(100, 1, false)

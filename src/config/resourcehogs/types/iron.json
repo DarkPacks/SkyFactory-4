@@ -8,7 +8,7 @@
   "diggableBlocks": [
     "minecraft:stone"
   ],
-  "renderBlock": "minecraft:iron_block",
+  "renderBlock": "minecraft:iron_ore",
   "validDimensions": [
     -1,
     0,

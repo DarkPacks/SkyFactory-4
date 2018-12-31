@@ -1,0 +1,9 @@
+setFogColor(#000000)
+generateEndCity()
+
+setSingleBiome("minecraft:sky")
+
+setSpawnStructure("EndChuck")
+
+captureTeleports()
+disableRespawning()

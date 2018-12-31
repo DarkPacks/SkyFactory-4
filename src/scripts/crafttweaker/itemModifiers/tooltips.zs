@@ -173,7 +173,130 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 	<bibliocraft:lampiron:*>: [
 		format.yellow("Craft with Dye to change color"),
+	],
+
+	//QoL pipe tooltips
+	//Item Pipes
+	<thermaldynamics:duct_32:3>: [
+		format.red("Usage: Item Transfer Pipe"),
+	],
+	<thermaldynamics:duct_32:2>: [
+		format.red("Usage: Item Transfer Pipe"),
+	],
+	<translocators:translocator_part:1>: [
+		format.red("Usage: Item Transfer Pipe"),
+	],
+	<cyclicmagic:cable_wireless>: [
+		format.red("Usage: Item and Fluid Transfer"),
+		format.red("Requires GPS marker to configure"),	
+	],
+	<thermaldynamics:duct_32:1>: [
+		format.red("Usage: Item Transfer Pipe"),
+	],
+	<thermaldynamics:duct_32>: [
+		format.red("Usage: Item Transfer Pipe"),
+	],
+	<cyclicmagic:item_pump>: [
+		format.red("Usage: Item Transfer Pipe"),
+	],
+	<cyclicmagic:item_pipe>: [
+		format.red("Usage: Item Transfer Pipe"),
+	],
+	<inspirations:pipe>: [
+		format.red("Usage: Item Transfer Pipe"),
+	],
+	<thermaldynamics:duct_32:5>: [
+		format.red("Usage: Item Transfer Pipe"),
+	],
+	<thermaldynamics:duct_32:6>: [
+		format.red("Usage: Item Transfer Pipe"),
+	],
+	<thermaldynamics:duct_32:7>: [
+		format.red("Usage: Item Transfer Pipe"),
+	],
+	<thermaldynamics:duct_32:4>: [
+		format.red("Usage: Item Transfer Pipe"),
+	],
+
+	//Fluid pipes
+
+	<thermaldynamics:duct_16:1>: [
+		format.red("Usage: Fluid Transfer Pipe"),
+	],
+	<thermaldynamics:duct_16>: [
+		format.red("Usage: Fluid Transfer Pipe"),
+	],
+	<cyclicmagic:fluid_pump>: [
+		format.red("Usage: Fluid Transfer Pipe"),
+	],
+	<cyclicmagic:fluid_pipe>: [
+		format.red("Usage: Fluid Transfer Pipe"),
+	],
+	<thermaldynamics:duct_16:7>: [
+		format.red("Usage: Fluid Transfer Pipe"),
+	],
+	<translocators:translocator_part>: [
+		format.red("Usage: Fluid Transfer Pipe"),
+	],
+	<tconstruct:channel>: [
+		format.red("Usage: Fluid Transfer Pipe"),
+	],
+	<ceramics:channel>: [
+		format.red("Usage: Fluid Transfer Pipe"),
+	],
+	<thermaldynamics:duct_16:6>: [
+		format.red("Usage: Fluid Transfer Pipe"),
+	],
+	<thermaldynamics:duct_16:5>: [
+		format.red("Usage: Fluid Transfer Pipe"),
+	],
+	<thermaldynamics:duct_16:4>: [
+		format.red("Usage: Fluid Transfer Pipe"),
+	],
+	<thermaldynamics:duct_16:3>: [
+		format.red("Usage: Fluid Transfer Pipe"),
+	],
+	<thermaldynamics:duct_16:2>: [
+		format.red("Usage: Fluid Transfer Pipe"),
+	],
+
+	//Power pipes
+
+	<thermaldynamics:duct_0:4>: [
+		format.red("Usage: Power / Energy Transfer Pipe"),
+	],
+	<thermaldynamics:duct_0:3>: [
+		format.red("Usage: Power / Energy Transfer Pipe"),
+	],
+	<thermaldynamics:duct_0:2>: [
+		format.red("Usage: Power / Energy Transfer Pipe"),
+	],
+	<thermaldynamics:duct_0:1>: [
+		format.red("Usage: Power / Energy Transfer Pipe"),
+	],
+	<thermaldynamics:duct_0>: [
+		format.red("Usage: Power / Energy Transfer Pipe"),
+	],
+	<cyclicmagic:energy_pipe>: [
+		format.red("Usage: Power / Energy Transfer Pipe"),
+	],
+	<cyclicmagic:energy_pump>: [
+		format.red("Usage: Power / Energy Transfer Pipe"),
+	],
+	<fluxnetworks:fluxpoint>: [
+		format.red("Usage: Power / Energy Transfer Pipe"),
+	],
+	<cyclicmagic:cable_wireless_energy>: [
+		format.red("Usage: Power / Energy Transfer Pipe"),
+	],
+	<fluxnetworks:fluxplug>: [
+		format.red("Usage: Power / Energy Transfer Pipe"),
+	],
+	<thermaldynamics:duct_0:5>: [
+		format.red("Usage: Power / Energy Transfer Pipe"),
 	]
+
+
 };
 
 function init() {

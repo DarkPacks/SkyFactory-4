@@ -115,6 +115,7 @@ SF4.registerDimension(-1, "SF4/water_nether")
 SF4 = registerPreset("Chunk Norris", "images/Chunkmk2", "One Chunk in a void world")
 SF4.registerDimension(0, "SF4/dirt_tree_chunk")
 SF4.registerDimension(-1, "SF4/nether_chunk")
+SF4.registerDimension(1, "SF4/end/end_chunk")
 
 basicSkyIslands = registerPreset("Skiiiilands", "images/SkyIslandsmk2", "Floating Sky Islands")
 basicSkyIslands.registerDimension(0, "Sky Islands/basic_sky_islands")
