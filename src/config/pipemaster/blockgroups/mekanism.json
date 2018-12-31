@@ -1,0 +1,12 @@
+{
+  "id": "mekanism ",
+  "mod": "mekanism",
+  "itemIcon": {
+    "name": "mekanism:energycube",
+    "meta": 0
+  },
+  "translationKey": "Mekanism",
+  "blocks": [
+    "mekanism:transmitter"
+  ]
+}

@@ -41,7 +41,6 @@ quartz.setDeformScale(4)
 quartz.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(quartz)
 
-
 ardite = new DeformedSphereGenerator(<tconstruct:ore:1>, 3, 2, 64, 10)
 ardite.setDeformScale(4)
 ardite.addRequiredBlock(<minecraft:netherrack>)
@@ -53,5 +52,5 @@ cobalt.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(cobalt)
 
 enableRelightChecks()
-
 disableRespawning()
+captureTeleports()

@@ -49,6 +49,5 @@ cobalt.setDeformScale(4)
 cobalt.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(cobalt)
 
-enableRelightChecks()
-
 disableRespawning()
+captureTeleports()

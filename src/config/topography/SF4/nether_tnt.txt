@@ -16,7 +16,6 @@ tendrils = new CellNoiseGenerator(<minecraft:tnt>)
 tendrils.openTop()
 addGenerator(tendrils)
 
-
 layers = new LayerGenerator()
 layers.addLayer(0~0, <minecraft:bedrock>)
 addGenerator(layers)
@@ -48,6 +47,6 @@ cobalt.setDeformScale(4)
 cobalt.addRequiredBlock(<minecraft:tnt>)
 addGenerator(cobalt)
 
-
 enableRelightChecks()
 disableRespawning()
+captureTeleports()

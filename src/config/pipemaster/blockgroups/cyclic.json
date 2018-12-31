@@ -1,0 +1,17 @@
+{
+  "id": "cyclicmagic ",
+  "mod": "cyclicmagic",
+  "itemIcon": {
+    "name": "cyclicmagic:item_pump",
+    "meta": 0
+  },
+  "translationKey": "Cyclic",
+  "blocks": [
+    "cyclicmagic:item_pipe",
+    "cyclicmagic:item_pump",
+    "cyclicmagic:energy_pipe",
+    "cyclicmagic:energy_pump",
+    "cyclicmagic:fluid_pipe",
+    "cyclicmagic:fluid_pump"
+  ]
+}

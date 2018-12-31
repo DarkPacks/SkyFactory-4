@@ -52,7 +52,5 @@ cobalt.setDeformScale(4)
 cobalt.addRequiredBlock(<minecraft:packed_ice>)
 addGenerator(cobalt)
 
-
-enableRelightChecks()
-
 disableRespawning()
+captureTeleports()

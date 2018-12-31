@@ -1,4 +1,3 @@
-
 setSpawnStructure("dirt_tree")
 
 sky = setSkyRenderer()

@@ -1,0 +1,22 @@
+{
+  "id": "storagenetwork ",
+  "mod": "storagenetwork",
+
+  "itemIcon": {
+    "name": "storagenetwork:master",
+    "meta": 0
+  },
+
+  "translationKey": "Simple Storage Network",
+
+  "blocks": [
+    "storagenetwork:kabel",
+    "storagenetwork:storage_kabel",
+    "storagenetwork:ex_kabel",
+    "storagenetwork:im_kabel",
+    "storagenetwork:process_kabel"
+  ]
+}
+
+
+

@@ -79,14 +79,6 @@ tiny.addType(quartz)
 tiny.addType(glowstone)
 tiny.addType(soulsand)
 
-
-
-
-
-
-
-
-
 spheres = new DeformedSphereGenerator(<minecraft:soul_sand>, 10, 32, 32, 8)
 spheres.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(spheres)

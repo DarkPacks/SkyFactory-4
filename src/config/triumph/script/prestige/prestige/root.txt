@@ -2,7 +2,7 @@ setTitle("Prestige")
 
 setIcon(<parabox:parabox>)
 
-setDescription("Lorem ipsum dolor sit amet")
+setDescription("Advancements for the Prestige system")
 
 setBackground("test:textures/colors/black.png")
 

@@ -1,23 +1,20 @@
 {
-  "jetpack_type": {
-    "name": "iron",
-    "disable": false,
-    "tier": 2,
-    "color": 12698049,
-    "armor_points": 3,
-    "enchantability": 9,
-    "crafting_material": "ore:ingotIron",
-    "force_recipes": false
-  },
-  "jetpack_info": {
-    "capacity": 800000,
-    "usage": 120,
-    "speed_vertical": 0.41,
-    "accel_vertical": 0.12,
-    "speed_sideways": 0.14,
-    "speed_hover_descend": 0.27,
-    "speed_hover": 0.075,
-    "sprint_speed_multi": 1.1,
-    "sprint_fuel_multi": 2.1
-  }
+  "name": "iron",
+  "disable": false,
+  "tier": 2,
+  "color": "c1c1c1",
+  "armorPoints": 3,
+  "enchantability": 9,
+  "craftingMaterial": "ore:ingotIron",
+  "forceRecipes": false,
+  "rarity": 0,
+  "capacity": 800000,
+  "usage": 120,
+  "speedVertical": 0.41,
+  "accelVertical": 0.12,
+  "speedSideways": 0.14,
+  "speedHoverDescend": 0.27,
+  "speedHover": 0.075,
+  "sprintSpeedMulti": 1.1,
+  "sprintFuelMulti": 2.1
 }

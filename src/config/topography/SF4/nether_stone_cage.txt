@@ -10,7 +10,6 @@ setSpawnStructure("NetherStoneCage")
 
 setSingleBiome("minecraft:hell")
 
-
 layers = new LayerGenerator()
 layers.addLayer(0~1, <minecraft:bedrock>)
 layers.addLayer(2~254, <minecraft:netherrack>)
@@ -40,5 +39,5 @@ cobalt.setDeformScale(4)
 cobalt.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(cobalt)
 
-captureTeleports()
 disableRespawning()
+captureTeleports()

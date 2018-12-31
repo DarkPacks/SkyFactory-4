@@ -11,10 +11,6 @@ setSingleBiome("minecraft:hell")
 //Creates a new SkyIslandType. The argument is a biome id.
 hell = new SkyIslandType("minecraft:hell")
 
-
-
-
-
 //Creates a new SkyIslandType. The argument is a biome id.
 netherrack = new SkyIslandType("minecraft:hell")
 //Sets the block the island is made of. Defaults to stone. Look at a block in world and use the command `/bnb block` to generate the syntax.
@@ -30,7 +26,6 @@ skyIslands = new SkyIslandGenerator()
 skyIslands.setRegionSize(29)
 addGenerator(skyIslands)
 
-
 //Adds sky islands. Arguments are radius, number of times to attempt to generate in each region, and whether each island should choose a random type (true), or if types should be used in order (false).
 large = skyIslands.addSkyIslands(100, 1, false)
 //Adds a SkyIslandType to the island generator.
@@ -44,14 +39,6 @@ small.addType(netherrack)
 
 tiny = skyIslands.addSkyIslands(10, 128, false)
 tiny.addType(netherrack)
-
-
-
-
-
-
-
-
 
 spheres = new DeformedSphereGenerator(<minecraft:soul_sand>, 10, 32, 32, 8)
 spheres.addRequiredBlock(<minecraft:netherrack>)

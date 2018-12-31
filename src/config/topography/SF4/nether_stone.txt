@@ -8,9 +8,7 @@ setLightBrightnessTable([0.1, 0.11578947, 0.13333333, 0.15294117, 0.175, 0.20000
 
 setSpawnStructure("stonetest")
 
-
 setSingleBiome("minecraft:hell")
-
 
 layers = new LayerGenerator()
 layers.addLayer(0~1, <minecraft:bedrock>)
@@ -40,5 +38,5 @@ cobalt.setDeformScale(4)
 cobalt.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(cobalt)
 
-captureTeleports()
 disableRespawning()
+captureTeleports()

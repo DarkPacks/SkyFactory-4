@@ -53,5 +53,5 @@ cobalt.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(cobalt)
 
 enableRelightChecks()
-
 disableRespawning()
+captureTeleports()
