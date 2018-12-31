@@ -1,0 +1,3 @@
+gamestage remove @p pacifist
+gamerule tfEnforcedProgression true
+gamerule doMobLoot true

@@ -1,1 +1,1 @@
-gamestage add @p skygrid
+gamestage silentadd @p skygrid

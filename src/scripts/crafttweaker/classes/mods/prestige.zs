@@ -37,7 +37,7 @@ zenClass Prestige {
 		}
 	}
 	function addPrestigeDisabledGamestage(stage as Stage) {
-		Rewards.registerDisabledCommand("gamestage add @p " ~ stage.stage);
+		Rewards.registerDisabledCommand("gamestage silentadd @p " ~ stage.stage);
 	}
 
 	/*
@@ -49,6 +49,6 @@ zenClass Prestige {
 		}
 	}
 	function addPrestigeEnabledGamestage(stage as Stage) {
-		Rewards.registerEnabledCommand("gamestage add @p " ~ stage.stage);
+		Rewards.registerEnabledCommand("gamestage silentadd @p " ~ stage.stage);
 	}
 }

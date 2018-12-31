@@ -1,1 +1,1 @@
-gamestage add @p non_pacifist
+gamestage silentadd @p non_pacifist
