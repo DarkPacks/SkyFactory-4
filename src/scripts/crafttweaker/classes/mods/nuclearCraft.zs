@@ -24,12 +24,10 @@ import mods.nuclearcraft.fission;
 import mods.nuclearcraft.fuel_reprocessor as fuelReprocessor;
 import mods.nuclearcraft.fusion;
 import mods.nuclearcraft.heat_exchanger as heatExchanger;
-import mods.nuclearcraft.high_turbine as highTurbine;
 import mods.nuclearcraft.infuser;
 import mods.nuclearcraft.ingot_former as ingotFormer;
 import mods.nuclearcraft.irradiator;
 import mods.nuclearcraft.isotope_separator as isotopeSeparator;
-import mods.nuclearcraft.low_turbine as lowTurbine;
 import mods.nuclearcraft.manufactory;
 import mods.nuclearcraft.melter;
 import mods.nuclearcraft.pressurizer;
@@ -37,6 +35,7 @@ import mods.nuclearcraft.rock_crusher as rockCrusher;
 import mods.nuclearcraft.salt_fission as saltFission;
 import mods.nuclearcraft.salt_mixer as saltMixer;
 import mods.nuclearcraft.supercooler;
+import mods.nuclearcraft.turbine;
 
 zenClass NuclearCraft {
 	zenConstructor() {
