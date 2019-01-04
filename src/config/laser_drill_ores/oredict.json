@@ -26,7 +26,7 @@
         ]
     },
     {
-        "item": "ore:oreBoron",
+        "item": "oreBoron",
         "color": 7,
         "rarity": [
             {
@@ -98,7 +98,7 @@
         ]
     },
     {
-        "item": "ore:oreDilithium",
+        "item": "oreDilithium",
         "color": 3,
         "rarity": [
             {
@@ -151,7 +151,7 @@
         ]
     },
     {
-        "item": "ore:oreLithium",
+        "item": "oreLithium",
         "color": 0,
         "rarity": [
             {
@@ -164,7 +164,7 @@
         ]
     },
     {
-        "item": "ore:oreMagnesium",
+        "item": "oreMagnesium",
         "color": 6,
         "rarity": [
             {
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "item": "ore:oreThorium",
+        "item": "oreThorium",
         "color": 15,
         "rarity": [
             {
@@ -276,7 +276,7 @@
         ]
     },
     {
-        "item": "ore:oreTritanium",
+        "item": "oreTritanium",
         "color": 9,
         "rarity": [
             {
