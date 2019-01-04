@@ -16,4 +16,4 @@ criteria.addItem(<extendedcrafting:singularity_custom:3>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-104,114)
+setPos(-108,101)

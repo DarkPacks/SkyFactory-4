@@ -97,6 +97,10 @@ function init() {
 	tinkers.addMelting(<liquid:ardite> * 144, <sky_orchards:amber_ardite>);
 	tinkers.addMelting(<liquid:cobalt> * 144, <sky_orchards:amber_cobalt>);
 	tinkers.addMelting(<liquid:osmium> * 288, <sky_orchards:amber_osmium>);
+	tinkers.addMelting(<liquid:mud> * 1000, <sky_orchards:amber_cookie>);
+	tinkers.addMelting(<liquid:mud> * 1000, <sky_orchards:amber_bacon>);
+	tinkers.addMelting(<liquid:mud> * 1000, <sky_orchards:amber_donut>);
+	tinkers.addMelting(<liquid:mud> * 250, <minecraft:porkchop>);
 
 	// ==================================
 	// Alloying
@@ -120,14 +124,6 @@ function init() {
 	tinkers.addDrying(<minecraft:leather>, <minecraft:cooked_rabbit>, 1800);
 	tinkers.addDrying(<minecraft:leather>, <minecraft:cooked_mutton>, 1800);
 
-
-
-
-
-
-
-
-
 	// ==================================
 	// Casting Table
 	// ==================================
@@ -144,8 +140,6 @@ function init() {
 	tinkers.addCastingTable(<tp:reinforced_obsidian_ingot>, <tconstruct:cast_custom>, <liquid:reinforced_obsidian>, 144, false, 200);
 	tinkers.addCastingTable(<sky_orchards:sapling_ardite>, <tconstruct:slime_sapling:2>, <liquid:ardite>, 144, true, 200);
 	tinkers.addCastingTable(<sky_orchards:sapling_cobalt>, <tconstruct:slime_sapling:1>, <liquid:cobalt>, 144, true, 200);
-	tinkers.addCastingTable(<sky_orchards:sapling_cobalt>, <tconstruct:slime_sapling:1>, <liquid:cobalt>, 144, true, 200);
-	tinkers.addCastingTable(<sky_orchards:sapling_cobalt>, <tconstruct:slime_sapling:1>, <liquid:cobalt>, 144, true, 200);
 
 	//Ender Pearl and Seed Casting
 	tinkers.addCastingTable(<minecraft:ender_pearl>, <tconstruct:cast_custom:2>, <liquid:ender>, 250, false, 200);
@@ -156,6 +150,12 @@ function init() {
 	tinkers.addCastingTable(<mekanism:nugget:1>, <tconstruct:cast_custom:1>, <liquid:osmium>, 16, false, 200);
 	tinkers.addCastingBasin(<mekanism:basicblock>, null, <liquid:osmium>, 1296, true, 400);
 
+	//Cookie Casting
+	tinkers.addCastingTable(<minecraft:cookie>, <tconstruct:cast>.withTag({PartType: "tconstruct:pan_head"}), <liquid:mud>, 250, false, 160);
+	//Bacon Casting
+	tinkers.addCastingTable(<tconstruct:edible>, <tconstruct:cast>.withTag({PartType: "tconstruct:tough_tool_rod"}), <liquid:mud>, 250, false, 160);
+	//Donut Casting
+	tinkers.addCastingTable(<xlfoodmod:donut>, <tconstruct:cast>.withTag({PartType: "tconstruct:pan_head"}), <liquid:mud>, 250, false, 160);
 
 	// ==================================
 	// Casting Basin
@@ -217,3 +217,6 @@ function init() {
 
 //mods.tconstruct.Fuel.registerFuel(ILiquidStack fuel, int duration);
 mods.tconstruct.Fuel.registerFuel(<liquid:pyrotheum> * 50, 140);
+
+//Change pigs to liquid bacon
+mods.tconstruct.Melting.addEntityMelting(<entity:minecraft:pig>, <liquid:mud>);

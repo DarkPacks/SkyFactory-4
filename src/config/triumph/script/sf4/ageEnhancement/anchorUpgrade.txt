@@ -1,0 +1,18 @@
+setTitle("Ahoy Matey!")
+
+setIcon(<mekanism:anchorupgrade>)
+
+setDescription("Craft a Mekanism Anchor upgrade to allow the machine to chunk load")
+
+addParent("sf4:ageEnhancement/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Mekanism Anchor Upgrade", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:anchorupgrade>)
+
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(-113,85)

@@ -15,4 +15,4 @@ criteria.addItem(<tconstruct:toolforge>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(111,204)
+setPos(108,204)

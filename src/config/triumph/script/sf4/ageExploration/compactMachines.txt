@@ -2,7 +2,7 @@ setTitle("Compact Your World")
 
 setIcon(<compactmachines3:psd>)
 
-setDescription("Travel to the Compact Machines Dimension")
+setDescription("Travel to any sized Compact Machines Dimension. Create the dimension using the Miniturization Field Projector. Use the Personal Shrinking Device to enter the dimension")
 
 addParent("sf4:ageExploration/root")
 
@@ -14,4 +14,4 @@ criteria.setDimensionDestination("CompactMachines")
 
 hideLines()
 alwaysVisible()
-setPos(32,148)
+setPos(7,219)

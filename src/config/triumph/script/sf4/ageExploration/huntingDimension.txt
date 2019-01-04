@@ -2,7 +2,7 @@ setTitle("Let the Hunt Begin")
 
 setIcon(<huntingdim:portal>)
 
-setDescription("Go to the Hunting Dimension")
+setDescription("Travel to the Hunting Dimension. Build the Hunting Dimension portal using Hunting Dimension Frame Blocks. Light it by Right-Clicking with a sword, bow, or flint and steel")
 
 addParent("sf4:ageExploration/root")
 
@@ -13,4 +13,4 @@ criteria.setDimensionDestination("hunting_dim")
 
 hideLines()
 alwaysVisible()
-setPos(32,224)
+setPos(7,253)

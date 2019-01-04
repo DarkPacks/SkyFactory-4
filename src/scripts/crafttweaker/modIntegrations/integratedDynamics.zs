@@ -4,8 +4,8 @@
 	This script utilizes the Integrated Dynamics integration to add/remove/modify recipes.
 */
 function init() {
-	integratedDynamics.addSqueezer(false, <sky_orchards:amber_cottonwood>, <minecraft:wool>, null);
-	integratedDynamics.addSqueezer(false, <sky_orchards:acorn_cottonwood>, <minecraft:string>, null);
+	integratedDynamics.addSqueezerBoth(<sky_orchards:amber_cottonwood>, <minecraft:wool>, null);
+	integratedDynamics.addSqueezerBoth(<sky_orchards:acorn_cottonwood>, <minecraft:string>, null);
 
 	integratedDynamics.addSqueezerBoth(<minecraft:cooked_porkchop>, <tconstruct:edible> * 2, null);
 

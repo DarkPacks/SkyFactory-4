@@ -288,15 +288,18 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 	<cyclicmagic:cable_wireless_energy>: [
 		format.red("Usage: Power / Energy Transfer Pipe"),
+		format.red("Requires GPS marker to configure"),	
 	],
 	<fluxnetworks:fluxplug>: [
 		format.red("Usage: Power / Energy Transfer Pipe"),
 	],
 	<thermaldynamics:duct_0:5>: [
 		format.red("Usage: Power / Energy Transfer Pipe"),
+	],
+
+	<thermaldynamics:duct_0:5>: [
+		format.red("Usage: Power / Energy Transfer Pipe"),
 	]
-
-
 };
 
 function init() {

@@ -2,7 +2,7 @@ setTitle("It Gives You Wings")
 
 setIcon("minecraft:elytra")
 
-setDescription("Travel to an End City and obtain Elytra")
+setDescription("Travel deep into the End Void to find an End City to obtain Elytra")
 
 addParent("sf4:ageExploration/dragonKill")
 

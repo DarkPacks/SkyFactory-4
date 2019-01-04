@@ -1,8 +1,8 @@
 setTitle("Lost and Found")
 
-setIcon(<minecraft:glass>)
+setIcon(<dimensionaledibles:custom_cake, nbt:{dimID:111}>)
 
-setDescription("Go to the Lost Cities Dimension")
+setDescription("Go to the Lost Cities Dimension using a Dimensional Cake")
 
 addParent("sf4:ageExploration/root")
 
@@ -13,4 +13,4 @@ criteria.setDimensionDestination("lostcities")
 
 hideLines()
 alwaysVisible()
-setPos(32,78)
+setPos(7,47)

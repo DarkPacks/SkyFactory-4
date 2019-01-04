@@ -59,6 +59,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
+	<thaumcraft:plate:1>
 ];
 
 function init() {

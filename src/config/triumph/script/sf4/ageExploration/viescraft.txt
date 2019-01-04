@@ -2,7 +2,7 @@ setTitle("Come Fly With Me")
 
 setIcon(<vc:airships/item_airship>)
 
-setDescription("Craft a Viescraft Airship to fly around")
+setDescription("Craft a Viescraft Airship to fly around!")
 
 addParent("sf4:ageExploration/root")
 
@@ -14,4 +14,4 @@ criteria.addItem(<vc:airships/item_airship>)
 
 hideLines()
 alwaysVisible()
-setPos(75,220)
+setPos(-72,253)

@@ -2,7 +2,7 @@ setTitle("Wishing Well")
 
 setIcon(<minecraft:cauldron>)
 
-setDescription("Collect Rain Water in a Cauldron and right click on the block")
+setDescription("Collect Rain Water in a Cauldron and right click on the block when water is visible")
 
 addParent("sf4:age1/crushingTub")
 addParent("sf4:age1/cauldron")
