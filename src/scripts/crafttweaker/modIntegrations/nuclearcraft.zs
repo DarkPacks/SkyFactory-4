@@ -14,11 +14,11 @@ function init() {
 }
 
 //Cookie Processing
-mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_cookie>, <liquid:mud> * 1000]);
-mods.nuclearcraft.ingot_former.addRecipe([<liquid:mud> * 250, <minecraft:cookie>]);
+mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_cookie>, <liquid:cookie_dough> * 1000]);
+mods.nuclearcraft.ingot_former.addRecipe([<liquid:cookie_dough> * 250, <minecraft:cookie>]);
 //Bacon Processing
-mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_bacon>, <liquid:mud> * 1000]);
-mods.nuclearcraft.ingot_former.addRecipe([<liquid:mud> * 250, <tconstruct:edible>]);
+mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_bacon>, <liquid:bacon> * 1000]);
+mods.nuclearcraft.ingot_former.addRecipe([<liquid:bacon> * 250, <tconstruct:edible>]);
 //Donut Processing
-mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_donut>, <liquid:mud> * 1000]);
-mods.nuclearcraft.ingot_former.addRecipe([<liquid:mud> * 250, <xlfoodmod:donut>]);
+mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_donut>, <liquid:donut> * 1000]);
+mods.nuclearcraft.ingot_former.addRecipe([<liquid:donut> * 250, <xlfoodmod:donut>]);
