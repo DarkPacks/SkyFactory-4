@@ -1,0 +1,17 @@
+setTitle("Warm and Gooey")
+
+setIcon(<nuclearcraft:melter_idle>)
+
+setDescription("Craft a Nuclearcraft Melter to melt down items and blocks into molten liquid")
+
+addParent("sf4:agePower/root")
+
+//Criteria
+criteria = addCriteria("Obtain Melter", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:melter_idle>)
+
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-75,246)

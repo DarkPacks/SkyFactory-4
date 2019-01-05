@@ -2,7 +2,7 @@ setTitle("Nothing Really Mattocks")
 
 setIcon(<tconstruct:mattock>)
 
-setDescription("Craft a Tinkers' Construct Mattock")
+setDescription("Craft any Tinkers' Construct Mattock to help with farming")
 
 addParent("sf4:ageFarming/root")
 

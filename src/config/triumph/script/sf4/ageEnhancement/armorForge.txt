@@ -1,6 +1,6 @@
 setTitle("Suit Up")
 
-setIcon("conarm:armorforge")
+setIcon(<conarm:armorforge>)
 
 setDescription("Craft a Construct's Armory Armor Forge")
 
@@ -10,7 +10,7 @@ drawDirectLines(true)
 
 //Criteria
 criteria = addCriteria("Obtain Armor Forge", "minecraft:inventory_changed")
-criteria.addItem("conarm:armorforge")
+criteria.addItem(<conarm:armorforge>)
 
 setRewardExperience(4)
 

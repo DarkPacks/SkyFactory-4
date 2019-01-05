@@ -1,0 +1,17 @@
+setTitle("Made for Each Other")
+
+setIcon(<nuclearcraft:alloy_furnace_idle>)
+
+setDescription("Craft a Nuclearcraft Alloy Furnace to combine items into alloys or other combinations")
+
+addParent("sf4:agePower/root")
+
+//Criteria
+criteria = addCriteria("Obtain Alloy Furnace", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:alloy_furnace_idle>)
+
+setRewardExperience(4)
+
+hideLines()
+alwaysVisible()
+setPos(-75,221)

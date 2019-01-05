@@ -2,7 +2,7 @@ setTitle("Stay Hydrated")
 
 setIcon(<hydrogel:hydrogel>)
 
-setDescription("Craft Hydrogel to take the place of water in the middle of your farm")
+setDescription("Use Hydrogel to take the place of water in the middle of your farm")
 
 addParent("sf4:ageFarming/root")
 

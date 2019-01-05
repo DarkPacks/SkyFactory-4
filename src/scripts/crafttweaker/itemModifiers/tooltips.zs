@@ -299,6 +299,14 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 
 	<thermaldynamics:duct_0:5>: [
 		format.red("Usage: Power / Energy Transfer Pipe"),
+	],
+	<mekanism:configurator>: [
+		format.red("Wrench"),
+	],
+
+	<mekanism:machineblock3:5>: [
+		format.yellow("Auto crafter"),
+		format.yellow("Set recipe with Crafting Formula"),
 	]
 };
 

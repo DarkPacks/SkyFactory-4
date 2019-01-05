@@ -55,6 +55,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.torchmaster.init();
 	scripts.crafttweaker.recipes.mods.thaumcraft.init();
 	scripts.crafttweaker.recipes.mods.twilightForest.init();
+	scripts.crafttweaker.recipes.mods.xlfoods.init();	
 }
 
 function initStaging() {

@@ -2,7 +2,7 @@ setTitle("Animals Croppings")
 
 setIcon(<animalcrops:seeds, meta:0, count:1, nbt:{entity: "minecraft:villager"}>)
 
-setDescription("Craft all of the Animal Seeds")
+setDescription("Can't find an animal? Craft an animal seed to grow them! Make sure to plant the seeds on Grass blocks")
 
 addParent("sf4:ageFarming/wheatSeeds")
 

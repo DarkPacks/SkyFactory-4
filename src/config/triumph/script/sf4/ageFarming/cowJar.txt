@@ -2,7 +2,7 @@ setTitle("Condensed Milk")
 
 setIcon(<cookingforblockheads:cow_jar>)
 
-setDescription("Create a Cow in a Jar")
+setDescription("Using an Anvil and a Cow, create a Cow in a Jar to get infinite milk!")
 
 addParent("sf4:ageFarming/root")
 

@@ -2,7 +2,7 @@ setTitle("It's the End of the World As We Know It")
 
 setIcon(<endercrop:ender_seeds>)
 
-setDescription("You can grow Ender Pearls using seeds, make sure to plant on tilled Dirt or Endstone")
+setDescription("You can grow Ender Pearls using Ender Seeds, make sure to plant on tilled Dirt or Endstone")
 
 addParent("sf4:ageFarming/root")
 

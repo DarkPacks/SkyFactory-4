@@ -2,7 +2,7 @@ setTitle("Shredded Wheat")
 
 setIcon("minecraft:wheat_seeds")
 
-setDescription("Break Tall Grass to find Wheat Seeds")
+setDescription("Use Bonemeal on grass to create Tall Grass. Break Tall Grass to find Wheat Seeds")
 
 addParent("sf4:ageFarming/root")
 
