@@ -1,6 +1,6 @@
 setTitle("Age of Storage")
 
-setIcon("minecraft:chest")
+setIcon(<minecraft:chest>)
 
 setDescription("All things related to storage!")
 

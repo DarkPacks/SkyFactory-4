@@ -1,6 +1,6 @@
 setTitle("Yes We Can!")
 
-setIcon("tp:watering_can")
+setIcon(<tp:watering_can>)
 
 setDescription("Craft a Tiny Progressions watering can to increase crop growth speed")
 
@@ -10,7 +10,7 @@ hideLines()
 
 //Criteria
 criteria = addCriteria("Obtain Watering Can", "minecraft:inventory_changed")
-criteria.addItem("tp:watering_can")
+criteria.addItem(<tp:watering_can>)
 
 setRewardExperience(4)
 setPos(10,335)

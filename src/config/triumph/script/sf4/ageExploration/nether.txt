@@ -1,6 +1,6 @@
 setTitle("Nether Here Nor There")
 
-setIcon("minecraft:netherrack")
+setIcon(<minecraft:netherrack>)
 
 setDescription("Travel to the Nether using a vanilla portal or a Dimensional Cake")
 

@@ -1,6 +1,6 @@
 setTitle("Floaty McFloaty")
 
-setIcon("tp:fmf_block")
+setIcon(<tp:fmf_block>)
 
 setDescription("Start a new island in the void by placing a Floaty McFloaty Block in the air")
 
@@ -10,7 +10,7 @@ drawDirectLines(true)
 
 //Criteria
 criteria = addCriteria("Obtain Floaty McFloaty Block", "minecraft:inventory_changed")
-criteria.addItem("tp:fmf_block")
+criteria.addItem(<tp:fmf_block>)
 
 setRewardExperience(4)
 

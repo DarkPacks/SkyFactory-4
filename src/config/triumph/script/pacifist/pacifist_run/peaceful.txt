@@ -1,6 +1,6 @@
 setTitle("Peaceful Mode On")
 
-setIcon("statues:blockspiderstatuet4")
+setIcon(<statues:blockspiderstatuet4>)
 
 setDescription("Hidden advancement to set player world to peaceful")
 

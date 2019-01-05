@@ -1,6 +1,6 @@
 setTitle("Need a Mint?")
 
-setIcon("minecraft:dragon_breath")
+setIcon(<minecraft:dragon_breath>)
 
 setDescription("Craft Dragon's Breath")
 
@@ -10,7 +10,7 @@ drawDirectLines(true)
 
 //Criteria
 criteria = addCriteria("Obtain Dragon's Breath", "minecraft:inventory_changed")
-criteria.addItem("minecraft:dragon_breath")
+criteria.addItem(<minecraft:dragon_breath>)
 
 setRewardExperience(4)
 

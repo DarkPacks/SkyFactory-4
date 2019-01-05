@@ -1,6 +1,6 @@
 setTitle("Age of Power")
 
-setIcon("chisel:technicalnew", 3)
+setIcon(<chisel:technicalnew:3>)
 
 setDescription("All things related to power!")
 

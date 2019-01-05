@@ -1,6 +1,6 @@
 setTitle("You lose")
 
-setIcon("minecraft:iron_sword")
+setIcon(<minecraft:iron_sword>)
 
 setDescription("You killed an innocent animal. You have lost access to the pacifist recipes")
 

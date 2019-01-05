@@ -1,6 +1,6 @@
 setTitle("SkyFactory 4")
 
-setIcon("minecraft:sapling")
+setIcon(<minecraft:sapling>)
 
 setDescription("Getting started in SkyFactory 4")
 

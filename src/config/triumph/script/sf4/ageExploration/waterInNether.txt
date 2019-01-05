@@ -1,6 +1,6 @@
 setTitle("Hell of a Boat Ride")
 
-setIcon("minecraft:water_bucket")
+setIcon(<minecraft:water_bucket>)
 
 setDescription("Place Water in the Nether using a Bucket. Then place a Boat on the Water. Profit!")
 

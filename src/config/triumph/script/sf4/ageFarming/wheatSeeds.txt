@@ -1,6 +1,6 @@
 setTitle("Shredded Wheat")
 
-setIcon("minecraft:wheat_seeds")
+setIcon(<minecraft:wheat_seeds>)
 
 setDescription("Use Bonemeal on grass to create Tall Grass. Break Tall Grass to find Wheat Seeds")
 
@@ -10,7 +10,7 @@ hideLines()
 
 //Criteria
 criteria = addCriteria("Obtain Wheat Seeds", "minecraft:inventory_changed")
-criteria.addItem("minecraft:wheat_seeds")
+criteria.addItem(<minecraft:wheat_seeds>)
 
 setRewardExperience(4)
 

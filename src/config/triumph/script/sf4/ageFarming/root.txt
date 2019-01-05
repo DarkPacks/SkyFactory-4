@@ -1,6 +1,6 @@
 setTitle("Age of Farming")
 
-setIcon("minecraft:iron_hoe")
+setIcon(<minecraft:iron_hoe>)
 
 setDescription("All things related to farming!")
 

@@ -16,7 +16,7 @@ setAnnounceToChat(false)
 criteria1 = addCriteria("superflat", "minecraft:location")
 criteria1.setGeneratorOptions({"Topography-Preset":"Peace Out"})
 criteria2 = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria2.addItem("minecraft:torch")
+criteria2.addItem(<minecraft:torch>)
 
 //Rewards
 setRewardExperience(4)
