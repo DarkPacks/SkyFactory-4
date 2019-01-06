@@ -112,6 +112,9 @@ zenClass Tinkers {
 	function removeMelting(output as ILiquidStack) {
 		Melting.removeRecipe(output);
 	}
+	function removeMelting(output as ILiquidStack, input as IItemStack) {
+		Melting.removeRecipe(output, input);
+	}
 	function removeMeltingEntity(entity as IEntityDefinition) {
 		Melting.removeEntityMelting(entity);
 	}
