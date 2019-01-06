@@ -35,6 +35,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.cyclic.init();
 	scripts.crafttweaker.recipes.mods.darkutils.init();
 	scripts.crafttweaker.recipes.mods.deepMobLearning.init();
+	scripts.crafttweaker.recipes.mods.dimensionalEdibles.init();	
 	scripts.crafttweaker.recipes.mods.iChunUtil.init();
 	scripts.crafttweaker.recipes.mods.industrialForegoing.init();
 	scripts.crafttweaker.recipes.mods.inspirations.init();
@@ -88,6 +89,7 @@ function initStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.items.redMulch.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.rubyMulch.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.smeltery.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.twilightForest.init();	
 	scripts.crafttweaker.staging.itemsAndRecipes.items.yellowMulch.init();
 }
 

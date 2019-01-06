@@ -7,3 +7,5 @@ removeAdvancements(["twilightforest:progress_castle", "twilightforest:progress_t
 
 allowDragging(true)
 useNewParentCompletionCriteriaNames()
+
+pageOrder(["sf4:age1/root", "skygrid:skygrid/root", "pacifist:pacifist/root", "sf4:ageEnhancement/root", "sf4:ageFarming/root", "sf4:agePower/root", "sf4:ageStorage/root", "sf4:ageExploration/root", "sf4:ageALLTHETHINGSOMGLOL/root", "prestige:prestige/root"])

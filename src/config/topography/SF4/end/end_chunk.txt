@@ -1,5 +1,5 @@
 setFogColor(#000000)
-generateEndCity()
+generateEndCity(1, 14, 4)
 
 setSingleBiome("minecraft:sky")
 
