@@ -2,7 +2,7 @@ setTitle("Ore'nt You Glad I Didn't Say Banana")
 
 setIcon(<tcomplement:porcelain_tank>)
 
-setDescription("Craft a Tank to heat your Melter")
+setDescription("Craft a Seared or Porcelain Tank to heat your Melter")
 
 addParent("sf4:ageEnhancement/root")
 setRequirements("any")

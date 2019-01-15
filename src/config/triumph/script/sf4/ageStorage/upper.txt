@@ -2,7 +2,7 @@ setTitle("ɹǝddoH")
 
 setIcon(<uppers:upper>)
 
-setDescription("Craft an Upper")
+setDescription("Craft an Upper. It's an upside down Hopper!")
 
 addParent("sf4:ageStorage/hopper")
 

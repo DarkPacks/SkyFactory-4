@@ -2,7 +2,7 @@ setTitle("It's Over 20!")
 
 setIcon(<cyclicmagic:sword_ender>)
 
-setDescription("Do 20 or more damage to a mob")
+setDescription("Inflict 20 or more damage to a creature")
 
 addParent("sf4:ageEnhancement/root")
 hideLines()

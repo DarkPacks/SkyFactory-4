@@ -2,7 +2,7 @@ setTitle("I'm A Computah!")
 
 setIcon(<mekanism:tierinstaller:3>)
 
-setDescription("Craft an Ultimate Installer from Mekanism")
+setDescription("Craft an Ultimate Installer from Mekanism. This can be used to upgrade Energy Cubes and a few other machines")
 
 addParent("sf4:agePower/root")
 

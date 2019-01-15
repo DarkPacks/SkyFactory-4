@@ -2,7 +2,7 @@ setTitle("B-Aiken be Aiken")
 
 setIcon(<sync:item_treadmill>)
 
-setDescription("Use a treadmill to make Pig Power!")
+setDescription("Use a treadmill to make Pig Power! Use a Lead to attach the Pig to the Treadmill")
 
 addParent("sf4:agePower/root")
 

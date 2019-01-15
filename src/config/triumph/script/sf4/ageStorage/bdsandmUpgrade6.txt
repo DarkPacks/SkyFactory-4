@@ -2,7 +2,7 @@ setTitle("Upgrade 7")
 
 setIcon(<bdsandm:upgrade:6>)
 
-setDescription("Craft a Barrels, Drums, Storage, and More Void Overflow Storage Upgrade")
+setDescription("Craft a 'Barrels, Drums, Storage, and More' Void Overflow Storage Upgrade")
 
 addParent("sf4:ageStorage/bdsandmUpgrade5")
 

@@ -2,7 +2,7 @@ setTitle("Captain Hook")
 
 setIcon(<inspirations:wooden_crook>)
 
-setDescription("Craft and use a Wooden Crook on leaves to increase sapling drops")
+setDescription("Craft and use a Wooden Crook on Leaves to increase sapling drops")
 
 addParent("sf4:age1/root")
 

@@ -2,7 +2,7 @@ setTitle("Hop to It")
 
 setIcon(<minecraft:hopper>)
 
-setDescription("Craft a Hopper")
+setDescription("Craft a Vanilla Hopper")
 
 addParent("sf4:ageStorage/woodenHopper")
 

@@ -2,7 +2,7 @@ setTitle("'This Baby Can Fit so Much Matter'")
 
 setIcon(<extendedcrafting:compressor>)
 
-setDescription("Craft a Quantum Compressor to create Singularities. Be sure to power it and provide the correct catalyst")
+setDescription("Craft a Quantum Compressor to create Singularities. Be sure to power it and provide the correct Catalyst")
 
 addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 

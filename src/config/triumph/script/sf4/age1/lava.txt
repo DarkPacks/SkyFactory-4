@@ -2,7 +2,7 @@ setTitle("Hotbois")
 
 setIcon(<minecraft:lava_bucket>)
 
-setDescription("Create lava by using Cobble in a Cauldron. Collect it in a Clay or Regular bucket. To melt cobble, you need to have a torch, fire, magma block, or lava directly under the Cauldron")
+setDescription("Create Lava by Right-Clicking Cobble in a Cauldron. Collect it in a Clay or Regular bucket. To melt Cobblestone, you need to have a torch, fire, magma block, or lava directly under the Cauldron")
 
 addParent("sf4:age1/cobblestone")
 addParent("sf4:age1/cauldron")

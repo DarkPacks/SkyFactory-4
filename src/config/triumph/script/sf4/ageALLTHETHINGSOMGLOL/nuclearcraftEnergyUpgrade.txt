@@ -2,7 +2,7 @@ setTitle("I'm Not Lazy, I'm Energy Efficient")
 
 setIcon(<nuclearcraft:upgrade:1>)
 
-setDescription("Craft a Nuclearcraft Energy Upgrade to decrease energy use of machines")
+setDescription("Craft a Nuclearcraft Energy Upgrade to decrease energy usage of machines")
 
 addParent("sf4:ageEnhancement/root")
 

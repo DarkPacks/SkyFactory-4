@@ -2,7 +2,7 @@ setTitle("Upgrade 4")
 
 setIcon(<bdsandm:upgrade:3>)
 
-setDescription("Craft a Barrels, Drums, Storage, and More x4k Storage Upgrade")
+setDescription("Craft a 'Barrels, Drums, Storage, and More' x4k Storage Upgrade")
 
 addParent("sf4:ageStorage/bdsandmUpgrade3")
 

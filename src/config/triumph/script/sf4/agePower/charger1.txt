@@ -2,7 +2,7 @@ setTitle("Chargin' Mah Lazer!")
 
 setIcon(<chargers:charger>)
 
-setDescription("Craft a Tier 1 Charger")
+setDescription("Craft a Tier 1 Charger. When given power, you can charge items and other blocks inside of it")
 
 addParent("sf4:agePower/root")
 

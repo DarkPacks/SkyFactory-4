@@ -2,7 +2,7 @@ setTitle("Don't Overreact")
 
 setIcon(<matteroverdrive:gravitational_anomaly>)
 
-setDescription("Create a Matter Overdrive Fusion Reactor that produces at least 15,000FE per tick")
+setDescription("Create a Matter Overdrive Fusion Reactor that produces at least 15,000FE per tick. Open the center block on the bottom of the controller to complete the advancement")
 
 addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 

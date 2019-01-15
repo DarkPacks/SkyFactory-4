@@ -2,7 +2,7 @@ setTitle("Metallicrate")
 
 setIcon(<bdsandm:metal_crate>)
 
-setDescription("Craft a Barrels, Drums, Storage, and More Metal Crate")
+setDescription("Craft a 'Barrels, Drums, Storage, and More' Metal Crate. This block increases your capacity over Wooden Crate")
 
 addParent("sf4:ageStorage/bdsandmWoodenCrate")
 

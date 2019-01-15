@@ -2,7 +2,7 @@ setTitle("Study in the Dark Arts")
 
 setIcon(<minecraft:obsidian>)
 
-setDescription("Click a lava filled Cauldron with a Water Bucket to make Obsidian")
+setDescription("Right-Click a Lava filled Cauldron with a Water Bucket to make Obsidian")
 
 addParent("sf4:age1/lava")
 

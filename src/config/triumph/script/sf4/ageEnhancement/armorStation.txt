@@ -2,7 +2,7 @@ setTitle("Blacksmith")
 
 setIcon(<conarm:armorstation>)
 
-setDescription("Craft a Construct's Armory Armor Station")
+setDescription("Craft a Construct's Armory Armor Station to begin assembling your custom armor")
 
 addParent("sf4:ageEnhancement/partBuilder")
 

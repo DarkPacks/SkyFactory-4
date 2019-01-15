@@ -2,7 +2,7 @@ setTitle("Sign My Cast")
 
 setIcon(<tconstruct:cast,ore:cast,meta:0,count:1,nbt:{PartType:"tconstruct:pick_head"}>)
 
-setDescription("Create a non-clay Pickaxe Head Cast to begin upgrading your tools")
+setDescription("Create a non-clay Pickaxe Head Cast to start upgrading your tools")
 
 addParent("sf4:ageEnhancement/root")
 

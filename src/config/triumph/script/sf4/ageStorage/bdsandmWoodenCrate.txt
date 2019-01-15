@@ -2,7 +2,7 @@ setTitle("Wood You Hand Me That Crate Please?")
 
 setIcon(<bdsandm:wood_crate>)
 
-setDescription("Craft a Barrels, Drums, Storage, and More Wood Crate")
+setDescription("Craft a 'Barrels, Drums, Storage, and More' Wood Crate")
 
 addParent("sf4:ageStorage/root")
 

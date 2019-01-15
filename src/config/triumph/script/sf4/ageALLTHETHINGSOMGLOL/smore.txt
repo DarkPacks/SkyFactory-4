@@ -2,7 +2,7 @@ setTitle("'Hey Smalls, You want S'more?'")
 
 setIcon(<nuclearcraft:moresmore>)
 
-setDescription("MoreS'more DoubleS'mingot")
+setDescription("Craft a MoreS'more DoubleS'mingot")
 
 addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 

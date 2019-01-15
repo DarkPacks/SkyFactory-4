@@ -245,20 +245,6 @@
     "biomes": []
   },
   {
-    "block": "thaumcraft:leaves_greatwood",
-    "meta": 4,
-    "weight": 8,
-    "plants": [],
-    "biomes": []
-  },
-  {
-    "block": "thaumcraft:leaves_silverwood",
-    "meta": 4,
-    "weight": 8,
-    "plants": [],
-    "biomes": []
-  },
-  {
     "block": "minecraft:sponge",
     "meta": 0,
     "weight": 10,

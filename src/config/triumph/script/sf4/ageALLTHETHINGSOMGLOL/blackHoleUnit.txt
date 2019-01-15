@@ -2,7 +2,7 @@ setTitle("Hoarder!")
 
 setIcon(<industrialforegoing:black_hole_unit>)
 
-setDescription("Fill a Black Hole Unit with any item and Right Click it")
+setDescription("Fill a Black Hole Unit with any item and Right-Click it")
 
 addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 

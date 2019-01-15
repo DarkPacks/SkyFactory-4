@@ -2,7 +2,7 @@ setTitle("Weirdly Mesmerizing")
 
 setIcon(<weirdinggadget:weirding_gadget>)
 
-setDescription("Craft a Weirding Gadget to chunk load a 5x5 area")
+setDescription("Craft a Weirding Gadget to chunk load a 5x5 chunk area")
 
 addParent("sf4:ageEnhancement/root")
 

@@ -2,7 +2,7 @@ setTitle("Quit Dragon My Heart Around")
 
 setIcon(<minecraft:end_stone>)
 
-setDescription("Summon the Dragon by poking a Dragon Egg with a stick. Then kill it!")
+setDescription("Summon the Dragon by poking a Dragon Egg with a stick. Then eliminate it!")
 
 addParent("sf4:ageExploration/root")
 addParent("skygrid:skygrid/root")

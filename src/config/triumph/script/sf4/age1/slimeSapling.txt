@@ -2,7 +2,7 @@ setTitle("I Don't Know")
 
 setIcon(<tconstruct:slime_sapling>)
 
-setDescription("Acquire a Blue Slime Sapling")
+setDescription("Acquire a Blue Slime Sapling by Right-Clicking a Lapis Sapling in a Cauldron filled with Milk")
 
 addParent("sf4:age1/claySapling")
 

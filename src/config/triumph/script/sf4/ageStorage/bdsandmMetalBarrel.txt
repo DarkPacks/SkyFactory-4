@@ -2,7 +2,7 @@ setTitle("Roll Out the Barrel")
 
 setIcon(<bdsandm:metal_barrel>)
 
-setDescription("Craft a Barrels, Drums, Storage, and More Metal Barrel")
+setDescription("Craft a 'Barrels, Drums, Storage, and More' Metal Barrel. This block increases your capacity over Wooden Barrel")
 
 addParent("sf4:ageStorage/bdsandmWoodenBarrel")
 

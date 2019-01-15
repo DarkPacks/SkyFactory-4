@@ -2,7 +2,7 @@ setTitle("Tim the Tool Man Taylor")
 
 setIcon(<tconstruct:tooltables:2>)
 
-setDescription("Craft a Part Builder")
+setDescription("Craft a Tinkers' Construct Part Builder")
 
 addParent("sf4:ageEnhancement/stencilTable")
 

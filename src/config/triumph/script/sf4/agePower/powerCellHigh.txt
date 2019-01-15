@@ -2,7 +2,7 @@ setTitle("Jacob's Ladder")
 
 setIcon(<rftoolspower:cell3>)
 
-setDescription("Craft a RF Tools High Powercell")
+setDescription("Craft an RF Tools High Powercell")
 
 addParent("sf4:agePower/powerCellMedium")
 

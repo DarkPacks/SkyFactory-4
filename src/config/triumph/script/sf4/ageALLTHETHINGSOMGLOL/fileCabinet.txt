@@ -2,7 +2,7 @@ setTitle("Going On Your Permanent Record")
 
 setIcon(<realfilingcabinet:emptyfolder>)
 
-setDescription("Fill any Real File Cabinet with a folder that contains at least 1 million items of any type")
+setDescription("Fill any Real File Cabinet with a folder that contains at least 1 million items of any type then Right-Click it")
 
 addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 

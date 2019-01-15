@@ -2,7 +2,7 @@ setTitle("I WANT IT NOW!")
 
 setIcon(<storagenetwork:request>)
 
-setDescription("Craft a Simple Storage Network Request Block")
+setDescription("Craft a Simple Storage Network Request Block to facilitate your processing tasks")
 
 addParent("sf4:ageStorage/simpleStorageMaster")
 

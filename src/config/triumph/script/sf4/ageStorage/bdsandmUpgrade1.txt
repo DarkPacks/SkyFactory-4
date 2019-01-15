@@ -2,7 +2,7 @@ setTitle("Drumtendo 64")
 
 setIcon(<bdsandm:upgrade>)
 
-setDescription("Craft a Barrels, Drums, Storage, and More x64 Upgrade")
+setDescription("Craft a 'Barrels, Drums, Storage, and More' x64 Upgrade")
 
 addParent("sf4:ageStorage/root")
 

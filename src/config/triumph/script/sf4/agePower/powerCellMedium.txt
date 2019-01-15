@@ -2,7 +2,7 @@ setTitle("It Keeps Going... and Going...")
 
 setIcon(<rftoolspower:cell2>)
 
-setDescription("Craft a RF Tools Medium Powercell")
+setDescription("Craft an RF Tools Medium Powercell to increase power storage capacity")
 
 addParent("sf4:agePower/powerCellLow")
 

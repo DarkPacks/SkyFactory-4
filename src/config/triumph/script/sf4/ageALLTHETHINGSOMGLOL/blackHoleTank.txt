@@ -2,7 +2,7 @@ setTitle("Bottoms Up")
 
 setIcon(<industrialforegoing:black_hole_tank>)
 
-setDescription("Fill a Black Hole Tank with any Liquid and Right Click it")
+setDescription("Fill a Black Hole Tank with any Liquid and Right-Click it")
 
 addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 

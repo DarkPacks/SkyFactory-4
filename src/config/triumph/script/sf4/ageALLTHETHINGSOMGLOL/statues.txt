@@ -2,7 +2,7 @@ setTitle("Hall of Fame")
 
 setIcon(<statues:blockbabyzombiestatuet4>)
 
-setDescription("Craft all the Peaceful Statues")
+setDescription("Craft all of the Peaceful Statues")
 
 addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 

@@ -2,7 +2,7 @@ setTitle("Ironwood")
 
 setIcon(<sky_orchards:sapling_iron>)
 
-setDescription("Craft an Iron Sapling")
+setDescription("Create an Iron Sapling by pouring Molten Iron onto an Acacia Sapling")
 
 addParent("sf4:age1/sandSapling")
 addParent("sf4:age1/gravelSapling")

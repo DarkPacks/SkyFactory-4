@@ -1,0 +1,17 @@
+setTitle("Sick Sprinkler")
+
+setIcon(<cyclicmagic:sprinkler>)
+
+setDescription("Craft and place a Cyclic Sprinkler on top of a water source block for faster crop growth")
+
+addParent("sf4:ageFarming/root")
+
+//Criteria
+criteria = addCriteria("Obtain Sprinkler", "minecraft:inventory_changed")
+criteria.addItem(<cyclicmagic:sprinkler>)
+
+setRewardExperience(4)
+
+alwaysVisible()
+hideLines()
+setPos(166,335)

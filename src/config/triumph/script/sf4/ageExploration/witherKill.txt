@@ -2,7 +2,7 @@ setTitle("Wither Without You")
 
 setIcon(<minecraft:skull:1>)
 
-setDescription("Kill the Wither")
+setDescription("Exterminate the Wither")
 
 addParent("sf4:ageExploration/nether")
 drawDirectLines(true)
