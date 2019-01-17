@@ -12,7 +12,7 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Armor Forge", "minecraft:inventory_changed")
 criteria.addItem(<conarm:armorforge>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 alwaysVisible()
 setPos(108,229)

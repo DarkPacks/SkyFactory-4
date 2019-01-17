@@ -10,7 +10,7 @@ addParent("sf4:agePower/powerCellMedium")
 criteria = addCriteria("Obtain High Powercell", "minecraft:inventory_changed")
 criteria.addItem(<rftoolspower:cell3>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 alwaysVisible()
 setPos(-260,221)

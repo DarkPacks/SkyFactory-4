@@ -14,7 +14,7 @@ criteria = addCriteria("Obtain Shipping Container", "minecraft:inventory_changed
 criteria.addItem(<bdsandm:shipping_container>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(10)
 
 alwaysVisible()
 setPos(-184,176)

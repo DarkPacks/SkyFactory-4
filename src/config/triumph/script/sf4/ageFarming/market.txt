@@ -12,7 +12,7 @@ hideLines()
 criteria = addCriteria("Obtain Market", "minecraft:inventory_changed")
 criteria.addItem(<farmingforblockheads:market>)
 
-setRewardExperience(4)
+setRewardExperience(6)
 
 alwaysVisible()
 setPos(-42,231)

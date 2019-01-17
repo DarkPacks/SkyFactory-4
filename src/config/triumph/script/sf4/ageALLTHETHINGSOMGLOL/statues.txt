@@ -58,7 +58,7 @@ criteria.addItem(<statues:blockrabbitwhitestatuet4>)
 
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(60)
 
 alwaysVisible()
 setPos(64,76)

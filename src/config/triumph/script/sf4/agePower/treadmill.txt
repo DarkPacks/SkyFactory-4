@@ -10,7 +10,7 @@ addParent("sf4:agePower/root")
 criteria = addCriteria("Obtain Pig Treadmill", "minecraft:inventory_changed")
 criteria.addItem(<sync:item_treadmill>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 hideLines()
 alwaysVisible()

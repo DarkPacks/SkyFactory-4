@@ -10,7 +10,7 @@ addParent("sf4:agePower/root")
 criteria = addCriteria("Obtain Information Screen", "minecraft:inventory_changed")
 criteria.addItem(<rftoolspower:information_screen>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 hideLines()
 alwaysVisible()

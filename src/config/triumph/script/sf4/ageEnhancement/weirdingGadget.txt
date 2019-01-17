@@ -10,7 +10,7 @@ addParent("sf4:ageEnhancement/root")
 criteria = addCriteria("Obtain Weirding Gadget", "minecraft:inventory_changed")
 criteria.addItem(<weirdinggadget:weirding_gadget>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 hideLines()
 alwaysVisible()

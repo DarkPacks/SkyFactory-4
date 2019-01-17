@@ -10,7 +10,7 @@ addParent("sf4:agePower/root")
 criteria = addCriteria("Obtain Hellish Matter", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:living_matter_hellish>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 hideLines()
 alwaysVisible()

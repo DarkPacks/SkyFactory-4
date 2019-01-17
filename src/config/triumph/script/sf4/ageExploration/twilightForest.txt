@@ -11,6 +11,8 @@ drawDirectLines(true)
 criteria = addCriteria("Entered Twilight Forest Dimension", "minecraft:changed_dimension")
 criteria.setDimensionDestination("twilight_forest")
 
+setRewardExperience(16)
+
 hideLines()
 alwaysVisible()
 setPos(7,78)

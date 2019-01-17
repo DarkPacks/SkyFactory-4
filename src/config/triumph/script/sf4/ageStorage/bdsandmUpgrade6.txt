@@ -13,7 +13,7 @@ criteria = addCriteria("Obtain Void Overflow Storage Upgrade", "minecraft:invent
 criteria.addItem(<bdsandm:upgrade:6>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(10)
 
 alwaysVisible()
 setPos(-131,111)

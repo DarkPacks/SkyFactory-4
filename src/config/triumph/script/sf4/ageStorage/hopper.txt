@@ -10,7 +10,7 @@ addParent("sf4:ageStorage/woodenHopper")
 criteria = addCriteria("Obtain Hopper", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:hopper>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 alwaysVisible()
 setPos(-183,52)

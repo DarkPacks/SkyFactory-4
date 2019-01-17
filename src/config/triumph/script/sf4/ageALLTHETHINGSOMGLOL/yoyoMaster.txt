@@ -23,7 +23,7 @@ criteria7 = addCriteria("Collecting", "minecraft:inventory_changed")
 criteria7.addItem(<nbt:{Modifiers: [{identifier: "collecting"}]}>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(60)
 
 alwaysVisible()
 setPos(-187,76)

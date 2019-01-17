@@ -10,7 +10,7 @@ addParent("sf4:agePower/pristineZombieMatter")
 criteria = addCriteria("Obtain Pristine Enderman Matter", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:pristine_matter_enderman>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 hideLines()
 alwaysVisible()

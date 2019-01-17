@@ -13,7 +13,7 @@ criteria = addCriteria("Obtain Bacon Singularity", "minecraft:inventory_changed"
 criteria.addItem(<extendedcrafting:singularity_custom:2>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(60)
 
 alwaysVisible()
 setPos(-83,126)

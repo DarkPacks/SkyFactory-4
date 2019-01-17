@@ -13,7 +13,7 @@ hideLines()
 criteria = addCriteria("Obtain Alloying Tank", "minecraft:inventory_changed")
 criteria.addItem(<tcomplement:porcelain_alloy_tank>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 alwaysVisible()
 setPos(84,85)

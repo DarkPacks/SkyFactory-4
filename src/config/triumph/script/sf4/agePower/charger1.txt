@@ -11,7 +11,7 @@ criteria = addCriteria("Obtain Tier 1 Charger", "minecraft:inventory_changed")
 criteria.addItem(<chargers:charger:0>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(10)
 
 hideLines()
 alwaysVisible()

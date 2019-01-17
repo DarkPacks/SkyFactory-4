@@ -10,7 +10,7 @@ addParent("sf4:agePower/root")
 criteria = addCriteria("Obtain Ultimate Installer", "minecraft:inventory_changed")
 criteria.addItem(<mekanism:tierinstaller:3>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 hideLines()
 alwaysVisible()

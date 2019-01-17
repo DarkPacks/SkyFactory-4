@@ -10,7 +10,7 @@ addParent("sf4:ageStorage/root")
 criteria = addCriteria("Obtain Network Master Block", "minecraft:inventory_changed")
 criteria.addItem(<storagenetwork:master>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 hideLines()
 alwaysVisible()

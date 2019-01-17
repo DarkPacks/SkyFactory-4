@@ -10,7 +10,7 @@ addParent("sf4:ageFarming/root")
 criteria = addCriteria("Obtain Hydrogel", "minecraft:inventory_changed")
 criteria.addItem(<hydrogel:hydrogel>)
 
-setRewardExperience(4)
+setRewardExperience(6)
 
 alwaysVisible()
 hideLines()

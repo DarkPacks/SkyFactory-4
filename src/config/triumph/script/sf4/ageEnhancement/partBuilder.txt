@@ -12,7 +12,7 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Tinkers' Part Builder", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tooltables:2>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 alwaysVisible()
 setPos(60,204)

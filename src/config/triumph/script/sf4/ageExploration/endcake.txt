@@ -12,7 +12,7 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain End Cake", "minecraft:inventory_changed")
 criteria.addItem(<dimensionaledibles:end_cake>)
 
-setRewardExperience(4)
+setRewardExperience(16)
 
 hideLines()
 alwaysVisible()

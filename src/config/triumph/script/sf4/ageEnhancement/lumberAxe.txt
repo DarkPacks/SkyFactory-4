@@ -12,7 +12,7 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Tinkers' Lumber Axe", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:lumberaxe>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 alwaysVisible()
 setPos(140,229)

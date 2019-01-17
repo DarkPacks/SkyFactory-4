@@ -10,7 +10,7 @@ addParent("sf4:ageFarming/root")
 criteria = addCriteria("Obtain Mattock", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:mattock>)
 
-setRewardExperience(4)
+setRewardExperience(6)
 
 alwaysVisible()
 hideLines()

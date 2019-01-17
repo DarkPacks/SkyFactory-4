@@ -10,6 +10,8 @@ drawDirectLines(true)
 criteria = addCriteria("Killed Wither", "minecraft:player_killed_entity")
 criteria.setEntityType("withercrumbs:wither crumb")
 
+setRewardExperience(16)
+
 hideLines()
 alwaysVisible()
 setPos(68,185)

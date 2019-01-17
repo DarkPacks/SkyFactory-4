@@ -13,7 +13,7 @@ criteria = addCriteria("Obtain x4k Storage Upgrade", "minecraft:inventory_change
 criteria.addItem(<bdsandm:upgrade:3>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(10)
 
 alwaysVisible()
 setPos(-181,111)

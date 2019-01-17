@@ -2,7 +2,9 @@ setTitle("Study in the Dark Arts")
 
 setIcon(<minecraft:obsidian>)
 
-setDescription("Right-Click a Lava filled Cauldron with a Water Bucket to make Obsidian")
+//setDescription("Right-Click a Lava filled Cauldron with a Water Bucket to make Obsidian")
+
+setDescription({"translate":"'%1$s' a Lava filled Cauldron with a Water Bucket to make Obsidian  ","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:age1/lava")
 
@@ -13,7 +15,7 @@ criteria = addCriteria("Obtain Obsidian", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:obsidian>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(6)
 
 alwaysVisible()
 setPos(33,76)

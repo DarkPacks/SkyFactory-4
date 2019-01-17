@@ -2,7 +2,9 @@ setTitle("Let the Hunt Begin")
 
 setIcon(<huntingdim:portal>)
 
-setDescription("Travel to the Hunting Dimension. Build the Hunting Dimension portal using Hunting Dimension Frame Blocks. Light it by Right-Clicking with a sword, bow, or flint and steel")
+//setDescription("Travel to the Hunting Dimension. Build the Hunting Dimension portal using Hunting Dimension Frame Blocks. Light it by Right-Clicking with a sword, bow, or flint and steel")
+
+setDescription({"translate":"Travel to the Hunting Dimension. Build the Hunting Dimension portal using Hunting Dimension Frame Blocks. Light it by using '%1$s' with a sword, bow, or flint and steel","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:ageExploration/root")
 
@@ -10,6 +12,8 @@ drawDirectLines(true)
 
 criteria = addCriteria("Entered Hunting Dimension", "minecraft:changed_dimension")
 criteria.setDimensionDestination("hunting_dim")
+
+setRewardExperience(16)
 
 hideLines()
 alwaysVisible()

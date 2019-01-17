@@ -18,7 +18,7 @@ criteria2.addItem(<deepmoblearning:glitch_infused_leggings>)
 criteria3 = addCriteria("Obtain Glitch Infused Boots", "minecraft:inventory_changed")
 criteria3.addItem(<deepmoblearning:glitch_infused_boots>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 alwaysVisible()
 setPos(0,121)

@@ -12,7 +12,7 @@ hideLines()
 criteria = addCriteria("Obtain Wheat Seeds", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:wheat_seeds>)
 
-setRewardExperience(4)
+setRewardExperience(6)
 
 alwaysVisible()
 setPos(-42,283)

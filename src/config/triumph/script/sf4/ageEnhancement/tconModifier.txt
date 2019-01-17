@@ -21,6 +21,7 @@ criteria5.addItem(<nbt:{TinkerData:{UsedModifiers:5}}>)
 
 setRequirements("any")
 
-setRewardExperience(4)
+setRewardExperience(8)
+
 alwaysVisible()
 setPos(-62,108)

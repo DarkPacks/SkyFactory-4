@@ -14,6 +14,6 @@ criteria = addCriteria("Right Click Fusion Reactor Generating 15k FE/t", "triump
 criteria.setBlock(<matteroverdrive:fusion_reactor_controller,tile:{EnergyPerTick:15000~}>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(60)
 
 setPos(64,101)

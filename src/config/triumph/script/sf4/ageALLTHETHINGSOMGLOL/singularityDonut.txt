@@ -13,7 +13,7 @@ criteria = addCriteria("Obtain Donut Singularity", "minecraft:inventory_changed"
 criteria.addItem(<extendedcrafting:singularity_custom:3>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(60)
 
 alwaysVisible()
 setPos(-108,101)

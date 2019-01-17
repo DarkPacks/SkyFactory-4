@@ -13,7 +13,7 @@ criteria = addCriteria("Obtain Ore Dictionary Storage Upgrade", "minecraft:inven
 criteria.addItem(<bdsandm:upgrade:5>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(10)
 
 alwaysVisible()
 setPos(-156,111)

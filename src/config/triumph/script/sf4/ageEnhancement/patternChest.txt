@@ -12,7 +12,7 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Pattern Chest", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tooltables:4>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 alwaysVisible()
 setPos(60,229)

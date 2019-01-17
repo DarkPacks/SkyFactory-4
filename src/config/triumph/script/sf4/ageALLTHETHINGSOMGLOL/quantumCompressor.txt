@@ -12,7 +12,7 @@ hideLines()
 criteria = addCriteria("Obtain Quantum Compressor", "minecraft:inventory_changed")
 criteria.addItem(<extendedcrafting:compressor>)
 
-setRewardExperience(4)
+setRewardExperience(60)
 
 alwaysVisible()
 setPos(-108,76)

@@ -11,7 +11,7 @@ criteria = addCriteria("Obtain MoreS'more DoubleS'mingot", "minecraft:inventory_
 criteria.addItem(<nuclearcraft:moresmore>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(60)
 
 hideLines()
 alwaysVisible()

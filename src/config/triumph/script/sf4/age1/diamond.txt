@@ -11,7 +11,7 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Diamond", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:diamond>)
 
-setRewardExperience(4)
+setRewardExperience(6)
 
 alwaysVisible()
 setPos(76,210)

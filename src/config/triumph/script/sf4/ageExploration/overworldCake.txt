@@ -12,7 +12,7 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Overworld Cake", "minecraft:inventory_changed")
 criteria.addItem(<dimensionaledibles:overworld_cake>)
 
-setRewardExperience(4)
+setRewardExperience(16)
 
 hideLines()
 alwaysVisible()

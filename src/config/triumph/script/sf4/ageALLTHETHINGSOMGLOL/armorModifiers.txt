@@ -54,6 +54,6 @@ criteria23 = addCriteria("Telekinetic", "minecraft:inventory_changed")
 criteria23.addItem(<nbt:{Modifiers: [{identifier: "telekinetic_armor"}]}>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(60)
 alwaysVisible()
 setPos(-187,101)

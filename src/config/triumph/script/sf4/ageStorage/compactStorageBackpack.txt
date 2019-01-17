@@ -10,7 +10,7 @@ addParent("sf4:ageStorage/root")
 criteria = addCriteria("Obtain Compact Storage Backpack", "minecraft:inventory_changed")
 criteria.addItem(<compactstorage:backpack, nbt:{size:[I;24,12]}>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 hideLines()
 alwaysVisible()

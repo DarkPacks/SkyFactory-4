@@ -63,6 +63,6 @@ criteria25.addItem(<animalcrops:seeds, nbt:{entity: "twilightforest:mini_ghast"}
 criteria26 = addCriteria("Wither Skeleton Seed", "minecraft:inventory_changed")
 criteria26.addItem(<animalcrops:seeds, nbt:{entity: "minecraft:wither_skeleton"}>)
 
-setRewardExperience(4)
+setRewardExperience(30)
 
 alwaysVisible()

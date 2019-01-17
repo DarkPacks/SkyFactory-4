@@ -12,7 +12,7 @@ criteria = addCriteria("Deal 20 or More Damage", "minecraft:player_hurt_entity")
 damage = criteria.getDamageData()
 damage.setDealtMin(20)
 
-setRewardExperience(4)
+setRewardExperience(20)
 
 alwaysVisible()
 setPos(9,85)

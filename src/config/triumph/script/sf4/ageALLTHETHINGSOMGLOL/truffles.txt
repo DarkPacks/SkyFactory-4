@@ -102,6 +102,8 @@ criteria46.addItem(<resourcehogs:truffle, nbt:{ResourceType: "uranium"}>)
 criteria47 = addCriteria("Dilithium", "minecraft:inventory_changed")
 criteria47.addItem(<resourcehogs:truffle, nbt:{ResourceType: "dilithium"}>)
 
+setRewardExperience(60)
+
 hideLines()
 alwaysVisible()
 setPos(64,1)

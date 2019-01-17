@@ -10,7 +10,7 @@ addParent("sf4:ageEnhancement/root")
 criteria = addCriteria("Obtain Metal Pickaxe Head Cast", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:cast,ore:cast,meta:0,count:1,nbt:{PartType:"tconstruct:pick_head"}>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 hideLines()
 alwaysVisible()

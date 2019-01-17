@@ -10,7 +10,7 @@ addParent("sf4:agePower/root")
 criteria = addCriteria("Obtain Energized Smelter", "minecraft:inventory_changed")
 criteria.addItem(<mekanism:machineblock:10>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 hideLines()
 alwaysVisible()

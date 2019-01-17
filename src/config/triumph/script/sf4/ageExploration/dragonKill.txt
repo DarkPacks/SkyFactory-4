@@ -15,7 +15,8 @@ criteria2.setBiome("minecraft:sky")
 
 alwaysVisible()
 
-setRewardExperience(4)
+setRewardExperience(16)
+
 setRewardFunction("triumph:dragon_loot")
 setRewardFunction("triumph:dragon_kill")
 setPos(60,109)

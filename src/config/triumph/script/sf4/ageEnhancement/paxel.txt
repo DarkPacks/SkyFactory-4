@@ -42,7 +42,7 @@ criteria16.addItem(<pickletweaks:wooden_paxel>)
 
 setRequirements("any")
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 hideLines()
 alwaysVisible()

@@ -12,5 +12,6 @@ hideLines()
 criteria = addCriteria("Obtain Sugar Cane Seeds", "minecraft:inventory_changed")
 criteria.addItem(<inspirations:sugar_cane_seeds>)
 
-setRewardExperience(4)
+setRewardExperience(6)
+
 setPos(62,335)

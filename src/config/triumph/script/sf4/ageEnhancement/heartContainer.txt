@@ -10,7 +10,7 @@ addParent("sf4:ageEnhancement/root")
 criteria = addCriteria("Eat Cyclic Heart Container", "minecraft:consume_item")
 criteria.setItem(<cyclicmagic:heart_food>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 hideLines()
 alwaysVisible()

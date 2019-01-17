@@ -10,7 +10,7 @@ addParent("sf4:ageStorage/root")
 criteria = addCriteria("Obtain Wooden Hopper", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:wooden_hopper>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 hideLines()
 alwaysVisible()

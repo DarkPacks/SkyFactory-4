@@ -10,7 +10,7 @@ addParent("sf4:ageFarming/root")
 criteria = addCriteria("Obtain Sprinkler", "minecraft:inventory_changed")
 criteria.addItem(<cyclicmagic:sprinkler>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 alwaysVisible()
 hideLines()

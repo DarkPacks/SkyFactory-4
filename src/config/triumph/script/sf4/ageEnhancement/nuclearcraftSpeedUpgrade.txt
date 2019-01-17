@@ -10,7 +10,7 @@ addParent("sf4:ageEnhancement/root")
 criteria = addCriteria("Obtain Nuclearcraft Speed Upgrade", "minecraft:inventory_changed")
 criteria.addItem(<nuclearcraft:upgrade>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 hideLines()
 alwaysVisible()

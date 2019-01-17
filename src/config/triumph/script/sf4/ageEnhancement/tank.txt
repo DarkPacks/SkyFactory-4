@@ -14,6 +14,7 @@ criteria.addItem(<tconstruct:seared_tank>)
 criteria1 = addCriteria("Obtain Porcelain Tank", "minecraft:inventory_changed")
 criteria1.addItem(<tcomplement:porcelain_tank>)
 
-setRewardExperience(4)
+setRewardExperience(8)
+
 alwaysVisible()
 setPos(59,85)

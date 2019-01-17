@@ -13,5 +13,5 @@ criteria = addCriteria("Right Click Fusion Reactor Generating 3,333,333 RF/t", "
 criteria.setBlock(<nuclearcraft:fusion_core, tile:{processPower:3333333.0~}>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(60)
 setPos(-137,-24)
