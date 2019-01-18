@@ -6,6 +6,7 @@
 	This script creates and sets the globals for the class we use to interact with mods.
 */
 // Mods
+global appliedEnergistics as scripts.crafttweaker.classes.mods.appliedEnergistics.AppliedEnergistics = scripts.crafttweaker.classes.mods.appliedEnergistics.AppliedEnergistics(8);
 global astralSorcery as scripts.crafttweaker.classes.mods.astralSorcery.AstralSorcery = scripts.crafttweaker.classes.mods.astralSorcery.AstralSorcery();
 global horsePower as scripts.crafttweaker.classes.mods.horsePower.HorsePower = scripts.crafttweaker.classes.mods.horsePower.HorsePower(4, 16);
 global inspirations as scripts.crafttweaker.classes.mods.inspirations.Inspirations = scripts.crafttweaker.classes.mods.inspirations.Inspirations();
