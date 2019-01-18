@@ -108,7 +108,7 @@ zenClass Unifier {
 		// ==================================
 		// Applied Energistics 2
 		appliedEnergistics.removeGrindstone(item);
-		appliedEnergistics.removeInscribe(item);
+		appliedEnergistics.removeInscriber(item);
 
 		// ==================================
 		// Astral Sorcery
