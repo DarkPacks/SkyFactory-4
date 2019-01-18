@@ -25,4 +25,4 @@ addCriteria("location", "minecraft:location")
 setRewardFunction("triumph:startingItems")
 setRewardFunction("triumph:forgiving_void_enable")
 
-setPos(-155,76)
+setPos(-349,9)
