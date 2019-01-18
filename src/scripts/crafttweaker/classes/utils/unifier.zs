@@ -59,20 +59,23 @@ zenClass Unifier {
 		return unify(oreDictEntry, preferredItem, null);
 	}
 	function unify(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liquid as ILiquidStack) as IItemStack {
-		return unify(oreDictEntry, preferredItem, liquid, true, false);
+		return unify(oreDictEntry, preferredItem, liquid, true, false, true);
 	}
 	function unify(
 		oreDictEntry as IOreDictEntry,
 		preferredItem as IItemStack,
 		liquid as ILiquidStack,
 		hideRemoved as bool,
-		removePreferredItemRecipes as bool
+		removePreferredItemRecipes as bool,
+		cleanOreDict as bool
 	) as IItemStack {
 		for item in oreDictEntry.items {
 			var itemIsPreferred as bool =  item.matches(preferredItem);
 
 			if (!itemIsPreferred) {
-				oreDictEntry.remove(item);
+				if (cleanOreDict) {
+					oreDictEntry.remove(item);
+				}
 
 				if (hideRemoved) {
 					mods.jei.JEI.hide(item);
