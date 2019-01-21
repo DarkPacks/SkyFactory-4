@@ -6,7 +6,6 @@ setIcon(<buildinggadgets:buildingtool>)
 
 setDescription({"translate":"The Building Gadget helps you build! Switch building gadget mode using the '%1$s' key","with":[{"keybind":"key.modeSwitch"}]})
 
-
 addParent("sf4:agePower/root")
 
 drawDirectLines(true)

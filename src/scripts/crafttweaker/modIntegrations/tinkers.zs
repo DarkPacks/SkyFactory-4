@@ -31,8 +31,8 @@ function init() {
 	// ==================================
 	// Resonant Ender
 	tinkers.addMelting(<liquid:ender> * 250, <ore:enderpearl>);
-	tinkers.addMelting(<liquid:glowstone> * 250, <ore:clathrateEnder>);
-	tinkers.addMelting(<liquid:glowstone> * 1000, <ore:oreClathrateEnder>);
+	tinkers.addMelting(<liquid:ender> * 250, <ore:clathrateEnder>);
+	tinkers.addMelting(<liquid:ender> * 1000, <ore:oreClathrateEnder>);
 	tinkers.addMelting(<liquid:ender> * 1000, <endercrop:ender_seeds>);
 	tinkers.addMelting(<liquid:ender> * 250, <thermalfoundation:material:895>);
 	tinkers.addMelting(<liquid:ender> * 25, <animalcrops:seeds>.withTag({entity: "minecraft:enderman"}));

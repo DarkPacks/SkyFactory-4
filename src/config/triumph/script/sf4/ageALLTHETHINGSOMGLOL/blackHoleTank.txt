@@ -13,7 +13,7 @@ alwaysVisible()
 
 //Criteria
 criteria = addCriteria("Right Click Filled Black Hole Tank", "triumph:right_click_block")
-criteria.setBlock(<industrialforegoing:black_hole_tank,tile:{fluids:{tanks:[{Amount:2147483000}]}}>)
+criteria.setBlock(<industrialforegoing:black_hole_tank,tile:{fluids:{tanks:[{Amount:2147483000~}]}}>)
 
 //Rewards
 setRewardExperience(60)
