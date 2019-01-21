@@ -245,7 +245,38 @@ static removeAndHideIngredients as IIngredient[] = [
 	<withercrumbs:crumb_star>,
 	<pickletweaks:ppm4>,
 	<pickletweaks:ppm4:1>,
-	<nuclearcraft:fission_controller_idle>
+	<nuclearcraft:fission_controller_idle>,
+
+	//Na na na na na na na na HEY HEY HEY GOODBYE ... to certus quartz
+	<appliedenergistics2:certus_quartz_wrench>,
+	<appliedenergistics2:certus_quartz_cutting_knife>,
+	<appliedenergistics2:crystal_seed>.withTag({progress: 0}),
+	<appliedenergistics2:crystal_seed>.withTag({progress: 200}),
+	<appliedenergistics2:crystal_seed>.withTag({progress: 400}),
+	<appliedenergistics2:charger>,
+	<appliedenergistics2:material:2>,
+	<appliedenergistics2:material:3>,
+	<appliedenergistics2:material:45>,
+	
+	//Removing deprecated Extra Cells Fluid items
+	<extracells:storage.component:4>,
+	<extracells:storage.fluid>,
+	<extracells:storage.fluid:1>,
+	<extracells:storage.fluid:2>,
+	<extracells:storage.fluid:3>,
+	<extracells:storage.component:5>,
+	<extracells:storage.component:6>,
+	<extracells:storage.component:7>,
+	<extracells:ecbaseblock>,
+	<extracells:part.base>,
+	<extracells:part.base:1>,
+	<extracells:part.base:2>,
+	<extracells:part.base:3>,
+	<extracells:part.base:4>,
+	<extracells:part.base:5>,
+	<extracells:part.base:6>,
+	<extracells:part.base:9>
+
 ];
 
 function init() {

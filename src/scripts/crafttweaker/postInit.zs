@@ -29,6 +29,7 @@ function initRecipes() {
 
 	// Mod Specific Recipes
 	scripts.crafttweaker.recipes.mods.animalcrops.init();
+	scripts.crafttweaker.recipes.mods.appliedEnergistics2.init();	
 	scripts.crafttweaker.recipes.mods.bdsandm.init();
 	scripts.crafttweaker.recipes.mods.clickMachine.init();
 	scripts.crafttweaker.recipes.mods.cookingForBlockheads.init();

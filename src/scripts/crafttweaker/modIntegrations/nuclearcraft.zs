@@ -51,7 +51,10 @@ mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_quartz>, <liquid:quartz>
 mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_netherrack>, <liquid:blood> * 250]);
 mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_glowstone>, <liquid:glowstone> * 1000]);
 
-//Acorn Melting
+mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_glowstone>, <liquid:glowstone> * 1000]);
 
-//Resin melting
 
+//AE stuffs
+mods.nuclearcraft.alloy_furnace.addRecipe([<integrateddynamics:crystalized_menril_chunk>, <minecraft:redstone> * 1, <appliedenergistics2:material:7>]);
+//Setup to add more efficient method (slightly better than mek with compressed redstone)
+mods.nuclearcraft.infuser.addRecipe([<integrateddynamics:crystalized_menril_chunk>, <liquid:redstone> * 10, <appliedenergistics2:material:7>]);

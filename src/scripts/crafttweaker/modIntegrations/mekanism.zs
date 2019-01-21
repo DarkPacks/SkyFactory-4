@@ -88,6 +88,11 @@ function init() {
 	mekanism.addEnrichment(<thermalfoundation:material:166>, <thermalfoundation:material:358>);
 	mekanism.addEnrichment(<thermalfoundation:material:167>, <thermalfoundation:material:359>);
 
+	//Remove AE stuff
+	mekanism.removeEnrichment(<appliedenergistics2:crystal_seed>);
+	mekanism.removeEnrichment(<appliedenergistics2:material>);
+	mekanism.removeEnrichment(<appliedenergistics2:material:2>);
+
 	// ==================================
 	// Combiner
 	// ==================================
@@ -99,6 +104,7 @@ function init() {
 	// Metallurgic Infuser
 	// ==================================
 	mekanism.addInfusion("DIAMOND", 160, <sky_orchards:amber_silver>, <thermalfoundation:material:70>);
+	mekanism.addInfusion("REDSTONE", 10, <integrateddynamics:crystalized_menril_chunk>, <appliedenergistics2:material:7>);
 }
 
 recipes.removeByRecipeName("mekanism:paper");
