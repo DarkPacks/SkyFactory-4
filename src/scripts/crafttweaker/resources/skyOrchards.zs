@@ -5,6 +5,8 @@
 
 	This script maps Sky Orchards' Resources with its resource output.
 */
+import crafttweaker.item.IItemStack;
+
 import scripts.crafttweaker.utils;
 
 static resourceNames as [string] = [
