@@ -12,7 +12,7 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Processing Controller", "minecraft:inventory_changed")
 criteria.addItem(<storagenetwork:controller>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 alwaysVisible()
 setPos(-326,10)

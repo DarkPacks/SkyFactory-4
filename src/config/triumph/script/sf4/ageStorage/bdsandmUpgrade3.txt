@@ -2,7 +2,7 @@ setTitle("Upgrade 3")
 
 setIcon(<bdsandm:upgrade:2>)
 
-setDescription("Craft a Barrels, Drums, Storage, and More x1k Storage Upgrade")
+setDescription("Craft a 'Barrels, Drums, Storage, and More' x1k Storage Upgrade")
 
 addParent("sf4:ageStorage/bdsandmUpgrade2")
 
@@ -13,7 +13,7 @@ criteria = addCriteria("Obtain x1k Storage Upgrade", "minecraft:inventory_change
 criteria.addItem(<bdsandm:upgrade:2>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(10)
 
 alwaysVisible()
 setPos(-206,111)

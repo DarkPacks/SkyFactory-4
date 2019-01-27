@@ -12,6 +12,8 @@ drawDirectLines(true)
 criteria = addCriteria("Enter Compact Machines Dimension", "minecraft:changed_dimension")
 criteria.setDimensionDestination("CompactMachines")
 
+setRewardExperience(16)
+
 hideLines()
 alwaysVisible()
 setPos(7,219)

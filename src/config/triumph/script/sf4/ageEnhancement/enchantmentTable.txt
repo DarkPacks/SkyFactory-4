@@ -12,7 +12,7 @@ hideLines()
 criteria = addCriteria("Obtain Enchantment Table", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:enchanting_table>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 alwaysVisible()
 setPos(25,121)

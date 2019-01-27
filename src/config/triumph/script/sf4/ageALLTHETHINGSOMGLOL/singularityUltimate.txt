@@ -14,7 +14,7 @@ criteria = addCriteria("Obtain Ultimate Singularity", "minecraft:inventory_chang
 criteria.addItem(<extendedcrafting:singularity_ultimate>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(60)
 
 alwaysVisible()
 setPos(-108,126)

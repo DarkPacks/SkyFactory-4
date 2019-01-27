@@ -15,7 +15,7 @@ criteria2 = addCriteria("Place Da Boat", "triumph:right_click_block")
 criteria2.setItem(<minecraft:boat>)
 criteria2.setDimID(-1)
 
-setRewardExperience(4)
+setRewardExperience(16)
 
 alwaysVisible()
 setPos(38,185)

@@ -45,7 +45,7 @@ criteria20= addCriteria("Pristine Twilight Glacier Matter", "minecraft:inventory
 criteria20.addItem(<deepmoblearning:pristine_matter_twilight_glacier>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(60)
 
 hideLines()
 alwaysVisible()

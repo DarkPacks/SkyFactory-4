@@ -2,7 +2,7 @@ setTitle("I'm so Aghast")
 
 setIcon(<deepmoblearning:pristine_matter_ghast>)
 
-setDescription("Acquire a Pristine Ghast Matter from Deep Mob Learning")
+setDescription("Acquire a Pristine Ghast Matter from Deep Mob Learning. You will first need to increase your Data Model to Basic and use the Simulation Chamber to produce Pristine Matter. The higher Models will produce Pristine Matter more often")
 
 addParent("sf4:agePower/pristineZombieMatter")
 
@@ -10,7 +10,7 @@ addParent("sf4:agePower/pristineZombieMatter")
 criteria = addCriteria("Obtain Pristine Ghast Matter", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:pristine_matter_ghast>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 hideLines()
 alwaysVisible()

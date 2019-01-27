@@ -2,7 +2,7 @@ setTitle("Armor 404")
 
 setIcon(<deepmoblearning:glitch_infused_chestplate>)
 
-setDescription("Craft the whole Glitch Infused Armor Set")
+setDescription("Craft the entire Glitch Infused Armor Set")
 
 addParent("sf4:ageEnhancement/root")
 
@@ -18,7 +18,7 @@ criteria2.addItem(<deepmoblearning:glitch_infused_leggings>)
 criteria3 = addCriteria("Obtain Glitch Infused Boots", "minecraft:inventory_changed")
 criteria3.addItem(<deepmoblearning:glitch_infused_boots>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 alwaysVisible()
 setPos(0,121)

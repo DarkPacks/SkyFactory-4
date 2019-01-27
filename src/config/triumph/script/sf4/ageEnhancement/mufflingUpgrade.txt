@@ -12,7 +12,7 @@ hideLines()
 criteria = addCriteria("Obtain Mekanism Muffling Upgrade", "minecraft:inventory_changed")
 criteria.addItem(<mekanism:mufflingupgrade>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 alwaysVisible()
 setPos(-113,133)

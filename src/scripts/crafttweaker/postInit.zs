@@ -29,6 +29,7 @@ function initRecipes() {
 
 	// Mod Specific Recipes
 	scripts.crafttweaker.recipes.mods.animalcrops.init();
+	scripts.crafttweaker.recipes.mods.appliedEnergistics2.init();	
 	scripts.crafttweaker.recipes.mods.bdsandm.init();
 	scripts.crafttweaker.recipes.mods.clickMachine.init();
 	scripts.crafttweaker.recipes.mods.cookingForBlockheads.init();
@@ -54,7 +55,6 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.tconstruct.init();
 	scripts.crafttweaker.recipes.mods.tinyProgressions.init();
 	scripts.crafttweaker.recipes.mods.torchmaster.init();
-	scripts.crafttweaker.recipes.mods.thaumcraft.init();
 	scripts.crafttweaker.recipes.mods.twilightForest.init();
 	scripts.crafttweaker.recipes.mods.xlfoods.init();	
 }

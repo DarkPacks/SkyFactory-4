@@ -2,7 +2,7 @@ setTitle("It Keeps Going... and Going...")
 
 setIcon(<rftoolspower:cell2>)
 
-setDescription("Craft a RF Tools Medium Powercell")
+setDescription("Craft an RF Tools Medium Powercell to increase power storage capacity")
 
 addParent("sf4:agePower/powerCellLow")
 
@@ -10,7 +10,7 @@ addParent("sf4:agePower/powerCellLow")
 criteria = addCriteria("Obtain Medium Powercell", "minecraft:inventory_changed")
 criteria.addItem(<rftoolspower:cell2>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 alwaysVisible()
 setPos(-285,221)

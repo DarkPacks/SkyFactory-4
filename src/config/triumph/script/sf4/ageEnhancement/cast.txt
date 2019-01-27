@@ -2,7 +2,7 @@ setTitle("Sign My Cast")
 
 setIcon(<tconstruct:cast,ore:cast,meta:0,count:1,nbt:{PartType:"tconstruct:pick_head"}>)
 
-setDescription("Create a non-clay Pickaxe Head Cast to begin upgrading your tools")
+setDescription("Create a non-clay Pickaxe Head Cast to start upgrading your tools")
 
 addParent("sf4:ageEnhancement/root")
 
@@ -10,7 +10,7 @@ addParent("sf4:ageEnhancement/root")
 criteria = addCriteria("Obtain Metal Pickaxe Head Cast", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:cast,ore:cast,meta:0,count:1,nbt:{PartType:"tconstruct:pick_head"}>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 hideLines()
 alwaysVisible()

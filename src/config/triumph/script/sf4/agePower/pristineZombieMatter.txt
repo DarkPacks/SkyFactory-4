@@ -2,7 +2,7 @@ setTitle("Dead Cells")
 
 setIcon(<deepmoblearning:pristine_matter_zombie>)
 
-setDescription("Acquire a Pristine Zombie Matter from Deep Mob Learning")
+setDescription("Acquire a Pristine Zombie Matter from Deep Mob Learning. You will first need to increase your Data Model to Basic and use the Simulation Chamber to produce Pristine Matter. The higher Models will produce Pristine Matter more often")
 
 addParent("sf4:agePower/root")
 
@@ -10,7 +10,7 @@ addParent("sf4:agePower/root")
 criteria = addCriteria("Obtain Pristine Zombie Matter", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:pristine_matter_zombie>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 hideLines()
 alwaysVisible()

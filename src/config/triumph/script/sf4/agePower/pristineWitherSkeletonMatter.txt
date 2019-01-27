@@ -2,7 +2,7 @@ setTitle("Withered Away")
 
 setIcon(<deepmoblearning:pristine_matter_wither_skeleton>)
 
-setDescription("Acquire a Pristine Wither Skeleton Matter from Deep Mob Learning")
+setDescription("Acquire a Pristine Wither Skeleton Matter from Deep Mob Learning. You will first need to increase your Data Model to Basic and use the Simulation Chamber to produce Pristine Matter. The higher Models will produce Pristine Matter more often")
 
 addParent("sf4:agePower/pristineZombieMatter")
 
@@ -10,7 +10,7 @@ addParent("sf4:agePower/pristineZombieMatter")
 criteria = addCriteria("Obtain Pristine Wither Skeleton Matter", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:pristine_matter_wither_skeleton>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 hideLines()
 alwaysVisible()

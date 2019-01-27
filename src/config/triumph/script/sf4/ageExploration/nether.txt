@@ -12,7 +12,7 @@ drawDirectLines(true)
 criteria = addCriteria("Entered Nether", "minecraft:changed_dimension")
 criteria.setDimensionDestination("DIM_-1")
 
-setRewardExperience(4)
+setRewardExperience(16)
 
 hideLines()
 alwaysVisible()

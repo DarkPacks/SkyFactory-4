@@ -12,7 +12,7 @@ hideLines()
 criteria = addCriteria("Obtain Ender Seeds", "minecraft:inventory_changed")
 criteria.addItem(<endercrop:ender_seeds>)
 
-setRewardExperience(4)
+setRewardExperience(16)
 
 alwaysVisible()
 setPos(114,231)

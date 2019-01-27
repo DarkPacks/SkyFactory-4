@@ -12,6 +12,20 @@ import mods.zenstages.Utils;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<ironjetpacks:steel_cell>: [
+		[
+			[null, <minecraft:redstone>, null], 
+			[<ore:ingotSteel>, <ironjetpacks:elite_coil>, <ore:ingotSteel>], 
+			[null, <minecraft:redstone>, null]
+		]
+	],
+	<ironjetpacks:platinum_cell>: [
+		[
+			[null, <minecraft:redstone>, null], 
+			[<ore:ingotPlatinum>, <ironjetpacks:ultimate_coil>, <ore:ingotPlatinum>], 
+			[null, <minecraft:redstone>, null]
+		]
+	],
 	<ironjetpacks:basic_coil>: [
 		[
 			[null, null, <mekanism:compressedredstone>], 
@@ -26,6 +40,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<mekanism:compressedredstone>, null, null]
 		]
 	],
+	<ironjetpacks:elite_coil>: [
+		[
+			[null, null, <mekanism:compressedredstone>], 
+			[null, <mekanism:compresseddiamond>, null], 
+			[<mekanism:compressedredstone>, null, null]
+		]
+	],
+	<ironjetpacks:ultimate_coil>: [
+		[
+			[null, null, <mekanism:compressedredstone>], 
+			[null, <mekanism:controlcircuit:2>, null], 
+			[<mekanism:compressedredstone>, null, null]
+		]
+	],
 	<ironjetpacks:electrum_thruster>: [
 		[
 			[<thermalfoundation:material:161>, <ironjetpacks:advanced_coil>, <thermalfoundation:material:161>], 
@@ -35,15 +63,15 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<ironjetpacks:steel_thruster>: [
 		[
-			[<mekanism:ingot:4>, <ironjetpacks:advanced_coil>, <mekanism:ingot:4>], 
-			[<ironjetpacks:advanced_coil>, <ironjetpacks:steel_cell>, <ironjetpacks:advanced_coil>], 
+			[<mekanism:ingot:4>, <ironjetpacks:elite_coil>, <mekanism:ingot:4>], 
+			[<ironjetpacks:elite_coil>, <ironjetpacks:steel_cell>, <ironjetpacks:elite_coil>], 
 			[<mekanism:ingot:4>, <industrialforegoing:resourceful_furnace>, <mekanism:ingot:4>]
 		]
 	],
 	<ironjetpacks:platinum_thruster>: [
 		[
-			[<thermalfoundation:material:134>, <ironjetpacks:advanced_coil>, <thermalfoundation:material:134>], 
-			[<ironjetpacks:advanced_coil>, <ironjetpacks:platinum_cell>, <ironjetpacks:advanced_coil>], 
+			[<thermalfoundation:material:134>, <ironjetpacks:ultimate_coil>, <thermalfoundation:material:134>], 
+			[<ironjetpacks:ultimate_coil>, <ironjetpacks:platinum_cell>, <ironjetpacks:ultimate_coil>], 
 			[<thermalfoundation:material:134>, <nuclearcraft:nuclear_furnace_idle>, <thermalfoundation:material:134>]
 		]
 	]
@@ -78,7 +106,11 @@ static removeRecipes as IItemStack[] = [
 	<ironjetpacks:advanced_coil>,
 	<ironjetpacks:electrum_thruster>,
 	<ironjetpacks:steel_thruster>,
-	<ironjetpacks:platinum_thruster>
+	<ironjetpacks:platinum_thruster>,
+	<ironjetpacks:steel_cell>,
+	<ironjetpacks:platinum_cell>,
+	<ironjetpacks:elite_coil>,
+	<ironjetpacks:ultimate_coil>
 ];
 
 function init() {

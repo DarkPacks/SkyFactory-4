@@ -2,7 +2,7 @@ setTitle("It's Over 20!")
 
 setIcon(<cyclicmagic:sword_ender>)
 
-setDescription("Do 20 or more damage to a mob")
+setDescription("Inflict 20 or more damage to a creature")
 
 addParent("sf4:ageEnhancement/root")
 hideLines()
@@ -12,7 +12,7 @@ criteria = addCriteria("Deal 20 or More Damage", "minecraft:player_hurt_entity")
 damage = criteria.getDamageData()
 damage.setDealtMin(20)
 
-setRewardExperience(4)
+setRewardExperience(20)
 
 alwaysVisible()
 setPos(9,85)

@@ -12,7 +12,7 @@ hideLines()
 criteria = addCriteria("Obtain Unbreakable Tinkers' Tool or Weapon", "minecraft:inventory_changed")
 criteria.addItem(<nbt:{Unbreakable:1b}>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 alwaysVisible()
 setPos(-37,108)

@@ -12,6 +12,8 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Airship", "minecraft:inventory_changed")
 criteria.addItem(<vc:airships/item_airship>)
 
+setRewardExperience(16)
+
 hideLines()
 alwaysVisible()
 setPos(-72,253)

@@ -2,7 +2,7 @@ setTitle("ɹǝddoH")
 
 setIcon(<uppers:upper>)
 
-setDescription("Craft an Upper")
+setDescription("Craft an Upper. It's an upside down Hopper!")
 
 addParent("sf4:ageStorage/hopper")
 
@@ -10,7 +10,7 @@ addParent("sf4:ageStorage/hopper")
 criteria = addCriteria("Obtain Upper", "minecraft:inventory_changed")
 criteria.addItem(<uppers:upper>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 alwaysVisible()
 setPos(-158,52)

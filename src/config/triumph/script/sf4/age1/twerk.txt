@@ -2,7 +2,9 @@ setTitle("Sticky Keys")
 
 setIcon(<pickletweaks:ppm4:1>)
 
-setDescription("Collect 8 Dirt Saplings and 8 Oak Logs. Increase the speed of tree growth by rapidly pushing shift near a sapling or by running")
+//setDescription("Collect 8 Dirt Saplings and 8 Oak Logs. Increase the speed of tree growth by rapidly pushing shift near a sapling or by running. You'll notice green particles when activated")
+
+setDescription({"translate":"Collect 8 Dirt Saplings and 8 Oak Logs. Increase the speed of tree growth by rapidly pushing '%2$s' near a sapling or by running. You'll notice green particles when activated","with":[{"keybind":"key.use"}, {"keybind":"key.sneak"}]})
 
 addParent("sf4:age1/root")
 
@@ -17,4 +19,4 @@ setRewardExperience(4)
 
 alwaysVisible()
 hideLines()
-setPos(-187,76)
+setPos(-349,42)

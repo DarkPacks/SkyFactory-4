@@ -12,7 +12,7 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Dragon's Breath", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:dragon_breath>)
 
-setRewardExperience(4)
+setRewardExperience(16)
 
 alwaysVisible()
 setPos(85,95)

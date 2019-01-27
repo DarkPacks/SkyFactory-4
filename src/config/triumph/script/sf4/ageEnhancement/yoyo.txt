@@ -12,7 +12,7 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Yoyo", "minecraft:inventory_changed")
 criteria.addItem(<yoyos:yoyo>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 alwaysVisible()
 setPos(140,204)

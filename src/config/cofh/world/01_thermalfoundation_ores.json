@@ -284,56 +284,6 @@
           7
         ]
       }
-    },
-    "amber": {
-      "distribution": "uniform",
-      "generator": {
-        "block": {
-          "name": "thaumcraft:ore_amber",
-          "properties": {
-            "type": "amber"
-          }
-        },
-        "material": "minecraft:stone",
-        "cluster-size": 12
-      },
-      "cluster-count": 16,
-      "min-height": 1,
-      "max-height": 175,
-      "retrogen": "true",
-      "biome": "all",
-      "dimension": {
-        "restriction": "whitelist",
-        "value": [
-          111,
-          7
-        ]
-      }
-    },
-    "cinnabar": {
-      "distribution": "uniform",
-      "generator": {
-        "block": {
-          "name": "thaumcraft:ore_cinnabar",
-          "properties": {
-            "type": "cinnabar"
-          }
-        },
-        "material": "minecraft:stone",
-        "cluster-size": 12
-      },
-      "cluster-count": 16,
-      "min-height": 1,
-      "max-height": 175,
-      "retrogen": "true",
-      "biome": "all",
-      "dimension": {
-        "restriction": "whitelist",
-        "value": [
-          111,
-          7
-        ]
-      }
     }
   }
 }

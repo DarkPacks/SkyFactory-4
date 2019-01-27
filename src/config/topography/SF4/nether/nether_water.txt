@@ -41,7 +41,6 @@ quartz.setDeformScale(4)
 quartz.addRequiredBlock(<minecraft:packed_ice>)
 addGenerator(quartz)
 
-
 ardite = new DeformedSphereGenerator(<contenttweaker:sub_block_holder_0:2>, 3, 2, 64, 10)
 ardite.setDeformScale(4)
 ardite.addRequiredBlock(<minecraft:packed_ice>)

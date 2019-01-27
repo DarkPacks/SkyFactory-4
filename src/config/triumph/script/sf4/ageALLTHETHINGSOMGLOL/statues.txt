@@ -2,7 +2,7 @@ setTitle("Hall of Fame")
 
 setIcon(<statues:blockbabyzombiestatuet4>)
 
-setDescription("Craft all the Peaceful Statues")
+setDescription("Craft all of the Peaceful Statues")
 
 addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
@@ -58,7 +58,7 @@ criteria.addItem(<statues:blockrabbitwhitestatuet4>)
 
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(60)
 
 alwaysVisible()
 setPos(64,76)

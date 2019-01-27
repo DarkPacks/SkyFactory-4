@@ -2,7 +2,7 @@ setTitle("Eating Dirt")
 
 setIcon(<sky_orchards:acorn_dirt:1>)
 
-setDescription("Cook Acorns in a furnace to increase their nutrition value")
+setDescription("Cook any Acorns in a furnace to increase their nutrition value")
 
 addParent("sf4:age1/dirtAcorn")
 
@@ -16,4 +16,4 @@ criteria.addItem(<sky_orchards:acorn_dirt:1>)
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(-86,42)
+setPos(-244,42)

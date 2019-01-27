@@ -2,7 +2,7 @@ setTitle("Bubble, Bubble")
 
 setIcon(<morecauldrons:oak_cauldron>)
 
-setDescription("Craft any Cauldron")
+setDescription("Craft any Cauldron to catch rain water, create lava, dye items, and a bunch of other uses!")
 
 addParent("sf4:age1/root")
 

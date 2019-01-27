@@ -12,7 +12,7 @@ hideLines()
 criteria = addCriteria("Obtain Watering Can", "minecraft:inventory_changed")
 criteria.addItem(<tp:watering_can>)
 
-setRewardExperience(4)
-setPos(10,335)
+setRewardExperience(6)
 
+setPos(10,335)
 alwaysVisible()

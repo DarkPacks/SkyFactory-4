@@ -58,6 +58,6 @@ criteria24 = addCriteria("Webbed", "minecraft:inventory_changed")
 criteria24.addItem(<nbt:{Modifiers: [{identifier: "webbed"}]}>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(60)
 alwaysVisible()
 setPos(-187,51)

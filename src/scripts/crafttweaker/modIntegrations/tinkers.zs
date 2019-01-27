@@ -31,8 +31,8 @@ function init() {
 	// ==================================
 	// Resonant Ender
 	tinkers.addMelting(<liquid:ender> * 250, <ore:enderpearl>);
-	tinkers.addMelting(<liquid:glowstone> * 250, <ore:clathrateEnder>);
-	tinkers.addMelting(<liquid:glowstone> * 1000, <ore:oreClathrateEnder>);
+	tinkers.addMelting(<liquid:ender> * 250, <ore:clathrateEnder>);
+	tinkers.addMelting(<liquid:ender> * 1000, <ore:oreClathrateEnder>);
 	tinkers.addMelting(<liquid:ender> * 1000, <endercrop:ender_seeds>);
 	tinkers.addMelting(<liquid:ender> * 250, <thermalfoundation:material:895>);
 	tinkers.addMelting(<liquid:ender> * 25, <animalcrops:seeds>.withTag({entity: "minecraft:enderman"}));
@@ -159,6 +159,27 @@ function init() {
 	tinkers.addCastingTable(<tconstruct:edible>, <tconstruct:cast>.withTag({PartType: "tconstruct:tough_tool_rod"}), <liquid:bacon>, 250, false, 160);
 	//Donut Casting
 	tinkers.addCastingTable(<xlfoodmod:donut>, <tconstruct:cast>.withTag({PartType: "tconstruct:pan_head"}), <liquid:donut>, 250, false, 160);
+
+
+
+
+
+	/*
+	//Enable when Circuit mold is created and added to the syntax
+	//Casting AE2 Presses
+	tinkers.addCastingTable(<appliedenergistics2:material:19>, StoneCircuitMold, <liquid:iron>, 1296, false, 240);
+	tinkers.addCastingTable(<appliedenergistics2:material:15>, StoneCircuitMold, <liquid:steel>, 1296, false, 240);
+	tinkers.addCastingTable(<appliedenergistics2:material:14>, StoneCircuitMold, <liquid:ferroboron>, 1296, false, 240);
+	tinkers.addCastingTable(<appliedenergistics2:material:13>, StoneCircuitMold, <liquid:tough>, 1296, false, 240);
+
+	*/
+
+	tinkers.addCastingTable(<appliedenergistics2:material:19>, <appliedenergistics2:material:20>, <liquid:iron>, 1296, false, 240);
+	tinkers.addCastingTable(<appliedenergistics2:material:15>, <appliedenergistics2:material:18>, <liquid:steel>, 1296, false, 240);
+	tinkers.addCastingTable(<appliedenergistics2:material:14>, <appliedenergistics2:material:17>, <liquid:ferroboron>, 1296, false, 240);
+	tinkers.addCastingTable(<appliedenergistics2:material:13>, <appliedenergistics2:material:16>, <liquid:tough>, 1296, false, 240);
+
+
 
 	// ==================================
 	// Casting Basin

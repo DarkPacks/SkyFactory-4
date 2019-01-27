@@ -2,7 +2,7 @@ setTitle("Wet Feet")
 
 setIcon(<tp:water_block>)
 
-setDescription("Break a Water Source Stone to create a Water Source")
+setDescription("Break a Water Source Stone in the grid to create a Water Source")
 
 addParent("sf4:age1/root")
 addParent("skygrid:skygrid/root")

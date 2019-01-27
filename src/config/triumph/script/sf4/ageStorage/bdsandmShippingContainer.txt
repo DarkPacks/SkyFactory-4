@@ -2,7 +2,7 @@ setTitle("It Fits, We Ship")
 
 setIcon(<bdsandm:shipping_container>)
 
-setDescription("Craft a Barrels, Drums, Storage, and More Shipping Container")
+setDescription("Craft a 'Barrels, Drums, Storage, and More' Shipping Container. This container allows inserting most blocks that can hold items, liquids, or power")
 
 addParent("sf4:ageStorage/bdsandmMetalCrate")
 addParent("sf4:ageStorage/bdsandmMetalBarrel")
@@ -14,7 +14,7 @@ criteria = addCriteria("Obtain Shipping Container", "minecraft:inventory_changed
 criteria.addItem(<bdsandm:shipping_container>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(10)
 
 alwaysVisible()
 setPos(-184,176)

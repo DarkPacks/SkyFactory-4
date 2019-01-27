@@ -2,7 +2,7 @@ setTitle("I WANT IT NOW!")
 
 setIcon(<storagenetwork:request>)
 
-setDescription("Craft a Simple Storage Network Request Block")
+setDescription("Craft a Simple Storage Network Request Block to facilitate your processing tasks")
 
 addParent("sf4:ageStorage/simpleStorageMaster")
 
@@ -12,7 +12,7 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Request Block", "minecraft:inventory_changed")
 criteria.addItem(<storagenetwork:request>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 alwaysVisible()
 setPos(-362,46)

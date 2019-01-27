@@ -2,7 +2,7 @@ setTitle("No Cake Like Home")
 
 setIcon(<dimensionaledibles:overworld_cake>)
 
-setDescription("Craft, place, and eat the Overworld cake to return back to the Overworld when traveling in other dimensions")
+setDescription("Craft, place, and eat the Overworld cake to return back to the Overworld when traveling to other dimensions")
 
 addParent("sf4:ageExploration/root")
 
@@ -12,7 +12,7 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Overworld Cake", "minecraft:inventory_changed")
 criteria.addItem(<dimensionaledibles:overworld_cake>)
 
-setRewardExperience(4)
+setRewardExperience(16)
 
 hideLines()
 alwaysVisible()

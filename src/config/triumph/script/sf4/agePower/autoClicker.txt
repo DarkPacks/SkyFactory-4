@@ -10,7 +10,7 @@ addParent("sf4:agePower/root")
 criteria = addCriteria("Obtain Auto Clicker", "minecraft:inventory_changed")
 criteria.addItem(<clickmachine:auto_clicker>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 hideLines()
 alwaysVisible()

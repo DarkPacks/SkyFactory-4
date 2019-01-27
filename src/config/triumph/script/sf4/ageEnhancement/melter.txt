@@ -15,7 +15,7 @@ criteria.addItem(<tcomplement:porcelain_melter>)
 criteria1 = addCriteria("Obtain Melter", "minecraft:inventory_changed")
 criteria1.addItem(<tcomplement:melter>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 alwaysVisible()
 setPos(34,85)

@@ -17,13 +17,11 @@ global truffleResourceMap as IItemStack[IItemStack] = {
 // Filename: ID
 static resourceTypes as string[string] = {
 	"aluminum": "aluminum",
-	"amber": "amber",
 	"aquamarine": "aquamarine",
 	"ardite": "ardite",
 	"bone": "bone",
 	"boron": "boron",
 	"bronze": "bronze",
-	"cinnabar": "cinnabar",
 	"clay": "clay",
 	"coal": "coal",
 	"cobalt": "cobalt",
@@ -78,13 +76,11 @@ function init() {
 
 function initBaconMap() {
 	baconResourceMap[<resourcehogs:bacon>.withTag({ResourceType: resourceTypes.aluminum})] = <sky_orchards:amber_aluminum>;
-	baconResourceMap[<resourcehogs:bacon>.withTag({ResourceType: resourceTypes.amber})] = <thaumcraft:amber>;
 	baconResourceMap[<resourcehogs:bacon>.withTag({ResourceType: resourceTypes.aquamarine})] = <astralsorcery:itemcraftingcomponent>;
 	baconResourceMap[<resourcehogs:bacon>.withTag({ResourceType: resourceTypes.ardite})] = <tconstruct:nuggets:1>;
 	baconResourceMap[<resourcehogs:bacon>.withTag({ResourceType: resourceTypes.bone})] = <minecraft:bone>;
 	baconResourceMap[<resourcehogs:bacon>.withTag({ResourceType: resourceTypes.boron})] = <nuclearcraft:dust:5>;
 	baconResourceMap[<resourcehogs:bacon>.withTag({ResourceType: resourceTypes.bronze})] = <thermalfoundation:material:99>;
-	baconResourceMap[<resourcehogs:bacon>.withTag({ResourceType: resourceTypes.cinnabar})] = <thaumcraft:ore_cinnabar>;
 	baconResourceMap[<resourcehogs:bacon>.withTag({ResourceType: resourceTypes.clay})] = <minecraft:clay_ball>;
 	baconResourceMap[<resourcehogs:bacon>.withTag({ResourceType: resourceTypes.coal})] = <minecraft:coal>;
 	baconResourceMap[<resourcehogs:bacon>.withTag({ResourceType: resourceTypes.cobalt})] = <tconstruct:nuggets>;
@@ -130,13 +126,11 @@ function initBaconMap() {
 
 function initTruffleMap() {
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: resourceTypes.aluminum})] = <sky_orchards:amber_aluminum>;
-	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: resourceTypes.amber})] = <thaumcraft:amber>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: resourceTypes.aquamarine})] = <astralsorcery:itemcraftingcomponent>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: resourceTypes.ardite})] = <sky_orchards:amber_ardite>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: resourceTypes.bone})] = <minecraft:bone>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: resourceTypes.boron})] = <nuclearcraft:dust:5>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: resourceTypes.bronze})] = <mekanism:ingot:2>;
-	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: resourceTypes.cinnabar})] = <thaumcraft:ore_cinnabar>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: resourceTypes.clay})] = <minecraft:clay_ball>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: resourceTypes.coal})] = <minecraft:coal>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: resourceTypes.cobalt})] = <tconstruct:ingots>;

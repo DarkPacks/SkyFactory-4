@@ -2,7 +2,9 @@ setTitle("Who Stole the Cookies from the Cookie Jar?")
 
 setIcon(<bibliocraft:cookiejar>)
 
-setDescription("Fill a Cookie Jar with Cookies and Right-Click it!")
+//setDescription("Fill a Cookie Jar with Cookies and Right-Click it!")
+
+setDescription({"translate":"Fill a Cookie Jar with Cookies and '%1$s' it!","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
@@ -11,7 +13,7 @@ criteria = addCriteria("Right Click Filled Cookie Jar", "triumph:right_click_blo
 criteria.setBlock(<bibliocraft:cookiejar,tile:{shift:0,cookiecount:8,isOpen:0b,names:["item.cookie","item.cookie","item.cookie","item.cookie","item.cookie","item.cookie","item.cookie","item.cookie"],x:6,y:70,angle:2,z:5,id:"minecraft:cookiejar",position:1,locked:0b,lockee:"",Inventory:[{Slot:0b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:1b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:2b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:3b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:4b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:5b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:6b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:7b,id:"minecraft:cookie",Count:64b,Damage:0s}]}>)
 
 //Rewards
-setRewardExperience(4)
+setRewardExperience(60)
 
 hideLines()
 alwaysVisible()

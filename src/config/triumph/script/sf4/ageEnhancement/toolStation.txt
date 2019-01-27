@@ -12,7 +12,7 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Tool Station", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tooltables:3>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 alwaysVisible()
 setPos(84,180)

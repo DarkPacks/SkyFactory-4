@@ -10,7 +10,7 @@ addParent("sf4:ageEnhancement/root")
 criteria = addCriteria("Eat Cyclic Crafting Upgrade", "minecraft:consume_item")
 criteria.setItem(<cyclicmagic:crafting_food>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 hideLines()
 alwaysVisible()

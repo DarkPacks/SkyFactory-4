@@ -1,0 +1,17 @@
+setTitle("Calculation Press")
+
+setIcon(<appliedenergistics2:material:13>)
+
+setDescription("Obtain Calculation Press")
+
+addParent("sf4:ageStorage/logicProcessor")
+
+//Criteria
+criteria = addCriteria("Obtain Calculation Press", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:material:13>)
+
+setRewardExperience(12)
+
+drawDirectLines(true)
+alwaysVisible()
+setPos(53,204)

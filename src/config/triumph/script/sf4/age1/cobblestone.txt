@@ -2,7 +2,7 @@ setTitle("On the Rocks")
 
 setIcon(<minecraft:cobblestone>)
 
-setDescription("Craft a Cobblestone block")
+setDescription("Craft a Cobblestone block using petrified Acorns and Resin or using any other method")
 
 addParent("sf4:age1/petrifiedSapling")
 addParent("sf4:age1/petrifiedAcorn")

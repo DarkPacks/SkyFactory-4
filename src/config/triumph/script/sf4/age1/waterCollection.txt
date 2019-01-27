@@ -2,7 +2,9 @@ setTitle("Wishing Well")
 
 setIcon(<minecraft:cauldron>)
 
-setDescription("Collect Rain Water in a Cauldron and right click on the block when water is visible")
+//setDescription("Collect Rain Water in a Cauldron and Right-Click on the block when water is visible")
+
+setDescription({"translate":"Collect Rain Water in a Cauldron and '%1$s' on the block when water is visible","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:age1/crushingTub")
 addParent("sf4:age1/cauldron")
@@ -26,4 +28,4 @@ setRewardExperience(4)
 
 drawDirectLines(true)
 alwaysVisible()
-setPos(-31,43)
+setPos(-28,42)

@@ -1,0 +1,17 @@
+setTitle("Silicon Press")
+
+setIcon(<appliedenergistics2:material:19>)
+
+setDescription("Obtain Silicon Press")
+
+addParent("sf4:ageStorage/root")
+
+//Criteria
+criteria = addCriteria("Obtain Silicon Press", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:material:19>)
+
+setRewardExperience(12)
+
+hideLines()
+alwaysVisible()
+setPos(-43,148)

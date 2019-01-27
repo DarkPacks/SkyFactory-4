@@ -12,7 +12,7 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Floaty McFloaty Block", "minecraft:inventory_changed")
 criteria.addItem(<tp:fmf_block>)
 
-setRewardExperience(4)
+setRewardExperience(16)
 
 hideLines()
 alwaysVisible()

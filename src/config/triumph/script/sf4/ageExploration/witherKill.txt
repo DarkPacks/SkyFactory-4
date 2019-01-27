@@ -2,13 +2,15 @@ setTitle("Wither Without You")
 
 setIcon(<minecraft:skull:1>)
 
-setDescription("Kill the Wither")
+setDescription("Exterminate the Wither")
 
 addParent("sf4:ageExploration/nether")
 drawDirectLines(true)
 
 criteria = addCriteria("Killed Wither", "minecraft:player_killed_entity")
 criteria.setEntityType("withercrumbs:wither crumb")
+
+setRewardExperience(16)
 
 hideLines()
 alwaysVisible()

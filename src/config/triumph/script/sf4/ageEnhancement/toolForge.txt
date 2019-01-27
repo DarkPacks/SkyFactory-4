@@ -12,7 +12,7 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Tool Forge", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:toolforge>)
 
-setRewardExperience(4)
+setRewardExperience(8)
 
 alwaysVisible()
 setPos(108,204)

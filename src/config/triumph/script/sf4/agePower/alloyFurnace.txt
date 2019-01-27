@@ -10,7 +10,7 @@ addParent("sf4:agePower/root")
 criteria = addCriteria("Obtain Alloy Furnace", "minecraft:inventory_changed")
 criteria.addItem(<nuclearcraft:alloy_furnace_idle>)
 
-setRewardExperience(4)
+setRewardExperience(10)
 
 hideLines()
 alwaysVisible()
