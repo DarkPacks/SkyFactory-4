@@ -64,6 +64,7 @@ function init() {
 
 	if (isDevelopment) {
 		validate();
+		printMap();
 	}
 }
 
@@ -115,4 +116,22 @@ function validate() {
 			);
 		}
 	}
+}
+
+function printMap() {
+	print("Printing Sky Orchards Resources map...");
+	print("{");
+
+	for resourceName, resourceTypes in skyOrchardsResources {
+		print('    "' ~ resourceName ~ '": {');
+
+		for resourceTypeName, resourceItem in resourceTypes {
+			print('        "' ~ resourceTypeName ~ '": ' ~ '"' ~ resourceItem.commandString ~ '",');
+		}
+
+		print("    },");
+	}
+
+	print("}");
+	print("Completed printing of Sky Orchards Resources map...");
 }
