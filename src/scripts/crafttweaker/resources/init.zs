@@ -6,3 +6,4 @@
 	This script initializes all resources scripts.
 */
 scripts.crafttweaker.resources.resourceHogs.init();
+scripts.crafttweaker.resources.skyOrchards.init();
