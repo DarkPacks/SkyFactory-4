@@ -1,12 +1,12 @@
 [
   {
     "mob": "Blaze",
-    "mincount": "25,Blaze",
+    "mincount": "18,Blaze",
     "result": "deny"
   },
   {
     "mob": "WitherSkeleton",
-    "mincount": "15,WitherSkeleton",
+    "mincount": "11,WitherSkeleton",
     "result": "deny"
   }
 ]
