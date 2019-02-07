@@ -307,6 +307,11 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<mekanism:machineblock3:5>: [
 		format.yellow("Auto crafter"),
 		format.yellow("Set recipe with Crafting Formula"),
+	],
+
+
+<mekanism:machineblock:10>: [
+		format.yellow("Powered Furnace"),
 	]
 };
 
