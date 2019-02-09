@@ -106,6 +106,14 @@ function init() {
 	// ==================================
 	mekanism.addInfusion("DIAMOND", 160, <sky_orchards:amber_silver>, <thermalfoundation:material:70>);
 	mekanism.addInfusion("REDSTONE", 10, <integrateddynamics:crystalized_menril_chunk>, <appliedenergistics2:material:7>);
+
+	// ==================================
+	// Purification Chamber
+	// Making Pills
+	// ==================================
+	mods.mekanism.purification.addRecipe(<cyclicmagic:horse_upgrade_speed>, <gas:lithium>, <matteroverdrive:android_pill>)
+	mods.mekanism.purification.addRecipe(<cyclicmagic:horse_upgrade_variant>, <gas:lithium>, <matteroverdrive:android_pill:1>)
+	mods.mekanism.purification.addRecipe(<minecraft:golden_apple:1>, <gas:lithium>, <matteroverdrive:android_pill:2>)
 }
 
 recipes.removeByRecipeName("mekanism:paper");
