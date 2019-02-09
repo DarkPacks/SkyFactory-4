@@ -111,9 +111,9 @@ function init() {
 	// Purification Chamber
 	// Making Pills
 	// ==================================
-	mods.mekanism.purification.addRecipe(<cyclicmagic:horse_upgrade_speed>, <gas:lithium>, <matteroverdrive:android_pill>)
-	mods.mekanism.purification.addRecipe(<cyclicmagic:horse_upgrade_variant>, <gas:lithium>, <matteroverdrive:android_pill:1>)
-	mods.mekanism.purification.addRecipe(<minecraft:golden_apple:1>, <gas:lithium>, <matteroverdrive:android_pill:2>)
+	mods.mekanism.purification.addRecipe(<cyclicmagic:horse_upgrade_speed>, <gas:lithium>, <matteroverdrive:android_pill>);
+	mods.mekanism.purification.addRecipe(<cyclicmagic:horse_upgrade_variant>, <gas:lithium>, <matteroverdrive:android_pill:1>);
+	mods.mekanism.purification.addRecipe(<minecraft:golden_apple:1>, <gas:lithium>, <matteroverdrive:android_pill:2>);
 }
 
 recipes.removeByRecipeName("mekanism:paper");
