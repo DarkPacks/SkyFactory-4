@@ -13,6 +13,7 @@ criteria.setDimensionDestination("twilight_forest")
 
 setRewardExperience(16)
 
+hiddenUnless("twilight_forest")
 hideLines()
 alwaysVisible()
 setPos(7,78)
