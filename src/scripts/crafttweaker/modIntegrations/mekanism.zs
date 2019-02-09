@@ -99,6 +99,7 @@ function init() {
 	mekanism.addCombiner(<thermaldynamics:duct_32>, <minecraft:glowstone_dust>, <thermaldynamics:duct_32:2>);
 	mekanism.addCombiner(<thermaldynamics:duct_64:3> * 2, <thermalfoundation:material:1026>, <thermaldynamics:duct_64> * 2);
 	mekanism.addCombiner(<thermaldynamics:duct_0:6>, <minecraft:redstone> * 2, <thermaldynamics:duct_0:2>);
+	mekanism.addCombiner(<thermaldynamics:duct_32:1>, <minecraft:glowstone_dust>, <thermaldynamics:duct_32:3>);
 
 	// ==================================
 	// Metallurgic Infuser
