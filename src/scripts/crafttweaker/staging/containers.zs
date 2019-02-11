@@ -8,11 +8,7 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 
 function init() {
-	var ALL_STAGES as Stage[] = [];
-
-	for stageName, stage in stages {
-		ALL_STAGES += stage;
-	}
+	var ALL_STAGES as Stage[] = stages.values;
 
 	/*
 		Package Staging
