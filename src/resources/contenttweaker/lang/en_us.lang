@@ -4,3 +4,6 @@ fluid.bacon=Liquid Bacon
 fluid.donut=Liquid Donut
 
 item.contenttweaker.cobblestone_circuit_mold.name=Cobblestone Circuit Mold
+
+tile.contenttweaker.compact_machine_nether_wall.name=Compact Machine Nether Wall
+tile.contenttweaker.compact_machine_end_wall.name=Compact Machine End Wall
