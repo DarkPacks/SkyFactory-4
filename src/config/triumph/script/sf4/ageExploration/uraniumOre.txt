@@ -1,0 +1,19 @@
+setTitle("Uranium Ore")
+
+setIcon(<nuclearcraft:ore:4>)
+
+setDescription("Travel to the Lost Cities or Twilight Forest to locate Uranium Ore")
+
+addParent("sf4:ageExploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Uranium Ore", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:ore:4>)
+
+setRewardExperience(20)
+
+hideLines()
+alwaysVisible()
+setPos(-138,47)

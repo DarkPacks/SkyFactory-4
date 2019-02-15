@@ -100,20 +100,15 @@ function init() {
 	mekanism.addCombiner(<thermaldynamics:duct_64:3> * 2, <thermalfoundation:material:1026>, <thermaldynamics:duct_64> * 2);
 	mekanism.addCombiner(<thermaldynamics:duct_0:6>, <minecraft:redstone> * 2, <thermaldynamics:duct_0:2>);
 	mekanism.addCombiner(<thermaldynamics:duct_32:1>, <minecraft:glowstone_dust>, <thermaldynamics:duct_32:3>);
+	mekanism.addCombiner(<cyclicmagic:horse_upgrade_speed>, <mekanism:otherdust:4>, <matteroverdrive:android_pill>);
+	mekanism.addCombiner(<cyclicmagic:horse_upgrade_variant>, <mekanism:otherdust:4>, <matteroverdrive:android_pill:1>);
+	mekanism.addCombiner(<minecraft:golden_apple:1>, <mekanism:otherdust:4>, <matteroverdrive:android_pill:2>);
 
 	// ==================================
 	// Metallurgic Infuser
 	// ==================================
 	mekanism.addInfusion("DIAMOND", 160, <sky_orchards:amber_silver>, <thermalfoundation:material:70>);
 	mekanism.addInfusion("REDSTONE", 10, <integrateddynamics:crystalized_menril_chunk>, <appliedenergistics2:material:7>);
-
-	// ==================================
-	// Purification Chamber
-	// Making Pills
-	// ==================================
-	mods.mekanism.purification.addRecipe(<cyclicmagic:horse_upgrade_speed>, <gas:lithium>, <matteroverdrive:android_pill>);
-	mods.mekanism.purification.addRecipe(<cyclicmagic:horse_upgrade_variant>, <gas:lithium>, <matteroverdrive:android_pill:1>);
-	mods.mekanism.purification.addRecipe(<minecraft:golden_apple:1>, <gas:lithium>, <matteroverdrive:android_pill:2>);
 }
 
 recipes.removeByRecipeName("mekanism:paper");

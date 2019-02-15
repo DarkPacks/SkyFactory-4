@@ -287,5 +287,113 @@
     "gamestage": "mystical_agriculture",
     "random": 0.60,
     "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@4",
+    "random": 0.02,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@4",
+    "random": 0.04,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@4",
+    "random": 0.1,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@5",
+    "random": 0.02,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@5",
+    "random": 0.04,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@5",
+    "random": 0.1,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_ricochet",
+    "random": 0.02,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_ricochet",
+    "random": 0.04,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_ricochet",
+    "random": 0.1,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@4",
+    "random": 0.02,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@4",
+    "random": 0.04,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@4",
+    "random": 0.1,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@5",
+    "random": 0.02,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@5",
+    "random": 0.04,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@5",
+    "random": 0.1,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_ricochet",
+    "random": 0.02,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_ricochet",
+    "random": 0.04,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_ricochet",
+    "random": 0.1,
+    "itemcount": "0/0/1"
   }
 ]

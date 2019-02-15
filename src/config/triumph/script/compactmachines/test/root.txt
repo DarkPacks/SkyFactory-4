@@ -17,5 +17,5 @@ criteria = addCriteria("superflat", "minecraft:location")
 criteria.setWorldType("compactsky")
 
 //Rewards
-setRewardItem(<compactmachines3:psd, enchant:cofhcore:soulbound:2, nbt:{ench:[{lvl:2s,id:31s}],RepairCost:3}>)
+setRewardItem(<compactmachines3:psd, enchant:cofhcore:soulbound:127>)
 setPos(-16,52)

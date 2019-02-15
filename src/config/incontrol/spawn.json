@@ -10,6 +10,11 @@
     "result": "deny"
   },
   {
+    "mob": "bouncy_creepers:bouncy_creeper",
+    "mincount": "18,bouncy_creepers:bouncy_creeper",
+    "result": "deny"
+  },
+  {
     "mob": "Blaze",
     "result": "default",
     "onjoin": true,

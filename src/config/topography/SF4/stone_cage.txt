@@ -24,3 +24,5 @@ day.addAlpha(0.719889~0.8037514, 0~1)
 sky.addSunMoon()
 
 setFogColor(#000000)
+
+captureTeleports()

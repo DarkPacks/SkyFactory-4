@@ -10,3 +10,5 @@ setCelestialAngle(0.5)
 disableSky()
 disableSkylight()
 setFogColor(#000000)
+
+captureTeleports()
