@@ -62,7 +62,7 @@ function initRecipes() {
 function initStaging() {
 	// ==================================
 	// Stage Others
-	scripts.crafttweaker.staging.contianers.init();
+	scripts.crafttweaker.staging.containers.init();
 	scripts.crafttweaker.staging.dimensions.init();
 	scripts.crafttweaker.staging.tooltips.init();
 
