@@ -13,6 +13,7 @@ compactMachineNetherWall.setBlockResistance(18000000);
 compactMachineNetherWall.setEntitySpawnable(false);
 compactMachineNetherWall.setTextureLocation(ResourceLocation.create("contenttweaker:blocks/compact_machines_nether_wall"));
 compactMachineNetherWall.setToolLevel(-1);
+compactMachineNetherWall.setWitherProof(true);
 compactMachineNetherWall.register();
 
 var compactMachineEndWall as Block = VanillaFactory.createBlock("compact_machine_end_wall", <blockmaterial:rock>);
@@ -21,4 +22,5 @@ compactMachineEndWall.setBlockResistance(18000000);
 compactMachineEndWall.setEntitySpawnable(false);
 compactMachineEndWall.setTextureLocation(ResourceLocation.create("contenttweaker:blocks/compact_machines_end_wall"));
 compactMachineEndWall.setToolLevel(-1);
+compactMachineEndWall.setWitherProof(true);
 compactMachineEndWall.register();
