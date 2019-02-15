@@ -184,7 +184,7 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("Usage: Item Transfer Pipe"),
 	],
 	<translocators:translocator_part:1>: [
-		format.red("Usage: Item Transfer Pipe"),
+		format.red("Usage: Fluid Transfer Pipe"),
 	],
 	<cyclicmagic:cable_wireless>: [
 		format.red("Usage: Item and Fluid Transfer"),
@@ -236,7 +236,7 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("Usage: Fluid Transfer Pipe"),
 	],
 	<translocators:translocator_part>: [
-		format.red("Usage: Fluid Transfer Pipe"),
+		format.red("Usage: Item Transfer Pipe"),
 	],
 	<tconstruct:channel>: [
 		format.red("Usage: Fluid Transfer Pipe"),
@@ -300,13 +300,24 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<thermaldynamics:duct_0:5>: [
 		format.red("Usage: Power / Energy Transfer Pipe"),
 	],
+	<mekanism:transmitter:2>: [
+		format.red("Usage: Gas / Transfer Pipe"),
+	],
+	<mekanism:transmitter:6>: [
+		format.red("Usage: Heat / Transfer Pipe"),
+	],
+
 	<mekanism:configurator>: [
 		format.red("Wrench"),
 	],
-
 	<mekanism:machineblock3:5>: [
 		format.yellow("Auto crafter"),
 		format.yellow("Set recipe with Crafting Formula"),
+	],
+
+
+<mekanism:machineblock:10>: [
+		format.yellow("Powered Furnace"),
 	]
 };
 

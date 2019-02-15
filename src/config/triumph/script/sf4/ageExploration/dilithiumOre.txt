@@ -1,0 +1,20 @@
+setTitle("Dilithium Ore")
+
+setIcon(<matteroverdrive:dilithium_ore>)
+
+setDescription("Travel to the Lost Cities or Twilight Forest to locate Dilithium Ore")
+
+addParent("sf4:ageExploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Ice Dilithium Ore", "minecraft:inventory_changed")
+criteria.addItem(<matteroverdrive:dilithium_ore>)
+
+setRequirements("any")
+setRewardExperience(20)
+
+hideLines()
+alwaysVisible()
+setPos(-288,47)

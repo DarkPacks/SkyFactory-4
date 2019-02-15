@@ -1,0 +1,19 @@
+setTitle("Lithium Ore")
+
+setIcon(<nuclearcraft:ore:6>)
+
+setDescription("Travel to the Lost Cities or Twilight Forest to locate Lithium Ore")
+
+addParent("sf4:ageExploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Lithium Ore", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:ore:6>)
+
+setRewardExperience(20)
+
+hideLines()
+alwaysVisible()
+setPos(-238,47)

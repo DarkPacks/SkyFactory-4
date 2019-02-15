@@ -41,7 +41,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 		]
 	],
-	<appliedenergistics2:material:43>: [
+	<appliedenergistics2:material:43> * 2: [
 		[
 			[<integrateddynamics:crystalized_menril_chunk>, <appliedenergistics2:material:8>, <appliedenergistics2:material:22>]
 		]

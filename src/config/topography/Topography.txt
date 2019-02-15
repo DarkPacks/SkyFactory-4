@@ -8,6 +8,8 @@ SF4.registerDimension(-1, "SF4/nether/nether_cell")
 SF4 = registerPreset("Skygrid", "images/SkyGrid", "Blocks and resources are generated in an infinite grid. Skygrid mod by Funwayguy", "skygrid")
 
 SF4 = registerPreset("Compactsky", "images/CompactMachines", "Start in a 3x3x3 box and upgrade your way to a larger workspace. Compactsky by Davenonymous", "compactsky")
+SF4.registerDimension(-1, "SF4/nether/nether_compact_machines")
+
 
 SF4 = registerPreset("Amplified", "images/Amplified", "Vanilla Amplified World Type with no ore generation", "amplified")
 
@@ -133,12 +135,12 @@ glassLavaSkyIslands.registerDimension(1, "Sky Islands/end_glass_and_lava_sky_isl
 
 SF4 = registerPreset("Hardcore", "images/HardcoreSkylightmk2", "Hardcore World with increased mob health, armor, and damage with permanent night")
 SF4.registerDimension(0, "SF4/hardcore_skylight")
-SF4.registerDimension(-1, "SF4/nether/nether_cell")
+SF4.registerDimension(-1, "SF4/nether/nether_hardcore")
 SF4.enableHardcore()
 
 SF4 = registerPreset("Are You Afraid of the Dark", "images/HardcoreNoLightmk2", "Hardcore World with increased mob health, armor, and damage with no skylight")
 SF4.registerDimension(0, "SF4/hardcore_no_skylight")
-SF4.registerDimension(-1, "SF4/nether/nether_cell")
+SF4.registerDimension(-1, "SF4/nether/nether_hardcore")
 SF4.enableHardcore()
 
 setAsDefaultWorldType()

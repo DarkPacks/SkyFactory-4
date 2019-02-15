@@ -42,10 +42,10 @@ function init() {
     prestige.addGamestageReward("mega_torch", stages.megaTorch);
 
     // Enable Matter Overdrive Pills via Prestige
-    prestige.addGamestageReward("android", stages.android);
-    Rewards.registerCommandReward("android", "give @p matteroverdrive:android_pill");
-    Rewards.registerCommandReward("android", "give @p matteroverdrive:android_pill 1 1");
-    Rewards.registerCommandReward("android", "give @p matteroverdrive:android_pill 1 2");
+    prestige.addGamestageReward("pills", stages.android);
+    Rewards.registerCommandReward("pills", "give @p matteroverdrive:android_pill");
+    Rewards.registerCommandReward("pills", "give @p matteroverdrive:android_pill 1 1");
+    Rewards.registerCommandReward("pills", "give @p matteroverdrive:android_pill 1 2");
 
 	Rewards.registerReward("fast_forward", function(world as IWorld, player as IPlayer) {
 		var fastForwardBagData as IData = {

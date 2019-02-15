@@ -13,7 +13,6 @@ import mods.nuclearcraft.alloy_furnace as alloyFurnace;
 import mods.nuclearcraft.centrifuge;
 import mods.nuclearcraft.chemical_reactor as chemicalReactor;
 import mods.nuclearcraft.condenser;
-import mods.nuclearcraft.coolant_heater as coolantHeater;
 import mods.nuclearcraft.crystallizer;
 import mods.nuclearcraft.decay_generator as decayGenerator;
 import mods.nuclearcraft.decay_hastener as decayHastener;

@@ -92,3 +92,5 @@ addFogColor(#22053c, 0.19904304~0.29625022, 0~1)
 addFogColor(#22053c, 0.29625022~0.719889, 1~1)
 //Sunrise
 addFogColor(#22053c, 0.719889~0.8037514, 1~0)
+
+captureTeleports()

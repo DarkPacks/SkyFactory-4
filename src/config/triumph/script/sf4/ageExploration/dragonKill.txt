@@ -19,4 +19,4 @@ setRewardExperience(16)
 
 setRewardFunction("triumph:dragon_loot")
 setRewardFunction("triumph:dragon_kill")
-setPos(60,109)
+setPos(59,109)

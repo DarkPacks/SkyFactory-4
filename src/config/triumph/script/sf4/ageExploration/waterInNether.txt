@@ -17,5 +17,8 @@ criteria2.setDimID(-1)
 
 setRewardExperience(16)
 
-alwaysVisible()
-setPos(38,185)
+skygrid:skygrid/root
+
+hiddenIf("hardcore:hardcore/root")
+
+setPos(33,185)

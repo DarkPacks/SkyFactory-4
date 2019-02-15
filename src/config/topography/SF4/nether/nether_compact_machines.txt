@@ -1,0 +1,16 @@
+setSpawnStructure("GlassCage", 100)
+
+setSingleBiome("minecraft:hell")
+
+layers = new LayerGenerator()
+layers.addLayer(0~255, <minecraft:bedrock>)
+layers.addLayer(0~0, <minecraft:bedrock>)
+addGenerator(layers)
+sky = setSkyRenderer()
+
+
+disableSky()
+disableClouds()
+disableSkylight()
+disableRespawning()
+captureTeleports()
