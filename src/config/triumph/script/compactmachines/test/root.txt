@@ -18,4 +18,6 @@ criteria.setWorldType("compactsky")
 
 //Rewards
 setRewardItem(<compactmachines3:psd, enchant:cofhcore:soulbound:127>)
+setRewardFunction("triumph:compact_machines")
+
 setPos(-16,52)

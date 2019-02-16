@@ -7,6 +7,8 @@ setDescription("Craft and use a Wooden Crook on Leaves to increase sapling drops
 addParent("sf4:age1/root")
 
 drawDirectLines(true)
+hiddenIf("compactmachines:test/root")
+alwaysVisible()
 
 //Criteria
 criteria = addCriteria("Obtain Wooden Crook", "minecraft:inventory_changed")
@@ -16,5 +18,4 @@ criteria.addItem(<inspirations:wooden_crook>)
 setRewardExperience(4)
 
 hideLines()
-alwaysVisible()
 setPos(-316,9)

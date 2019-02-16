@@ -25,6 +25,7 @@ bosses {
 
     # The level up chance, this is rolled once per number of levels.  Levels determine gear. [range: 0.0 ~ 2.14748365E9, default: 0.25]
     S:"Level Up Chance"=0.25
+    I:"Max Level"=3
 
     # The chance a gear piece will be randomly enchanted. [range: 0.0 ~ 2.14748365E9, default: 0.25]
     S:"Random Enchantment Chance"=0.25
@@ -42,6 +43,16 @@ bosses {
     S:"Speed Multiplier"=1.15
 
     # If bosses have water breathing. [default: true]
+    B:"Water Breathing"=true
+}
+
+
+"brutal mobs" {
+    B:"Fire Resist"=true
+    I:Regeneration=1
+    I:Resistance=3
+    I:Strength=0
+    I:Swiftness=1
     B:"Water Breathing"=true
 }
 
@@ -64,7 +75,7 @@ bosses {
         1@minecraft:spider
         1@minecraft:cave_spider
         1@minecraft:creeper
-        1@apotheosis:random
+        1@deadlyworld:random
      >
 }
 
@@ -92,8 +103,8 @@ frequencies {
 
 general {
     # The dimensions that the deadly module will generate in. [default: [0]]
-    S:"Generation Dimension Whitelist" <
-        111
+    S:"Generation Dimension Whitelist" < 
+    111
      >
 }
 

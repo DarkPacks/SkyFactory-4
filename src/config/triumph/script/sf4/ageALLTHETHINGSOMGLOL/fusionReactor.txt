@@ -7,6 +7,7 @@ setDescription("Create a Matter Overdrive Fusion Reactor that produces at least 
 addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
 hideLines()
+hiddenIf("compactmachines:test/root")
 alwaysVisible()
 
 //Criteria
