@@ -34,4 +34,4 @@ setRewardFunction("triumph:prestige_add")
 
 hideLines()
 alwaysVisible()
-setPos(-97,148)
+setPos(-97,149)

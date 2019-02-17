@@ -7,6 +7,8 @@ setDescription("Travel deep into the End Void to find an End City Floating Ship 
 addParent("sf4:ageExploration/dragonKill")
 
 drawDirectLines(true)
+hiddenIf("compactmachines:test/root")
+hiddenIf("hardcore:hardcore/root")
 
 //Criteria
 criteria = addCriteria("Obtain Elytra", "minecraft:inventory_changed")
@@ -14,5 +16,5 @@ criteria.addItem(<minecraft:elytra>)
 
 setRewardExperience(16)
 
-hiddenIf("hardcore:hardcore/root")
+
 setPos(85,120)

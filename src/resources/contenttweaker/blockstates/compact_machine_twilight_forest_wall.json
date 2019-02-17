@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/compact_machine_nether_wall",
-      "particle": "contenttweaker:blocks/compact_machine_nether_wall"
+      "texture": "contenttweaker:blocks/compact_machine_twilight_forest_wall",
+      "particle": "contenttweaker:blocks/compact_machine_twilight_forest_wall"
     },
     "model": "base:storage",
     "uvlock": true,

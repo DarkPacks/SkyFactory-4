@@ -15,4 +15,4 @@ criteria.addItem(<minecraft:dragon_breath>)
 setRewardExperience(16)
 
 alwaysVisible()
-setPos(85,95)
+setPos(85,93)

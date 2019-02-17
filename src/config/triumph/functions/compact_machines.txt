@@ -1,0 +1,2 @@
+gamerule tfEnforcedProgression false
+astralSorceryIgnoreSkyCheck true
