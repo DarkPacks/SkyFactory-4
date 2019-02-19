@@ -275,8 +275,10 @@ static removeAndHideIngredients as IIngredient[] = [
 	<extracells:part.base:4>,
 	<extracells:part.base:5>,
 	<extracells:part.base:6>,
-	<extracells:part.base:9>
+	<extracells:part.base:9>,
 
+	//Why doesn't my drying rack work? Because you're not using the drying rack. You're using the display rack
+	<tconstruct:rack>
 ];
 
 function init() {

@@ -50,6 +50,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.rftools.init();
 	scripts.crafttweaker.recipes.mods.rustic.init();
 	scripts.crafttweaker.recipes.mods.skyOrchards.init();
+	scripts.crafttweaker.recipes.mods.slabMachines.init();
 	scripts.crafttweaker.recipes.mods.sonarcore.init();
 	scripts.crafttweaker.recipes.mods.statues.init();
 	scripts.crafttweaker.recipes.mods.tconstruct.init();
