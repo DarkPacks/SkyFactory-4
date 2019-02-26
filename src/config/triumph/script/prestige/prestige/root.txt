@@ -17,5 +17,4 @@ criteria = addCriteria("stage", "triumph:gamestage")
 criteria.setStage("parabox")
 
 hiddenUnless("parabox")
-
 setPos(-62,-7)

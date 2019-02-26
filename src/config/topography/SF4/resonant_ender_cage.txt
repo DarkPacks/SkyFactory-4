@@ -1,4 +1,4 @@
-setSpawnStructure("GlassCage", 100)
+setSpawnStructure("glasscage", 100)
 
 layers = new LayerGenerator()
 layers.addLayer(1~255, <thermalfoundation:fluid_ender>)

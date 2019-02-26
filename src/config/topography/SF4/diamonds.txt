@@ -1,4 +1,4 @@
-setSpawnStructure("Diamonds")
+setSpawnStructure("diamonds")
 
 layers = new LayerGenerator()
 layers.addLayer(1~50, <mekanism:saltblock>)
