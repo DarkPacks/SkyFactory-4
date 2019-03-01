@@ -536,8 +536,12 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<tconstruct:toolforge>: [
 		format.yellow("Recipe can use any"),
 		format.yellow("of the same 4 Metal Blocks")	
-	]
+	],
 
+	<tconstruct:moms_spaghetti>: [
+		format.yellow("Knees are weak"),
+		format.yellow("Palms are sweaty")	
+	]
 
 };
 

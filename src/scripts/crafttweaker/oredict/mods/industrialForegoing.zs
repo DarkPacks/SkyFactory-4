@@ -1,3 +1,4 @@
+/*
 <ore:dye>.remove(<industrialforegoing:artificial_dye>);
 <ore:dye>.remove(<industrialforegoing:artificial_dye:1>);
 <ore:dye>.remove(<industrialforegoing:artificial_dye:2>);
@@ -31,3 +32,4 @@
 <ore:dyeGreen>.remove(<industrialforegoing:artificial_dye:13>);
 <ore:dyeRed>.remove(<industrialforegoing:artificial_dye:14>);
 <ore:dyeBlack>.remove(<industrialforegoing:artificial_dye:15>);
+*/

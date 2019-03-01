@@ -390,7 +390,16 @@ static removeAndHideIngredients as IIngredient[] = [
 	<tp:bsc_diamond_hoe>,
 
 	//Not configurable and allows for exploits
-	<mekanism:cardboardbox>
+	<mekanism:cardboardbox>,
+
+	<thermalfoundation:material:513>,
+	<thermalfoundation:material:514>,
+
+	<thermalfoundation:glass_alloy:4>,
+	<thermalfoundation:glass:7>,
+	<thermalfoundation:glass:8>
+
+
 
 ];
 

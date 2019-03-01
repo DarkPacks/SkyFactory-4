@@ -1,0 +1,18 @@
+setTitle("Swab")
+
+setIcon(<mob_grinding_utils:mob_swab:1>)
+
+setDescription("Use on any mob to swab their DNA")
+
+addParent("sf4:ageFarming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Mob DNA", "minecraft:inventory_changed")
+criteria.addItem(<mob_grinding_utils:mob_swab:1>)
+
+setRewardExperience(6)
+
+alwaysVisible()
+setPos(62,387)

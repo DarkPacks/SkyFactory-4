@@ -40,3 +40,7 @@
 <ore:dyeMagenta>.remove(<thermalfoundation:dye:13>);
 <ore:dyeOrange>.remove(<thermalfoundation:dye:14>);
 <ore:dyeWhite>.remove(<thermalfoundation:dye:15>);
+
+<ore:blockGlassHardened>.remove(<thermalfoundation:glass_alloy:4>);
+<ore:blockGlassHardened>.remove(<thermalfoundation:glass:7>);
+<ore:blockGlassHardened>.remove(<thermalfoundation:glass:8>);
