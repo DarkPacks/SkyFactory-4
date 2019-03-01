@@ -343,7 +343,51 @@ static removeAndHideIngredients as IIngredient[] = [
 
 	//No.
 	<compactstorage:barrel>,
-	<compactstorage:barrel_fluid>
+	<compactstorage:barrel_fluid>,
+
+	//Not needed
+	<pickletweaks:constantan_paxel>,
+	<pickletweaks:copper_sword>,
+	<pickletweaks:copper_pickaxe>,
+	<pickletweaks:copper_shovel>,
+	<pickletweaks:copper_axe>,
+	<pickletweaks:copper_hoe>,
+	<pickletweaks:bronze_sword>,
+	<pickletweaks:bronze_pickaxe>,
+	<pickletweaks:bronze_shovel>,
+	<pickletweaks:bronze_axe>,
+	<pickletweaks:bronze_hoe>,
+	<pickletweaks:hammer>,
+	<tp:nether_iron_axe>,
+	<tp:bsc_iron_pickaxe>,
+	<tp:bsc_gold_pickaxe>,
+	<tp:nether_gold_sword>,
+	<tp:nether_hoe>,
+	<tp:bsc_iron_spade>,
+	<tp:bsc_rod>,
+	<tp:nether_diamond_hoe>,
+	<tp:bsc_diamond_pickaxe>,
+	<tp:nether_axe>,
+	<tp:nether_diamond_pickaxe>,
+	<tp:nether_gold_spade>,
+	<tp:nether_iron_pickaxe>,
+	<tp:nether_diamond_axe>,
+	<tp:nether_iron_hoe>,
+	<tp:nether_gold_pickaxe>,
+	<tp:bsc_iron_axe>,
+	<tp:nether_pickaxe>,
+	<tp:nether_iron_sword>,
+	<tp:bsc_gold_hoe>,
+	<tp:bsc_iron_hoe>,
+	<tp:bsc_diamond_axe>,
+	<tp:nether_iron_spade>,
+	<tp:nether_gold_axe>,
+	<tp:nether_diamond_spade>,
+	<tp:nether_diamond_sword>,
+	<tp:bsc_gold_axe>,
+	<tp:nether_gold_hoe>,
+	<tp:nether_sword>,
+	<tp:bsc_diamond_hoe>
 
 
 ];
