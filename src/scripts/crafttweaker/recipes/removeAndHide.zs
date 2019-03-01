@@ -387,8 +387,10 @@ static removeAndHideIngredients as IIngredient[] = [
 	<tp:bsc_gold_axe>,
 	<tp:nether_gold_hoe>,
 	<tp:nether_sword>,
-	<tp:bsc_diamond_hoe>
+	<tp:bsc_diamond_hoe>,
 
+	//Not configurable and allows for exploits
+	<mekanism:cardboardbox>
 
 ];
 
