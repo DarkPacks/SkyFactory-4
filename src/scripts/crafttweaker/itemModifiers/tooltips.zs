@@ -315,11 +315,12 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.yellow("Set recipe with Crafting Formula"),
 	],
 
-
+	//Since no one knows what this machine is or how to find it
 	<mekanism:machineblock:10>: [
 		format.yellow("Powered Furnace"),
 	],
 
+	//Adding mod tooltip for easier location
 	<valkyrielib:guide>: [
 		format.blue("Simple Generators"),
 	],
@@ -328,7 +329,216 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 	<valkyrielib:modifier_speed>: [
 		format.blue("Simple Generators"),
+	],
+
+	//Adding mod tooltip for easier location
+	<ae2stuff:encoder>: [
+		format.blue("Applied Energistics"),
+	],
+	<ae2stuff:grower>: [
+		format.blue("Applied Energistics"),
+	],
+	<ae2stuff:inscriber>: [
+		format.blue("Applied Energistics"),
+	],
+	<ae2stuff:wireless>: [
+		format.blue("Applied Energistics"),
+	],
+	<ae2stuff:wireless_kit>: [
+		format.blue("Applied Energistics"),
+	],
+	<ae2stuff:visualiser>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:part.base:7>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:part.base:8>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:part.base:10>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:part.base:11>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:part.base:12>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:part.base:13>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:part.base:14>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:part.base:15>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:part.base:16>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:part.base:17>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:part.base:18>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:part.base:19>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.fluid:4>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.fluid:5>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.fluid:6>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.physical>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.physical:1>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.physical:2>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.physical:3>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.physical:4>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.gas>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.gas:1>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.gas:2>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.gas:3>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.gas:4>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.gas:5>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.gas:6>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:pattern.fluid>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:terminal.fluid.wireless>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.component>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.component:1>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.component:2>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.component:3>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.component:8>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.component:9>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.component:10>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.component:11>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.component:12>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.component:13>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.component:14>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.component:15>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.component:16>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.component:17>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.casing>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.casing:1>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.casing:2>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.fluid.portable>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:storage.gas.portable>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:terminal.universal.wireless>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:terminal.gas.wireless>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:oc.upgrade:2>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:oc.upgrade:1>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:oc.upgrade>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:certustank>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:walrus>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:fluidcrafter>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:fluidfiller>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:hardmedrive>: [
+		format.blue("Applied Energistics"),
+	],
+	<extracells:vibrantchamberfluid>: [
+		format.blue("Applied Energistics"),
+	],
+
+	//Being helpful
+	<conarm:armorforge>: [
+		format.yellow("Recipe can use any"),
+		format.yellow("of the same 4 Metal Blocks")		
+	],
+	<tconstruct:toolforge>: [
+		format.yellow("Recipe can use any"),
+		format.yellow("of the same 4 Metal Blocks")	
 	]
+
+
 };
 
 function init() {
