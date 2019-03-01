@@ -8,6 +8,9 @@ addParent("compactmachines:test/5x5x5")
 addParent("compactmachines:test/5x5x52")
 setRequiresParents()
 
+visibleIf("compact_machines")
+alwaysHidden()
+
 drawDirectLines(true)
 
 //Criteria
@@ -19,5 +22,3 @@ setRewardExperience(4)
 
 setRewardItem(<compactmachines3:machine:2>)
 setPos(122,82)
-
-alwaysVisible()

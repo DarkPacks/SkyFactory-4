@@ -1,5 +1,9 @@
 [
   {
+    "energy": 2000,
+    "id": "OD:treeLeaves"
+  },
+  {
     "energy": 320000,
     "id": "chisel:block_coal:3"
   },

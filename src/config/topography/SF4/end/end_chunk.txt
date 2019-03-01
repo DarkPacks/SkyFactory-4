@@ -3,7 +3,7 @@ generateEndCity(1, 14, 4)
 
 setSingleBiome("minecraft:sky")
 
-setSpawnStructure("EndChuck")
+setSpawnStructure("endchuck")
 
 captureTeleports()
 disableRespawning()

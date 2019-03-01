@@ -5,8 +5,7 @@ setIcon(<parabox:parabox>)
 setDescription("Craft a Parabox to begin collecting prestige points. When activated the timer will begin counting down from 20 minutes. If the power requirements are satisfied and the timer is finished, you will gain 1 prestige point and the loop will start back at 20 minutes. To end the loop, press the Loop:Off button and the game will close. Restart your world to collect your prestige and go backwards in time. Pressing the Deactivate button will turn off the Parabox and you will lose any progress you have made but allow your world to be saved as is")
 
 addParent("prestige:prestige/root")
-
-drawDirectLines(true)
+hiddenUnless("parabox")
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
@@ -16,5 +15,4 @@ criteria.addItem(<parabox:parabox>)
 setRewardExperience(4)
 
 hideLines()
-alwaysVisible()
 setPos(120,-7)

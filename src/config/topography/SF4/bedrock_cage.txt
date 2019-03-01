@@ -1,4 +1,4 @@
-setSpawnStructure("BedrockCageV2", 0)
+setSpawnStructure("bedrockcagev2", 0)
 
 layers = new LayerGenerator()
 layers.addLayer(1~255, <minecraft:bedrock>)

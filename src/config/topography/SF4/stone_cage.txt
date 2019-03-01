@@ -1,4 +1,4 @@
-setSpawnStructure("StoneTest")
+setSpawnStructure("stonetest")
 
 layers = new LayerGenerator()
 layers.addLayer(0~1, <minecraft:bedrock>)

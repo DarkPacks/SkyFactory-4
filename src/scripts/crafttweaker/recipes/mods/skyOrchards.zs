@@ -437,6 +437,27 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<mysticalagriculture:tier1_inferium_seeds>, <sky_orchards:sapling_cobalt>, <mysticalagriculture:tier1_inferium_seeds>],
 			[null, <mysticalagriculture:tier1_inferium_seeds>, null]
 		]
+	],
+	<chisel:marble2:7>: [
+		[
+			[<sky_orchards:resin_petrified>, <sky_orchards:acorn_petrified>, <sky_orchards:resin_petrified>],
+			[<sky_orchards:acorn_petrified>, <minecraft:dye:15>, <sky_orchards:acorn_petrified>],
+			[<sky_orchards:resin_petrified>, <sky_orchards:acorn_petrified>, <sky_orchards:resin_petrified>]
+		]
+	],
+	<chisel:limestone2:7>: [
+		[
+			[<sky_orchards:resin_petrified>, <sky_orchards:acorn_petrified>, <sky_orchards:resin_petrified>],
+			[<sky_orchards:acorn_petrified>, <minecraft:dye:2>, <sky_orchards:acorn_petrified>],
+			[<sky_orchards:resin_petrified>, <sky_orchards:acorn_petrified>, <sky_orchards:resin_petrified>]
+		]
+	],
+	<chisel:basalt2:7>: [
+		[
+			[<sky_orchards:resin_petrified>, <sky_orchards:acorn_petrified:1>, <sky_orchards:resin_petrified>],
+			[<sky_orchards:acorn_petrified:1>, <sky_orchards:resin_petrified>, <sky_orchards:acorn_petrified:1>],
+			[<sky_orchards:resin_petrified>, <sky_orchards:acorn_petrified:1>, <sky_orchards:resin_petrified>]
+		]
 	]
 };
 

@@ -199,6 +199,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <animalcrops:seeds>.withTag({entity: "minecraft:skeleton"}), null],
 			[null, <minecraft:bone>, null]
 		]
+	],
+
+	<animalcrops:seeds>.withTag({entity: "minecraft:guardian"}): [
+		[
+			[null, <ore:fish>, null],
+			[null, <minecraft:wheat_seeds>, null],
+			[null, <minecraft:dye>, null]
+		]
 	]
 };
 

@@ -7,6 +7,9 @@ setDescription("Craft any Simple Generator to gain a larger Compact Machine")
 addParent("compactmachines:test/3x3x3")
 setRequiresParents()
 
+visibleIf("compact_machines")
+alwaysHidden()
+
 drawDirectLines(true)
 setRequirements("any")
 
@@ -31,5 +34,3 @@ setRewardExperience(4)
 
 setRewardItem(<compactmachines3:machine:1>)
 setPos(62,82)
-
-alwaysVisible()

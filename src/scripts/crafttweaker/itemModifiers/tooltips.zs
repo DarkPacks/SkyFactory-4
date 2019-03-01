@@ -316,8 +316,18 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 
 
-<mekanism:machineblock:10>: [
+	<mekanism:machineblock:10>: [
 		format.yellow("Powered Furnace"),
+	],
+
+	<valkyrielib:guide>: [
+		format.blue("Simple Generators"),
+	],
+	<valkyrielib:modifier_component>: [
+		format.blue("Simple Generators"),
+	],
+	<valkyrielib:modifier_speed>: [
+		format.blue("Simple Generators"),
 	]
 };
 

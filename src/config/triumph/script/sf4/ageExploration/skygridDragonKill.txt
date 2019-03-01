@@ -25,4 +25,4 @@ hiddenUnless("skygrid:skygrid/root")
 setRewardExperience(16)
 
 hideLines()
-setPos(-36,121)
+setPos(-19,109)

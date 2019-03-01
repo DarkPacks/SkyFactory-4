@@ -1,4 +1,4 @@
-setSpawnStructure("HardcoreTree")
+setSpawnStructure("hardcoretree")
 
 attributes = addEntityEffect(0)
 attributes.addEntityType("MOB")

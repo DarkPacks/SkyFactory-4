@@ -1,4 +1,3 @@
-
 setSpawnStructure("chunk_dirt_tree")
 
 sky = setSkyRenderer()

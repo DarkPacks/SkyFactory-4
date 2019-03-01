@@ -1,2 +1,3 @@
 gamerule tfEnforcedProgression false
-astralSorceryIgnoreSkyCheck true
+gamerule astralSorceryIgnoreSkyCheck true
+gamestage add @p compact_machines

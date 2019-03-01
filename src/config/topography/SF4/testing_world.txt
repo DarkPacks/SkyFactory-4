@@ -1,1 +1,1 @@
-setSpawnStructure("StoneTest")
+setSpawnStructure("stonetest")

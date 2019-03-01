@@ -19,4 +19,4 @@ setRewardExperience(4)
 
 hideLines()
 hiddenUnless("skygrid")
-setPos(-242,51)
+setPos(-280,108)

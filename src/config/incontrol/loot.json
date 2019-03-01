@@ -5,23 +5,7 @@
   },
   {
     "mob": "withercrumbs:wither crumb",
-    "remove": "tombstone:scroll_buff@0"
-  },
-  {
-    "mob": "withercrumbs:wither crumb",
-    "remove": "tombstone:scroll_buff@1"
-  },
-  {
-    "mob": "withercrumbs:wither crumb",
-    "remove": "tombstone:scroll_buff@2"
-  },
-  {
-    "mob": "withercrumbs:wither crumb",
-    "remove": "tombstone:scroll_buff@3"
-  },
-  {
-    "mob": "withercrumbs:wither crumb",
-    "remove": "tombstone:scroll_buff@4"
+    "remove": "tombstone:scroll_buff"
   },
   {
     "mob": "withercrumbs:wither crumb",
@@ -291,109 +275,121 @@
   {
     "mob": "matteroverdrive:rogue_android",
     "item": "matteroverdrive:weapon_module_barrel@4",
-    "random": 0.02,
+    "random": 0.01,
     "itemcount": "0-1/0/0"
   },
   {
     "mob": "matteroverdrive:rogue_android",
     "item": "matteroverdrive:weapon_module_barrel@4",
-    "random": 0.04,
+    "random": 0.03,
     "itemcount": "0/1/0"
   },
   {
     "mob": "matteroverdrive:rogue_android",
     "item": "matteroverdrive:weapon_module_barrel@4",
-    "random": 0.1,
+    "random": 0.08,
     "itemcount": "0/0/1"
   },
   {
     "mob": "matteroverdrive:rogue_android",
     "item": "matteroverdrive:weapon_module_barrel@5",
-    "random": 0.02,
+    "random": 0.01,
     "itemcount": "0-1/0/0"
   },
   {
     "mob": "matteroverdrive:rogue_android",
     "item": "matteroverdrive:weapon_module_barrel@5",
-    "random": 0.04,
+    "random": 0.03,
     "itemcount": "0/1/0"
   },
   {
     "mob": "matteroverdrive:rogue_android",
     "item": "matteroverdrive:weapon_module_barrel@5",
-    "random": 0.1,
+    "random": 0.08,
     "itemcount": "0/0/1"
   },
   {
     "mob": "matteroverdrive:rogue_android",
     "item": "matteroverdrive:weapon_module_ricochet",
-    "random": 0.02,
+    "random": 0.01,
     "itemcount": "0-1/0/0"
   },
   {
     "mob": "matteroverdrive:rogue_android",
     "item": "matteroverdrive:weapon_module_ricochet",
-    "random": 0.04,
+    "random": 0.03,
     "itemcount": "0/1/0"
   },
   {
     "mob": "matteroverdrive:rogue_android",
     "item": "matteroverdrive:weapon_module_ricochet",
-    "random": 0.1,
+    "random": 0.08,
     "itemcount": "0/0/1"
   },
   {
     "mob": "matteroverdrive:ranged_rogue_android",
     "item": "matteroverdrive:weapon_module_barrel@4",
-    "random": 0.02,
+    "random": 0.01,
     "itemcount": "0-1/0/0"
   },
   {
     "mob": "matteroverdrive:ranged_rogue_android",
     "item": "matteroverdrive:weapon_module_barrel@4",
-    "random": 0.04,
+    "random": 0.03,
     "itemcount": "0/1/0"
   },
   {
     "mob": "matteroverdrive:ranged_rogue_android",
     "item": "matteroverdrive:weapon_module_barrel@4",
-    "random": 0.1,
+    "random": 0.08,
     "itemcount": "0/0/1"
   },
   {
     "mob": "matteroverdrive:ranged_rogue_android",
     "item": "matteroverdrive:weapon_module_barrel@5",
-    "random": 0.02,
+    "random": 0.01,
     "itemcount": "0-1/0/0"
   },
   {
     "mob": "matteroverdrive:ranged_rogue_android",
     "item": "matteroverdrive:weapon_module_barrel@5",
-    "random": 0.04,
+    "random": 0.03,
     "itemcount": "0/1/0"
   },
   {
     "mob": "matteroverdrive:ranged_rogue_android",
     "item": "matteroverdrive:weapon_module_barrel@5",
-    "random": 0.1,
+    "random": 0.08,
     "itemcount": "0/0/1"
   },
   {
     "mob": "matteroverdrive:ranged_rogue_android",
     "item": "matteroverdrive:weapon_module_ricochet",
-    "random": 0.02,
+    "random": 0.01,
     "itemcount": "0-1/0/0"
   },
   {
     "mob": "matteroverdrive:ranged_rogue_android",
     "item": "matteroverdrive:weapon_module_ricochet",
-    "random": 0.04,
+    "random": 0.03,
     "itemcount": "0/1/0"
   },
   {
     "mob": "matteroverdrive:ranged_rogue_android",
     "item": "matteroverdrive:weapon_module_ricochet",
-    "random": 0.1,
+    "random": 0.08,
     "itemcount": "0/0/1"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "remove": "minecraft:stone_sword"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "remove": "matteroverdrive:energy_pack"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "remove": "matteroverdrive:energy_pack"
   }
 ]

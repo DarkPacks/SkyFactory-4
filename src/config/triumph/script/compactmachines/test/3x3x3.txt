@@ -7,6 +7,9 @@ setDescription("Obtain Grass Block to gain a larger Compact Machine")
 addParent("compactmachines:test/root")
 setRequiresParents()
 
+visibleIf("compact_machines")
+alwaysHidden()
+
 //Criteria
 criteria = addCriteria("Obtain Grass Block", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:grass>)
@@ -16,5 +19,3 @@ setRewardExperience(4)
 
 setRewardItem(<compactmachines3:machine>)
 setPos(32,52)
-
-alwaysVisible()

@@ -7,6 +7,9 @@ setDescription("Obtain a Melter or a Porcelain Melter to gain a larger Compact M
 addParent("compactmachines:test/3x3x3")
 setRequiresParents()
 
+visibleIf("compact_machines")
+alwaysHidden()
+
 drawDirectLines(true)
 setRequirements("any")
 
@@ -20,5 +23,3 @@ criteria1.addItem(<tcomplement:melter>)
 setRewardExperience(4)
 setRewardItem(<compactmachines3:machine:1>)
 setPos(62,22)
-
-alwaysVisible()

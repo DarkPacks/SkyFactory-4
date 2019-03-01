@@ -1,4 +1,4 @@
-setSpawnStructure("ProjectE")
+setSpawnStructure("projecte")
 
 .lock()
 
