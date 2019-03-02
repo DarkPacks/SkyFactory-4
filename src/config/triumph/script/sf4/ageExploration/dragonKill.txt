@@ -17,6 +17,8 @@ alwaysVisible()
 
 setRewardExperience(16)
 
-setRewardFunction("triumph:dragon_loot")
+//Giving players overworld cakes because I know for sure they won't read and bring one themselves
+setRewardFunction("triumph:give_cake")
+
 setRewardFunction("triumph:dragon_kill")
 setPos(59,109)

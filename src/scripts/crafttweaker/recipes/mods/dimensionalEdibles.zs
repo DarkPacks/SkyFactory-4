@@ -23,6 +23,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [<minecraft:yellow_flower>, <minecraft:cake>, <minecraft:yellow_flower>],
             [<minecraft:yellow_flower>, <minecraft:yellow_flower>, <minecraft:yellow_flower>]
         ]
+    ],
+    <dimensionaledibles:custom_cake>.withTag({dimID: 28885, cakeName: "Hunting Dimension"}): [
+        [
+            [<minecraft:arrow>, <minecraft:stone_sword>, <minecraft:arrow>],
+            [<minecraft:stone_sword>, <minecraft:cake>, <minecraft:stone_sword>],
+            [<minecraft:arrow>, <minecraft:stone_sword>, <minecraft:arrow>]
+        ]
     ]
 };
 

@@ -13,6 +13,9 @@ criteria.setDimensionDestination("twilight_forest")
 
 setRewardExperience(16)
 
+//Giving players overworld cakes because I know for sure they won't read and bring one themselves
+setRewardFunction("triumph:give_cake")
+
 hiddenUnless("twilight_forest")
 hideLines()
 alwaysVisible()

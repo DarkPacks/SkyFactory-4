@@ -358,46 +358,19 @@ static removeAndHideIngredients as IIngredient[] = [
 	<pickletweaks:bronze_axe>,
 	<pickletweaks:bronze_hoe>,
 	<pickletweaks:hammer>,
-	<tp:nether_iron_axe>,
-	<tp:bsc_iron_pickaxe>,
-	<tp:bsc_gold_pickaxe>,
-	<tp:nether_gold_sword>,
-	<tp:nether_hoe>,
-	<tp:bsc_iron_spade>,
-	<tp:bsc_rod>,
-	<tp:nether_diamond_hoe>,
-	<tp:bsc_diamond_pickaxe>,
-	<tp:nether_axe>,
-	<tp:nether_diamond_pickaxe>,
-	<tp:nether_gold_spade>,
-	<tp:nether_iron_pickaxe>,
-	<tp:nether_diamond_axe>,
-	<tp:nether_iron_hoe>,
-	<tp:nether_gold_pickaxe>,
-	<tp:bsc_iron_axe>,
-	<tp:nether_pickaxe>,
-	<tp:nether_iron_sword>,
-	<tp:bsc_gold_hoe>,
-	<tp:bsc_iron_hoe>,
-	<tp:bsc_diamond_axe>,
-	<tp:nether_iron_spade>,
-	<tp:nether_gold_axe>,
-	<tp:nether_diamond_spade>,
-	<tp:nether_diamond_sword>,
-	<tp:bsc_gold_axe>,
-	<tp:nether_gold_hoe>,
-	<tp:nether_sword>,
-	<tp:bsc_diamond_hoe>,
 
 	//Not configurable and allows for exploits
 	<mekanism:cardboardbox>,
 
+	<thermalfoundation:material:512>,
 	<thermalfoundation:material:513>,
 	<thermalfoundation:material:514>,
 
 	<thermalfoundation:glass_alloy:4>,
 	<thermalfoundation:glass:7>,
-	<thermalfoundation:glass:8>
+	<thermalfoundation:glass:8>,
+	<huntingdim:frame>,
+	<huntingdim:portal>
 
 
 

@@ -43,6 +43,7 @@ static removeRecipes as IItemStack[] = [
 static removeRegex as string[] = [
     "thermalfoundation:fertilizer_2",
     "thermalfoundation:fertilizer_3",
+    "thermalfoundation:block_dirt",
 ];
 
 
