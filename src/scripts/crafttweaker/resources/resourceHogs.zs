@@ -7,7 +7,7 @@
 */
 import crafttweaker.item.IItemStack;
 
-// TODO: Run this after metals unification and utilize the metals oredict/map
+// TODO: Run this after resources unification and utilize the resources oredict/map
 global baconResourceMap as IItemStack[IItemStack] = {
 };
 global truffleResourceMap as IItemStack[IItemStack] = {
