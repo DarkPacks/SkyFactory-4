@@ -14,22 +14,18 @@ function init() {
 	for bacon, resourceOutput in baconResourceMap {
 		integratedDynamics.addSqueezerBoth(bacon, resourceOutput, null);
 	}
+
+	//Add missing AE2 grindstone recipes
+	//FirstNecron add the entries to other crushers that do not have these please
+	integratedDynamics.addSqueezerBoth(<minecraft:ender_pearl>, <appliedenergistics2:material:46>, 1.0);
+	integratedDynamics.addSqueezerBoth(<thermalfoundation:material:895>, <appliedenergistics2:material:46>, 1.0);
+	integratedDynamics.addSqueezerBoth(<appliedenergistics2:material:7>, <appliedenergistics2:material:8>, 1.0);
 }
 
 /*
-Squeezer.addRecipe(<minecraft:pumpkin>, 
+Squeezer.addRecipe(<minecraft:pumpkin>,
     <minecraft:pumpkin_seeds>, 0.2, <minecraft:iron_nugget>, 0.01, <minecraft:cactus>, 0.5);
 
-MechanicalSqueezer.addRecipe(<minecraft:pumpkin>, 
+MechanicalSqueezer.addRecipe(<minecraft:pumpkin>,
 	<minecraft:pumpkin_seeds>, 0.2,<minecraft:iron_nugget>, 0.01, <minecraft:cactus>, 0.5);
 */
-
-//Add missing AE2 grindstone recipes
-//FirstNecron add the entries to other crushers that do not have these please
-Squeezer.addRecipe(<minecraft:ender_pearl>, <appliedenergistics2:material:46>, 1.0);
-Squeezer.addRecipe(<thermalfoundation:material:895>, <appliedenergistics2:material:46>, 1.0);
-Squeezer.addRecipe(<appliedenergistics2:material:7>, <appliedenergistics2:material:8>, 1.0);
-
-MechanicalSqueezer.addRecipe(<minecraft:ender_pearl>, <appliedenergistics2:material:46>, 1.0);
-MechanicalSqueezer.addRecipe(<thermalfoundation:material:895>, <appliedenergistics2:material:46>, 1.0);
-MechanicalSqueezer.addRecipe(<appliedenergistics2:material:7>, <appliedenergistics2:material:8>, 1.0);
