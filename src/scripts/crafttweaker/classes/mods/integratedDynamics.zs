@@ -48,15 +48,45 @@ zenClass IntegratedDynamics {
 	/*
 		Add a Squeezer recipe.
 	*/
+	function addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack) {
+		addSqueezer(mechanicalRecipe, inputStack, null, 1.0, null, 1.0, null, 1.0, null);
+	}
+	function addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack as IItemStack) {
+		addSqueezer(mechanicalRecipe, inputStack, outputStack, 1.0, null, 1.0, null, 1.0, null);
+	}
 	function addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack as IItemStack, outputFluid as ILiquidStack) {
 		addSqueezer(mechanicalRecipe, inputStack, outputStack, 1.0, null, 1.0, null, 1.0, outputFluid);
+	}
+
+	/*
+		1 Output with chance Squeezer Recipes
+	*/
+	function addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack as IItemStack, outputStackChance as float) {
+		addSqueezer(mechanicalRecipe, inputStack, outputStack, outputStackChance, null, 1.0, null, 1.0, null);
 	}
 	function addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack as IItemStack, outputStackChance as float, outputFluid as ILiquidStack) {
 		addSqueezer(mechanicalRecipe, inputStack, outputStack, outputStackChance, null, 1.0, null, 1.0, outputFluid);
 	}
+
+	/*
+		2 Output Squeezer Recipes
+	*/
+	function addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
+		outputStack2 as IItemStack, outputStackChance2 as float) {
+			addSqueezer(mechanicalRecipe, inputStack, outputStack1, outputStackChance1, outputStack2, outputStackChance2, null, 1.0);
+	}
 	function addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
 		outputStack2 as IItemStack, outputStackChance2 as float, outputFluid as ILiquidStack) {
 			addSqueezer(mechanicalRecipe, inputStack, outputStack1, outputStackChance1, outputStack2, outputStackChance2, null, 1.0, outputFluid);
+	}
+
+	/*
+		3 output Squeezer recipes
+	*/
+	function addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
+		outputStack2 as IItemStack, outputStackChance2 as float, outputStack3 as IItemStack, outputStackChance3 as float) {
+
+		addSqueezer(mechanicalRecipe, inputStack, outputStack1, outputStackChance1, outputStack2, outputStackChance2, null, 1.0, null);
 	}
 	function addSqueezer(mechanicalRecipe as bool, inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
 		outputStack2 as IItemStack, outputStackChance2 as float, outputStack3 as IItemStack, outputStackChance3 as float, outputFluid as ILiquidStack) {
@@ -85,15 +115,48 @@ zenClass IntegratedDynamics {
 		}
 	}
 
+	/*
+		Add a Squeezer recipe to both mechanical and manual.
+	*/
+	function addSqueezerBoth(inputStack as IItemStack) {
+		addSqueezerBoth(inputStack, null, 1.0, null, 1.0, null, 1.0, null);
+	}
+	function addSqueezerBoth(inputStack as IItemStack, outputStack as IItemStack) {
+		addSqueezerBoth(inputStack, outputStack, 1.0, null, 1.0, null, 1.0, null);
+	}
 	function addSqueezerBoth(inputStack as IItemStack, outputStack as IItemStack, outputFluid as ILiquidStack) {
 		addSqueezerBoth(inputStack, outputStack, 1.0, null, 1.0, null, 1.0, outputFluid);
+	}
+
+	/*
+		1 Output with chance Squeezer Recipes
+	*/
+	function addSqueezerBoth(inputStack as IItemStack, outputStack as IItemStack, outputStackChance as float) {
+		addSqueezerBoth(inputStack, outputStack, outputStackChance, null, 1.0, null, 1.0, null);
 	}
 	function addSqueezerBoth(inputStack as IItemStack, outputStack as IItemStack, outputStackChance as float, outputFluid as ILiquidStack) {
 		addSqueezerBoth(inputStack, outputStack, outputStackChance, null, 1.0, null, 1.0, outputFluid);
 	}
+
+	/*
+		2 Output Squeezer Recipes
+	*/
+	function addSqueezerBoth(inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
+		outputStack2 as IItemStack, outputStackChance2 as float) {
+			addSqueezerBoth(inputStack, outputStack1, outputStackChance1, outputStack2, outputStackChance2, null, 1.0);
+	}
 	function addSqueezerBoth(inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
 		outputStack2 as IItemStack, outputStackChance2 as float, outputFluid as ILiquidStack) {
 			addSqueezerBoth(inputStack, outputStack1, outputStackChance1, outputStack2, outputStackChance2, null, 1.0, outputFluid);
+	}
+
+	/*
+		3 output Squeezer recipes
+	*/
+	function addSqueezerBoth(inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
+		outputStack2 as IItemStack, outputStackChance2 as float, outputStack3 as IItemStack, outputStackChance3 as float) {
+
+		addSqueezerBoth(inputStack, outputStack1, outputStackChance1, outputStack2, outputStackChance2, null, 1.0, null);
 	}
 	function addSqueezerBoth(inputStack as IItemStack, outputStack1 as IItemStack, outputStackChance1 as float,
 		outputStack2 as IItemStack, outputStackChance2 as float, outputStack3 as IItemStack, outputStackChance3 as float, outputFluid as ILiquidStack) {
