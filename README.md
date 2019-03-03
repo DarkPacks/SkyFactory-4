@@ -8,7 +8,7 @@ List of priorities used for creation of ZenScript files to ensure the load order
 | Number/Range      | Type                          | Notes             |
 | :---------------: | :---------------------------: | :---------------: |
 | 4100              | Environment Setup             | 
-| 4050              | Util Script Setup             |
+| 4049 - 4050       | Util Script Setup             |
 | 4000              | Pre Init                      |
 | 3500 - 3999       | Stage Setup                   |
 | 3000 - 3499       | Classes                       |
