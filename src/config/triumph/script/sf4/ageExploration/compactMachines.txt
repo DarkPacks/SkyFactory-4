@@ -14,6 +14,9 @@ criteria.setDimensionDestination("CompactMachines")
 
 setRewardExperience(16)
 
+//Giving players overworld cakes because I know for sure they won't read and bring one themselves
+setRewardFunction("triumph:give_cake")
+
 hideLines()
 alwaysVisible()
 setPos(7,219)

@@ -1,0 +1,18 @@
+setTitle("Egg Hunt")
+
+setIcon(<minecraft:spawn_egg>)
+
+setDescription("Feed an Adult Chicken a bag of Chicken Feed and collect its Spawn Egg")
+
+addParent("sf4:ageFarming/chickenFeed")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Mob DNA", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:spawn_egg>)
+
+setRewardExperience(6)
+
+alwaysVisible()
+setPos(166,387)

@@ -278,7 +278,102 @@ static removeAndHideIngredients as IIngredient[] = [
 	<extracells:part.base:9>,
 
 	//Why doesn't my drying rack work? Because you're not using the drying rack. You're using the display rack
-	<tconstruct:rack>
+	<tconstruct:rack>,
+
+	<deepmoblearning:book>,
+
+	//Hiding extras 
+	//These are extra items that either have a duplicate in another mod
+	//or have no use
+	<bibliocraft:bookcase>,
+	<bibliocraft:bookcase:1>,
+	<bibliocraft:bookcase:2>,
+	<bibliocraft:bookcase:3>,
+	<bibliocraft:bookcase:4>,
+	<bibliocraft:bookcase:5>,
+	<bibliocraft:bookcase:6>,
+	<bibliocraft:framedchest>,
+	<bibliocraft:framedchest:1>,
+	<bibliocraft:framedchest:2>,
+	<bibliocraft:framedchest:3>,
+	<bibliocraft:framedchest:4>,
+	<bibliocraft:framedchest:5>,
+	<bibliocraft:framedchest:6>,
+
+	<thermalfoundation:material:27>,
+	<thermalfoundation:material:256>,
+	<thermalfoundation:material:257>,
+	<thermalfoundation:material:258>,
+	<thermalfoundation:material:259>,
+	<thermalfoundation:material:260>,
+	<thermalfoundation:material:261>,
+	<thermalfoundation:material:262>,
+	<thermalfoundation:material:263>,
+	<thermalfoundation:material:264>,
+	<thermalfoundation:material:288>,
+	<thermalfoundation:material:291>,
+	<thermalfoundation:material:292>,
+	<thermalfoundation:material:294>,
+	<thermalfoundation:dye>,
+	<thermalfoundation:dye:1>,
+	<thermalfoundation:dye:2>,
+	<thermalfoundation:dye:3>,
+	<thermalfoundation:dye:4>,
+	<thermalfoundation:dye:5>,
+	<thermalfoundation:dye:6>,
+	<thermalfoundation:dye:7>,
+	<thermalfoundation:dye:8>,
+	<thermalfoundation:dye:9>,
+	<thermalfoundation:dye:10>,
+	<thermalfoundation:dye:11>,
+	<thermalfoundation:dye:12>,
+	<thermalfoundation:dye:13>,
+	<thermalfoundation:dye:14>,
+	<thermalfoundation:dye:15>,
+	<thermalfoundation:security>,
+	<thermalfoundation:geode>,
+	<thermalfoundation:material:865>,
+	<thermalfoundation:material:866>,
+	<thermalfoundation:material:816>,
+	<thermalfoundation:material:817>,
+	<thermalfoundation:material:818>,
+	<thermalfoundation:material:819>,
+	<thermalfoundation:material:832>,
+	<thermalfoundation:material:833>,
+
+	//No.
+	<compactstorage:barrel>,
+	<compactstorage:barrel_fluid>,
+
+	//Not needed
+	<pickletweaks:constantan_paxel>,
+	<pickletweaks:copper_sword>,
+	<pickletweaks:copper_pickaxe>,
+	<pickletweaks:copper_shovel>,
+	<pickletweaks:copper_axe>,
+	<pickletweaks:copper_hoe>,
+	<pickletweaks:bronze_sword>,
+	<pickletweaks:bronze_pickaxe>,
+	<pickletweaks:bronze_shovel>,
+	<pickletweaks:bronze_axe>,
+	<pickletweaks:bronze_hoe>,
+	<pickletweaks:hammer>,
+
+	//Not configurable and allows for exploits
+	<mekanism:cardboardbox>,
+
+	<thermalfoundation:material:512>,
+	<thermalfoundation:material:513>,
+	<thermalfoundation:material:514>,
+
+	<thermalfoundation:glass_alloy:4>,
+	<thermalfoundation:glass:7>,
+	<thermalfoundation:glass:8>,
+	<huntingdim:frame>,
+	<huntingdim:portal>
+
+
+
 ];
 
 function init() {

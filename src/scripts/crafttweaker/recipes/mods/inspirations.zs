@@ -47,9 +47,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
     ],
     <inspirations:mulch:6> * 2: [
         [
-            [null, <industrialforegoing:artificial_dye:15>, null], 
+            [null, <minecraft:dye>, null], 
             [<darkutils:material>, <inspirations:mulch:4>, <darkutils:material>], 
-            [null, <industrialforegoing:artificial_dye:15>, null]
+            [null, <minecraft:dye>, null]
         ]
     ]
 };
