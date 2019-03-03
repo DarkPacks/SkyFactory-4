@@ -8,6 +8,8 @@
 	https://github.com/turbodiesel4598/NuclearCraft/blob/master/craftTweaker.txt
 */
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
 
 import mods.nuclearcraft.alloy_furnace as alloyFurnace;
 import mods.nuclearcraft.centrifuge;
@@ -55,5 +57,74 @@ zenClass NuclearCraft {
 	}
 	function removeManufactoryOutput(itemOutput as IIngredient) {
 		manufactory.removeRecipeWithOutput([itemOutput]);
+	}
+
+	/*
+		Add an Ingot Former recipe
+	*/
+	function addIngotFormer(liquidInput as ILiquidStack, itemOutput as IItemStack) {
+		ingotFormer.addRecipe([liquidInput, itemOutput]);
+	}
+	function addIngotFormer(liquidInput as ILiquidStack, itemOutput as IItemStack, timeMultiplier as double, powerMultiplier as double, processRadiation as double) {
+		ingotFormer.addRecipe([liquidInput, itemOutput, timeMultiplier, powerMultiplier, processRadiation]);
+	}
+
+	/*
+		Remove an Ingot Former recipe
+	*/
+	function removeIngotFormerInput(input as ILiquidStack) {
+		ingotFormer.removeRecipeWithInput([input]);
+	}
+	function removeIngotFormerOutput(output as IItemStack) {
+		ingotFormer.removeRecipeWithOutput([output]);
+	}
+	function removeIngotFormerAll() {
+		ingotFormer.removeAllRecipes();
+	}
+
+	/*
+		Add a Melter recipe
+	*/
+	function addMelter(itemInput as IItemStack, liquidOutput as ILiquidStack) {
+		melter.addRecipe([itemInput, liquidOutput]);
+	}
+	function addMelter(itemInput as IItemStack, liquidOutput as ILiquidStack, timeMultiplier as double, powerMultiplier as double, processRadiation as double) {
+		melter.addRecipe([itemInput, liquidOutput, timeMultiplier, powerMultiplier, processRadiation]);
+	}
+
+	/*
+		Remove a Melter recipe
+	*/
+	function removeMelterInput(input as IItemStack) {
+		melter.removeRecipeWithInput([input]);
+	}
+	function removeMelterOutput(output as ILiquidStack) {
+		melter.removeRecipeWithOutput([output]);
+	}
+	function removeMelterAll() {
+		melter.removeAllRecipes();
+	}
+
+	/*
+		Adds a Pressurizer recipe
+	*/
+	function addPressurizer(itemInput as IItemStack, itemOutput as IItemStack) {
+		pressurizer.addRecipe([itemInput, itemOutput]);
+	}
+	function addPressurizer(itemInput as IItemStack, itemOutput as IItemStack, timeMultiplier as double, powerMultiplier as double, processRadiation as double) {
+		pressurizer.addRecipe([itemInput, itemOutput, timeMultiplier, powerMultiplier, processRadiation]);
+	}
+
+	/*
+		Remove a Pressurizer recipe
+	*/
+	function removePressurizerInput(input as IItemStack) {
+		melter.removeRecipeWithInput([input]);
+	}
+	function removePressurizerOutput(output as IItemStack) {
+		melter.removeRecipeWithOutput([output]);
+	}
+	function removePressurizer() {
+		melter.removeAllRecipes();
 	}
 }
