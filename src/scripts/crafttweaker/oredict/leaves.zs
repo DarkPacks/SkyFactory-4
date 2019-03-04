@@ -15,9 +15,13 @@ var wildcardLeaves as IItemStack[] = [
 ];
 
 for wildcardLeaf in wildcardLeaves {
-	<ore:treeLeaves>.remove(wildcardLeaf);
+	if (!(<ore:treeLeaves>.empty) & <ore:treeLeaves> has wildcardLeaf) {
+		<ore:treeLeaves>.remove(wildcardLeaf);
+	}
 
 	for subItem in wildcardLeaf.definition.subItems {
-		<ore:treeLeaves>.add(subItem);
+		if (!(<ore:treeLeaves> has subItem)) {
+			<ore:treeLeaves>.add(subItem);
+		}
 	}
 }
