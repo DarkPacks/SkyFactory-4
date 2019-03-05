@@ -1,4 +1,4 @@
-setTitle("Calculation Press")
+setTitle("Neeeeeeeeerrrrrrrd!")
 
 setIcon(<appliedenergistics2:material:13>)
 

@@ -1,4 +1,4 @@
-setTitle("Cobalt Ore")
+setTitle("I Can't Believe It's Not Lapis")
 
 setIcon(<tconstruct:ore>)
 

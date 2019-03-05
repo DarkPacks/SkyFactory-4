@@ -1,4 +1,4 @@
-setTitle("Silicon Press")
+setTitle("Silicon Valley")
 
 setIcon(<appliedenergistics2:material:19>)
 

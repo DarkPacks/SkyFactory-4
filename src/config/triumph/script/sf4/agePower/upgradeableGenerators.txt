@@ -1,4 +1,4 @@
-setTitle("Upgradable Generator")
+setTitle("Level Up!")
 
 setIcon(<simplegenerators:combustion_upgradable>)
 

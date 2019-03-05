@@ -1,4 +1,4 @@
-setTitle("Ardite Ore")
+setTitle("Ardite Amirite")
 
 setIcon(<tconstruct:ore:1>)
 

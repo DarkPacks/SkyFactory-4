@@ -218,3 +218,15 @@ function init() {
 	// When the button is set to enabled
 	prestige.addPrestigeEnabledGamestage(stages.parabox);
 }
+
+
+/*
+mods.prestige.Rewards.registerRewardCondition("mystcraft", function(world as IWorld, player as IPlayer){
+    return player.dimension == 0;
+});
+*/
+
+mods.prestige.Rewards.registerRewardCondition("mystcraft", function(world as IWorld, player as IPlayer){
+print(world.worldInfo.generatorOptions );
+    return world.worldInfo.generatorOptions == "xyz";
+});

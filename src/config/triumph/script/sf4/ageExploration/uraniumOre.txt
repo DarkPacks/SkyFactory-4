@@ -1,4 +1,4 @@
-setTitle("Uranium Ore")
+setTitle("Uranium Fever")
 
 setIcon(<nuclearcraft:ore:4>)
 

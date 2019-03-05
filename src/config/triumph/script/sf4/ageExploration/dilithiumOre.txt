@@ -1,4 +1,4 @@
-setTitle("Dilithium Ore")
+setTitle("Even Scotty Doesn't Know")
 
 setIcon(<matteroverdrive:dilithium_ore>)
 

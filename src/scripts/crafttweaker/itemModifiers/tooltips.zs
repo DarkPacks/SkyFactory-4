@@ -65,7 +65,7 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
 		format.yellow("Growth Rate: 200% Drop Chance: 170%")
 	],
-	<inspirations:mulch:7>: [
+	<inspirations:mulch:4>: [
 		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
 		format.yellow("Growth Rate: 250% Drop Chance: 200%")
 	],
@@ -73,11 +73,11 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
 		format.yellow("Growth Rate: 333% Drop Chance: 240%")
 	],
-	<inspirations:mulch:4>: [
+	<inspirations:mulch:6>: [
 		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
 		format.yellow("Growth Rate: 500% Drop Chance: 290%")
 	],
-	<inspirations:mulch:6>: [
+	<inspirations:mulch:7>: [
 		format.yellow("Upgrades Bonsai Growth and Loot Drops"),
 		format.yellow("Growth Rate: 1000% Drop Chance: 350%")
 	],

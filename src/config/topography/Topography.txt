@@ -44,8 +44,9 @@ SF4.registerDimension(0, "SF4/stone_cage")
 SF4.registerDimension(-1, "SF4/nether/nether_stone_cage")
 SF4.registerDimension(1, "SF4/end/end_stone_cage")
 
-SF4 = registerPreset("Observatory", "images/AstralSorcery", "Spawn an Astral Sorcery Observatory")
+SF4 = registerPreset("ObservaTree", "images/AstralSorcery", "Spawn an Astral Sorcery Observatory")
 SF4.registerDimension(0, "SF4/astral_sorcery")
+SF4.registerDimension(-1, "SF4/nether/nether_cell")
 
 SF4 = registerPreset("Sky Village", "images/Villagemk2", "Spawn inside a small village with a Dirt Tree")
 SF4.registerDimension(0, "SF4/village")

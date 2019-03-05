@@ -24,32 +24,32 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [null, <mekanism:biofuel>, null]
         ]
     ],
-    <inspirations:mulch:7> * 2: [
+    <inspirations:mulch:4> * 2: [
         [
-            [null, <mekanism:substrate>, null], 
-            [<mekanism:polyethene>, <inspirations:mulch:3>, <mekanism:polyethene>], 
-            [null, <mekanism:substrate>, null]
+            [null, <industrialforegoing:fertilizer>, null], 
+            [<industrialforegoing:fertilizer>, <inspirations:mulch:3>, <industrialforegoing:fertilizer>], 
+            [null, <industrialforegoing:fertilizer>, null]
         ]
     ],
     <inspirations:mulch:5> * 2: [
         [
-            [null, <mekanism:polyethene:2>, null], 
-            [<mekanism:polyethene:1>, <inspirations:mulch:7>, <mekanism:polyethene:1>], 
-            [null, <mekanism:polyethene:2>, null]
-        ]
-    ],
-    <inspirations:mulch:4> * 2: [
-        [
-            [null, <industrialforegoing:fertilizer>, null], 
-            [<industrialforegoing:fertilizer>, <inspirations:mulch:5>, <industrialforegoing:fertilizer>], 
-            [null, <industrialforegoing:fertilizer>, null]
+            [null, <mekanism:substrate>, null], 
+            [<mekanism:polyethene>, <inspirations:mulch:4>, <mekanism:polyethene>], 
+            [null, <mekanism:substrate>, null]
         ]
     ],
     <inspirations:mulch:6> * 2: [
         [
-            [null, <minecraft:dye>, null], 
-            [<darkutils:material>, <inspirations:mulch:4>, <darkutils:material>], 
-            [null, <minecraft:dye>, null]
+            [null, <mekanism:polyethene:2>, null], 
+            [<mekanism:polyethene:1>, <inspirations:mulch:5>, <mekanism:polyethene:1>], 
+            [null, <mekanism:polyethene:2>, null]
+        ]
+    ],
+    <inspirations:mulch:7> * 2: [
+        [
+            [null, <tconstruct:materials:10>, null], 
+            [<darkutils:material>, <inspirations:mulch:6>, <darkutils:material>], 
+            [null, <tconstruct:materials:10>, null]
         ]
     ]
 };

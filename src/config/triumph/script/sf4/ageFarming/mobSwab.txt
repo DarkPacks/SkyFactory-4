@@ -1,4 +1,4 @@
-setTitle("Swab")
+setTitle("Swab the Deck")
 
 setIcon(<mob_grinding_utils:mob_swab:1>)
 

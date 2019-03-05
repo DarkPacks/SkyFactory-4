@@ -1,4 +1,4 @@
-setTitle("Uncrafting Grinder")
+setTitle("Ctrl-Z")
 
 setIcon(<cyclicmagic:uncrafting_block>)
 

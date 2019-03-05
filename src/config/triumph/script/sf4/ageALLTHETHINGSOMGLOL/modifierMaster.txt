@@ -1,4 +1,4 @@
-setTitle("Modifer Master")
+setTitle("Modifier Master")
 
 setIcon(<tconstruct:materials:14>)
 

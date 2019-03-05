@@ -1,4 +1,4 @@
-setTitle("Simple Generator")
+setTitle("Generator, I Hardly Know Her")
 
 setIcon(<simplegenerators:combustion_simple>)
 

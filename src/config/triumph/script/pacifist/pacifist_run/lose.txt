@@ -8,6 +8,7 @@ addParent("pacifist:pacifist_run/root")
 setRequiresParents()
 
 hideLines()
+alwaysHidden()
 setHidden(true)
 
 //Criteria
@@ -18,3 +19,4 @@ setRewardExperience(4)
 setRewardFunction("triumph:pacifist_lost")
 setRewardFunction("triumph:difficulty_normal")
 setRewardItem(<minecraft:paper,ore:paper,meta:0,count:1,nbt:{RepairCost:0,display:{Name:"Murderer"}}>)
+setPos(32,24)

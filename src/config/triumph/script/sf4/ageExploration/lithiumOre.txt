@@ -1,4 +1,4 @@
-setTitle("Lithium Ore")
+setTitle("Smells Like Nirvana")
 
 setIcon(<nuclearcraft:ore:6>)
 

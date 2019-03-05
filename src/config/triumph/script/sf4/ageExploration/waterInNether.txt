@@ -18,5 +18,11 @@ criteria2.setDimID(-1)
 setRewardExperience(16)
 
 hiddenIf("hardcore:hardcore/root")
+hiddenIf("skygrid:skygrid/root")
+hiddenIf("amplified:amplified/root")
+hiddenIf("default:default/root")
+hiddenIf("large_biomes:large_biomes/root")
+hiddenIf("lost_cities:lost_cities/root")
+hiddenIf("customized:customized/root")
 
 setPos(33,185)

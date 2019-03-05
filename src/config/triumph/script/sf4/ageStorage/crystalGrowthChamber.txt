@@ -1,4 +1,4 @@
-setTitle("Crystal Growth Chamber")
+setTitle("Pop Rocks")
 
 setIcon(<ae2stuff:grower>)
 

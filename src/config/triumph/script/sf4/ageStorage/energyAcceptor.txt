@@ -1,4 +1,4 @@
-setTitle("Energy Acceptor")
+setTitle("Accepting Your True Power")
 
 setIcon(<appliedenergistics2:energy_acceptor>)
 

@@ -163,6 +163,13 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 				[<tconstruct:edible:1>, <deepmoblearning:data_model_blank>, <tconstruct:edible:1>]
 			]
 		]
+	},
+	<deepmoblearning:data_model_mo_android>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 6}): {
+		Utils.genRecipeName(stages.pacifist): [
+			[
+				[<deepmoblearning:polymer_clay>, <deepmoblearning:data_model_blank>, <deepmoblearning:polymer_clay>]
+			]
+		]
 	}
 };
 

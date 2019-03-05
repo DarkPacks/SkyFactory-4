@@ -1,4 +1,4 @@
-setTitle("Third Times the Charm")
+setTitle("Third Time's the Charm")
 
 setIcon(<nuclearcraft:fusion_core>)
 

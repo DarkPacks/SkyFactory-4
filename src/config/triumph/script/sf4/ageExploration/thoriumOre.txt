@@ -1,4 +1,4 @@
-setTitle("Thorium Ore")
+setTitle("Thorium's Hammer")
 
 setIcon(<nuclearcraft:ore:3>)
 

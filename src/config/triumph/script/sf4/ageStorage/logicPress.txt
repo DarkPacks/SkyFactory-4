@@ -1,4 +1,4 @@
-setTitle("Logic Press")
+setTitle("That is Illogical")
 
 setIcon(<appliedenergistics2:material:15>)
 

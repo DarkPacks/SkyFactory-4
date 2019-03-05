@@ -391,5 +391,153 @@
   {
     "mob": "matteroverdrive:ranged_rogue_android",
     "remove": "matteroverdrive:energy_pack"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:leather_helmet"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:leather_chestplate"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:leather_leggings"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:leather_boots"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:golden_helmet"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:golden_chestplate"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:golden_leggings"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:golden_boots"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:chainmail_helmet"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:chainmail_chestplate"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:chainmail_leggings"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:chainmail_boots"
+  },
+  {
+    "mob": "Witch",
+    "remove": "minecraft:stick"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:bow"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:leather_helmet"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:leather_chestplate"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:leather_leggings"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:leather_boots"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:golden_helmet"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:golden_chestplate"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:golden_leggings"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:golden_boots"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:chainmail_helmet"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:chainmail_chestplate"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:chainmail_leggings"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:chainmail_boots"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "remove": "minecraft:golden_sword"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "remove": "minecraft:gold_ingot"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "item": "resourcehogs:bacon/{ResourceType: \"gold\"}",
+    "random": 0.08,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "item": "resourcehogs:bacon/{ResourceType: \"gold\"}",
+    "random": 0.12,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "item": "resourcehogs:bacon/{ResourceType: \"gold\"}",
+    "random": 0.16,
+    "itemcount": "0/0/1-3"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "item": "tconstruct:edible",
+    "random": 0.12,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "item": "tconstruct:edible",
+    "random": 0.16,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "item": "tconstruct:edible",
+    "random": 0.20,
+    "itemcount": "0/0/1-4"
   }
 ]

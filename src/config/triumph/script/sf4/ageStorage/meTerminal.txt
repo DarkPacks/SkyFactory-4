@@ -1,4 +1,4 @@
-setTitle("ME Terminal")
+setTitle("Windows ME")
 
 setIcon(<appliedenergistics2:part:380>)
 

@@ -1,4 +1,4 @@
-setTitle("Logic Processor")
+setTitle("Live Long and Processor")
 
 setIcon(<appliedenergistics2:material:22>)
 

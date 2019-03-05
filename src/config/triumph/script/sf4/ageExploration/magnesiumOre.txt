@@ -1,4 +1,4 @@
-setTitle("Magnesium Ore")
+setTitle("Light up Your Night")
 
 setIcon(<nuclearcraft:ore:7>)
 

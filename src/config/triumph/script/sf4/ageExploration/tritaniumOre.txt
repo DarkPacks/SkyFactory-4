@@ -1,4 +1,4 @@
-setTitle("Tritanium Ore")
+setTitle("You're Tritanium to Bring Me Down")
 
 setIcon(<matteroverdrive:tritanium_ore>)
 
