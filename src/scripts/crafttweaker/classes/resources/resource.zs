@@ -223,8 +223,10 @@ zenClass Resource {
 		}
 
 		for ore in oreOreDict.items {
-			astralSorcery.addGrindstone(ore, this.parts.dust, 0.85);
-			mekanism.addCrusher(ore, this.parts.dust);
+			if (hasPart("dust")) {
+				astralSorcery.addGrindstone(ore, this.parts.dust, 0.85);
+				mekanism.addCrusher(ore, this.parts.dust);
+			}
 		}
 	}
 
