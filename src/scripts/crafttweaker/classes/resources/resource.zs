@@ -158,6 +158,14 @@ zenClass Resource {
 			return null;
 		}
 
+		if (hasPart("block")) {
+			recipes.addShaped(this.parts.block, craftingUtils.create3By3(this.parts.ingot));
+		}
+
+		if (hasPart("nugget")) {
+			recipes.addShapeless(this.parts.nugget * 9, [this.parts.ingot]);
+		}
+
 		if (hasPart("plate")) {
 			practicalLogistics.addHammer(this.parts.plate, this.parts.ingot * 2);
 			nuclearCraft.addPressurizer(this.parts.plate, this.parts.ingot);
@@ -174,6 +182,7 @@ zenClass Resource {
 		}
 
 		if (hasPart("ingot")) {
+			recipes.addShaped(this.parts.ingot, craftingUtils.create3By3(this.parts.nugget));
 			cyclic.addPackager(this.parts.ingot, this.parts.nugget * 9);
 		}
 
@@ -195,6 +204,10 @@ zenClass Resource {
 
 		if (hasLiquid()) {
 			nuclearCraft.addMelter(this.parts.block, this.liquid * 1296);
+		}
+
+		if (hasPart("ingot")) {
+			recipes.addShapeless(this.parts.ingot * 9, [this.parts.block]);
 		}
 	}
 
