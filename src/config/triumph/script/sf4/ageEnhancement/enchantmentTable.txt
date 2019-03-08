@@ -15,4 +15,4 @@ criteria.addItem(<minecraft:enchanting_table>)
 setRewardExperience(8)
 
 alwaysVisible()
-setPos(25,121)
+setPos(32,141)

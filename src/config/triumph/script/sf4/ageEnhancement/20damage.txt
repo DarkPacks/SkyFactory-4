@@ -15,4 +15,4 @@ damage.setDealtMin(20)
 setRewardExperience(20)
 
 alwaysVisible()
-setPos(9,85)
+setPos(-62,158)

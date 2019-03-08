@@ -15,4 +15,4 @@ criteria.addItem(<yoyos:yoyo>)
 setRewardExperience(8)
 
 alwaysVisible()
-setPos(140,204)
+setPos(133,204)

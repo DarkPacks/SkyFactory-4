@@ -18,4 +18,4 @@ criteria1.addItem(<tcomplement:melter>)
 setRewardExperience(8)
 
 alwaysVisible()
-setPos(34,85)
+setPos(32,71)

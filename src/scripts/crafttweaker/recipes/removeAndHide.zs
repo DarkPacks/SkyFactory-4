@@ -199,8 +199,6 @@ static removeAndHideIngredients as IIngredient[] = [
 	<tombstone:fake_fog>,
 	<tombstone:soul>,
 	<torchmaster:mega_torch:1>,
-	<tcomplement:porcelain_melter:8>,
-	<tcomplement:melter:8>,
 	<nuclearcraft:ore>,
 	<nuclearcraft:ore:1>,
 	<nuclearcraft:ore:2>,

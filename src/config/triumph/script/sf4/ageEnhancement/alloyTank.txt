@@ -16,4 +16,4 @@ criteria.addItem(<tcomplement:porcelain_alloy_tank>)
 setRewardExperience(8)
 
 alwaysVisible()
-setPos(84,85)
+setPos(57,71)

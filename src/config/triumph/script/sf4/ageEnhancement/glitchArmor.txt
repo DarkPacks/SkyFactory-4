@@ -21,4 +21,4 @@ criteria3.addItem(<deepmoblearning:glitch_infused_boots>)
 setRewardExperience(8)
 
 alwaysVisible()
-setPos(0,121)
+setPos(57,141)

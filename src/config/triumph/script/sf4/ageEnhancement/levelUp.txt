@@ -15,4 +15,4 @@ criteria.addItem(<nbt:{Modifiers: [{identifier: "toolleveling", level: 2}]}>)
 setRewardExperience(8)
 
 alwaysVisible()
-setPos(-16,85)
+setPos(-37,158)
