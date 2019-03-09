@@ -24,6 +24,12 @@ SF4 = registerPreset("Lostcities", "images/LostCities", "A world full of glass b
 
 SF4 = registerPreset("Flat", "images/Flat", "Vanilla Flat World Type", "flat")
 
+SF4 = registerPreset("SkyFactory Tutorial", "images/SF4mk2", "Classic Sky Factory world with Tutorial Advancements to help players learn how to play")
+SF4.registerDimension(0, "SF4/tutorial")
+SF4.registerDimension(-1, "SF4/nether/nether_cell")
+SF4.setDifficulty(1)
+SF4.lockDifficulty()
+
 SF4 = registerPreset("Peace Out", "images/SF4mk2", "Standard world made for a Pacifist Run. Mobs will not drop loot. If you kill a mob, you will lose the run")
 SF4.registerDimension(0, "SF4/dirt_tree")
 SF4.registerDimension(-1, "SF4/nether/nether_cell")

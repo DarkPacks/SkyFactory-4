@@ -1,0 +1,19 @@
+setTitle("Drying Rack")
+
+setIcon(<tconstruct:rack:1>)
+
+setDescription("Drying Rack")
+
+addParent("tutorial:tutorial/placeDirtSapling")
+
+//drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Oak Wood Planks", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:rack:1>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(187,94)

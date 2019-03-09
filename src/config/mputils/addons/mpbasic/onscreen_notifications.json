@@ -20,6 +20,13 @@
         "§c§nBoom!!!",
         "§eDid I scare you?"
       ]
+    },
+    {
+      "id": "open_advancements",
+      "lines": [
+        "§c§nWelcome",
+        "§ePress L to open the Advancements"
+      ]
     }
   ]
 }

@@ -1,0 +1,21 @@
+setTitle("Place Dirt Sapling")
+
+setIcon(<minecraft:dirt>)
+
+setDescription("Place your Dirt Sapling on the Dirt Block to grow a new tree")
+
+addParent("tutorial:tutorial/dirtSapling")
+
+drawDirectLines(true)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("Placed Oak Planks", "minecraft:placed_block")
+criteria.setBlock(<sky_orchards:sapling_dirt>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(32,35)

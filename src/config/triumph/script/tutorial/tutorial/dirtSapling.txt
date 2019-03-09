@@ -1,0 +1,19 @@
+setTitle("Dirt Sapling")
+
+setIcon(<sky_orchards:sapling_dirt>)
+
+setDescription("Using your Wooden Crook to break leaves. Obtain a Dirt Sapling")
+
+addParent("tutorial:tutorial/woodenCrook")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain a Dirt Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_dirt>)
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(32,-7)
