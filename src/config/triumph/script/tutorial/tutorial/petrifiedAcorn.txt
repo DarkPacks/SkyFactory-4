@@ -2,7 +2,7 @@ setTitle("Petrified Acorn")
 
 setIcon(<sky_orchards:acorn_petrified>)
 
-setDescription("Petrified Acorn")
+setDescription("The next tree you will need to create is the Petrified Tree. You can craft the sapling by surrounding a Dirt Sapling with 8 Petrified Acorns in a Crafting Table. To create Petrified Acorns hang Dirt Acorns on a Drying Rack and wait")
 
 addParent("tutorial:tutorial/dryingRack")
 
