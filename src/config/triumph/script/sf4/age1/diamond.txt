@@ -6,6 +6,9 @@ setDescription("Obtain a Diamond!")
 
 addParent("sf4:age1/diamondSapling")
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 drawDirectLines(true)
 
 criteria = addCriteria("Obtain Diamond", "minecraft:inventory_changed")
@@ -13,5 +16,4 @@ criteria.addItem(<minecraft:diamond>)
 
 setRewardExperience(6)
 
-alwaysVisible()
-setPos(76,210)
+setPos(76,207)

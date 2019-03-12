@@ -8,6 +8,9 @@ addParent("sf4:age1/root")
 
 drawDirectLines(true)
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 //Criteria
 criteria = addCriteria("Obtain Dirt Sapling", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_dirt>)
@@ -16,5 +19,4 @@ criteria.addItem(<sky_orchards:sapling_dirt>)
 setRewardExperience(4)
 
 hideLines()
-alwaysVisible()
 setPos(-316,42)

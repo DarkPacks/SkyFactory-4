@@ -1,1 +1,1 @@
-gamestage add @p forgiving_void
+gamestage silentadd @p forgiving_void

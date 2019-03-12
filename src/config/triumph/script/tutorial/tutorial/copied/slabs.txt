@@ -1,0 +1,31 @@
+setTitle("Stop Slabbing Yourself")
+
+setIcon(<slabmachines:crafting_station_slab>)
+
+setDescription("Save space and craft a Crafting Slab, Furnace Slab, or Chest Slab")
+
+addParent("tutorial:tutorial/root")
+
+drawDirectLines(true)
+
+visibleIf("tutorial")
+alwaysHidden()
+
+//Criteria
+criteria1 = addCriteria("Obtain Crafting Station Slab", "minecraft:inventory_changed")
+criteria1.addItem(<slabmachines:crafting_station_slab>)
+criteria2 = addCriteria("Obtain Chest Slab", "minecraft:inventory_changed")
+criteria2.addItem(<slabmachines:chest_slab>)
+criteria3 = addCriteria("Obtain Furnace Slab", "minecraft:inventory_changed")
+criteria3.addItem(<slabmachines:furnace_slab>)
+criteria4 = addCriteria("Obtain Workbench Slab", "minecraft:inventory_changed")
+criteria4.addItem(<slabmachines:workbench_slab>)
+
+setRequirements("any")
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+setPos(24,97)
+hideLines()

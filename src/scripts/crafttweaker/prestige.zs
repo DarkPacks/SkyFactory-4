@@ -226,7 +226,25 @@ mods.prestige.Rewards.registerRewardCondition("mystcraft", function(world as IWo
 });
 */
 
+////
+//
+//Disable Prestige Rewards in certain world types
+//
+////
+
+//Disable Mystcraft Prestige dimension in Compact Sky World
 mods.prestige.Rewards.registerRewardCondition("mystcraft", function(world as IWorld, player as IPlayer){
-print(world.worldInfo.generatorOptions );
-    return world.worldInfo.generatorOptions == "xyz";
+print(mods.topography.Info.getPreset());
+    return mods.topography.Info.getPreset() != "Compactsky";
+});
+
+//Disable Mystcraft and Twilight Forest dimensions Prestige in Bedrock Your World
+mods.prestige.Rewards.registerRewardCondition("mystcraft", function(world as IWorld, player as IPlayer){
+print(mods.topography.Info.getPreset());
+    return mods.topography.Info.getPreset() != "Bedrock Your World";
+});
+
+mods.prestige.Rewards.registerRewardCondition("twilightforest", function(world as IWorld, player as IPlayer){
+print(mods.topography.Info.getPreset());
+    return mods.topography.Info.getPreset() != "Bedrock Your World";
 });

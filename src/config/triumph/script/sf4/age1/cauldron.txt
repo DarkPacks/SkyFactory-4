@@ -6,6 +6,10 @@ setDescription("Craft any Cauldron to catch rain water, create lava, dye items, 
 
 addParent("sf4:age1/root")
 
+hiddenIf("tutorial")
+hiddenUnless("sf4:age1/root")
+alwaysVisible()
+
 drawDirectLines(true)
 
 //Criteria
@@ -16,5 +20,4 @@ criteria.addItem(<ore:cauldron>)
 setRewardExperience(4)
 
 hideLines()
-alwaysVisible()
 setPos(-28,76)

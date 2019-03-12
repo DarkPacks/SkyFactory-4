@@ -8,6 +8,9 @@ addParent("sf4:age1/goldSapling")
 
 drawDirectLines(true)
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 //Criteria
 criteria = addCriteria("Obtain Diamond Sapling", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_diamond>)
@@ -15,5 +18,4 @@ criteria.addItem(<sky_orchards:sapling_diamond>)
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
-setPos(76,185)
+setPos(76,182)

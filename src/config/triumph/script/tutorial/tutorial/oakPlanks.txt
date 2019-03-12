@@ -6,6 +6,9 @@ setDescription("You've collected 2 Oak Wood. Using your inventory crafting grid,
 
 addParent("tutorial:tutorial/oakWood")
 
+visibleIf("tutorial")
+alwaysHidden()
+
 drawDirectLines(true)
 
 //Criteria
@@ -15,5 +18,4 @@ criteria.addItem(<minecraft:planks, count:8~>)
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
 setPos(53,-28)

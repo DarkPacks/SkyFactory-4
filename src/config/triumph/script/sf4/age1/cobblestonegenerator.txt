@@ -6,6 +6,9 @@ setDescription("Craft or create a Cobblestone Generator and fill all the slots o
 
 addParent("sf4:age1/cobblestone")
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 drawDirectLines(true)
 
 //Criteria
@@ -15,5 +18,5 @@ criteria.setBlock(<tile:{Items:[{Slot:0b,id:"minecraft:cobblestone",Count:64b,Da
 //Rewards
 setRewardExperience(6)
 
-alwaysVisible()
-setPos(33,119)
+
+setPos(26,119)

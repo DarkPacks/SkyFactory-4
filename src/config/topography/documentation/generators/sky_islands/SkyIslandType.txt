@@ -21,14 +21,6 @@ setMainBlock:
     Notes:
         Sets the main block for the island type to be made of.
 
-disableBiomeBlockReplacement:
-    Notes:
-        Disables biome block replacement for the island type.
-
-disableDecorations:
-    Notes:
-        Disables decorations for the island type.
-
 disableAnimals:
     Notes:
         Disables initial animal spawning for the island type.
@@ -40,4 +32,12 @@ setBlockInRange:
         block, bounds
     Notes:
         Sets a block to be used for generation within a range of distance from the center of the island type. 0.0 being the center of the island, 1.0 being the outermost possible blocks.
+
+disableBiomeBlockReplacement:
+    Notes:
+        Disables biome block replacement for the island type.
+
+disableDecorations:
+    Notes:
+        Disables decorations for the island type.
 

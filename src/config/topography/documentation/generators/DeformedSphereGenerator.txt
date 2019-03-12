@@ -12,14 +12,6 @@ Constructor:
     Notes:
         This constructs a DeformedSphereGenerator.
 
-addRequiredBlock:
-    Arguments:
-        ItemBlockData
-    Usage:
-        required block
-    Notes:
-        Adds a block the generator is allowed to generate a sphere within. By default can generate within block.
-
 setDeformScale:
     Arguments:
         double
@@ -27,4 +19,12 @@ setDeformScale:
         scale
     Notes:
         Sets the noise scale used to deform the spheres. Default is 16.0. The higher the number, the more the sphere can be deformed.
+
+addRequiredBlock:
+    Arguments:
+        ItemBlockData
+    Usage:
+        required block
+    Notes:
+        Adds a block the generator is allowed to generate a sphere within. By default can generate within block.
 

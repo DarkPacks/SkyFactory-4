@@ -6,6 +6,9 @@ setDescription("Place your Dirt Sapling on the Dirt Block to grow a new tree. On
 
 addParent("tutorial:tutorial/dirtSapling")
 
+visibleIf("tutorial")
+alwaysHidden()
+
 drawDirectLines(true)
 
 setRequirements("any")
@@ -17,5 +20,4 @@ criteria.setBlock(<sky_orchards:sapling_dirt>)
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
-setPos(32,35)
+setPos(32,34)

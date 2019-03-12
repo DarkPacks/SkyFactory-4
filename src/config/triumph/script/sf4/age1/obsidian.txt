@@ -10,6 +10,9 @@ addParent("sf4:age1/lava")
 
 drawDirectLines(true)
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 //Criteria
 criteria = addCriteria("Obtain Obsidian", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:obsidian>)
@@ -17,5 +20,4 @@ criteria.addItem(<minecraft:obsidian>)
 //Rewards
 setRewardExperience(6)
 
-alwaysVisible()
 setPos(33,76)

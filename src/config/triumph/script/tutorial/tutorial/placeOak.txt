@@ -6,6 +6,9 @@ setDescription("Now that you're standing on a Dirt Block, you will need to place
 
 addParent("tutorial:tutorial/dirtSapling")
 
+visibleIf("tutorial")
+alwaysHidden()
+
 drawDirectLines(true)
 
 setRequirements("any")
@@ -20,5 +23,4 @@ criteria2.setBlock(<minecraft:wooden_slab>)
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
 setPos(74,-7)

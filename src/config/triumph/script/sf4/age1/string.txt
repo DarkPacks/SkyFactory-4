@@ -8,6 +8,9 @@ addParent("sf4:age1/dryingRack")
 
 drawDirectLines(true)
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 //Criteria
 criteria1 = addCriteria("Obtain String", "minecraft:inventory_changed")
 criteria1.addItem(<minecraft:string>)
@@ -17,5 +20,4 @@ criteria2.addItem(<sky_orchards:sapling_cottonwood>)
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
-setPos(-155,160)
+setPos(-155,157)

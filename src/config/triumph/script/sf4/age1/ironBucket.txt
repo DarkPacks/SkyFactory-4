@@ -8,6 +8,9 @@ addParent("sf4:age1/ironIngot")
 
 drawDirectLines(true)
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 //Criteria
 criteria = addCriteria("Obtain Iron Bucket", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:bucket>)
@@ -15,5 +18,4 @@ criteria.addItem(<minecraft:bucket>)
 //Rewards
 setRewardExperience(6)
 
-alwaysVisible()
-setPos(26,236)
+setPos(26,232)

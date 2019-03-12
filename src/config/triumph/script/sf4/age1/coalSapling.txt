@@ -6,6 +6,9 @@ setDescription("Craft a Coal Sapling")
 
 addParent("sf4:age1/sandSapling")
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 drawDirectLines(true)
 
 //Criteria
@@ -15,5 +18,4 @@ criteria.addItem(<sky_orchards:sapling_coal>)
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
-setPos(1,185)
+setPos(1,182)

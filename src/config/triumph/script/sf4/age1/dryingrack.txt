@@ -8,6 +8,9 @@ addParent("sf4:age1/root")
 
 drawDirectLines(true)
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 //Criteria
 criteria = addCriteria("Obtain Drying Rack", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:rack:1>)
@@ -16,5 +19,4 @@ criteria.addItem(<tconstruct:rack:1>)
 setRewardExperience(4)
 
 hideLines()
-alwaysVisible()
 setPos(-155,119)

@@ -8,6 +8,9 @@ addParent("sf4:age1/root")
 
 drawDirectLines(true)
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 //Criteria
 criteria = addCriteria("Obtain Crushing Tub", "minecraft:inventory_changed")
 criteria.addItem(<rustic:crushing_tub>)
@@ -16,5 +19,4 @@ criteria.addItem(<rustic:crushing_tub>)
 setRewardExperience(4)
 
 hideLines()
-alwaysVisible()
 setPos(-86,76)

@@ -1,0 +1,25 @@
+setTitle("Ironwood")
+
+setIcon(<sky_orchards:sapling_iron>)
+
+setDescription("Create an Iron Sapling by pouring Molten Iron onto an Acacia Sapling")
+
+addParent("tutorial:tutorial/copied/sandSapling")
+addParent("tutorial:tutorial/copied/gravelSapling")
+addParent("tutorial:tutorial/copied/coalSapling")
+addParent("tutorial:tutorial/copied/claySapling")
+
+drawDirectLines(true)
+
+visibleIf("tutorial")
+alwaysHidden()
+
+//Criteria
+criteria = addCriteria("Obtain Iron Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_iron>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(399,72)
+hideLines()

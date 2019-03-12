@@ -10,6 +10,10 @@ setRequiresParents()
 
 drawDirectLines(true)
 
+hiddenIf("tutorial")
+hiddenUnless("skygrid")
+alwaysVisible()
+
 criteria = addCriteria("Break Lava Source Block", "triumph:player_break_block")
 criteria.setBlock(<tp:lava_block>)
 
@@ -17,5 +21,4 @@ criteria.setBlock(<tp:lava_block>)
 setRewardExperience(4)
 
 hideLines()
-hiddenUnless("skygrid")
 setPos(-316,108)

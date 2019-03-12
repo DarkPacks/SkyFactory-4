@@ -537,12 +537,18 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.yellow("Recipe can use any"),
 		format.yellow("of the same 4 Metal Blocks")	
 	],
-
 	<tconstruct:moms_spaghetti>: [
 		format.yellow("Knees are weak"),
 		format.yellow("Palms are sweaty")	
-	]
+	],
 
+	//Animal Crops Lilies
+	<animalcrops:lily>.withTag({entity: "minecraft:squid"}): [
+		format.yellow("Plant in Water")
+	],
+	<animalcrops:lily>.withTag({entity: "minecraft:guardian"}): [
+		format.yellow("Plant in Water")
+	]
 };
 
 function init() {

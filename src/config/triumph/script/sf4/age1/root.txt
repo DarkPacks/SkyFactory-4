@@ -6,20 +6,13 @@ setDescription("Getting started!")
 
 setBackground("test:textures/colors/purple.png")
 
+hiddenIf("tutorial")
+
 setShowToast(false)
 
 setAnnounceToChat(false)
-
-setRequirements("any")
-
 //Criteria
-addCriteria("breakBlock", "triumph:player_break_block")
-addCriteria("craftItem", "triumph:player_crafted_item")
-addCriteria("enterDimension", "minecraft:changed_dimension")
-addCriteria("inventoryChange", "minecraft:inventory_changed")
-addCriteria("killEntity", "minecraft:player_killed_entity")
-addCriteria("killedByEntity", "minecraft:entity_killed_player")
-addCriteria("location", "minecraft:location")
+addCriteria("non_tutorial_start", "minecraft:impossible")
 
 //Rewards
 setRewardFunction("triumph:startingItems")

@@ -10,6 +10,10 @@ setRequiresParents()
 
 drawDirectLines(true)
 
+hiddenIf("tutorial")
+hiddenUnless("skygrid")
+alwaysVisible()
+
 //Criteria
 criteria = addCriteria("Has Sapling", "minecraft:inventory_changed")
 criteria.addItem(<ore:treeSapling>)
@@ -18,5 +22,4 @@ criteria.addItem(<ore:treeSapling>)
 setRewardExperience(4)
 
 hideLines()
-hiddenUnless("skygrid")
 setPos(-280,108)

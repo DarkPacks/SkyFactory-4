@@ -1,3 +1,4 @@
 gamerule tfEnforcedProgression false
 gamerule astralSorceryIgnoreSkyCheck true
-gamestage add @p compact_machines
+gamestage silentadd @p compact_machines
+gamestage silentremove @p mystcraft

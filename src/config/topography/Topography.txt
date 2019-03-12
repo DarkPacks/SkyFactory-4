@@ -29,6 +29,7 @@ SF4.registerDimension(0, "SF4/tutorial")
 SF4.registerDimension(-1, "SF4/nether/nether_cell")
 SF4.setDifficulty(1)
 SF4.lockDifficulty()
+SF4.addInitialPlayerFunction("triumph:tutorial_start")
 
 SF4 = registerPreset("Peace Out", "images/SF4mk2", "Standard world made for a Pacifist Run. Mobs will not drop loot. If you kill a mob, you will lose the run")
 SF4.registerDimension(0, "SF4/dirt_tree")
@@ -74,6 +75,10 @@ SF4 = registerPreset("Bedrock Your World", "images/BedrockChunk", "Dirt Tree sur
 SF4.registerDimension(0, "SF4/bedrock_cage")
 SF4.registerDimension(-1, "SF4/nether/nether_cage")
 SF4.registerDimension(1, "SF4/end_bedrock_cage")
+SF4.registerDimension(7, "SF4/bedrock_cage")
+SF4.registerDimension(111, "SF4/bedrock_cage")
+SF4.registerDimension(28885, "SF4/bedrock_cage")
+SF4.addInitialPlayerFunction("triumph:bedrock_world_start")
 
 SF4 = registerPreset("Between Bedrock and a Hard Place", "images/Bedrock", "Dirt Tree floating between a bedrock floor and ceiling")
 SF4.registerDimension(0, "SF4/bedrock_floor_and_ceiling")
@@ -153,3 +158,4 @@ SF4.registerDimension(-1, "SF4/nether/nether_hardcore")
 SF4.enableHardcore()
 
 setAsDefaultWorldType()
+printDocumentation(false)

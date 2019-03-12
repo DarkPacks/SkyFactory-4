@@ -8,6 +8,9 @@ addParent("sf4:age1/root")
 
 drawDirectLines(true)
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 //Criteria
 criteria1 = addCriteria("Obtain Crafting Station Slab", "minecraft:inventory_changed")
 criteria1.addItem(<slabmachines:crafting_station_slab>)
@@ -24,5 +27,4 @@ setRequirements("any")
 setRewardExperience(4)
 
 hideLines()
-alwaysVisible()
 setPos(-349,75)

@@ -8,12 +8,13 @@ addParent("sf4:age1/petrifiedSapling")
 
 drawDirectLines(true)
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 //Criteria
 criteria = addCriteria("Obtain Sand Sapling", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_sand>)
 
 //Rewards
 setRewardExperience(4)
-
-alwaysVisible()
-setPos(26,160)
+setPos(26,157)

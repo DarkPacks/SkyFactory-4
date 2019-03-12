@@ -8,6 +8,7 @@ addParent("sf4:age1/root")
 
 drawDirectLines(true)
 hiddenIf("compactmachines:test/root")
+hiddenIf("tutorial")
 alwaysVisible()
 
 //Criteria

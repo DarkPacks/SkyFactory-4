@@ -8,6 +8,11 @@ setDescription({"translate":"Collect 8 Dirt Saplings and 8 Oak Logs. Increase th
 
 addParent("sf4:age1/root")
 
+hiddenIf("tutorial")
+alwaysVisible()
+
+hideLines()
+
 //Criteria
 criteria1 = addCriteria("Obtain 8 Dirt Saplings", "minecraft:inventory_changed")
 criteria1.addItem(<sky_orchards:sapling_dirt, count:8~>)
@@ -17,6 +22,4 @@ criteria2.addItem(<minecraft:log, count:8~>)
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
-hideLines()
 setPos(-349,42)

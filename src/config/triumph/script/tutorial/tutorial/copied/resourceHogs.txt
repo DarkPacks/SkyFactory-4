@@ -1,0 +1,20 @@
+setTitle("Hog Tied")
+
+setIcon(<resourcehogs:mud_bucket, meta:0, count:1, nbt:{ResourceType:"cobblestone"}>)
+
+setDescription("Craft a Cobblestone Mud Bucket which you can feed to a Pig to transform it into a Resource Hog. Only similar type Resource Hogs can be bred together (There is a chance you will breed a vanilla Pig)")
+
+addParent("tutorial:tutorial/root")
+
+visibleIf("tutorial")
+alwaysHidden()
+
+//Criteria
+criteria = addCriteria("Obtain Cobblestone Mud", "minecraft:inventory_changed")
+criteria.addItem(<resourcehogs:mud_bucket, meta:0, count:1, nbt:{ResourceType:"cobblestone"}>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+setPos(200,-30)

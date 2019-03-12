@@ -10,6 +10,9 @@ addParent("sf4:age1/crushingTub")
 addParent("sf4:age1/cauldron")
 setRequirements("any")
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 //Criteria
 criteria1 = addCriteria("Right Click Cauldron with Water Inside", "triumph:right_click_block")
 criteria1.setBlock(<ore:cauldron, meta:1~4, tile:{state:{water:1b}}>)
@@ -27,5 +30,4 @@ criteria4.setBlock(<minecraft:cauldron, meta:9~12, tile:{state:{water:1b}}>)
 setRewardExperience(4)
 
 drawDirectLines(true)
-alwaysVisible()
-setPos(-28,42)
+setPos(-28,47)

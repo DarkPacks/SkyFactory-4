@@ -7,6 +7,9 @@ setDescription("Craft a Cobblestone block using petrified Acorns and Resin or us
 addParent("sf4:age1/petrifiedSapling")
 addParent("sf4:age1/petrifiedAcorn")
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 drawDirectLines(true)
 
 //Criteria
@@ -16,5 +19,5 @@ criteria.addItem(<minecraft:cobblestone>)
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+
 setPos(1,119)

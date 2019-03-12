@@ -1,0 +1,2 @@
+gamestage silentadd @p tutorial
+mpa notify @p open_advancements

@@ -6,6 +6,11 @@ setDescription("Craft a Cobblestone Mud Bucket which you can feed to a Pig to tr
 
 addParent("sf4:age1/root")
 
+hiddenIf("tutorial")
+alwaysVisible()
+
+hideLines()
+
 //Criteria
 criteria = addCriteria("Obtain Cobblestone Mud", "minecraft:inventory_changed")
 criteria.addItem(<resourcehogs:mud_bucket, meta:0, count:1, nbt:{ResourceType:"cobblestone"}>)
@@ -13,6 +18,4 @@ criteria.addItem(<resourcehogs:mud_bucket, meta:0, count:1, nbt:{ResourceType:"c
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
-hideLines()
-setPos(105,160)
+setPos(101,157)

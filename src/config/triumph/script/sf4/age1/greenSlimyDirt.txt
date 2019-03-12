@@ -8,6 +8,9 @@ addParent("sf4:age1/claySapling")
 
 drawDirectLines(true)
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 //Criteria
 criteria = addCriteria("Obtain Green Slime Dirt", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:slime_dirt:0>)
@@ -15,5 +18,4 @@ criteria.addItem(<tconstruct:slime_dirt:0>)
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
-setPos(1,210)
+setPos(1,207)

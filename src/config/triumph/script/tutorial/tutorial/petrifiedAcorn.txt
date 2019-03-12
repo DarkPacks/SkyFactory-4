@@ -6,6 +6,9 @@ setDescription("The next tree you will need to create is the Petrified Tree. You
 
 addParent("tutorial:tutorial/dryingRack")
 
+visibleIf("tutorial")
+alwaysHidden()
+
 drawDirectLines(true)
 
 //Criteria
@@ -15,5 +18,4 @@ criteria.addItem(<sky_orchards:acorn_petrified>)
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
-setPos(212,94)
+setPos(74,97)

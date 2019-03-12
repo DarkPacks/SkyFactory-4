@@ -6,6 +6,9 @@ setDescription("Using your new Clay Tree, craft and fire a Clay Bucket")
 
 addParent("sf4:age1/claySapling")
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 drawDirectLines(true)
 
 //Criteria
@@ -19,5 +22,4 @@ setRequirements("any")
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
-setPos(-87,235)
+setPos(-86,231)

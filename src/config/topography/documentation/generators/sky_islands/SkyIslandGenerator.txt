@@ -6,6 +6,14 @@ generator, they will spawn in the center of the first island to be generated.
 
 
 
+setRegionSize:
+    Arguments:
+        int
+    Usage:
+        size
+    Notes:
+        Sets the grid region size in chunks. Default is 29.
+
 addSkyIslands:
     Arguments:
         int, int, boolean, int
@@ -21,12 +29,4 @@ addSkyIslands:
         radius, count, randomTypes
     Notes:
         Generates a SkyIslandData and returns it. Radius is the radius of the sky islands to be generated, count is the number of times to attempt to generate sky islands, randomTypes is how to use the SkyIslandTypes. If randomTypes is set to true it will randomly choose a SkyIslandType from the list when an island is generated. If it is set to false, then every time an island is generated it will use the next SkyIslandType in the list. This allows you to guarantee certain islands are generated in a region.
-
-setRegionSize:
-    Arguments:
-        int
-    Usage:
-        size
-    Notes:
-        Sets the grid region size in chunks. Default is 29.
 

@@ -1,0 +1,22 @@
+setTitle("I Love Lucy")
+
+setIcon(<rustic:crushing_tub>)
+
+setDescription("Craft a Rustic Crushing Tub")
+
+addParent("tutorial:tutorial/root")
+
+drawDirectLines(true)
+
+visibleIf("tutorial")
+alwaysHidden()
+
+//Criteria
+criteria = addCriteria("Obtain Crushing Tub", "minecraft:inventory_changed")
+criteria.addItem(<rustic:crushing_tub>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+setPos(274,97)

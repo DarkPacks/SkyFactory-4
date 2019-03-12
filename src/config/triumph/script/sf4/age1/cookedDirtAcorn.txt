@@ -8,6 +8,7 @@ addParent("sf4:age1/dirtAcorn")
 
 drawDirectLines(true)
 
+hiddenIf("tutorial")
 hiddenIf("compactmachines:test/root")
 alwaysVisible()
 

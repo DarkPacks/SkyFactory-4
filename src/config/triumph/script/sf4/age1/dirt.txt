@@ -8,13 +8,15 @@ addParent("sf4:age1/root")
 
 drawDirectLines(true)
 
+hiddenIf("tutorial")
+alwaysVisible()
+
 //Criteria
 criteria = addCriteria("Craft Dirt Block", "triumph:player_crafted_item")
-criteria.addItem(<minecraft:dirt>)
+criteria.setItem(<minecraft:dirt>)
 
 //Rewards
 setRewardExperience(4)
 
 hideLines()
-alwaysVisible()
 setPos(-316,75)
