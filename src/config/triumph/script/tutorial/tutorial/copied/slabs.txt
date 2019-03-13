@@ -8,9 +8,6 @@ addParent("tutorial:tutorial/root")
 
 drawDirectLines(true)
 
-visibleIf("tutorial")
-alwaysHidden()
-
 //Criteria
 criteria1 = addCriteria("Obtain Crafting Station Slab", "minecraft:inventory_changed")
 criteria1.addItem(<slabmachines:crafting_station_slab>)

@@ -10,9 +10,6 @@ addParent("sf4:age1/crushingTub")
 addParent("sf4:age1/cauldron")
 setRequirements("any")
 
-hiddenIf("tutorial")
-alwaysVisible()
-
 //Criteria
 criteria1 = addCriteria("Right Click Cauldron with Water Inside", "triumph:right_click_block")
 criteria1.setBlock(<ore:cauldron, meta:1~4, tile:{state:{water:1b}}>)

@@ -10,9 +10,6 @@ addParent("sf4:age1/lava")
 
 drawDirectLines(true)
 
-hiddenIf("tutorial")
-alwaysVisible()
-
 //Criteria
 criteria = addCriteria("Obtain Obsidian", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:obsidian>)

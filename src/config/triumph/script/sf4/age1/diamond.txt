@@ -6,9 +6,6 @@ setDescription("Obtain a Diamond!")
 
 addParent("sf4:age1/diamondSapling")
 
-hiddenIf("tutorial")
-alwaysVisible()
-
 drawDirectLines(true)
 
 criteria = addCriteria("Obtain Diamond", "minecraft:inventory_changed")

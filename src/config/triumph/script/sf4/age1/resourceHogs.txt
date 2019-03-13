@@ -6,9 +6,6 @@ setDescription("Craft a Cobblestone Mud Bucket which you can feed to a Pig to tr
 
 addParent("sf4:age1/root")
 
-hiddenIf("tutorial")
-alwaysVisible()
-
 hideLines()
 
 //Criteria

@@ -8,9 +8,6 @@ addParent("tutorial:tutorial/copied/petrifiedSapling")
 
 drawDirectLines(true)
 
-visibleIf("tutorial")
-alwaysHidden()
-
 //Criteria
 criteria = addCriteria("Obtain Cobblestone Block", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:cobblestone>)

@@ -6,9 +6,6 @@ setDescription("You've collected 2 Oak Wood. Using your inventory crafting grid,
 
 addParent("tutorial:tutorial/oakWood")
 
-visibleIf("tutorial")
-alwaysHidden()
-
 drawDirectLines(true)
 
 //Criteria

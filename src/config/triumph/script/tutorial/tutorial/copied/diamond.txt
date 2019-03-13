@@ -8,9 +8,6 @@ addParent("tutorial:tutorial/copied/diamondSapling")
 
 drawDirectLines(true)
 
-visibleIf("tutorial")
-alwaysHidden()
-
 criteria = addCriteria("Obtain Diamond", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:diamond>)
 

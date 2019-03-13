@@ -8,9 +8,7 @@ addParent("sf4:age1/dirtAcorn")
 
 drawDirectLines(true)
 
-hiddenIf("tutorial")
 hiddenIf("compactmachines:test/root")
-alwaysVisible()
 
 //Criteria
 criteria = addCriteria("Obtain Cooked Dirt Acorn", "minecraft:inventory_changed")

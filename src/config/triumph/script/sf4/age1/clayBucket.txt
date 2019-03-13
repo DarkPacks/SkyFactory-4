@@ -6,9 +6,6 @@ setDescription("Using your new Clay Tree, craft and fire a Clay Bucket")
 
 addParent("sf4:age1/claySapling")
 
-hiddenIf("tutorial")
-alwaysVisible()
-
 drawDirectLines(true)
 
 //Criteria

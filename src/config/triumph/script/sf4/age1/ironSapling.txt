@@ -11,9 +11,6 @@ addParent("sf4:age1/claySapling")
 
 drawDirectLines(true)
 
-hiddenIf("tutorial")
-alwaysVisible()
-
 //Criteria
 criteria = addCriteria("Obtain Iron Sapling", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_iron>)

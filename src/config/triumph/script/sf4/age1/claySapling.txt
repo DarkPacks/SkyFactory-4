@@ -6,9 +6,6 @@ setDescription("Craft a Clay Sapling")
 
 addParent("sf4:age1/petrifiedSapling")
 
-hiddenIf("tutorial")
-alwaysVisible()
-
 drawDirectLines(true)
 
 //Criteria

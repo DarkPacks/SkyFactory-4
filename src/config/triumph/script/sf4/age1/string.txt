@@ -8,9 +8,6 @@ addParent("sf4:age1/dryingRack")
 
 drawDirectLines(true)
 
-hiddenIf("tutorial")
-alwaysVisible()
-
 //Criteria
 criteria1 = addCriteria("Obtain String", "minecraft:inventory_changed")
 criteria1.addItem(<minecraft:string>)

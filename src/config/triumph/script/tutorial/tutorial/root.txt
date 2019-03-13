@@ -10,9 +10,6 @@ setShowToast(false)
 
 setAnnounceToChat(false)
 
-visibleIf("tutorial")
-alwaysHidden()
-
 setRequirements("any")
 
 //Criteria
@@ -22,3 +19,7 @@ criteria.setGeneratorOptions({"Topography-Preset":"SkyFactory Tutorial"})
 //Rewards
 //setRewardFunction("triumph:sky_islands_start")
 setPos(32,-79)
+
+pageVisibleIf("tutorial")
+pageAlwaysHidden()
+pageRequiresRoot()

@@ -10,9 +10,6 @@ addParent("sf4:age1/claySapling")
 
 drawDirectLines(true)
 
-hiddenIf("tutorial")
-alwaysVisible()
-
 //Criteria
 criteria = addCriteria("Obtain Blue Slime Sapling", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:slime_sapling>)

@@ -6,9 +6,6 @@ setDescription("Craft the Drying Rack and place it on a wall. You can hang an as
 
 addParent("tutorial:tutorial/placeDirtSapling")
 
-visibleIf("tutorial")
-alwaysHidden()
-
 //Criteria
 criteria = addCriteria("Obtain Oak Wood Planks", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:rack:1>)

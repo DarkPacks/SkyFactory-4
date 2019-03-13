@@ -8,9 +8,6 @@ addParent("tutorial:tutorial/copied/claySapling")
 
 drawDirectLines(true)
 
-visibleIf("tutorial")
-alwaysHidden()
-
 //Criteria
 criteria = addCriteria("Obtain Green Slime Dirt", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:slime_dirt:0>)

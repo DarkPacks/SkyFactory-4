@@ -6,9 +6,6 @@ setDescription("Now that you're standing on a Dirt Block, you will need to place
 
 addParent("tutorial:tutorial/dirtSapling")
 
-visibleIf("tutorial")
-alwaysHidden()
-
 drawDirectLines(true)
 
 setRequirements("any")

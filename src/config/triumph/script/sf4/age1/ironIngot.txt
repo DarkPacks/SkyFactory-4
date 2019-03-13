@@ -8,9 +8,6 @@ addParent("sf4:age1/ironSapling")
 
 drawDirectLines(true)
 
-hiddenIf("tutorial")
-alwaysVisible()
-
 //Criteria
 criteria = addCriteria("Obtain Iron Ingot", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:iron_ingot>)

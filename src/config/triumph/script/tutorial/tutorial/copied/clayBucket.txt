@@ -8,9 +8,6 @@ addParent("tutorial:tutorial/copied/claySapling")
 
 drawDirectLines(true)
 
-visibleIf("tutorial")
-alwaysHidden()
-
 //Criteria
 criteria = addCriteria("Obtain Clay Bucket", "minecraft:inventory_changed")
 criteria.addItem(<ceramics:clay_bucket>)

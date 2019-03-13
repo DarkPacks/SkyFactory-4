@@ -9,9 +9,6 @@ addParent("sf4:age1/sandSapling")
 
 drawDirectLines(true)
 
-hiddenIf("tutorial")
-alwaysVisible()
-
 criteria = addCriteria("Obtain Gold Sapling", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_gold>)
 

@@ -6,9 +6,6 @@ setDescription("You're standing on a tree in the void! Break the leaves below an
 
 addParent("tutorial:tutorial/root")
 
-visibleIf("tutorial")
-alwaysHidden()
-
 drawDirectLines(true)
 
 //Criteria

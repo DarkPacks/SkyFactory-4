@@ -8,8 +8,6 @@ addParent("sf4:age1/root")
 
 drawDirectLines(true)
 hiddenIf("compactmachines:test/root")
-hiddenIf("tutorial")
-alwaysVisible()
 
 //Criteria
 criteria = addCriteria("Obtain Wooden Crook", "minecraft:inventory_changed")

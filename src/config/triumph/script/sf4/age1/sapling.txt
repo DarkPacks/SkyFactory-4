@@ -10,9 +10,7 @@ setRequiresParents()
 
 drawDirectLines(true)
 
-hiddenIf("tutorial")
 hiddenUnless("skygrid")
-alwaysVisible()
 
 //Criteria
 criteria = addCriteria("Has Sapling", "minecraft:inventory_changed")

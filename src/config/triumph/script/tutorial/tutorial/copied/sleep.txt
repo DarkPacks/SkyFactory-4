@@ -8,9 +8,6 @@ addParent("tutorial:tutorial/copied/string")
 
 drawDirectLines(true)
 
-visibleIf("tutorial")
-alwaysHidden()
-
 //Criteria
 criteria = addCriteria("slept_in_bed", "minecraft:slept_in_bed")
 

@@ -6,8 +6,6 @@ setDescription("Getting started!")
 
 setBackground("test:textures/colors/purple.png")
 
-hiddenIf("tutorial")
-
 setShowToast(false)
 
 setAnnounceToChat(false)
@@ -19,3 +17,7 @@ setRewardFunction("triumph:startingItems")
 setRewardFunction("triumph:forgiving_void_enable")
 
 setPos(-349,9)
+
+pageRequiresRoot()
+pageHiddenIf("tutorial")
+pageAlwaysVisible()

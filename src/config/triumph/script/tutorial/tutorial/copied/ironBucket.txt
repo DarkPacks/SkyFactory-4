@@ -8,9 +8,6 @@ addParent("tutorial:tutorial/copied/ironIngot")
 
 drawDirectLines(true)
 
-visibleIf("tutorial")
-alwaysHidden()
-
 //Criteria
 criteria = addCriteria("Obtain Iron Bucket", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:bucket>)

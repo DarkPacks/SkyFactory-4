@@ -8,9 +8,6 @@ setDescription({"translate":"Collect 8 Dirt Saplings and 8 Oak Logs. Increase th
 
 addParent("sf4:age1/root")
 
-hiddenIf("tutorial")
-alwaysVisible()
-
 hideLines()
 
 //Criteria

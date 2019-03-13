@@ -9,9 +9,6 @@ addParent("tutorial:tutorial/copied/cauldron")
 
 drawDirectLines(true)
 
-visibleIf("tutorial")
-alwaysHidden()
-
 //Criteria
 criteria = addCriteria("Obtain Water in a Clay Bucket", "minecraft:inventory_changed")
 criteria.addItem(<ceramics:clay_bucket,meta:0,count:1,nbt:{fluids:{FluidName:"water",Amount:1000}}>)

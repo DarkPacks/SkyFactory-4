@@ -8,9 +8,6 @@ addParent("sf4:age1/dryingRack")
 
 drawDirectLines(true)
 
-hiddenIf("tutorial")
-alwaysVisible()
-
 //Criteria
 criteria = addCriteria("Obtain Petrified Sapling", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_petrified>)

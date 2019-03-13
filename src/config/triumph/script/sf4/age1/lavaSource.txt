@@ -10,9 +10,7 @@ setRequiresParents()
 
 drawDirectLines(true)
 
-hiddenIf("tutorial")
 hiddenUnless("skygrid")
-alwaysVisible()
 
 criteria = addCriteria("Break Lava Source Block", "triumph:player_break_block")
 criteria.setBlock(<tp:lava_block>)

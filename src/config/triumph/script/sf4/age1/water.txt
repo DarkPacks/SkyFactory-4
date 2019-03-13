@@ -9,9 +9,6 @@ addParent("sf4:age1/cauldron")
 
 drawDirectLines(true)
 
-hiddenIf("tutorial")
-alwaysVisible()
-
 //Criteria
 criteria = addCriteria("Obtain Water in a Clay Bucket", "minecraft:inventory_changed")
 criteria.addItem(<ceramics:clay_bucket,meta:0,count:1,nbt:{fluids:{FluidName:"water",Amount:1000}}>)

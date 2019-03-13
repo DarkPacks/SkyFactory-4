@@ -8,9 +8,6 @@ addParent("tutorial:tutorial/root")
 
 drawDirectLines(true)
 
-visibleIf("tutorial")
-alwaysHidden()
-
 //Criteria
 criteria = addCriteria("Obtain Crushing Tub", "minecraft:inventory_changed")
 criteria.addItem(<rustic:crushing_tub>)

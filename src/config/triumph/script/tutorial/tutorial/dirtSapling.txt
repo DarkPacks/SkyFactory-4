@@ -6,9 +6,6 @@ setDescription("Using your Wooden Crook to break leaves. Obtain a Dirt Sapling")
 
 addParent("tutorial:tutorial/woodenCrook")
 
-visibleIf("tutorial")
-alwaysHidden()
-
 drawDirectLines(true)
 
 //Criteria

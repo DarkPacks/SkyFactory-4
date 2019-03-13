@@ -6,9 +6,6 @@ setDescription("Take your planks and make a Crafting Station to start craft 3x3 
 
 addParent("tutorial:tutorial/oakPlanks")
 
-visibleIf("tutorial")
-alwaysHidden()
-
 drawDirectLines(true)
 
 //Criteria

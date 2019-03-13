@@ -8,9 +8,6 @@ addParent("tutorial:tutorial/copied/cobblestone")
 
 drawDirectLines(true)
 
-visibleIf("tutorial")
-alwaysHidden()
-
 //Criteria
 criteria = addCriteria("Obtain a Cauldron", "minecraft:inventory_changed")
 criteria.addItem(<ore:cauldron>)

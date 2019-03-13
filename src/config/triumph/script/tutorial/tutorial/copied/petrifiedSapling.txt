@@ -8,9 +8,6 @@ addParent("tutorial:tutorial/petrifiedAcorn")
 
 drawDirectLines(true)
 
-visibleIf("tutorial")
-alwaysHidden()
-
 //Criteria
 criteria = addCriteria("Obtain Petrified Sapling", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_petrified>)

@@ -6,9 +6,6 @@ setDescription("To build your base you will need to grow more Dirt Trees. Craft 
 
 addParent("tutorial:tutorial/craftingStation")
 
-visibleIf("tutorial")
-alwaysHidden()
-
 drawDirectLines(true)
 
 //Criteria

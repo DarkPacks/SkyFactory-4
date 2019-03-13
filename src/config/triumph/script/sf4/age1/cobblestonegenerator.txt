@@ -6,9 +6,6 @@ setDescription("Craft or create a Cobblestone Generator and fill all the slots o
 
 addParent("sf4:age1/cobblestone")
 
-hiddenIf("tutorial")
-alwaysVisible()
-
 drawDirectLines(true)
 
 //Criteria
