@@ -14,4 +14,4 @@ criteria.addItem(<resourcehogs:mud_bucket, meta:0, count:1, nbt:{ResourceType:"c
 setRewardExperience(4)
 
 hideLines()
-setPos(200,-30)
+setPos(343,18)

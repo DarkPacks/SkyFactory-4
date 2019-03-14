@@ -278,8 +278,6 @@ static removeAndHideIngredients as IIngredient[] = [
 	//Why doesn't my drying rack work? Because you're not using the drying rack. You're using the display rack
 	<tconstruct:rack>,
 
-	<deepmoblearning:book>,
-
 	//Hiding extras 
 	//These are extra items that either have a duplicate in another mod
 	//or have no use
