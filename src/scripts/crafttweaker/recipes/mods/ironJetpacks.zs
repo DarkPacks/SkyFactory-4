@@ -63,9 +63,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<ironjetpacks:steel_thruster>: [
 		[
-			[<mekanism:ingot:4>, <ironjetpacks:elite_coil>, <mekanism:ingot:4>], 
+			[<ore:ingotSteel>, <ironjetpacks:elite_coil>, <ore:ingotSteel>], 
 			[<ironjetpacks:elite_coil>, <ironjetpacks:steel_cell>, <ironjetpacks:elite_coil>], 
-			[<mekanism:ingot:4>, <industrialforegoing:resourceful_furnace>, <mekanism:ingot:4>]
+			[<ore:ingotSteel>, <industrialforegoing:resourceful_furnace>, <ore:ingotSteel>]
 		]
 	],
 	<ironjetpacks:platinum_thruster>: [

@@ -1,3 +1,3 @@
 
-background = addStretchedTexture("top_left", "test:textures/gui/title/background/BG_FULL.png")
+background = addStretchedTexture("top_left", "test:textures/gui/title/background/BG.png")
 background.setRelRender(1, 1)
