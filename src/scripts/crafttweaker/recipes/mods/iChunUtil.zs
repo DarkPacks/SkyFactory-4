@@ -10,13 +10,6 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<ichunutil:compact_porkchop>: [
-        [
-            [<sky_orchards:resin_bacon>, <sky_orchards:acorn_bacon>, <sky_orchards:resin_bacon>],
-            [<sky_orchards:acorn_bacon>, <sky_orchards:resin_bacon>, <sky_orchards:acorn_bacon>],
-            [<sky_orchards:resin_bacon>, <sky_orchards:acorn_bacon>, <sky_orchards:resin_bacon>]
-        ]
-    ]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
