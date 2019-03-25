@@ -12,10 +12,6 @@ setAnnounceToChat(false)
 //Criteria
 addCriteria("non_tutorial_start", "minecraft:impossible")
 
-//Rewards
-setRewardFunction("triumph:startingItems")
-setRewardFunction("triumph:forgiving_void_enable")
-
 setPos(-349,9)
 
 pageRequiresRoot()
