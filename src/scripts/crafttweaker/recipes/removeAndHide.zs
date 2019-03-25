@@ -366,10 +366,10 @@ static removeAndHideIngredients as IIngredient[] = [
 	<thermalfoundation:glass:7>,
 	<thermalfoundation:glass:8>,
 	<huntingdim:frame>,
-	<huntingdim:portal>
-
-
-
+	<huntingdim:portal>,
+	<tp:colored_glowstone:*>,
+	<tp:colored_dust:*>,
+	<tp:colored_lamp:*>
 ];
 
 function init() {
