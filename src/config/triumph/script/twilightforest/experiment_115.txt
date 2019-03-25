@@ -1,0 +1,11 @@
+
+setTitle({"translate": "advancement.twilightforest.experiment_115"})
+
+setIcon(<twilightforest:experiment_115>)
+
+setDescription({"translate": "advancement.twilightforest.experiment_115.desc"})
+
+addParent("twilightforest:progress_knights")
+
+criteria = addCriteria("experiment_115", "minecraft:inventory_changed")
+criteria.addItem(<twilightforest:experiment_115>)
