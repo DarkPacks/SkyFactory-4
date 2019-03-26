@@ -49,7 +49,8 @@ var recipesToAdd as IIngredient[][IItemStack] = {
 	<sky_orchards:acorn_cottonwood:1>: [<sky_orchards:acorn_cottonwood>],
 	<tconstruct:ingots:1>: [<contenttweaker:ardite_dust>],
 	<tconstruct:ingots>: [<contenttweaker:cobalt_dust>],
-	<nuclearcraft:roasted_cocoa_beans>: [<minecraft:dye:3>]
+	<nuclearcraft:roasted_cocoa_beans>: [<minecraft:dye:3>],
+	<fluxnetworks:flux>: [<minecraft:redstone>]
 };
 
 for output, inputs in recipesToAdd {
