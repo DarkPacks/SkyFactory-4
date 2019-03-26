@@ -67,6 +67,15 @@
     "xlfoodmod:pepper_seeds": "8*minecraft:wheat",
     "xlfoodmod:rice_seeds": "8*minecraft:wheat",
     "xlfoodmod:strawberry_seeds": "8*minecraft:wheat",
-    "xlfoodmod:tomato_seeds": "8*minecraft:wheat"
+    "xlfoodmod:tomato_seeds": "8*minecraft:wheat",
+    "rustic:grape_stem": "8*minecraft:beetroot",
+    "rustic:apple_seeds": "8*minecraft:beetroot",
+    "rustic:tomato_seeds": "8*minecraft:beetroot",
+    "rustic:chili_pepper_seeds": "8*minecraft:beetroot",
+    "rustic:wildberry_bush": "8*minecraft:beetroot",
+    "rustic:sapling": "8*minecraft:beetroot",
+    "rustic:sapling:1": "8*minecraft:beetroot",
+    "rustic:blood_orchid": "8*minecraft:beetroot",
+    "rustic:aloe_vera": "8*minecraft:beetroot"
   }
 }

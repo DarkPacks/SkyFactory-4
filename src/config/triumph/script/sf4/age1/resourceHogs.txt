@@ -15,4 +15,4 @@ criteria.addItem(<resourcehogs:mud_bucket, meta:0, count:1, nbt:{ResourceType:"c
 //Rewards
 setRewardExperience(4)
 
-setPos(101,157)
+setPos(114,132)

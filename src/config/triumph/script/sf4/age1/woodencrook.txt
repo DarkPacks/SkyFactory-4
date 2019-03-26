@@ -17,4 +17,4 @@ criteria.addItem(<inspirations:wooden_crook>)
 setRewardExperience(4)
 
 hideLines()
-setPos(-316,9)
+setPos(-315,47)

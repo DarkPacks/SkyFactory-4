@@ -71,4 +71,4 @@ criteria29.addItem(<sky_orchards:sapling_osmium>)
 setRewardExperience(30)
 
 alwaysVisible()
-setPos(62,183)
+setPos(10,300)

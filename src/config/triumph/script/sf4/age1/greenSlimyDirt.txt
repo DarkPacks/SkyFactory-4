@@ -15,4 +15,4 @@ criteria.addItem(<tconstruct:slime_dirt:0>)
 //Rewards
 setRewardExperience(4)
 
-setPos(1,207)
+setPos(-29,207)

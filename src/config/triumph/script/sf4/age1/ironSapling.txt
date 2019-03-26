@@ -4,10 +4,7 @@ setIcon(<sky_orchards:sapling_iron>)
 
 setDescription("Create an Iron Sapling by pouring Molten Iron onto an Acacia Sapling")
 
-addParent("sf4:age1/sandSapling")
-addParent("sf4:age1/gravelSapling")
-addParent("sf4:age1/coalSapling")
-addParent("sf4:age1/claySapling")
+addParent("sf4:age1/ironAmber")
 
 drawDirectLines(true)
 
@@ -18,4 +15,4 @@ criteria.addItem(<sky_orchards:sapling_iron>)
 //Rewards
 setRewardExperience(4)
 
-setPos(26,182)
+setPos(54,212)

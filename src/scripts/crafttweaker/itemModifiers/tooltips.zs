@@ -548,6 +548,94 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 	<animalcrops:lily>.withTag({entity: "minecraft:guardian"}): [
 		format.yellow("Plant in Water")
+	],
+
+
+
+	//Stupid stuffs
+	<xnet:xnet_manual>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:connector_upgrade>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:facade>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:redstone_proxy>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:redstone_proxy_upd>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:netcable>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:netcable:1>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:netcable:2>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:netcable:3>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:netcable:4>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:connector>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:connector:1>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:connector:2>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:connector:3>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:connector:4>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:advanced_connector>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:advanced_connector:1>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:advanced_connector:2>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:advanced_connector:3>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:controller>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:router>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:wireless_router>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:antenna>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:antenna_base>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<xnet:antenna_dish>: [
+		format.yellow("Bentley's favorite mod!")
+	],
+	<extracells:terminal.fluid.wireless>: [
+		format.red("Charged in the Mekanism Energy Cube")
+	],
+	<extracells:terminal.universal.wireless>: [
+	  	format.red("Charged in the Mekanism Energy Cube")
+	],	
+	<extracells:terminal.gas.wireless>: [
+		format.red("Charged in the Mekanism Energy Cube")
 	]
 };
 

@@ -6,13 +6,12 @@ setDescription("Craft a Diamond Sapling")
 
 addParent("sf4:age1/goldSapling")
 
-drawDirectLines(true)
-
 //Criteria
 criteria = addCriteria("Obtain Diamond Sapling", "minecraft:inventory_changed")
 criteria.addItem(<sky_orchards:sapling_diamond>)
 
+hideLines()
 //Rewards
 setRewardExperience(4)
 
-setPos(76,182)
+setPos(114,181)

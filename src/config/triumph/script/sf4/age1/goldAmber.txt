@@ -1,0 +1,17 @@
+setTitle("Amber is the Color of my Dinosaur")
+
+setIcon(<sky_orchards:amber_gold>)
+
+setDescription("Obtain gold by crafting Gold Amber. Use the Smeltery or Melter to make Liquid Gold then pour it over an Oak Sapling to make a Gold Sapling")
+
+addParent("sf4:age1/ironSapling")
+
+//Criteria
+criteria = addCriteria("Obtain Gold Amber", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:amber_gold>)
+
+hideLines()
+
+//Rewards
+setRewardExperience(4)
+setPos(82,181)

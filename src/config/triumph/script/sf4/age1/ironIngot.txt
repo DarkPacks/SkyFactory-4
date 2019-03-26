@@ -15,4 +15,4 @@ criteria.addItem(<minecraft:iron_ingot>)
 //Rewards
 setRewardExperience(4)
 
-setPos(26,207)
+setPos(54,239)

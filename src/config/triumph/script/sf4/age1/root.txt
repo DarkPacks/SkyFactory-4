@@ -12,7 +12,7 @@ setAnnounceToChat(false)
 //Criteria
 addCriteria("non_tutorial_start", "minecraft:impossible")
 
-setPos(-349,9)
+setPos(-349,47)
 
 pageRequiresRoot()
 pageHiddenIf("tutorial")

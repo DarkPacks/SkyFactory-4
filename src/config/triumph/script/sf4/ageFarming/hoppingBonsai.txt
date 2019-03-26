@@ -1,0 +1,18 @@
+setTitle("Cowabonsai!")
+
+setIcon(<bonsaitrees:bonsaipot:1>)
+
+setDescription("Upgrade to the Hopping Bonsai Pot to automatically insert into chests and other inventory blocks")
+
+addParent("sf4:ageFarming/bonsai")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Bonsai Pot", "minecraft:inventory_changed")
+criteria.addItem(<bonsaitrees:bonsaipot:1>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(-27,231)

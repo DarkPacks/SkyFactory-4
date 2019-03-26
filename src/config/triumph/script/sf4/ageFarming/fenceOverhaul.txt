@@ -28,4 +28,4 @@ setRequirements("any")
 setRewardExperience(4)
 
 alwaysVisible()
-setPos(166,231)
+setPos(166,261)

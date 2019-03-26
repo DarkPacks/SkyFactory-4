@@ -39,6 +39,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:obsidian>, <tp:dirty_glass>, <minecraft:obsidian>],
 			[<tp:dirty_glass>, <minecraft:obsidian>, <tp:dirty_glass>]
 		]
+	],
+	<tp:cobblegen_block>: [
+		[
+			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
+			[<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <ore:blockGlass>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "lava", Amount: 1000}})],
+			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+		]
 	]
 };
 

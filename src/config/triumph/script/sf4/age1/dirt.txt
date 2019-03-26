@@ -16,4 +16,4 @@ criteria.setItem(<minecraft:dirt>)
 setRewardExperience(4)
 
 hideLines()
-setPos(-316,75)
+setPos(-317,114)

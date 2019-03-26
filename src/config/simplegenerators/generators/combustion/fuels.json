@@ -53,10 +53,6 @@
   },
   {
     "energy": 6000,
-    "id": "huntingdim:frame"
-  },
-  {
-    "energy": 6000,
     "id": "sky_orchards:log_netherrack"
   },
   {
@@ -2348,7 +2344,7 @@
     "id": "minecraft:wool:3"
   },
   {
-    "energy": 480000,
+    "energy": 400000,
     "id": "thermalfoundation:material:1024"
   },
   {
@@ -4926,5 +4922,129 @@
   {
     "energy": 350000000,
     "id": "extendedcrafting:singularity"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_prosperity"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_osmium"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_ardite"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_cobalt"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_glowstone"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_netherrack"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_quartz"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_emerald"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_nickel"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_silver"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_aluminum"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_tin"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_lead"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_copper"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_donut"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_bacon"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_cookie"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_bone"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_diamond"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_redstone"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_lapis"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_gold"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_iron"
+  },
+  {
+    "energy": 8000,
+    "id": "sky_orchards:leaves_coal"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_gravel"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_sand"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_clay"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_petrified"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_dirt"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:leaves_cottonwood"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:acorn_coal"
   }
 ]

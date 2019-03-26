@@ -19,4 +19,4 @@ setRequirements("any")
 //Rewards
 setRewardExperience(4)
 
-setPos(-86,231)
+setPos(-62,232)

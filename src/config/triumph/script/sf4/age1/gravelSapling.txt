@@ -15,4 +15,4 @@ criteria.addItem(<sky_orchards:sapling_gravel>)
 //Rewards
 setRewardExperience(4)
 
-setPos(-62,182)
+setPos(-29,145)

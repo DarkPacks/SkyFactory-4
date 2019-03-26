@@ -9,7 +9,6 @@ import mods.jei.JEI;
 
 static removeAndHideIngredients as IIngredient[] = [
 	// Creative
-	<bibliocraft:bibliocreativelock>,
 	<bibliocraft:bookcasecreative:1>,
 	<bibliocraft:bookcasecreative:2>,
 	<bibliocraft:bookcasecreative:3>,
@@ -192,12 +191,6 @@ static removeAndHideIngredients as IIngredient[] = [
 	<thermalfoundation:upgrade:35>,
 	<thermalfoundation:upgrade:256>,
 	<thermalfoundation:upgrade>,
-	<tombstone:advancement_001>,
-	<tombstone:advancement_002>,
-	<tombstone:advancement_003>,
-	<tombstone:dust_of_vanishing>,
-	<tombstone:fake_fog>,
-	<tombstone:soul>,
 	<torchmaster:mega_torch:1>,
 	<nuclearcraft:ore>,
 	<nuclearcraft:ore:1>,
@@ -288,13 +281,6 @@ static removeAndHideIngredients as IIngredient[] = [
 	<bibliocraft:bookcase:4>,
 	<bibliocraft:bookcase:5>,
 	<bibliocraft:bookcase:6>,
-	<bibliocraft:framedchest>,
-	<bibliocraft:framedchest:1>,
-	<bibliocraft:framedchest:2>,
-	<bibliocraft:framedchest:3>,
-	<bibliocraft:framedchest:4>,
-	<bibliocraft:framedchest:5>,
-	<bibliocraft:framedchest:6>,
 
 	<thermalfoundation:material:27>,
 	<thermalfoundation:material:256>,
@@ -369,7 +355,9 @@ static removeAndHideIngredients as IIngredient[] = [
 	<huntingdim:portal>,
 	<tp:colored_glowstone:*>,
 	<tp:colored_dust:*>,
-	<tp:colored_lamp:*>
+	<tp:colored_lamp:*>,
+
+	<inspirations:mulch>
 ];
 
 function init() {
