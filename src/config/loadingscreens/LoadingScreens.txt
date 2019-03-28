@@ -30,3 +30,4 @@ tips.addTip("Using different characters before your search text will help filter
 tips.addTip("Holding Shift while on the edge of a block will keep you from falling off. Some partial blocks ignore this feature.")
 tips.addTip("Crafting Tables do not burn.")
 tips.addTip("Applied Energistics 2 channels are disabled. There are no limits on connections.")
+tips.addTip("Blazes have decreased range and increased armor!")
