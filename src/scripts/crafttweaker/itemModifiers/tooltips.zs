@@ -636,7 +636,14 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],	
 	<extracells:terminal.gas.wireless>: [
 		format.red("Charged in the Mekanism Energy Cube")
+	],
+
+	//Amber labeled decorative so players don't think it's like useful or something.
+	<sky_orchards:amber_gravel>: [
+		format.yellow("Decorative")
 	]
+
+
 };
 
 function init() {

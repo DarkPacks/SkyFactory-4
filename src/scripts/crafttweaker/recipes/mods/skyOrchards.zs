@@ -348,7 +348,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<sky_orchards:amber_bone>: [
 		[
 			[<sky_orchards:acorn_bone>, <sky_orchards:resin_bone>, <sky_orchards:acorn_bone>],
-			[<sky_orchards:resin_bone>, <sky_orchards:resin_bone>, <sky_orchards:resin_bone>],
+			[<sky_orchards:resin_bone>, <sky_orchards:acorn_bone>, <sky_orchards:resin_bone>],
 			[<sky_orchards:acorn_bone>, <sky_orchards:resin_bone>, <sky_orchards:acorn_bone>]
 		]
 	],
@@ -403,9 +403,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<sky_orchards:amber_cottonwood>: [
 		[
-			[<sky_orchards:acorn_cottonwood>, <sky_orchards:resin_cottonwood>, <sky_orchards:acorn_cottonwood>],
 			[<sky_orchards:resin_cottonwood>, <sky_orchards:acorn_cottonwood>, <sky_orchards:resin_cottonwood>],
-			[<sky_orchards:acorn_cottonwood>, <sky_orchards:resin_cottonwood>, <sky_orchards:acorn_cottonwood>]
+			[<sky_orchards:acorn_cottonwood>, <sky_orchards:resin_cottonwood>, <sky_orchards:acorn_cottonwood>],
+			[<sky_orchards:resin_cottonwood>, <sky_orchards:acorn_cottonwood>, <sky_orchards:resin_cottonwood>]
 		]
 	],
 	<sky_orchards:amber_coal>: [
@@ -477,6 +477,12 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<minecraft:clay_ball> * 4: [
+        [<sky_orchards:amber_clay>]
+    ],
+	<minecraft:bone> * 3: [
+        [<sky_orchards:amber_bone>]
+    ]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

@@ -32,7 +32,6 @@ static removeAndHideIngredients as IIngredient[] = [
 	<baubles:ring>,
 	<compactstorage:compactchest:4>,
 	<endercrop:ender_crop>,
-	<fused:fuse>,
 	<huntingdim:biome_changer>.withTag({HeldBiome: 0}),
 	<huntingdim:biome_changer>.withTag({HeldBiome: 2}),
 	<huntingdim:biome_changer>.withTag({HeldBiome: 3}),
