@@ -12,6 +12,8 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Bonsai Pot", "minecraft:inventory_changed")
 criteria.addItem(<bonsaitrees:bonsaipot:1>)
 
+hiddenUnless("bonsai_trees")
+
 setRewardExperience(8)
 
 alwaysVisible()
