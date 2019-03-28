@@ -10,7 +10,7 @@ drawDirectLines(true)
 
 //Criteria
 criteria = addCriteria("Obtain Coal Sapling", "minecraft:inventory_changed")
-criteria.addItem(<minecraft:coal>)
+criteria.addItem(<minecraft:coal:0>)
 
 //Rewards
 setRewardExperience(4)
