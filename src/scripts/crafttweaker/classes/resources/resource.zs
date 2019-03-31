@@ -174,6 +174,14 @@ zenClass Resource {
 		if (hasLiquid()) {
 			nuclearCraft.addMelter(this.parts.ingot, this.liquid * 144);
 		}
+
+		if (hasPart("gear")) {
+			recipes.addShaped(this.parts.gear, [
+				[null, this.parts.ingot, null],
+				[this.parts.ingot, null, this.parts.ingot],
+				[null, this.parts.ingot, null]
+			]);
+		}
 	}
 
 	function handleNugget() {
