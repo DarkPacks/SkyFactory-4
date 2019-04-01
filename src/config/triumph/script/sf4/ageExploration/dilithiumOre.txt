@@ -2,15 +2,15 @@ setTitle("Even Scotty Doesn't Know")
 
 setIcon(<matteroverdrive:dilithium_ore>)
 
-setDescription("Travel to the Lost Cities or Twilight Forest to locate Dilithium Ore")
+setDescription("Travel to the Lost Cities or Twilight Forest to locate Dilithium Ore and mine it to acquire Dilithium Crystals")
 
 addParent("sf4:ageExploration/root")
 
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Ice Dilithium Ore", "minecraft:inventory_changed")
-criteria.addItem(<matteroverdrive:dilithium_ore>)
+criteria = addCriteria("Obtain Dilithium Crystals", "minecraft:inventory_changed")
+criteria.addItem(<matteroverdrive:dilithium_crystal>)
 
 setRequirements("any")
 setRewardExperience(20)

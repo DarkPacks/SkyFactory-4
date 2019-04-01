@@ -4,10 +4,6 @@
         "id": "refined_fuel"
     },
     {
-        "energy_per_mb": 64,
-        "id": "ic2biogas"
-    },
-    {
         "energy_per_mb": 80,
         "id": "seed_oil"
     },
@@ -84,18 +80,6 @@
         "id": "oil"
     },
     {
-        "energy_per_mb": 80,
-        "id": "canolaoil"
-    },
-    {
-        "energy_per_mb": 80,
-        "id": "canola_oil"
-    },
-    {
-        "energy_per_mb": 360,
-        "id": "hootch"
-    },
-    {
         "energy_per_mb": 1500,
         "id": "kerosene"
     },
@@ -106,10 +90,6 @@
     {
         "energy_per_mb": 1200,
         "id": "gasoline"
-    },
-    {
-        "energy_per_mb": 1200,
-        "id": "fire_water"
     },
     {
         "energy_per_mb": 800,

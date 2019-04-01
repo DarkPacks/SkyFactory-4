@@ -12,7 +12,8 @@ hideLines()
 criteria = addCriteria("Obtain Fertile Soil", "minecraft:inventory_changed")
 criteria.addItem(<rustic:fertile_soil>)
 
-setRewardExperience(10)
-
+hiddenUnless("fertile_soil")
 alwaysVisible()
+
+setRewardExperience(10)
 setPos(-3,206)

@@ -12,7 +12,8 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Mob DNA", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:spawn_egg>)
 
-setRewardExperience(6)
-
+hiddenUnless("mob_grinding_utils")
 alwaysVisible()
+
+setRewardExperience(6)
 setPos(166,387)

@@ -12,7 +12,9 @@ drawDirectLines(true)
 criteria = addCriteria("Obtain Mob DNA", "minecraft:inventory_changed")
 criteria.addItem(<mob_grinding_utils:gm_chicken_feed>)
 
+hiddenUnless("mob_grinding_utils")
+alwaysVisible()
+
 setRewardExperience(6)
 
-alwaysVisible()
 setPos(114,387)

@@ -12,7 +12,9 @@ hideLines()
 criteria = addCriteria("Obtain Mob DNA", "minecraft:inventory_changed")
 criteria.addItem(<mob_grinding_utils:mob_swab:1>)
 
+hiddenUnless("mob_grinding_utils")
+alwaysVisible()
+
 setRewardExperience(6)
 
-alwaysVisible()
 setPos(62,387)

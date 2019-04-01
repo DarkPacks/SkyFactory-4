@@ -28,6 +28,7 @@ SF4.addInitialPlayerFunction("triumph:start_standard")
 
 SF4 = registerPreset("Lostcities", "images/LostCities", "A world full of glass biodomes floating in the sky", "lostcities")
 SF4.addInitialPlayerFunction("triumph:start_standard")
+SF4.addInitialPlayerFunction("triumph:lost_cities")
 
 SF4 = registerPreset("Flat", "images/Flat", "Vanilla Flat World Type", "flat")
 SF4.addInitialPlayerFunction("triumph:start_standard")
