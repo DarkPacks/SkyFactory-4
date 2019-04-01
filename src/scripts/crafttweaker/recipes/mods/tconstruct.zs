@@ -65,7 +65,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
         [<ceramics:clay_barrel_unfired:3>]      
     ],
     <tconstruct:slime_dirt:1>: [
-        [<minecraft:dirt>, <minecraft:milk_bucket>, <minecraft:dye:4>]
+        [<minecraft:dirt>, <minecraft:milk_bucket>, <ore:dyeLightBlue>]
     ],
     <tconstruct:slime_dirt:2>: [
         [<minecraft:dirt>, <forge:bucketfilled>.withTag({FluidName: "blueslime", Amount: 1000}), <minecraft:redstone>]

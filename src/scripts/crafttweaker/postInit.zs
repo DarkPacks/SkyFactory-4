@@ -46,6 +46,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.mekanism.init();
 	scripts.crafttweaker.recipes.mods.microblockcbe.init();
 	scripts.crafttweaker.recipes.mods.minecraft.init();
+	scripts.crafttweaker.recipes.mods.mysticalAgriculture.init();
 	scripts.crafttweaker.recipes.mods.parabox.init();
 	scripts.crafttweaker.recipes.mods.projecte.init();
 	scripts.crafttweaker.recipes.mods.rftools.init();

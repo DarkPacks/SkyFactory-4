@@ -438,6 +438,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <mysticalagriculture:tier1_inferium_seeds>, null]
 		]
 	],
+	<sky_orchards:amber_prosperity>: [
+		[
+			[<sky_orchards:acorn_prosperity>, <sky_orchards:resin_prosperity>, <sky_orchards:acorn_prosperity>],
+			[<sky_orchards:resin_prosperity>, <sky_orchards:acorn_prosperity>, <sky_orchards:resin_prosperity>],
+			[<sky_orchards:acorn_prosperity>, <sky_orchards:resin_prosperity>, <sky_orchards:acorn_prosperity>]
+		]
+	],
 	<chisel:marble2:7>: [
 		[
 			[<sky_orchards:resin_petrified>, <sky_orchards:acorn_petrified>, <sky_orchards:resin_petrified>],

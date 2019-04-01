@@ -22,3 +22,5 @@ src/config/sampler.ini
 # Stuff
 .DS_Store
 *.dat
+
+src/config/AppliedEnergistics2/CustomRecipes\.cfg
