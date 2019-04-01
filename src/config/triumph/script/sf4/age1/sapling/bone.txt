@@ -1,0 +1,20 @@
+setTitle("Bone Sapling - Temp")
+
+setIcon(<sky_orchards:sapling_bone>)
+
+setDescription("Bone Sapling - Temp")
+
+addParent("sf4:age1/sapling/petrified")
+addParent("sf4:age1/dirt")
+addParent("sf4:age1/crushing_tub")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Bone Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_bone>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-433,214)

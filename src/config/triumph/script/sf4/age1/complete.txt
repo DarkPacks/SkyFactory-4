@@ -34,7 +34,6 @@ addParent("sf4:age1/slimeSapling")
 addParent("sf4:age1/string")
 addParent("sf4:age1/twerk")
 addParent("sf4:age1/water")
-addParent("sf4:age1/waterCollection")
 addParent("sf4:age1/woodenCrook")
 
 setRequiresParents()

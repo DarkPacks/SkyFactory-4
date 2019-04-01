@@ -7,9 +7,8 @@ setIcon(<minecraft:lava_bucket>)
 setDescription({"translate":"Create Lava by using '%1$s' on a Cauldron while holding Cobble. Collect it in a Clay or Regular bucket. To melt Cobblestone, you need to have a torch, fire, magma block, or lava directly under the Cauldron","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:age1/cobblestone")
-addParent("sf4:age1/cauldron")
 
-drawDirectLines(true)
+drawDirectLines()
 setRequirements("any")
 
 //Criteria
@@ -22,4 +21,4 @@ criteria2.addItem(<minecraft:lava_bucket>)
 //Rewards
 setRewardExperience(4)
 
-setPos(1,76)
+setPos(64,148)

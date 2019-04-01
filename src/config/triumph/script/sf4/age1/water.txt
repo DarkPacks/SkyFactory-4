@@ -1,13 +1,12 @@
 setTitle("Water You Waiting For?")
 
-setIcon(<ceramics:clay_bucket,meta:0,count:1,nbt:{fluids:{FluidName:"water",Amount:1000}}>)
+setIcon(<nuclearcraft:fluid_preheated_water>)
 
 setDescription("Collect Rain Water in a Cauldron or by jumping on a Sapling in a Crushing Tub. Collect it using a Clay Bucket or Iron Bucket")
 
-addParent("sf4:age1/crushingTub")
-addParent("sf4:age1/cauldron")
+addParent("sf4:age1/root")
 
-drawDirectLines(true)
+hideLines()
 
 //Criteria
 criteria = addCriteria("Obtain Water in a Clay Bucket", "minecraft:inventory_changed")
@@ -21,4 +20,4 @@ setRequirements("any")
 //Rewards
 setRewardExperience(4)
 
-setPos(-57,76)
+setPos(-56,188)

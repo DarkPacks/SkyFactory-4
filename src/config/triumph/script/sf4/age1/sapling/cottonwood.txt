@@ -1,0 +1,20 @@
+setTitle("Cottonwood Sapling - Temp")
+
+setIcon(<sky_orchards:sapling_cottonwood>)
+
+setDescription("Cottomwood Sapling - Temp")
+
+addParent("sf4:age1/sapling/bone")
+addParent("sf4:age1/sapling/clay")
+addParent("sf4:age1/cauldron")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Cottonwood Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_cottonwood>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-367,247)

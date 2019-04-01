@@ -4,9 +4,9 @@ setIcon(<minecraft:dirt>)
 
 setDescription("Craft a Dirt Block using Dirt Acorns and Dirt Resin")
 
-addParent("sf4:age1/root")
+addParent("sf4:age1/acorn/dirt")
 
-drawDirectLines(true)
+drawDirectLines()
 
 //Criteria
 criteria = addCriteria("Craft Dirt Block", "triumph:player_crafted_item")
@@ -15,5 +15,4 @@ criteria.setItem(<minecraft:dirt>)
 //Rewards
 setRewardExperience(4)
 
-hideLines()
-setPos(-317,114)
+setPos(-367,181)

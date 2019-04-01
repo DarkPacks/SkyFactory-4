@@ -4,10 +4,9 @@ setIcon(<minecraft:cobblestone>)
 
 setDescription("Craft a Cobblestone block using petrified Acorns and Resin or using any other method")
 
-addParent("sf4:age1/petrifiedSapling")
-addParent("sf4:age1/petrifiedAcorn")
+addParent("sf4:age1/root")
 
-drawDirectLines(true)
+hideLines()
 
 //Criteria
 criteria = addCriteria("Obtain Cobblestone Block", "minecraft:inventory_changed")
@@ -17,4 +16,4 @@ criteria.addItem(<minecraft:cobblestone>)
 setRewardExperience(4)
 
 
-setPos(1,119)
+setPos(24,148)

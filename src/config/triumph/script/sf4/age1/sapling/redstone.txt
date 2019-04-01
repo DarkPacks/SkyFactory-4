@@ -1,0 +1,18 @@
+setTitle("Redstone Sapling - Temp")
+
+setIcon(<sky_orchards:sapling_redstone>)
+
+setDescription("Redstone Sapling - Temp")
+
+addParent("sf4:age1/sapling/iron")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Redstone Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_redstone>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-466,346)

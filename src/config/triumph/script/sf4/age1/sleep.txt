@@ -6,9 +6,9 @@ setDescription("Sleep in a bed")
 
 addParent("sf4:age1/string")
 
-drawDirectLines(true)
+drawDirectLines()
 
 //Criteria
 criteria = addCriteria("Sleep in a Bed", "minecraft:slept_in_bed")
 
-setPos(-155,182)
+setPos(-268,247)

@@ -24,4 +24,4 @@ setRequirements("any")
 setRewardExperience(4)
 
 hideLines()
-setPos(-349,114)
+setPos(-96,188)

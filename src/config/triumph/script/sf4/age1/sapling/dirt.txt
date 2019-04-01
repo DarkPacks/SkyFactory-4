@@ -1,0 +1,19 @@
+setTitle("That's Dir-tree")
+
+setIcon(<sky_orchards:sapling_dirt>)
+
+setDescription("Acquire a dirt sapling to grow more dirt trees")
+
+addParent("sf4:age1/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Dirt Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_dirt>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+setPos(-400,148)

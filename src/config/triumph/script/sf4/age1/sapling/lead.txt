@@ -1,0 +1,18 @@
+setTitle("Lead Sapling - Temp")
+
+setIcon(<sky_orchards:sapling_lead>)
+
+setDescription("Lead Sapling - Temp")
+
+addParent("sf4:age1/amber/lead")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Lead Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_lead>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-334,346)

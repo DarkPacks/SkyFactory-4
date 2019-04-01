@@ -4,13 +4,13 @@ setIcon(<minecraft:diamond>)
 
 setDescription("Obtain a Diamond!")
 
-addParent("sf4:age1/diamondSapling")
+addParent("sf4:age1/sapling/diamond")
 
-drawDirectLines(true)
+drawDirectLines()
 
 criteria = addCriteria("Obtain Diamond", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:diamond>)
 
 setRewardExperience(6)
 
-setPos(114,212)
+setPos(-400,445)

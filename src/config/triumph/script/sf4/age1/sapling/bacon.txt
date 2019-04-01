@@ -1,0 +1,17 @@
+setTitle("Bacon Sapling - Temp")
+
+setIcon(<sky_orchards:sapling_bacon>)
+
+setDescription("Bacon Sapling - Temp")
+
+addParent("sf4:age1/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Bacon Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_bacon>)
+
+//Rewards
+setRewardExperience(4)
+setPos(-136,228)

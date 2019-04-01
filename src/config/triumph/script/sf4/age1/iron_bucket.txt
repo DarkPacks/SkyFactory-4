@@ -1,0 +1,18 @@
+setTitle("Not a Helmet")
+
+setIcon(<minecraft:bucket>)
+
+setDescription("Craft an Iron Bucket")
+
+addParent("sf4:age1/iron_ingot")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Iron Bucket", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:bucket>)
+
+//Rewards
+setRewardExperience(6)
+
+setPos(-532,313)

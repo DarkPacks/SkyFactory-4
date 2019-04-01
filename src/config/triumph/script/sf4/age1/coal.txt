@@ -4,14 +4,14 @@ setIcon(<minecraft:coal>)
 
 setDescription("Using Coal Acorns and Resin, craft a piece of Coal")
 
-addParent("sf4:age1/coalSapling")
+addParent("sf4:age1/sapling/coal")
 
-drawDirectLines(true)
+drawDirectLines()
 
 //Criteria
 criteria = addCriteria("Obtain Coal Sapling", "minecraft:inventory_changed")
-criteria.addItem(<minecraft:coal:0>)
+criteria.addItem(<minecraft:coal, meta:0>)
 
 //Rewards
 setRewardExperience(4)
-setPos(1,221)
+setPos(-466,280)

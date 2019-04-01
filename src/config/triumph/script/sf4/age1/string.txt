@@ -4,9 +4,9 @@ setIcon(<minecraft:string>)
 
 setDescription("String has a chance to drop from Cottonwood Leaves. Or, use the Drying Rack to dry out Cottonwood Leaves to make String. Obtain a Cottonwood Sapling and piece of String")
 
-addParent("sf4:age1/dryingRack")
+addParent("sf4:age1/sapling/cottonwood")
 
-drawDirectLines(true)
+drawDirectLines()
 
 //Criteria
 criteria1 = addCriteria("Obtain String", "minecraft:inventory_changed")
@@ -17,4 +17,4 @@ criteria2.addItem(<sky_orchards:sapling_cottonwood>)
 //Rewards
 setRewardExperience(4)
 
-setPos(-155,157)
+setPos(-301,247)

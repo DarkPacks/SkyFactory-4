@@ -1,0 +1,18 @@
+setTitle("Tin Sapling - Temp")
+
+setIcon(<sky_orchards:sapling_tin>)
+
+setDescription("Tin Sapling - Temp")
+
+addParent("sf4:age1/amber/tin")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Tin Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_tin>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-334,280)
