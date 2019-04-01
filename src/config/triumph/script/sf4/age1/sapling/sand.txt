@@ -14,4 +14,4 @@ criteria.addItem(<sky_orchards:sapling_sand>)
 
 //Rewards
 setRewardExperience(4)
-setPos(-433,247)
+setPos(-284,306)

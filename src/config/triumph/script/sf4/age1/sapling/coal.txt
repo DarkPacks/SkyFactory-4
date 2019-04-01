@@ -15,4 +15,4 @@ criteria.addItem(<sky_orchards:sapling_coal>)
 //Rewards
 setRewardExperience(4)
 
-setPos(-433,280)
+setPos(-259,306)

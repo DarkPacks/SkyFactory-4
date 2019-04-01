@@ -15,4 +15,4 @@ criteria.setItem(<minecraft:dirt>)
 //Rewards
 setRewardExperience(4)
 
-setPos(-367,181)
+setPos(-384,281)

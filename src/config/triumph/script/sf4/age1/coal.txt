@@ -14,4 +14,4 @@ criteria.addItem(<minecraft:coal, meta:0>)
 
 //Rewards
 setRewardExperience(4)
-setPos(-466,280)
+setPos(-234,331)

@@ -11,4 +11,4 @@ drawDirectLines()
 //Criteria
 criteria = addCriteria("Sleep in a Bed", "minecraft:slept_in_bed")
 
-setPos(-268,247)
+setPos(-259,231)

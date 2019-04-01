@@ -21,4 +21,4 @@ criteria2.addItem(<minecraft:lava_bucket>)
 //Rewards
 setRewardExperience(4)
 
-setPos(64,148)
+setPos(-234,156)

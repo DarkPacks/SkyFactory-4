@@ -16,4 +16,4 @@ criteria.addItem(<minecraft:cobblestone>)
 setRewardExperience(4)
 
 
-setPos(24,148)
+setPos(-259,156)

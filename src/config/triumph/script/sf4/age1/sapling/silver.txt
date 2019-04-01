@@ -15,4 +15,4 @@ criteria.addItem(<sky_orchards:sapling_silver>)
 //Rewards
 setRewardExperience(4)
 
-setPos(-499,379)
+setPos(-84,331)

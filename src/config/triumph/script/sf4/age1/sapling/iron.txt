@@ -15,4 +15,4 @@ criteria.addItem(<sky_orchards:sapling_iron>)
 //Rewards
 setRewardExperience(4)
 
-setPos(-400,313)
+setPos(-184,306)

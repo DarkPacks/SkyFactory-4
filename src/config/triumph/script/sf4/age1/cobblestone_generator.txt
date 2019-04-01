@@ -16,4 +16,4 @@ criteria.setBlock(<tile:{Items:[{Slot:0b,id:"minecraft:cobblestone",Count:64b,Da
 setRewardExperience(6)
 
 
-setPos(24,188)
+setPos(-259,181)

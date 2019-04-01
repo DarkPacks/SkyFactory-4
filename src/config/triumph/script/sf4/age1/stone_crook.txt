@@ -17,4 +17,4 @@ criteria.addItem(<inspirations:stone_crook>)
 //Rewards
 setRewardExperience(4)
 
-setPos(-16,188)
+setPos(-284,181)

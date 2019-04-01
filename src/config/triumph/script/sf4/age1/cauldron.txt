@@ -16,4 +16,4 @@ criteria.addItem(<ore:cauldron>)
 setRewardExperience(4)
 
 hideLines()
-setPos(-301,214)
+setPos(-309,256)

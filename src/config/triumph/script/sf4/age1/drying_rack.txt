@@ -6,8 +6,7 @@ setDescription("Obtain a Tinkers' Construct Drying Rack")
 
 addParent("sf4:age1/root")
 
-//drawDirectLines()
-hideLines()
+drawDirectLines()
 
 //Criteria
 criteria = addCriteria("Obtain Drying Rack", "minecraft:inventory_changed")
@@ -16,4 +15,4 @@ criteria.addItem(<tconstruct:rack:1>)
 //Rewards
 setRewardExperience(4)
 
-setPos(-466,148)
+setPos(-409,331)

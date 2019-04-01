@@ -15,4 +15,4 @@ criteria.addItem(<sky_orchards:sapling_redstone>)
 //Rewards
 setRewardExperience(4)
 
-setPos(-466,346)
+setPos(-159,331)

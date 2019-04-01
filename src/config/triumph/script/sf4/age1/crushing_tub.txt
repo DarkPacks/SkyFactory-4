@@ -16,4 +16,4 @@ criteria.addItem(<rustic:crushing_tub>)
 setRewardExperience(4)
 
 hideLines()
-setPos(-499,181)
+setPos(-384,331)

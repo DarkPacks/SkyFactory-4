@@ -14,4 +14,4 @@ criteria.addItem(<sky_orchards:sapling_bacon>)
 
 //Rewards
 setRewardExperience(4)
-setPos(-136,228)
+setPos(-209,156)

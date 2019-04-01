@@ -19,4 +19,4 @@ criteria2.addItem(<minecraft:log, count:8~>)
 //Rewards
 setRewardExperience(4)
 
-setPos(-136,188)
+setPos(-334,156)

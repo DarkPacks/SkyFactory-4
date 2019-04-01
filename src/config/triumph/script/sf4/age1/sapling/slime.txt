@@ -17,4 +17,4 @@ criteria.addItem(<tconstruct:slime_sapling>)
 //Rewards
 setRewardExperience(4)
 
-setPos(-301,313)
+setPos(-159,256)

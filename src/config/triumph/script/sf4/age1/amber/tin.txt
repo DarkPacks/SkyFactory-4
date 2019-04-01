@@ -14,4 +14,4 @@ criteria.addItem(<sky_orchards:amber_tin>)
 
 //Rewards
 setRewardExperience(4)
-setPos(-367,280)
+setPos(-259,281)

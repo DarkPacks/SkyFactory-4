@@ -17,4 +17,4 @@ criteria.addItem(<minecraft:obsidian>)
 //Rewards
 setRewardExperience(6)
 
-setPos(64,188)
+setPos(-234,181)

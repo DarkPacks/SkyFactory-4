@@ -17,4 +17,4 @@ criteria2.addItem(<sky_orchards:sapling_cottonwood>)
 //Rewards
 setRewardExperience(4)
 
-setPos(-301,247)
+setPos(-259,256)

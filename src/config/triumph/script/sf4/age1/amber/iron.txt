@@ -14,4 +14,4 @@ criteria.addItem(<sky_orchards:amber_iron>)
 
 //Rewards
 setRewardExperience(4)
-setPos(-466,313)
+setPos(-209,306)
