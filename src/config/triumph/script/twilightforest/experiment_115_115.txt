@@ -13,5 +13,5 @@ addParent("twilightforest:experiment_115")
 
 //Criteria
 criteria = addCriteria("eat_115_1", "minecraft:consume_item")
-criteria.addItem(<twilightforest:experiment_115>)
+criteria.setItem(<twilightforest:experiment_115>)
 criteria.setCount(115)
