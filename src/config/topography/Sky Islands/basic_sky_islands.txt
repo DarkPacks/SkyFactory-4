@@ -1,5 +1,7 @@
 setSingleBiome("minecraft:void")
 
+setCloudLevel(-1)
+
 //Creates a new SkyIslandType. The argument is a biome id.
 forest = new SkyIslandType("minecraft:forest")
 

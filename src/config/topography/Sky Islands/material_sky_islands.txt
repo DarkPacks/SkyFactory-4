@@ -1,4 +1,6 @@
 
+setCloudLevel(-1)
+
 //Creates a new SkyIslandType. The argument is a biome id.
 lapis = new SkyIslandType("minecraft:void")
 //Sets the block the island is made of. Defaults to stone. Look at a block in world and use the command `/bnb block` to generate the syntax.
