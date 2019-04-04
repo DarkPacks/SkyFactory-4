@@ -356,7 +356,8 @@ static removeAndHideIngredients as IIngredient[] = [
 	<tp:colored_dust:*>,
 	<tp:colored_lamp:*>,
 
-	<inspirations:mulch>
+	<inspirations:mulch>,
+	<extendedcrafting:crafting_table>
 ];
 
 function init() {

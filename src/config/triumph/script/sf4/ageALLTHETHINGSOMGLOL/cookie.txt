@@ -17,4 +17,4 @@ setRewardExperience(60)
 
 hideLines()
 alwaysVisible()
-setPos(-80,51)
+setPos(-79,51)

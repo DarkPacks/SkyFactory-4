@@ -15,4 +15,4 @@ criteria.addItem(<tp:octuple_compressed_sugar_cane>)
 
 //Rewards
 setRewardExperience(100)
-setPos(-83,151)
+setPos(-79,151)

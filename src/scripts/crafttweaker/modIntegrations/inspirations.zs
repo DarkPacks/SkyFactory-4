@@ -34,7 +34,7 @@ function init() {
 	inspirations.addCauldronFluid(<minecraft:obsidian>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <liquid:lava>, 4);
 
 	// Washing Sand off to bonemeal
-	inspirations.addCauldronFluid(<minecraft:dye:15> * 3, <minecraft:sand>, <liquid:water>);
+	inspirations.addCauldronFluid(<minecraft:dye:15> * 3, <minecraft:gravel>, <liquid:water>);
 
 	// Washing clay in mud to make Jungle
 	inspirations.addCauldronFluid(<minecraft:sapling:3>, <sky_orchards:sapling_clay>, <liquid:mud>);
@@ -67,6 +67,10 @@ function init() {
 
 	// Purple Slime Sapling
 	inspirations.addCauldronFluid(<tconstruct:slime_sapling:1>, <tconstruct:slime_sapling>, <liquid:redstone>, 4);
+
+	//Create Salt by using Sand on Water in a Cauldron
+
+	inspirations.addCauldronFluid(<mekanism:saltblock>, <minecraft:sand>, <liquid:water>, 4);
 
 	// ==================================
 	// Fill Recipes

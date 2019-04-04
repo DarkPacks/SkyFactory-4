@@ -16,6 +16,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:blockMarble>, <ore:workbench>, <ore:blockMarble>],
 			[<ore:blockMarble>, null, <ore:blockMarble>]
 		]
+	],
+	<astralsorcery:itemwand>: [
+		[
+			[null, <ore:gemAquamarine>, <ore:enderpearl>],
+			[null, <ore:blockMarble>, <ore:gemAquamarine>],
+			[<ore:blockMarble>, null, null]
+		]
 	]
 };
 

@@ -192,7 +192,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:coal>, null]
 		]
 	],
-
 	<animalcrops:seeds>.withTag({entity: "minecraft:skeleton_horse"}): [
 		[
 			[null, <minecraft:apple>, null],
@@ -200,6 +199,43 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:bone>, null]
 		]
 	],
+	<animalcrops:seeds>.withTag({entity: "thermalfoundation:blizz"}): [
+		[
+			[null, <minecraft:snowball>, null],
+			[null, <xlfoodmod:lettuce_seeds>, null],
+			[null, <minecraft:snowball>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "thermalfoundation:blitz"}): [
+		[
+			[null, <thermalfoundation:material:772>, null],
+			[null, <xlfoodmod:corn_seeds>, null],
+			[null, <minecraft:gunpowder>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "thermalfoundation:basalz"}): [
+		[
+			[null, <minecraft:stone>, null],
+			[null, <xlfoodmod:pepper_seeds>, null],
+			[null, <minecraft:gravel>, null]
+		]
+	],
+		<animalcrops:seeds>.withTag({entity: "matteroverdrive:ranged_rogue_android"}): [
+		[
+			[null, <minecraft:bow>, null],
+			[null, <inspirations:cactus_seeds>, null],
+			[null, <minecraft:quartz>, null]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "matteroverdrive:rogue_android"}): [
+		[
+			[null, <minecraft:iron_sword>, null],
+			[null, <inspirations:cactus_seeds>, null],
+			[null, <minecraft:quartz>, null]
+		]
+	],
+
+	//Water Seeds
 	<animalcrops:lily>.withTag({entity: "minecraft:guardian"}): [
 		[
 			[null, <ore:fish>, null],
@@ -213,7 +249,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:waterlily>, null],
 			[null, <minecraft:potion>, null]
 		]
-	]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

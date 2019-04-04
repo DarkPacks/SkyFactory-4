@@ -1,0 +1,17 @@
+setTitle("Slush Puppy")
+
+setIcon(<industrialforegoing:froster>)
+
+setDescription("Craft the Industrial Foregoing Froster to make Ice, Packed Ice, and Snow")
+
+addParent("sf4:agePower/root")
+
+//Criteria
+criteria = addCriteria("Obtain Froster", "minecraft:inventory_changed")
+criteria.addItem(<industrialforegoing:froster>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-25,96)

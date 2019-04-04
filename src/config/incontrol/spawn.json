@@ -48,5 +48,93 @@
         }
       ]
     }
+  },
+  {
+    "mob": "thermalfoundation:blizz",
+    "result": "default",
+    "onjoin": true,
+    "nbt": {
+      "Attributes": [
+        {
+          "Base": 24.0,
+          "Name": "generic.followRange"
+        },
+        {
+          "Base": 13,
+          "Name": "generic.armor"
+        },
+        {
+          "Base": 0.1,
+          "Name": "generic.movementSpeed"
+        },
+        {
+          "Base": 0.4,
+          "Name": "generic.knockbackResistance"
+        }
+      ]
+    }
+  },
+  {
+    "mob": "thermalfoundation:blitz",
+    "result": "default",
+    "onjoin": true,
+    "nbt": {
+      "Attributes": [
+        {
+          "Base": 24.0,
+          "Name": "generic.followRange"
+        },
+        {
+          "Base": 13,
+          "Name": "generic.armor"
+        },
+        {
+          "Base": 0.1,
+          "Name": "generic.movementSpeed"
+        },
+        {
+          "Base": 0.4,
+          "Name": "generic.knockbackResistance"
+        }
+      ]
+    }
+  },
+  {
+    "mob": "thermalfoundation:basalz",
+    "result": "default",
+    "onjoin": true,
+    "nbt": {
+      "Attributes": [
+        {
+          "Base": 24.0,
+          "Name": "generic.followRange"
+        },
+        {
+          "Base": 13,
+          "Name": "generic.armor"
+        },
+        {
+          "Base": 0.1,
+          "Name": "generic.movementSpeed"
+        },
+        {
+          "Base": 0.4,
+          "Name": "generic.knockbackResistance"
+        }
+      ]
+    }
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "result": "default",
+    "onjoin": true,
+    "nbt": {
+      "Attributes": [
+        {
+          "Base": 18.0,
+          "Name": "generic.followRange"
+        }
+      ]
+    }
   }
 ]
