@@ -368,22 +368,12 @@ static removeAndHideIngredients as IIngredient[] = [
 	<thermalfoundation:storage_resource:1>,
 	<thermalfoundation:material:802>,
 	<realfilingcabinet:upgrade:1>,
-	<cyclicmagic:ender_tnt_1>,
-	<cyclicmagic:ender_tnt_2>,
-	<cyclicmagic:ender_tnt_3>,
-	<cyclicmagic:ender_tnt_4>,
-	<cyclicmagic:ender_tnt_5>,
-	<cyclicmagic:ender_tnt_6>,
-	<bibliocraft:recipebook>,
 	<contenttweaker:compact_machine_twilight_forest_wall>,
 	<contenttweaker:compact_machine_lost_cities_wall>,
 	<contenttweaker:compact_machine_nether_wall>,
 	<contenttweaker:compact_machine_end_wall>,
 	<contenttweaker:compact_machine_hunting_dimension_wall>,
 	<minecraft:knowledge_book>
-
-
-
 ];
 
 function init() {
