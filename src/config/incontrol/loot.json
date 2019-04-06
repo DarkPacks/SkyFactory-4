@@ -252,6 +252,24 @@
     "itemcount": "0/0/2-3"
   },
   {
+    "mob": "Wither_skeleton",
+    "item": "minecraft:skull@1",
+    "random": 0.08,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "minecraft:skull@1",
+    "random": 0.10,
+    "itemcount": "0/0-1/0"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "minecraft:skull@1",
+    "random": 0.15,
+    "itemcount": "0/0/1-2"
+  },
+  {
     "mob": "Creeper",
     "item": "mysticalagriculture:crafting",
     "gamestage": "mystical_agriculture",

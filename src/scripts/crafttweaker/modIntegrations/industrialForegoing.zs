@@ -17,7 +17,6 @@ Extractor.add(<integrateddynamics:menril_log>, <liquid:latex> * 5);
 Extractor.add(<integrateddynamics:menril_log_filled>, <liquid:latex> * 7);
 Extractor.add(<sky_orchards:log_cobalt>, <liquid:latex> * 4);
 Extractor.add(<sky_orchards:log_ardite>, <liquid:latex> * 4);
-Extractor.add(<totemic:cedar_log>, <liquid:latex> * 6);
 
 //Extractor.add(<minecraft:cobblestone>, <liquid:> * 3);
 

@@ -72,6 +72,9 @@ function init() {
 
 	inspirations.addCauldronFluid(<mekanism:saltblock>, <minecraft:sand>, <liquid:water>, 4);
 
+	//Later that night, Bentley found out we needed to have Starlight Ingots too.
+	inspirations.addCauldronFluid(<astralsorcery:itemcraftingcomponent:1>, <minecraft:iron_ingot>, <liquid:astralsorcery.liquidstarlight>, 4);
+
 	// ==================================
 	// Fill Recipes
 	// ==================================

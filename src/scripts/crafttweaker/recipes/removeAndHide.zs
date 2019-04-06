@@ -20,8 +20,6 @@ static removeAndHideIngredients as IIngredient[] = [
 	<enderutilities:endercapacitor:3>,
 	<enderutilities:enderpart:30>,
 	<enderutilities:enderpart:81>,
-	<totemic:ceremony_cheat>,
-	<totemic:medicine_bag>,
 	<vc:airships/item_airship_creative>,
 	<vc:modules/item_module_creative>,
 
@@ -357,7 +355,19 @@ static removeAndHideIngredients as IIngredient[] = [
 	<tp:colored_lamp:*>,
 
 	<inspirations:mulch>,
-	<extendedcrafting:crafting_table>
+	<extendedcrafting:crafting_table>,
+	<thermalfoundation:material:22>,
+	<thermalfoundation:material:23>,
+	<mystcraft:glasses>,
+	<projecte:item.pe_fire_projectile>,
+	<projecte:item.pe_wind_projectile>,
+	<tp:blueberry_bush>,
+	<tp:maloberry_bush>,
+	<tp:raspberry_bush>,
+	<tp:blackberry_bush>,
+	<thermalfoundation:storage_resource:1>,
+	<thermalfoundation:material:802>
+
 ];
 
 function init() {

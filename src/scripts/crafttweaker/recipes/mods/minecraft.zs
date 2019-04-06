@@ -143,6 +143,21 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<forge:bucketfilled>.withTag({FluidName: "liquidchorus", Amount: 1000}), <deepmoblearning:living_matter_extraterrestrial>, <forge:bucketfilled>.withTag({FluidName: "liquidchorus", Amount: 1000})],
 			[<minecraft:end_crystal>, <minecraft:glass_bottle>, <minecraft:end_crystal>]
 		]
+	],
+
+	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 33 as short}]}):  [
+		[
+			[null, <tconstruct:materials:15>, null],
+			[<tconstruct:materials:15>, <minecraft:book>, <tconstruct:materials:15>],
+			[null, <tconstruct:materials:15>, null]
+		]
+	],
+	<minecraft:name_tag>:  [
+		[
+			[null, <minecraft:string>, <minecraft:string>],
+			[null, <minecraft:paper>, <minecraft:string>],
+			[null, null, null]
+		]
 	]
 };
 

@@ -641,9 +641,10 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	//Amber labeled decorative so players don't think it's like useful or something.
 	<sky_orchards:amber_gravel>: [
 		format.yellow("Decorative")
+	],
+	<contenttweaker:cobblestone_circuit_mold>: [
+		format.yellow("Will not be consumed when creating a mold")
 	]
-
-
 };
 
 function init() {

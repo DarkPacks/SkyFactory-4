@@ -1,4 +1,4 @@
-setSpawnStructure("villagev2")
+setSpawnStructure("villagemk3")
 
 sky = setSkyRenderer()
 //top, bottom, north, south, east, west

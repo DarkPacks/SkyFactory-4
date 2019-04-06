@@ -83,7 +83,7 @@ SF4.registerDimension(-1, "SF4/nether/nether_cell")
 SF4.addInitialPlayerFunction("triumph:start_standard")
 SF4.disableNetherPortal()
 
-SF4 = registerPreset("Sky Village", "images/Villagemk2", "Spawn inside a small village with a Dirt Tree")
+SF4 = registerPreset("Sky Village", "images/Villagemk3", "Spawn inside a small village with a Dirt Tree")
 SF4.registerDimension(0, "SF4/village")
 SF4.registerDimension(-1, "SF4/nether/nether_cell")
 SF4.addInitialPlayerFunction("triumph:start_standard")
