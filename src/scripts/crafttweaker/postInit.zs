@@ -38,6 +38,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.darkutils.init();
 	scripts.crafttweaker.recipes.mods.deepMobLearning.init();
 	scripts.crafttweaker.recipes.mods.dimensionalEdibles.init();
+	scripts.crafttweaker.recipes.mods.extraCells.init();	
 	scripts.crafttweaker.recipes.mods.iChunUtil.init();
 	scripts.crafttweaker.recipes.mods.industrialForegoing.init();
 	scripts.crafttweaker.recipes.mods.inspirations.init();
