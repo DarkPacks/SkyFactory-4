@@ -19,7 +19,6 @@ function init() {
 	mekanism.addCrusher(<sky_orchards:amber_silver>, <mekanism:dust:5> * 2);
 	mekanism.addCrusher(<sky_orchards:amber_osmium>, <mekanism:dust:2> * 2);
 	mekanism.addCrusher(<sky_orchards:amber_nickel>, <thermalfoundation:material:69> * 2);
-	mekanism.addCrusher(<sky_orchards:amber_aluminum>, <thermalfoundation:material:68> * 2);
 
 	//Cotton Wool from Amber or acorn
 	mekanism.addCrusher(<sky_orchards:amber_cottonwood>, <minecraft:wool>);

@@ -32,7 +32,6 @@ mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_gold>, <liquid:gold> * 2
 mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_lead>, <liquid:lead> * 288]);
 mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_copper>, <liquid:copper> * 288]);
 mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_tin>, <liquid:tin> * 288]);
-mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_aluminum>, <liquid:aluminum> * 288]);
 mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_silver>, <liquid:silver> * 288]);
 mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_nickel>, <liquid:nickel> * 288]);
 mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_ardite>, <liquid:ardite> * 288]);

@@ -15,7 +15,6 @@ import scripts.crafttweaker.utils;
 // Pairs the resource name with the liquid for the resource
 // Used to generate the rest of the resource's information and store in resources global
 static resourcesBase as ILiquidStack[string] = {
-	"aluminum": <liquid:aluminum>,
 	"ardite": <liquid:ardite>,
 	"boron": <liquid:boron>,
 	"bronze": <liquid:bronze>,

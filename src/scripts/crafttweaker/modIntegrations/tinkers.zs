@@ -52,7 +52,6 @@ function init() {
 	tinkers.addMelting(<liquid:copper> * 16, <sky_orchards:acorn_copper>);
 	tinkers.addMelting(<liquid:lead> * 16, <sky_orchards:acorn_lead>);
 	tinkers.addMelting(<liquid:tin> * 16, <sky_orchards:acorn_tin>);
-	tinkers.addMelting(<liquid:aluminum> * 16, <sky_orchards:acorn_aluminum>);
 	tinkers.addMelting(<liquid:silver> * 16, <sky_orchards:acorn_silver>);
 	tinkers.addMelting(<liquid:nickel> * 16, <sky_orchards:acorn_nickel>);
 	tinkers.addMelting(<liquid:ardite> * 16, <sky_orchards:acorn_ardite>);
@@ -66,7 +65,6 @@ function init() {
 	tinkers.addMelting(<liquid:copper> * 12, <sky_orchards:resin_copper>);
 	tinkers.addMelting(<liquid:lead> * 12, <sky_orchards:resin_lead>);
 	tinkers.addMelting(<liquid:tin> * 12, <sky_orchards:resin_tin>);
-	tinkers.addMelting(<liquid:aluminum> * 12, <sky_orchards:resin_aluminum>);
 	tinkers.addMelting(<liquid:silver> * 12, <sky_orchards:resin_silver>);
 	tinkers.addMelting(<liquid:nickel> * 12, <sky_orchards:resin_nickel>);
 	tinkers.addMelting(<liquid:ardite> * 12, <sky_orchards:resin_ardite>);
@@ -90,7 +88,6 @@ function init() {
 	tinkers.addMelting(<liquid:lead> * 288, <sky_orchards:amber_lead>);
 	tinkers.addMelting(<liquid:copper> * 288, <sky_orchards:amber_copper>);
 	tinkers.addMelting(<liquid:tin> * 288, <sky_orchards:amber_tin>);
-	tinkers.addMelting(<liquid:aluminum> * 288, <sky_orchards:amber_aluminum>);
 	tinkers.addMelting(<liquid:silver> * 288, <sky_orchards:amber_silver>);
 	tinkers.addMelting(<liquid:nickel> * 288, <sky_orchards:amber_nickel>);
 	tinkers.addMelting(<liquid:ardite> * 288, <sky_orchards:amber_ardite>);
@@ -134,7 +131,6 @@ function init() {
 	tinkers.addCastingTable(<sky_orchards:sapling_tin>, <minecraft:sapling:2>, <liquid:tin>, 144, true, 200);
 	tinkers.addCastingTable(<sky_orchards:sapling_copper>, <minecraft:sapling:1>, <liquid:copper>, 144, true, 200);
 	tinkers.addCastingTable(<sky_orchards:sapling_lead>, <minecraft:sapling:5>, <liquid:lead>, 144, true, 200);
-	tinkers.addCastingTable(<sky_orchards:sapling_aluminum>, <minecraft:sapling:3>, <liquid:aluminum>, 144, true, 200);
 	tinkers.addCastingTable(<sky_orchards:sapling_gold>, <minecraft:sapling:0>, <liquid:gold>, 144, true, 200);
 	tinkers.addCastingTable(<sky_orchards:sapling_silver>, <integrateddynamics:menril_sapling>, <liquid:silver>, 144, true, 200);
 	tinkers.addCastingTable(<sky_orchards:sapling_nickel>, <sky_orchards:sapling_iron>, <liquid:nickel>, 144, true, 200);
@@ -186,7 +182,6 @@ function init() {
 	tinkers.addCastingBasin(<thermalfoundation:glass:1>, <minecraft:obsidian>, <liquid:tin>, 144, true, 160);
 	tinkers.addCastingBasin(<thermalfoundation:glass:2>, <minecraft:obsidian>, <liquid:silver>, 144, true, 160);
 	tinkers.addCastingBasin(<thermalfoundation:glass:3>, <minecraft:obsidian>, <liquid:lead>, 144, true, 160);
-	tinkers.addCastingBasin(<thermalfoundation:glass:4>, <minecraft:obsidian>, <liquid:aluminum>, 144, true, 160);
 	tinkers.addCastingBasin(<thermalfoundation:glass:5>, <minecraft:obsidian>, <liquid:nickel>, 144, true, 160);
 	tinkers.addCastingBasin(<thermalfoundation:glass:6>, <minecraft:obsidian>, <liquid:platinum>, 144, true, 160);
 	tinkers.addCastingBasin(<thermalfoundation:glass:7>, <minecraft:obsidian>, <liquid:iridium>, 144, true, 160);
@@ -231,3 +226,20 @@ function init() {
 
 //mods.tconstruct.Fuel.registerFuel(ILiquidStack fuel, int duration);
 mods.tconstruct.Fuel.registerFuel(<liquid:pyrotheum> * 50, 140);
+
+
+//Useless item removal
+tinkers.removeCastingTable(<tconstruct:ingots:5>);
+tinkers.removeCastingTable(<tconstruct:nuggets:5>);
+tinkers.removeCastingTable(<thermalfoundation:material:132>);
+tinkers.removeCastingTable(<thermalfoundation:material:196>);
+tinkers.removeCastingTable(<thermalfoundation:material:324>);
+tinkers.removeCastingTable(<thermalfoundation:material:260>);
+
+tinkers.removeCastingBasin(<tconstruct:metal:5>);
+tinkers.removeCastingBasin(<thermalfoundation:storage:4>);
+
+tinkers.removeMelting(<liquid:alubrass>);
+tinkers.removeMelting(<liquid:aluminum>);
+
+tinkers.removeAlloying(<liquid:alubrass>);

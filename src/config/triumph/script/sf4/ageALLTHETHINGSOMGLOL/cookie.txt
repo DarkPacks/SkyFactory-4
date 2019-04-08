@@ -10,7 +10,7 @@ addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
 //Criteria
 criteria = addCriteria("Right Click Filled Cookie Jar", "triumph:right_click_block")
-criteria.setBlock(<bibliocraft:cookiejar,tile:{shift:0,cookiecount:8,isOpen:0b,names:["item.cookie","item.cookie","item.cookie","item.cookie","item.cookie","item.cookie","item.cookie","item.cookie"],x:6,y:70,angle:2,z:5,id:"minecraft:cookiejar",position:1,locked:0b,lockee:"",Inventory:[{Slot:0b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:1b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:2b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:3b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:4b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:5b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:6b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:7b,id:"minecraft:cookie",Count:64b,Damage:0s}]}>)
+criteria.setBlock(<bibliocraft:cookiejar, tile:{shift:0,cookiecount:8,isOpen:0b,names:["item.cookie","item.cookie","item.cookie","item.cookie","item.cookie","item.cookie","item.cookie","item.cookie"],x:228,y:65,ForgeCaps:{"nuclearcraft:capability_default_radiation_resistance":{radiationResistance:0.0d}},angle:3,z:-49,id:"minecraft:cookiejar",position:1,locked:0b,lockee:"",Inventory:[{Slot:0b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:1b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:2b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:3b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:4b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:5b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:6b,id:"minecraft:cookie",Count:64b,Damage:0s},{Slot:7b,id:"minecraft:cookie",Count:64b,Damage:0s}]}>)
 
 //Rewards
 setRewardExperience(60)

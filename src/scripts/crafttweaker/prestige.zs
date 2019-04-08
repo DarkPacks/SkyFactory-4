@@ -86,9 +86,6 @@ function init() {
 					Slot: 10, id: "sky_orchards:sapling_silver", Count: 1 as byte, Damage: 0 as short
 				},
 				{
-					Slot: 11, id: "sky_orchards:sapling_aluminum", Count: 1 as byte, Damage: 0 as short
-				},
-				{
 					Slot: 12, id: "sky_orchards:sapling_tin", Count: 1 as byte, Damage: 0 as short
 				},
 				{

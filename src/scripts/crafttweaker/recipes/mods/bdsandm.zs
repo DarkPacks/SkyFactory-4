@@ -48,29 +48,29 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<bdsandm:upgrade>: [
 		[
 			[<ore:plankWood>, <minecraft:chest>, <ore:plankWood>],
-			[<ore:plankWood>, <minecraft:item_frame>, <ore:plankWood>],
+			[<ore:plankWood>, <minecraft:wooden_pressure_plate>, <ore:plankWood>],
 			[<ore:plankWood>, <minecraft:chest>, <ore:plankWood>]
 		]
 	],
 	<bdsandm:upgrade:1>: [
 		[
-			[<ore:ingotAluminum>, <minecraft:chest>, <ore:ingotAluminum>],
-			[<ore:ingotAluminum>, <minecraft:item_frame>, <ore:ingotAluminum>],
-			[<ore:ingotAluminum>, <minecraft:chest>, <ore:ingotAluminum>]
+			[<ore:ingotTin>, <minecraft:chest>, <ore:ingotTin>],
+			[<ore:ingotTin>, <minecraft:stone_pressure_plate>, <ore:ingotTin>],
+			[<ore:ingotTin>, <minecraft:chest>, <ore:ingotTin>]
 		]
 	],
 	<bdsandm:upgrade:2>: [
 		[
-			[<minecraft:gold_ingot>, <mekanism:compresseddiamond>, <minecraft:gold_ingot>],
-			[<minecraft:gold_ingot>, <tconstruct:fancy_frame:5>, <minecraft:gold_ingot>],
-			[<minecraft:gold_ingot>, <mekanism:compresseddiamond>, <minecraft:gold_ingot>]
+			[<minecraft:gold_ingot>, <minecraft:diamond>, <minecraft:gold_ingot>],
+			[<minecraft:gold_ingot>, <minecraft:heavy_weighted_pressure_plate>, <minecraft:gold_ingot>],
+			[<minecraft:gold_ingot>, <minecraft:diamond>, <minecraft:gold_ingot>]
 		]
 	],
 	<bdsandm:upgrade:3>: [
 		[
-			[<tconstruct:ingots>, <mekanism:compressedobsidian>, <tconstruct:ingots>],
-			[<tconstruct:ingots>, <tconstruct:fancy_frame:2>, <tconstruct:ingots>],
-			[<tconstruct:ingots>, <mekanism:compressedobsidian>, <tconstruct:ingots>]
+			[<minecraft:emerald>, <minecraft:obsidian>, <minecraft:emerald>],
+			[<minecraft:emerald>, <minecraft:light_weighted_pressure_plate>, <minecraft:emerald>],
+			[<minecraft:emerald>, <minecraft:obsidian>, <minecraft:emerald>]
 		]
 	],
 	<bdsandm:upgrade:5>: [

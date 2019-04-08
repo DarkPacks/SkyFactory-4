@@ -373,7 +373,25 @@ static removeAndHideIngredients as IIngredient[] = [
 	<contenttweaker:compact_machine_nether_wall>,
 	<contenttweaker:compact_machine_end_wall>,
 	<contenttweaker:compact_machine_hunting_dimension_wall>,
-	<minecraft:knowledge_book>
+	<minecraft:knowledge_book>,
+	<morebuckets:aluminum_bucket>,
+	<nuclearcraft:ingot_block:12>,
+	<nuclearcraft:turbine_dynamo_coil:2>,
+	<nuclearcraft:ingot:12>,
+	<nuclearcraft:dust:12>,
+	<pickletweaks:aluminum_paxel>,
+	<thermalfoundation:ore:4>,
+	<thermalfoundation:storage:4>,
+	<thermalfoundation:glass:4>,
+	<thermalfoundation:material:68>,
+	<thermalfoundation:material:132>,
+	<thermalfoundation:material:196>,
+	<thermalfoundation:material:324>,
+	<tconstruct:fancy_frame:1>,
+	<tconstruct:nuggets:5>,
+	<tconstruct:ingots:5>,
+	<tconstruct:metal:5>,
+	<industrialforegoing:black_hole_controller>
 ];
 
 function init() {

@@ -27,7 +27,6 @@ import mods.cyclicmagic.Dehydrator;
 	Packager.addRecipe(<sky_orchards:amber_lead>, [<sky_orchards:acorn_lead> * 4, <sky_orchards:resin_lead> * 5]);
 	Packager.addRecipe(<sky_orchards:amber_copper>, [<sky_orchards:acorn_copper> * 4, <sky_orchards:resin_copper> * 5]);
 	Packager.addRecipe(<sky_orchards:amber_tin>, [<sky_orchards:acorn_tin> * 4, <sky_orchards:resin_tin> * 5]);
-	Packager.addRecipe(<sky_orchards:amber_aluminum>, [<sky_orchards:acorn_aluminum> * 4, <sky_orchards:resin_aluminum> * 5]);
 	Packager.addRecipe(<sky_orchards:amber_silver>, [<sky_orchards:acorn_silver> * 4, <sky_orchards:resin_silver> * 5]);
 	Packager.addRecipe(<sky_orchards:amber_nickel>, [<sky_orchards:acorn_nickel> * 4, <sky_orchards:resin_nickel> * 5]);
 	Packager.addRecipe(<sky_orchards:amber_cobalt>, [<sky_orchards:acorn_cobalt> * 4, <sky_orchards:resin_cobalt> * 5]);

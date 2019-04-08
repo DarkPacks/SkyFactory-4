@@ -31,7 +31,6 @@ var recipesToAdd as IIngredient[][IItemStack] = {
 	<sky_orchards:acorn_emerald:1>: [<sky_orchards:acorn_emerald>],
 	<sky_orchards:acorn_nickel:1>: [<sky_orchards:acorn_nickel>],
 	<sky_orchards:acorn_silver:1>: [<sky_orchards:acorn_silver>],
-	<sky_orchards:acorn_aluminum:1>: [<sky_orchards:acorn_aluminum>],
 	<sky_orchards:acorn_tin:1>: [<sky_orchards:acorn_tin>],
 	<sky_orchards:acorn_lead:1>: [<sky_orchards:acorn_lead>],
 	<sky_orchards:acorn_copper:1>: [<sky_orchards:acorn_copper>],

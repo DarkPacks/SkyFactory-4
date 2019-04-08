@@ -2,7 +2,7 @@ setTitle("Hall of Fame")
 
 setIcon(<statues:blockbabyzombiestatuet4>)
 
-setDescription("Craft all of the Peaceful Statues")
+setDescription("Craft all of the Peaceful Statues. Except for all the colored sheep and rabbits because that would just be silly")
 
 addParent("sf4:ageALLTHETHINGSOMGLOL/root")
 
@@ -23,7 +23,7 @@ criteria = addCriteria("Peaceful Mooshroom Statue", "minecraft:inventory_changed
 criteria.addItem(<statues:blockmooshroomstatuet4>)
 criteria = addCriteria("Peaceful Pig Statue", "minecraft:inventory_changed")
 criteria.addItem(<statues:blockpigstatuet4>)
-criteria = addCriteria("Peaceful Sheep Statue", "minecraft:inventory_changed")
+criteria = addCriteria("Peaceful White Sheep Statue", "minecraft:inventory_changed")
 criteria.addItem(<statues:blocksheepstatuet4>)
 criteria = addCriteria("Peaceful Slime Statue", "minecraft:inventory_changed")
 criteria.addItem(<statues:blockslimestatuet4>)
@@ -31,8 +31,6 @@ criteria = addCriteria("Peaceful Snow Golem Statue", "minecraft:inventory_change
 criteria.addItem(<statues:blocksnowgolemstatuet4>)
 criteria = addCriteria("Peaceful Squid Statue", "minecraft:inventory_changed")
 criteria.addItem(<statues:blocksquidstatuet4>)
-criteria = addCriteria("Peaceful Villager Statue", "minecraft:inventory_changed")
-criteria.addItem(<statues:blockvillagerbrowncoatstatuet4>)
 criteria = addCriteria("Peaceful Witch Statue", "minecraft:inventory_changed")
 criteria.addItem(<statues:blockwitchstatuet4>)
 criteria = addCriteria("Peaceful Zombie Statue", "minecraft:inventory_changed")
@@ -53,9 +51,8 @@ criteria = addCriteria("Peaceful Evoker Statue", "minecraft:inventory_changed")
 criteria.addItem(<statues:blockevokerstatuet4>)
 criteria = addCriteria("Peaceful Spider Statue", "minecraft:inventory_changed")
 criteria.addItem(<statues:blockspiderstatuet4>)
-criteria = addCriteria("Peaceful Rabbit Statue", "minecraft:inventory_changed")
+criteria = addCriteria("Peaceful White Rabbit Statue", "minecraft:inventory_changed")
 criteria.addItem(<statues:blockrabbitwhitestatuet4>)
-
 
 //Rewards
 setRewardExperience(60)

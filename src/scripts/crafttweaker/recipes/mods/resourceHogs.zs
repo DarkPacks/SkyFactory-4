@@ -1,6 +1,5 @@
 
 
-recipes.removeByRecipeName("resourcehogs:deconstruct_bacon_aluminum");
 recipes.removeByRecipeName("resourcehogs:deconstruct_bacon_aquamarine");
 recipes.removeByRecipeName("resourcehogs:deconstruct_bacon_ardite");
 recipes.removeByRecipeName("resourcehogs:deconstruct_bacon_bone");

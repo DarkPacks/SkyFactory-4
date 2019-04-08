@@ -16,7 +16,6 @@ global truffleResourceMap as IItemStack[IItemStack] = {
 // "Fake enum" & used for validation
 // Filename: ID
 static resourceTypes as string[string] = {
-	"aluminum": "aluminum",
 	"aquamarine": "aquamarine",
 	"ardite": "ardite",
 	"bone": "bone",
@@ -75,7 +74,6 @@ function init() {
 }
 
 function initBaconMap() {
-	baconResourceMap[<resourcehogs:bacon>.withTag({ResourceType: resourceTypes.aluminum})] = <sky_orchards:amber_aluminum>;
 	baconResourceMap[<resourcehogs:bacon>.withTag({ResourceType: resourceTypes.aquamarine})] = <astralsorcery:itemcraftingcomponent>;
 	baconResourceMap[<resourcehogs:bacon>.withTag({ResourceType: resourceTypes.ardite})] = <tconstruct:nuggets:1>;
 	baconResourceMap[<resourcehogs:bacon>.withTag({ResourceType: resourceTypes.bone})] = <minecraft:bone>;
@@ -125,7 +123,6 @@ function initBaconMap() {
 }
 
 function initTruffleMap() {
-	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: resourceTypes.aluminum})] = <sky_orchards:amber_aluminum>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: resourceTypes.aquamarine})] = <astralsorcery:itemcraftingcomponent>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: resourceTypes.ardite})] = <sky_orchards:amber_ardite>;
 	truffleResourceMap[<resourcehogs:truffle>.withTag({ResourceType: resourceTypes.bone})] = <minecraft:bone>;

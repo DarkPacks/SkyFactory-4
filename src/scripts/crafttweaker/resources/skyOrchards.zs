@@ -10,7 +10,6 @@ import crafttweaker.item.IItemStack;
 import scripts.crafttweaker.utils;
 
 static resourceNames as [string] = [
-	"aluminum",
 	"ardite",
 	"bacon",
 	"bone",
