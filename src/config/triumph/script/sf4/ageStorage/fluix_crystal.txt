@@ -1,0 +1,17 @@
+setTitle("Breaking Bad")
+
+setIcon(<appliedenergistics2:material:7>)
+
+setDescription("Obtain Fluix Crystal")
+
+addParent("sf4:ageStorage/logicProcessor")
+
+//Criteria
+criteria = addCriteria("Obtain Fluix Crystal", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:material:7>)
+
+setRewardExperience(12)
+
+drawDirectLines(true)
+alwaysVisible()
+setPos(-15,228)

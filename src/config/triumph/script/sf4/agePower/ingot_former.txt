@@ -1,0 +1,17 @@
+setTitle("Getting into Shape")
+
+setIcon(<nuclearcraft:ingot_former_idle>)
+
+setDescription("Craft a Nuclearcraft Ingot Former which will cast ingots and other resources from molten liquids")
+
+addParent("sf4:agePower/root")
+
+//Criteria
+criteria = addCriteria("Obtain Ingot Former", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:ingot_former_idle>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-75,271)

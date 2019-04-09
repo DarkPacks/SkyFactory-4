@@ -1,0 +1,23 @@
+setTitle("Lost and Found")
+
+setIcon(<dimensionaledibles:custom_cake, nbt:{dimID:111}>)
+
+setDescription("Go to the Lost Cities Dimension using a Lost Cities Cake")
+
+addParent("sf4:ageExploration/root")
+
+drawDirectLines(true)
+
+criteria = addCriteria("Entered Lost Cities Dimension", "minecraft:changed_dimension")
+criteria.setDimensionDestination("lostcities")
+
+setRewardExperience(16)
+
+//Giving players overworld cakes because I know for sure they won't read and bring one themselves
+setRewardFunction("triumph:give_cake")
+
+hiddenIf("lost_cities")
+
+alwaysVisible()
+hideLines()
+setPos(-18,47)
