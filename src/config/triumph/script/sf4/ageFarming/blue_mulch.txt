@@ -1,0 +1,18 @@
+setTitle("Blue Mulch")
+
+setIcon(<inspirations:mulch:7>)
+
+setDescription("Blue Mulch in a Bonsai Pot will decrease growth time and increase drop chances")
+
+addParent("sf4:ageFarming/blackMulch")
+
+//Criteria
+criteria = addCriteria("Obtain Blue Mulch", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:mulch:7>)
+
+hiddenUnless("blue_mulch")
+
+setRewardExperience(6)
+
+alwaysVisible()
+setPos(189,206)

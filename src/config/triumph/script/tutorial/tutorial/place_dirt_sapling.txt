@@ -1,0 +1,18 @@
+setTitle("Place Dirt Sapling")
+
+setIcon(<minecraft:dirt>)
+
+setDescription("Place your Dirt Sapling on the Dirt Block to grow a new tree. Once planted, you can use your Shift key or run around the sapling to increase its growth speed. You will know it's working when you see green particles moving towards the sapling")
+
+addParent("tutorial:tutorial/dirtSapling")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Placed Dirt Sapling", "minecraft:placed_block")
+criteria.setBlock(<sky_orchards:sapling_dirt>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(32,34)
