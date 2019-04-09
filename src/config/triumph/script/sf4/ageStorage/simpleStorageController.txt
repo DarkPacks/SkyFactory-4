@@ -1,0 +1,18 @@
+setTitle("Control Yourself")
+
+setIcon(<storagenetwork:controller>)
+
+setDescription("Craft a Simple Storage Network Processing Controller Block")
+
+addParent("sf4:ageStorage/simpleStorageRequest")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Processing Controller", "minecraft:inventory_changed")
+criteria.addItem(<storagenetwork:controller>)
+
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-326,10)

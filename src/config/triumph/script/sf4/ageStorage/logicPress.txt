@@ -1,0 +1,17 @@
+setTitle("That is Illogical")
+
+setIcon(<appliedenergistics2:material:15>)
+
+setDescription("Obtain Logic Press")
+
+addParent("sf4:ageStorage/root")
+
+//Criteria
+criteria = addCriteria("Obtain Logic Press", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:material:15>)
+
+setRewardExperience(12)
+
+hideLines()
+alwaysVisible()
+setPos(-43,204)

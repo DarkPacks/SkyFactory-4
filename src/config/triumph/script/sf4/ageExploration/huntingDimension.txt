@@ -1,0 +1,23 @@
+setTitle("Let the Hunt Begin")
+
+setIcon(<dimensionaledibles:custom_cake, meta:0, count:1, nbt:{dimID:28885,cakeName:"Hunting Dimension"}>)
+
+//setDescription("Travel to the Hunting Dimension using a Dimensional Edible Cake")
+
+setDescription({"translate":"Travel to the Hunting Dimension. Build the Hunting Dimension portal using Hunting Dimension Frame Blocks. Light it by using '%1$s' with a sword, bow, or flint and steel","with":[{"keybind":"key.use"}]})
+
+addParent("sf4:ageExploration/root")
+
+drawDirectLines(true)
+
+criteria = addCriteria("Entered Hunting Dimension", "minecraft:changed_dimension")
+criteria.setDimensionDestination("hunting_dim")
+
+setRewardExperience(16)
+
+//Giving players overworld cakes because I know for sure they won't read and bring one themselves
+setRewardFunction("triumph:give_cake")
+
+hideLines()
+alwaysVisible()
+setPos(7,253)

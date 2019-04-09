@@ -1,0 +1,22 @@
+setTitle("I Can't Believe It's Not Lapis")
+
+setIcon(<tconstruct:ore>)
+
+setDescription("Travel to the Nether and mine Cobalt Ore")
+
+addParent("sf4:ageExploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Ice Cobalt Ore", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:sub_block_holder_0:2>)
+criteria1 = addCriteria("Obtain Cobalt Ore", "minecraft:inventory_changed")
+criteria1.addItem(<tconstruct:ore>)
+
+setRequirements("any")
+setRewardExperience(20)
+
+hideLines()
+alwaysVisible()
+setPos(-138,185)

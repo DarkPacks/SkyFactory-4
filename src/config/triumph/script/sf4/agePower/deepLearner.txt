@@ -1,0 +1,17 @@
+setTitle("The Study Guide")
+
+setIcon(<deepmoblearning:deep_learner>)
+
+setDescription("Craft a Deep Learner from Deep Mob Learning. Insert Data Models inside to begin collecting data for your Simulation Chamber. To collect data, you will need to eliminate the matching creature")
+
+addParent("sf4:agePower/root")
+
+//Criteria
+criteria = addCriteria("Obtain Deep Learner", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:deep_learner>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-183,146)

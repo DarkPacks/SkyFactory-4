@@ -1,0 +1,17 @@
+setTitle("Eat Your Heart Out")
+
+setIcon(<cyclicmagic:heart_food>)
+
+setDescription("Craft and eat a Cyclic Heart Container")
+
+addParent("sf4:ageEnhancement/root")
+
+//Criteria
+criteria = addCriteria("Eat Cyclic Heart Container", "minecraft:consume_item")
+criteria.setItem(<cyclicmagic:heart_food>)
+
+setRewardExperience(8)
+
+hideLines()
+alwaysVisible()
+setPos(108,71)

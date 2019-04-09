@@ -1,0 +1,18 @@
+setTitle("Rolling into the Station")
+
+setIcon(<tconstruct:tooltables:3>)
+
+setDescription("Craft a Tinkers' Construct Tool Station")
+
+addParent("sf4:ageEnhancement/partBuilder")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Tool Station", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables:3>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(84,180)

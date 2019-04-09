@@ -1,0 +1,24 @@
+setTitle("Where's the Boss?")
+
+setIcon(<minecraft:skull:5>)
+
+setDescription("Travel to the End Dimension. Unfortunately, due to budget constraints we could not afford a dragon this time around. Sorry")
+
+addParent("sf4:ageExploration/endcake")
+drawDirectLines(true)
+
+//Criteria
+criteria1 = addCriteria("Enter End Dimension", "minecraft:changed_dimension")
+criteria1.setDimensionDestination("the_end")
+criteria2 = addCriteria("Enter End Biome", "minecraft:location")
+criteria2.setBiome("minecraft:sky")
+
+alwaysVisible()
+
+setRewardExperience(16)
+
+//Giving players overworld cakes because I know for sure they won't read and bring one themselves
+setRewardFunction("triumph:give_cake")
+
+setRewardFunction("triumph:dragon_kill")
+setPos(59,109)

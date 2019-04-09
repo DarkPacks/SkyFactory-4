@@ -1,0 +1,18 @@
+setTitle("Oak Wood")
+
+setIcon(<minecraft:log>)
+
+setDescription("You're standing on a tree in the void! Break the leaves below and collect 2 Oak Wood blocks")
+
+addParent("tutorial:tutorial/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Oak Wood", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:log, count:2~>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(32,-49)

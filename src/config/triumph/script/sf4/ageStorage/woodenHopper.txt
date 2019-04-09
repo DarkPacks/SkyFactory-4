@@ -1,0 +1,17 @@
+setTitle("Whopper!")
+
+setIcon(<tconstruct:wooden_hopper>)
+
+setDescription("Craft a Wooden Hopper")
+
+addParent("sf4:ageStorage/root")
+
+//Criteria
+criteria = addCriteria("Obtain Wooden Hopper", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:wooden_hopper>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-208,52)
