@@ -648,6 +648,9 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 	<contenttweaker:cobblestone_circuit_mold>: [
 		format.yellow("Will not be consumed when creating a mold")
+	],
+	<resourcehogs:bacon>.withTag({ResourceType: "missing"}): [
+		format.yellow("Stop trying to cheat! >.<")
 	]
 };
 
