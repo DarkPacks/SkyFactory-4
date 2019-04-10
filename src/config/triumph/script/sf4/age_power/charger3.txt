@@ -1,0 +1,18 @@
+setTitle("No Chargebacks")
+
+setIcon(<chargers:charger:2>)
+
+setDescription("Craft a Tier 3 Charger for even faster charging and higher capacity")
+
+addParent("sf4:age_power/charger2")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Tier 3 Charger", "minecraft:inventory_changed")
+criteria.addItem(<chargers:charger:2>)
+
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-389,146)

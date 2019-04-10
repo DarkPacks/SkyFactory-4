@@ -1,0 +1,17 @@
+setTitle("Dusk Till Dawn")
+
+setIcon(<deepmoblearning:living_matter_twilight>)
+
+setDescription("Acquire a Twilight Matter from Deep Mob Learning")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Twilight Matter", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:living_matter_twilight>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-210,121)

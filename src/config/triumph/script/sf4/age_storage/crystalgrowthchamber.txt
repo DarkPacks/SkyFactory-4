@@ -1,0 +1,17 @@
+setTitle("Pop Rocks")
+
+setIcon(<ae2stuff:grower>)
+
+setDescription("Obtain Crystal Growth Chamber")
+
+addParent("sf4:age_storage/root")
+
+//Criteria
+criteria = addCriteria("Obtain Crystal Growth Chamber", "minecraft:inventory_changed")
+criteria.addItem(<ae2stuff:grower>)
+
+setRewardExperience(12)
+
+hideLines()
+alwaysVisible()
+setPos(9,148)

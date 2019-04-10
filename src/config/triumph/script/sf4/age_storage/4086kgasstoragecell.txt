@@ -1,0 +1,17 @@
+setTitle("4096k Gas Storage Cell")
+
+setIcon(<extracells:storage.gas:6>)
+
+setDescription("Obtain 4096k Gas Storage Cell")
+
+addParent("sf4:age_allthethingsomglol/root")
+
+//Criteria
+criteria = addCriteria("Obtain 4096k Gas Storage Cell", "minecraft:inventory_changed")
+criteria.addItem(<extracells:storage.gas:6>)
+
+setRewardExperience(12)
+
+hideLines()
+alwaysVisible()
+setPos(89,153)

@@ -1,0 +1,36 @@
+setTitle("Completionist Prestige Off")
+
+setIcon(<minecraft:cooked_chicken>)
+
+setDescription("Complete all the advancements on the page. This will award you with 1 prestige point")
+
+addParent("sf4:age_exploration/compactMachines")
+addParent("sf4:age_exploration/dragonBreath")
+addParent("sf4:age_exploration/dragonKill")
+addParent("sf4:age_exploration/elytra")
+addParent("sf4:age_exploration/endcake")
+addParent("sf4:age_exploration/floaty")
+addParent("sf4:age_exploration/huntingDimension")
+addParent("sf4:age_exploration/lostCities")
+addParent("sf4:age_exploration/nether")
+addParent("sf4:age_exploration/overworldCake")
+addParent("sf4:age_exploration/twilightForest")
+addParent("sf4:age_exploration/witherKill")
+addParent("sf4:age_exploration/viescraft")
+addParent("sf4:age_exploration/waterInNether")
+
+setRequiresParents()
+setFrameType("challenge")
+
+//Criteria
+criteria = addCriteria("Prestige Mode Disabled", "triumph:gamestage")
+criteria.setStage("no_parabox")
+
+hiddenUnless("no_parabox")
+
+//Rewards
+setRewardExperience(30)
+
+hideLines()
+alwaysVisible()
+setPos(-95,46)

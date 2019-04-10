@@ -1,0 +1,17 @@
+setTitle("Don't Eat the Yellow Mulch")
+
+setIcon(<inspirations:mulch:2>)
+
+setDescription("Yellow Mulch in a Bonsai Pot will decrease growth time and increase drop chances")
+
+addParent("sf4:age_farming/brownMulch")
+
+//Criteria
+criteria = addCriteria("Obtain Yellow Mulch", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:mulch:2>)
+
+hiddenUnless("yellow_mulch")
+alwaysVisible()
+
+setRewardExperience(6)
+setPos(53,206)

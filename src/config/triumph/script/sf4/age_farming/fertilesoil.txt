@@ -1,0 +1,19 @@
+setTitle("Fertile Soil")
+
+setIcon(<rustic:fertile_soil>)
+
+setDescription("Fertile Soil is great to upgrade your Bonsai Pots")
+
+addParent("sf4:age_farming/bonsai")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Fertile Soil", "minecraft:inventory_changed")
+criteria.addItem(<rustic:fertile_soil>)
+
+hiddenUnless("fertile_soil")
+alwaysVisible()
+
+setRewardExperience(10)
+setPos(-3,206)

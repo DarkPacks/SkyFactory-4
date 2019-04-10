@@ -1,0 +1,18 @@
+setTitle("Shredded Wheat")
+
+setIcon(<minecraft:wheat_seeds>)
+
+setDescription("Use Bone Meal on grass to create Tall Grass. Break Tall Grass to find Wheat Seeds")
+
+addParent("sf4:age_farming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Wheat Seeds", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:wheat_seeds>)
+
+setRewardExperience(6)
+
+alwaysVisible()
+setPos(-42,300)

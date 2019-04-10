@@ -1,0 +1,18 @@
+setTitle("This Little Piggy")
+
+setIcon(<farmingforblockheads:market>)
+
+setDescription("Craft and place the Market to buy Seeds, Saplings, Flowers, and Food")
+
+addParent("sf4:age_farming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Market", "minecraft:inventory_changed")
+criteria.addItem(<farmingforblockheads:market>)
+
+setRewardExperience(6)
+
+alwaysVisible()
+setPos(-42,261)

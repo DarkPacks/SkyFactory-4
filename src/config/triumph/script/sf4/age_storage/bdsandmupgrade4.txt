@@ -1,0 +1,19 @@
+setTitle("Upgrade 4")
+
+setIcon(<bdsandm:upgrade:3>)
+
+setDescription("Craft a 'Barrels, Drums, Storage, and More' x4k Storage Upgrade")
+
+addParent("sf4:age_storage/bdsandmUpgrade3")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain x4k Storage Upgrade", "minecraft:inventory_changed")
+criteria.addItem(<bdsandm:upgrade:3>)
+
+//Rewards
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-181,111)

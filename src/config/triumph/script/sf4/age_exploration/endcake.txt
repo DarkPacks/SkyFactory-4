@@ -1,0 +1,19 @@
+setTitle("B'Aiken a C'Aiken")
+
+setIcon(<dimensionaledibles:end_cake>)
+
+setDescription("Craft, place, and eat End Cake to go to the End")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain End Cake", "minecraft:inventory_changed")
+criteria.addItem(<dimensionaledibles:end_cake>)
+
+setRewardExperience(16)
+
+hideLines()
+alwaysVisible()
+setPos(33,109)
