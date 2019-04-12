@@ -94,6 +94,8 @@ zenClass Resource {
 		handlePlate();
 		handleBlock();
 		handleRod();
+		handleShard();
+		handleClump();
 		handleLiquid();
 
 		createConversionRecipes();
@@ -146,6 +148,7 @@ zenClass Resource {
 
 		if (hasPart("ingot")) {
 			mekanism.addSmelter(this.parts.dust, this.parts.ingot);
+			furnace.addRecipe(this.parts.ingot, this.parts.dust);
 		}
 
 		if (hasLiquid()) {
@@ -237,8 +240,36 @@ zenClass Resource {
 		for ore in oreOreDict.items {
 			if (hasPart("dust")) {
 				astralSorcery.addGrindstone(ore, this.parts.dust, 0.85);
-				mekanism.addCrusher(ore, this.parts.dust);
+				mekanism.addEnrichment(ore, this.parts.dust * 2);
 			}
+
+			if (hasPart("clump")) {
+				mekanism.addPurification(ore, <gas:oxygen>, this.parts.clump * 3);
+			}
+
+			if (hasPart("shard")) {
+				mekanism.addChemicalInjection(ore, <gas:hydrogenchloride>, this.parts.shard * 4);
+			}
+		}
+	}
+
+	function handleShard() {
+		if (!hasPart("shard")) {
+			return null;
+		}
+
+		if (hasPart("clump")) {
+			mekanism.addPurification(this.parts.shard, <gas:oxygen>, this.parts.clump);
+		}
+	}
+
+	function handleClump() {
+		if (!hasPart("clump")) {
+			return null;
+		}
+
+		if (hasPart("dirtyDust")) {
+			mekanism.addCrusher(this.parts.clump, this.parts.dirtyDust);
 		}
 	}
 
