@@ -2,7 +2,7 @@ setTitle("Lost and Found")
 
 setIcon(<dimensionaledibles:custom_cake, nbt:{dimID:111}>)
 
-setDescription("Go to the Lost Cities Dimension using a Lost Cities Cake")
+setDescription("Travel to the Lost Cities Dimension using a Lost Cities Cake")
 
 addParent("sf4:age_exploration/root")
 

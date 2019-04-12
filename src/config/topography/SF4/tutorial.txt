@@ -1,4 +1,4 @@
-setSpawnStructure("dirt_tree")
+setSpawnStructure("tutorial")
 
 attributes = addEntityEffect(0)
 attributes.addEntityType("MOB")
