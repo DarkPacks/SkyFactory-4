@@ -230,6 +230,10 @@ zenClass Resource {
 			return null;
 		}
 
+		if (hasPart("ingot")) {
+			furnace.addRecipe(this.parts.ingot, oreOreDict);
+		}
+
 		for ore in oreOreDict.items {
 			if (hasPart("dust")) {
 				astralSorcery.addGrindstone(ore, this.parts.dust, 0.85);
