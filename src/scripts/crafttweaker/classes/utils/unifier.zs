@@ -116,7 +116,7 @@ zenClass Unifier {
 
 		// ==================================
 		// Mekanism
-		mekanism.removeChemicalCrystallizer(item);
+		// mekanism.removeChemicalCrystallizer(item); // TODO: Add gas support to Resource before enabling crystallizer support
 		mekanism.removeChemicalInjection(item);
 		mekanism.removeCombiner(item);
 		mekanism.removeCrusher(item);

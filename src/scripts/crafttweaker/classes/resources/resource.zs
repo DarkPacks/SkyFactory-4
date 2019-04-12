@@ -94,6 +94,7 @@ zenClass Resource {
 		handlePlate();
 		handleBlock();
 		handleRod();
+		handleCrystal();
 		handleShard();
 		handleClump();
 		handleLiquid();
@@ -250,6 +251,16 @@ zenClass Resource {
 			if (hasPart("shard")) {
 				mekanism.addChemicalInjection(ore, <gas:hydrogenchloride>, this.parts.shard * 4);
 			}
+		}
+	}
+
+	function handleCrystal() {
+		if (!hasPart("crystal")) {
+			return null;
+		}
+
+		if (hasPart("clump")) {
+			mekanism.addChemicalInjection(this.parts.crystal, <gas:hydrogenchloride>, this.parts.shard);
 		}
 	}
 
