@@ -37,11 +37,6 @@ function init() {
 
 	mekanism.addCrusher(<minecraft:prismarine_shard>, <minecraft:prismarine_crystals> * 4);
 
-	// Bacon Crusher Recipes
-	for bacon, resourceOutput in baconResourceMap {
-		mekanism.addCrusher(bacon, resourceOutput);
-	}
-
 	// Nerf Biofuel output yield
 	mekanism.removeCrusher(<mekanism:biofuel:0>, <minecraft:potato:0>);
 	mekanism.addCrusher(<minecraft:potato:0>, <mekanism:biofuel:0> * 2);

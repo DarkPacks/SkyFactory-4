@@ -34,11 +34,6 @@ import mods.cyclicmagic.Dehydrator;
 	Packager.addRecipe(<sky_orchards:amber_osmium>, [<sky_orchards:acorn_osmium> * 4, <sky_orchards:resin_osmium> * 5]);
 	Packager.addRecipe(<minecraft:coal>, [<pickletweaks:coal_piece> * 8]);
 
-	// Truffle packaging
-	for truffle, resourceOutput in truffleResourceMap {
-		Packager.addRecipe(resourceOutput, truffle * 4);
-	}
-
 ////
 //Dehydrator
 ////

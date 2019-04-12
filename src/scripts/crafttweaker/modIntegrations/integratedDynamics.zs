@@ -11,10 +11,6 @@ function init() {
 
 	integratedDynamics.addSqueezerBoth(<minecraft:cooked_porkchop>, <tconstruct:edible> * 2, null);
 
-	for bacon, resourceOutput in baconResourceMap {
-		integratedDynamics.addSqueezerBoth(bacon, resourceOutput, null);
-	}
-
 	//Add missing AE2 grindstone recipes
 	//FirstNecron add the entries to other crushers that do not have these please
 	integratedDynamics.addSqueezerBoth(<minecraft:ender_pearl>, <appliedenergistics2:material:46>, 1.0);
