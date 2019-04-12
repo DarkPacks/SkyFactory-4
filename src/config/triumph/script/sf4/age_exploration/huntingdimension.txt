@@ -2,9 +2,7 @@ setTitle("Let the Hunt Begin")
 
 setIcon(<dimensionaledibles:custom_cake, meta:0, count:1, nbt:{dimID:28885,cakeName:"Hunting Dimension"}>)
 
-//setDescription("Travel to the Hunting Dimension using a Dimensional Edible Cake")
-
-setDescription({"translate":"Travel to the Hunting Dimension. Build the Hunting Dimension portal using Hunting Dimension Frame Blocks. Light it by using '%1$s' with a sword, bow, or flint and steel","with":[{"keybind":"key.use"}]})
+setDescription("Travel to the Hunting Dimension using a Dimensional Edible Cake")
 
 addParent("sf4:age_exploration/root")
 

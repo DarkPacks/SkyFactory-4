@@ -28,8 +28,6 @@ function init() {
 		}
 	}
 
-	scripts.crafttweaker.resources.resourceHogs.init();
-
 	// After oredicts are unified, initialize resource recipes & other dependants
 	for resourceName, resource in resources {
 		resource.init();

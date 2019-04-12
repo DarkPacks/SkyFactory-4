@@ -790,7 +790,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<matteroverdrive:industrial_glass>, <matteroverdrive:isolinear_circuit:2>, <matteroverdrive:industrial_glass>],
 			[<matteroverdrive:tritanium_plate>, <matteroverdrive:tritanium_plate>, <matteroverdrive:tritanium_plate>]
 		]
-	]
+	],
+	<matteroverdrive:microwave>: [
+		[
+			[<matteroverdrive:tritanium_ingot>, <matteroverdrive:tritanium_ingot>, <matteroverdrive:tritanium_ingot>],
+			[<matteroverdrive:tritanium_ingot>, <minecraft:stained_glass_pane:15>, <matteroverdrive:tritanium_ingot>],
+			[<matteroverdrive:tritanium_plate>, <minecraft:piston>, <matteroverdrive:tritanium_plate>]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
