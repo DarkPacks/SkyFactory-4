@@ -1,8 +1,8 @@
-setTitle("Lead Sapling - Temp")
+setTitle("Lead Sapling")
 
 setIcon(<sky_orchards:sapling_lead>)
 
-setDescription("Lead Sapling - Temp")
+setDescription("Pour Molten Lead over a Dark Oak Sapling to make a Lead Sapling")
 
 addParent("sf4:age1/amber/lead")
 

@@ -1,8 +1,8 @@
-setTitle("Lead Amber - Temp")
+setTitle("Lead Amber")
 
 setIcon(<sky_orchards:amber_lead>)
 
-setDescription("Lead Amber - Temp")
+setDescription("Obtain lead by crafting Lead Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Lead and pour it into a Casting Basin or Cast")
 
 addParent("sf4:age1/sapling/iron")
 addParent("sf4:age1/sapling/lapis")

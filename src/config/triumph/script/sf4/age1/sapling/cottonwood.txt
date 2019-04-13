@@ -1,8 +1,8 @@
-setTitle("Cottonwood Sapling - Temp")
+setTitle("Cottonwood Sapling")
 
 setIcon(<sky_orchards:sapling_cottonwood>)
 
-setDescription("Cottomwood Sapling - Temp")
+setDescription("Craft a Cottomwood Sapling")
 
 addParent("sf4:age1/sapling/bone")
 addParent("sf4:age1/sapling/clay")

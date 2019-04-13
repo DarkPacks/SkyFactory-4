@@ -1,8 +1,8 @@
-setTitle("Tin Amber - Temp")
+setTitle("Tin Amber")
 
 setIcon(<sky_orchards:amber_tin>)
 
-setDescription("Tin Amber - Temp")
+setDescription("Obtain tin by crafting Tin Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Tin and pour it into a Casting Basin or Cast")
 
 addParent("sf4:age1/sapling/sand")
 

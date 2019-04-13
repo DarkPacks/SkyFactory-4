@@ -4,7 +4,7 @@ setIcon(<minecraft:elytra>)
 
 setDescription("Obtain Elytra to enable Forgiving Void in the Overworld")
 
-addParent("sf4:ageExploration/root")
+addParent("sf4:age_exploration/root")
 addParent("hardcore:hardcore/root")
 setRequiresParents()
 hideLines()

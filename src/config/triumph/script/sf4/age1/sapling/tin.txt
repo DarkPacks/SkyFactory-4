@@ -1,8 +1,8 @@
-setTitle("Tin Sapling - Temp")
+setTitle("Tin Sapling")
 
 setIcon(<sky_orchards:sapling_tin>)
 
-setDescription("Tin Sapling - Temp")
+setDescription("Pour Molten Tin over a Birch Sapling to make a Tin Sapling")
 
 addParent("sf4:age1/amber/tin")
 

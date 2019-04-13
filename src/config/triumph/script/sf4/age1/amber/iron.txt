@@ -2,7 +2,7 @@ setTitle("Amber is the Color of my Dinosaur")
 
 setIcon(<sky_orchards:amber_iron>)
 
-setDescription("To get Iron, you'll first need to craft Iron Amber. You can then melt it down to Liquid Iron or process in a number of ways")
+setDescription("Obtain iron by crafting Iron Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Iron and pour it into a Casting Basin or Cast")
 
 addParent("sf4:age1/sapling/coal")
 

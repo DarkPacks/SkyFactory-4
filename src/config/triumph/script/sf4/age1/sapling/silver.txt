@@ -1,8 +1,8 @@
-setTitle("Silver Sapling - Temp")
+setTitle("Silver Sapling")
 
 setIcon(<sky_orchards:sapling_silver>)
 
-setDescription("Silver Sapling - Temp")
+setDescription("Pour Molten Silver over a Menril Sapling to make a Silver Sapling")
 
 addParent("sf4:age1/amber/silver")
 

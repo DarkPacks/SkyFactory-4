@@ -1,8 +1,8 @@
-setTitle("Lapis Sapling - Temp")
+setTitle("Lapis Sapling")
 
 setIcon(<sky_orchards:sapling_lapis>)
 
-setDescription("Lapis Sapling - Temp")
+setDescription("Craft a Lapis Sapling")
 
 addParent("sf4:age1/sapling/coal")
 

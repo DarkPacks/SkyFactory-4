@@ -1,8 +1,8 @@
-setTitle("Bone Sapling - Temp")
+setTitle("Bone Sapling")
 
 setIcon(<sky_orchards:sapling_bone>)
 
-setDescription("Bone Sapling - Temp")
+setDescription("Craft a Bone Sapling")
 
 addParent("sf4:age1/sapling/petrified")
 addParent("sf4:age1/dirt")

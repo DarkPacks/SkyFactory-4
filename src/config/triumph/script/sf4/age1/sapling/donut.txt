@@ -1,8 +1,8 @@
-setTitle("Donut Sapling - Temp")
+setTitle("Donut Sapling")
 
 setIcon(<sky_orchards:sapling_donut>)
 
-setDescription("Donut Sapling - Temp")
+setDescription("Craft a Donut Sapling")
 
 addParent("sf4:age1/root")
 

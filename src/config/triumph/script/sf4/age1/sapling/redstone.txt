@@ -1,8 +1,8 @@
-setTitle("Redstone Sapling - Temp")
+setTitle("Redstone Sapling")
 
 setIcon(<sky_orchards:sapling_redstone>)
 
-setDescription("Redstone Sapling - Temp")
+setDescription("Craft a Redstone Sapling")
 
 addParent("sf4:age1/sapling/iron")
 

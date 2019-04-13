@@ -1,8 +1,8 @@
-setTitle("Stone Crook - Temp")
+setTitle("Stone Crook")
 
 setIcon(<inspirations:stone_crook>)
 
-setDescription("Stone Crook - Temp - This advancement is to show players other crooks exist/are better than wooden.")
+setDescription("Craft a Stone Crook. There is more than just the normal Wooden Crook available. There are other options with higher speed, durability, and special effects")
 
 addParent("sf4:age1/wooden_crook")
 addParent("sf4:age1/cobblestone")
