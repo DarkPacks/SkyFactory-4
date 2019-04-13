@@ -2,7 +2,7 @@ setTitle("Lost and Found")
 
 setIcon(<dimensionaledibles:custom_cake, nbt:{dimID:111}>)
 
-setDescription("You'll still need to head to the Lost Cities Dimension using a Dimensional Edibles Cake to mine ore. Craft and place the Lost Cities cake on the ground and click on it to head to the Lost Cities")
+setDescription("You'll still need to head to the Lost Cities Dimension using a Dimensional Edibles Cake to mine ore. Craft and place a Lost Cities Cake on the ground and click on it to head to the Lost Cities")
 
 addParent("sf4:age_exploration/root")
 

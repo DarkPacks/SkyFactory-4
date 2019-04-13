@@ -2,7 +2,7 @@ setTitle("Nether Here Nor There")
 
 setIcon(<minecraft:netherrack>)
 
-setDescription("Travel to the Nether using a vanilla portal or a Dimensional Cake")
+setDescription("Craft, place, and eat a Nether Cake to go to the Nether")
 
 addParent("sf4:age_exploration/root")
 

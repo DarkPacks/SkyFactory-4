@@ -2,7 +2,7 @@ setTitle("B'Aiken a C'Aiken")
 
 setIcon(<dimensionaledibles:end_cake>)
 
-setDescription("Craft, place, and eat End Cake to go to the End")
+setDescription("Craft, place, and eat an End Cake to go to the End")
 
 addParent("sf4:age_exploration/root")
 

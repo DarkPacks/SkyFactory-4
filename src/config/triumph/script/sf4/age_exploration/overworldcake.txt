@@ -2,7 +2,7 @@ setTitle("No Cake Like Home")
 
 setIcon(<dimensionaledibles:overworld_cake>)
 
-setDescription("Craft, place, and eat the Overworld cake to return back to the Overworld when traveling to other dimensions")
+setDescription("Craft, place, and eat an Overworld Cake to return back to the Overworld when traveling to other dimensions")
 
 addParent("sf4:age_exploration/root")
 
