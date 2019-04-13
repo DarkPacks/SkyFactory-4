@@ -1,5 +1,5 @@
 
-setCloudLevel(-1)
+setCloudHeight(-1)
 
 //Creates a new SkyIslandType. The argument is a biome id.
 lapis = new SkyIslandType("minecraft:void")

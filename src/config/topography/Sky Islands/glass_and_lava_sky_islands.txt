@@ -1,6 +1,6 @@
 setSingleBiome("minecraft:void")
 
-setCloudLevel(-1)
+setCloudHeight(-1)
 
 glassNLava = new SkyIslandType("minecraft:void")
 glassNLava.setMainBlock(<tconstruct:clear_glass>)
