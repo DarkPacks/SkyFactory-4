@@ -651,7 +651,7 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 	<resourcehogs:bacon>.withTag({ResourceType: "missing"}): [
 		format.yellow("Stop trying to cheat! >.<")
-	]
+	],
 };
 
 function init() {

@@ -1,5 +1,6 @@
 import mods.cyclicmagic.Packager;
 import mods.cyclicmagic.Dehydrator;
+import mods.cyclicmagic.Hydrator;
 
 // output, input
 //Packager.addRecipe(minecraft:grass, minecraft:dirt*9);
@@ -51,4 +52,4 @@ import mods.cyclicmagic.Dehydrator;
 	Dehydrator.addRecipe(<minecraft:leather>, <minecraft:cooked_rabbit>, 600);
 	Dehydrator.addRecipe(<minecraft:leather>, <minecraft:cooked_mutton>, 600);
 
-
+Hydrator.addRecipe(<minecraft:sponge>, [<minecraft:dirt>, <minecraft:ice>, <minecraft:ice>, <minecraft:ice>], 250);
