@@ -214,6 +214,11 @@ zenClass Resource {
 		if (!hasPart("plate")) {
 			return null;
 		}
+
+		if (hasLiquid()) {
+			nuclearCraft.addMelter(this.parts.plate, this.liquid * 144);
+			tinkers.addMelting(this.liquid * 144, this.parts.plate);
+		}
 	}
 
 	function handleBlock() {
