@@ -7,10 +7,9 @@
 */
 import scripts.crafttweaker.classes.resources.resourceHogType.ResourceHogType;
 
-static resourceTypes as ResourceHogType[string] = {
-};
-
 function init() {
+	var resourceTypes as ResourceHogType[string] = {};
+
 	resourceTypes["aquamarine"] = ResourceHogType("aquamarine", null, <astralsorcery:itemcraftingcomponent>, null);
 	resourceTypes["ardite"] = ResourceHogType("ardite", null, <ore:nuggetArdite>, <liquid:ardite> * 16);
 	resourceTypes["bone"] = ResourceHogType("bone", null, <minecraft:bone>, null);

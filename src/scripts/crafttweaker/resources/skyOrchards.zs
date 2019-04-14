@@ -2,135 +2,74 @@
 
 /*
 	SkyFactory 4 Sky Orchards Resources Script.
-
-	This script maps Sky Orchards' Resources with its resource output.
 */
 import crafttweaker.item.IItemStack;
 
+import scripts.crafttweaker.classes.resources.skyOrchardsType.SkyOrchardsType;
 import scripts.crafttweaker.utils;
 
-static resourceNames as [string] = [
-	"ardite",
-	"bacon",
-	"bone",
-	"clay",
-	"coal",
-	"cobalt",
-	"cookie",
-	"copper",
-	"cottonwood",
-	"diamond",
-	"dirt",
-	"donut",
-	"emerald",
-	"glowstone",
-	"gold",
-	"gravel",
-	"iron",
-	"lapis",
-	"lead",
-	"netherrack",
-	"nickel",
-	"osmium",
-	"petrified",
-	"prosperity",
-	"quartz",
-	"redstone",
-	"sand",
-	"silver",
-	"tin"
-];
-
-static resourceTypes as [string] = [
-	"acorn",
-	"acornRoasted", // acorn with meta 1
-	"amber",
-	"leaves",
-	"log",
-	"resin",
-	"sapling"
-];
-
-/*
-	Maps the resource name with its resourceTypes
-
-	resourceName: {resourceType1: item, resourceType2: item}
-*/
-global skyOrchardsResources as IItemStack[string][string] = {};
+static skyOrchardsResources as SkyOrchardsType[string] = {};
 
 function init() {
-	initMap();
+	skyOrchardsResources["ardite"] = SkyOrchardsType("ardite", <liquid:ardite>, true);
+	skyOrchardsResources["bacon"] = SkyOrchardsType("bacon", <liquid:bacon>, 82, 110, 1000);
 
-	if (isDevelopment) {
-		validate();
-		printMap();
+	var bone as SkyOrchardsType = SkyOrchardsType("bone");
+	bone.addDeletedItem("amber");
+	skyOrchardsResources["bone"] = bone;
+
+	var clay as SkyOrchardsType = SkyOrchardsType("clay", <liquid:clay>, 60, 75, 0);
+	clay.addDeletedItem("amber");
+	skyOrchardsResources["clay"] = clay;
+
+	skyOrchardsResources["coal"] = SkyOrchardsType("coal", <liquid:coal>, 9, 12, 100);
+	skyOrchardsResources["cobalt"] = SkyOrchardsType("cobalt", <liquid:cobalt>, true);
+	skyOrchardsResources["cookie"] = SkyOrchardsType("cookie", <liquid:cookie_dough>, 82, 110, 1000);
+	skyOrchardsResources["copper"] = SkyOrchardsType("copper", <liquid:copper>, true);
+	skyOrchardsResources["cottonwood"] = SkyOrchardsType("cottonwood");
+
+	var diamond as SkyOrchardsType = SkyOrchardsType("diamond", <liquid:diamond>, 74, 74, 0);
+	diamond.addDeletedItem("amber");
+	skyOrchardsResources["diamond"] = diamond;
+
+	skyOrchardsResources["dirt"] = SkyOrchardsType("dirt", <liquid:dirt>, 12, 16, 144);
+	skyOrchardsResources["donut"] = SkyOrchardsType("donut", <liquid:donut>, 82, 110, 1000);
+
+	var emerald as SkyOrchardsType = SkyOrchardsType("emerald", <liquid:emerald>, 74, 74, 0);
+	emerald.addDeletedItem("amber");
+	skyOrchardsResources["emerald"] = emerald;
+
+	skyOrchardsResources["glowstone"] = SkyOrchardsType("glowstone", <liquid:glowstone>, 82, 110, 1000);
+	skyOrchardsResources["gold"] = SkyOrchardsType("gold", <liquid:gold>, true);
+
+	var gravel as SkyOrchardsType = SkyOrchardsType("gravel");
+	gravel.addDeletedItem("amber");
+	skyOrchardsResources["gravel"] = gravel;
+
+	skyOrchardsResources["iron"] = SkyOrchardsType("iron", <liquid:iron>, true);
+
+	var lapis as SkyOrchardsType = SkyOrchardsType("lapis", <liquid:lapis>, 666, 666, 0);
+	lapis.addDeletedItem("amber");
+	skyOrchardsResources["lapis"] = lapis;
+
+	skyOrchardsResources["lead"] = SkyOrchardsType("lead", <liquid:lead>, true);
+	skyOrchardsResources["netherrack"] = SkyOrchardsType("netherrack", <liquid:blood>, 25, 30, 250);
+	skyOrchardsResources["nickel"] = SkyOrchardsType("nickel", <liquid:nickel>, true);
+	skyOrchardsResources["osmium"] = SkyOrchardsType("osmium", <liquid:osmium>, true);
+	skyOrchardsResources["petrified"] = SkyOrchardsType("petrified", <liquid:stone>, 6, 8, 72);
+	skyOrchardsResources["prosperity"] = SkyOrchardsType("prosperity");
+
+	var quartz = SkyOrchardsType("quartz", <liquid:quartz>, 296, 296, 0);
+	quartz.addDeletedItem("amber");
+	skyOrchardsResources["quartz"] = quartz;
+
+	skyOrchardsResources["redstone"] = SkyOrchardsType("redstone", <liquid:redstone>, 100, 100, 900);
+	skyOrchardsResources["sand"] = SkyOrchardsType("sand", <liquid:glass>, 82, 110, 1000);
+	skyOrchardsResources["silver"] = SkyOrchardsType("silver", <liquid:silver>, true);
+	skyOrchardsResources["tin"] = SkyOrchardsType("tin", <liquid:tin>, true);
+
+	for typeName, resourceType in skyOrchardsResources {
+		resourceType.addCraftingRecipes();
+		resourceType.addMeltingRecipes();
 	}
-}
-
-function initMap() {
-	for resourceName in resourceNames {
-		for resourceType in resourceTypes {
-			var resourceItem as IItemStack;
-			var resourceMeta as int = 0;
-
-			var resourceLocation as string = "sky_orchards:";
-			if (resourceType == "acornRoasted") {
-				resourceLocation += "acorn";
-				resourceMeta = 1;
-			} else {
-				resourceLocation += resourceType;
-			}
-			resourceLocation += "_" ~ resourceName;
-
-			resourceItem = itemUtils.getItem(resourceLocation, resourceMeta);
-
-			if (!isNull(resourceItem)) {
-				if (isNull(skyOrchardsResources[resourceName])) {
-					skyOrchardsResources[resourceName] = {};
-				}
-				skyOrchardsResources[resourceName][resourceType] = resourceItem;
-			}
-		}
-	}
-}
-
-/**
- * Validates the Sky Orchards Resource Map
- * Every resource listed should exist as well as an entry for every resourceType
- */
-function validate() {
-	for resourceName in resourceNames {
-		if (skyOrchardsResources has resourceName) {
-			for resourceType in resourceTypes {
-				if (!(skyOrchardsResources[resourceName] has resourceType)) {
-					logger.logWarning("Sky Orchards resource map is missing the resource type "
-						~ utils.capitalize(resourceName) ~ " for the resource "
-						~ utils.capitalize(resourceName)
-					);
-				}
-			}
-		} else {
-			logger.logWarning("Sky Orchards resource map is missing the resource "
-				~ utils.capitalize(resourceName)
-			);
-		}
-	}
-}
-
-function printMap() {
-	print("Printing Sky Orchards Resources map...");
-	print("{");
-
-	for resourceName, resourceTypes in skyOrchardsResources {
-		print('    "' ~ resourceName ~ '": {');
-
-		for resourceTypeName, resourceItem in resourceTypes {
-			print('        "' ~ resourceTypeName ~ '": ' ~ '"' ~ resourceItem.commandString ~ '",');
-		}
-
-		print("    },");
-	}
-
-	print("}");
-	print("Completed printing of Sky Orchards Resources map...");
 }
