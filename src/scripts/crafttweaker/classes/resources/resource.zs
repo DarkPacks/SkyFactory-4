@@ -171,6 +171,7 @@ zenClass Resource {
 		}
 
 		if (hasPart("plate")) {
+			mekanism.addEnrichment(this.parts.ingot, this.parts.plate);
 			practicalLogistics.addHammer(this.parts.plate, this.parts.ingot * 2);
 			nuclearCraft.addPressurizer(this.parts.plate, this.parts.ingot);
 		}
