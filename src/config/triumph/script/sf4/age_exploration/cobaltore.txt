@@ -17,6 +17,8 @@ criteria1.addItem(<tconstruct:ore:0>)
 setRequirements("any")
 setRewardExperience(20)
 
+hiddenUnless("default_ores")
+
 hideLines()
 alwaysVisible()
 setPos(-138,185)
