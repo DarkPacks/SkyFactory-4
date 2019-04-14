@@ -32,7 +32,10 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 static shapelessRecipes as IIngredient[][][IItemStack] = {
 	<slabmachines:workbench_slab> * 2: [
         [<minecraft:crafting_table>, <minecraft:stick>]
-    ]
+    ],
+	<slabmachines:crafting_station_slab> * 2: [
+		[<tconstruct:tooltables>, <minecraft:stick>]
+	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
@@ -42,6 +45,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
+	<slabmachines:crafting_station_slab>,
 	<slabmachines:workbench_slab>
 ];
 
