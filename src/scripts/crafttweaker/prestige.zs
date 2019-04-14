@@ -17,7 +17,7 @@ function init() {
     prestige.addGamestageReward("mysticalagriculture", stages.mysticalAgriculture);
     prestige.addGamestageReward("mysticalagriculture", stages.prosperityTree);
     prestige.addGamestageReward("portalgun", stages.portalGun);
-    prestige.addGamestageReward("projecte", stages.projectE);
+    //prestige.addGamestageReward("projecte", stages.projectE);
     prestige.addGamestageReward("twilightforest", stages.twilightForest);
     prestige.addGamestageReward("open_computers", stages.openComputers);
 
@@ -177,7 +177,7 @@ function init() {
 	// ==================================
     // Topography Rewards
 	// ==================================
-    prestige.addTopographyReward("projecte_world", "Project trEe");
+    //prestige.addTopographyReward("projecte_world", "Project trEe");
 
 	// ==================================
     // Prestige Enabled/Disabled for World (Controlled by button on world creation)
@@ -232,17 +232,24 @@ mods.prestige.Rewards.registerRewardCondition("mystcraft", function(world as IWo
 
 //Disable Mystcraft Prestige dimension in Compact Sky World
 mods.prestige.Rewards.registerRewardCondition("mystcraft", function(world as IWorld, player as IPlayer){
-print(mods.topography.Info.getPreset());
     return mods.topography.Info.getPreset() != "Compactsky";
 });
 
 //Disable Mystcraft and Twilight Forest dimensions Prestige in Bedrock Your World
 mods.prestige.Rewards.registerRewardCondition("mystcraft", function(world as IWorld, player as IPlayer){
-print(mods.topography.Info.getPreset());
     return mods.topography.Info.getPreset() != "Bedrock Your World";
 });
 
 mods.prestige.Rewards.registerRewardCondition("twilightforest", function(world as IWorld, player as IPlayer){
-print(mods.topography.Info.getPreset());
     return mods.topography.Info.getPreset() != "Bedrock Your World";
+});
+
+//
+//Disabled ProjectE until the mod is fixed
+//
+mods.prestige.Rewards.registerRewardCondition("projecte", function(world as IWorld, player as IPlayer){
+    return false;});
+
+mods.prestige.Rewards.registerRewardCondition("projecte_world", function(world as IWorld, player as IPlayer){
+    return false;
 });
