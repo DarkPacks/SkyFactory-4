@@ -14,11 +14,9 @@ setShowToast(false)
 setAnnounceToChat(false)
 
 //Criteria
-criteria = addCriteria("Compact Machines World", "minecraft:location")
-criteria.setGeneratorOptions({"Topography-Preset":"Compactsky"})
+criteria = addCriteria("impossible", "minecraft:impossible")
 
 //Rewards
-setRewardFunction("triumph:compact_machines")
 setRewardItem(<compactmachines3:psd, enchant:cofhcore:soulbound:127>)
 
 

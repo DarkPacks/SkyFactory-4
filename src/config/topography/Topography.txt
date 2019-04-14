@@ -11,13 +11,13 @@ SF4 = registerPreset("Skygrid", "images/SkyGrid", "Blocks and resources are gene
 SF4.addInitialPlayerFunction("triumph:start_standard")
 SF4.disableNetherPortal()
 
-SF4 = registerPreset("Compactsky", "images/CompactMachines", "Start in a 3x3x3 box and upgrade your way to a larger workspace. Compactsky by Davenonymous", "compactsky")
+SF4 = registerPreset("Compactsky", "images/CompactMachines", "Start in a 3x3x3 box and upgrade your way to a larger workspace. Compactsky by Davenonymous", "compactsky", {"schema":"test002","givePSD":false,"size":"SMALL"})
 SF4.registerDimension(-1, "SF4/nether/nether_compact_machines")
 SF4.registerDimension(1, "SF4/end/end_compact_machines")
 SF4.registerDimension(7, "SF4/twilight_forest/twilight_compact_machines")
 SF4.registerDimension(111, "SF4/lost_cities/lost_cities_compact_machines")
 SF4.registerDimension(28885, "SF4/hunting_dimension/hunting_compact_machines")
-SF4.addInitialPlayerFunction("triumph:start_standard")
+SF4.addInitialPlayerFunction("triumph:start_compact_machines")
 SF4.disableNetherPortal()
 
 SF4 = registerPreset("Amplified", "images/Amplified", "Vanilla Amplified World Type with no ore generation", "amplified")
