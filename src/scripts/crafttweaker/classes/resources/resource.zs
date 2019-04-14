@@ -290,6 +290,17 @@ zenClass Resource {
 		}
 	}
 
+	function handleGear() {
+		if (!hasPart("gear")) {
+			return null;
+		}
+
+		if (hasLiquid()) {
+			nuclearCraft.addMelter(this.parts.gear, this.liquid * 576);
+			tinkers.addMelter(this.parts.gear, this.liquid * 576);
+		}
+	}
+
 	function handleLiquid() {
 		if (!hasLiquid()) {
 			return null;
