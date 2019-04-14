@@ -234,7 +234,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:quartz>, null]
 		]
 	],
-
+	<animalcrops:seeds>.withTag({entity: "minecraft:evocation_illager"}): [
+		[
+			[null, <minecraft:rotten_flesh>, null],
+			[null, <minecraft:wheat_seeds>, null],
+			[null, <minecraft:emerald>, null]
+		]
+	],
 	//Water Seeds
 	<animalcrops:lily>.withTag({entity: "minecraft:guardian"}): [
 		[
