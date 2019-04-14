@@ -131,7 +131,8 @@ static removeRecipes as IItemStack[] = [
 	<bdsandm:upgrade>,
 	<bdsandm:wood_barrel>,
 	<bdsandm:wood_crate>,
-	<bdsandm:upgrade:6>
+	<bdsandm:upgrade:6>,
+	<bdsandm:upgrade:7>
 ];
 
 function init() {
