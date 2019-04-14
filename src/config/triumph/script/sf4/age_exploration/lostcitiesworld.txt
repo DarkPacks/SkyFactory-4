@@ -2,7 +2,7 @@ setTitle("Lost and Found")
 
 setIcon(<telepastries:lost_city_cake>)
 
-setDescription("You'll still need to head to the Lost Cities Dimension using a Dimensional Edibles Cake to mine ore. Craft and place a Lost Cities Cake on the ground and click on it to head to the Lost Cities")
+setDescription("You'll still need to head to the Lost Cities Dimension using a TelePastries Cake to mine ore. Craft and place a Lost Cities Cake on the ground and click on it to head to the Lost Cities")
 
 addParent("sf4:age_exploration/root")
 

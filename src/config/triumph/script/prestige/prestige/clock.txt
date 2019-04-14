@@ -1,0 +1,18 @@
+setTitle("Clock")
+
+setIcon(<bibliocraft:clock>)
+
+setDescription("Craft a Parabox to begin collecting prestige points. When activated the timer will begin counting down from 20 minutes")
+
+addParent("prestige:prestige/root")
+addParent("prestige:prestige/test")
+
+//Criteria
+criteria = addCriteria("Acquire Clock", "minecraft:inventory_changed")
+criteria.addItem(<bibliocraft:clock>)
+
+//Rewards
+setRewardExperience(4)
+
+drawDirectLines()
+setPos(32,-63)

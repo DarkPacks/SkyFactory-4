@@ -1,0 +1,17 @@
+setTitle("Space-Time Equalizer")
+
+setIcon(<matteroverdrive:spacetime_equalizer>)
+
+setDescription("To end the loop, press the Loop:Off button and the game will close. Restart your world to collect your prestige and go backwards in time")
+
+addParent("prestige:prestige/energy_cube")
+
+//Criteria
+criteria = addCriteria("Acquire Space Time Equalizer", "minecraft:inventory_changed")
+criteria.addItem(<matteroverdrive:spacetime_equalizer>)
+
+//Rewards
+setRewardExperience(4)
+
+drawDirectLines()
+setPos(-78,-24)

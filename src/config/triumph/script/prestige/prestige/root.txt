@@ -16,5 +16,6 @@ setRequirements("any")
 criteria = addCriteria("stage", "triumph:gamestage")
 criteria.setStage("parabox")
 
-hiddenUnless("parabox")
-setPos(-62,-7)
+pageHiddenUnless("parabox")
+pageAlwaysVisible()
+setPos(-53,-98)
