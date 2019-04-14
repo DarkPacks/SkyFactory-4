@@ -206,6 +206,7 @@ zenClass Resource {
 
 		if (hasLiquid()) {
 			nuclearCraft.addMelter(this.parts.nugget, this.liquid * 16);
+			tinkers.addMelter(this.parts.nugget, this.liquid * 16);
 		}
 	}
 
