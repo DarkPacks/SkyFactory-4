@@ -19,7 +19,7 @@ function init() {
     prestige.addGamestageReward("portalgun", stages.portalGun);
     prestige.addGamestageReward("projecte", stages.projectE);
     prestige.addGamestageReward("twilightforest", stages.twilightForest);
-    prestige.addGamestageReward("open_computers", stages.openComputers);  
+    prestige.addGamestageReward("open_computers", stages.openComputers);
 
 	// ==================================
     // mOrE SpECiFIC PrEStiGE rEWArds

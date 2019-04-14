@@ -30,15 +30,14 @@ function initRecipes() {
 	// Mod Specific Recipes
 	scripts.crafttweaker.recipes.mods.animalcrops.init();
 	scripts.crafttweaker.recipes.mods.appliedEnergistics2.init();
-	scripts.crafttweaker.recipes.mods.astralSorcery.init();	
+	scripts.crafttweaker.recipes.mods.astralSorcery.init();
 	scripts.crafttweaker.recipes.mods.bdsandm.init();
 	scripts.crafttweaker.recipes.mods.clickMachine.init();
 	scripts.crafttweaker.recipes.mods.cookingForBlockheads.init();
 	scripts.crafttweaker.recipes.mods.cyclic.init();
 	scripts.crafttweaker.recipes.mods.darkutils.init();
 	scripts.crafttweaker.recipes.mods.deepMobLearning.init();
-	scripts.crafttweaker.recipes.mods.dimensionalEdibles.init();
-	scripts.crafttweaker.recipes.mods.extraCells.init();	
+	scripts.crafttweaker.recipes.mods.extraCells.init();
 	scripts.crafttweaker.recipes.mods.iChunUtil.init();
 	scripts.crafttweaker.recipes.mods.industrialForegoing.init();
 	scripts.crafttweaker.recipes.mods.inspirations.init();
