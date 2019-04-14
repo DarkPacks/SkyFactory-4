@@ -166,6 +166,11 @@ zenClass Resource {
 			recipes.addShaped(this.parts.block, craftingUtils.create3By3(this.parts.ingot));
 		}
 
+		if (hasPart("dust")) {
+			astralSorcery.addGrindstone(this.parts.ingot, this.parts.dust);
+			mekanism.addCrusher(this.parts.ingot, this.parts.dust);
+		}
+
 		if (hasPart("nugget")) {
 			recipes.addShapeless(this.parts.nugget * 9, [this.parts.ingot]);
 		}
