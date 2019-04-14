@@ -1,6 +1,6 @@
 setTitle("Let the Hunt Begin")
 
-setIcon(<dimensionaledibles:custom_cake, meta:0, count:1, nbt:{dimID:28885,cakeName:"Hunting Dimension"}>)
+setIcon(<telepastries:hunting_dimension_cake>)
 
 setDescription("Travel to the Hunting Dimension using a Hunting Dimension Cake")
 

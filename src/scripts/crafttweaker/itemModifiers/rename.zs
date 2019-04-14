@@ -7,8 +7,8 @@ import crafttweaker.item.IItemStack;
 
 static renameMap as string[IItemStack] = {
 	<tp:birthday_pickaxe>: "Party Pickaxe",
-	<dimensionaledibles:custom_cake>.withTag({dimID: 7}): "Twilight Forest Cake",
-	<dimensionaledibles:custom_cake>.withTag({dimID: 111}): "Lost Cities Cake",
+	<telepastries:twilight_cake>: "Twilight Forest Cake",
+	<telepastries:lost_city_cake>: "Lost Cities Cake",
 	<thermalfoundation:wrench>: "Crescent Hammer (Wrench)"
 };
 

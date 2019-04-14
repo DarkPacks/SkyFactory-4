@@ -1,6 +1,6 @@
 setTitle("Age of Exploration")
 
-setIcon(<dimensionaledibles:overworld_cake>)
+setIcon(<telepastries:overworld_cake>)
 
 setDescription("Explore the world and dimensions around you")
 

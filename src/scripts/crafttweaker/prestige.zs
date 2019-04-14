@@ -143,10 +143,10 @@ function init() {
 					Slot: 26, id: "tconstruct:slime_dirt", Count: 2 as byte, Damage: 0 as short
 				},
 				{
-					Slot: 27, id: "dimensionaledibles:overworld_cake", Count: 1 as byte, Damage: 0 as short
+					Slot: 27, id: "telepastries:overworld_cake", Count: 1 as byte, Damage: 0 as short
 				},
 				{
-					Slot: 28, id: "dimensionaledibles:nether_cake", Count: 1 as byte, Damage: 0 as short
+					Slot: 28, id: "telepastries:nether_cake", Count: 1 as byte, Damage: 0 as short
 				},
 				{
 					Slot: 29, id: "xlfoodmod:bacon_pie", Count: 16 as byte, Damage: 0 as short

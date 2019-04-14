@@ -10,9 +10,7 @@ import mods.zenstages.Stage;
 static stage as Stage = stages.twilightForest;
 
 static stagedItems as IIngredient[] = [
-
-	//Yo FirstNecron: Fix this
-	<dimensionaledibles:custom_cake>.withTag({dimID: 7, cakeName: "Twilight Forest"})
+	<telepastries:twilight_cake>
 ];
 
 function init() {

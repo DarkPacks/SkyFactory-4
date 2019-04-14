@@ -1,1 +1,1 @@
-give @p dimensionaledibles:overworld_cake
+give @p telepastries:overworld_cake

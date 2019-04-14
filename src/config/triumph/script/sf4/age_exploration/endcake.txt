@@ -1,6 +1,6 @@
 setTitle("B'Aiken a C'Aiken")
 
-setIcon(<dimensionaledibles:end_cake>)
+setIcon(<telepastries:end_cake>)
 
 setDescription("Craft, place, and eat an End Cake to go to the End")
 
@@ -10,7 +10,7 @@ drawDirectLines(true)
 
 //Criteria
 criteria = addCriteria("Obtain End Cake", "minecraft:inventory_changed")
-criteria.addItem(<dimensionaledibles:end_cake>)
+criteria.addItem(<telepastries:end_cake>)
 
 setRewardExperience(16)
 

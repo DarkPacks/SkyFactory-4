@@ -1,6 +1,6 @@
 setTitle("No Cake Like Home")
 
-setIcon(<dimensionaledibles:overworld_cake>)
+setIcon(<telepastries:overworld_cake>)
 
 setDescription("Craft, place, and eat an Overworld Cake to return back to the Overworld when traveling to other dimensions")
 
@@ -10,7 +10,7 @@ drawDirectLines(true)
 
 //Criteria
 criteria = addCriteria("Obtain Overworld Cake", "minecraft:inventory_changed")
-criteria.addItem(<dimensionaledibles:overworld_cake>)
+criteria.addItem(<telepastries:overworld_cake>)
 
 setRewardExperience(16)
 

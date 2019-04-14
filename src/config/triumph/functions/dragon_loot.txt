@@ -1,2 +1,2 @@
-give @p dimensionaledibles:overworld_cake 1
+give @p telepastries:overworld_cake 1
 give @p minecraft:sapling 32
