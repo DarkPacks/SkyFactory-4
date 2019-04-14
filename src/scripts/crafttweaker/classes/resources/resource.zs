@@ -206,7 +206,7 @@ zenClass Resource {
 
 		if (hasLiquid()) {
 			nuclearCraft.addMelter(this.parts.nugget, this.liquid * 16);
-			tinkers.addMelting(this.parts.nugget, this.liquid * 16);
+			tinkers.addMelting(this.liquid * 16, this.parts.nugget);
 		}
 	}
 
@@ -298,7 +298,7 @@ zenClass Resource {
 
 		if (hasLiquid()) {
 			nuclearCraft.addMelter(this.parts.gear, this.liquid * 576);
-			tinkers.addMelting(this.parts.gear, this.liquid * 576);
+			tinkers.addMelting(this.liquid * 576, this.parts.gear);
 		}
 	}
 
