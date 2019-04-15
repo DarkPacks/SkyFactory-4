@@ -652,11 +652,6 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<resourcehogs:bacon>.withTag({ResourceType: "missing"}): [
 		format.yellow("Stop trying to cheat! >.<")
 	],
-
-	//JEI says only craftable in luminous crafting table
-	<astralsorcery:blockblackmarble>: [
-		format.yellow("Craftable in any crafting table!")
-	]
 };
 
 function init() {
