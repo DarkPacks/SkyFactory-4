@@ -279,6 +279,14 @@ static removeAndHideIngredients as IIngredient[] = [
 	<bibliocraft:bookcase:5>,
 	<bibliocraft:bookcase:6>,
 
+	// Remove Iridium
+	<thermalfoundation:ore:7>,
+	<thermalfoundation:storage:7>,
+	<thermalfoundation:material:71>,
+	<thermalfoundation:material:135>,
+	<thermalfoundation:material:199>,
+	<thermalfoundation:material:327>,
+
 	<thermalfoundation:material:27>,
 	<thermalfoundation:material:256>,
 	<thermalfoundation:material:257>,
