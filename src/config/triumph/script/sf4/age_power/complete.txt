@@ -57,3 +57,4 @@ setRewardExperience(30)
 setRewardFunction("triumph:prestige_add")
 
 hideLines()
+setPos(-37,184)

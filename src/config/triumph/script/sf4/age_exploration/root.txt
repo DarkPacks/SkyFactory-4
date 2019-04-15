@@ -21,3 +21,5 @@ addCriteria("killEntity", "minecraft:player_killed_entity")
 addCriteria("killedByEntity", "minecraft:entity_killed_player")
 addCriteria("location", "minecraft:location")
 setPos(-72,149)
+
+pageAlwaysVisible()

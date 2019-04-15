@@ -46,4 +46,4 @@ hiddenUnless("no_parabox")
 setRewardExperience(30)
 
 hideLines()
-setPos(-34,181)
+setPos(-42,387)
