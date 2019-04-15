@@ -27,7 +27,7 @@ about: If you get a crash from the game, or something is not working 100% from a
 <!--- Add more if needed -->
 
 ## Logs
-<!-- Twitch logs can be found in the installation directory for the Twitch App.  Or click the ... button on SevTech and hit "Open Folder" -->
+<!-- Twitch logs can be found in the installation directory for the Twitch App.  Or click the ... button on SkyFactory and hit "Open Folder" -->
 <!-- ATLauncher logs can be found in the installation directory. Or you can "Open Folder" from the launcher to view the instance. -->
 <!-- Then upload the latest/crash logs to PasteBin or Gist. DON'T Upload them to GitHub -->
 * Client/Server Log:
