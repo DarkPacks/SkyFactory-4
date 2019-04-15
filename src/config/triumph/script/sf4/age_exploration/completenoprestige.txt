@@ -1,4 +1,4 @@
-setTitle("Completionist Prestige Off")
+setTitle("Completionist")
 
 setIcon(<minecraft:cooked_chicken>)
 
