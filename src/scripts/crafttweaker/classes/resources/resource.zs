@@ -17,6 +17,37 @@ import scripts.crafttweaker.craftingUtils;
 import scripts.crafttweaker.utils;
 
 zenClass Resource {
+	static mysticalAgricultureOutputs as int[string] = {
+		ardite: 3,
+		boron: 3,
+		bronze: 4,
+		cobalt: 3,
+		copper: 6,
+		dilithium: 4,
+		electrum: 4,
+		enderium: 2,
+		fiery: 3,
+		gold: 4,
+		invar: 4,
+		iron: 6,
+		lead: 4,
+		lithium: 3,
+		lumium: 4,
+		magnesium: 3,
+		manyullyn: 2,
+		nickel: 4,
+		osmium: 4,
+		platinum: 2,
+		signalum: 4,
+		silver: 4,
+		steel: 3,
+		steeleaf: 5,
+		thorium: 3,
+		tin: 4,
+		tritanium: 3,
+		uranium: 2
+	};
+
 	var resourceName as string;
 	var parts as IItemStack[string] = {};
 	var partsOredict as IOreDictEntry[string] = {};
@@ -84,6 +115,22 @@ zenClass Resource {
 
 					addTinkersPartRecipes(partName);
 				}
+			}
+		}
+
+		// ==============================
+		// Mystical Agriculture essence recipe
+		if (Resource.mysticalAgricultureOutputs has this.resourceName) {
+			if (hasPart("ingot")) {
+				// TODO: CamelCase to Snake_Case
+				// TODO: Null checks for itemUtils.getItem & Log warning
+				var essence as IItemStack = itemUtils.getItem("mysticalagriculture:" ~ this.resourceName ~ "_essence");
+				if (isNull(essence)) {
+					essence = itemUtils.getItem("mysticalagriculture:" ~ this.resourceName ~ "_ingot_essence");
+				}
+				recipes.addShaped(this.parts.ingot * Resource.mysticalAgricultureOutputs[this.resourceName],
+					craftingUtils.createSurroundedRecipe(essence, null)
+				);
 			}
 		}
 

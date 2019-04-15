@@ -6,8 +6,6 @@
 import crafttweaker.item.IItemStack;
 
 static hardnessItems as float[IItemStack] = {
-	<twilightforest:canopy_planks>: 2,
-	<twilightforest:canopy_slab>: 2
 };
 
 function init() {

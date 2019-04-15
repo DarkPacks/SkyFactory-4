@@ -279,6 +279,23 @@ static removeAndHideIngredients as IIngredient[] = [
 	<bibliocraft:bookcase:5>,
 	<bibliocraft:bookcase:6>,
 
+	// Remove Iridium
+	<thermalfoundation:ore:7>,
+	<thermalfoundation:storage:7>,
+	<thermalfoundation:material:71>,
+	<thermalfoundation:material:135>,
+	<thermalfoundation:material:199>,
+	<thermalfoundation:material:327>,
+
+	// Remove Constantan
+	<conarm:armorforge>.withTag({textureBlock: {id: "thermalfoundation:storage_alloy", Count: 1 as byte, Damage: 4 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "thermalfoundation:storage_alloy", Count: 1 as byte, Damage: 4 as short}}),
+	<thermalfoundation:material:100>,
+	<thermalfoundation:material:164>,
+	<thermalfoundation:material:228>,
+	<thermalfoundation:material:356>,
+	<thermalfoundation:storage_alloy:4>,
+
 	<thermalfoundation:material:27>,
 	<thermalfoundation:material:256>,
 	<thermalfoundation:material:257>,

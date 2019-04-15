@@ -158,7 +158,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:paper>, <minecraft:string>],
 			[null, null, null]
 		]
-	]
+	],
+	<minecraft:mob_spawner>: [
+        [
+            [<deepmoblearning:pristine_matter_zombie>, <minecraft:nether_star>, <deepmoblearning:pristine_matter_skeleton>],
+            [<minecraft:egg>, <nuclearcraft:part:12>, <minecraft:egg>],
+            [<deepmoblearning:pristine_matter_creeper>, <darkutils:shulker_pearl>, <deepmoblearning:pristine_matter_spider>]
+        ]
+    ]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
