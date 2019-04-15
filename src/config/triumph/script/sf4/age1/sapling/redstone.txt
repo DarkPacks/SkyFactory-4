@@ -1,4 +1,4 @@
-setTitle("Redstone Sapling")
+setTitle("It's Electric")
 
 setIcon(<sky_orchards:sapling_redstone>)
 

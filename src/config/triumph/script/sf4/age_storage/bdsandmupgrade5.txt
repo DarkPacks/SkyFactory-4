@@ -1,4 +1,4 @@
-setTitle("Upgrade 6")
+setTitle("Ore You Kidding")
 
 setIcon(<bdsandm:upgrade:5>)
 

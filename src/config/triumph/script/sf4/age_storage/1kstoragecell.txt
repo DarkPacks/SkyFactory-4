@@ -1,4 +1,4 @@
-setTitle("1K Storage Cell")
+setTitle("Pocket Book")
 
 setIcon(<appliedenergistics2:storage_cell_1k>)
 

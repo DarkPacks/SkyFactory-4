@@ -1,4 +1,4 @@
-setTitle("Lead Sapling")
+setTitle("Lead Zeppelin")
 
 setIcon(<sky_orchards:sapling_lead>)
 

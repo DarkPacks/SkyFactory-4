@@ -1,4 +1,4 @@
-setTitle("Lapis Sapling")
+setTitle("Blue Man Group")
 
 setIcon(<sky_orchards:sapling_lapis>)
 

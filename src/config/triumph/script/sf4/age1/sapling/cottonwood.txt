@@ -1,4 +1,4 @@
-setTitle("Cottonwood Sapling")
+setTitle("You Cotton Be Kidding Me")
 
 setIcon(<sky_orchards:sapling_cottonwood>)
 

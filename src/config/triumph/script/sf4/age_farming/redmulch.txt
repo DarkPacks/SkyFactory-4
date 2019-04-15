@@ -1,4 +1,4 @@
-setTitle("Red Mulch")
+setTitle("The Hot Stuff")
 
 setIcon(<inspirations:mulch:5>)
 
@@ -14,4 +14,4 @@ hiddenUnless("red_mulch")
 alwaysVisible()
 
 setRewardExperience(6)
-setPos(135,206)
+setPos(135,207)

@@ -1,4 +1,4 @@
-setTitle("Black Mulch")
+setTitle("Not Mulch Going On")
 
 setIcon(<inspirations:mulch:6>)
 
@@ -14,4 +14,4 @@ hiddenUnless("black_mulch")
 alwaysVisible()
 
 setRewardExperience(6)
-setPos(161,206)
+setPos(160,207)

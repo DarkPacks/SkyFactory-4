@@ -1,4 +1,4 @@
-setTitle("Space-Time Equalizer")
+setTitle("The Flux Capacitor")
 
 setIcon(<matteroverdrive:spacetime_equalizer>)
 

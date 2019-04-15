@@ -1,4 +1,4 @@
-setTitle("Advanced Energy Cube")
+setTitle("Mr Fusion")
 
 setIcon(<mekanism:energycube, nbt:{tier:1}>)
 

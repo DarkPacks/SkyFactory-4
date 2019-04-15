@@ -16,4 +16,4 @@ hiddenUnless("fertile_soil")
 alwaysVisible()
 
 setRewardExperience(10)
-setPos(-3,206)
+setPos(10,207)

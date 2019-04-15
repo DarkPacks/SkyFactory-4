@@ -1,4 +1,4 @@
-setTitle("Blue Mulch")
+setTitle("I'm Blue Da Ba Dee")
 
 setIcon(<inspirations:mulch:7>)
 
@@ -15,4 +15,4 @@ hiddenUnless("blue_mulch")
 setRewardExperience(6)
 
 alwaysVisible()
-setPos(189,206)
+setPos(185,207)

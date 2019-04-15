@@ -1,4 +1,4 @@
-setTitle("Bacon Sapling")
+setTitle("OinkTree")
 
 setIcon(<sky_orchards:sapling_bacon>)
 

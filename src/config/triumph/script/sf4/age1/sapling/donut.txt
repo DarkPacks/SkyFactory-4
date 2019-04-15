@@ -1,4 +1,4 @@
-setTitle("Donut Sapling")
+setTitle("D'OH!")
 
 setIcon(<sky_orchards:sapling_donut>)
 

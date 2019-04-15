@@ -1,4 +1,4 @@
-setTitle("Silver Sapling")
+setTitle("Silver Spoon")
 
 setIcon(<sky_orchards:sapling_silver>)
 

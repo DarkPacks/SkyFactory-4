@@ -17,4 +17,4 @@ criteria.addItem(<bonsaitrees:bonsaipot>)
 setRewardExperience(8)
 
 alwaysVisible()
-setPos(-52,206)
+setPos(-42,206)

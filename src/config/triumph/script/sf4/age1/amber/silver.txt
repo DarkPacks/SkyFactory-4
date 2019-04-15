@@ -1,4 +1,4 @@
-setTitle("Silver Amber")
+setTitle("Silver Surfer")
 
 setIcon(<sky_orchards:amber_silver>)
 

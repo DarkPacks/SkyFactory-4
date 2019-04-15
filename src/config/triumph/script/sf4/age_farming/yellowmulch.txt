@@ -14,4 +14,4 @@ hiddenUnless("yellow_mulch")
 alwaysVisible()
 
 setRewardExperience(6)
-setPos(53,206)
+setPos(60,207)

@@ -1,4 +1,4 @@
-setTitle("Tin Amber")
+setTitle("Tin Man")
 
 setIcon(<sky_orchards:amber_tin>)
 

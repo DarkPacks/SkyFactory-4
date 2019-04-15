@@ -1,4 +1,4 @@
-setTitle("4096k Gas Storage Cell")
+setTitle("Hit the Gas")
 
 setIcon(<extracells:storage.gas:6>)
 

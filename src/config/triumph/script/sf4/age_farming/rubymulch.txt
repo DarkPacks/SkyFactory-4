@@ -14,4 +14,4 @@ hiddenUnless("amber_mulch")
 alwaysVisible()
 
 setRewardExperience(6)
-setPos(108,206)
+setPos(110,207)

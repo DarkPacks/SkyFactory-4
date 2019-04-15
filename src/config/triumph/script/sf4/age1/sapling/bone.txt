@@ -1,4 +1,4 @@
-setTitle("Bone Sapling")
+setTitle("Break a Leg")
 
 setIcon(<sky_orchards:sapling_bone>)
 

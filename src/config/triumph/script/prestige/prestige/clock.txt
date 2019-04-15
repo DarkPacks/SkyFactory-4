@@ -1,4 +1,4 @@
-setTitle("Clock")
+setTitle("Back to the Future")
 
 setIcon(<bibliocraft:clock>)
 

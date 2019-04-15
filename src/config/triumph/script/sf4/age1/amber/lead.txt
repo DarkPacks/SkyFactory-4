@@ -1,4 +1,4 @@
-setTitle("Lead Amber")
+setTitle("Lead it Go")
 
 setIcon(<sky_orchards:amber_lead>)
 

@@ -1,4 +1,4 @@
-setTitle("Upgrade 4")
+setTitle("Better Than 1080p")
 
 setIcon(<bdsandm:upgrade:3>)
 

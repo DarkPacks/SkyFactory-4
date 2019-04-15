@@ -17,4 +17,4 @@ hiddenUnless("bonsai_trees")
 setRewardExperience(8)
 
 alwaysVisible()
-setPos(-27,231)
+setPos(-16,231)

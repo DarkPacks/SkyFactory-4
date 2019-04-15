@@ -1,4 +1,4 @@
-setTitle("Tin Sapling")
+setTitle("It's Tin This Pack")
 
 setIcon(<sky_orchards:sapling_tin>)
 
