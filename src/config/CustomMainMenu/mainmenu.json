@@ -70,7 +70,7 @@
             
         "options":
         {
-            "text" : "Options",
+            "text" : "menu.options",
             "texture" : "test:textures/gui/title/background/button.png",            
             "posX" : -200,
             "posY" : 1,
