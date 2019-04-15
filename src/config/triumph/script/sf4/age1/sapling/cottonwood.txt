@@ -2,7 +2,7 @@ setTitle("You Cotton Be Kidding Me")
 
 setIcon(<sky_orchards:sapling_cottonwood>)
 
-setDescription("Craft a Cottomwood Sapling")
+setDescription("Craft a Cottonwood Sapling")
 
 addParent("sf4:age1/sapling/bone")
 addParent("sf4:age1/sapling/clay")
