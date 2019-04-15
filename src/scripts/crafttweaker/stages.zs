@@ -27,6 +27,7 @@ var stageStrings as string[] = [
 	"twilight_forest",
 	"parabox",
 	"no_parabox",
+	"fake_twilight",
 
 	// Misc Prestige-related Stages
 	"amber_mulch",
