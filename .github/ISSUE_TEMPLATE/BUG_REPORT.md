@@ -33,6 +33,17 @@ about: If you get a crash from the game, or something is not working 100% from a
 * Client/Server Log:
 * Crash Log:
 
+
+## World Information
+<!-- Which Topography world are you using? -->
+* Preset:
+<!-- Do you have Prestige enabled? -->
+* Prestige: 
+<!-- Please provide the version of the modpack that the world was created in if known. Rough estimates are OK -->
+* Modpack Version world created in:
+<!-- If there are any additional mods, please state them below -->
+* Additional Content Installed:
+
 ## Client Information
 <!--- Include as many relevant details about the environment you experienced the bug in -->
 <!-- Please tell us how much memory you have allocated to the game. For Twitch/ATLauncher look in the settings -->
@@ -43,12 +54,6 @@ about: If you get a crash from the game, or something is not working 100% from a
 * Server/LAN/Single Player:
 * Optifine Installed:
 * Shaders Enabled:
-
-## World Information
-<!-- Please provide the version of the modpack that the world was created in if known. Rough estimates are OK -->
-* Modpack Version world created in:
-<!-- If there are any additional mods, please state them below -->
-* Additional Content Installed:
 
 <!--- Additional Information if you are using a server setup (DELETE THIS SECTION IF YOUR ISSUE IS CLIENT ONLY) -->
 ## Server Information
