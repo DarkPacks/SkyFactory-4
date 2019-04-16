@@ -9,7 +9,7 @@ addParent("tutorial:tutorial/copied/string")
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("slept_in_bed", "minecraft:slept_in_bed")
+criteria = addCriteria("Slept in a bed", "minecraft:slept_in_bed")
 
 setPos(49,147)
 hideLines()
