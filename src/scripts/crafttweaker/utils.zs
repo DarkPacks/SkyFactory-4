@@ -78,7 +78,10 @@ function formatBucketIngredient(bucket as IItemStack, liquidName as string) as I
 
 // Get the fluid amount required to create an item
 function getFluidAmount(resourcePartName as string) as int {
-	if (resourcePartName == "ingot" | resourcePartName == "plate") {
+	if (resourcePartName == "dust" ||
+		resourcePartName == "ingot" ||
+		resourcePartName == "plate"
+	) {
 		return 144;
 	} else if (resourcePartName == "rod") {
 		return 72;
