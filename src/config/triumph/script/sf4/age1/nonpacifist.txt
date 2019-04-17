@@ -79,6 +79,8 @@ criteria37 = addCriteria("superflat37", "minecraft:location")
 criteria37.setWorldType("customized")
 criteria38 = addCriteria("superflat38", "minecraft:location")
 criteria38.setGeneratorOptions({"Topography-Preset":"You're a Hairy Wizard!"})
+criteria39 = addCriteria("astral", "minecraft:location")
+criteria39.setGeneratorOptions({"Topography-Preset":"ObservaTree"})
 
 setRequirements("any")
 
