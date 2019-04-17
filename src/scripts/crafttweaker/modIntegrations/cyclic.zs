@@ -21,7 +21,7 @@ import mods.cyclicmagic.Hydrator;
 	Packager.addRecipe(<minecraft:coal>, [<sky_orchards:acorn_coal> * 4, <sky_orchards:resin_coal> * 5]);
 	Packager.addRecipe(<minecraft:netherrack>, [<sky_orchards:acorn_netherrack> * 4, <sky_orchards:resin_netherrack> * 5]);
 	Packager.addRecipe(<minecraft:glowstone>, [<sky_orchards:acorn_glowstone> * 4, <sky_orchards:resin_glowstone> * 5]);
-	Packager.addRecipe(<minecraft:quartz>, [<sky_orchards:acorn_quartz> * 4, <sky_orchards:resin_quartz> * 5]);
+	Packager.addRecipe(<minecraft:quartz_block>, [<sky_orchards:acorn_quartz> * 4, <sky_orchards:resin_quartz> * 5]);
 
 	Packager.addRecipe(<sky_orchards:amber_iron>, [<sky_orchards:acorn_iron> * 4, <sky_orchards:resin_iron> * 5]);
 	Packager.addRecipe(<sky_orchards:amber_gold>, [<sky_orchards:acorn_gold> * 4, <sky_orchards:resin_gold> * 5]);
