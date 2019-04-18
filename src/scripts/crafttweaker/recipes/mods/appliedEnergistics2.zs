@@ -12,7 +12,7 @@ import mods.zenstages.Utils;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	
+
 
 	<appliedenergistics2:material:35>: [
 		[
@@ -50,7 +50,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  	[
 	  		[<integrateddynamics:crystalized_menril_chunk>, <appliedenergistics2:material:25>]
 	  	]
-	],	
+	],
 	<appliedenergistics2:energy_cell>: [
 		[
 			[<appliedenergistics2:material:11>, <appliedenergistics2:material:8>, <appliedenergistics2:material:11>],
