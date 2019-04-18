@@ -8,7 +8,6 @@ addParent("sf4:age1/wooden_crook")
 addParent("sf4:age1/cobblestone")
 
 drawDirectLines()
-hiddenIf("compactmachines:test/root")
 
 //Criteria
 criteria = addCriteria("Obtain Stone Crook", "minecraft:inventory_changed")

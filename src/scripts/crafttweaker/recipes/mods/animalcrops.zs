@@ -263,7 +263,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[null, <ore:dyeBlack>, null],
 			[null, <minecraft:waterlily>, null],
-			[null, <minecraft:potion>, null]
+			[null, <minecraft:potion>.withTag({Potion: "minecraft:water"}), null]
 		]
 	],
 };
