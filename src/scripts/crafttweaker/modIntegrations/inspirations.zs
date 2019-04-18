@@ -42,8 +42,8 @@ function init() {
 	// Create grass from mud and leaves
 	inspirations.addCauldronFluid(<minecraft:grass>, <ore:treeLeaves> * 1, <liquid:mud>, 1);
 
-	// Acacia sapling from apple juice
-	inspirations.addCauldronFluid(<minecraft:sapling:4>, <rustic:sapling_apple>, <liquid:water>, 4);
+	// Acacia sapling from apple sapling in water
+	inspirations.addCauldronFluid(<minecraft:sapling:4>, <rustic:sapling_apple>, <liquid:water>, 1);
 
 	// Blue Slime Trees
 	inspirations.addCauldronFluid(<tconstruct:slime_sapling>, <sky_orchards:sapling_lapis>, <liquid:milk>, 4);
