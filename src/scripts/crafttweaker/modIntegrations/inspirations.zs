@@ -75,6 +75,9 @@ function init() {
 	//Later that night, Bentley found out we needed to have Starlight Ingots too.
 	inspirations.addCauldronFluid(<astralsorcery:itemcraftingcomponent:1>, <minecraft:iron_ingot>, <liquid:astralsorcery.liquidstarlight>, 4);
 
+	//Create Chorus using apples and purple slime in a cauldron
+	inspirations.addCauldronFluid(<minecraft:chorus_fruit>, <minecraft:apple>, <liquid:purpleslime>, 1);
+
 	// ==================================
 	// Fill Recipes
 	// ==================================

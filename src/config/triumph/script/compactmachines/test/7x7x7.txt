@@ -6,7 +6,6 @@ setDescription("Obtain Netherrack to gain a larger Compact Machine")
 
 addParent("compactmachines:test/5x5x5")
 addParent("compactmachines:test/5x5x52")
-setRequiresParents()
 
 visibleIf("compact_machines")
 alwaysHidden()

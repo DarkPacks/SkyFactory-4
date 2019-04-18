@@ -6,7 +6,6 @@ setDescription("Obtain Elytra to gain a larger Compact Machine")
 
 addParent("compactmachines:test/11x11x11")
 addParent("compactmachines:test/11x11x112")
-setRequiresParents()
 
 visibleIf("compact_machines")
 alwaysHidden()

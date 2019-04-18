@@ -5,7 +5,6 @@ setIcon(<compactmachines3:machine>)
 setDescription("Obtain Grass Block to gain a larger Compact Machine")
 
 addParent("compactmachines:test/root")
-setRequiresParents()
 
 visibleIf("compact_machines")
 alwaysHidden()

@@ -19,5 +19,6 @@ criteria = addCriteria("impossible", "minecraft:impossible")
 //Rewards
 setRewardItem(<compactmachines3:psd, enchant:cofhcore:soulbound:127>)
 
+pageRequiresRoot()
 
 setPos(-16,52)

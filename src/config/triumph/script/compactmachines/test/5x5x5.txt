@@ -5,7 +5,6 @@ setIcon(<compactmachines3:machine:1>)
 setDescription("Obtain a Melter or a Porcelain Melter to gain a larger Compact Machine")
 
 addParent("compactmachines:test/3x3x3")
-setRequiresParents()
 
 visibleIf("compact_machines")
 alwaysHidden()

@@ -2,7 +2,7 @@ setTitle("Back to the Future")
 
 setIcon(<bibliocraft:clock>)
 
-setDescription("Craft a Parabox to begin collecting prestige points. When activated the timer will begin counting down from 20 minutes")
+setDescription("Craft a Parabox to begin collecting prestige points. When activated the timer will begin counting down from 10 minutes")
 
 addParent("prestige:prestige/root")
 addParent("prestige:prestige/test")

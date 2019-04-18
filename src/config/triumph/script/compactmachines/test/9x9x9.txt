@@ -6,7 +6,6 @@ setDescription("Obtain a block of End Stone to gain a larger Compact Machine")
 
 addParent("compactmachines:test/7x7x7")
 addParent("compactmachines:test/7x7x72")
-setRequiresParents()
 
 visibleIf("compact_machines")
 alwaysHidden()

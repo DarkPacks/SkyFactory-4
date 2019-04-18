@@ -9,6 +9,7 @@ addParent("sf4:age1/string")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Sleep in a Bed", "minecraft:slept_in_bed")
+criteria = addCriteria("Right Click on Bed", "triumph:right_click_block")
+criteria.setBlock(<minecraft:bed>)
 
 setPos(-259,231)

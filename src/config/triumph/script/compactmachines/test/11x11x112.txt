@@ -6,7 +6,6 @@ setDescription("Obtain a Pristine Wither Matter to gain a larger Compact Machine
 
 addParent("compactmachines:test/9x9x9")
 addParent("compactmachines:test/9x9x92")
-setRequiresParents()
 
 visibleIf("compact_machines")
 alwaysHidden()

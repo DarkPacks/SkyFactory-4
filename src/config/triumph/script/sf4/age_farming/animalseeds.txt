@@ -2,7 +2,7 @@ setTitle("Animals Croppings")
 
 setIcon(<animalcrops:seeds, meta:0, count:1, nbt:{entity: "minecraft:villager"}>)
 
-setDescription("Can't find an animal? Craft an animal seed to grow them! Make sure to plant the seeds on Grass blocks")
+setDescription("Can't find an animal? Craft an animal Seed or Lily to grow them! Make sure to plant the seeds on Grass blocks or lilies on water")
 
 addParent("sf4:age_farming/wheatSeeds")
 
@@ -62,9 +62,9 @@ criteria25 = addCriteria("Mini Ghast Seed", "minecraft:inventory_changed")
 criteria25.addItem(<animalcrops:seeds, nbt:{entity: "twilightforest:mini_ghast"}>)
 criteria26 = addCriteria("Wither Skeleton Seed", "minecraft:inventory_changed")
 criteria26.addItem(<animalcrops:seeds, nbt:{entity: "minecraft:wither_skeleton"}>)
-criteria27 = addCriteria("Guardian Seed", "minecraft:inventory_changed")
+criteria27 = addCriteria("Guardian Lily", "minecraft:inventory_changed")
 criteria27.addItem(<animalcrops:lily, nbt:{entity: "minecraft:guardian"}>)
-criteria28 = addCriteria("Squid Seed", "minecraft:inventory_changed")
+criteria28 = addCriteria("Squid Lily", "minecraft:inventory_changed")
 criteria28.addItem(<animalcrops:lily, nbt:{entity: "minecraft:squid"}>)
 
 setRewardExperience(100)
