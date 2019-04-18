@@ -10,8 +10,10 @@ setRequirements("any")
 hideLines()
 
 //Criteria
-criteria = addCriteria("Obtain Alloying Tank", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Porcelain Alloying Tank", "minecraft:inventory_changed")
 criteria.addItem(<tcomplement:porcelain_alloy_tank>)
+criteria1 = addCriteria("Obtain Seared Alloying Tank", "minecraft:inventory_changed")
+criteria1.addItem(<tcomplement:alloy_tank>)
 
 setRewardExperience(8)
 
