@@ -175,7 +175,7 @@ SF4.disableNetherPortal()
 
 SF4 = registerPreset("Chill Out", "images/Cryotheummk2", "Floating Dirt Tree, but instead of void, Gelid Cryotheum")
 SF4.registerDimension(0, "SF4/dirt_tree_gelid_cryotheum")
-SF4.registerDimension(-1, "SF4/nether/water_nether")
+SF4.registerDimension(-1, "SF4/nether/nether_water")
 SF4.addInitialPlayerFunction("triumph:start_standard")
 SF4.disableNetherPortal()
 
@@ -193,7 +193,7 @@ SF4.disableNetherPortal()
 
 SF4 = registerPreset("Seven Seas", "images/Watermk2", "Floating Dirt Tree, but instead of void, Water. Now featuring more squid than SevTech!")
 SF4.registerDimension(0, "SF4/dirt_tree_water_ocean")
-SF4.registerDimension(-1, "SF4/nether/water_nether")
+SF4.registerDimension(-1, "SF4/nether/nether_water")
 SF4.addInitialPlayerFunction("triumph:start_standard")
 SF4.disableNetherPortal()
 
