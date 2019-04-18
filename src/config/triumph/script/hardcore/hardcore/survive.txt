@@ -1,8 +1,8 @@
 setTitle("Through the Looking Glass")
 
-setIcon(<sync:item_shell_constructor>)
+setIcon(<cyclicmagic:soulstone>)
 
-setDescription("For you to be able to make a sudden return to your body, the shell storage must be powered. You can do this to begin with by dropping an item on the pressure plate. DO BE CAREFUL: if the redstone ever goes out once powered, you will lose your body and be right back at square one.")
+setDescription("For you to be able to make a sudden return to your body, the shell storage must be receiving a redstone signal. You can do this to begin with by dropping an item on the pressure plate. DO BE CAREFUL: if the redstone ever goes out once powered, you will lose your body and be right back at square one.")
 
 addParent("hardcore:hardcore/shell_storage")
 setRequiresParents()

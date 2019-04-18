@@ -1,6 +1,6 @@
 setTitle("Shell Script")
 
-setIcon(<sync:item_shell_constructor>)
+setIcon(<statues:blockpigstatue>)
 
 setDescription("Once enough PigWatts have been consumed, your shell will be ready for use. Time to put your body in storage! Walk into the Shell Storage and select your only Shell from the radial menu.")
 
