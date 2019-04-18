@@ -239,11 +239,11 @@
   {
     "identifier": "blackmulch",
     "title": "Black Mulch",
-    "description": "Upgrades Bonsai Growth and Loot Drops Growth Rate: 1000% Drop Chance: 350%",
+    "description": "Upgrades Bonsai Growth and Loot Drops Growth Rate: 500% Drop Chance: 290%",
     "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:6s}",
     "x": 402,
     "y": 85,
-    "cost": 14,
+    "cost": 12,
     "sellPrice": 0,
     "parents": [
       "redmulch"
@@ -301,11 +301,11 @@
   {
     "identifier": "bluemulch",
     "title": "Blue Mulch",
-    "description": "Upgrades Bonsai Growth and Loot Drops Growth Rate: 250% Drop Chance: 200%",
+    "description": "Upgrades Bonsai Growth and Loot Drops Growth Rate: 1000% Drop Chance: 350%",
     "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:7s}",
     "x": 402,
     "y": 129,
-    "cost": 8,
+    "cost": 14,
     "sellPrice": 0,
     "parents": [
       "blackmulch"
@@ -363,11 +363,11 @@
   {
     "identifier": "rubymulch",
     "title": "Ruby Mulch",
-    "description": "Upgrades Bonsai Growth and Loot Drops Growth Rate: 500% Drop Chance: 290%",
+    "description": "Upgrades Bonsai Growth and Loot Drops Growth Rate: 250% Drop Chance: 200%",
     "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:4s}",
     "x": 358,
     "y": 129,
-    "cost": 12,
+    "cost": 8,
     "sellPrice": 0,
     "parents": [
       "ambermulch"
