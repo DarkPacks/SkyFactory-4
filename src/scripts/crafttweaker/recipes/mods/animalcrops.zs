@@ -14,51 +14,51 @@ import mods.zenstages.Utils;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<animalcrops:seeds>.withTag({entity: "minecraft:chicken"}): [
 		[
-			[null, <minecraft:dye:15>, null],
-			[null, <minecraft:wheat_seeds>, null],
-			[null, <sky_orchards:acorn_cottonwood>, null]
+			[<minecraft:dye:15>],
+			[<minecraft:wheat_seeds>],
+			[<sky_orchards:acorn_cottonwood>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:pig"}): [
 		[
-			[null, <sky_orchards:acorn_dirt>, null],
-			[null, <minecraft:wheat_seeds>, null],
-			[null, <minecraft:carrot>, null]
+			[<sky_orchards:acorn_dirt>],
+			[<minecraft:wheat_seeds>],
+			[<minecraft:carrot>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:sheep"}): [
 		[
-			[null, <minecraft:wool>, null],
-			[null, <minecraft:wheat_seeds>, null],
-			[null, <minecraft:feather>, null]
+			[<minecraft:wool>],
+			[<minecraft:wheat_seeds>],
+			[<minecraft:feather>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:cow"}): [
 		[
-			[null, <minecraft:wheat>, null],
-			[null, <minecraft:wheat_seeds>, null],
-			[null, <minecraft:leather>, null]
+			[<minecraft:wheat>],
+			[<minecraft:wheat_seeds>],
+			[<minecraft:leather>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:mooshroom"}): [
 		[
-			[null, <minecraft:beef>, null],
-			[null, <animalcrops:seeds>.withTag({entity: "minecraft:cow"}), null],
-			[null, <minecraft:red_mushroom>, null]
+			[<minecraft:beef>],
+			[<animalcrops:seeds>.withTag({entity: "minecraft:cow"})],
+			[<minecraft:red_mushroom>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:horse"}): [
 		[
-			[null, <minecraft:apple>, null],
-			[null, <minecraft:wheat_seeds>, null],
-			[null, <minecraft:leather>, null]
+			[<minecraft:apple>],
+			[<minecraft:wheat_seeds>],
+			[<minecraft:leather>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:villager"}): [
 		[
-			[null, <minecraft:wooden_door>, null],
-			[null, <minecraft:wheat_seeds>, null],
-			[null, <minecraft:emerald>, null]
+			[<minecraft:wooden_door>],
+			[<minecraft:wheat_seeds>],
+			[<minecraft:emerald>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:enderman"}): [
@@ -70,200 +70,200 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:donkey"}): [
 		[
-			[null, <minecraft:chest>, null],
-			[null, <animalcrops:seeds>.withTag({entity: "minecraft:horse"}), null],
-			[null, <minecraft:apple>, null]
+			[<minecraft:chest>],
+			[<animalcrops:seeds>.withTag({entity: "minecraft:horse"})],
+			[<minecraft:apple>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:llama"}): [
 		[
-			[null, <minecraft:carpet>, null],
-			[null, <animalcrops:seeds>.withTag({entity: "minecraft:pig"}), null],
-			[null, <minecraft:hay_block>, null]
+			[<minecraft:carpet>],
+			[<animalcrops:seeds>.withTag({entity: "minecraft:pig"})],
+			[<minecraft:hay_block>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:ocelot"}): [
 		[
-			[null, <minecraft:fish>, null],
-			[null, <minecraft:dye:3>, null],
-			[null, <minecraft:string>, null]
+			[<minecraft:fish>],
+			[<minecraft:dye:3>],
+			[<minecraft:string>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:parrot"}): [
 		[
-			[null, <minecraft:cookie>, null],
-			[null, <minecraft:melon_seeds>, null],
-			[null, <minecraft:feather>, null]
+			[<minecraft:cookie>],
+			[<minecraft:melon_seeds>],
+			[<minecraft:feather>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:polar_bear"}): [
 		[
-			[null, <minecraft:snow>, null],
-			[null, <animalcrops:seeds>.withTag({entity: "minecraft:cow"}), null],
-			[null, <minecraft:fish>, null]
+			[<minecraft:snow>],
+			[<animalcrops:seeds>.withTag({entity: "minecraft:cow"})],
+			[<minecraft:fish>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:rabbit"}): [
 		[
-			[null, <minecraft:carrot>, null],
-			[null, <xlfoodmod:lettuce_seeds>, null],
-			[null, <xlfoodmod:lettuce>, null]
+			[<minecraft:carrot>],
+			[<xlfoodmod:lettuce_seeds>],
+			[<xlfoodmod:lettuce>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:wolf"}): [
 		[
-			[null, <xlfoodmod:sausage>, null],
-			[null, <animalcrops:seeds>.withTag({entity: "minecraft:sheep"}), null],
-			[null, <minecraft:bone>, null]
+			[<xlfoodmod:sausage>],
+			[<animalcrops:seeds>.withTag({entity: "minecraft:sheep"})],
+			[<minecraft:bone>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "waddles:adelie_penguin"}): [
 		[
-			[null, <minecraft:ice>, null],
-			[null, <animalcrops:seeds>.withTag({entity: "minecraft:polar_bear"}), null],
-			[null, <minecraft:fish:2>, null]
+			[<minecraft:ice>],
+			[<animalcrops:seeds>.withTag({entity: "minecraft:polar_bear"})],
+			[<minecraft:fish:2>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:blaze"}): [
 		[
-			[null, <tconstruct:firewood>, null],
-			[null, <animalcrops:seeds>.withTag({entity: "minecraft:chicken"}), null],
-			[null, <mekanism:otherdust:3>, null]
+			[<tconstruct:firewood>],
+			[<animalcrops:seeds>.withTag({entity: "minecraft:chicken"})],
+			[<mekanism:otherdust:3>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "twilightforest:mini_ghast"}): [
 		[
-			[null, <minecraft:fire_charge>, null],
-			[null, <tp:mycelium_seeds>, null],
-			[null, <minecraft:quartz>, null]
+			[<minecraft:fire_charge>],
+			[<tp:mycelium_seeds>],
+			[<minecraft:quartz>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:magma_cube"}): [
 		[
-			[null, <minecraft:slime_ball>, null],
-			[null, <tp:mycelium_seeds>, null],
-			[null, <tconstruct:edible:4>, null]
+			[<minecraft:slime_ball>],
+			[<tp:mycelium_seeds>],
+			[<tconstruct:edible:4>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:slime"}): [
 		[
-			[null, <minecraft:slime_ball>, null],
-			[null, <tp:mycelium_seeds>, null],
-			[null, <ore:dyeGreen>, null]
+			[<minecraft:slime_ball>],
+			[<tp:mycelium_seeds>],
+			[<ore:dyeGreen>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:creeper"}): [
 		[
-			[null, <ore:dyeGreen>, null],
-			[null, <minecraft:wheat_seeds>, null],
-			[null, <minecraft:gunpowder>, null]
+			[<ore:dyeGreen>],
+			[<minecraft:wheat_seeds>],
+			[<minecraft:gunpowder>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:zombie"}): [
 		[
-			[null, <minecraft:potato>, null],
-			[null, <minecraft:wheat_seeds>, null],
-			[null, <minecraft:rotten_flesh>, null]
+			[<minecraft:potato>],
+			[<minecraft:wheat_seeds>],
+			[<minecraft:rotten_flesh>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:skeleton"}): [
 		[
-			[null, <minecraft:flint>, null],
-			[null, <minecraft:wheat_seeds>, null],
-			[null, <minecraft:dye:15>, null]
+			[<minecraft:flint>],
+			[<minecraft:wheat_seeds>],
+			[<minecraft:dye:15>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:spider"}): [
 		[
-			[null, <minecraft:string>, null],
-			[null, <minecraft:wheat_seeds>, null],
-			[null, <ore:dyeBlack>, null]
+			[<minecraft:string>],
+			[<minecraft:wheat_seeds>],
+			[<ore:dyeBlack>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:witch"}): [
 		[
-			[null, <minecraft:glass_bottle>, null],
-			[null, <minecraft:wheat_seeds>, null],
-			[null, <minecraft:redstone>, null]
+			[<minecraft:glass_bottle>],
+			[<minecraft:wheat_seeds>],
+			[<minecraft:redstone>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:wither_skeleton"}): [
 		[
-			[null, <minecraft:bone>, null],
-			[null, <animalcrops:seeds>.withTag({entity: "minecraft:skeleton"}), null],
-			[null, <minecraft:coal>, null]
+			[<minecraft:bone>],
+			[<animalcrops:seeds>.withTag({entity: "minecraft:skeleton"})],
+			[<minecraft:coal>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:skeleton_horse"}): [
 		[
-			[null, <minecraft:apple>, null],
-			[null, <animalcrops:seeds>.withTag({entity: "minecraft:skeleton"}), null],
-			[null, <minecraft:bone>, null]
+			[<minecraft:apple>],
+			[<animalcrops:seeds>.withTag({entity: "minecraft:skeleton"})],
+			[<minecraft:bone>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "thermalfoundation:blizz"}): [
 		[
-			[null, <minecraft:snowball>, null],
-			[null, <xlfoodmod:lettuce_seeds>, null],
-			[null, <minecraft:snowball>, null]
+			[<minecraft:snowball>],
+			[<xlfoodmod:lettuce_seeds>],
+			[<minecraft:snowball>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "thermalfoundation:blitz"}): [
 		[
-			[null, <thermalfoundation:material:772>, null],
-			[null, <xlfoodmod:corn_seeds>, null],
-			[null, <minecraft:gunpowder>, null]
+			[<thermalfoundation:material:772>],
+			[<xlfoodmod:corn_seeds>],
+			[<minecraft:gunpowder>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "thermalfoundation:basalz"}): [
 		[
-			[null, <minecraft:stone>, null],
-			[null, <xlfoodmod:pepper_seeds>, null],
-			[null, <minecraft:gravel>, null]
+			[<minecraft:stone>],
+			[<xlfoodmod:pepper_seeds>],
+			[<minecraft:gravel>]
 		]
 	],
 		<animalcrops:seeds>.withTag({entity: "matteroverdrive:ranged_rogue_android"}): [
 		[
-			[null, <minecraft:bow>, null],
-			[null, <inspirations:cactus_seeds>, null],
-			[null, <minecraft:quartz>, null]
+			[<minecraft:bow>],
+			[<inspirations:cactus_seeds>],
+			[<minecraft:quartz>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "matteroverdrive:rogue_android"}): [
 		[
-			[null, <minecraft:iron_sword>, null],
-			[null, <inspirations:cactus_seeds>, null],
-			[null, <minecraft:quartz>, null]
+			[<minecraft:iron_sword>],
+			[<inspirations:cactus_seeds>],
+			[<minecraft:quartz>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:evocation_illager"}): [
 		[
-			[null, <minecraft:rotten_flesh>, null],
-			[null, <minecraft:wheat_seeds>, null],
-			[null, <minecraft:emerald>, null]
+			[<minecraft:rotten_flesh>],
+			[<minecraft:wheat_seeds>],
+			[<minecraft:emerald>]
 		]
 	],
 	<animalcrops:seeds>.withTag({entity: "minecraft:shulker"}): [
 		[
-			[null, <ore:dyePurple>, null],
-			[null, <minecraft:beetroot_seeds>, null],
-			[null, <minecraft:chest>, null]
+			[<ore:dyePurple>],
+			[<minecraft:beetroot_seeds>],
+			[<minecraft:chest>]
 		]
 	],
 
 	//Water Seeds
 	<animalcrops:lily>.withTag({entity: "minecraft:guardian"}): [
 		[
-			[null, <ore:fish>, null],
-			[null, <minecraft:waterlily>, null],
-			[null, <minecraft:dye>, null]
+			[<ore:fish>],
+			[<minecraft:waterlily>],
+			[<minecraft:dye>]
 		]
 	],
 	<animalcrops:lily>.withTag({entity: "minecraft:squid"}): [
 		[
-			[null, <ore:dyeBlack>, null],
-			[null, <minecraft:waterlily>, null],
-			[null, <minecraft:potion>.withTag({Potion: "minecraft:water"}), null]
+			[<ore:dyeBlack>],
+			[<minecraft:waterlily>],
+			[<minecraft:potion>.withTag({Potion: "minecraft:water"})]
 		]
 	],
 };
@@ -272,36 +272,36 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<animalcrops:seeds>.withTag({entity: "twilightforest:death_tome"}): {
 		Utils.genRecipeName(stages.fakeTwilight): [
 			[
-				[null, <minecraft:book>, null],
-				[null, <minecraft:pumpkin_seeds>, null],
-				[null, <minecraft:book>, null]
+				[<minecraft:book>],
+				[<minecraft:pumpkin_seeds>],
+				[<minecraft:book>]
 			]
 		]
 	},
     <animalcrops:seeds>.withTag({entity: "twilightforest:minotaur"}): {
 		Utils.genRecipeName(stages.fakeTwilight): [
 			[
-				[null, <minecraft:brown_mushroom>, null],
-				[null, <minecraft:pumpkin_seeds>, null],
-				[null, <minecraft:red_mushroom>, null]
+				[<minecraft:brown_mushroom>],
+				[<minecraft:pumpkin_seeds>],
+				[<minecraft:red_mushroom>]
 			]
 		]
 	},
     <animalcrops:seeds>.withTag({entity: "twilightforest:helmet_crab"}): {
 		Utils.genRecipeName(stages.fakeTwilight): [
 			[
-				[null, <minecraft:iron_helmet>, null],
-				[null, <minecraft:pumpkin_seeds>, null],
-				[null, <minecraft:fish>, null]
+				[<minecraft:iron_helmet>],
+				[<minecraft:pumpkin_seeds>],
+				[<minecraft:fish>]
 			]
 		],
 	},
     <animalcrops:seeds>.withTag({entity: "twilightforest:yeti"}): {
 		Utils.genRecipeName(stages.fakeTwilight): [
 			[
-				[null, <minecraft:snowball>, null],
-				[null, <minecraft:pumpkin_seeds>, null],
-				[null, <minecraft:wool>, null]
+				[<minecraft:snowball>],
+				[<minecraft:pumpkin_seeds>],
+				[<minecraft:wool>]
 			]
 		]
 	}
