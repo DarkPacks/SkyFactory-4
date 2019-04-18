@@ -60,9 +60,11 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
         [<minecraft:clay_ball>, <minecraft:dye:15>],
         [<ceramics:clay_soft>]
     ],
-	 <ceramics:unfired_clay:4> * 6: [
-        [<ceramics:clay_barrel_unfired:2>],
-        [<ceramics:clay_barrel_unfired:3>]      
+	 <ceramics:unfired_clay:4> * 5: [
+        [<ceramics:clay_barrel_unfired:2>]     
+    ],
+	<ceramics:unfired_clay:4> * 3: [
+        [<ceramics:clay_barrel_unfired:3>]     
     ],
     <tconstruct:slime_dirt:1>: [
         [<minecraft:dirt>, <minecraft:milk_bucket>, <ore:dyeLightBlue>]
