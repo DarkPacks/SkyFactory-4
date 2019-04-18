@@ -1,0 +1,15 @@
+setTitle("Shell Script")
+
+setIcon(<sync:item_shell_constructor>)
+
+setDescription("Once enough PigWatts have been consumed, your shell will be ready for use. Time to put your body in storage! Walk into the Shell Storage and select your only Shell from the radial menu.")
+
+addParent("hardcore:hardcore/shell_constructor")
+setRequiresParents()
+
+criteria = addCriteria("Take Control of your Shell", "minecraft:enter_block")
+criteria.setBlock(<sync:block_multi, meta:0, state:{"type":"constructor"}>)
+
+setRewardExperience(4)
+
+setPos(0,38)

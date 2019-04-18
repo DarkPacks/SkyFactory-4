@@ -2,7 +2,7 @@ setTitle("SkyFactory 4 Hardcore Mode")
 
 setIcon(<minecraft:skull>)
 
-setDescription("Hidden Root Advancement for Hardcore World Type")
+setDescription("So you think you're Hardcore? Here's a few tips to help you survive")
 
 setBackground("minecraft:textures/blocks/soul_sand.png")
 
@@ -22,4 +22,6 @@ criteria2.setGeneratorOptions({"Topography-Preset":"Are You Afraid of the Dark"}
 //Rewards
 setRewardFunction("triumph:forgiving_void_disable")
 
+pageVisibleIf("hardcore:hardcore/root")
+pageAlwaysHidden()
 alwaysHidden()

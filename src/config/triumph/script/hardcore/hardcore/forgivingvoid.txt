@@ -17,5 +17,4 @@ criteria.addItem(<minecraft:elytra>)
 setRewardExperience(4)
 setRewardFunction("triumph:forgiving_void_enable")
 
-hiddenUnless("hardcore:hardcore/root")
 setPos(85,126)

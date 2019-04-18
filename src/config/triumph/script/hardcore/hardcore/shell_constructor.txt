@@ -1,0 +1,16 @@
+setTitle("A Syncing Feeling")
+
+setIcon(<sync:item_shell_constructor>)
+
+setDescription("You're playing hardcore, and so dead means dead. But you can still have an extra shot at life. Create your first shell by right clicking your Shell Constructor, it'll only hurt a little!")
+
+addParent("hardcore:hardcore/root")
+setRequiresParents()
+hideLines()
+
+criteria = addCriteria("Use Constructor", "triumph:right_click_block")
+criteria.setBlock(<sync:block_multi, meta:0, state:{"type":"constructor"}>)
+
+setRewardExperience(4)
+
+setPos(-38,38)
