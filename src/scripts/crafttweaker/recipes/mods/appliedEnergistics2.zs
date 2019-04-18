@@ -74,6 +74,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:redstone>, <appliedenergistics2:material:7>, <minecraft:redstone>],
 			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 		]
+	],
+	<appliedenergistics2:quantum_ring>: [
+		[
+			[<ore:ingotIron>, <appliedenergistics2:material:22>, <ore:ingotIron>],
+			[<appliedenergistics2:material:24>, <appliedenergistics2:energy_cell>.withTag({}), <appliedenergistics2:part:16>],
+			[<ore:ingotIron>, <appliedenergistics2:material:22>, <ore:ingotIron>]
+		]
 	]
 };
 
@@ -110,6 +117,7 @@ static removeRecipes as IItemStack[] = [
 	<appliedenergistics2:material:27>,
 	<appliedenergistics2:energy_cell>,
 	<appliedenergistics2:material:52>,
+	<appliedenergistics2:quantum_ring>,
 	<appliedenergistics2:view_cell>
 ];
 
