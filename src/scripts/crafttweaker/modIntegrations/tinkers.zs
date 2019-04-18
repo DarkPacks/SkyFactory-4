@@ -174,6 +174,7 @@ function init() {
 	// ==================================
 	tinkers.addCastingBasin(<minecraft:netherrack>, <sky_orchards:amber_redstone>, <liquid:lava>, 250, true, 200);
 	tinkers.addCastingBasin(<minecraft:soul_sand>, <minecraft:sand>, <liquid:xpjuice>, 250, true, 200);
+	tinkers.addCastingBasin(<minecraft:soul_sand>, <minecraft:sand>, <liquid:experience>, 250, true, 200);
 	tinkers.addCastingBasin(<minecraft:end_stone>, <minecraft:glowstone>, <liquid:lava>, 1000, true, 200);
 	tinkers.addCastingBasin(<tp:reinforced_obsidian>, null, <liquid:reinforced_obsidian>, 1296, false, 200);
 
