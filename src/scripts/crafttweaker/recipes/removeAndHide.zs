@@ -409,7 +409,9 @@ static removeAndHideIngredients as IIngredient[] = [
 	<tconstruct:ingots:5>,
 	<tconstruct:metal:5>,
 	<industrialforegoing:black_hole_controller>,
-	<guideapi:cyclicmagic-guide>
+	<guideapi:cyclicmagic-guide>,
+	<tcomplement:materials:10>,
+	<tcomplement:materials:20>
 ];
 
 function init() {
