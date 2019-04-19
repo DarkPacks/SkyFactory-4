@@ -2,7 +2,7 @@ setTitle("13x13x13")
 
 setIcon(<compactmachines3:machine:5>)
 
-setDescription("Obtain Elytra to gain a larger Compact Machine")
+setDescription("Obtain a Dragon's Head to gain a larger Compact Machine")
 
 addParent("compactmachines:test/11x11x11")
 addParent("compactmachines:test/11x11x112")
@@ -13,8 +13,8 @@ alwaysHidden()
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Elytra", "minecraft:inventory_changed")
-criteria.addItem(<minecraft:elytra>)
+criteria = addCriteria("Obtain a Dragon's Head", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:skull:5>)
 
 //Rewards
 setRewardExperience(4)

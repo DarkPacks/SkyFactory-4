@@ -2,7 +2,7 @@ setTitle("13x13x13")
 
 setIcon(<compactmachines3:machine:5>)
 
-setDescription("Obtain Chorus Fruit to gain a larger Compact Machine")
+setDescription("Obtain a bottle of Dragon's Breath to gain a larger Compact Machine")
 
 addParent("compactmachines:test/11x11x11")
 addParent("compactmachines:test/11x11x112")
@@ -13,8 +13,8 @@ alwaysHidden()
 drawDirectLines(true)
 
 //Criteria
-criteria = addCriteria("Obtain Chorus Fruit", "minecraft:inventory_changed")
-criteria.addItem(<minecraft:chorus_fruit>)
+criteria = addCriteria("Obtain some Dragon's Breath", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:dragon_breath>)
 
 //Rewards
 setRewardExperience(4)
