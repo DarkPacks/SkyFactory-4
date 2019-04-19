@@ -7,7 +7,7 @@ Please report bugs to the issue tracker!!
 Bug Fixes:
 * Hide Certus Quartz
 * Fix dirty dust processing recipes giving wrong dust output
-* Fix Steel block -> Ingot -> Nugger crafting recipes giving wrong output
+* Fix Steel block -> Ingot -> Nugget crafting recipes giving wrong output
 * Fix Metallurgic Infuser steel recipe giving wrong steel dust output
 * Fix Cyclic Auto Crafter not crafting staged items/recipes
 * Removed guide book from Cyclic to avoid confusion
