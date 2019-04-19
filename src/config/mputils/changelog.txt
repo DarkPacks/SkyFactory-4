@@ -39,7 +39,7 @@ Bug Fixes:
 Enhancements:
 * Allow for Animal Crop seeds to be craftable in any column
 * Put SkyFactory Tutorial towards the top of the page
-* Changed 9x9x9 Compact Machine advancement to require Chrous Fruit instead of Resonant Clathrate in Compact Machines world preset
+* Changed 9x9x9 Compact Machine advancement to require Chorus Fruit instead of Resonant Clathrate in Compact Machines world preset
 * Changed 13x13x13 Compact Machine advancements to require a Dragon's Head and a bottle of Dragon's Breath instead of Chorus Fruit and elytra
 * Allow for Compact Machine worlds' advancements to be completed in any order
 * Create Chorus recipe using apples and purple slime in a cauldron
