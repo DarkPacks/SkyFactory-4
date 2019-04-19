@@ -7,6 +7,7 @@
 // This should be changed on release.
 global isDevelopment as bool = false;
 
-
-//Turn this on to see container stuffs
-mods.recipestages.Recipes.setPrintContainers(false);
+// Enable container output to console
+if (isDevelopment) {
+	mods.recipestages.Recipes.setPrintContainers(true);
+}
