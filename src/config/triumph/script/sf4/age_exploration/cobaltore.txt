@@ -2,7 +2,7 @@ setTitle("I Can't Believe It's Not Lapis")
 
 setIcon(<tconstruct:ore>)
 
-setDescription("Travel to the Nether and mine Cobalt Ore")
+setDescription("Travel to the Nether and mine Cobalt Ore. Or, use the Industrial Foregoing Laser Drill to acquire it")
 
 addParent("sf4:age_exploration/root")
 
