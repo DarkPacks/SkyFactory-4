@@ -103,6 +103,10 @@ function init() {
 	// ==================================
 	mekanism.addInfusion("DIAMOND", 160, <sky_orchards:amber_silver>, <thermalfoundation:material:70>);
 	mekanism.addInfusion("REDSTONE", 10, <integrateddynamics:crystalized_menril_chunk>, <appliedenergistics2:material:7>);
+
+	// Steel fix
+	mekanism.removeInfusion(<mekanism:enrichediron>);
+	mekanism.addInfusion("CARBON", 10, resources.iron.parts.ingot, resources.steel.parts.dust);
 }
 
 recipes.removeByRecipeName("mekanism:paper");
