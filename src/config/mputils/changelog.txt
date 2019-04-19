@@ -43,6 +43,7 @@ Enhancements:
 * Improve descriptoins of hardcore advancements
 * Add additional hardcore advancements to clarify the use of Sync
 * Rename "Nap Time" criteria name
+* Added tip to encourage players to become spider man
 
 
 Mod Additions:
