@@ -32,6 +32,7 @@ Bug Fixes:
 * Disable Game Stages debug log output - no longer print message when saving player state.
 * Blacklist slab machines and compound slab machines from carryon
 * No longer require unobtainable Aluminum to get Everyday I'm Trufflin
+* Age of Exploration Completionist advancement can now be completed on Lost Cities when Prestige is disabled
 
 
 Enhancements:
