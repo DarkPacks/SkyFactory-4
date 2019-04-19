@@ -245,7 +245,7 @@ static removeAndHideIngredients as IIngredient[] = [
 	<appliedenergistics2:material:2>,
 	<appliedenergistics2:material:3>,
 	<appliedenergistics2:material:45>,
-	
+
 	//Removing deprecated Extra Cells Fluid items
 	<extracells:storage.component:4>,
 	<extracells:storage.fluid>,
@@ -268,7 +268,7 @@ static removeAndHideIngredients as IIngredient[] = [
 	//Why doesn't my drying rack work? Because you're not using the drying rack. You're using the display rack
 	<tconstruct:rack>,
 
-	//Hiding extras 
+	//Hiding extras
 	//These are extra items that either have a duplicate in another mod
 	//or have no use
 	<bibliocraft:bookcase>,
