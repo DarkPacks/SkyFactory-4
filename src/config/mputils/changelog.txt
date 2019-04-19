@@ -33,6 +33,7 @@ Bug Fixes:
 * Blacklist slab machines and compound slab machines from carryon
 * No longer require unobtainable Aluminum to get Everyday I'm Trufflin
 * Age of Exploration Completionist advancement can now be completed on Lost Cities when Prestige is disabled
+* Fix hiding of the Ardite and Cobalt advancements in worlds where they cannot be obtained
 
 
 Enhancements:
