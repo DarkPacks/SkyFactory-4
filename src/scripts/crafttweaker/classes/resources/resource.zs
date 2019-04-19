@@ -180,12 +180,12 @@ zenClass Resource {
 	}
 
 	function handleDirtyDust() {
-		if (!hasPart("dirtyDust")) {
+		if (!hasPart("dustDirty")) {
 			return null;
 		}
 
 		if (hasPart("dust")) {
-			mekanism.addEnrichment(this.parts.dirtyDust, this.parts.dust);
+			mekanism.addEnrichment(this.parts.dustDirty, this.parts.dust);
 		}
 	}
 
@@ -338,8 +338,8 @@ zenClass Resource {
 			return null;
 		}
 
-		if (hasPart("dirtyDust")) {
-			mekanism.addCrusher(this.parts.clump, this.parts.dirtyDust);
+		if (hasPart("dustDirty")) {
+			mekanism.addCrusher(this.parts.clump, this.parts.dustDirty);
 		}
 	}
 
