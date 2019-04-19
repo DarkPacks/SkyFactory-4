@@ -20,5 +20,5 @@ function init() {
 	ZenStager.addPackage("mcjty.rftools.blocks.crafter", ALL_STAGES);
 
 	// Cyclic Auto Crafter
-	ZenStager.addPackage("com.lothrazar.cyclicmagic.component.crafter.TileEntityCrafter", ALL_STAGES);
+	ZenStager.addPackage("com.lothrazar.cyclicmagic", ALL_STAGES);
 }

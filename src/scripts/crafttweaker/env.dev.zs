@@ -5,4 +5,8 @@
 */
 
 // This should be changed on release.
-global isDevelopment as bool = true;
+global isDevelopment as bool = false;
+
+
+//Turn this on to see container stuffs
+mods.recipestages.Recipes.setPrintContainers(false);
