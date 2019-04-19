@@ -84,7 +84,8 @@ static hiddenIngredients as IItemStack[] = [
 	<bibliocraft:typewriter:14>,
 	<bibliocraft:typewriter:15>,
 	<appliedenergistics2:material:0>,
-	<appliedenergistics2:material:1>
+	<appliedenergistics2:material:1>,
+	<appliedenergistics2:material:10>
 ];
 
 function init() {
