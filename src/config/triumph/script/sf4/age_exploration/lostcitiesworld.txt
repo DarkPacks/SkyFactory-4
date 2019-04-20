@@ -8,13 +8,12 @@ addParent("sf4:age_exploration/root")
 
 drawDirectLines(true)
 
+setShowToast(false)
+
+setAnnounceToChat(false)
+
 criteria = addCriteria("Entered Lost Cities Dimension", "minecraft:changed_dimension")
 criteria.setDimensionDestination("lostcities")
-
-setRewardExperience(16)
-
-//Giving players overworld cakes because I know for sure they won't read and bring one themselves
-setRewardFunction("triumph:give_cake")
 
 hiddenUnless("lost_cities")
 
