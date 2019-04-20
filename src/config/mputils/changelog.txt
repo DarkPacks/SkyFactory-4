@@ -59,6 +59,7 @@ Mod Updates:
 * ComPatchedStorage (1.3.0 -> 1.4.0)
 * Cyclic (1.19.3 -> 1.19.4)
 * Mekanism (9.6.8.366 -> 9.6.9.367)
+* Mekanism Generators (9.6.8.366 -> 9.6.9.367)
 * Mystcraft (0.13.7.02 -> 0.13.7.03)
 * Pickle Tweaks (2.1.2 -> 2.1.3)
 * Prestige (1.1.44 -> 1.1.51)
