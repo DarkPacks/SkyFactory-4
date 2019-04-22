@@ -1,8 +1,8 @@
-setTitle("Nap Time")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.sleep.title")
 
 setIcon(<minecraft:bed>)
 
-setDescription("Sleep in a bed")
+setTranslatedDescription("advancement.tutorial.tutorial.copied.sleep.description")
 
 addParent("tutorial:tutorial/copied/string")
 

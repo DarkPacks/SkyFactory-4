@@ -1,8 +1,8 @@
-setTitle("Get Informed!")
+setTranslatedTitle("advancement.sf4.age_power.informationscreen.title")
 
 setIcon(<rftoolspower:information_screen>)
 
-setDescription("Craft a RF Tools Power Information Screen. You may place this screen on most any block that interacts with power")
+setTranslatedDescription("advancement.sf4.age_power.informationscreen.description")
 
 addParent("sf4:age_power/root")
 

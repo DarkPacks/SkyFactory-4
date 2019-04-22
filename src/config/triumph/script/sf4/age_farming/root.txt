@@ -1,8 +1,8 @@
-setTitle("Age of Farming")
+setTranslatedTitle("advancement.sf4.age_farming.root.title")
 
 setIcon(<minecraft:iron_hoe>)
 
-setDescription("All things related to farming!")
+setTranslatedDescription("advancement.sf4.age_farming.root.description")
 
 setBackground("test:textures/colors/green.png")
 

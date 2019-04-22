@@ -1,8 +1,8 @@
-setTitle("I'm A Computah!")
+setTranslatedTitle("advancement.sf4.age_power.ultimateinstaller.title")
 
 setIcon(<mekanism:tierinstaller:3>)
 
-setDescription("Craft an Ultimate Installer from Mekanism. This can be used to upgrade Energy Cubes and a few other machines")
+setTranslatedDescription("advancement.sf4.age_power.ultimateinstaller.description")
 
 addParent("sf4:age_power/root")
 

@@ -1,8 +1,8 @@
-setTitle("Oak Wood")
+setTranslatedTitle("advancement.tutorial.tutorial.oakwood.title")
 
 setIcon(<minecraft:log>)
 
-setDescription("You're standing on a tree in the void! Break the leaves below and collect 2 Oak Wood blocks")
+setTranslatedDescription("advancement.tutorial.tutorial.oakwood.description")
 
 addParent("tutorial:tutorial/root")
 

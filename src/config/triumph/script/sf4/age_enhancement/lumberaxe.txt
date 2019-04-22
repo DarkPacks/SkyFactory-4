@@ -1,8 +1,8 @@
-setTitle("Axe Me Anything")
+setTranslatedTitle("advancement.sf4.age_enhancement.lumberaxe.title")
 
 setIcon(<tconstruct:lumberaxe>)
 
-setDescription("Craft a Lumber Axe in the Tool Forge to cut down entire trees")
+setTranslatedDescription("advancement.sf4.age_enhancement.lumberaxe.description")
 
 addParent("sf4:age_enhancement/toolForge")
 

@@ -1,10 +1,10 @@
-setTitle("Going On Your Permanent Record")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.filecabinet.title")
 
 setIcon(<realfilingcabinet:emptyfolder>)
 
 //setDescription("Fill any Real File Cabinet with a folder that contains at least 1 million items of any type then Right-Click it")
 
-setDescription({"translate":"Fill any Real File Cabinet with a folder that contains at least 1 million items of any type then '%1$s' it","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"advancement.sf4.age_allthethingsomglol.filecabinet.description","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:age_allthethingsomglol/root")
 

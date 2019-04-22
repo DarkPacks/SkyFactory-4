@@ -1,8 +1,8 @@
-setTitle("One Shiny Boi")
+setTranslatedTitle("advancement.sf4.age1.amber.gold.title")
 
 setIcon(<sky_orchards:amber_gold>)
 
-setDescription("Obtain gold by crafting Gold Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Gold and pour it into a Casting Basin or Cast")
+setTranslatedDescription("advancement.sf4.age1.amber.gold.description")
 
 addParent("sf4:age1/sapling/lead")
 

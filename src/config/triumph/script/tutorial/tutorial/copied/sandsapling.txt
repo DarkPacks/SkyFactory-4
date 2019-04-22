@@ -1,8 +1,8 @@
-setTitle("Palm Trees")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.sandsapling.title")
 
 setIcon(<sky_orchards:sapling_sand>)
 
-setDescription("Craft a Sand Sapling")
+setTranslatedDescription("advancement.tutorial.tutorial.copied.sandsapling.description")
 
 addParent("tutorial:tutorial/copied/petrifiedSapling")
 

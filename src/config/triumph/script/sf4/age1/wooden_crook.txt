@@ -1,8 +1,8 @@
-setTitle("Captain Hook")
+setTranslatedTitle("advancement.sf4.age1.wooden_crook.title")
 
 setIcon(<inspirations:wooden_crook>)
 
-setDescription("Craft and use a Wooden Crook on Leaves to increase sapling drops")
+setTranslatedDescription("Craft and use a Wooden Crook on Leaves to increase sapling drops")
 
 addParent("sf4:age1/root")
 

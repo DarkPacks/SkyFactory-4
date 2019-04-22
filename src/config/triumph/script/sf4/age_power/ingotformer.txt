@@ -1,8 +1,8 @@
-setTitle("Getting into Shape")
+setTranslatedTitle("advancement.sf4.age_power.ingotformer.title")
 
 setIcon(<nuclearcraft:ingot_former_idle>)
 
-setDescription("Craft a Nuclearcraft Ingot Former which will cast ingots and other resources from molten liquids")
+setTranslatedDescription("advancement.sf4.age_power.ingotformer.description")
 
 addParent("sf4:age_power/root")
 

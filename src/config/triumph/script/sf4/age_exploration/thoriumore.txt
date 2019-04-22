@@ -1,8 +1,8 @@
-setTitle("Thorium's Hammer")
+setTranslatedTitle("advancement.sf4.age_exploration.thoriumore.title")
 
 setIcon(<nuclearcraft:ore:3>)
 
-setDescription("Travel to the Lost Cities or Twilight Forest to locate Thorium Ore")
+setTranslatedDescription("advancement.sf4.age_exploration.thoriumore.description")
 
 addParent("sf4:age_exploration/root")
 

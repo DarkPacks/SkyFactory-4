@@ -1,8 +1,8 @@
-setTitle("Live Long and Processor")
+setTranslatedTitle("advancement.sf4.age_storage.logicprocessor.title")
 
 setIcon(<appliedenergistics2:material:22>)
 
-setDescription("Obtain Logic Processor")
+setTranslatedDescription("advancement.sf4.age_storage.logicprocessor.description")
 
 addParent("sf4:age_storage/siliconPress")
 addParent("sf4:age_storage/logicPress")

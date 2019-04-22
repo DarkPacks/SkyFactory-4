@@ -1,8 +1,8 @@
-setTitle("You Cotton Something?")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.string.title")
 
 setIcon(<minecraft:string>)
 
-setDescription("String has a chance to drop from Cottonwood Leaves. Or, use the Drying Rack to dry out Cottonwood Leaves to make String. Obtain a Cottonwood Sapling and piece of String")
+setTranslatedDescription("advancement.tutorial.tutorial.copied.string.description")
 
 addParent("tutorial:tutorial/dryingRack")
 

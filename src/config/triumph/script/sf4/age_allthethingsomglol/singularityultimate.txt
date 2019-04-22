@@ -1,8 +1,8 @@
-setTitle("Ender Game")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.singularityultimate.title")
 
 setIcon(<extendedcrafting:singularity_ultimate>)
 
-setDescription("Obtain an Ultimate Singularity")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.singularityultimate.description")
 
 addParent("sf4:age_allthethingsomglol/singularityBacon")
 addParent("sf4:age_allthethingsomglol/singularityDonut")

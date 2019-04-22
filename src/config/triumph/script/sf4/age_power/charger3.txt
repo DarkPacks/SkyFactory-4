@@ -1,8 +1,8 @@
-setTitle("No Chargebacks")
+setTranslatedTitle("advancement.sf4.age_power.charger3.title")
 
 setIcon(<chargers:charger:2>)
 
-setDescription("Craft a Tier 3 Charger for even faster charging and higher capacity")
+setTranslatedDescription("advancement.sf4.age_power.charger3.description")
 
 addParent("sf4:age_power/charger2")
 

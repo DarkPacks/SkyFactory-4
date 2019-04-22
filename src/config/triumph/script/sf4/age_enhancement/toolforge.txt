@@ -1,8 +1,8 @@
-setTitle("Forging Ahead")
+setTranslatedTitle("advancement.sf4.age_enhancement.toolforge.title")
 
 setIcon(<tconstruct:toolforge>)
 
-setDescription("Craft a Tinkers' Construct Tool Forge")
+setTranslatedDescription("advancement.sf4.age_enhancement.toolforge.description")
 
 addParent("sf4:age_enhancement/toolStation")
 

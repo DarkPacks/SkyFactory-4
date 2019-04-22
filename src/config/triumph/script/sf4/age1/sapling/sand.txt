@@ -1,8 +1,8 @@
-setTitle("Palm Trees")
+setTranslatedTitle("advancement.sf4.age1.sapling.sand.title")
 
 setIcon(<sky_orchards:sapling_sand>)
 
-setDescription("Craft a Sand Sapling")
+setTranslatedDescription("advancement.sf4.age1.sapling.sand.description")
 
 addParent("sf4:age1/sapling/gravel")
 

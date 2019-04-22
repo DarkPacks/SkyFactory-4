@@ -1,8 +1,8 @@
-setTitle("13x13x13")
+setTranslatedTitle("advancement.compactmachines.test.13x13x13.title")
 
 setIcon(<compactmachines3:machine:5>)
 
-setDescription("Obtain a Dragon's Head to gain a larger Compact Machine")
+setTranslatedDescription("advancement.compactmachines.test.13x13x13.description")
 
 addParent("compactmachines:test/11x11x11")
 addParent("compactmachines:test/11x11x112")

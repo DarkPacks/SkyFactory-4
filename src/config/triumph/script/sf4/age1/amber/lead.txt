@@ -1,8 +1,8 @@
-setTitle("Lead it Go")
+setTranslatedTitle("advancement.sf4.age1.amber.lead.title")
 
 setIcon(<sky_orchards:amber_lead>)
 
-setDescription("Obtain lead by crafting Lead Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Lead and pour it into a Casting Basin or Cast")
+setTranslatedDescription("advancement.sf4.age1.amber.lead.description")
 
 addParent("sf4:age1/sapling/iron")
 addParent("sf4:age1/sapling/lapis")

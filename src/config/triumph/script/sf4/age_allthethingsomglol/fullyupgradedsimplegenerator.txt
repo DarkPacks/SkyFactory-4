@@ -1,10 +1,10 @@
-setTitle("MAXIMUM OVERDRIVE")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.fullyupgradedsimplegenerator.title")
 
 setIcon(<simplegenerators:culinary_upgradable>)
 
 //setDescription("Fill any Upgradeable Simple Generators with 4 stacks of Speed Modifiers")
 
-setDescription({"translate":"Fill any Upgradeable Simple Generator with 4 stacks of Speed Modifiers then '%1$s' it","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"advancement.sf4.age_allthethingsomglol.fullyupgradedsimplegenerator.description","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:age_allthethingsomglol/root")
 

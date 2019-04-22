@@ -1,8 +1,8 @@
-setTitle("Silver Surfer")
+setTranslatedTitle("advancement.sf4.age1.amber.silver.title")
 
 setIcon(<sky_orchards:amber_silver>)
 
-setDescription("Obtain silver by crafting Silver Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Silver and pour it into a Casting Basin or Cast")
+setTranslatedDescription("advancement.sf4.age1.amber.silver.description")
 
 addParent("sf4:age1/sapling/lead")
 

@@ -1,8 +1,8 @@
-setTitle("5x5x5")
+setTranslatedTitle("advancement.compactmachines.test.5x5x52.title")
 
 setIcon(<compactmachines3:machine:1>)
 
-setDescription("Craft any Simple Generator to gain a larger Compact Machine")
+setTranslatedDescription("advancement.compactmachines.test.5x5x52.description")
 
 addParent("compactmachines:test/3x3x3")
 

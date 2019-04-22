@@ -1,8 +1,8 @@
-setTitle("Drumtendo 64")
+setTranslatedTitle("advancement.sf4.age_storage.bdsandmupgrade1.title")
 
 setIcon(<bdsandm:upgrade>)
 
-setDescription("Craft a 'Barrels, Drums, Storage, and More' x64 Upgrade")
+setTranslatedDescription("advancement.sf4.age_storage.bdsandmupgrade1.description")
 
 addParent("sf4:age_storage/root")
 

@@ -1,8 +1,8 @@
-setTitle("Swab the Deck")
+setTranslatedTitle("advancement.sf4.age_farming.mobswab.title")
 
 setIcon(<mob_grinding_utils:mob_swab:1>)
 
-setDescription("Use on any mob to swab their DNA")
+setTranslatedDescription("advancement.sf4.age_farming.mobswab.description")
 
 addParent("sf4:age_farming/root")
 

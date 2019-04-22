@@ -1,8 +1,8 @@
-setTitle("Max Power")
+setTranslatedTitle("advancement.sf4.age_power.powercelllow.title")
 
 setIcon(<rftoolspower:cell1>)
 
-setDescription("Craft an RF Tools Low Powercell. Powercell blocks can be placed next to each other to create a larger cell")
+setTranslatedDescription("advancement.sf4.age_power.powercelllow.description")
 
 addParent("sf4:age_power/root")
 

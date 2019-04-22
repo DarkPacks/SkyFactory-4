@@ -1,8 +1,8 @@
-setTitle("Hog Tied")
+setTranslatedTitle("advancement.sf4.age1.resourcehogs.title")
 
 setIcon(<resourcehogs:mud_bucket, meta:0, count:1, nbt:{ResourceType:"cobblestone"}>)
 
-setDescription("Craft a Cobblestone Mud Bucket which you can feed to a Pig to transform it into a Resource Hog. Only similar type Resource Hogs can be bred together (There is a chance you will breed a vanilla Pig)")
+setTranslatedDescription("advancement.sf4.age1.resourcehogs.description")
 
 addParent("sf4:age1/root")
 

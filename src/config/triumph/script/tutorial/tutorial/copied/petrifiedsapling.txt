@@ -1,8 +1,8 @@
-setTitle("Hardwood")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.petrifiedsapling.title")
 
 setIcon(<sky_orchards:sapling_petrified>)
 
-setDescription("Craft a Petrified Sapling")
+setTranslatedDescription("advancement.tutorial.tutorial.copied.petrifiedsapling.description")
 
 addParent("tutorial:tutorial/petrifiedAcorn")
 

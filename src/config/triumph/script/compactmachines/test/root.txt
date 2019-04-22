@@ -1,8 +1,8 @@
-setTitle("Compact Machines World")
+setTranslatedTitle("advancement.compactmachines.test.root.title")
 
 setIcon(<compactmachines3:psd>)
 
-setDescription("Advancements for the Compact Machines World Type")
+setTranslatedDescription("advancement.compactmachines.test.root.description")
 
 setBackground("compactmachines3:textures/blocks/wall.png")
 

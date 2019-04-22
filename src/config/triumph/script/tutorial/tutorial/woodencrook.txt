@@ -1,8 +1,8 @@
-setTitle("Wooden Crook")
+setTranslatedTitle("advancement.tutorial.tutorial.woodencrook.title")
 
 setIcon(<inspirations:wooden_crook>)
 
-setDescription("To build your base you will need to grow more Dirt Trees. Craft a Wooden Crook in your Crafting Station and use it to break leaves. It increases your Sapling drop chance")
+setTranslatedDescription("advancement.tutorial.tutorial.woodencrook.description")
 
 addParent("tutorial:tutorial/craftingStation")
 

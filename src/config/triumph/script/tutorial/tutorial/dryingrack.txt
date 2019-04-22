@@ -1,8 +1,8 @@
-setTitle("Drying Rack")
+setTranslatedTitle("advancement.tutorial.tutorial.dryingrack.title")
 
 setIcon(<tconstruct:rack:1>)
 
-setDescription("Craft the Drying Rack and place it on a wall. You can hang an assortment of items on it like raw food")
+setTranslatedDescription("advancement.tutorial.tutorial.dryingrack.description")
 
 addParent("tutorial:tutorial/placeDirtSapling")
 

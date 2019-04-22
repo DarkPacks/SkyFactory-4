@@ -1,8 +1,8 @@
-setTitle("You Win!")
+setTranslatedTitle("advancement.sf4.age_storage.complete.title")
 
 setIcon(<minecraft:cooked_chicken>)
 
-setDescription("Complete all the advancements on the page. This will award you with 1 prestige point")
+setTranslatedDescription("advancement.sf4.age_storage.complete.description")
 
 addParent("sf4:age_storage/root")
 addParent("sf4:age_storage/1kstoragecell")

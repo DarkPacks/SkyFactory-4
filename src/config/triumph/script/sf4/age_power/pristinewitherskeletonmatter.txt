@@ -1,8 +1,8 @@
-setTitle("Withered Away")
+setTranslatedTitle("advancement.sf4.age_power.pristinewitherskeletonmatter.title")
 
 setIcon(<deepmoblearning:pristine_matter_wither_skeleton>)
 
-setDescription("Acquire a Pristine Wither Skeleton Matter from Deep Mob Learning. You will first need to increase your Data Model to Basic and use the Simulation Chamber to produce Pristine Matter. The higher Models will produce Pristine Matter more often")
+setTranslatedDescription("advancement.sf4.age_power.pristinewitherskeletonmatter.description")
 
 addParent("sf4:age_power/pristineZombieMatter")
 

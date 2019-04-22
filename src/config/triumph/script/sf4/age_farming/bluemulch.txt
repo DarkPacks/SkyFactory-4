@@ -1,8 +1,8 @@
-setTitle("I'm Blue Da Ba Dee")
+setTranslatedTitle("advancement.sf4.age_farming.bluemulch.title")
 
 setIcon(<inspirations:mulch:7>)
 
-setDescription("Blue Mulch in a Bonsai Pot will decrease growth time and increase drop chances")
+setTranslatedDescription("advancement.sf4.age_farming.bluemulch.description")
 
 addParent("sf4:age_farming/blackMulch")
 

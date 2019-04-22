@@ -1,8 +1,8 @@
-setTitle("I've Been Slimed")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.greenslimydirt.title")
 
 setIcon(<tconstruct:slime_dirt:0>)
 
-setDescription("Planting Slime Saplings in the world or in a Bonsai Pot requires Slimy Dirt. Craft Green Slimy Dirt to get started!")
+setTranslatedDescription("advancement.tutorial.tutorial.copied.greenslimydirt.description")
 
 addParent("tutorial:tutorial/copied/claySapling")
 

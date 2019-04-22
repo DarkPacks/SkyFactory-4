@@ -1,8 +1,8 @@
-setTitle("Control Yourself")
+setTranslatedTitle("advancement.sf4.age_storage.simplestoragecontroller.title")
 
 setIcon(<storagenetwork:controller>)
 
-setDescription("Craft a Simple Storage Network Processing Controller Block")
+setTranslatedDescription("advancement.sf4.age_storage.simplestoragecontroller.description")
 
 addParent("sf4:age_storage/simpleStorageRequest")
 

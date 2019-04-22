@@ -1,10 +1,10 @@
-setTitle("Who Stole the Cookies from the Cookie Jar?")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.cookie.title")
 
 setIcon(<bibliocraft:cookiejar>)
 
 //setDescription("Fill a Cookie Jar with Cookies and Right-Click it!")
 
-setDescription({"translate":"Fill a Cookie Jar with Cookies and '%1$s' it!","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"advancement.sf4.age_allthethingsomglol.cookie.description","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:age_allthethingsomglol/root")
 

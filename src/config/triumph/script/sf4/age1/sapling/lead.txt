@@ -1,8 +1,8 @@
-setTitle("Lead Zeppelin")
+setTranslatedTitle("advancement.sf4.age1.sapling.lead.title")
 
 setIcon(<sky_orchards:sapling_lead>)
 
-setDescription("Pour Molten Lead over a Dark Oak Sapling to make a Lead Sapling")
+setTranslatedDescription("advancement.sf4.age1.sapling.lead.description")
 
 addParent("sf4:age1/amber/lead")
 

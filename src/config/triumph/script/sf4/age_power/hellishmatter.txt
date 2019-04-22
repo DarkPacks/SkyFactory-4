@@ -1,8 +1,8 @@
-setTitle("What the Heck?!")
+setTranslatedTitle("advancement.sf4.age_power.hellishmatter.title")
 
 setIcon(<deepmoblearning:living_matter_hellish>)
 
-setDescription("Acquire a Hellish Matter from Deep Mob Learning")
+setTranslatedDescription("advancement.sf4.age_power.hellishmatter.description")
 
 addParent("sf4:age_power/root")
 

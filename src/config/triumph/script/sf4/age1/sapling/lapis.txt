@@ -1,8 +1,8 @@
-setTitle("Blue Man Group")
+setTranslatedTitle("advancement.sf4.age1.sapling.lapis.title")
 
 setIcon(<sky_orchards:sapling_lapis>)
 
-setDescription("Craft a Lapis Sapling")
+setTranslatedDescription("advancement.sf4.age1.sapling.lapis.description")
 
 addParent("sf4:age1/sapling/coal")
 

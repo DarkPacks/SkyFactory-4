@@ -1,8 +1,8 @@
-setTitle("An Enchanting Evening")
+setTranslatedTitle("advancement.sf4.age_enhancement.enchantmenttable.title")
 
 setIcon(<minecraft:enchanting_table>)
 
-setDescription("Craft an Enchantment Table")
+setTranslatedDescription("advancement.sf4.age_enhancement.enchantmenttable.description")
 
 addParent("sf4:age_enhancement/root")
 

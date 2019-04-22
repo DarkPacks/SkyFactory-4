@@ -1,8 +1,8 @@
-setTitle("Overworked and Underpaid")
+setTranslatedTitle("advancement.sf4.age_enhancement.nuclearcraftspeedupgrade.title")
 
 setIcon(<nuclearcraft:upgrade>)
 
-setDescription("Craft a Nuclearcraft Speed Upgrade to increase the pace of machines while increasing energy usage")
+setTranslatedDescription("advancement.sf4.age_enhancement.nuclearcraftspeedupgrade.description")
 
 addParent("sf4:age_enhancement/root")
 

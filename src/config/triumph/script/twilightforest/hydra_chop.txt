@@ -3,7 +3,7 @@ setTitle({"translate": "advancement.twilightforest.hydra_chop"})
 
 setIcon(<twilightforest:hydra_chop>)
 
-setDescription({"text":"Collect some overpowered Hydra meat."})
+setTranslatedDescription("advancement.twilightforest.hydra_chop.description")
 
 setFrameType("goal")
 

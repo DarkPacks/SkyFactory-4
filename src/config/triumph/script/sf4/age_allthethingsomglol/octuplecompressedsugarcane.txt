@@ -1,8 +1,8 @@
-setTitle("SUGAR HIGH")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.octuplecompressedsugarcane.title")
 
 setIcon(<tp:octuple_compressed_sugar_cane>)
 
-setDescription("Craft an Octuple Compressed Sugar Cane Block. Because it's really important")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.octuplecompressedsugarcane.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

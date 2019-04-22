@@ -1,8 +1,8 @@
-setTitle("Not a Helmet")
+setTranslatedTitle("advancement.sf4.age1.iron_bucket.title")
 
 setIcon(<minecraft:bucket>)
 
-setDescription("Craft an Iron Bucket")
+setTranslatedDescription("advancement.sf4.age1.iron_bucket.description")
 
 addParent("sf4:age1/iron_ingot")
 

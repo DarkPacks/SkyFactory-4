@@ -1,8 +1,8 @@
-setTitle("It Gives You Wings")
+setTranslatedTitle("advancement.sf4.age_exploration.elytra.title")
 
 setIcon(<minecraft:elytra>)
 
-setDescription("Travel deep into the End Void to find an End City Floating Ship to obtain Elytra")
+setTranslatedDescription("advancement.sf4.age_exploration.elytra.description")
 
 addParent("sf4:age_exploration/dragonKill")
 

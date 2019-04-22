@@ -1,8 +1,8 @@
-setTitle("Age of Exploration")
+setTranslatedTitle("advancement.sf4.age_exploration.root.title")
 
 setIcon(<telepastries:overworld_cake>)
 
-setDescription("Explore the world and dimensions around you")
+setTranslatedDescription("advancement.sf4.age_exploration.root.description")
 
 setBackground("test:textures/colors/black.png")
 

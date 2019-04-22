@@ -1,8 +1,8 @@
-setTitle("Bring Me to Life")
+setTranslatedTitle("advancement.sf4.age_power.zombiedatamodel.title")
 
 setIcon(<deepmoblearning:data_model_zombie>)
 
-setDescription("Craft a Zombie Data Model from Deep Mob Learning")
+setTranslatedDescription("advancement.sf4.age_power.zombiedatamodel.description")
 
 addParent("sf4:age_power/root")
 

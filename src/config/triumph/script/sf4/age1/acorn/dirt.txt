@@ -1,8 +1,8 @@
-setTitle("Starting from the Bottom")
+setTranslatedTitle("advancement.sf4.age1.acorn.dirt.title")
 
 setIcon(<sky_orchards:acorn_dirt>)
 
-setDescription("Obtain a Dirt Acorn from Dirt Tree Leaves. They can also be used as a food source raw or cooked in a furnace")
+setTranslatedDescription("advancement.sf4.age1.acorn.dirt.description")
 
 addParent("sf4:age1/root")
 

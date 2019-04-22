@@ -1,8 +1,8 @@
-setTitle("SkyFactory 4")
+setTranslatedTitle("advancement.sf4.age1.root.title")
 
 setIcon(<minecraft:sapling>)
 
-setDescription("Getting started!")
+setTranslatedDescription("advancement.sf4.age1.root.description")
 
 setBackground("test:textures/colors/purple.png")
 

@@ -1,8 +1,8 @@
-setTitle("A Syncing Feeling")
+setTranslatedTitle("advancement.hardcore.hardcore.shell_constructor.title")
 
 setIcon(<sync:item_shell_constructor>)
 
-setDescription("You're playing hardcore, and so dead means dead. But you can still have an extra shot at life. Create your first shell by right clicking your Shell Constructor, it'll only hurt a little!")
+setTranslatedDescription("advancement.hardcore.hardcore.shell_constructor.description")
 
 addParent("hardcore:hardcore/root")
 setRequiresParents()

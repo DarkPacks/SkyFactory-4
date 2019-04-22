@@ -1,8 +1,8 @@
-setTitle("Storage Wars")
+setTranslatedTitle("advancement.sf4.age_enhancement.inventoryupgrade.title")
 
 setIcon(<cyclicmagic:inventory_food>)
 
-setDescription("Craft and eat an Inventory Upgrade from Cyclic")
+setTranslatedDescription("advancement.sf4.age_enhancement.inventoryupgrade.description")
 
 addParent("sf4:age_enhancement/root")
 

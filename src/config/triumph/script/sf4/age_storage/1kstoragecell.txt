@@ -1,8 +1,8 @@
-setTitle("Pocket Book")
+setTranslatedTitle("advancement.sf4.age_storage.1kstoragecell.title")
 
 setIcon(<appliedenergistics2:storage_cell_1k>)
 
-setDescription("Obtain 1K Storage Cell")
+setTranslatedDescription("advancement.sf4.age_storage.1kstoragecell.description")
 
 addParent("sf4:age_storage/driveBay")
 

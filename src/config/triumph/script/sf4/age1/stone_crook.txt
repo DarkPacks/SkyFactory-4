@@ -1,8 +1,8 @@
-setTitle("Stone Crook")
+setTranslatedTitle("advancement.sf4.age1.stone_crook.title")
 
 setIcon(<inspirations:stone_crook>)
 
-setDescription("Craft a Stone Crook. There is more than just the normal Wooden Crook available. There are other options with higher speed, durability, and special effects")
+setTranslatedDescription("advancement.sf4.age1.stone_crook.description")
 
 addParent("sf4:age1/wooden_crook")
 addParent("sf4:age1/cobblestone")

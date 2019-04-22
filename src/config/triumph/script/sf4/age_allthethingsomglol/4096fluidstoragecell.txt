@@ -1,8 +1,8 @@
-setTitle("Ocean Man")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.4096fluidstoragecell.title")
 
 setIcon(<extracells:storage.component:10>)
 
-setDescription("Obtain 4096k Fluid Storage Cell")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.4096fluidstoragecell.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

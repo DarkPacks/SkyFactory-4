@@ -1,8 +1,8 @@
-setTitle("Pacifist World")
+setTranslatedTitle("advancement.pacifist.pacifist_run.root.title")
 
 setIcon(<minecraft:red_flower:8>)
 
-setDescription("This is a world type designed to allow you to play without killing anything. If you kill any mob the advancement page will be removed and you will lose access to all Pacifist Mode recipes")
+setTranslatedDescription("advancement.pacifist.pacifist_run.root.description")
 
 setBackground("chisel:textures/blocks/valentines/2.png")
 

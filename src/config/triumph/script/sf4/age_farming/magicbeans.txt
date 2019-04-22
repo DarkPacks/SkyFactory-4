@@ -1,8 +1,8 @@
-setTitle("Beanboozled")
+setTranslatedTitle("advancement.sf4.age_farming.magicbeans.title")
 
 setIcon(<cyclicmagic:sprout_seed>)
 
-setDescription("Grow Cyclic Magic Beans to obtain other seeds or flowers")
+setTranslatedDescription("advancement.sf4.age_farming.magicbeans.description")
 
 addParent("sf4:age_farming/root")
 

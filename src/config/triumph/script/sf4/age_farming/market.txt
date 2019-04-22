@@ -1,8 +1,8 @@
-setTitle("This Little Piggy")
+setTranslatedTitle("advancement.sf4.age_farming.market.title")
 
 setIcon(<farmingforblockheads:market>)
 
-setDescription("Craft and place the Market to buy Seeds, Saplings, Flowers, and Food")
+setTranslatedDescription("advancement.sf4.age_farming.market.description")
 
 addParent("sf4:age_farming/root")
 

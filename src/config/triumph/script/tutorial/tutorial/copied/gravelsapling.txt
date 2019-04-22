@@ -1,8 +1,8 @@
-setTitle("Don't Sieve on Me")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.gravelsapling.title")
 
 setIcon(<sky_orchards:sapling_gravel>)
 
-setDescription("Craft a Gravel Sapling")
+setTranslatedDescription("advancement.tutorial.tutorial.copied.gravelsapling.description")
 
 addParent("tutorial:tutorial/copied/petrifiedSapling")
 

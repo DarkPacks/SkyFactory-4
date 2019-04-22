@@ -1,8 +1,8 @@
-setTitle("Feed the Chickens!")
+setTranslatedTitle("advancement.sf4.age_farming.chickenfeed.title")
 
 setIcon(<mob_grinding_utils:gm_chicken_feed>)
 
-setDescription("Craft the Chicken Feed from Seeds, a Swab with DNA, and a bucket of Experience")
+setTranslatedDescription("advancement.sf4.age_farming.chickenfeed.description")
 
 addParent("sf4:age_farming/mobSwab")
 

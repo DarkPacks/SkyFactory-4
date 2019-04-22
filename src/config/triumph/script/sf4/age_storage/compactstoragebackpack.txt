@@ -1,8 +1,8 @@
-setTitle("Baby Got Backpack")
+setTranslatedTitle("advancement.sf4.age_storage.compactstoragebackpack.title")
 
 setIcon(<compactstorage:backpack, nbt:{size:[I;24,12]}>)
 
-setDescription("Craft a maximum size Compact Storage Backpack")
+setTranslatedDescription("advancement.sf4.age_storage.compactstoragebackpack.description")
 
 addParent("sf4:age_storage/root")
 

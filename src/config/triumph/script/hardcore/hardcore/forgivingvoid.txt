@@ -1,8 +1,8 @@
-setTitle("Forgiving Void")
+setTranslatedTitle("advancement.hardcore.hardcore.forgivingvoid.title")
 
 setIcon(<minecraft:elytra>)
 
-setDescription("Obtain Elytra to enable Forgiving Void in the Overworld")
+setTranslatedDescription("advancement.hardcore.hardcore.forgivingvoid.description")
 
 addParent("sf4:age_exploration/root")
 addParent("hardcore:hardcore/root")

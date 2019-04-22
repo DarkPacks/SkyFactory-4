@@ -1,8 +1,8 @@
-setTitle("Age of ALLTHETHINGSOMGLOL")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.root.title")
 
 setIcon(<chisel:futura:3>)
 
-setDescription("Difficult, tedious, and collection advancements for late game")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.root.description")
 
 setBackground("test:textures/colors/dark_purple.png")
 

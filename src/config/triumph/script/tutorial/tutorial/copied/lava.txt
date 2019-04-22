@@ -1,10 +1,10 @@
-setTitle("Hotbois")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.lava.title")
 
 setIcon(<minecraft:lava_bucket>)
 
 //setDescription("Create Lava by Right-Clicking Cobble in a Cauldron. Collect it in a Clay or Regular bucket. To melt Cobblestone, you need to have a torch, fire, magma block, or lava directly under the Cauldron")
 
-setDescription({"translate":"Create Lava by using '%1$s' on a Cauldron while holding Cobble. Collect it in a Clay or Regular bucket. To melt Cobblestone, you need to have a torch, fire, magma block, or lava directly under the Cauldron","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"advancement.tutorial.tutorial.copied.lava.description","with":[{"keybind":"key.use"}]})
 
 addParent("tutorial:tutorial/copied/cobblestone")
 addParent("tutorial:tutorial/copied/cauldron")

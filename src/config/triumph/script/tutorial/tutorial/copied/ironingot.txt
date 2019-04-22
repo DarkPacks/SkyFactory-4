@@ -1,8 +1,8 @@
-setTitle("Oh, the Irony")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.ironingot.title")
 
 setIcon(<minecraft:iron_ingot>)
 
-setDescription("Obtain an Iron Ingot")
+setTranslatedDescription("advancement.tutorial.tutorial.copied.ironingot.description")
 
 addParent("tutorial:tutorial/copied/ironSapling")
 

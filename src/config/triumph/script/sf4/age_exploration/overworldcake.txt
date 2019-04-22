@@ -1,8 +1,8 @@
-setTitle("No Cake Like Home")
+setTranslatedTitle("advancement.sf4.age_exploration.overworldcake.title")
 
 setIcon(<telepastries:overworld_cake>)
 
-setDescription("Craft, place, and eat an Overworld Cake to return back to the Overworld when traveling to other dimensions")
+setTranslatedDescription("advancement.sf4.age_exploration.overworldcake.description")
 
 addParent("sf4:age_exploration/root")
 

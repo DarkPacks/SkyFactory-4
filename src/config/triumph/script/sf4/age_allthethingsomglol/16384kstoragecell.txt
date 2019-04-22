@@ -1,8 +1,8 @@
-setTitle("Zip Disk")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.16384kstoragecell.title")
 
 setIcon(<extracells:storage.physical:3>)
 
-setDescription("Obtain 16384k Storage Cell")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.16384kstoragecell.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

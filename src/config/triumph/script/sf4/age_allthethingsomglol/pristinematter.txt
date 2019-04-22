@@ -1,8 +1,8 @@
-setTitle("Nothing Else Matters")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.pristinematter.title")
 
 setIcon(<deepmoblearning:pristine_matter_zombie>)
 
-setDescription("Obtain 1 of each Deep Mob Learning Pristine Matter")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.pristinematter.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

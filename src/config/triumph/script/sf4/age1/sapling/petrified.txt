@@ -1,8 +1,8 @@
-setTitle("Hardwood")
+setTranslatedTitle("advancement.sf4.age1.sapling.petrified.title")
 
 setIcon(<sky_orchards:sapling_petrified>)
 
-setDescription("Craft a Petrified Sapling")
+setTranslatedDescription("advancement.sf4.age1.sapling.petrified.description")
 
 addParent("sf4:age1/sapling/dirt")
 addParent("sf4:age1/drying_rack")

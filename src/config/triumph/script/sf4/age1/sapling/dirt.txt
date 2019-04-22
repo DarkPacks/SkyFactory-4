@@ -1,8 +1,8 @@
-setTitle("That's Dir-tree")
+setTranslatedTitle("advancement.sf4.age1.sapling.dirt.title")
 
 setIcon(<sky_orchards:sapling_dirt>)
 
-setDescription("Acquire a dirt sapling to grow more dirt trees")
+setTranslatedDescription("advancement.sf4.age1.sapling.dirt.description")
 
 addParent("sf4:age1/root")
 

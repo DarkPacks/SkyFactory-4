@@ -1,8 +1,8 @@
-setTitle("Ding!")
+setTranslatedTitle("advancement.sf4.age_enhancement.levelup.title")
 
 setIcon(<rustic:deathstalk_mushroom>)
 
-setDescription("Level up a Tinkers' Construct Tool or Weapon")
+setTranslatedDescription("advancement.sf4.age_enhancement.levelup.description")
 
 addParent("sf4:age_enhancement/root")
 

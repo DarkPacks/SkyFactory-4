@@ -1,8 +1,8 @@
-setTitle("Even Scotty Doesn't Know")
+setTranslatedTitle("advancement.sf4.age_exploration.dilithiumore.title")
 
 setIcon(<matteroverdrive:dilithium_ore>)
 
-setDescription("Travel to the Lost Cities or Twilight Forest to locate Dilithium Ore and mine it to acquire Dilithium Crystals")
+setTranslatedDescription("advancement.sf4.age_exploration.dilithiumore.description")
 
 addParent("sf4:age_exploration/root")
 

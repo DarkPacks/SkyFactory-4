@@ -1,10 +1,10 @@
-setTitle("Bottoms Up")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.blackholetank.title")
 
 setIcon(<industrialforegoing:black_hole_tank>)
 
 //setDescription("Fill a Black Hole Tank with any Liquid and Right-Click it")
 
-setDescription({"translate":"Fill a Black Hole Tank with any Liquid and '%1$s' it","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"advancement.sf4.age_allthethingsomglol.blackholetank.description","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:age_allthethingsomglol/root")
 

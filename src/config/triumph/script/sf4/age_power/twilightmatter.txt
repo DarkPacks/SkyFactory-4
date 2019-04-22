@@ -1,8 +1,8 @@
-setTitle("Dusk Till Dawn")
+setTranslatedTitle("advancement.sf4.age_power.twilightmatter.title")
 
 setIcon(<deepmoblearning:living_matter_twilight>)
 
-setDescription("Acquire a Twilight Matter from Deep Mob Learning")
+setTranslatedDescription("advancement.sf4.age_power.twilightmatter.description")
 
 addParent("sf4:age_power/root")
 

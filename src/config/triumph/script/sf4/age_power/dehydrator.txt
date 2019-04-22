@@ -1,8 +1,8 @@
-setTitle("I'll Dehydrate You")
+setTranslatedTitle("advancement.sf4.age_power.dehydrator.title")
 
 setIcon(<cyclicmagic:dehydrator>)
 
-setDescription("Craft a Cyclic Dehydrator Machine to automate recipes from the Drying Rack")
+setTranslatedDescription("advancement.sf4.age_power.dehydrator.description")
 
 addParent("sf4:age_power/root")
 

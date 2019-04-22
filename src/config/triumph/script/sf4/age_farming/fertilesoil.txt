@@ -1,8 +1,8 @@
-setTitle("Fertile Soil")
+setTranslatedTitle("advancement.sf4.age_farming.fertilesoil.title")
 
 setIcon(<rustic:fertile_soil>)
 
-setDescription("Fertile Soil is great to upgrade your Bonsai Pots")
+setTranslatedDescription("advancement.sf4.age_farming.fertilesoil.description")
 
 addParent("sf4:age_farming/bonsai")
 

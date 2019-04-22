@@ -1,8 +1,8 @@
-setTitle("Hall of Fame")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.statues.title")
 
 setIcon(<statues:blockbabyzombiestatuet4>)
 
-setDescription("Craft all of the Peaceful Statues. Except for all the colored sheep and rabbits because that would just be silly")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.statues.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

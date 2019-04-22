@@ -1,8 +1,8 @@
-setTitle("Sky Islands")
+setTranslatedTitle("advancement.sky_islands.sky_islands.root.title")
 
 setIcon(<rustic:cloudsbluff>)
 
-setDescription("Hidden Root Advancement for Sky Islands World Type")
+setTranslatedDescription("advancement.sky_islands.sky_islands.root.description")
 
 setBackground("test:textures/colors/clear_sky.png")
 

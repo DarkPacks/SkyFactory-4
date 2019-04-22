@@ -1,8 +1,8 @@
-setTitle("TuMULCHuous")
+setTranslatedTitle("advancement.sf4.age_farming.brownmulch.title")
 
 setIcon(<inspirations:mulch:1>)
 
-setDescription("Brown Mulch in a Bonsai Pot will decrease growth time and increase drop chances")
+setTranslatedDescription("advancement.sf4.age_farming.brownmulch.description")
 
 addParent("sf4:age_farming/fertileSoil")
 

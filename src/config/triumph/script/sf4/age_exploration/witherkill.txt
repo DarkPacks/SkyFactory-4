@@ -1,8 +1,8 @@
-setTitle("Wither Without You")
+setTranslatedTitle("advancement.sf4.age_exploration.witherkill.title")
 
 setIcon(<minecraft:skull:1>)
 
-setDescription("Exterminate the Wither")
+setTranslatedDescription("advancement.sf4.age_exploration.witherkill.description")
 
 addParent("sf4:age_exploration/nether")
 drawDirectLines(true)

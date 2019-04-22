@@ -1,8 +1,8 @@
-setTitle("Dirt Sapling")
+setTranslatedTitle("advancement.tutorial.tutorial.dirtsapling.title")
 
 setIcon(<sky_orchards:sapling_dirt>)
 
-setDescription("Using your Wooden Crook to break leaves. Obtain a Dirt Sapling")
+setTranslatedDescription("advancement.tutorial.tutorial.dirtsapling.description")
 
 addParent("tutorial:tutorial/woodenCrook")
 

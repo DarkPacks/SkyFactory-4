@@ -1,8 +1,8 @@
-setTitle("Enter the Twilight")
+setTranslatedTitle("advancement.sf4.age_exploration.twilightforest.title")
 
 setIcon(<twilightforest:miniature_structure>)
 
-setDescription("Go to the Twilight Forest Dimension using a Twilight Forest Cake or building a Twilight Portal")
+setTranslatedDescription("advancement.sf4.age_exploration.twilightforest.description")
 
 addParent("sf4:age_exploration/root")
 

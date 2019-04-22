@@ -1,8 +1,8 @@
-setTitle("Yo-Yo Ma")
+setTranslatedTitle("advancement.sf4.age_enhancement.yoyo.title")
 
 setIcon(<yoyos:yoyo>)
 
-setDescription("Craft a YoYo in the Tool Forge")
+setTranslatedDescription("advancement.sf4.age_enhancement.yoyo.description")
 
 addParent("sf4:age_enhancement/toolForge")
 

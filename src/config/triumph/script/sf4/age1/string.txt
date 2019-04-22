@@ -1,8 +1,8 @@
-setTitle("You Cotton Something?")
+setTranslatedTitle("advancement.sf4.age1.string.title")
 
 setIcon(<minecraft:string>)
 
-setDescription("String has a chance to drop from Cottonwood Leaves. Or, use the Drying Rack to dry out Cottonwood Leaves to make String. Obtain a Cottonwood Sapling and piece of String")
+setTranslatedDescription("advancement.sf4.age1.string.description")
 
 addParent("sf4:age1/sapling/cottonwood")
 

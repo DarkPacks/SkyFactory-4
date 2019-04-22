@@ -1,8 +1,8 @@
-setTitle("Amber is the Color of my Dinosaur")
+setTranslatedTitle("advancement.sf4.age1.amber.iron.title")
 
 setIcon(<sky_orchards:amber_iron>)
 
-setDescription("Obtain iron by crafting Iron Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Iron and pour it into a Casting Basin or Cast")
+setTranslatedDescription("advancement.sf4.age1.amber.iron.description")
 
 addParent("sf4:age1/sapling/coal")
 

@@ -1,8 +1,8 @@
-setTitle("Where's the Boss?")
+setTranslatedTitle("advancement.sf4.age_exploration.dragonkill.title")
 
 setIcon(<minecraft:skull:5>)
 
-setDescription("Travel to the End Dimension. Unfortunately, due to budget constraints we could not afford a dragon this time around. Sorry")
+setTranslatedDescription("advancement.sf4.age_exploration.dragonkill.description")
 
 addParent("sf4:age_exploration/endcake")
 drawDirectLines(true)

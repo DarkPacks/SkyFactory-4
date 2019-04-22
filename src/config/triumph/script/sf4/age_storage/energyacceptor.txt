@@ -1,8 +1,8 @@
-setTitle("Accepting Your True Power")
+setTranslatedTitle("advancement.sf4.age_storage.energyacceptor.title")
 
 setIcon(<appliedenergistics2:energy_acceptor>)
 
-setDescription("Obtain Energy Acceptor")
+setTranslatedDescription("advancement.sf4.age_storage.energyacceptor.description")
 
 addParent("sf4:age_storage/logicProcessor")
 

@@ -1,8 +1,8 @@
-setTitle("What's the Matter with Overworldians?")
+setTranslatedTitle("advancement.sf4.age_power.overworldianmatter.title")
 
 setIcon(<deepmoblearning:living_matter_overworldian>)
 
-setDescription("Acquire an Overworldian Matter from Deep Mob Learning")
+setTranslatedDescription("advancement.sf4.age_power.overworldianmatter.description")
 
 addParent("sf4:age_power/root")
 

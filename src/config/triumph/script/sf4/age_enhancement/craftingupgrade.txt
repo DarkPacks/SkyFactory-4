@@ -1,8 +1,8 @@
-setTitle("Edible Arrangements")
+setTranslatedTitle("advancement.sf4.age_enhancement.craftingupgrade.title")
 
 setIcon(<cyclicmagic:crafting_food>)
 
-setDescription("Craft and eat a Crafting Upgrade from Cyclic")
+setTranslatedDescription("advancement.sf4.age_enhancement.craftingupgrade.description")
 
 addParent("sf4:age_enhancement/root")
 

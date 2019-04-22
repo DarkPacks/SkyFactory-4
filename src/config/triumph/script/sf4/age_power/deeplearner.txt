@@ -1,8 +1,8 @@
-setTitle("The Study Guide")
+setTranslatedTitle("advancement.sf4.age_power.deeplearner.title")
 
 setIcon(<deepmoblearning:deep_learner>)
 
-setDescription("Craft a Deep Learner from Deep Mob Learning. Insert Data Models inside to begin collecting data for your Simulation Chamber. To collect data, you will need to eliminate the matching creature")
+setTranslatedDescription("advancement.sf4.age_power.deeplearner.description")
 
 addParent("sf4:age_power/root")
 

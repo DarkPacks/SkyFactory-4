@@ -1,8 +1,8 @@
-setTitle("Generator, I Hardly Know Her")
+setTranslatedTitle("advancement.sf4.age_power.simplegenerator.title")
 
 setIcon(<simplegenerators:combustion_simple>)
 
-setDescription("Craft one of the Simple Generators")
+setTranslatedDescription("advancement.sf4.age_power.simplegenerator.description")
 
 addParent("sf4:age_power/root")
 

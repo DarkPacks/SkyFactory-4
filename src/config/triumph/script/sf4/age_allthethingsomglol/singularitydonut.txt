@@ -1,8 +1,8 @@
-setTitle("Mmmm Donuts")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.singularitydonut.title")
 
 setIcon(<extendedcrafting:singularity_custom:3>)
 
-setDescription("Obtain a Donut Singularity")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.singularitydonut.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

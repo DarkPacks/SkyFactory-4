@@ -1,8 +1,8 @@
-setTitle("Neeeeeeeeerrrrrrrd!")
+setTranslatedTitle("advancement.sf4.age_storage.calculationpress.title")
 
 setIcon(<appliedenergistics2:material:13>)
 
-setDescription("Obtain Calculation Press")
+setTranslatedDescription("advancement.sf4.age_storage.calculationpress.description")
 
 addParent("sf4:age_storage/logicProcessor")
 

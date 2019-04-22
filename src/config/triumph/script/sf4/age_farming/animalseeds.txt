@@ -1,8 +1,8 @@
-setTitle("Animals Croppings")
+setTranslatedTitle("advancement.sf4.age_farming.animalseeds.title")
 
 setIcon(<animalcrops:seeds, meta:0, count:1, nbt:{entity: "minecraft:villager"}>)
 
-setDescription("Can't find an animal? Craft an animal Seed or Lily to grow them! Make sure to plant the seeds on Grass blocks or lilies on water")
+setTranslatedDescription("advancement.sf4.age_farming.animalseeds.description")
 
 addParent("sf4:age_farming/wheatSeeds")
 

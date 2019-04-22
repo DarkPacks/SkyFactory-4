@@ -1,8 +1,8 @@
-setTitle("It Fits, We Ship")
+setTranslatedTitle("advancement.sf4.age_storage.bdsandmshippingcontainer.title")
 
 setIcon(<bdsandm:shipping_container>)
 
-setDescription("Craft a 'Barrels, Drums, Storage, and More' Shipping Container. This container allows inserting most blocks that can hold items, liquids, or power")
+setTranslatedDescription("advancement.sf4.age_storage.bdsandmshippingcontainer.description")
 
 addParent("sf4:age_storage/bdsandmMetalCrate")
 addParent("sf4:age_storage/bdsandmMetalBarrel")

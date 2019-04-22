@@ -1,8 +1,8 @@
-setTitle("11x11x11")
+setTranslatedTitle("advancement.compactmachines.test.11x11x11.title")
 
 setIcon(<compactmachines3:machine:4>)
 
-setDescription("Obtain a Nether Star to gain a larger Compact Machine")
+setTranslatedDescription("advancement.compactmachines.test.11x11x11.description")
 
 addParent("compactmachines:test/9x9x9")
 addParent("compactmachines:test/9x9x92")

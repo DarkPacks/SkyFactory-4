@@ -1,8 +1,8 @@
-setTitle("Master Blaster")
+setTranslatedTitle("advancement.sf4.age_storage.simplestoragemaster.title")
 
 setIcon(<storagenetwork:master>)
 
-setDescription("Craft a Simple Storage Network Master Block. This block acts as the brain of the storage system and needs to be placed to work correctly")
+setTranslatedDescription("advancement.sf4.age_storage.simplestoragemaster.description")
 
 addParent("sf4:age_storage/root")
 

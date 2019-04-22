@@ -1,8 +1,8 @@
-setTitle("Wet Feet")
+setTranslatedTitle("advancement.sf4.age1.watersource.title")
 
 setIcon(<tp:water_block>)
 
-setDescription("Break a Water Source Stone in the grid to create a Water Source")
+setTranslatedDescription("advancement.sf4.age1.watersource.description")
 
 addParent("sf4:age1/root")
 addParent("skygrid:skygrid/root")

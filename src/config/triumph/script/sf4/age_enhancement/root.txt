@@ -1,8 +1,8 @@
-setTitle("Age of Enhancement")
+setTranslatedTitle("advancement.sf4.age_enhancement.root.title")
 
 setIcon(<minecraft:anvil>)
 
-setDescription("Advancements for the overall enhancement of items, tools, etc")
+setTranslatedDescription("advancement.sf4.age_enhancement.root.description")
 
 setBackground("test:textures/colors/dark_gray.png")
 

@@ -1,8 +1,8 @@
-setTitle("Smells Like Nirvana")
+setTranslatedTitle("advancement.sf4.age_exploration.lithiumore.title")
 
 setIcon(<nuclearcraft:ore:6>)
 
-setDescription("Travel to the Lost Cities or Twilight Forest to locate Lithium Ore")
+setTranslatedDescription("advancement.sf4.age_exploration.lithiumore.description")
 
 addParent("sf4:age_exploration/root")
 

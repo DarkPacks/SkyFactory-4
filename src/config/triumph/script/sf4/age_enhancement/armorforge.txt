@@ -1,8 +1,8 @@
-setTitle("Suit Up")
+setTranslatedTitle("advancement.sf4.age_enhancement.armorforge.title")
 
 setIcon(<conarm:armorforge>)
 
-setDescription("Craft a Construct's Armory Armor Forge to upgrade your armor creation capabilities")
+setTranslatedDescription("advancement.sf4.age_enhancement.armorforge.description")
 
 addParent("sf4:age_enhancement/armorStation")
 

@@ -1,8 +1,8 @@
-setTitle("Level Up!")
+setTranslatedTitle("advancement.sf4.age_power.upgradeablegenerators.title")
 
 setIcon(<simplegenerators:combustion_upgradable>)
 
-setDescription("Craft one of the Upgradable Generators")
+setTranslatedDescription("advancement.sf4.age_power.upgradeablegenerators.description")
 
 addParent("sf4:age_power/simpleGenerator")
 

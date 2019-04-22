@@ -1,8 +1,8 @@
-setTitle("256 Liters of Cola")
+setTranslatedTitle("advancement.sf4.age_storage.bdsandmupgrade2.title")
 
 setIcon(<bdsandm:upgrade:1>)
 
-setDescription("Craft a 'Barrels, Drums, Storage, and More' x256 Storage Upgrade")
+setTranslatedDescription("advancement.sf4.age_storage.bdsandmupgrade2.description")
 
 addParent("sf4:age_storage/bdsandmUpgrade1")
 

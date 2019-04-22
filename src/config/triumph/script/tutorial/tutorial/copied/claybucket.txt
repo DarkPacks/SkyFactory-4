@@ -1,8 +1,8 @@
-setTitle("Slop in the Bucket")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.claybucket.title")
 
 setIcon(<ceramics:unfired_clay>)
 
-setDescription("Using your new Clay Tree, craft and fire a Clay Bucket")
+setTranslatedDescription("advancement.tutorial.tutorial.copied.claybucket.description")
 
 addParent("tutorial:tutorial/copied/claySapling")
 

@@ -1,8 +1,8 @@
-setTitle("Third Time's the Charm")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.nuclearcraftfusionreactor.title")
 
 setIcon(<nuclearcraft:fusion_core>)
 
-setDescription("Build a Nuclearcraft Fusion Reactor that produces at least 3,333,333RF per tick")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.nuclearcraftfusionreactor.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

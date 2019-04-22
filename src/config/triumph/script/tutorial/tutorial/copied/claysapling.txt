@@ -1,8 +1,8 @@
-setTitle("Clay Aiken")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.claysapling.title")
 
 setIcon(<sky_orchards:sapling_clay>)
 
-setDescription("Craft a Clay Sapling")
+setTranslatedDescription("advancement.tutorial.tutorial.copied.claysapling.description")
 
 addParent("tutorial:tutorial/root")
 

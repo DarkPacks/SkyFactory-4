@@ -1,8 +1,8 @@
-setTitle("I Love Lucy")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.crushingtub.title")
 
 setIcon(<rustic:crushing_tub>)
 
-setDescription("Craft a Rustic Crushing Tub")
+setTranslatedDescription("advancement.tutorial.tutorial.copied.crushingtub.description")
 
 addParent("tutorial:tutorial/root")
 

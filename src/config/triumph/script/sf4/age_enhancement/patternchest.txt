@@ -1,8 +1,8 @@
-setTitle("Pattern Me, Sir")
+setTranslatedTitle("advancement.sf4.age_enhancement.patternchest.title")
 
 setIcon(<tconstruct:tooltables:4>)
 
-setDescription("Craft a Tinkers' Construct Pattern Chest")
+setTranslatedDescription("advancement.sf4.age_enhancement.patternchest.description")
 
 addParent("sf4:age_enhancement/partBuilder")
 

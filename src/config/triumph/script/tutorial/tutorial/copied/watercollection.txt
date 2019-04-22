@@ -1,10 +1,10 @@
-setTitle("Wishing Well")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.watercollection.title")
 
 setIcon(<minecraft:cauldron>)
 
 //setDescription("Collect Rain Water in a Cauldron and Right-Click on the block when water is visible")
 
-setDescription({"translate":"Collect Rain Water in a Cauldron and '%1$s' on the block when water is visible","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"advancement.tutorial.tutorial.copied.watercollection.description","with":[{"keybind":"key.use"}]})
 
 addParent("tutorial:tutorial/copied/crushingTub")
 addParent("tutorial:tutorial/copied/cauldron")

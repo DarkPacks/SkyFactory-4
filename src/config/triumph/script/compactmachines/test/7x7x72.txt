@@ -1,8 +1,8 @@
-setTitle("7x7x7")
+setTranslatedTitle("advancement.compactmachines.test.7x7x72.title")
 
 setIcon(<compactmachines3:machine:2>)
 
-setDescription("Obtain an Eye of Ender to gain a larger Compact Machine")
+setTranslatedDescription("advancement.compactmachines.test.7x7x72.description")
 
 addParent("compactmachines:test/5x5x5")
 addParent("compactmachines:test/5x5x52")

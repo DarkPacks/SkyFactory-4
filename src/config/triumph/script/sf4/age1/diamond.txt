@@ -1,8 +1,8 @@
-setTitle("Trees to Diamonds")
+setTranslatedTitle("advancement.sf4.age1.diamond.title")
 
 setIcon(<minecraft:diamond>)
 
-setDescription("Obtain a Diamond!")
+setTranslatedDescription("advancement.sf4.age1.diamond.description")
 
 addParent("sf4:age1/sapling/diamond")
 

@@ -1,8 +1,8 @@
-setTitle("Come Fly With Me")
+setTranslatedTitle("advancement.sf4.age_exploration.viescraft.title")
 
 setIcon(<vc:airships/item_airship>)
 
-setDescription("Craft a Viescraft Airship to fly around!")
+setTranslatedDescription("advancement.sf4.age_exploration.viescraft.description")
 
 addParent("sf4:age_exploration/root")
 

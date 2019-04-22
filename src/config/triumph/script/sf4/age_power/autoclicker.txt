@@ -1,8 +1,8 @@
-setTitle("Clicker Hero")
+setTranslatedTitle("advancement.sf4.age_power.autoclicker.title")
 
 setIcon(<clickmachine:auto_clicker>)
 
-setDescription("Craft an Auto Clicker machine to click stuff for you! Batteries not included")
+setTranslatedDescription("advancement.sf4.age_power.autoclicker.description")
 
 addParent("sf4:age_power/root")
 

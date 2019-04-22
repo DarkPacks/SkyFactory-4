@@ -1,8 +1,8 @@
-setTitle("Dead Cells")
+setTranslatedTitle("advancement.sf4.age_power.pristinezombiematter.title")
 
 setIcon(<deepmoblearning:pristine_matter_zombie>)
 
-setDescription("Acquire a Pristine Zombie Matter from Deep Mob Learning. You will first need to increase your Data Model to Basic and use the Simulation Chamber to produce Pristine Matter. The higher Models will produce Pristine Matter more often")
+setTranslatedDescription("advancement.sf4.age_power.pristinezombiematter.description")
 
 addParent("sf4:age_power/root")
 

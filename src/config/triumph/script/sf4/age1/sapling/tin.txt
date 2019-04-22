@@ -1,8 +1,8 @@
-setTitle("It's Tin This Pack")
+setTranslatedTitle("advancement.sf4.age1.sapling.tin.title")
 
 setIcon(<sky_orchards:sapling_tin>)
 
-setDescription("Pour Molten Tin over a Birch Sapling to make a Tin Sapling")
+setTranslatedDescription("advancement.sf4.age1.sapling.tin.description")
 
 addParent("sf4:age1/amber/tin")
 

@@ -1,8 +1,8 @@
-setTitle("Nothing Really Mattocks")
+setTranslatedTitle("advancement.sf4.age_farming.mattock.title")
 
 setIcon(<tconstruct:mattock>)
 
-setDescription("Craft any Tinkers' Construct Mattock to help with farming")
+setTranslatedDescription("advancement.sf4.age_farming.mattock.description")
 
 addParent("sf4:age_farming/root")
 

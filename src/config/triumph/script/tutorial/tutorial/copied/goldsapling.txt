@@ -1,8 +1,8 @@
-setTitle("Money Grows on Trees")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.goldsapling.title")
 
 setIcon(<sky_orchards:sapling_gold>)
 
-setDescription("Craft a Gold Sapling")
+setTranslatedDescription("advancement.tutorial.tutorial.copied.goldsapling.description")
 
 addParent("tutorial:tutorial/copied/ironSapling")
 addParent("tutorial:tutorial/copied/sandSapling")

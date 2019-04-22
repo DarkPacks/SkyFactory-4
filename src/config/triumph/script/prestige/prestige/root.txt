@@ -1,8 +1,8 @@
-setTitle("Prestige")
+setTranslatedTitle("advancement.prestige.prestige.root.title")
 
 setIcon(<parabox:parabox>)
 
-setDescription("Advancements for the Prestige system")
+setTranslatedDescription("advancement.prestige.prestige.root.description")
 
 setBackground("test:textures/colors/black.png")
 

@@ -1,8 +1,8 @@
-setTitle("Sugar Daddy")
+setTranslatedTitle("advancement.sf4.age_farming.sugarcanesnad.title")
 
 setIcon(<minecraft:reeds>)
 
-setDescription("Place Snad to grow Sugarcane Seeds atop it at an accelerated rate")
+setTranslatedDescription("advancement.sf4.age_farming.sugarcanesnad.description")
 
 addParent("sf4:age_farming/sugarcaneSeed")
 

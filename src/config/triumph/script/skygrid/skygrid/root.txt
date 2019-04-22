@@ -1,8 +1,8 @@
-setTitle("Sky Grid")
+setTranslatedTitle("advancement.skygrid.skygrid.root.title")
 
 setIcon(<chisel:glass:12>)
 
-setDescription("Hidden Root Advancement for Sky Grid World Type")
+setTranslatedDescription("advancement.skygrid.skygrid.root.description")
 
 setBackground("test:textures/colors/grid.png")
 

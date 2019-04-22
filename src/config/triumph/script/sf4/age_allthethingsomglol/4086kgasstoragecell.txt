@@ -1,8 +1,8 @@
-setTitle("Hit the Gas")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.4086kgasstoragecell.title")
 
 setIcon(<extracells:storage.gas:6>)
 
-setDescription("Obtain 4096k Gas Storage Cell")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.4086kgasstoragecell.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

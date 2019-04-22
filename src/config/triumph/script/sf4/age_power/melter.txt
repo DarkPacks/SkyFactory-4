@@ -1,8 +1,8 @@
-setTitle("Warm and Gooey")
+setTranslatedTitle("advancement.sf4.age_power.melter.title")
 
 setIcon(<nuclearcraft:melter_idle>)
 
-setDescription("Craft a Nuclearcraft Melter to melt down items and blocks into molten liquid")
+setTranslatedDescription("advancement.sf4.age_power.melter.description")
 
 addParent("sf4:age_power/root")
 

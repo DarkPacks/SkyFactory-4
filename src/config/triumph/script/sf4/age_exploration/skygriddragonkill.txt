@@ -1,8 +1,8 @@
-setTitle("Quit Dragon My Heart Around")
+setTranslatedTitle("advancement.sf4.age_exploration.skygriddragonkill.title")
 
 setIcon(<minecraft:end_stone>)
 
-setDescription("Summon the Dragon by poking a Dragon Egg with a stick. Then eliminate it!")
+setTranslatedDescription("advancement.sf4.age_exploration.skygriddragonkill.description")
 
 addParent("sf4:age_exploration/root")
 addParent("skygrid:skygrid/root")
