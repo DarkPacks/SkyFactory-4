@@ -251,6 +251,22 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
+
+	<animalcrops:seeds>.withTag({entity: "industrialforegoing:pink_slime"}): [
+		[
+			[<ore:dyePink>],
+			[<minecraft:melon_seeds>],
+			[<ore:slimeball>]
+		]
+	],
+	<animalcrops:seeds>.withTag({entity: "tconstruct:blueslime"}): [
+		[
+			[<ore:dyeBlue>],
+			[<minecraft:melon_seeds>],
+			[<ore:slimeball>]
+		]
+	],
+
 	//Water Seeds
 	<animalcrops:lily>.withTag({entity: "minecraft:guardian"}): [
 		[
