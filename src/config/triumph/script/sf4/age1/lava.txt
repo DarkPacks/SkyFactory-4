@@ -1,4 +1,4 @@
-setTranslatedTitle("Hotbois")
+setTranslatedTitle("advancement.sf4.age1.lava.title")
 
 setIcon(<minecraft:lava_bucket>)
 
