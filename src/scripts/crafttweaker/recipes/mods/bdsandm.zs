@@ -82,9 +82,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<bdsandm:upgrade:6>: [
 		[
-			[<chisel:voidstone>, <minecraft:chest>, <chisel:voidstone>],
-			[<chisel:voidstone>, <tconstruct:fancy_frame>, <chisel:voidstone>],
-			[<chisel:voidstone>, <minecraft:chest>, <chisel:voidstone>]
+			[<minecraft:obsidian>, <minecraft:chest>, <minecraft:obsidian>],
+			[<minecraft:obsidian>, <tconstruct:fancy_frame>, <minecraft:obsidian>],
+			[<minecraft:obsidian>, <minecraft:chest>, <minecraft:obsidian>]
 		]
 	],
 	<bdsandm:upgrade:7>: [
