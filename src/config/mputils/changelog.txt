@@ -4,6 +4,20 @@ Please report bugs to the issue tracker!!
 
 4.0.3
 
+Bug Fixes:
+* Misc advancement typos
+* Remove duplicate Lost Cities advancement when playing in the Lost Cities world type (#466)
+* Prevent sorting in Industrial Foregoing Laser Drill's inventory to stop ores from being deleted (#555)
+* Disable fancy rain & snow for performance & fixes some particle issues such as the watering can
+
+Enhancements:
+* Add localization support to advancements. Currently just en_US; Additional language support PR's are welcome!
+* Changed BDS&M void upgrade recipe to use Obsidian instead of Void Stone
+* Added pink and blue slime seeds (#546)
+* Notify players playing prestige of how it works when first joining a world with Prestige enabled.
+* Change nether cake icon to match the cake you should be crafting to help make it more clear which nether cake is the right one to craft
+* Hopefully clarify that the AE Controller is not needed to use AE (and does not exist in the pack for a reason)
+
 Mod Updates:
 * Apotheosis (1.9.2 -> 1.9.3)
 * ComPatchedStorage (1.4.0 -> 1.5.1)
