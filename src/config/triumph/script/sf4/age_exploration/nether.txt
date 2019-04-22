@@ -1,6 +1,6 @@
 setTranslatedTitle("advancement.sf4.age_exploration.nether.title")
 
-setIcon(<minecraft:netherrack>)
+setIcon(<telepastries:nether_cake>)
 
 setTranslatedDescription("advancement.sf4.age_exploration.nether.description")
 
