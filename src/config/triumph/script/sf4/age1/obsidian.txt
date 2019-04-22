@@ -1,10 +1,10 @@
-setTitle("Study in the Dark Arts")
+setTranslatedTitle("advancement.sf4.age1.obsidian.title")
 
 setIcon(<minecraft:obsidian>)
 
 //setDescription("Right-Click a Lava filled Cauldron with a Water Bucket to make Obsidian")
 
-setDescription({"translate":"'%1$s' a Lava filled Cauldron with a Water Bucket to make Obsidian  ","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"advancement.sf4.age1.obsidian.description","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:age1/lava")
 

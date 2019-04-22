@@ -1,8 +1,8 @@
-setTitle("Down the Rabbit Hole")
+setTranslatedTitle("advancement.sf4.age_power.simulationchamber.title")
 
 setIcon(<deepmoblearning:simulation_chamber>)
 
-setDescription("Acquire a Simulation Chamber from Deep Mob Learning. Insert Basic tier or higher Data Models to simulate and acquire Matter")
+setTranslatedDescription("advancement.sf4.age_power.simulationchamber.description")
 
 addParent("sf4:age_power/root")
 

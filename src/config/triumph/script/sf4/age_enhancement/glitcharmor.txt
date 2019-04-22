@@ -1,8 +1,8 @@
-setTitle("Armor 404")
+setTranslatedTitle("advancement.sf4.age_enhancement.glitcharmor.title")
 
 setIcon(<deepmoblearning:glitch_infused_chestplate>)
 
-setDescription("Craft the entire Glitch Infused Armor Set")
+setTranslatedDescription("advancement.sf4.age_enhancement.glitcharmor.description")
 
 addParent("sf4:age_enhancement/root")
 

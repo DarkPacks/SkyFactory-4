@@ -1,8 +1,8 @@
-setTitle("Water You Waiting For?")
+setTranslatedTitle("advancement.sf4.age1.water.title")
 
 setIcon(<nuclearcraft:fluid_preheated_water>)
 
-setDescription("Collect Rain Water in a Cauldron or by jumping on a Sapling in a Crushing Tub. Collect it using a Clay Bucket or Iron Bucket")
+setTranslatedDescription("advancement.sf4.age1.water.description")
 
 addParent("sf4:age1/root")
 

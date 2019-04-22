@@ -1,8 +1,8 @@
-setTitle("Planks")
+setTranslatedTitle("advancement.tutorial.tutorial.oakplanks.title")
 
 setIcon(<minecraft:planks>)
 
-setDescription("You've collected 2 Oak Wood. Using your inventory crafting grid, make 8 Oak Planks")
+setTranslatedDescription("advancement.tutorial.tutorial.oakplanks.description")
 
 addParent("tutorial:tutorial/oakWood")
 

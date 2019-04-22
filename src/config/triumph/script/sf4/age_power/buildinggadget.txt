@@ -1,10 +1,10 @@
-setTitle("Go, Go, Building Gadget")
+setTranslatedTitle("advancement.sf4.age_power.buildinggadget.title")
 
 setIcon(<buildinggadgets:buildingtool>)
 
 //setDescription("The Building Gadget helps you build!")
 
-setDescription({"translate":"The Building Gadget helps you build! Switch building gadget mode using the '%1$s' key","with":[{"keybind":"key.modeSwitch"}]})
+setDescription({"translate":"advancement.sf4.age_power.buildinggadget.description","with":[{"keybind":"key.modeSwitch"}]})
 
 addParent("sf4:age_power/root")
 

@@ -1,8 +1,8 @@
-setTitle("Cowabonsai!")
+setTranslatedTitle("advancement.sf4.age_farming.hoppingbonsai.title")
 
 setIcon(<bonsaitrees:bonsaipot:1>)
 
-setDescription("Upgrade to the Hopping Bonsai Pot to automatically insert into chests and other inventory blocks")
+setTranslatedDescription("advancement.sf4.age_farming.hoppingbonsai.description")
 
 addParent("sf4:age_farming/bonsai")
 

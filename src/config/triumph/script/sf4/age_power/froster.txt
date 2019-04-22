@@ -1,8 +1,8 @@
-setTitle("Slush Puppy")
+setTranslatedTitle("advancement.sf4.age_power.froster.title")
 
 setIcon(<industrialforegoing:froster>)
 
-setDescription("Craft the Industrial Foregoing Froster to make Ice, Packed Ice, and Snow")
+setTranslatedDescription("advancement.sf4.age_power.froster.description")
 
 addParent("sf4:age_power/root")
 

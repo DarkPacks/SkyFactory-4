@@ -1,8 +1,8 @@
-setTitle("You're Boron Me")
+setTranslatedTitle("advancement.sf4.age_exploration.boronore.title")
 
 setIcon(<nuclearcraft:ore:5>)
 
-setDescription("Travel to the Lost Cities or Twilight Forest to locate Boron Ore")
+setTranslatedDescription("advancement.sf4.age_exploration.boronore.description")
 
 addParent("sf4:age_exploration/root")
 

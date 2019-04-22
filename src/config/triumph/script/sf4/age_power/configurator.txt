@@ -1,8 +1,8 @@
-setTitle("Config-a-ma-whatzit")
+setTranslatedTitle("advancement.sf4.age_power.configurator.title")
 
 setIcon(<mekanism:configurator>)
 
-setDescription("The Mekanism Configurator allows you to configure pipes and machines with ease")
+setTranslatedDescription("advancement.sf4.age_power.configurator.description")
 
 addParent("sf4:age_power/root")
 

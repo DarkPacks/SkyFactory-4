@@ -1,8 +1,8 @@
-setTitle("Oh, the Irony")
+setTranslatedTitle("advancement.sf4.age1.iron_ingot.title")
 
 setIcon(<minecraft:iron_ingot>)
 
-setDescription("Obtain an Iron Ingot")
+setTranslatedDescription("advancement.sf4.age1.iron_ingot.description")
 
 addParent("sf4:age1/amber/iron")
 

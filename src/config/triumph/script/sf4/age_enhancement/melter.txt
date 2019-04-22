@@ -1,8 +1,8 @@
-setTitle("To Be ORe Not to Be")
+setTranslatedTitle("advancement.sf4.age_enhancement.melter.title")
 
 setIcon(<tcomplement:porcelain_melter>)
 
-setDescription("Craft a Melter to process your metals")
+setTranslatedDescription("advancement.sf4.age_enhancement.melter.description")
 
 addParent("sf4:age_enhancement/root")
 setRequirements("any")

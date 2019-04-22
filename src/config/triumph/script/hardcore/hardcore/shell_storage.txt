@@ -1,8 +1,8 @@
-setTitle("Shell Script")
+setTranslatedTitle("advancement.hardcore.hardcore.shell_storage.title")
 
 setIcon(<statues:blockpigstatue>)
 
-setDescription("Once enough PigWatts have been consumed, your shell will be ready for use. Time to put your body in storage! Walk into the Shell Storage and select your only Shell from the radial menu.")
+setTranslatedDescription("advancement.hardcore.hardcore.shell_storage.description")
 
 addParent("hardcore:hardcore/shell_constructor")
 setRequiresParents()

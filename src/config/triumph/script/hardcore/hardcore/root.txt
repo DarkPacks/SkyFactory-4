@@ -1,8 +1,8 @@
-setTitle("SkyFactory 4 Hardcore Mode")
+setTranslatedTitle("advancement.hardcore.hardcore.root.title")
 
 setIcon(<minecraft:skull>)
 
-setDescription("So you think you're Hardcore? Here's a few tips to help you survive")
+setTranslatedDescription("advancement.hardcore.hardcore.root.description")
 
 setBackground("minecraft:textures/blocks/soul_sand.png")
 

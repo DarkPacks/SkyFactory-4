@@ -1,8 +1,8 @@
-setTitle("Large Biomes")
+setTranslatedTitle("advancement.large_biomes.large_biomes.root.title")
 
 setIcon(<minecraft:skull>)
 
-setDescription("Hidden Root Advancement for Large Biomes World Type")
+setTranslatedDescription("advancement.large_biomes.large_biomes.root.description")
 
 setBackground("projecte:textures/blocks/dm.png")
 

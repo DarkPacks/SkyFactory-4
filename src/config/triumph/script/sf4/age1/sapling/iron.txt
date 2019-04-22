@@ -1,8 +1,8 @@
-setTitle("Ironwood")
+setTranslatedTitle("advancement.sf4.age1.sapling.iron.title")
 
 setIcon(<sky_orchards:sapling_iron>)
 
-setDescription("Pour Molten Iron over a Acacia Sapling to make a Iron Sapling")
+setTranslatedDescription("advancement.sf4.age1.sapling.iron.description")
 
 addParent("sf4:age1/amber/iron")
 

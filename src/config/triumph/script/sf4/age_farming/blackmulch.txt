@@ -1,8 +1,8 @@
-setTitle("Not Mulch Going On")
+setTranslatedTitle("advancement.sf4.age_farming.blackmulch.title")
 
 setIcon(<inspirations:mulch:6>)
 
-setDescription("Black Mulch in a Bonsai Pot will decrease growth time and increase drop chances")
+setTranslatedDescription("advancement.sf4.age_farming.blackmulch.description")
 
 addParent("sf4:age_farming/redMulch")
 

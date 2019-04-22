@@ -1,8 +1,8 @@
-setTitle("ɹǝddoH")
+setTranslatedTitle("advancement.sf4.age_storage.upper.title")
 
 setIcon(<uppers:upper>)
 
-setDescription("Craft an Upper. It's an upside down Hopper!")
+setTranslatedDescription("advancement.sf4.age_storage.upper.description")
 
 addParent("sf4:age_storage/hopper")
 

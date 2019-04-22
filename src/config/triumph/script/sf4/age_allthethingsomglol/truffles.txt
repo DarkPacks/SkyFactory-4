@@ -1,8 +1,8 @@
-setTitle("Everyday I'm Trufflin'")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.truffles.title")
 
 setIcon(<resourcehogs:truffle, nbt:{ResourceType: "prismarine"}>)
 
-setDescription("When Resource Hogs are left on the correct soil type, they will dig up Truffles. Truffles can be collected and combined to create resources. Collect 1 of each Truffle")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.truffles.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

@@ -1,8 +1,8 @@
-setTitle("Silicon Valley")
+setTranslatedTitle("advancement.sf4.age_storage.siliconpress.title")
 
 setIcon(<appliedenergistics2:material:19>)
 
-setDescription("Obtain Silicon Press")
+setTranslatedDescription("advancement.sf4.age_storage.siliconpress.description")
 
 addParent("sf4:age_storage/root")
 

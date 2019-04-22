@@ -1,8 +1,8 @@
-setTitle("3x3x3")
+setTranslatedTitle("advancement.compactmachines.test.3x3x3.title")
 
 setIcon(<compactmachines3:machine>)
 
-setDescription("Obtain Grass Block to gain a larger Compact Machine")
+setTranslatedDescription("advancement.compactmachines.test.3x3x3.description")
 
 addParent("compactmachines:test/root")
 

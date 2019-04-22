@@ -1,8 +1,8 @@
-setTitle("Age of Power")
+setTranslatedTitle("advancement.sf4.age_power.root.title")
 
 setIcon(<chisel:technicalnew:3>)
 
-setDescription("All things related to power!")
+setTranslatedDescription("advancement.sf4.age_power.root.description")
 
 setBackground("test:textures/colors/red.png")
 

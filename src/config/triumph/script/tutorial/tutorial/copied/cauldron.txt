@@ -1,8 +1,8 @@
-setTitle("Bubble, Bubble")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.cauldron.title")
 
 setIcon(<morecauldrons:oak_cauldron>)
 
-setDescription("Craft any Cauldron to catch rain water, create lava, dye items, and a bunch of other uses!")
+setTranslatedDescription("advancement.tutorial.tutorial.copied.cauldron.description")
 
 addParent("tutorial:tutorial/copied/cobblestone")
 

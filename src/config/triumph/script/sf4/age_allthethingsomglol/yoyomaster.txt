@@ -1,8 +1,8 @@
-setTitle("YoYo Master")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.yoyomaster.title")
 
 setIcon(<yoyos:yoyo>)
 
-setDescription("Use every modifier on YoYo at least once")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.yoyomaster.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

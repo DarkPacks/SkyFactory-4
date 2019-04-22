@@ -1,8 +1,8 @@
-setTitle("'This Baby Can Fit so Much Matter'")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.quantumcompressor.title")
 
 setIcon(<extendedcrafting:compressor>)
 
-setDescription("Craft a Quantum Compressor to create Singularities. Be sure to power it and provide the correct Catalyst")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.quantumcompressor.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

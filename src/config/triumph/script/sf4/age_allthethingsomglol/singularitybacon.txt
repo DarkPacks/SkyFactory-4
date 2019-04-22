@@ -1,8 +1,8 @@
-setTitle("B-Aiken")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.singularitybacon.title")
 
 setIcon(<extendedcrafting:singularity_custom:2>)
 
-setDescription("Obtain a Bacon Singularity")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.singularitybacon.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

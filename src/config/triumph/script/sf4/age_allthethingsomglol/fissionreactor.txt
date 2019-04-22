@@ -1,8 +1,8 @@
-setTitle("Gone Fission")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.fissionreactor.title")
 
 setIcon(<nuclearcraft:depleted_fuel_californium:7>)
 
-setDescription("Build a Nuclearcraft Fission Reactor that produces at least 25,000RF per tick. Open the controller block to finish the advancement")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.fissionreactor.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

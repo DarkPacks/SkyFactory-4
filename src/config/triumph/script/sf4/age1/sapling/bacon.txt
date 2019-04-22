@@ -1,8 +1,8 @@
-setTitle("OinkTree")
+setTranslatedTitle("advancement.sf4.age1.sapling.bacon.title")
 
 setIcon(<sky_orchards:sapling_bacon>)
 
-setDescription("Craft a Bacon Sapling")
+setTranslatedDescription("advancement.sf4.age1.sapling.bacon.description")
 
 addParent("sf4:age1/root")
 

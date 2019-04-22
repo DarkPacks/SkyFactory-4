@@ -1,8 +1,8 @@
-setTitle("I'll Be Your Alloy")
+setTranslatedTitle("advancement.sf4.age_enhancement.alloytank.title")
 
 setIcon(<tcomplement:porcelain_alloy_tank>)
 
-setDescription("Place the Alloy Tank between two or more Tinkers' Complement Melters and on top of a Heater. It will combine valid liquids to create a liquid alloy")
+setTranslatedDescription("advancement.sf4.age_enhancement.alloytank.description")
 
 addParent("sf4:age_enhancement/root")
 setRequirements("any")

@@ -1,8 +1,8 @@
-setTitle("Lost and Found")
+setTranslatedTitle("advancement.sf4.age_exploration.lostcities.title")
 
 setIcon(<telepastries:lost_city_cake>)
 
-setDescription("Travel to the Lost Cities Dimension using a Lost Cities Cake")
+setTranslatedDescription("advancement.sf4.age_exploration.lostcities.description")
 
 addParent("sf4:age_exploration/root")
 

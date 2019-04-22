@@ -1,8 +1,8 @@
-setTitle("The Hot Stuff")
+setTranslatedTitle("advancement.sf4.age_farming.redmulch.title")
 
 setIcon(<inspirations:mulch:5>)
 
-setDescription("Red Mulch in a Bonsai Pot will decrease growth time and increase drop chances")
+setTranslatedDescription("advancement.sf4.age_farming.redmulch.description")
 
 addParent("sf4:age_farming/rubyMulch")
 

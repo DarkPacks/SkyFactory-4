@@ -1,8 +1,8 @@
-setTitle("Tin Man")
+setTranslatedTitle("advancement.sf4.age1.amber.tin.title")
 
 setIcon(<sky_orchards:amber_tin>)
 
-setDescription("Obtain tin by crafting Tin Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Tin and pour it into a Casting Basin or Cast")
+setTranslatedDescription("advancement.sf4.age1.amber.tin.description")
 
 addParent("sf4:age1/sapling/sand")
 

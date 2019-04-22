@@ -1,8 +1,8 @@
-setTitle("Need iiii Speed")
+setTranslatedTitle("advancement.sf4.age_power.speedmodifier.title")
 
 setIcon(<valkyrielib:modifier_speed>)
 
-setDescription("Craft the ValkyrieLib Speed Modifier to speed up the Upgradeable Generators")
+setTranslatedDescription("advancement.sf4.age_power.speedmodifier.description")
 
 addParent("sf4:age_power/simpleGenerator")
 

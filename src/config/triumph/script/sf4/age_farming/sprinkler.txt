@@ -1,8 +1,8 @@
-setTitle("Sick Sprinkler")
+setTranslatedTitle("advancement.sf4.age_farming.sprinkler.title")
 
 setIcon(<cyclicmagic:sprinkler>)
 
-setDescription("Craft and place a Cyclic Sprinkler on top of a water source block for faster crop growth")
+setTranslatedDescription("advancement.sf4.age_farming.sprinkler.description")
 
 addParent("sf4:age_farming/root")
 

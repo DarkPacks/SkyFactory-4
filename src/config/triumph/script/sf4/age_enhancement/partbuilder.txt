@@ -1,8 +1,8 @@
-setTitle("Tim the Tool Man Taylor")
+setTranslatedTitle("advancement.sf4.age_enhancement.partbuilder.title")
 
 setIcon(<tconstruct:tooltables:2>)
 
-setDescription("Craft a Tinkers' Construct Part Builder")
+setTranslatedDescription("advancement.sf4.age_enhancement.partbuilder.description")
 
 addParent("sf4:age_enhancement/stencilTable")
 

@@ -1,8 +1,8 @@
-setTitle("Nether Regions")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.octuplecompressednetherrackblock.title")
 
 setIcon(<tp:octuple_compressed_nether_block>)
 
-setDescription("Craft an Octuple Compressed Netherrack Block because why not?")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.octuplecompressednetherrackblock.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

@@ -1,8 +1,8 @@
-setTitle("Sweet Amber")
+setTranslatedTitle("advancement.sf4.age_farming.ambermulch.title")
 
 setIcon(<inspirations:mulch:3>)
 
-setDescription("Amber Mulch in a Bonsai Pot will decrease growth time and increase drop chances")
+setTranslatedDescription("advancement.sf4.age_farming.ambermulch.description")
 
 addParent("sf4:age_farming/yellowMulch")
 

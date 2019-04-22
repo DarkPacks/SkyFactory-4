@@ -1,8 +1,8 @@
-setTitle("Default")
+setTranslatedTitle("advancement.default.default.root.title")
 
 setIcon(<minecraft:skull>)
 
-setDescription("Hidden Root Advancement for Default World Type")
+setTranslatedDescription("advancement.default.default.root.description")
 
 setBackground("projecte:textures/blocks/dm.png")
 

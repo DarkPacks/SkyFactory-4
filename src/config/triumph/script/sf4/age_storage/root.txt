@@ -1,8 +1,8 @@
-setTitle("Age of Storage")
+setTranslatedTitle("advancement.sf4.age_storage.root.title")
 
 setIcon(<minecraft:chest>)
 
-setDescription("All things related to storage!")
+setTranslatedDescription("advancement.sf4.age_storage.root.description")
 
 setBackground("test:textures/colors/grey.png")
 

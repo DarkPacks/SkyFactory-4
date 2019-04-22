@@ -1,8 +1,8 @@
-setTitle("Spawntacular")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.maxedspawner.title")
 
 setIcon(<minecraft:mob_spawner>)
 
-setDescription("Using Sugar and Clocks, upgrade a Spawner to have 0 delay")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.maxedspawner.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

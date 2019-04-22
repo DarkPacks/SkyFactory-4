@@ -1,8 +1,8 @@
-setTitle("Made for Each Other")
+setTranslatedTitle("advancement.sf4.age_power.alloyfurnace.title")
 
 setIcon(<nuclearcraft:alloy_furnace_idle>)
 
-setDescription("Craft a Nuclearcraft Alloy Furnace to combine items into alloys or other combinations")
+setTranslatedDescription("advancement.sf4.age_power.alloyfurnace.description")
 
 addParent("sf4:age_power/root")
 

@@ -1,8 +1,8 @@
-setTitle("Money Grows on Trees")
+setTranslatedTitle("advancement.sf4.age1.sapling.gold.title")
 
 setIcon(<sky_orchards:sapling_gold>)
 
-setDescription("Pour Molten Gold over an Oak Sapling to make a Gold Sapling")
+setTranslatedDescription("advancement.sf4.age1.sapling.gold.description")
 
 addParent("sf4:age1/amber/gold")
 

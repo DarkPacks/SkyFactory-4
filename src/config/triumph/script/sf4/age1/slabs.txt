@@ -1,8 +1,8 @@
-setTitle("Stop Slabbing Yourself")
+setTranslatedTitle("advancement.sf4.age1.slabs.title")
 
 setIcon(<slabmachines:crafting_station_slab>)
 
-setDescription("Save space and craft a Crafting Slab, Furnace Slab, or Chest Slab")
+setTranslatedDescription("advancement.sf4.age1.slabs.description")
 
 addParent("sf4:age1/root")
 

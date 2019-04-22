@@ -1,8 +1,8 @@
-setTitle("Expand Your Base")
+setTranslatedTitle("advancement.tutorial.tutorial.placeoak.title")
 
 setIcon(<minecraft:wooden_slab>)
 
-setDescription("Now that you're standing on a Dirt Block, you will need to place Oak Planks or Oak Slabs to expand your island")
+setTranslatedDescription("advancement.tutorial.tutorial.placeoak.description")
 
 addParent("tutorial:tutorial/dirtSapling")
 

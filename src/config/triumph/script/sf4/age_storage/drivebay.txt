@@ -1,8 +1,8 @@
-setTitle("Bay Bay You Can Drive My Car")
+setTranslatedTitle("advancement.sf4.age_storage.drivebay.title")
 
 setIcon(<appliedenergistics2:drive>)
 
-setDescription("Obtain Drive Bay")
+setTranslatedDescription("advancement.sf4.age_storage.drivebay.description")
 
 addParent("sf4:age_storage/EngineeringPress")
 addParent("sf4:age_storage/CalculationPress")

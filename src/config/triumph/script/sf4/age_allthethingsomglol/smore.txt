@@ -1,8 +1,8 @@
-setTitle("'Hey Smalls, You want S'more?'")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.smore.title")
 
 setIcon(<nuclearcraft:moresmore>)
 
-setDescription("Craft a MoreS'more DoubleS'mingot")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.smore.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

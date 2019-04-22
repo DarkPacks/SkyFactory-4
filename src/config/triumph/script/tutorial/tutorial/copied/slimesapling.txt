@@ -1,10 +1,10 @@
-setTitle("I Don't Know")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.slimesapling.title")
 
 setIcon(<tconstruct:slime_sapling>)
 
 //setDescription("Acquire a Blue Slime Sapling by Right-Clicking a Lapis Sapling in a Cauldron filled with Milk")
 
-setDescription({"translate":"Acquire a Blue Slime Sapling by using '%1$s' on a Cauldron filled with Milk while holding a Lapis Sapling","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"advancement.tutorial.tutorial.copied.slimesapling.description","with":[{"keybind":"key.use"}]})
 
 addParent("tutorial:tutorial/copied/claySapling")
 

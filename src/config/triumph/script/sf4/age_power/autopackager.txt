@@ -1,8 +1,8 @@
-setTitle("Package Control")
+setTranslatedTitle("advancement.sf4.age_power.autopackager.title")
 
 setIcon(<cyclicmagic:auto_packager>)
 
-setDescription("Craft and use an Auto Packager to autocraft Amber and other select blocks")
+setTranslatedDescription("advancement.sf4.age_power.autopackager.description")
 
 addParent("sf4:age_power/root")
 

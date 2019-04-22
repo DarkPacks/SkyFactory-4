@@ -1,8 +1,8 @@
-setTitle("Eating Dirt")
+setTranslatedTitle("advancement.sf4.age1.acorn.dirt_cooked.title")
 
 setIcon(<sky_orchards:acorn_dirt:1>)
 
-setDescription("Cook any Acorns in a furnace to increase their nutrition value")
+setTranslatedDescription("advancement.sf4.age1.acorn.dirt_cooked.description")
 
 addParent("sf4:age1/acorn/dirt")
 

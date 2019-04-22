@@ -1,8 +1,8 @@
-setTitle("I WANT IT NOW!")
+setTranslatedTitle("advancement.sf4.age_storage.simplestoragerequest.title")
 
 setIcon(<storagenetwork:request>)
 
-setDescription("Craft a Simple Storage Network Request Block to facilitate your processing tasks")
+setTranslatedDescription("advancement.sf4.age_storage.simplestoragerequest.description")
 
 addParent("sf4:age_storage/simpleStorageMaster")
 

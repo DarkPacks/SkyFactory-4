@@ -1,8 +1,8 @@
-setTitle("Floaty McFloaty")
+setTranslatedTitle("advancement.sf4.age_exploration.floaty.title")
 
 setIcon(<tp:fmf_block>)
 
-setDescription("Start a new island in the void by placing a Floaty McFloaty Block in the air")
+setTranslatedDescription("advancement.sf4.age_exploration.floaty.description")
 
 addParent("sf4:age_exploration/root")
 

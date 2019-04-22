@@ -1,8 +1,8 @@
-setTitle("Whopper!")
+setTranslatedTitle("advancement.sf4.age_storage.woodenhopper.title")
 
 setIcon(<tconstruct:wooden_hopper>)
 
-setDescription("Craft a Wooden Hopper")
+setTranslatedDescription("advancement.sf4.age_storage.woodenhopper.description")
 
 addParent("sf4:age_storage/root")
 

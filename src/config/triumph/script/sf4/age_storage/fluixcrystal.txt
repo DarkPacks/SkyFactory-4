@@ -1,8 +1,8 @@
-setTitle("Breaking Bad")
+setTranslatedTitle("advancement.sf4.age_storage.fluixcrystal.title")
 
 setIcon(<appliedenergistics2:material:7>)
 
-setDescription("Obtain Fluix Crystal")
+setTranslatedDescription("advancement.sf4.age_storage.fluixcrystal.description")
 
 addParent("sf4:age_storage/logicProcessor")
 

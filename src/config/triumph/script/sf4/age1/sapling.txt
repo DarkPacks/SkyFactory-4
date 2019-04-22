@@ -1,8 +1,8 @@
-setTitle("Tree Harder")
+setTranslatedTitle("advancement.sf4.age1.sapling.title")
 
 setIcon(<minecraft:sapling>)
 
-setDescription("Obtain any Sapling")
+setTranslatedDescription("advancement.sf4.age1.sapling.description")
 
 addParent("sf4:age1/root")
 addParent("skygrid:skygrid/root")

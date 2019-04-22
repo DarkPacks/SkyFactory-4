@@ -1,8 +1,8 @@
-setTitle("Paxel Rose")
+setTranslatedTitle("advancement.sf4.age_enhancement.paxel.title")
 
 setIcon(<pickletweaks:stone_paxel>)
 
-setDescription("Combine a Shovel, Pickaxe, and Axe to make a Paxel")
+setTranslatedDescription("advancement.sf4.age_enhancement.paxel.description")
 
 addParent("sf4:age_enhancement/root")
 

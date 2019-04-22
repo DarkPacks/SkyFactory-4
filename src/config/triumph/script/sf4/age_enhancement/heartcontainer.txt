@@ -1,8 +1,8 @@
-setTitle("Eat Your Heart Out")
+setTranslatedTitle("advancement.sf4.age_enhancement.heartcontainer.title")
 
 setIcon(<cyclicmagic:heart_food>)
 
-setDescription("Craft and eat a Cyclic Heart Container")
+setTranslatedDescription("advancement.sf4.age_enhancement.heartcontainer.description")
 
 addParent("sf4:age_enhancement/root")
 

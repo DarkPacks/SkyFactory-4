@@ -1,8 +1,8 @@
-setTitle("Ctrl-Z")
+setTranslatedTitle("advancement.sf4.age_power.uncraftinggrinder.title")
 
 setIcon(<cyclicmagic:uncrafting_block>)
 
-setDescription("Craft a Cyclic Uncrafting Grinder to break down items and blocks")
+setTranslatedDescription("advancement.sf4.age_power.uncraftinggrinder.description")
 
 addParent("sf4:age_power/root")
 

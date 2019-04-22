@@ -1,8 +1,8 @@
-setTitle("Don't Eat the Yellow Mulch")
+setTranslatedTitle("advancement.sf4.age_farming.yellowmulch.title")
 
 setIcon(<inspirations:mulch:2>)
 
-setDescription("Yellow Mulch in a Bonsai Pot will decrease growth time and increase drop chances")
+setTranslatedDescription("advancement.sf4.age_farming.yellowmulch.description")
 
 addParent("sf4:age_farming/brownMulch")
 

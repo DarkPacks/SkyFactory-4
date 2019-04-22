@@ -1,8 +1,8 @@
-setTitle("You lose")
+setTranslatedTitle("advancement.pacifist.pacifist_run.lose.title")
 
 setIcon(<minecraft:iron_sword>)
 
-setDescription("You killed an innocent animal. You have lost access to the pacifist recipes")
+setTranslatedDescription("advancement.pacifist.pacifist_run.lose.description")
 
 addParent("pacifist:pacifist_run/root")
 setRequiresParents()

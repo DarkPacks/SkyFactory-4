@@ -1,8 +1,8 @@
-setTitle("Let the Hunt Begin")
+setTranslatedTitle("advancement.sf4.age_exploration.huntingdimension.title")
 
 setIcon(<telepastries:hunting_dimension_cake>)
 
-setDescription("Travel to the Hunting Dimension using a Hunting Dimension Cake")
+setTranslatedDescription("advancement.sf4.age_exploration.huntingdimension.description")
 
 addParent("sf4:age_exploration/root")
 

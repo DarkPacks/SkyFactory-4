@@ -1,8 +1,8 @@
-setTitle("Need a Mint?")
+setTranslatedTitle("advancement.sf4.age_exploration.dragonbreath.title")
 
 setIcon(<minecraft:dragon_breath>)
 
-setDescription("Craft Dragon's Breath")
+setTranslatedDescription("advancement.sf4.age_exploration.dragonbreath.description")
 
 addParent("sf4:age_exploration/dragonKill")
 

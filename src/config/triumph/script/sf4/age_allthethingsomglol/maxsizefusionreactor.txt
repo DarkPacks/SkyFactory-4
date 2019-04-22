@@ -1,8 +1,8 @@
-setTitle("Go Big or Go Home")
+setTranslatedTitle("advancement.sf4.age_allthethingsomglol.maxsizefusionreactor.title")
 
 setIcon(<nuclearcraft:fusion_electromagnet_idle>)
 
-setDescription("Build a Max Size 24x24x24 Nuclearcraft Fusion Reactor")
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.maxsizefusionreactor.description")
 
 addParent("sf4:age_allthethingsomglol/root")
 

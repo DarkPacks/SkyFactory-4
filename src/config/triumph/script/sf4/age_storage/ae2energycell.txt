@@ -1,8 +1,8 @@
-setTitle("MhyCell")
+setTranslatedTitle("advancement.sf4.age_storage.ae2energycell.title")
 
 setIcon(<appliedenergistics2:energy_cell>)
 
-setDescription("Craft an Applied Energistics 2 Energy Cell. In case your system loses power, use this block in your AE2 network to act as a buffer. Your system will have extra time before shutting down")
+setTranslatedDescription("advancement.sf4.age_storage.ae2energycell.description")
 
 addParent("sf4:age_storage/root")
 

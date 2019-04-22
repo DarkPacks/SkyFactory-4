@@ -1,8 +1,8 @@
-setTitle("B-Aiken be Aiken")
+setTranslatedTitle("advancement.sf4.age_power.treadmill.title")
 
 setIcon(<sync:item_treadmill>)
 
-setDescription("Use a treadmill to make Pig Power! Use a Lead to attach the Pig to the Treadmill")
+setTranslatedDescription("advancement.sf4.age_power.treadmill.description")
 
 addParent("sf4:age_power/root")
 

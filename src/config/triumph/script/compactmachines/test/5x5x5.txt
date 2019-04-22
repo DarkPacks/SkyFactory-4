@@ -1,8 +1,8 @@
-setTitle("5x5x5")
+setTranslatedTitle("advancement.compactmachines.test.5x5x5.title")
 
 setIcon(<compactmachines3:machine:1>)
 
-setDescription("Obtain a Melter or a Porcelain Melter to gain a larger Compact Machine")
+setTranslatedDescription("advancement.compactmachines.test.5x5x5.description")
 
 addParent("compactmachines:test/3x3x3")
 

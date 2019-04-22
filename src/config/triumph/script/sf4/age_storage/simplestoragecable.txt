@@ -1,8 +1,8 @@
-setTitle("CAT 5")
+setTranslatedTitle("advancement.sf4.age_storage.simplestoragecable.title")
 
 setIcon(<storagenetwork:kabel>)
 
-setDescription("Craft a Simple Storage Network Cable to connect your network")
+setTranslatedDescription("advancement.sf4.age_storage.simplestoragecable.description")
 
 addParent("sf4:age_storage/simpleStorageMaster")
 

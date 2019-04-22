@@ -1,8 +1,8 @@
-setTitle("This Tree is Forever")
+setTranslatedTitle("advancement.sf4.age1.sapling.diamond.title")
 
 setIcon(<sky_orchards:sapling_diamond>)
 
-setDescription("Craft a Diamond Sapling")
+setTranslatedDescription("advancement.sf4.age1.sapling.diamond.description")
 
 addParent("sf4:age1/sapling/silver")
 addParent("sf4:age1/sapling/gold")

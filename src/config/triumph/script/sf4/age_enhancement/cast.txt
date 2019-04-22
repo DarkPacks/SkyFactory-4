@@ -1,8 +1,8 @@
-setTitle("Sign My Cast")
+setTranslatedTitle("advancement.sf4.age_enhancement.cast.title")
 
 setIcon(<tconstruct:cast,ore:cast,meta:0,count:1,nbt:{PartType:"tconstruct:pick_head"}>)
 
-setDescription("Create a non-clay Pickaxe Head Cast to start upgrading your tools")
+setTranslatedDescription("advancement.sf4.age_enhancement.cast.description")
 
 addParent("sf4:age_enhancement/root")
 

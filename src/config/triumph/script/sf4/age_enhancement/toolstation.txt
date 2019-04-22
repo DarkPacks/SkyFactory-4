@@ -1,8 +1,8 @@
-setTitle("Rolling into the Station")
+setTranslatedTitle("advancement.sf4.age_enhancement.toolstation.title")
 
 setIcon(<tconstruct:tooltables:3>)
 
-setDescription("Craft a Tinkers' Construct Tool Station")
+setTranslatedDescription("advancement.sf4.age_enhancement.toolstation.description")
 
 addParent("sf4:age_enhancement/partBuilder")
 

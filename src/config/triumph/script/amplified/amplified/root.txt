@@ -1,8 +1,8 @@
-setTitle("Amplified")
+setTranslatedTitle("advancement.amplified.amplified.root.title")
 
 setIcon(<minecraft:skull>)
 
-setDescription("Hidden Root Advancement for Amplified World Type")
+setTranslatedDescription("advancement.amplified.amplified.root.description")
 
 setBackground("projecte:textures/blocks/dm.png")
 

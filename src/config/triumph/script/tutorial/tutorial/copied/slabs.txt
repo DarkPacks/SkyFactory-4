@@ -1,8 +1,8 @@
-setTitle("Stop Slabbing Yourself")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.slabs.title")
 
 setIcon(<slabmachines:crafting_station_slab>)
 
-setDescription("Save space and craft a Crafting Slab, Furnace Slab, or Chest Slab")
+setTranslatedDescription("advancement.tutorial.tutorial.copied.slabs.description")
 
 addParent("tutorial:tutorial/root")
 

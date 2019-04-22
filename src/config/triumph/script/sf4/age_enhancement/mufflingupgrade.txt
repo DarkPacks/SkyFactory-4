@@ -1,8 +1,8 @@
-setTitle("Shhhhhhh!")
+setTranslatedTitle("advancement.sf4.age_enhancement.mufflingupgrade.title")
 
 setIcon(<mekanism:mufflingupgrade>)
 
-setDescription("Craft a Mekanism Muffling upgrade to decrease the machine volume")
+setTranslatedDescription("advancement.sf4.age_enhancement.mufflingupgrade.description")
 
 addParent("sf4:age_enhancement/root")
 

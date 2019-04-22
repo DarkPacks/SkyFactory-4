@@ -1,8 +1,8 @@
-setTitle("Power Save Mode")
+setTranslatedTitle("advancement.sf4.age_enhancement.energyupgrade.title")
 
 setIcon(<mekanism:energyupgrade>)
 
-setDescription("Craft a Mekanism Energy upgrade to use less power in your machines")
+setTranslatedDescription("advancement.sf4.age_enhancement.energyupgrade.description")
 
 addParent("sf4:age_enhancement/root")
 

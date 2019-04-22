@@ -1,8 +1,8 @@
-setTitle("Java Overflow")
+setTranslatedTitle("advancement.sf4.age_storage.bdsandmupgrade3.title")
 
 setIcon(<bdsandm:upgrade:2>)
 
-setDescription("Craft a 'Barrels, Drums, Storage, and More' x1k Storage Upgrade")
+setTranslatedDescription("advancement.sf4.age_storage.bdsandmupgrade3.description")
 
 addParent("sf4:age_storage/bdsandmUpgrade2")
 

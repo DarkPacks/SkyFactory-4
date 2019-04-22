@@ -1,8 +1,8 @@
-setTitle("Peaceful Mode On")
+setTranslatedTitle("advancement.pacifist.pacifist_run.peaceful.title")
 
 setIcon(<statues:blockspiderstatuet4>)
 
-setDescription("Hidden advancement to set player world to peaceful")
+setTranslatedDescription("advancement.pacifist.pacifist_run.peaceful.description")
 
 addParent("pacifist:pacifist_run/root")
 setRequiresParents()

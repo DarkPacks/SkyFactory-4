@@ -1,8 +1,8 @@
-setTitle("Wares the Remote?")
+setTranslatedTitle("advancement.sf4.age_storage.simplestorageremote.title")
 
 setIcon(<storagenetwork:remote>)
 
-setDescription("Craft a Simple Storage Network Remote to access your storage network from up to 64 blocks away")
+setTranslatedDescription("advancement.sf4.age_storage.simplestorageremote.description")
 
 addParent("sf4:age_storage/simpleStorageMaster")
 

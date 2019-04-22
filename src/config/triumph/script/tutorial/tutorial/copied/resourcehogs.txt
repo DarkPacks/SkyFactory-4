@@ -1,8 +1,8 @@
-setTitle("Hog Tied")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.resourcehogs.title")
 
 setIcon(<resourcehogs:mud_bucket, meta:0, count:1, nbt:{ResourceType:"cobblestone"}>)
 
-setDescription("Craft a Cobblestone Mud Bucket which you can feed to a Pig to transform it into a Resource Hog. Only similar type Resource Hogs can be bred together (There is a chance you will breed a vanilla Pig)")
+setTranslatedDescription("advancement.tutorial.tutorial.copied.resourcehogs.description")
 
 addParent("tutorial:tutorial/root")
 

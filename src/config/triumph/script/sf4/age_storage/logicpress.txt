@@ -1,8 +1,8 @@
-setTitle("That is Illogical")
+setTranslatedTitle("advancement.sf4.age_storage.logicpress.title")
 
 setIcon(<appliedenergistics2:material:15>)
 
-setDescription("Obtain Logic Press")
+setTranslatedDescription("advancement.sf4.age_storage.logicpress.description")
 
 addParent("sf4:age_storage/root")
 

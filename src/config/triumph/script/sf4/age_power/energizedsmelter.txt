@@ -1,8 +1,8 @@
-setTitle("Gotta Smelt Fast")
+setTranslatedTitle("advancement.sf4.age_power.energizedsmelter.title")
 
 setIcon(<mekanism:machineblock:10>)
 
-setDescription("You can use the Mekanism Energized Smelter in place of a vanilla furnace")
+setTranslatedDescription("advancement.sf4.age_power.energizedsmelter.description")
 
 addParent("sf4:age_power/root")
 

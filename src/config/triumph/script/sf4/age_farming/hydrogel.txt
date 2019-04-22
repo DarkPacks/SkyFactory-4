@@ -1,8 +1,8 @@
-setTitle("Stay Hydrated")
+setTranslatedTitle("advancement.sf4.age_farming.hydrogel.title")
 
 setIcon(<hydrogel:hydrogel>)
 
-setDescription("Use Hydrogel to take the place of water in the middle of your farm")
+setTranslatedDescription("advancement.sf4.age_farming.hydrogel.description")
 
 addParent("sf4:age_farming/root")
 

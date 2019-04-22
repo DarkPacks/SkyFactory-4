@@ -1,8 +1,8 @@
-setTitle("Be Kind. Rewind.")
+setTranslatedTitle("advancement.sf4.age_storage.uninstallupgrade.title")
 
 setIcon(<bdsandm:upgrade:7>)
 
-setDescription("Craft and use the Uninstall Upgrade to remove Barrels, Drums, Storage, and More Crate and Barrel upgrades")
+setTranslatedDescription("advancement.sf4.age_storage.uninstallupgrade.description")
 
 addParent("sf4:age_storage/root")
 

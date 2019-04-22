@@ -1,8 +1,8 @@
-setTitle("Superflat")
+setTranslatedTitle("advancement.superflat.superflat.root.title")
 
 setIcon(<minecraft:skull>)
 
-setDescription("Hidden Root Advancement for Superflat World Type")
+setTranslatedDescription("advancement.superflat.superflat.root.description")
 
 setBackground("projecte:textures/blocks/dm.png")
 

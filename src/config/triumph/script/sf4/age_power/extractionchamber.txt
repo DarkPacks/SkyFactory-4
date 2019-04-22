@@ -1,8 +1,8 @@
-setTitle("Extraction, Extraction, Read All About It!")
+setTranslatedTitle("advancement.sf4.age_power.extractionchamber.title")
 
 setIcon(<deepmoblearning:extraction_chamber>)
 
-setDescription("Acquire a Loot Fabricator from Deep Mob Learning. This machine will convert Pristine Matter into items")
+setTranslatedDescription("advancement.sf4.age_power.extractionchamber.description")
 
 addParent("sf4:age_power/root")
 

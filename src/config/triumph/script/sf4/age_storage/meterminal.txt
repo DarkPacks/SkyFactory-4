@@ -1,8 +1,8 @@
-setTitle("Windows ME")
+setTranslatedTitle("advancement.sf4.age_storage.meterminal.title")
 
 setIcon(<appliedenergistics2:part:380>)
 
-setDescription("Obtain ME Terminal")
+setTranslatedDescription("advancement.sf4.age_storage.meterminal.description")
 
 addParent("sf4:age_storage/logicProcessor")
 

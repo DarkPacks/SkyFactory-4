@@ -1,8 +1,8 @@
-setTitle("Water You Waiting For?")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.water.title")
 
 setIcon(<ceramics:clay_bucket,meta:0,count:1,nbt:{fluids:{FluidName:"water",Amount:1000}}>)
 
-setDescription("Collect Rain Water in a Cauldron or by jumping on a Sapling in a Crushing Tub. Collect it using a Clay Bucket or Iron Bucket")
+setTranslatedDescription("advancement.tutorial.tutorial.copied.water.description")
 
 addParent("tutorial:tutorial/copied/crushingTub")
 addParent("tutorial:tutorial/copied/cauldron")

@@ -1,8 +1,8 @@
-setTitle("Keep It Between the Lines")
+setTranslatedTitle("advancement.sf4.age_enhancement.stenciltable.title")
 
 setIcon(<tconstruct:tooltables:1>)
 
-setDescription("Craft a Tinkers' Construct Stencil Table")
+setTranslatedDescription("advancement.sf4.age_enhancement.stenciltable.description")
 
 addParent("sf4:age_enhancement/root")
 

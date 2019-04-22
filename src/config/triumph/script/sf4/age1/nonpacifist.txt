@@ -1,8 +1,8 @@
-setTitle("NonPacifist")
+setTranslatedTitle("advancement.sf4.age1.nonpacifist.title")
 
 setIcon(<minecraft:cooked_porkchop>)
 
-setDescription("Hidden advancement to grant non-pacifist stage to player on every other world type.")
+setTranslatedDescription("advancement.sf4.age1.nonpacifist.description")
 
 addParent("sf4:age1/root")
 

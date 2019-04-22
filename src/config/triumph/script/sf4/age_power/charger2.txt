@@ -1,8 +1,8 @@
-setTitle("Charger 2: Electric Boogaloo")
+setTranslatedTitle("advancement.sf4.age_power.charger2.title")
 
 setIcon(<chargers:charger:1>)
 
-setDescription("Craft a Tier 2 Charger for quicker charging and increased capacity")
+setTranslatedDescription("advancement.sf4.age_power.charger2.description")
 
 addParent("sf4:age_power/charger1")
 

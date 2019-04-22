@@ -1,8 +1,8 @@
-setTitle("Mr Fusion")
+setTranslatedTitle("advancement.prestige.prestige.energy_cube.title")
 
 setIcon(<mekanism:energycube, nbt:{tier:1}>)
 
-setDescription("If the power requirements are satisfied and the timer is finished, you will gain 1 prestige point and the loop will start back at 10 minutes")
+setTranslatedDescription("advancement.prestige.prestige.energy_cube.description")
 
 addParent("prestige:prestige/clock")
 

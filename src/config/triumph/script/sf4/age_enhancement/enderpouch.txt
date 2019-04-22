@@ -1,10 +1,10 @@
-setTitle("Hot Pockets")
+setTranslatedTitle("advancement.sf4.age_enhancement.enderpouch.title")
 
 setIcon(<enderstorage:ender_pouch>)
 
 //setDescription("Craft an Ender Pouch and Shift Right-Click on an Ender Chest to connect them")
 
-setDescription({"translate":"Craft an Ender Pouch and '%2$s' '%1$s' on an Ender Chest to connect them","with":[{"keybind":"key.use"}, {"keybind":"key.sneak"}]})
+setDescription({"translate":"advancement.sf4.age_enhancement.enderpouch.description","with":[{"keybind":"key.use"}, {"keybind":"key.sneak"}]})
 
 addParent("sf4:age_enhancement/root")
 

@@ -1,8 +1,8 @@
-setTitle("9x9x9")
+setTranslatedTitle("advancement.compactmachines.test.9x9x92.title")
 
 setIcon(<compactmachines3:machine:3>)
 
-setDescription("Obtain Chorus Fruit to gain a larger Compact Machine")
+setTranslatedDescription("advancement.compactmachines.test.9x9x92.description")
 
 addParent("compactmachines:test/7x7x7")
 addParent("compactmachines:test/7x7x72")

@@ -1,8 +1,8 @@
-setTitle("Ore'nt You Glad I Didn't Say Banana")
+setTranslatedTitle("advancement.sf4.age_enhancement.tank.title")
 
 setIcon(<tcomplement:porcelain_tank>)
 
-setDescription("Craft a Seared or Porcelain Tank to heat your Melter")
+setTranslatedDescription("advancement.sf4.age_enhancement.tank.description")
 
 addParent("sf4:age_enhancement/root")
 setRequirements("any")

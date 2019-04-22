@@ -1,8 +1,8 @@
-setTitle("Tesla was Right!")
+setTranslatedTitle("advancement.sf4.age_power.wirelesscharger.title")
 
 setIcon(<chargers:wireless_charger>)
 
-setDescription("Craft a Wireless Charger")
+setTranslatedDescription("advancement.sf4.age_power.wirelesscharger.description")
 
 addParent("sf4:age_power/root")
 

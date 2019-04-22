@@ -1,10 +1,10 @@
-setTitle("Bonsai!!!")
+setTranslatedTitle("advancement.sf4.age_farming.bonsai.title")
 
 setIcon(<bonsaitrees:bonsaipot>)
 
 //setDescription("Use a Bonsai Pot to grow Saplings. Make sure to add Dirt, Fertile Soil, or Colored Mulch first, then add a sapling. Right-click fully grown trees with an Axe to harvest them")
 
-setDescription({"translate":"Use a Bonsai Pot to grow Saplings. Make sure to add Dirt, Fertile Soil, or Colored Mulch first, then add a sapling. '%1$s' fully grown trees with an Axe to harvest them  ","with":[{"keybind":"key.use"}]})
+setDescription({"translate":"advancement.sf4.age_farming.bonsai.description","with":[{"keybind":"key.use"}]})
 
 addParent("sf4:age_farming/root")
 

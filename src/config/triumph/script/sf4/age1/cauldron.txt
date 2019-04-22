@@ -1,8 +1,8 @@
-setTitle("Bubble, Bubble")
+setTranslatedTitle("advancement.sf4.age1.cauldron.title")
 
 setIcon(<morecauldrons:oak_cauldron>)
 
-setDescription("Craft any Cauldron to catch rain water, create lava, dye items, and a bunch of other uses!")
+setTranslatedDescription("advancement.sf4.age1.cauldron.description")
 
 addParent("sf4:age1/root")
 

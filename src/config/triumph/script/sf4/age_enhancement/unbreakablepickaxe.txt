@@ -1,8 +1,8 @@
-setTitle("Unbroken")
+setTranslatedTitle("advancement.sf4.age_enhancement.unbreakablepickaxe.title")
 
 setIcon(<tconstruct:materials:14>)
 
-setDescription("Craft an Unbreakable Tinkers' Construct Tool or Weapon")
+setTranslatedDescription("advancement.sf4.age_enhancement.unbreakablepickaxe.description")
 
 addParent("sf4:age_enhancement/root")
 

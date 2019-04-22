@@ -1,8 +1,8 @@
-setTitle("Getting Warmer")
+setTranslatedTitle("advancement.sf4.age_enhancement.heater.title")
 
 setIcon(<tcomplement:porcelain_melter:8>)
 
-setDescription("The Alloy Tank requires placing a Heater below with fuel to combine liquid metals into alloy. Make sure to match the type of heater with the Alloy Tank (Porcelain vs. Seared)")
+setTranslatedDescription("advancement.sf4.age_enhancement.heater.description")
 
 addParent("sf4:age_enhancement/root")
 setRequirements("any")

@@ -1,8 +1,8 @@
-setTitle("Diagon Alley")
+setTranslatedTitle("advancement.sf4.age_farming.fenceoverhaul.title")
 
 setIcon(<fenceoverhaul:oak_overhauledfence>)
 
-setDescription("Craft any of the diagonal fences from Fence Overhaul")
+setTranslatedDescription("advancement.sf4.age_farming.fenceoverhaul.description")
 
 addParent("sf4:age_farming/root")
 

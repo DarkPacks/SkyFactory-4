@@ -1,8 +1,8 @@
-setTitle("Air Fryer")
+setTranslatedTitle("advancement.sf4.age1.drying_rack.title")
 
 setIcon(<tconstruct:rack:1>)
 
-setDescription("Obtain a Tinkers' Construct Drying Rack")
+setTranslatedDescription("advancement.sf4.age1.drying_rack.description")
 
 addParent("sf4:age1/root")
 

@@ -1,8 +1,8 @@
-setTitle("What Woodent You Store?")
+setTranslatedTitle("advancement.sf4.age_storage.bdsandmwoodenbarrel.title")
 
 setIcon(<bdsandm:wood_barrel>)
 
-setDescription("Craft a 'Barrels, Drums, Storage, and More' Wooden Barrel")
+setTranslatedDescription("advancement.sf4.age_storage.bdsandmwoodenbarrel.description")
 
 addParent("sf4:age_storage/root")
 

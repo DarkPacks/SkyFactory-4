@@ -1,8 +1,8 @@
-setTitle("D'OH!")
+setTranslatedTitle("advancement.sf4.age1.sapling.donut.title")
 
 setIcon(<sky_orchards:sapling_donut>)
 
-setDescription("Craft a Donut Sapling")
+setTranslatedDescription("advancement.sf4.age1.sapling.donut.description")
 
 addParent("sf4:age1/root")
 

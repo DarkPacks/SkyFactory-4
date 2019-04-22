@@ -1,8 +1,8 @@
-setTitle("Ore You Kidding")
+setTranslatedTitle("advancement.sf4.age_storage.bdsandmupgrade5.title")
 
 setIcon(<bdsandm:upgrade:5>)
 
-setDescription("Craft a 'Barrels, Drums, Storage, and More' Ore Dictionary Storage Upgrade")
+setTranslatedDescription("advancement.sf4.age_storage.bdsandmupgrade5.description")
 
 addParent("sf4:age_storage/bdsandmUpgrade4")
 

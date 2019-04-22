@@ -1,8 +1,8 @@
-setTitle("Crafting Station")
+setTranslatedTitle("advancement.tutorial.tutorial.craftingstation.title")
 
 setIcon(<tconstruct:tooltables>)
 
-setDescription("Take your planks and make a Crafting Station to start craft 3x3 recipes. The Crafting Station is an upgrade from the Crafting Table. It allows items to stay in the table when you leave the window")
+setTranslatedDescription("advancement.tutorial.tutorial.craftingstation.description")
 
 addParent("tutorial:tutorial/oakPlanks")
 

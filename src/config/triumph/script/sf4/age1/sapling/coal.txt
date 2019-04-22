@@ -1,8 +1,8 @@
-setTitle("Sixteen Tons")
+setTranslatedTitle("advancement.sf4.age1.sapling.coal.title")
 
 setIcon(<sky_orchards:sapling_coal>)
 
-setDescription("Craft a Coal Sapling")
+setTranslatedDescription("advancement.sf4.age1.sapling.coal.description")
 
 addParent("sf4:age1/sapling/sand")
 

@@ -1,8 +1,8 @@
-setTitle("This Tree is Forever")
+setTranslatedTitle("advancement.tutorial.tutorial.copied.diamondsapling.title")
 
 setIcon(<sky_orchards:sapling_diamond>)
 
-setDescription("Craft a Diamond Sapling")
+setTranslatedDescription("advancement.tutorial.tutorial.copied.diamondsapling.description")
 
 addParent("tutorial:tutorial/copied/goldSapling")
 

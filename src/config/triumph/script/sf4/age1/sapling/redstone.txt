@@ -1,8 +1,8 @@
-setTitle("It's Electric")
+setTranslatedTitle("advancement.sf4.age1.sapling.redstone.title")
 
 setIcon(<sky_orchards:sapling_redstone>)
 
-setDescription("Craft a Redstone Sapling")
+setTranslatedDescription("advancement.sf4.age1.sapling.redstone.description")
 
 addParent("sf4:age1/sapling/iron")
 

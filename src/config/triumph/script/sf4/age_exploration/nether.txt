@@ -1,8 +1,8 @@
-setTitle("Nether Here Nor There")
+setTranslatedTitle("advancement.sf4.age_exploration.nether.title")
 
 setIcon(<minecraft:netherrack>)
 
-setDescription("Craft, place, and eat a Nether Cake to go to the Nether")
+setTranslatedDescription("advancement.sf4.age_exploration.nether.description")
 
 addParent("sf4:age_exploration/root")
 

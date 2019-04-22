@@ -1,8 +1,8 @@
-setTitle("Cobble Cobble")
+setTranslatedTitle("advancement.sf4.age1.cobblestone_generator.title")
 
 setIcon(<minecraft:cobblestone>)
 
-setDescription("Craft or create a Cobblestone Generator and fill all the slots of a Vanilla Chest. Open the Chest to complete the Advancement")
+setTranslatedDescription("advancement.sf4.age1.cobblestone_generator.description")
 
 addParent("sf4:age1/cobblestone")
 

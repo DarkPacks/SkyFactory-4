@@ -1,8 +1,8 @@
-setTitle("Citizen Cane")
+setTranslatedTitle("advancement.sf4.age_farming.sugarcaneseed.title")
 
 setIcon(<inspirations:sugar_cane_seeds>)
 
-setDescription("Crush Leaves in the Rustic Crushing Tub to acquire Sugar Cane Seeds")
+setTranslatedDescription("advancement.sf4.age_farming.sugarcaneseed.description")
 
 addParent("sf4:age_farming/root")
 
