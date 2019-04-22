@@ -2,7 +2,7 @@ setTranslatedTitle("advancement.sf4.age1.cobblestone.title")
 
 setIcon(<minecraft:cobblestone>)
 
-setTranslatedDescription("=Craft a Cobblestone block using petrified Acorns and Resin or using any other method")
+setTranslatedDescription("advancement.sf4.age1.cobblestone.description")
 
 addParent("sf4:age1/root")
 
