@@ -27,6 +27,15 @@
         "§c§nWelcome",
         "§ePress L to open the Advancements"
       ]
+    },
+    {
+      "id": "open_prestige",
+      "lines": [
+        "§c§nPrestige Enabled!",
+        "§ePress 'P' to see the available rewards.",
+        "§eIn Singleplayer, prestige and unlocks are global.",
+        "§eMultiplayer prestige and unlocks are limited to that server only."
+      ]
     }
   ]
 }

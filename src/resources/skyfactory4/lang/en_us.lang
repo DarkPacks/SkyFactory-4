@@ -655,3 +655,5 @@ advancement.projecte.projecte.root.title=ProjectE
 advancement.projecte.projecte.root.description=Lorem ipsum dolor sit amet
 advancement.amplified.amplified.root.title=Amplified
 advancement.amplified.amplified.root.description=Hidden Root Advancement for Amplified World Type
+advancement.sf4.age1.prestige_notify.title=Prestige Helper
+advancement.sf4.age1.prestige_notify.description=Hidden advancement: On triggering, the player will be told how to use Prestige
