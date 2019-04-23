@@ -10,6 +10,7 @@ Bug Fixes:
 * Prevent sorting in Industrial Foregoing Laser Drill's inventory to stop ores from being deleted (#555)
 * Disable fancy rain & snow for performance & fixes some particle issues such as the watering can
 * Fix Magma Slime Dirt prestige not unlocking the Magma Slime Dirt
+* Quantum Ring can now be crafted (#328)
 
 Enhancements:
 * Add localization support to advancements. Currently just en_US; Additional language support PR's are welcome!
@@ -18,6 +19,7 @@ Enhancements:
 * Notify players playing prestige of how it works when first joining a world with Prestige enabled.
 * Change nether cake icon to match the cake you should be crafting to help make it more clear which nether cake is the right one to craft
 * Hopefully clarify that the AE Controller is not needed to use AE (and does not exist in the pack for a reason)
+* Energy P2P Tunnels can now be crafted. Convert between the various types by right clicking with an item that carries or stores the relevant type.
 
 Mod Updates:
 * Apotheosis (1.9.2 -> 1.9.3)

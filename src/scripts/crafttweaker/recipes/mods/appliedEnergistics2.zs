@@ -78,10 +78,23 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<appliedenergistics2:quantum_ring>: [
 		[
 			[<ore:ingotIron>, <appliedenergistics2:material:22>, <ore:ingotIron>],
-			[<appliedenergistics2:material:24>, <appliedenergistics2:energy_cell>.withTag({}), <appliedenergistics2:part:16>],
+			[<appliedenergistics2:material:24>, <appliedenergistics2:energy_cell>, <appliedenergistics2:part:16>],
 			[<ore:ingotIron>, <appliedenergistics2:material:22>, <ore:ingotIron>]
 		]
+	],
+	<appliedenergistics2:part:469>: [
+		[
+			[null, <ore:ingotIron>, null],
+			[<ore:ingotIron>, <appliedenergistics2:material:24>, <ore:ingotIron>],
+			[<appliedenergistics2:material:7>, <appliedenergistics2:material:7>, <appliedenergistics2:material:7>]
+		],
+		[
+			[null, <ore:ingotIron>, null],
+			[<ore:ingotIron>, <appliedenergistics2:material:24>, <ore:ingotIron>],
+			[<appliedenergistics2:material:12>, <appliedenergistics2:material:12>, <appliedenergistics2:material:12>]
+		]
 	]
+		
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
