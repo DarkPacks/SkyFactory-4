@@ -9,6 +9,7 @@ Bug Fixes:
 * Remove duplicate Lost Cities advancement when playing in the Lost Cities world type (#466)
 * Prevent sorting in Industrial Foregoing Laser Drill's inventory to stop ores from being deleted (#555)
 * Disable fancy rain & snow for performance & fixes some particle issues such as the watering can
+* Fix Magma Slime Dirt prestige not unlocking the Magma Slime Dirt
 
 Enhancements:
 * Add localization support to advancements. Currently just en_US; Additional language support PR's are welcome!

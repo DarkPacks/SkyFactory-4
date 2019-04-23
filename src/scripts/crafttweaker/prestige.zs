@@ -35,7 +35,7 @@ function init() {
     prestige.addGamestageReward("blackmulch", stages.blackMulch);
     prestige.addGamestageReward("blueslimedirt", stages.blueSlimeDirt);
     prestige.addGamestageReward("purpleslimedirt", stages.purpleSlimeDirt);
-    prestige.addGamestageReward("orangeslimedirt", stages.orangeSlimeDirt);
+    prestige.addGamestageReward("magmaslimedirt", stages.orangeSlimeDirt);
 
 	// Misc
 	prestige.addGamestageReward("smeltery", stages.smeltery);
