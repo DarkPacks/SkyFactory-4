@@ -21,6 +21,7 @@ Enhancements:
 * Hopefully clarify that the AE Controller is not needed to use AE (and does not exist in the pack for a reason)
 * Energy P2P Tunnels can now be crafted. Convert between the various types by right clicking with an item that carries or stores the relevant type.
 * Added Hardened Glass recipes to NuclearCraft's Infuser and Alloy Furnace machines
+* Where water bottles are used in crafting recipes, an empty bottle is now given back (#617)
 
 Mod Updates:
 * Apotheosis (1.9.2 -> 1.9.3)
