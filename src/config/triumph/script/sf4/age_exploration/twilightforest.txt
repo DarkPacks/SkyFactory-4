@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.twilightforest.title")
+setTitle("Enter the Twilight")
 
 setIcon(<twilightforest:miniature_structure>)
 

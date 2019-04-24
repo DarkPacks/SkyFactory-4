@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.charger2.title")
+setTitle("Charger 2: Electric Boogaloo")
 
 setIcon(<chargers:charger:1>)
 

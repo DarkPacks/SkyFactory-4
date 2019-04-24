@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.energizedsmelter.title")
+setTitle("Gotta Smelt Fast")
 
 setIcon(<mekanism:machineblock:10>)
 

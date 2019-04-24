@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.woodenhopper.title")
+setTitle("Whopper!")
 
 setIcon(<tconstruct:wooden_hopper>)
 

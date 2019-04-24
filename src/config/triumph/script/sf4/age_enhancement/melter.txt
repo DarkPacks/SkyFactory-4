@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.melter.title")
+setTitle("To Be ORe Not to Be")
 
 setIcon(<tcomplement:porcelain_melter>)
 

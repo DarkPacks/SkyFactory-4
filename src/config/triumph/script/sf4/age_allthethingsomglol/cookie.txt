@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.cookie.title")
+setTitle("Who Stole the Cookies from the Cookie Jar?")
 
 setIcon(<bibliocraft:cookiejar>)
 

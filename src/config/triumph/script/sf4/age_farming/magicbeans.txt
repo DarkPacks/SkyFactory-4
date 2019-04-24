@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.magicbeans.title")
+setTitle("Beanboozled")
 
 setIcon(<cyclicmagic:sprout_seed>)
 

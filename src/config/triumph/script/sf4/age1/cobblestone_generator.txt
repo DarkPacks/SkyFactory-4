@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.cobblestone_generator.title")
+setTitle("Cobble Cobble")
 
 setIcon(<minecraft:cobblestone>)
 

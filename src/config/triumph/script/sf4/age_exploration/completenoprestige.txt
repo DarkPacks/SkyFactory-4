@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.completenoprestige.title")
+setTitle("Completionist")
 
 setIcon(<minecraft:cooked_chicken>)
 

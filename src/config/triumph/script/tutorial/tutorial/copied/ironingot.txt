@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.copied.ironingot.title")
+setTitle("Oh, the Irony")
 
 setIcon(<minecraft:iron_ingot>)
 

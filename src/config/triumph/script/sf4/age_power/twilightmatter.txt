@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.twilightmatter.title")
+setTitle("Dusk Till Dawn")
 
 setIcon(<deepmoblearning:living_matter_twilight>)
 

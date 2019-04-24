@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.sugarcaneseed.title")
+setTitle("Citizen Cane")
 
 setIcon(<inspirations:sugar_cane_seeds>)
 

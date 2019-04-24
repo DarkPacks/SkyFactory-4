@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.16384kstoragecell.title")
+setTitle("Zip Disk")
 
 setIcon(<extracells:storage.physical:3>)
 

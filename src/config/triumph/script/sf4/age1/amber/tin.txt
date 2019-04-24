@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.amber.tin.title")
+setTitle("Tin Man")
 
 setIcon(<sky_orchards:amber_tin>)
 

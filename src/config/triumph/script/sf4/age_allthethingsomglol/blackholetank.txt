@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.blackholetank.title")
+setTitle("Bottoms Up")
 
 setIcon(<industrialforegoing:black_hole_tank>)
 

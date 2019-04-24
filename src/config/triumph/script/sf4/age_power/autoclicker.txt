@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.autoclicker.title")
+setTitle("Clicker Hero")
 
 setIcon(<clickmachine:auto_clicker>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.string.title")
+setTitle("You Cotton Something?")
 
 setIcon(<minecraft:string>)
 

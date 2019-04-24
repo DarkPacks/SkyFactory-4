@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.skyorchards.title")
+setTitle("All the Trees")
 
 setIcon(<sky_orchards:sapling_cottonwood>)
 

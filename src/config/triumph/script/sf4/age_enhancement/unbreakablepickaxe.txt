@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.unbreakablepickaxe.title")
+setTitle("Unbroken")
 
 setIcon(<tconstruct:materials:14>)
 

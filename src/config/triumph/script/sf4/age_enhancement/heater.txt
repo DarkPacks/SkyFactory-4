@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.heater.title")
+setTitle("Getting Warmer")
 
 setIcon(<tcomplement:porcelain_melter:8>)
 

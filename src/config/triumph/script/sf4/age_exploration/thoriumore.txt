@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.thoriumore.title")
+setTitle("Thorium's Hammer")
 
 setIcon(<nuclearcraft:ore:3>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.prestige.prestige.root.title")
+setTitle("Prestige")
 
 setIcon(<parabox:parabox>)
 

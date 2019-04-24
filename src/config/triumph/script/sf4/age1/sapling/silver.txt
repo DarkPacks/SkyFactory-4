@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.silver.title")
+setTitle("Silver Spoon")
 
 setIcon(<sky_orchards:sapling_silver>)
 

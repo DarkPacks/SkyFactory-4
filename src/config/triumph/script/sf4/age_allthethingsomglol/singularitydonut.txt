@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.singularitydonut.title")
+setTitle("Mmmm Donuts")
 
 setIcon(<extendedcrafting:singularity_custom:3>)
 

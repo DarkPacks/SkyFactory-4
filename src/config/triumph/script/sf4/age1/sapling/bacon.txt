@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.bacon.title")
+setTitle("OinkTree")
 
 setIcon(<sky_orchards:sapling_bacon>)
 

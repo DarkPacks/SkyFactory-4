@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.petrified.title")
+setTitle("Hardwood")
 
 setIcon(<sky_orchards:sapling_petrified>)
 

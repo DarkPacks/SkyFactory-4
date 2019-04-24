@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.energyacceptor.title")
+setTitle("Accepting Your True Power")
 
 setIcon(<appliedenergistics2:energy_acceptor>)
 

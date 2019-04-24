@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.ingotformer.title")
+setTitle("Getting into Shape")
 
 setIcon(<nuclearcraft:ingot_former_idle>)
 

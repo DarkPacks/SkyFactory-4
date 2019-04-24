@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.compactmachines.test.3x3x3.title")
+setTitle("3x3x3")
 
 setIcon(<compactmachines3:machine>)
 

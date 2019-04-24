@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.copied.diamondsapling.title")
+setTitle("This Tree is Forever")
 
 setIcon(<sky_orchards:sapling_diamond>)
 

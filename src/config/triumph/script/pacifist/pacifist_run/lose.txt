@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.pacifist.pacifist_run.lose.title")
+setTitle("You lose")
 
 setIcon(<minecraft:iron_sword>)
 

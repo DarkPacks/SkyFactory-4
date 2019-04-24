@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.hellishmatter.title")
+setTitle("What the Heck?!")
 
 setIcon(<deepmoblearning:living_matter_hellish>)
 

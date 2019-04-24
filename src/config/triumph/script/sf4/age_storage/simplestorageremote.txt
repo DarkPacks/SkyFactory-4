@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.simplestorageremote.title")
+setTitle("Wares the Remote?")
 
 setIcon(<storagenetwork:remote>)
 

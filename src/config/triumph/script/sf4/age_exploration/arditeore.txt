@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.arditeore.title")
+setTitle("Ardite Amirite")
 
 setIcon(<tconstruct:ore:1>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.upper.title")
+setTitle("ɹǝddoH")
 
 setIcon(<uppers:upper>)
 

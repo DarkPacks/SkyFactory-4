@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.enchantmenttable.title")
+setTitle("An Enchanting Evening")
 
 setIcon(<minecraft:enchanting_table>)
 

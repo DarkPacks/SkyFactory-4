@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.sugarcanesnad.title")
+setTitle("Sugar Daddy")
 
 setIcon(<minecraft:reeds>)
 

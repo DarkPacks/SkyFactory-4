@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.powercelllow.title")
+setTitle("Max Power")
 
 setIcon(<rftoolspower:cell1>)
 

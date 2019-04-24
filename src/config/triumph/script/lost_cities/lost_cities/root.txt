@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.lost_cities.lost_cities.root.title")
+setTitle("Lost Cities")
 
 setIcon(<minecraft:skull>)
 

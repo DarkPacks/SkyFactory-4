@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.skygriddragonkill.title")
+setTitle("Quit Dragon My Heart Around")
 
 setIcon(<minecraft:end_stone>)
 

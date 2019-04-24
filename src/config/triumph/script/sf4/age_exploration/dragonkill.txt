@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.dragonkill.title")
+setTitle("Where's the Boss?")
 
 setIcon(<minecraft:skull:5>)
 

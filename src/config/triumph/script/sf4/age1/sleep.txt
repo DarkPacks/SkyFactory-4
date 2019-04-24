@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sleep.title")
+setTitle("Nap Time")
 
 setIcon(<minecraft:bed>)
 

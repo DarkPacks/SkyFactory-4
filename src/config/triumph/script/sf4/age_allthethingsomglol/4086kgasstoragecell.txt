@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.4086kgasstoragecell.title")
+setTitle("Hit the Gas")
 
 setIcon(<extracells:storage.gas:6>)
 

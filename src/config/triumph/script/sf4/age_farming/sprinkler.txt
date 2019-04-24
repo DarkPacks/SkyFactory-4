@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.sprinkler.title")
+setTitle("Sick Sprinkler")
 
 setIcon(<cyclicmagic:sprinkler>)
 

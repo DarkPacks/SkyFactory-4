@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.pacifist.pacifist_run.root.title")
+setTitle("Pacifist World")
 
 setIcon(<minecraft:red_flower:8>)
 

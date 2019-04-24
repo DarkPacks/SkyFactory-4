@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.redstone.title")
+setTitle("It's Electric")
 
 setIcon(<sky_orchards:sapling_redstone>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.bone.title")
+setTitle("Break a Leg")
 
 setIcon(<sky_orchards:sapling_bone>)
 

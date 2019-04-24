@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.tin.title")
+setTitle("It's Tin This Pack")
 
 setIcon(<sky_orchards:sapling_tin>)
 

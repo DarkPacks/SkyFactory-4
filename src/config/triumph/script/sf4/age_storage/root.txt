@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.root.title")
+setTitle("Age of Storage")
 
 setIcon(<minecraft:chest>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.pristineendermanmatter.title")
+setTitle("The End of all Matter")
 
 setIcon(<deepmoblearning:pristine_matter_enderman>)
 

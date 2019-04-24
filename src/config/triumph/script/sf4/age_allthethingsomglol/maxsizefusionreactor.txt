@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.maxsizefusionreactor.title")
+setTitle("Go Big or Go Home")
 
 setIcon(<nuclearcraft:fusion_electromagnet_idle>)
 

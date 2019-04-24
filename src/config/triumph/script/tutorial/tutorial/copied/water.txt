@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.copied.water.title")
+setTitle("Water You Waiting For?")
 
 setIcon(<ceramics:clay_bucket,meta:0,count:1,nbt:{fluids:{FluidName:"water",Amount:1000}}>)
 

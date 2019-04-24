@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.statues.title")
+setTitle("Hall of Fame")
 
 setIcon(<statues:blockbabyzombiestatuet4>)
 

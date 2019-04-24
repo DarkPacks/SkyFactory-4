@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.dilithiumore.title")
+setTitle("Even Scotty Doesn't Know")
 
 setIcon(<matteroverdrive:dilithium_ore>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.filecabinet.title")
+setTitle("Going On Your Permanent Record")
 
 setIcon(<realfilingcabinet:emptyfolder>)
 

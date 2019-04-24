@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.placeoak.title")
+setTitle("Expand Your Base")
 
 setIcon(<minecraft:wooden_slab>)
 

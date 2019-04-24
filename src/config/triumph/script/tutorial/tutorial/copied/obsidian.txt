@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.copied.obsidian.title")
+setTitle("Study in the Dark Arts")
 
 setIcon(<minecraft:obsidian>)
 

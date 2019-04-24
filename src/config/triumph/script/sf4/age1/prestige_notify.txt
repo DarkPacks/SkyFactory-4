@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.prestige_notify.title")
+setTitle("prestige_notify")
 
 setIcon(<minecraft:sapling>)
 

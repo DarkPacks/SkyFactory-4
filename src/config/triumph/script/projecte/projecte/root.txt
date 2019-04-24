@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.projecte.projecte.root.title")
+setTitle("ProjectE")
 
 setIcon(<projecte:transmutation_table>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.boronore.title")
+setTitle("You're Boron Me")
 
 setIcon(<nuclearcraft:ore:5>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.powercellmedium.title")
+setTitle("It Keeps Going... and Going...")
 
 setIcon(<rftoolspower:cell2>)
 

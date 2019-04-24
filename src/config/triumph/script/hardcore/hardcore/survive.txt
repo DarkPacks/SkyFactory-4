@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.hardcore.hardcore.survive.title")
+setTitle("Through the Looking Glass")
 
 setIcon(<cyclicmagic:soulstone>)
 

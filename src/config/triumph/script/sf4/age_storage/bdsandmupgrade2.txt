@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.bdsandmupgrade2.title")
+setTitle("256 Liters of Cola")
 
 setIcon(<bdsandm:upgrade:1>)
 

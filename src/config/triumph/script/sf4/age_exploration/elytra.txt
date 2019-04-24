@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.elytra.title")
+setTitle("It Gives You Wings")
 
 setIcon(<minecraft:elytra>)
 

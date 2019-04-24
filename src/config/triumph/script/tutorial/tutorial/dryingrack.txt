@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.dryingrack.title")
+setTitle("Drying Rack")
 
 setIcon(<tconstruct:rack:1>)
 

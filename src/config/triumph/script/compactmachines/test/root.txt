@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.compactmachines.test.root.title")
+setTitle("Compact Machines World")
 
 setIcon(<compactmachines3:psd>)
 

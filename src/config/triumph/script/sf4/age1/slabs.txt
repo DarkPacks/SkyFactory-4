@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.slabs.title")
+setTitle("Stop Slabbing Yourself")
 
 setIcon(<slabmachines:crafting_station_slab>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.charger3.title")
+setTitle("No Chargebacks")
 
 setIcon(<chargers:charger:2>)
 

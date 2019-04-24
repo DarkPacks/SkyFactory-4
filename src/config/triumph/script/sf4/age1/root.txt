@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.root.title")
+setTitle("SkyFactory 4")
 
 setIcon(<minecraft:sapling>)
 

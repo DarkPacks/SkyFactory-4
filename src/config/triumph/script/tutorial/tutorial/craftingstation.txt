@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.craftingstation.title")
+setTitle("Crafting Station")
 
 setIcon(<tconstruct:tooltables>)
 

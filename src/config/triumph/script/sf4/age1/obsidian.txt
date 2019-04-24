@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.obsidian.title")
+setTitle("Study in the Dark Arts")
 
 setIcon(<minecraft:obsidian>)
 

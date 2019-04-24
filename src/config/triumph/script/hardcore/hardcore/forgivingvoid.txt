@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.hardcore.hardcore.forgivingvoid.title")
+setTitle("Forgiving Void")
 
 setIcon(<minecraft:elytra>)
 

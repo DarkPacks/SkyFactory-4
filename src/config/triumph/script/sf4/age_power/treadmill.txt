@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.treadmill.title")
+setTitle("B-Aiken be Aiken")
 
 setIcon(<sync:item_treadmill>)
 

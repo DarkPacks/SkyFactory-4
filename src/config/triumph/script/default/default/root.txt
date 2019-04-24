@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.default.default.root.title")
+setTitle("Default")
 
 setIcon(<minecraft:skull>)
 

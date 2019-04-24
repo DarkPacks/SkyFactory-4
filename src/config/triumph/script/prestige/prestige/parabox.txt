@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.prestige.prestige.parabox.title")
+setTitle("Prestiging")
 
 setIcon(<parabox:parabox>)
 

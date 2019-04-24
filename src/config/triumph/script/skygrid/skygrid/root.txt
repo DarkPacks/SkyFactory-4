@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.skygrid.skygrid.root.title")
+setTitle("Sky Grid")
 
 setIcon(<chisel:glass:12>)
 

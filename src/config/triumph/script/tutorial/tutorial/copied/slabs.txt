@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.copied.slabs.title")
+setTitle("Stop Slabbing Yourself")
 
 setIcon(<slabmachines:crafting_station_slab>)
 

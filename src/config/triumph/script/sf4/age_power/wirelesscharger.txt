@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.wirelesscharger.title")
+setTitle("Tesla was Right!")
 
 setIcon(<chargers:wireless_charger>)
 

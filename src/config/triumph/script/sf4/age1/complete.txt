@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.complete.title")
+setTitle("You Win!")
 
 setIcon(<minecraft:cooked_chicken>)
 

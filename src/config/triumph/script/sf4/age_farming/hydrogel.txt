@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.hydrogel.title")
+setTitle("Stay Hydrated")
 
 setIcon(<hydrogel:hydrogel>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.amplified.amplified.root.title")
+setTitle("Amplified")
 
 setIcon(<minecraft:skull>)
 

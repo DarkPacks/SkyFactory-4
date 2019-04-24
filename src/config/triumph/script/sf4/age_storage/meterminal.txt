@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.meterminal.title")
+setTitle("Windows ME")
 
 setIcon(<appliedenergistics2:part:380>)
 

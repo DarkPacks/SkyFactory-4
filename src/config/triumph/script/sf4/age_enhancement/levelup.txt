@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.levelup.title")
+setTitle("Ding!")
 
 setIcon(<rustic:deathstalk_mushroom>)
 

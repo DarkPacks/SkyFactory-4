@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.drying_rack.title")
+setTitle("Air Fryer")
 
 setIcon(<tconstruct:rack:1>)
 

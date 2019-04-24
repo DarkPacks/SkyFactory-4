@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.superflat.superflat.root.title")
+setTitle("Superflat")
 
 setIcon(<minecraft:skull>)
 

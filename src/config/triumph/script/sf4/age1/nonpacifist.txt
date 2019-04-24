@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.nonpacifist.title")
+setTitle("NonPacifist")
 
 setIcon(<minecraft:cooked_porkchop>)
 

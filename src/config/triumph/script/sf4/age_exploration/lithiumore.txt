@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.lithiumore.title")
+setTitle("Smells Like Nirvana")
 
 setIcon(<nuclearcraft:ore:6>)
 

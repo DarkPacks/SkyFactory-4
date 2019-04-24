@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.donut.title")
+setTitle("D'OH!")
 
 setIcon(<sky_orchards:sapling_donut>)
 

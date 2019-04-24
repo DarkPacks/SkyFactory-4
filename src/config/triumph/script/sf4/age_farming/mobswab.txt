@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.mobswab.title")
+setTitle("Swab the Deck")
 
 setIcon(<mob_grinding_utils:mob_swab:1>)
 

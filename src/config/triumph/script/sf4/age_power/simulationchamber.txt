@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.simulationchamber.title")
+setTitle("Down the Rabbit Hole")
 
 setIcon(<deepmoblearning:simulation_chamber>)
 

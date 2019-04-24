@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.fissionreactor.title")
+setTitle("Gone Fission")
 
 setIcon(<nuclearcraft:depleted_fuel_californium:7>)
 

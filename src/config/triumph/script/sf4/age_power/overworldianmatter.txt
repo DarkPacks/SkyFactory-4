@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.overworldianmatter.title")
+setTitle("What's the Matter with Overworldians?")
 
 setIcon(<deepmoblearning:living_matter_overworldian>)
 

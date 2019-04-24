@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.copied.ironsapling.title")
+setTitle("Ironwood")
 
 setIcon(<sky_orchards:sapling_iron>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.modifiermaster.title")
+setTitle("Modifier Master")
 
 setIcon(<tconstruct:materials:14>)
 

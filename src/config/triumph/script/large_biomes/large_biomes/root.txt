@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.large_biomes.large_biomes.root.title")
+setTitle("Large Biomes")
 
 setIcon(<minecraft:skull>)
 

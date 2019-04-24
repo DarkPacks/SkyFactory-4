@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.cookiesingularityjar.title")
+setTitle("Cookie Clicker")
 
 setIcon(<extendedcrafting:singularity_custom:1>)
 

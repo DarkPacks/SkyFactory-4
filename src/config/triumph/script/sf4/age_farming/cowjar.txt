@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.cowjar.title")
+setTitle("Condensed Milk")
 
 setIcon(<cookingforblockheads:cow_jar>)
 

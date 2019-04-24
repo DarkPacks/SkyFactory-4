@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.pristinezombiematter.title")
+setTitle("Dead Cells")
 
 setIcon(<deepmoblearning:pristine_matter_zombie>)
 

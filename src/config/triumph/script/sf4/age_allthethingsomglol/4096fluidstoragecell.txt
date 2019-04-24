@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.4096fluidstoragecell.title")
+setTitle("Ocean Man")
 
 setIcon(<extracells:storage.component:10>)
 

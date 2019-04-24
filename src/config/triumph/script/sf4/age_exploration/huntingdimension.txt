@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.huntingdimension.title")
+setTitle("Let the Hunt Begin")
 
 setIcon(<telepastries:hunting_dimension_cake>)
 

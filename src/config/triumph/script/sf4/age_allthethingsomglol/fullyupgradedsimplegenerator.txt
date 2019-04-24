@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.fullyupgradedsimplegenerator.title")
+setTitle("MAXIMUM OVERDRIVE")
 
 setIcon(<simplegenerators:culinary_upgradable>)
 

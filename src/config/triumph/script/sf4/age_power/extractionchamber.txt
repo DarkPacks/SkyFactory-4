@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.extractionchamber.title")
+setTitle("Extraction, Extraction, Read All About It!")
 
 setIcon(<deepmoblearning:extraction_chamber>)
 

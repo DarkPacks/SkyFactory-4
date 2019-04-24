@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.endcake.title")
+setTitle("B'Aiken a C'Aiken")
 
 setIcon(<telepastries:end_cake>)
 

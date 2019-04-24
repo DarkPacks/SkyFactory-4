@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.fusionreactor.title")
+setTitle("Don't Overreact")
 
 setIcon(<matteroverdrive:gravitational_anomaly>)
 

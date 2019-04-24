@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.oakwood.title")
+setTitle("Oak Wood")
 
 setIcon(<minecraft:log>)
 

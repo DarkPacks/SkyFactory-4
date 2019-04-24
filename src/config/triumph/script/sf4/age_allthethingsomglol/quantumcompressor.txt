@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.quantumcompressor.title")
+setTitle("'This Baby Can Fit so Much Matter'")
 
 setIcon(<extendedcrafting:compressor>)
 

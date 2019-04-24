@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.diamond.title")
+setTitle("Trees to Diamonds")
 
 setIcon(<minecraft:diamond>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.root.title")
+setTitle("Age of Enhancement")
 
 setIcon(<minecraft:anvil>)
 

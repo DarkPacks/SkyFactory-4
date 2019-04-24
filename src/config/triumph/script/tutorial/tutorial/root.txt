@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.root.title")
+setTitle("Tutorial")
 
 setIcon(<minecraft:knowledge_book>)
 

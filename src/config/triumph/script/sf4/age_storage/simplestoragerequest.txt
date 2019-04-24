@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.simplestoragerequest.title")
+setTitle("I WANT IT NOW!")
 
 setIcon(<storagenetwork:request>)
 

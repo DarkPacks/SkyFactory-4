@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.hardcore.hardcore.root.title")
+setTitle("SkyFactory 4 Hardcore Mode")
 
 setIcon(<minecraft:skull>)
 

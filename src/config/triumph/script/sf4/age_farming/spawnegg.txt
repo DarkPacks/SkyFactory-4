@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.spawnegg.title")
+setTitle("Egg Hunt")
 
 setIcon(<minecraft:spawn_egg>)
 

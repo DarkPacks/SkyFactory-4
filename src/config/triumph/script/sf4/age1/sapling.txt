@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.title")
+setTitle("Tree Harder")
 
 setIcon(<minecraft:sapling>)
 

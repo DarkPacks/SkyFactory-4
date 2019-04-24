@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.simplestoragecable.title")
+setTitle("CAT 5")
 
 setIcon(<storagenetwork:kabel>)
 

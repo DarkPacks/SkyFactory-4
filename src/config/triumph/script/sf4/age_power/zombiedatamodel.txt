@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.zombiedatamodel.title")
+setTitle("Bring Me to Life")
 
 setIcon(<deepmoblearning:data_model_zombie>)
 

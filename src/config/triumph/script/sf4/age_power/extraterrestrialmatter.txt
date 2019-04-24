@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.extraterrestrialmatter.title")
+setTitle("The Truth is Out There")
 
 setIcon(<deepmoblearning:living_matter_extraterrestrial>)
 

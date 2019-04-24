@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.hoppingbonsai.title")
+setTitle("Cowabonsai!")
 
 setIcon(<bonsaitrees:bonsaipot:1>)
 

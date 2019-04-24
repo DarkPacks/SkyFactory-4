@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.amber.gold.title")
+setTitle("One Shiny Boi")
 
 setIcon(<sky_orchards:amber_gold>)
 

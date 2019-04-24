@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.alloytank.title")
+setTitle("I'll Be Your Alloy")
 
 setIcon(<tcomplement:porcelain_alloy_tank>)
 

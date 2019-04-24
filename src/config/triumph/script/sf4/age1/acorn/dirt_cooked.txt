@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.acorn.dirt_cooked.title")
+setTitle("Eating Dirt")
 
 setIcon(<sky_orchards:acorn_dirt:1>)
 

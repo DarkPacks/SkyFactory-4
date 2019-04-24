@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.waterinnether.title")
+setTitle("Hell of a Boat Ride")
 
 setIcon(<minecraft:water_bucket>)
 

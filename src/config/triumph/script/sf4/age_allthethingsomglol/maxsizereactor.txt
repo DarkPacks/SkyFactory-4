@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.maxsizereactor.title")
+setTitle("Size Does Matter")
 
 setIcon(<nuclearcraft:fission_controller_new_fixed>)
 

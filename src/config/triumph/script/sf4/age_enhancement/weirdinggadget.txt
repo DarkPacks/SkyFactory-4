@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.weirdinggadget.title")
+setTitle("Weirdly Mesmerizing")
 
 setIcon(<weirdinggadget:weirding_gadget>)
 

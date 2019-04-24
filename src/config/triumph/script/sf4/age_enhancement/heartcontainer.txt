@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.heartcontainer.title")
+setTitle("Eat Your Heart Out")
 
 setIcon(<cyclicmagic:heart_food>)
 

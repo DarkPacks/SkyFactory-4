@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.inventoryupgrade.title")
+setTitle("Storage Wars")
 
 setIcon(<cyclicmagic:inventory_food>)
 

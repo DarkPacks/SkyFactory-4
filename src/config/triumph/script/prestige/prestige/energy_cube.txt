@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.prestige.prestige.energy_cube.title")
+setTitle("Mr Fusion")
 
 setIcon(<mekanism:energycube, nbt:{tier:1}>)
 

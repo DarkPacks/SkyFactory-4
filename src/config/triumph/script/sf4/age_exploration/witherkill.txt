@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.witherkill.title")
+setTitle("Wither Without You")
 
 setIcon(<minecraft:skull:1>)
 

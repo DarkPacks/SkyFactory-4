@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.uncraftinggrinder.title")
+setTitle("Ctrl-Z")
 
 setIcon(<cyclicmagic:uncrafting_block>)
 

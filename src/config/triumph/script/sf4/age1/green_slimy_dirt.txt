@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.green_slimy_dirt.title")
+setTitle("I've Been Slimed")
 
 setIcon(<tconstruct:slime_dirt:0>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.iron_bucket.title")
+setTitle("Not a Helmet")
 
 setIcon(<minecraft:bucket>)
 

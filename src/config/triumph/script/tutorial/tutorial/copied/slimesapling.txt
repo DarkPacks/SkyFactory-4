@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.copied.slimesapling.title")
+setTitle("I Don't Know")
 
 setIcon(<tconstruct:slime_sapling>)
 

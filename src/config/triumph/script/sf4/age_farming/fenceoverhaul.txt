@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.fenceoverhaul.title")
+setTitle("Diagon Alley")
 
 setIcon(<fenceoverhaul:oak_overhauledfence>)
 

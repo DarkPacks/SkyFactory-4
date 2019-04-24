@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.animalseeds.title")
+setTitle("Animals Croppings")
 
 setIcon(<animalcrops:seeds, meta:0, count:1, nbt:{entity: "minecraft:villager"}>)
 

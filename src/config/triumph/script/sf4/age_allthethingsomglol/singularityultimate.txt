@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.singularityultimate.title")
+setTitle("Ender Game")
 
 setIcon(<extendedcrafting:singularity_ultimate>)
 

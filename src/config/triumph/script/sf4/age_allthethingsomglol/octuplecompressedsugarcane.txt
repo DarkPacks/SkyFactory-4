@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.octuplecompressedsugarcane.title")
+setTitle("SUGAR HIGH")
 
 setIcon(<tp:octuple_compressed_sugar_cane>)
 

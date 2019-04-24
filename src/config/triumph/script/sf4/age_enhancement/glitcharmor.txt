@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.glitcharmor.title")
+setTitle("Armor 404")
 
 setIcon(<deepmoblearning:glitch_infused_chestplate>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.market.title")
+setTitle("This Little Piggy")
 
 setIcon(<farmingforblockheads:market>)
 

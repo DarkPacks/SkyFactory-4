@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.pristinematter.title")
+setTitle("Nothing Else Matters")
 
 setIcon(<deepmoblearning:pristine_matter_zombie>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.root.title")
+setTitle("Age of Exploration")
 
 setIcon(<telepastries:overworld_cake>)
 

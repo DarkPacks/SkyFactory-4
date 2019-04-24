@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.copied.coalsapling.title")
+setTitle("Sixteen Tons")
 
 setIcon(<sky_orchards:sapling_coal>)
 

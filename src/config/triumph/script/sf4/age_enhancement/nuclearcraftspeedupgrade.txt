@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.nuclearcraftspeedupgrade.title")
+setTitle("Overworked and Underpaid")
 
 setIcon(<nuclearcraft:upgrade>)
 

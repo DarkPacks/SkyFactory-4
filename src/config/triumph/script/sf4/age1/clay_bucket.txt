@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.clay_bucket.title")
+setTitle("Slop in the Bucket")
 
 setIcon(<ceramics:unfired_clay>)
 

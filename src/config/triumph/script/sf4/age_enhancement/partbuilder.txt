@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.partbuilder.title")
+setTitle("Tim the Tool Man Taylor")
 
 setIcon(<tconstruct:tooltables:2>)
 

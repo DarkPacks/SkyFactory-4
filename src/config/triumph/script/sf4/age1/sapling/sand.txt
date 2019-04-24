@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.sand.title")
+setTitle("Palm Trees")
 
 setIcon(<sky_orchards:sapling_sand>)
 

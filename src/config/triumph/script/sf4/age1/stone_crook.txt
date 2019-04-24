@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.stone_crook.title")
+setTitle("Stone Crook")
 
 setIcon(<inspirations:stone_crook>)
 

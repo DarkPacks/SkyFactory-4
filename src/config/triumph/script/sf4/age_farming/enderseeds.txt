@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.enderseeds.title")
+setTitle("It's the End of the World As We Know It")
 
 setIcon(<endercrop:ender_seeds>)
 

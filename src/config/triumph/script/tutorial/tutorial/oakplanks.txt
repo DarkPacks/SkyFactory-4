@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.oakplanks.title")
+setTitle("Planks")
 
 setIcon(<minecraft:planks>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.pristinewitherskeletonmatter.title")
+setTitle("Withered Away")
 
 setIcon(<deepmoblearning:pristine_matter_wither_skeleton>)
 

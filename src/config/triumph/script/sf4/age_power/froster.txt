@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.froster.title")
+setTitle("Slush Puppy")
 
 setIcon(<industrialforegoing:froster>)
 

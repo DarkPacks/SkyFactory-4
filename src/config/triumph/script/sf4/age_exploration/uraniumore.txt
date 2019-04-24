@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.uraniumore.title")
+setTitle("Uranium Fever")
 
 setIcon(<nuclearcraft:ore:4>)
 

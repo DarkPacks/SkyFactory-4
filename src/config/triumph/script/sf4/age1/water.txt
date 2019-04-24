@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.water.title")
+setTitle("Water You Waiting For?")
 
 setIcon(<nuclearcraft:fluid_preheated_water>)
 

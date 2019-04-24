@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.copied.gravelsapling.title")
+setTitle("Don't Sieve on Me")
 
 setIcon(<sky_orchards:sapling_gravel>)
 

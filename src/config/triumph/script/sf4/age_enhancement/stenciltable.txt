@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.stenciltable.title")
+setTitle("Keep It Between the Lines")
 
 setIcon(<tconstruct:tooltables:1>)
 

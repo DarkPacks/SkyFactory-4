@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.paxel.title")
+setTitle("Paxel Rose")
 
 setIcon(<pickletweaks:stone_paxel>)
 

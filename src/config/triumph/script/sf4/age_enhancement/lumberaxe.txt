@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.lumberaxe.title")
+setTitle("Axe Me Anything")
 
 setIcon(<tconstruct:lumberaxe>)
 

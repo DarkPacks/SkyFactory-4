@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.woodencrook.title")
+setTitle("Wooden Crook")
 
 setIcon(<inspirations:wooden_crook>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.exchangertool.title")
+setTitle("Oops I Did It Again")
 
 setIcon(<buildinggadgets:exchangertool>)
 

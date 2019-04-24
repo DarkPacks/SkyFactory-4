@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.logicpress.title")
+setTitle("That is Illogical")
 
 setIcon(<appliedenergistics2:material:15>)
 

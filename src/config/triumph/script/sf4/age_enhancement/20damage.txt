@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.20damage.title")
+setTitle("It's Over 20!")
 
 setIcon(<cyclicmagic:sword_ender>)
 

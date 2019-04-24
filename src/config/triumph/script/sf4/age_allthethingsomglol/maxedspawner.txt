@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.maxedspawner.title")
+setTitle("Spawntacular")
 
 setIcon(<minecraft:mob_spawner>)
 

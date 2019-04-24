@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.melter.title")
+setTitle("Warm and Gooey")
 
 setIcon(<nuclearcraft:melter_idle>)
 

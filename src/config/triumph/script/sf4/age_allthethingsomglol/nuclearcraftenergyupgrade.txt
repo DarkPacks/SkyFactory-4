@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.nuclearcraftenergyupgrade.title")
+setTitle("I'm Not Lazy, I'm Energy Efficient")
 
 setIcon(<nuclearcraft:upgrade:1>)
 

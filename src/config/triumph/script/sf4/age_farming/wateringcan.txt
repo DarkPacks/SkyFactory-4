@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.wateringcan.title")
+setTitle("Yes We Can!")
 
 setIcon(<tp:watering_can>)
 

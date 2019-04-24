@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.smore.title")
+setTitle("'Hey Smalls, You want S'more?'")
 
 setIcon(<nuclearcraft:moresmore>)
 

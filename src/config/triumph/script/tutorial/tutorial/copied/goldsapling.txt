@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.copied.goldsapling.title")
+setTitle("Money Grows on Trees")
 
 setIcon(<sky_orchards:sapling_gold>)
 

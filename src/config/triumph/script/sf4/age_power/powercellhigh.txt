@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.powercellhigh.title")
+setTitle("Jacob's Ladder")
 
 setIcon(<rftoolspower:cell3>)
 

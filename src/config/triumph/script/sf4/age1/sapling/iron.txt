@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.iron.title")
+setTitle("Ironwood")
 
 setIcon(<sky_orchards:sapling_iron>)
 

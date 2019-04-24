@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.lead.title")
+setTitle("Lead Zeppelin")
 
 setIcon(<sky_orchards:sapling_lead>)
 

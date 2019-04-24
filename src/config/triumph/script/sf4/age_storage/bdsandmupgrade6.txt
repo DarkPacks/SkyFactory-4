@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.bdsandmupgrade6.title")
+setTitle("Void Ze Stuff")
 
 setIcon(<bdsandm:upgrade:6>)
 

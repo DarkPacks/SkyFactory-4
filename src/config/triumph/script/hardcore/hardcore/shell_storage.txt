@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.hardcore.hardcore.shell_storage.title")
+setTitle("Shell Script")
 
 setIcon(<statues:blockpigstatue>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.clay.title")
+setTitle("Clay Aiken")
 
 setIcon(<sky_orchards:sapling_clay>)
 

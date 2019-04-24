@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.copied.claysapling.title")
+setTitle("Clay Aiken")
 
 setIcon(<sky_orchards:sapling_clay>)
 

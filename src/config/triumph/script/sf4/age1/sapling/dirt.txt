@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.dirt.title")
+setTitle("That's Dir-tree")
 
 setIcon(<sky_orchards:sapling_dirt>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.placedirtsapling.title")
+setTitle("Place Dirt Sapling")
 
 setIcon(<minecraft:dirt>)
 

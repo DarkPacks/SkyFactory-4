@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.root.title")
+setTitle("Age of Power")
 
 setIcon(<chisel:technicalnew:3>)
 

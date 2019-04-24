@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.customized.customized.root.title")
+setTitle("Customized")
 
 setIcon(<minecraft:skull>)
 

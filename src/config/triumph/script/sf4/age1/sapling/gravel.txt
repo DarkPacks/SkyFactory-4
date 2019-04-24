@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.gravel.title")
+setTitle("Don't Sieve on Me")
 
 setIcon(<sky_orchards:sapling_gravel>)
 

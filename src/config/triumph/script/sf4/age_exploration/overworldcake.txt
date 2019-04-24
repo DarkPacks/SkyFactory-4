@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.overworldcake.title")
+setTitle("No Cake Like Home")
 
 setIcon(<telepastries:overworld_cake>)
 

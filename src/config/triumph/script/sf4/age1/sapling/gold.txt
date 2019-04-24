@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.gold.title")
+setTitle("Money Grows on Trees")
 
 setIcon(<sky_orchards:sapling_gold>)
 

@@ -24,10 +24,10 @@ for advancementPath, advancementTranslationKey in advancements.items():
     with tempfile.NamedTemporaryFile(mode="r+") as tempFile:
         with open(advancementPath, "r") as advancementFile:
             for line in advancementFile:
-                if line.startswith("setTitle") and not re.match(".*\"translate\":", line):
-                    line = line.replace("setTitle", "setTranslatedTitle")
-                    lang[advancementTranslationKey + ".title"] = line.split('"')[1]
-                    line = re.sub("\".*\"", "\"" + advancementTranslationKey + ".title" + "\"", line)
+                # if line.startswith("setTitle") and not re.match(".*\"translate\":", line):
+                #     line = line.replace("setTitle", "setTranslatedTitle")
+                #     lang[advancementTranslationKey + ".title"] = line.split('"')[1]
+                #     line = re.sub("\".*\"", "\"" + advancementTranslationKey + ".title" + "\"", line)
                 if line.startswith("setDescription") and not re.match(".*\"text\":", line):
                     if not re.match(".*\"translate\":", line):
                         line = line.replace("setDescription", "setTranslatedDescription")

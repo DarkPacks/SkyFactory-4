@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.mattock.title")
+setTitle("Nothing Really Mattocks")
 
 setIcon(<tconstruct:mattock>)
 

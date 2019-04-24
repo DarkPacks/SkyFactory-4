@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.floaty.title")
+setTitle("Floaty McFloaty")
 
 setIcon(<tp:fmf_block>)
 

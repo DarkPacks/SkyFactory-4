@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.lavasource.title")
+setTitle("Get It While It's Hot")
 
 setIcon(<tp:lava_block>)
 

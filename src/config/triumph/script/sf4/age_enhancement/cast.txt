@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.cast.title")
+setTitle("Sign My Cast")
 
 setIcon(<tconstruct:cast,ore:cast,meta:0,count:1,nbt:{PartType:"tconstruct:pick_head"}>)
 

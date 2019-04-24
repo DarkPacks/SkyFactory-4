@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.pristineghastmatter.title")
+setTitle("I'm so Aghast")
 
 setIcon(<deepmoblearning:pristine_matter_ghast>)
 

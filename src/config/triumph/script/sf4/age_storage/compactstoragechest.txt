@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.compactstoragechest.title")
+setTitle("I Like Big Box and I Cannot Lie")
 
 setIcon(<compactstorage:compactchest, nbt:{size:[I;24,12]}>)
 

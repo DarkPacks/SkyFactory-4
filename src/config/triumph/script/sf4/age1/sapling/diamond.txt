@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.diamond.title")
+setTitle("This Tree is Forever")
 
 setIcon(<sky_orchards:sapling_diamond>)
 

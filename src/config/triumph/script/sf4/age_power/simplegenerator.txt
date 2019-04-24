@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.simplegenerator.title")
+setTitle("Generator, I Hardly Know Her")
 
 setIcon(<simplegenerators:combustion_simple>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.chickenfeed.title")
+setTitle("Feed the Chickens!")
 
 setIcon(<mob_grinding_utils:gm_chicken_feed>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.viescraft.title")
+setTitle("Come Fly With Me")
 
 setIcon(<vc:airships/item_airship>)
 

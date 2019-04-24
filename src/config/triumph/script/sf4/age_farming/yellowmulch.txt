@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.yellowmulch.title")
+setTitle("Don't Eat the Yellow Mulch")
 
 setIcon(<inspirations:mulch:2>)
 

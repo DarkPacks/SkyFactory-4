@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.toolstation.title")
+setTitle("Rolling into the Station")
 
 setIcon(<tconstruct:tooltables:3>)
 

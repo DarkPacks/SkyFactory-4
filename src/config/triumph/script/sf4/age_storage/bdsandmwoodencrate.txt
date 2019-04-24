@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.bdsandmwoodencrate.title")
+setTitle("Wood You Hand Me That Crate Please?")
 
 setIcon(<bdsandm:wood_crate>)
 

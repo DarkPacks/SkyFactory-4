@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.toolforge.title")
+setTitle("Forging Ahead")
 
 setIcon(<tconstruct:toolforge>)
 

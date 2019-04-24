@@ -1,6 +1,6 @@
-setTranslatedTitle("advancement.sf4.age_exploration.nether.title")
+setTitle("Nether Here Nor There")
 
-setIcon(<telepastries:nether_cake>)
+setIcon(<minecraft:netherrack>)
 
 setTranslatedDescription("advancement.sf4.age_exploration.nether.description")
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.craftingupgrade.title")
+setTitle("Edible Arrangements")
 
 setIcon(<cyclicmagic:crafting_food>)
 

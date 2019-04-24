@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.drivebay.title")
+setTitle("Bay Bay You Can Drive My Car")
 
 setIcon(<appliedenergistics2:drive>)
 

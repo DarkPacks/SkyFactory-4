@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.amber.iron.title")
+setTitle("Amber is the Color of my Dinosaur")
 
 setIcon(<sky_orchards:amber_iron>)
 

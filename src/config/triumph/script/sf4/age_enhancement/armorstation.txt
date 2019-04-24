@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.armorstation.title")
+setTitle("Up in Arms")
 
 setIcon(<conarm:armorstation>)
 

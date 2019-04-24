@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.lostcities.title")
+setTitle("Lost and Found")
 
 setIcon(<telepastries:lost_city_cake>)
 

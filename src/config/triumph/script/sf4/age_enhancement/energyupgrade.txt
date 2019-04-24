@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.energyupgrade.title")
+setTitle("Power Save Mode")
 
 setIcon(<mekanism:energyupgrade>)
 

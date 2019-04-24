@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.iron_ingot.title")
+setTitle("Oh, the Irony")
 
 setIcon(<minecraft:iron_ingot>)
 

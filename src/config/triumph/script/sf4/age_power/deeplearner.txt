@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.deeplearner.title")
+setTitle("The Study Guide")
 
 setIcon(<deepmoblearning:deep_learner>)
 

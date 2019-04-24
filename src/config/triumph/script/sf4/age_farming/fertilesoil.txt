@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.fertilesoil.title")
+setTitle("Fertile Soil")
 
 setIcon(<rustic:fertile_soil>)
 

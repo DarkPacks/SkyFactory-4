@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.buildinggadget.title")
+setTitle("Go, Go, Building Gadget")
 
 setIcon(<buildinggadgets:buildingtool>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sky_islands.sky_islands.root.title")
+setTitle("Sky Islands")
 
 setIcon(<rustic:cloudsbluff>)
 

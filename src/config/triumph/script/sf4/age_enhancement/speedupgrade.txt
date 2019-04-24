@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.speedupgrade.title")
+setTitle("Gotta Go Fast")
 
 setIcon(<mekanism:speedupgrade>)
 

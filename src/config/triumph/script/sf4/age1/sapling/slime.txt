@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.slime.title")
+setTitle("I Don't Know")
 
 setIcon(<tconstruct:slime_sapling>)
 

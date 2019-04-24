@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.cobaltore.title")
+setTitle("I Can't Believe It's Not Lapis")
 
 setIcon(<tconstruct:ore>)
 

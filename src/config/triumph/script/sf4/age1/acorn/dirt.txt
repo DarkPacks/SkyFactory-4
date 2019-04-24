@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.acorn.dirt.title")
+setTitle("Starting from the Bottom")
 
 setIcon(<sky_orchards:acorn_dirt>)
 

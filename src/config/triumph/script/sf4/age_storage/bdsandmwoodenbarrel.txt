@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.bdsandmwoodenbarrel.title")
+setTitle("What Woodent You Store?")
 
 setIcon(<bdsandm:wood_barrel>)
 

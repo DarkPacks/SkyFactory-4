@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.truffles.title")
+setTitle("Everyday I'm Trufflin'")
 
 setIcon(<resourcehogs:truffle, nbt:{ResourceType: "prismarine"}>)
 

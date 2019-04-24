@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.watersource.title")
+setTitle("Wet Feet")
 
 setIcon(<tp:water_block>)
 

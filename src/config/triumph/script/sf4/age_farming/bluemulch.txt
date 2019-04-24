@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.bluemulch.title")
+setTitle("I'm Blue Da Ba Dee")
 
 setIcon(<inspirations:mulch:7>)
 

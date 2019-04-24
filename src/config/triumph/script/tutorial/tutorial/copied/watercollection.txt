@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.copied.watercollection.title")
+setTitle("Wishing Well")
 
 setIcon(<minecraft:cauldron>)
 

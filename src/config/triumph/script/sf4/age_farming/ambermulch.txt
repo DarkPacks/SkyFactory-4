@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.ambermulch.title")
+setTitle("Sweet Amber")
 
 setIcon(<inspirations:mulch:3>)
 

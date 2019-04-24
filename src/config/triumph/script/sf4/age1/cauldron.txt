@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.cauldron.title")
+setTitle("Bubble, Bubble")
 
 setIcon(<morecauldrons:oak_cauldron>)
 

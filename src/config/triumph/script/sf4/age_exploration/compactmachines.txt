@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.compactmachines.title")
+setTitle("Compact Your World")
 
 setIcon(<compactmachines3:psd>)
 

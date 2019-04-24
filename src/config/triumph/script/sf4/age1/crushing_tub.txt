@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.crushing_tub.title")
+setTitle("I Love Lucy")
 
 setIcon(<rustic:crushing_tub>)
 

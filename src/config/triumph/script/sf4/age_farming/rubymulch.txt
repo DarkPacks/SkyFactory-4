@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.rubymulch.title")
+setTitle("Goodbye Ruby Mulch")
 
 setIcon(<inspirations:mulch:4>)
 

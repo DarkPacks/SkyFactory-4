@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.bdsandmupgrade4.title")
+setTitle("Better Than 1080p")
 
 setIcon(<bdsandm:upgrade:3>)
 

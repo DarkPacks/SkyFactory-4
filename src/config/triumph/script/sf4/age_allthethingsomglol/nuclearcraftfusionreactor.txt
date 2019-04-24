@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.nuclearcraftfusionreactor.title")
+setTitle("Third Time's the Charm")
 
 setIcon(<nuclearcraft:fusion_core>)
 

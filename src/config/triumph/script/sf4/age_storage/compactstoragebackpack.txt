@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.compactstoragebackpack.title")
+setTitle("Baby Got Backpack")
 
 setIcon(<compactstorage:backpack, nbt:{size:[I;24,12]}>)
 

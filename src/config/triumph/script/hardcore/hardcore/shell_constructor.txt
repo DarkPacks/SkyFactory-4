@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.hardcore.hardcore.shell_constructor.title")
+setTitle("A Syncing Feeling")
 
 setIcon(<sync:item_shell_constructor>)
 

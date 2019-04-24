@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.magnesiumore.title")
+setTitle("Light up Your Night")
 
 setIcon(<nuclearcraft:ore:7>)
 

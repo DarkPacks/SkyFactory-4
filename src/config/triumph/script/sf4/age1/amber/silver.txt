@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.amber.silver.title")
+setTitle("Silver Surfer")
 
 setIcon(<sky_orchards:amber_silver>)
 

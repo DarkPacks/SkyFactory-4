@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.bdsandmmetalbarrel.title")
+setTitle("Roll Out the Barrel")
 
 setIcon(<bdsandm:metal_barrel>)
 

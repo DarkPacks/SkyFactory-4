@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.dirtsapling.title")
+setTitle("Dirt Sapling")
 
 setIcon(<sky_orchards:sapling_dirt>)
 

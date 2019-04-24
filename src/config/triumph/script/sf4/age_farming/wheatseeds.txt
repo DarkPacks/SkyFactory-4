@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_farming.wheatseeds.title")
+setTitle("Shredded Wheat")
 
 setIcon(<minecraft:wheat_seeds>)
 

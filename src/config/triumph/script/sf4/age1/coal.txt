@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.coal.title")
+setTitle("COALateral Damage")
 
 setIcon(<minecraft:coal>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.dehydrator.title")
+setTitle("I'll Dehydrate You")
 
 setIcon(<cyclicmagic:dehydrator>)
 

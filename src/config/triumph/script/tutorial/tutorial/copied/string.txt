@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.copied.string.title")
+setTitle("You Cotton Something?")
 
 setIcon(<minecraft:string>)
 

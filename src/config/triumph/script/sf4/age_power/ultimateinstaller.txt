@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.ultimateinstaller.title")
+setTitle("I'm A Computah!")
 
 setIcon(<mekanism:tierinstaller:3>)
 

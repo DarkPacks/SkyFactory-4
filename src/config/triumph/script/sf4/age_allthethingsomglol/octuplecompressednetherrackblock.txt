@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.octuplecompressednetherrackblock.title")
+setTitle("Nether Regions")
 
 setIcon(<tp:octuple_compressed_nether_block>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.sapling.coal.title")
+setTitle("Sixteen Tons")
 
 setIcon(<sky_orchards:sapling_coal>)
 

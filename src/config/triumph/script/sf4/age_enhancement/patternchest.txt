@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_enhancement.patternchest.title")
+setTitle("Pattern Me, Sir")
 
 setIcon(<tconstruct:tooltables:4>)
 

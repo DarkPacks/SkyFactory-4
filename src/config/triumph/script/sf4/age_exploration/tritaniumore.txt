@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_exploration.tritaniumore.title")
+setTitle("You're Tritanium to Bring Me Down")
 
 setIcon(<matteroverdrive:tritanium_ore>)
 

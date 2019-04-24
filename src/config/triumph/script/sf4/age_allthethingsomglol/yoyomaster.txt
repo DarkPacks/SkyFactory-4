@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_allthethingsomglol.yoyomaster.title")
+setTitle("YoYo Master")
 
 setIcon(<yoyos:yoyo>)
 

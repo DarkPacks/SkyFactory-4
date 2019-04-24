@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.uninstallupgrade.title")
+setTitle("Be Kind. Rewind.")
 
 setIcon(<bdsandm:upgrade:7>)
 

@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.informationscreen.title")
+setTitle("Get Informed!")
 
 setIcon(<rftoolspower:information_screen>)
 

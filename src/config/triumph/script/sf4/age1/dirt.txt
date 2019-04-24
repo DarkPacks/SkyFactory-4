@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age1.dirt.title")
+setTitle("Dirty Dancing")
 
 setIcon(<minecraft:dirt>)
 

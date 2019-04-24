@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_storage.bdsandmupgrade1.title")
+setTitle("Drumtendo 64")
 
 setIcon(<bdsandm:upgrade>)
 

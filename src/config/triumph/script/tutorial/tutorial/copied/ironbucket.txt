@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.copied.ironbucket.title")
+setTitle("Not a Helmet")
 
 setIcon(<minecraft:bucket>)
 

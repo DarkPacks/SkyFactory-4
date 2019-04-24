@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.tutorial.tutorial.petrifiedacorn.title")
+setTitle("Petrified Acorn")
 
 setIcon(<sky_orchards:acorn_petrified>)
 

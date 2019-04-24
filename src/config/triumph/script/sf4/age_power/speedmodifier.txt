@@ -1,4 +1,4 @@
-setTranslatedTitle("advancement.sf4.age_power.speedmodifier.title")
+setTitle("Need iiii Speed")
 
 setIcon(<valkyrielib:modifier_speed>)
 
