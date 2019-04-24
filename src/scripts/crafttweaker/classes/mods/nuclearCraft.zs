@@ -127,4 +127,50 @@ zenClass NuclearCraft {
 	function removePressurizer() {
 		melter.removeAllRecipes();
 	}
+
+	/*
+		Add a Infuser recipe
+	*/
+	function addInfuser(itemInput as IItemStack, liquidInput as ILiquidStack, itemOutput as IItemStack) {
+		infuser.addRecipe([itemInput, liquidInput, itemOutput]);
+	}
+	function addInfuser(itemInput as IItemStack, liquidInput as ILiquidStack, itemOutput as IItemStack, timeMultiplier as double, powerMultiplier as double, processRadiation as double) {
+		infuser.addRecipe([itemInput, liquidInput, itemOutput, timeMultiplier, powerMultiplier, processRadiation]);
+	}
+
+	/*
+		Remove a Infuser recipe
+	*/
+	function removeInfuserInput(input as IItemStack, fluidInput as ILiquidStack) {
+		infuser.removeRecipeWithInput([input, fluidInput]);
+	}
+	function removeInfuserOutput(output as ILiquidStack) {
+		infuser.removeRecipeWithOutput([output]);
+	}
+	function removeInfuserAll() {
+		infuser.removeAllRecipes();
+	}
+
+	/*
+		Add an Alloy Furnace recipe
+	*/
+	function addAlloyFurnace(itemInput1 as IItemStack, itemInput2 as IItemStack, itemOutput as IItemStack) {
+		alloyFurnace.addRecipe([itemInput1, itemInput2, itemOutput]);
+	}
+	function addAlloyFurnace(itemInput1 as IItemStack, itemInput2 as IItemStack, itemOutput as IItemStack, timeMultiplier as double, powerMultiplier as double, processRadiation as double) {
+		alloyFurnace.addRecipe([itemInput1, itemInput2, itemOutput, timeMultiplier, powerMultiplier, processRadiation]);
+	}
+
+	/*
+		Remove an Alloy Furnace recipe
+	*/
+	function removeAlloyFurnaceInput(input1 as IItemStack, input2 as IItemStack) {
+		alloyFurnace.removeRecipeWithInput([input1, input2]);
+	}
+	function removeAlloyFurnaceOutput(output as IItemStack) {
+		alloyFurnace.removeRecipeWithOutput([output]);
+	}
+	function removeAlloyFurnaceAll() {
+		alloyFurnace.removeAllRecipes();
+	}
 }

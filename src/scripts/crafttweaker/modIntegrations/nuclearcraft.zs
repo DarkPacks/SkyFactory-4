@@ -7,6 +7,36 @@ function init() {
 	// Wool from Cotton Amber
 	nuclearCraft.addManufactory(<sky_orchards:amber_cottonwood>, <minecraft:wool>);
 	nuclearCraft.addManufactory(<sky_orchards:acorn_cottonwood>, <minecraft:string>);
+
+	// Hardened Glass Alloy Furnace recipes
+	nuclearCraft.addAlloyFurnace(resources.steel.parts.ingot, <minecraft:obsidian>, <thermalfoundation:glass_alloy:0>);
+	nuclearCraft.addAlloyFurnace(resources.electrum.parts.ingot, <minecraft:obsidian>, <thermalfoundation:glass_alloy:1>);
+	nuclearCraft.addAlloyFurnace(resources.invar.parts.ingot, <minecraft:obsidian>, <thermalfoundation:glass_alloy:2>);
+	nuclearCraft.addAlloyFurnace(resources.bronze.parts.ingot, <minecraft:obsidian>, <thermalfoundation:glass_alloy:3>);
+	nuclearCraft.addAlloyFurnace(resources.signalum.parts.ingot, <minecraft:obsidian>, <thermalfoundation:glass_alloy:5>);
+	nuclearCraft.addAlloyFurnace(resources.lumium.parts.ingot, <minecraft:obsidian>, <thermalfoundation:glass_alloy:6>);
+	nuclearCraft.addAlloyFurnace(resources.enderium.parts.ingot, <minecraft:obsidian>, <thermalfoundation:glass_alloy:7>);
+	nuclearCraft.addAlloyFurnace(resources.copper.parts.ingot, <minecraft:obsidian>, <thermalfoundation:glass:0>);
+	nuclearCraft.addAlloyFurnace(resources.tin.parts.ingot, <minecraft:obsidian>, <thermalfoundation:glass:1>);
+	nuclearCraft.addAlloyFurnace(resources.silver.parts.ingot, <minecraft:obsidian>, <thermalfoundation:glass:2>);
+	nuclearCraft.addAlloyFurnace(resources.lead.parts.ingot, <minecraft:obsidian>, <thermalfoundation:glass:3>);
+	nuclearCraft.addAlloyFurnace(resources.nickel.parts.ingot, <minecraft:obsidian>, <thermalfoundation:glass:5>);
+	nuclearCraft.addAlloyFurnace(resources.platinum.parts.ingot, <minecraft:obsidian>, <thermalfoundation:glass:6>);
+
+	// Hardened Glass Infuser recipes
+	nuclearCraft.addInfuser(<minecraft:obsidian>, resources.steel.liquid * 144, <thermalfoundation:glass_alloy:0>);
+	nuclearCraft.addInfuser(<minecraft:obsidian>, resources.electrum.liquid * 144, <thermalfoundation:glass_alloy:1>);
+	nuclearCraft.addInfuser(<minecraft:obsidian>, resources.invar.liquid * 144, <thermalfoundation:glass_alloy:2>);
+	nuclearCraft.addInfuser(<minecraft:obsidian>, resources.bronze.liquid * 144, <thermalfoundation:glass_alloy:3>);
+	nuclearCraft.addInfuser(<minecraft:obsidian>, resources.signalum.liquid * 144, <thermalfoundation:glass_alloy:5>);
+	nuclearCraft.addInfuser(<minecraft:obsidian>, resources.lumium.liquid * 144, <thermalfoundation:glass_alloy:6>);
+	nuclearCraft.addInfuser(<minecraft:obsidian>, resources.enderium.liquid * 144, <thermalfoundation:glass_alloy:7>);
+	nuclearCraft.addInfuser(<minecraft:obsidian>, resources.copper.liquid * 144, <thermalfoundation:glass:0>);
+	nuclearCraft.addInfuser(<minecraft:obsidian>, resources.tin.liquid * 144, <thermalfoundation:glass:1>);
+	nuclearCraft.addInfuser(<minecraft:obsidian>, resources.silver.liquid * 144, <thermalfoundation:glass:2>);
+	nuclearCraft.addInfuser(<minecraft:obsidian>, resources.lead.liquid * 144, <thermalfoundation:glass:3>);
+	nuclearCraft.addInfuser(<minecraft:obsidian>, resources.nickel.liquid * 144, <thermalfoundation:glass:5>);
+	nuclearCraft.addInfuser(<minecraft:obsidian>, resources.platinum.liquid * 144, <thermalfoundation:glass:6>);
 }
 
 //Cookie Processing
