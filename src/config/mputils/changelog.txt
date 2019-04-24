@@ -21,18 +21,24 @@ Enhancements:
 * Hopefully clarify that the AE Controller is not needed to use AE (and does not exist in the pack for a reason)
 * Energy P2P Tunnels can now be crafted. Convert between the various types by right clicking with an item that carries or stores the relevant type.
 * Added Hardened Glass recipes to NuclearCraft's Infuser and Alloy Furnace machines
+* Where water bottles are used in crafting recipes, an empty bottle is now given back (#617)
 
 Mod Updates:
 * Apotheosis (1.9.2 -> 1.9.3)
+* Barrels Drums Storage & More (0.0.21 -> 0.0.22)
 * ComPatchedStorage (1.4.0 -> 1.5.1)
 * Cyclic (1.19.5 -> 1.19.6)
 * Elevator Mod (1.3.8 -> 1.3.9)
+* FastWorkbench (1.6.1 -> 1.7.0)
 * Forgiving Void (1.0.21 -> 1.0.22)
 * JustEnoughItems (4.15.0.275 -> 4.15.0.278)
 * Mekanism (9.6.9.367 -> 9.7.2.373)
 * MekanismGenerators (9.6.9.367 -> 9.7.2.373)
-* NuclearCraft (2.15 -> 2.15b)
-* Resource Hogs (1.0.9 -> 1.0.10)
+* NuclearCraft (2.15 -> 2.16c)
+* Parabox (1.1.0 -> 1.1.1)
+* Prestige (1.1.51 -> 1.1.52)
+* Resource Hogs (1.0.9 -> 1.0.11)
+* Simple Storage Network (1.7.3 -> 1.7.4)
 
 
 ---------------------------------------------------------------------

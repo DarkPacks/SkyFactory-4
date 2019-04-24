@@ -76,7 +76,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		craftingUtils.createSurroundedRecipe(<sky_orchards:acorn_lapis>, <minecraft:sapling:5>),
 		[
 			[null, <sky_orchards:resin_bone>, null],
-			[<sky_orchards:resin_clay>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <sky_orchards:resin_clay>],
+			[<sky_orchards:resin_clay>, <minecraft:potion>.withTag({Potion: "minecraft:water"}).transformReplace(<minecraft:glass_bottle>), <sky_orchards:resin_clay>],
 			[null, <minecraft:sapling:5>, null]
 		]
 	],
