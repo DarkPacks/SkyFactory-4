@@ -2,6 +2,23 @@ Please report bugs to the issue tracker!!
 
 ---------------------------------------------------------------------
 
+4.0.4
+
+Bug Fixes:
+* Removed some BDS&M blacklisted oredicts
+* Blacklisted items from uncrafting grinder to prevent exploits
+* Blacklist file cabinet from attaching to crafting station to avoid a visual glitch
+* Tweaked Telepastry alternative recipes to match the primary one
+* Disabled Twilight Forest Uncrafting Table to prevent exploits
+
+Enhancements:
+* Increased Deep Mob Learning Shulker power requirement
+* Added Shulker Pearls and Glowing Chorus to the Shulker Deep Mob Learning drops
+* Removed Cyclic's Glowing Chrous recipe
+
+
+---------------------------------------------------------------------
+
 4.0.3
 
 Bug Fixes:
