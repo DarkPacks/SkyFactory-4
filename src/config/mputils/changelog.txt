@@ -10,6 +10,7 @@ Bug Fixes:
 * Blacklist file cabinet from attaching to crafting station to avoid a visual glitch
 * Tweaked Telepastry alternative recipes to match the primary one
 * Disabled Twilight Forest Uncrafting Table to prevent exploits
+* Remove un-unified Amber Mekanism crushing recipes
 
 Enhancements:
 * Increased Deep Mob Learning Shulker power requirement

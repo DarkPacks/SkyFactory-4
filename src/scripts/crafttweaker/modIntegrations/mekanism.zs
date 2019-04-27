@@ -9,16 +9,8 @@ function init() {
 	// ==================================
 	mekanism.addCrusher(<sky_orchards:acorn_redstone>, <minecraft:redstone>);
 	mekanism.addCrusher(<sky_orchards:acorn_lapis>, <minecraft:dye:4>);
-	mekanism.addCrusher(<sky_orchards:amber_iron>, <mekanism:dust> * 2);
-	mekanism.addCrusher(<sky_orchards:amber_gold>, <mekanism:dust:1> * 2);
-	mekanism.addCrusher(<sky_orchards:amber_lead>, <mekanism:dust:6> * 2);
-	mekanism.addCrusher(<sky_orchards:amber_copper>, <mekanism:dust:3> * 2);
-	mekanism.addCrusher(<sky_orchards:amber_tin>, <mekanism:dust:4> * 2);
 	mekanism.addCrusher(<sky_orchards:acorn_glowstone>, <minecraft:glowstone_dust>);
 	mekanism.addCrusher(<minecraft:netherrack>, <mekanism:otherdust:3>);
-	mekanism.addCrusher(<sky_orchards:amber_silver>, <mekanism:dust:5> * 2);
-	mekanism.addCrusher(<sky_orchards:amber_osmium>, <mekanism:dust:2> * 2);
-	mekanism.addCrusher(<sky_orchards:amber_nickel>, <thermalfoundation:material:69> * 2);
 
 	//Cotton Wool from Amber or acorn
 	mekanism.addCrusher(<sky_orchards:amber_cottonwood>, <minecraft:wool>);
@@ -31,9 +23,6 @@ function init() {
 	// Tcon Metals
 	mekanism.addCrusher(<tconstruct:ingots:1>, <contenttweaker:ardite_dust> * 1);
 	mekanism.addCrusher(<tconstruct:ingots>, <contenttweaker:cobalt_dust> * 1);
-
-	mekanism.addCrusher(<sky_orchards:amber_ardite>, <contenttweaker:ardite_dust> * 1);
-	mekanism.addCrusher(<sky_orchards:amber_cobalt>, <contenttweaker:cobalt_dust> * 1);
 
 	mekanism.addCrusher(<minecraft:prismarine_shard>, <minecraft:prismarine_crystals> * 4);
 
