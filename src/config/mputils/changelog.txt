@@ -15,6 +15,7 @@ Enhancements:
 * Increased Deep Mob Learning Shulker power requirement
 * Added Shulker Pearls and Glowing Chorus to the Shulker Deep Mob Learning drops
 * Removed Cyclic's Glowing Chrous recipe
+* Add melting recipes for pink slime
 
 
 ---------------------------------------------------------------------

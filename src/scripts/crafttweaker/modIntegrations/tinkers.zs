@@ -81,6 +81,9 @@ function init() {
 	tinkers.addMelting(<liquid:osmium> * 1296, <mekanism:basicblock>);
 	tinkers.addMelting(<liquid:osmium> * 288, <mekanism:oreblock>);
 
+	// Pink Slime melting
+	tinkers.addMelting(<liquid:if.pink_slime> * 250, <industrialforegoing:pink_slime>);
+
 	// ==================================
 	// Amber Melting
 	tinkers.addMelting(<liquid:iron> * 288, <sky_orchards:amber_iron>);
