@@ -10,25 +10,18 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<telepastries:lost_city_cake>: [
-        [
-            [<minecraft:brick_block>, <minecraft:brewing_stand>, <minecraft:brick_block>],
-            [<minecraft:iron_bars>, <minecraft:cake>, <minecraft:iron_bars>],
-            [<minecraft:diamond_block>, <minecraft:stained_hardened_clay:*>, <minecraft:diamond_block>]
-        ]
-    ],
 	<telepastries:twilight_cake>: [
         [
-            [<minecraft:yellow_flower>, <minecraft:yellow_flower>, <minecraft:yellow_flower>],
+            [<minecraft:red_flower>, <minecraft:yellow_flower>, <minecraft:red_flower>],
             [<minecraft:yellow_flower>, <minecraft:cake>, <minecraft:yellow_flower>],
-            [<minecraft:yellow_flower>, <minecraft:yellow_flower>, <minecraft:yellow_flower>]
+            [<minecraft:red_flower>, <minecraft:yellow_flower>, <minecraft:red_flower>]
         ]
     ],
     <telepastries:hunting_dimension_cake>: [
         [
-            [<minecraft:arrow>, <minecraft:stone_sword>, <minecraft:arrow>],
-            [<minecraft:stone_sword>, <minecraft:cake>, <minecraft:stone_sword>],
-            [<minecraft:arrow>, <minecraft:stone_sword>, <minecraft:arrow>]
+            [<minecraft:stone_sword>, <minecraft:arrow>, <minecraft:stone_sword>],
+            [<minecraft:arrow>, <minecraft:cake>, <minecraft:arrow>],
+            [<minecraft:stone_sword>, <minecraft:arrow>, <minecraft:stone_sword>]
         ]
     ]
 };

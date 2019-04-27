@@ -46,7 +46,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-	<cyclicmagic:sprout_seed>
+	<cyclicmagic:sprout_seed>,
+	<cyclicmagic:glowing_chorus>
 ];
 
 function init() {

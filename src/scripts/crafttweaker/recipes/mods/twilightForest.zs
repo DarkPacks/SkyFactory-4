@@ -43,7 +43,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-	<twilightforest:magic_map_focus>
+	<twilightforest:magic_map_focus>,
+	<twilightforest:uncrafting_table>
 ];
 
 function init() {
