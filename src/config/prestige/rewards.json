@@ -6,8 +6,8 @@
     "icon": "{id:\"teslacorelib:speed_tier1\",Count:1b,Damage:0s}",
     "x": 238,
     "y": 107,
-    "cost": 6,
-    "sellPrice": 3,
+    "cost": 3,
+    "sellPrice": 1,
     "parents": [
       "bonsai"
     ],
@@ -21,7 +21,7 @@
     "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"portalgun:item_portalgun\",Count:1b,tag:{lastFired:1b,width:1,channelName:\"Chell\",grabStrength:4,uuid:\"Global\",username:\"Global\",height:2},Damage:0s}",
     "x": 292,
     "y": 238,
-    "cost": 2,
+    "cost": 1,
     "sellPrice": 1,
     "parents": [
       "bonsai"
@@ -36,8 +36,8 @@
     "icon": "{id:\"matteroverdrive:android_pill\",Count:1b,Damage:0s}",
     "x": 292,
     "y": 161,
-    "cost": 6,
-    "sellPrice": 3,
+    "cost": 3,
+    "sellPrice": 1,
     "parents": [
       "bonsai"
     ],
@@ -51,8 +51,8 @@
     "icon": "{id:\"tconstruct:smeltery_controller\",Count:1b,Damage:0s}",
     "x": 270,
     "y": 270,
-    "cost": 6,
-    "sellPrice": 3,
+    "cost": 2,
+    "sellPrice": 1,
     "parents": [
       "bonsai"
     ],
@@ -66,7 +66,7 @@
     "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:5s}",
     "x": 358,
     "y": 85,
-    "cost": 10,
+    "cost": 6,
     "sellPrice": 0,
     "parents": [
       "rubymulch"
@@ -115,7 +115,7 @@
     "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:3s}",
     "x": 314,
     "y": 129,
-    "cost": 6,
+    "cost": 4,
     "sellPrice": 0,
     "parents": [
       "yellowmulch"
@@ -149,8 +149,8 @@
     "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"ironjetpacks:platinum_jetpack\",Count:1b,Damage:0s}",
     "x": 161,
     "y": 292,
-    "cost": 10,
-    "sellPrice": 5,
+    "cost": 4,
+    "sellPrice": 2,
     "parents": [
       "bonsai"
     ],
@@ -198,8 +198,8 @@
     "icon": "{id:\"torchmaster:mega_torch\",Count:1b,Damage:0s}",
     "x": 129,
     "y": 270,
-    "cost": 2,
-    "sellPrice": 1,
+    "cost": 1,
+    "sellPrice": 0,
     "parents": [
       "bonsai"
     ],
@@ -213,7 +213,7 @@
     "icon": "{id:\"tconstruct:slime_dirt\",Count:1b,Damage:3s}",
     "x": 380,
     "y": 200,
-    "cost": 4,
+    "cost": 3,
     "sellPrice": 0,
     "parents": [
       "purpleslimedirt"
@@ -228,8 +228,8 @@
     "icon": "{id:\"mystcraft:page\",Count:1b,tag:{linkpanel:{}},Damage:0s}",
     "x": 100,
     "y": 200,
-    "cost": 10,
-    "sellPrice": 5,
+    "cost": 25,
+    "sellPrice": 10,
     "parents": [
       "bonsai"
     ],
@@ -243,7 +243,7 @@
     "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:6s}",
     "x": 402,
     "y": 85,
-    "cost": 12,
+    "cost": 7,
     "sellPrice": 0,
     "parents": [
       "redmulch"
@@ -305,7 +305,7 @@
     "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:7s}",
     "x": 402,
     "y": 129,
-    "cost": 14,
+    "cost": 8,
     "sellPrice": 0,
     "parents": [
       "blackmulch"
@@ -320,8 +320,8 @@
     "icon": "{id:\"mysticalagradditions:insanium\",Count:1b,Damage:0s}",
     "x": 173,
     "y": 65,
-    "cost": 10,
-    "sellPrice": 5,
+    "cost": 20,
+    "sellPrice": 10,
     "parents": [
       "mysticalagriculture"
     ],
@@ -367,7 +367,7 @@
     "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:4s}",
     "x": 358,
     "y": 129,
-    "cost": 8,
+    "cost": 5,
     "sellPrice": 0,
     "parents": [
       "ambermulch"
@@ -384,8 +384,8 @@
     "icon": "{id:\"mob_grinding_utils:absorption_upgrade\",Count:1b,Damage:0s}",
     "x": 161,
     "y": 107,
-    "cost": 2,
-    "sellPrice": 1,
+    "cost": 1,
+    "sellPrice": 0,
     "parents": [
       "bonsai"
     ],
@@ -429,8 +429,8 @@
     "icon": "{id:\"mysticalagriculture:crafting\",Count:1b,Damage:4s}",
     "x": 200,
     "y": 100,
-    "cost": 10,
-    "sellPrice": 5,
+    "cost": 50,
+    "sellPrice": 25,
     "parents": [
       "bonsai"
     ],
@@ -446,7 +446,7 @@
     "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:2s}",
     "x": 314,
     "y": 85,
-    "cost": 4,
+    "cost": 3,
     "sellPrice": 0,
     "parents": [
       "brownmulch"
