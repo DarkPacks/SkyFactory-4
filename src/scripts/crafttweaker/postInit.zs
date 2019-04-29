@@ -32,6 +32,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.appliedEnergistics2.init();
 	scripts.crafttweaker.recipes.mods.astralSorcery.init();
 	scripts.crafttweaker.recipes.mods.bdsandm.init();
+	scripts.crafttweaker.recipes.mods.chineseworkshop.init();
 	scripts.crafttweaker.recipes.mods.clickMachine.init();
 	scripts.crafttweaker.recipes.mods.cookingForBlockheads.init();
 	scripts.crafttweaker.recipes.mods.cyclic.init();

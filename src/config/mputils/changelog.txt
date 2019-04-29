@@ -16,6 +16,7 @@ Bug Fixes:
 * Prevent player picking up screens from Practical Logistics (#639)
 * Prevent player picking up translocator pairs (#504)
 * Prevent player picking up blocks from RFToolsPower (#579)
+* Thin Wooden Wall recipe changed to avoid conflict with Rustic Wooden Stake (#251)
 
 Enhancements:
 * Increased Deep Mob Learning Shulker power requirement
