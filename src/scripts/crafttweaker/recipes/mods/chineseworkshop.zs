@@ -1,7 +1,7 @@
 /*
-    SkyFactory 4 Click Machine Recipe Script
+    SkyFactory 4 Chinese Workshop Recipe Script
 
-    This script handles the recipes for Click Machine.
+    This script handles the recipes for Chinese Workshop.
 */
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
