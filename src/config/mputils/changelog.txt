@@ -11,6 +11,11 @@ Bug Fixes:
 * Tweaked Telepastry alternative recipes to match the primary one
 * Disabled Twilight Forest Uncrafting Table to prevent exploits
 * Remove un-unified Amber Mekanism crushing recipes
+* Prevent player picking up Mekanism Bounding Box using Carry On (#748)
+* Prevent player picking up any blocks from OpenComputers (#686, #724)
+* Prevent player picking up screens from Practical Logistics (#639)
+* Prevent player picking up translocator pairs (#504)
+* Prevent player picking up blocks from RFToolsPower (#579)
 
 Enhancements:
 * Increased Deep Mob Learning Shulker power requirement
