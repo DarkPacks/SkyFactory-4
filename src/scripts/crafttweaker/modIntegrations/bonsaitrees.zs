@@ -9,3 +9,5 @@
 //Increase Cookie Drops
 //mods.bonsaitrees.TreeDrops.removeTreeDrop("sky_orchards:sapling_cookie", <minecraft:cookie>);
 //mods.bonsaitrees.TreeDrops.addTreeDrop("sky_orchards:sapling_cookie", <minecraft:cookie>, 0.25);
+
+mods.bonsaitrees.TreeDrops.addTreeDrop("minecraft:chorus", <minecraft:chorus_flower>, 0.01);
