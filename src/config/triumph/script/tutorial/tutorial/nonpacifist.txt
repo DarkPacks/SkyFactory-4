@@ -1,0 +1,21 @@
+setTitle("NonPacifist")
+
+setIcon(<minecraft:cooked_porkchop>)
+
+setTranslatedDescription("advancement.sf4.age1.nonpacifist.description")
+
+addParent("tutorial:tutorial/root")
+
+// Criteria
+criteria = addCriteria("tutorial", "minecraft:location")
+criteria.setGeneratorOptions({"Topography-Preset":"SkyFactory Tutorial"})
+
+setRequirements("any")
+
+// Rewards
+setRewardFunction("triumph:non_pacifist")
+
+setAnnounceToChat(false)
+hideLines()
+alwaysHidden()
+setPos(-249,9)
