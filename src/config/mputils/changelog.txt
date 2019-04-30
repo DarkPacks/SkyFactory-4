@@ -19,6 +19,7 @@ Bug Fixes:
 * Thin Wooden Wall recipe changed to avoid conflict with Rustic Wooden Stake (#251)
 * Players playing in tutorial now get non_pacifist stage, allowing crafting of components from Deep Mob Learning (#388)
 * Fix localisation of Building Gadget keybind (#669)
+* Age of Power tab can now be completed by players who have not unlocked Twilight Forest through prestige (#597)
 
 Enhancements:
 * Increased Deep Mob Learning Shulker power requirement
