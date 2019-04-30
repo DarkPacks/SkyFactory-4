@@ -4,7 +4,7 @@ setIcon(<buildinggadgets:buildingtool>)
 
 //setDescription("The Building Gadget helps you build!")
 
-setDescription({"translate":"advancement.sf4.age_power.buildinggadget.description","with":[{"keybind":"key.modeSwitch"}]})
+setDescription({"translate":"advancement.sf4.age_power.buildinggadget.description","with":[{"keybind":"key.settings_menu"}]})
 
 addParent("sf4:age_power/root")
 

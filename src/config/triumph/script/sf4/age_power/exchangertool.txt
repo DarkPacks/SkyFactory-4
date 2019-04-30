@@ -4,7 +4,7 @@ setIcon(<buildinggadgets:exchangertool>)
 
 //setDescription("The Exchanger Tool will allow you to easily swap out blocks")
 
-setDescription({"translate":"advancement.sf4.age_power.exchangertool.description","with":[{"keybind":"key.modeSwitch"}]})
+setDescription({"translate":"advancement.sf4.age_power.exchangertool.description","with":[{"keybind":"key.settings_menu"}]})
 
 addParent("sf4:age_power/root")
 

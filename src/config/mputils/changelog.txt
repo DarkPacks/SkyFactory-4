@@ -18,6 +18,7 @@ Bug Fixes:
 * Prevent player picking up blocks from RFToolsPower (#579)
 * Thin Wooden Wall recipe changed to avoid conflict with Rustic Wooden Stake (#251)
 * Players playing in tutorial now get non_pacifist stage, allowing crafting of components from Deep Mob Learning (#388)
+* Fix localisation of Building Gadget keybind (#669)
 
 Enhancements:
 * Increased Deep Mob Learning Shulker power requirement
