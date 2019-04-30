@@ -27,6 +27,7 @@ Enhancements:
 * Add chorus flower to the drops of the chorus fruit plant - making them obtainable in CompactSky (#750)
 * Altered a number of prestige values for progressional balance
 * Added sarcastic tooltip to Nether Cake that is food from XLFoods mod
+* Enable Applied Energistic's Color Applicator & Paint Balls (#749)
 
 
 ---------------------------------------------------------------------

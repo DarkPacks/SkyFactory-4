@@ -411,7 +411,25 @@ static removeAndHideIngredients as IIngredient[] = [
 	<industrialforegoing:black_hole_controller>,
 	<guideapi:cyclicmagic-guide>,
 	<tcomplement:materials:10>,
-	<tcomplement:materials:20>
+	<tcomplement:materials:20>,
+
+	// AE Lumen Paintballs
+	<appliedenergistics2:paint_ball:20>,
+	<appliedenergistics2:paint_ball:21>,
+	<appliedenergistics2:paint_ball:22>,
+	<appliedenergistics2:paint_ball:23>,
+	<appliedenergistics2:paint_ball:24>,
+	<appliedenergistics2:paint_ball:25>,
+	<appliedenergistics2:paint_ball:26>,
+	<appliedenergistics2:paint_ball:27>,
+	<appliedenergistics2:paint_ball:28>,
+	<appliedenergistics2:paint_ball:29>,
+	<appliedenergistics2:paint_ball:30>,
+	<appliedenergistics2:paint_ball:31>,
+	<appliedenergistics2:paint_ball:32>,
+	<appliedenergistics2:paint_ball:33>,
+	<appliedenergistics2:paint_ball:34>,
+	<appliedenergistics2:paint_ball:35>
 ];
 
 function init() {
