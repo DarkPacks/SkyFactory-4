@@ -20,6 +20,7 @@ Bug Fixes:
 * Players playing in tutorial now get non_pacifist stage, allowing crafting of components from Deep Mob Learning (#388)
 * Fix localisation of Building Gadget keybind (#669)
 * Age of Power tab can now be completed by players who have not unlocked Twilight Forest through prestige (#597)
+* Players on presets with modified end dimensions can now get the advancement "Where's the boss?" (#606)
 
 Enhancements:
 * Increased Deep Mob Learning Shulker power requirement

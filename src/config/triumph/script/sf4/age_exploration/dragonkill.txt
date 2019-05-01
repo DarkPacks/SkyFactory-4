@@ -12,6 +12,11 @@ criteria1 = addCriteria("Enter End Dimension", "minecraft:changed_dimension")
 criteria1.setDimensionDestination("the_end")
 criteria2 = addCriteria("Enter End Biome", "minecraft:location")
 criteria2.setBiome("minecraft:sky")
+criteria3 = addCriteria("Enter Custom End Dimension", "minecraft:changed_dimension")
+criteria3.setDimensionDestination("DIM_1")
+
+addRequirements(["Enter End Dimension", "Enter End Biome"])
+addRequirements(["Enter Custom End Dimension", "Enter End Biome"])
 
 alwaysVisible()
 
