@@ -32,6 +32,21 @@ Enhancements:
 * Added sarcastic tooltip to Nether Cake that is food from XLFoods mod
 * Enable Applied Energistic's Color Applicator & Paint Balls (#749)
 
+Mods Added:
+* AE2Stuff (0.7.0.4)
+* bdlib (1.14.3.12)
+* PlaneFix (1.0.0)
+
+Mod Updates:
+* Cyclic (1.19.6 -> 1.19.8)
+* ElevatorMod (1.3.9 -> 1.3.10)
+* Mystical Agradditions (1.3.1 -> 1.3.2)
+* Mystical Agriculture (1.7.3 -> 1.7.5)
+* NuclearCraft (2.16c -> 2.16e)
+* Parabox (1.1.1 -> 1.1.4)
+* XCPatch (1.0.0 -> 1.0.1)
+* XLFoods (1.8.1 -> 1.9.0)
+
 
 ---------------------------------------------------------------------
 
