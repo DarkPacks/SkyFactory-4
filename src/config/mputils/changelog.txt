@@ -1,6 +1,22 @@
 Please report bugs to the issue tracker!!
 
 ---------------------------------------------------------------------
+4.0.5
+
+Bug Fixes:
+* Removed Dragon spawning from all worlds minus Sky Grid
+
+Enhancements:
+* Changed the fertile soil in the Bonsai Pots for the Compact Machine World
+* Increased the size of the Hunting Dimension and Lost Cities Compact Machine world structures to be 19x19x19 with a transparent roof (If you want to use these new sizes you will have to remove and regenerate these dimensions in your world)
+
+
+Mods Added:
+* DragonMurder-1.12.2-1.0.0
+
+Mod Updates:
+* ComPatchedStorage-1.12.2-1.6.0
+
 
 4.0.4
 
