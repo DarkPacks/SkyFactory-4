@@ -9,14 +9,14 @@ Bug Fixes:
 Enhancements:
 * Changed the fertile soil in the Bonsai Pots for the Compact Machine World
 * Increased the size of the Hunting Dimension and Lost Cities Compact Machine world structures to be 19x19x19 with a transparent roof (If you want to use these new sizes you will have to remove and regenerate these dimensions in your world)
-
+* Removed the Triumph Dragon Kill function as it was replaced with a mod that can more effectively perform this mechanic
 
 Mods Added:
 * DragonMurder-1.12.2-1.0.0
 
 Mod Updates:
 * ComPatchedStorage-1.12.2-1.6.0
-
+---------------------------------------------------------------------
 
 4.0.4
 
@@ -62,8 +62,6 @@ Mod Updates:
 * Parabox (1.1.1 -> 1.1.4)
 * XCPatch (1.0.0 -> 1.0.1)
 * XLFoods (1.8.1 -> 1.9.0)
-
-
 ---------------------------------------------------------------------
 
 4.0.3
