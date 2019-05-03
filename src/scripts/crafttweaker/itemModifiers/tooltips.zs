@@ -337,7 +337,6 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.blue("Simple Generators"),
 	],
 
-/*
 	//Adding mod tooltip for easier location
 	<ae2stuff:encoder>: [
 		format.blue("Applied Energistics"),
@@ -357,8 +356,6 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<ae2stuff:visualiser>: [
 		format.blue("Applied Energistics"),
 	],
-
-*/
 
 	<extracells:part.base:7>: [
 		format.blue("Applied Energistics"),
