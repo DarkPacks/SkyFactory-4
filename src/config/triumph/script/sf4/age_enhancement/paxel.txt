@@ -40,6 +40,17 @@ criteria15.addItem(<pickletweaks:iron_paxel>)
 criteria16 = addCriteria("Obtain Pickle Tweaks Wooden Paxel", "minecraft:inventory_changed")
 criteria16.addItem(<pickletweaks:wooden_paxel>)
 
+criteria17 = addCriteria("Obtain Mystical Agradditions Inferium Paxel", "minecraft:inventory_changed")
+criteria17.addItem(<mysticalagradditions:inferium_paxel>)
+criteria18 = addCriteria("Obtain Mystical Agradditions Prudentium Paxel", "minecraft:inventory_changed")
+criteria18.addItem(<mysticalagradditions:prudentium_paxel>)
+criteria19 = addCriteria("Obtain Mystical Agradditions Intermedium Paxel", "minecraft:inventory_changed")
+criteria19.addItem(<mysticalagradditions:intermedium_paxel>)
+criteria20 = addCriteria("Obtain Mystical Agradditions Superium Paxel", "minecraft:inventory_changed")
+criteria20.addItem(<mysticalagradditions:superium_paxel>)
+criteria21 = addCriteria("Obtain Mystical Agradditions Supremium Paxel", "minecraft:inventory_changed")
+criteria21.addItem(<mysticalagradditions:supremium_paxel>)
+
 setRequirements("any")
 
 setRewardExperience(8)

@@ -15,6 +15,7 @@ Enhancements:
 * Add Netherrack & Sugar Cane compression recipes to Cyclic Packager (#804)
 * Add support for all buckets in NuclearCraft's Infinite Water Source recipe (#640)
 * Add support for all buckets in Cauldron Obsidian recipe
+* Add Mystical Agradditions paxels to "Paxel Rose" advancement (#592)
 
 
 ---------------------------------------------------------------------
