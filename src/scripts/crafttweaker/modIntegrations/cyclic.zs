@@ -1,6 +1,56 @@
+/*
+	SkyFactory 4 Cyclic Integration Script
+
+	This script utilizes the Cyclic integration to add/remove/modify recipes.
+*/
+import crafttweaker.item.IItemStack;
+
 import mods.cyclicmagic.Packager;
 import mods.cyclicmagic.Dehydrator;
 import mods.cyclicmagic.Hydrator;
+
+function init() {
+	/*
+		Compressed Blocks
+	*/
+	var tiers as string[] = [
+		"double",
+		"triple",
+		"quadruple",
+		"quintuple",
+		"sextuple",
+		"septuple",
+		"octuple"
+	];
+
+	var blocks as IItemStack[string] = {
+		"nether_block": <minecraft:netherrack>,
+		"sugar_cane": <minecraft:reeds>
+	};
+
+	for blockName, baseBlock in blocks {
+		var modId = "tp:";
+		var baseCompressedString as string = "compressed_" ~ blockName;
+		var singleCompressedItem as IItemStack = itemUtils.getItem(modId ~ baseCompressedString);
+
+		cyclic.addPackager(singleCompressedItem, baseBlock * 9);
+
+		for i, tier in tiers {
+			var item as IItemStack = itemUtils.getItem(modId ~ tier ~ "_" ~ baseCompressedString);
+			var previousItem as IItemStack = i == 0 ?
+				singleCompressedItem : itemUtils.getItem(modId ~ tiers[i - 1] ~ "_" ~ baseCompressedString);
+
+			if (!isNull(item) && isNull(previousItem)) {
+				logger.logWarning("Cyclic packager block compression failed to find a previous item for " ~ blockName ~
+					" on " ~ tier);
+			}
+
+			if (!isNull(item) && !isNull(previousItem)) {
+				cyclic.addPackager(item, previousItem * 9);
+			}
+		}
+	}
+}
 
 // output, input
 //Packager.addRecipe(minecraft:grass, minecraft:dirt*9);
