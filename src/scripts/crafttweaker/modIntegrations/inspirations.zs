@@ -31,7 +31,7 @@ function init() {
 	// Dip Sticks into Liquid Sap to make Torches
 	inspirations.addCauldronFluid(<minecraft:torch>, <minecraft:stick>, <liquid:sap>);
 
-	//Converts lava into Obsidian Block
+	// Converts lava into Obsidian Block
 	inspirations.addCauldronFluid(<minecraft:obsidian>, craftingUtils.getBucketIngredient(<liquid:water>), <liquid:lava>, 4);
 
 	// Washing Sand off to bonemeal
@@ -52,11 +52,11 @@ function init() {
 	// Blue Slime Trees
 	inspirations.addCauldronFluid(<tconstruct:slime_sapling>, <sky_orchards:sapling_lapis>, <liquid:milk>, 4);
 
-	//Blue Slime Liquid and created slime vines
+	// Blue Slime Liquid and created slime vines
 	inspirations.addCauldronFluidTransform(<liquid:blueslime>, <tconstruct:edible:1>, <liquid:milk>);
 	inspirations.addCauldronFluid(<tconstruct:slime_vine_blue>, <minecraft:vine>, <liquid:blueslime>, 1);
 
-	//Purple Slime Liquid and created slime vines
+	// Purple Slime Liquid and created slime vines
 	inspirations.addCauldronFluidTransform(<liquid:purpleslime>, <tconstruct:edible:2>, <liquid:milk>);
 	inspirations.addCauldronFluid(<tconstruct:slime_vine_purple>, <minecraft:vine>, <liquid:purpleslime>, 1);
 
@@ -69,14 +69,13 @@ function init() {
 	// Purple Slime Sapling
 	inspirations.addCauldronFluid(<tconstruct:slime_sapling:1>, <tconstruct:slime_sapling>, <liquid:redstone>, 4);
 
-	//Create Salt by using Sand on Water in a Cauldron
-
+	// Create Salt by using Sand on Water in a Cauldron
 	inspirations.addCauldronFluid(<mekanism:saltblock>, <minecraft:sand>, <liquid:water>, 4);
 
-	//Later that night, Bentley found out we needed to have Starlight Ingots too.
+	// Later that night, Bentley found out we needed to have Starlight Ingots too.
 	inspirations.addCauldronFluid(<astralsorcery:itemcraftingcomponent:1>, <minecraft:iron_ingot>, <liquid:astralsorcery.liquidstarlight>, 4);
 
-	//Create Chorus using apples and purple slime in a cauldron
+	// Create Chorus using apples and purple slime in a cauldron
 	inspirations.addCauldronFluid(<minecraft:chorus_fruit>, <minecraft:apple>, <liquid:purpleslime>, 1);
 
 	// ==================================
