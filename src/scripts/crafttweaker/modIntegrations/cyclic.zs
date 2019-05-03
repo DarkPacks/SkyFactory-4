@@ -50,6 +50,8 @@ function init() {
 			}
 		}
 	}
+
+	cyclic.addPackager(<sky_orchards:amber_cottonwood>, [<sky_orchards:acorn_cottonwood> * 4, <sky_orchards:resin_cottonwood> * 5]);
 }
 
 // output, input
