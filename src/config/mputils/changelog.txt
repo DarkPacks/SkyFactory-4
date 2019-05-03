@@ -5,6 +5,14 @@ Please report bugs to the issue tracker!!
 4.0.5
 
 Bug Fixes:
+* Fixed freshly crafted chisels not working in coble circuit mold
+
+
+---------------------------------------------------------------------
+
+4.0.5
+
+Bug Fixes:
 * Removed Dragon spawning from all worlds minus Sky Grid
 
 Enhancements:
