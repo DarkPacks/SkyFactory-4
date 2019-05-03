@@ -188,7 +188,7 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 	<cyclicmagic:cable_wireless>: [
 		format.red("Usage: Item and Fluid Transfer"),
-		format.red("Requires GPS marker to configure"),	
+		format.red("Requires GPS marker to configure"),
 	],
 	<thermaldynamics:duct_32:1>: [
 		format.red("Usage: Item Transfer Pipe"),
@@ -207,15 +207,19 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 	<thermaldynamics:duct_32:5>: [
 		format.red("Usage: Item Transfer Pipe"),
+		format.red("Usage: Power / Energy Transfer Pipe")
 	],
 	<thermaldynamics:duct_32:6>: [
 		format.red("Usage: Item Transfer Pipe"),
+		format.red("Usage: Power / Energy Transfer Pipe")
 	],
 	<thermaldynamics:duct_32:7>: [
 		format.red("Usage: Item Transfer Pipe"),
+		format.red("Usage: Power / Energy Transfer Pipe")
 	],
 	<thermaldynamics:duct_32:4>: [
 		format.red("Usage: Item Transfer Pipe"),
+		format.red("Usage: Power / Energy Transfer Pipe")
 	],
 
 	//Fluid pipes
@@ -249,9 +253,11 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 	<thermaldynamics:duct_16:5>: [
 		format.red("Usage: Fluid Transfer Pipe"),
+		format.red("Usage: Power / Energy Transfer Pipe")
 	],
 	<thermaldynamics:duct_16:4>: [
 		format.red("Usage: Fluid Transfer Pipe"),
+		format.red("Usage: Power / Energy Transfer Pipe")
 	],
 	<thermaldynamics:duct_16:3>: [
 		format.red("Usage: Fluid Transfer Pipe"),
