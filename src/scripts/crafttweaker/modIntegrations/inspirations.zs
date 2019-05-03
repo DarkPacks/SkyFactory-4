@@ -4,6 +4,8 @@
 	This script utilizes the Inspirations integration to add/remove/modify recipes.
 	All liquid values are in Vanilla Bottle Amounts (4 equals 1 bucket)
 */
+import scripts.crafttweaker.craftingUtils;
+
 function init() {
 	// ==================================
 	// Fluid Recipes
@@ -30,8 +32,7 @@ function init() {
 	inspirations.addCauldronFluid(<minecraft:torch>, <minecraft:stick>, <liquid:sap>);
 
 	//Converts lava into Obsidian Block
-	inspirations.addCauldronFluid(<minecraft:obsidian>, <minecraft:water_bucket>, <liquid:lava>, 4);
-	inspirations.addCauldronFluid(<minecraft:obsidian>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <liquid:lava>, 4);
+	inspirations.addCauldronFluid(<minecraft:obsidian>, craftingUtils.getBucketIngredient(<liquid:water>), <liquid:lava>, 4);
 
 	// Washing Sand off to bonemeal
 	inspirations.addCauldronFluid(<minecraft:dye:15> * 3, <minecraft:gravel>, <liquid:water>);

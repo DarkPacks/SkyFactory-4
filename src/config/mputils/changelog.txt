@@ -14,6 +14,7 @@ Enhancements:
 * Add tooltip to Weirding Gadget (#635)
 * Add Netherrack & Sugar Cane compression recipes to Cyclic Packager (#804)
 * Add support for all buckets in NuclearCraft's Infinite Water Source recipe (#640)
+* Add support for all buckets in Cauldron Obsidian recipe
 
 
 ---------------------------------------------------------------------
