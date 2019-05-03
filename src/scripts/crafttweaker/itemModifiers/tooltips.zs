@@ -663,6 +663,10 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.yellow("Your cake is in another castle"),
 		format.red("This. Is. Food."),
 		format.yellow("This is not a lie.")
+	],
+
+	<minecraft:mob_spawner>: [
+		format.aqua("Can be harvested using Silk Touch")
 	]
 };
 
