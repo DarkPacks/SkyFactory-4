@@ -42,7 +42,27 @@ function create3By3(singleIngredient as IIngredient) as IIngredient[][] {
  */
 static buckets as IItemStack[] = [
 	<ceramics:clay_bucket:0>,
-	<forge:bucketfilled:0>
+	<forge:bucketfilled:0>,
+	<morebuckets:ardite_bucket>,
+	<morebuckets:bronze_bucket>,
+	<morebuckets:cobalt_bucket>,
+	<morebuckets:copper_bucket>,
+	<morebuckets:diamond_bucket>,
+	<morebuckets:emerald_bucket>,
+	<morebuckets:golden_bucket>,
+	<morebuckets:inferium_bucket>,
+	<morebuckets:insanium_bucket>,
+	<morebuckets:intermedium_bucket>,
+	<morebuckets:manyullyn_bucket>,
+	<morebuckets:obsidian_bucket>,
+	<morebuckets:prudentium_bucket>,
+	<morebuckets:quartz_bucket>,
+	<morebuckets:rubber_bucket>,
+	<morebuckets:silver_bucket>,
+	<morebuckets:steel_bucket>,
+	<morebuckets:superium_bucket>,
+	<morebuckets:supremium_bucket>,
+	<morebuckets:tin_bucket>
 ];
 function getBucketIngredientFromName(liquidName as string) as IIngredient {
 	var bucketsIngredient as IIngredient = null;
