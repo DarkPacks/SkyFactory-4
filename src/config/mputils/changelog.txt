@@ -11,6 +11,7 @@ Enhancements:
 * Added "Usage: Power / Energy Transfer Pipe" tooltip to Signalum-Plated ducts (#616)
 * Add "Applied Energistics" tooltip to AE2Stuff items to aid in locating them in JEI
 * Add tooltip to Mob Spawner to inform players how to harvest it (#486)
+* Add tooltip to Weirding Gadget (#635)
 
 
 ---------------------------------------------------------------------

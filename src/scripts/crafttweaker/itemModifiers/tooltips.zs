@@ -667,6 +667,11 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 
 	<minecraft:mob_spawner>: [
 		format.aqua("Can be harvested using Silk Touch")
+	],
+
+	<weirdinggadget:weirding_gadget>: [
+		format.aqua("Keeps a 5x5 chunk area loaded centered around"),
+		format.aqua("the gadget")
 	]
 };
 
