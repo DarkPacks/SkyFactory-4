@@ -2,7 +2,7 @@ Please report bugs to the issue tracker!!
 
 ---------------------------------------------------------------------
 
-4.0.5
+4.0.6
 
 Bug Fixes:
 * Fixed freshly crafted chisels not working in coble circuit mold
