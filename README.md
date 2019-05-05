@@ -1,4 +1,20 @@
-# SkyFactory 4
+# SkyFactory 4 [![Discord][discordImg]][discordLink] [![Curseforge][curseImg]][curseLink]
+
+[discordImg]: https://img.shields.io/discord/329440410839678986.svg?logo=discord&logoWidth=18&colorB=7289DA
+
+[discordLink]: https://discord.gg/darkosto
+
+[curseImg]: http://cf.way2muchnoise.eu/296062.svg
+
+[curseLink]: https://minecraft.curseforge.com/projects/skyfactory-4
+
+
+This modpack was made by [Darkosto](https://www.twitch.tv/darkosto) for [Bacon Donut](https://www.twitch.tv/bacon_donut) on Twitch.
+
+## Downloads
+Released files:
+- [Curse/Twitch](https://minecraft.curseforge.com/projects/skyfactory-4)
+- [ATLauncher](https://www.atlauncher.com/pack/SkyFactory4)
 
 ## Development
 
