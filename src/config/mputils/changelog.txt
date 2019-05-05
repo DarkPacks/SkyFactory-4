@@ -5,7 +5,7 @@ Please report bugs to the issue tracker!!
 4.0.6
 
 Bug Fixes:
-* Fixed freshly crafted chisels not working in coble circuit mold
+* Fixed freshly crafted chisels not working in cobble circuit mold
 
 Enhancements:
 * Added "Usage: Power / Energy Transfer Pipe" tooltip to Signalum-Plated ducts (#616)
