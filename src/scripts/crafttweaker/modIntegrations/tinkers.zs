@@ -101,6 +101,9 @@ function init() {
 	tinkers.addMelting(<liquid:donut> * 1000, <sky_orchards:amber_donut>);
 	tinkers.addMelting(<liquid:bacon> * 250, <minecraft:porkchop>);
 
+	//Cast Melting
+	tinkers.addMelting(<liquid:gold> * 288, <tconstruct:cast>);
+
 	// ==================================
 	// Entity Melting
 	tinkers.addMeltingEntity(<entity:minecraft:pig>, <liquid:bacon>);
