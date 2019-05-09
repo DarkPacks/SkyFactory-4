@@ -18,6 +18,8 @@ Enhancements:
 * Add support for all buckets in Cauldron Obsidian recipe
 * Add Mystical Agradditions paxels to "Paxel Rose" advancement (#592)
 * Add Cottonwood amber recipe to packager
+* Added the ability to melt down Tinkers' casts into Gold
+* Updated the ingame issue tracker link to go directly to the issues page
 
 
 ---------------------------------------------------------------------
