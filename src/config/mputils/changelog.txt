@@ -22,6 +22,14 @@ Enhancements:
 * Added the ability to melt down Tinkers' casts into Gold
 * Updated the ingame issue tracker link to go directly to the issues page
 * Slightly lowered the chance for Gravitational Anomalies to generate from 5% to 3.33%
+* Changed the Cobblestone Circuit Mold recipe to require a Chisel Head Cast instead of using chisels. This is due to limitations on using damaged chisels
+
+Mod Updates:
+* Apotheosis (1.10.0)
+* Barrels, Drums, Storage, and More (0.0.24)
+* NuclearCraft (2.16f)
+* Weirding Gadgets (2.1.16)
+* FastWorkbench (1.7.1)
 
 
 ---------------------------------------------------------------------
