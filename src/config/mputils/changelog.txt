@@ -20,6 +20,7 @@ Enhancements:
 * Add Cottonwood amber recipe to packager
 * Added the ability to melt down Tinkers' casts into Gold
 * Updated the ingame issue tracker link to go directly to the issues page
+* Slightly lowered the chance for Gravitational Anomalies to generate from 5% to 3.33%
 
 
 ---------------------------------------------------------------------
