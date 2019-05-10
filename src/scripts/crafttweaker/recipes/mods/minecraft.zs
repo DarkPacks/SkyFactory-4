@@ -165,7 +165,12 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [<minecraft:egg>, <nuclearcraft:part:12>, <minecraft:egg>],
             [<deepmoblearning:pristine_matter_creeper>, <darkutils:shulker_pearl>, <deepmoblearning:pristine_matter_spider>]
         ]
-    ]
+    ],
+	<minecraft:dye> * 4: [
+		[
+			[<deepmoblearning:living_matter_overworldian>, <minecraft:waterlily>]
+		]
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
