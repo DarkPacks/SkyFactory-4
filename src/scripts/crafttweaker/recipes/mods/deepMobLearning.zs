@@ -170,6 +170,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 				[<deepmoblearning:polymer_clay>, <deepmoblearning:data_model_blank>, <deepmoblearning:polymer_clay>]
 			]
 		]
+	},
+	<deepmoblearning:glitch_heart>: {
+		Utils.genRecipeName(stages.pacifist): [
+			[
+				[<thermalfoundation:material:167>, null , <thermalfoundation:material:167>],
+				[<deepmoblearning:pristine_matter_wither_skeleton>, <cyclicmagic:heart_toxic>, <deepmoblearning:pristine_matter_dragon>],
+				[null, <deepmoblearning:pristine_matter_mo_android>, null]
+			]
+		]
 	}
 };
 
