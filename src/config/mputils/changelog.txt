@@ -5,7 +5,6 @@ Please report bugs to the issue tracker!!
 4.0.6
 
 Bug Fixes:
-* Fixed freshly crafted chisels not working in cobble circuit mold
 * Fix acorns from being blacklisted by Barrels, Drums, Storage, and More Ore Dictionary upgrade
 * Blacklisted Rustic Cabinets from CarryOn due to issues when the cabinets were stacked
 * Fix ores smeltable in melter but not in the smeltery
