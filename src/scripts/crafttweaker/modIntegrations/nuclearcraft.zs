@@ -37,6 +37,9 @@ function init() {
 	nuclearCraft.addInfuser(<minecraft:obsidian>, resources.lead.liquid * 144, <thermalfoundation:glass:3>);
 	nuclearCraft.addInfuser(<minecraft:obsidian>, resources.nickel.liquid * 144, <thermalfoundation:glass:5>);
 	nuclearCraft.addInfuser(<minecraft:obsidian>, resources.platinum.liquid * 144, <thermalfoundation:glass:6>);
+
+	// Mimmic existing salt recipe for a salt block (4 salt / block)
+	nuclearCraft.addMelter(<mekanism:saltblock>, <liquid:brine> * (15 * 4));
 }
 
 //Cookie Processing
