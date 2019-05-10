@@ -68,6 +68,7 @@
     "xlfoodmod:rice_seeds": "8*minecraft:wheat",
     "xlfoodmod:strawberry_seeds": "8*minecraft:wheat",
     "xlfoodmod:tomato_seeds": "8*minecraft:wheat",
+    "xlfoodmod:vanilla_flower": "8*xlfoodmod:strawberry",
     "rustic:grape_stem": "8*minecraft:beetroot",
     "rustic:apple_seeds": "8*minecraft:beetroot",
     "rustic:tomato_seeds": "8*minecraft:beetroot",

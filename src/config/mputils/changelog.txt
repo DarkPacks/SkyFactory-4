@@ -9,6 +9,7 @@ Bug Fixes:
 * Fix acorns from being blacklisted by Barrels, Drums, Storage, and More Ore Dictionary upgrade
 * Blacklisted Rustic Cabinets from CarryOn due to issues when the cabinets were stacked
 * Fix ores smeltable in melter but not in the smeltery
+* Added XL Food Vanilla plant to the Market and the Cyclic Magic Bean drop list (#665)
 
 Enhancements:
 * Added "Usage: Power / Energy Transfer Pipe" tooltip to Signalum-Plated ducts (#616)
