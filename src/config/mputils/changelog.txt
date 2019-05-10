@@ -14,6 +14,7 @@ Bug Fixes:
 * Added a Pacifist mode recipe for the Deep Mob Learning Glitch Heart (#614)
 * Blacklisted Nuclearcraft Fusion Core from CarryOn pickup (#905)
 * Allowed all Stone Tools to be fixed using any Cobblestone. Very. Important. Very. Cool. Also, you can repair Wooden Shears now (#235)
+* Added Dark Oak and Acacia leaves to the list of burnable items in the Combustion Generator (#911)
 
 Enhancements:
 * Added "Usage: Power / Energy Transfer Pipe" tooltip to Signalum-Plated ducts (#616)
