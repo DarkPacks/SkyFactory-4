@@ -775,5 +775,113 @@
   {
     "mob": "headcrumbs:human",
     "remove": "minecraft:chainmail_boots"
+  },
+  {
+    "mob": "Blaze",
+    "item": "mekanism:otherdust@3",
+    "random": 0.16,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Blaze",
+    "item": "mekanism:otherdust@3",
+    "random": 0.20,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Blaze",
+    "item": "mekanism:otherdust@3",
+    "random": 0.28,
+    "itemcount": "0-1/0/2-4"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "mekanism:otherdust@3",
+    "random": 0.16,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "mekanism:otherdust@3",
+    "random": 0.20,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "mekanism:otherdust@3",
+    "random": 0.28,
+    "itemcount": "0-1/0/2-4"
+  },
+  {
+    "mob": "Zombie_pigman",
+    "item": "mekanism:otherdust@3",
+    "random": 0.16,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Zombie_pigman",
+    "item": "mekanism:otherdust@3",
+    "random": 0.20,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Zombie_pigman",
+    "item": "mekanism:otherdust@3",
+    "random": 0.28,
+    "itemcount": "0-1/0/2-4"
+  },
+  {
+    "mob": "Ghast",
+    "item": "mekanism:otherdust@3",
+    "random": 0.16,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Ghast",
+    "item": "mekanism:otherdust@3",
+    "random": 0.20,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Ghast",
+    "item": "mekanism:otherdust@3",
+    "random": 0.28,
+    "itemcount": "0-1/0/2-4"
+  },
+  {
+    "mob": "minecraft:magma_cube",
+    "item": "mekanism:otherdust@3",
+    "random": 0.8,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "minecraft:magma_cube",
+    "item": "mekanism:otherdust@3",
+    "random": 0.12,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "minecraft:magma_cube",
+    "item": "mekanism:otherdust@3",
+    "random": 0.16,
+    "itemcount": "0-1/0/2-4"
+  },
+  {
+    "mob": "twilightforest:mini_ghast",
+    "item": "mekanism:otherdust@3",
+    "random": 0.16,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "twilightforest:mini_ghast",
+    "item": "mekanism:otherdust@3",
+    "random": 0.20,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "twilightforest:mini_ghast",
+    "item": "mekanism:otherdust@3",
+    "random": 0.28,
+    "itemcount": "0-1/0/2-4"
   }
 ]

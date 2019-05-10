@@ -25,6 +25,7 @@ Enhancements:
 * Slightly lowered the chance for Gravitational Anomalies to generate from 5% to 3.33%
 * Changed the Cobblestone Circuit Mold recipe to require a Chisel Head Cast instead of using chisels. This is due to limitations on using damaged chisels
 * Add salt block -> brine melter recipe (#714)
+* Swapped Sulfur drops to Mekanism Sulfur to stay consistent with recipes/oredict (disabled COFH fireproof mob sulfur drops)
 
 Mod Updates:
 * Apotheosis (1.10.0)
