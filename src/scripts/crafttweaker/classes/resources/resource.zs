@@ -297,6 +297,10 @@ zenClass Resource {
 			furnace.addRecipe(this.parts.ingot, oreOreDict);
 		}
 
+		if (hasLiquid()) {
+			tinkers.addMelting(this.liquid * 288, oreOreDict);
+		}
+
 		for ore in oreOreDict.items {
 			if (hasPart("dust")) {
 				astralSorcery.addGrindstone(ore, this.parts.dust, 0.85);
