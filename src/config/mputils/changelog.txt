@@ -12,6 +12,7 @@ Bug Fixes:
 * Added XL Food Vanilla plant to the Market and the Cyclic Magic Bean drop list (#665)
 * Added a Pacifist mode recipe for Zombie Mob Chunks which should allow players access to this portion of Mystical Agriculture(#765)
 * Added a Pacifist mode recipe for the Deep Mob Learning Glitch Heart (#614)
+* Blacklisted Nuclearcraft Fusion Core from CarryOn pickup (#905)
 
 Enhancements:
 * Added "Usage: Power / Energy Transfer Pipe" tooltip to Signalum-Plated ducts (#616)
