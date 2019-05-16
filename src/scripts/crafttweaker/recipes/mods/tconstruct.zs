@@ -30,6 +30,12 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>],
 		]
 	],
+	<ceramics:faucet>: [
+		[
+			[<ceramics:unfired_clay:5>, null, <ceramics:unfired_clay:5>],
+			[null, <ceramics:unfired_clay:5>, null]
+		]
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -88,7 +94,8 @@ static removeRecipes as IItemStack[] = [
 	<tcomplement:melter>,
 	<tcomplement:porcelain_melter>,
 	<tconstruct:soil>,
-	<ceramics:unfired_clay:4>
+	<ceramics:unfired_clay:4>,
+	<ceramics:unfired_clay:6>
 ];
 
 function init() {

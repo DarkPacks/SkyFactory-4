@@ -429,7 +429,9 @@ static removeAndHideIngredients as IIngredient[] = [
 	<appliedenergistics2:paint_ball:32>,
 	<appliedenergistics2:paint_ball:33>,
 	<appliedenergistics2:paint_ball:34>,
-	<appliedenergistics2:paint_ball:35>
+	<appliedenergistics2:paint_ball:35>,
+
+	<ceramics:unfired_clay:6>
 ];
 
 function init() {

@@ -41,6 +41,7 @@ function init() {
 	prestige.addGamestageReward("smeltery", stages.smeltery);
     prestige.addGamestageReward("ore_excavation", stages.oreExcavation);
     prestige.addGamestageReward("mega_torch", stages.megaTorch);
+	prestige.addGamestageReward("parabox_two", stages.paraboxTwo);    
 
     // Enable Matter Overdrive Pills via Prestige
     prestige.addGamestageReward("pills", stages.android);

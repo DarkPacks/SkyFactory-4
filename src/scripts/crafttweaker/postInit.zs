@@ -92,6 +92,7 @@ function initStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.items.mobGrindingUtils.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.nonPacifist.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.orangeSlimeDirt.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.items.paraboxTwo.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.prosperityTree.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.purpleSlimeDirt.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.items.redMulch.init();

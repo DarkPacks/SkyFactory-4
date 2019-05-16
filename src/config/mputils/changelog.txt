@@ -33,6 +33,8 @@ Enhancements:
 * Swapped Sulfur drops to Mekanism Sulfur to stay consistent with recipes/oredict (disabled COFH fireproof mob sulfur drops)
 * Added a recipe for Ink Sacs that use Overworldian Matter combined with Lily Pads
 * Added recipes for Dust Blends (steel, electrum, etc)
+* Removed the furnace recipe for Porcelain Unfired Faucet and Added back the recipe to craft directly from Porcelain Bricks to Faucet
+* Added the Empowered Parabox. This machine is designed to generate 3 prestige points per loop at the cost of higher tier items (singularities). This is unlocked via new prestige option
 
 Mods Added:
 * Patchouli (1.0-19)
@@ -48,7 +50,12 @@ Mod Updates:
 * Deep Mob Learning (2.5.1)
 * Wawla (2.5.273)
 * Prestige (1.1.53)
-
+* Mekanism (9.7.4.375)
+* Mekanism Generator (9.7.4.375)
+* XL Food Mod (1.9.1)
+* Parabox (2.0.0)
+* Just Enough Items (4.15.0.279)
+* Horse Power (2.6.4.74)
 
 ---------------------------------------------------------------------
 

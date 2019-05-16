@@ -8,7 +8,8 @@ import crafttweaker.item.IIngredient;
 
 
 var outputToRemove as IIngredient[] = [
-	<xlfoodmod:chocolate_syrup>
+	<xlfoodmod:chocolate_syrup>,
+	<ceramics:faucet>
 ];
 
 for item in outputToRemove {
