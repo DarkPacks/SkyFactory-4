@@ -2,7 +2,7 @@ setTitle("Parabox^2")
 
 setIcon(<parabox:empowered_parabox>)
 
-setTranslatedDescription("advancement.prestige.prestige.parabox_mk2.description")
+setTranslatedDescription("advancement.prestige.prestige.parabox_two.description")
 
 addParent("prestige:prestige/parabox")
 
