@@ -32,6 +32,7 @@ Enhancements:
 * Add salt block -> brine melter recipe (#714)
 * Swapped Sulfur drops to Mekanism Sulfur to stay consistent with recipes/oredict (disabled COFH fireproof mob sulfur drops)
 * Added a recipe for Ink Sacs that use Overworldian Matter combined with Lily Pads
+* Added recipes for Dust Blends (steel, electrum, etc)
 
 Mods Added:
 * Patchouli (1.0-19)

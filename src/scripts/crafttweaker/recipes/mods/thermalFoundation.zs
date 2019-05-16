@@ -5,6 +5,8 @@
 */
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import scripts.crafttweaker.craftingUtils;
+
 
 /*
     Shaped Recipes
@@ -28,6 +30,27 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+    <thermalfoundation:material:96> * 1: [
+        [<ore:dustIron>, <ore:dustCoal>]
+    ],
+    <thermalfoundation:material:97> * 2: [
+        [<ore:dustGold>, <ore:dustSilver>]
+    ],
+    <thermalfoundation:material:98> * 3: [
+        [<ore:dustIron>, <ore:dustIron>, <ore:dustNickel>]
+    ],
+    <thermalfoundation:material:99> * 4: [
+        [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustTin>]
+    ],
+    <thermalfoundation:material:101> * 4: [
+        [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustSilver>, craftingUtils.getBucketIngredient(<liquid:redstone>)]
+    ],
+    <thermalfoundation:material:102> * 4: [
+        [<ore:dustTin>, <ore:dustTin>, <ore:dustTin>, <ore:dustSilver>, craftingUtils.getBucketIngredient(<liquid:glowstone>)]
+    ],
+    <thermalfoundation:material:103> * 4: [
+        [<ore:dustLead>, <ore:dustLead>, <ore:dustLead>, <ore:dustPlatinum>, craftingUtils.getBucketIngredient(<liquid:ender>)]
+    ]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
