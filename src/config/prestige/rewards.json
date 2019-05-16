@@ -108,7 +108,7 @@
   },
   {
     "identifier": "projecte",
-    "title": "Coming Soon!",
+    "title": "Yes, ProjectE is in the Modpack",
     "description": "Unlocks the ProjectE mod",
     "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"projecte:item.pe_transmutation_tablet\",Count:1b,Damage:0s}",
     "x": 293,
