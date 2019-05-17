@@ -51,6 +51,7 @@ Mod Updates:
 * Deep Mob Learning (2.5.1)
 * Wawla (2.5.273)
 * Prestige (1.1.53)
+* ProjectE (1.4.0 -> 1.4.1)
 * Mekanism (9.7.4.375)
 * Mekanism Generator (9.7.4.375)
 * XL Food Mod (1.9.1)
