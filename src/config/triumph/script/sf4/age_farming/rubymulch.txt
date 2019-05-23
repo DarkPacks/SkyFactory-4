@@ -10,7 +10,7 @@ addParent("sf4:age_farming/amberMulch")
 criteria = addCriteria("Obtain Ruby Mulch", "minecraft:inventory_changed")
 criteria.addItem(<inspirations:mulch:4>)
 
-hiddenUnless("amber_mulch")
+hiddenUnless("ruby_mulch")
 alwaysVisible()
 
 setRewardExperience(6)
