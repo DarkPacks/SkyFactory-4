@@ -639,9 +639,13 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("Charged in the Mekanism Energy Cube")
 	],
 	<extracells:terminal.universal.wireless>: [
-	  	format.red("Charged in the Mekanism Energy Cube")
+		format.red("Charged in the Mekanism Energy Cube")
 	],
 	<extracells:terminal.gas.wireless>: [
+		format.red("Charged in the Mekanism Energy Cube")
+	],
+
+	<appliedenergistics2:wireless_terminal>: [
 		format.red("Charged in the Mekanism Energy Cube")
 	],
 

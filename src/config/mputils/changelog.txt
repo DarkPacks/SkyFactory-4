@@ -40,6 +40,7 @@ Enhancements:
 * Removed the furnace recipe for Porcelain Unfired Faucet and Added back the recipe to craft directly from Porcelain Bricks to Faucet
 * Added the Empowered Parabox. This machine is designed to generate 3 prestige points per loop at the cost of higher tier items (singularities). This is unlocked via new prestige option
 * Added the ability to unlock ProjectE using Prestige (Only available in Prestige Mode)
+* Added tooltip to AE2 Wireless terminal to charge in Energy Cube (#927)
 
 Mods Added:
 * Patchouli (1.0-19)
