@@ -14,7 +14,8 @@ Bug Fixes:
 * Blacklisted Nuclearcraft Fusion Core from CarryOn pickup (#905)
 * Allowed all Stone Tools to be fixed using any Cobblestone. Very. Important. Very. Cool. Also, you can repair Wooden Shears now (#235)
 * Added Dark Oak and Acacia leaves to the list of burnable items in the Combustion Generator (#911)
-* Ruby Mulch advancement now shows when players have unlocked Ruby Mulch, instead of Amber (#994)
+* Ruby Mulch advancement now shows when players have unlocked Ruby Mulch, instead of Amber Mulch (#994)
+* The Horse Power Grindstone no longer produces unusable Mekanism metal dusts when given amber, it now produces the preferred dust for all metal Ambers and Ores (#232, #984)
 
 Enhancements:
 * Added "Usage: Power / Energy Transfer Pipe" tooltip to Signalum-Plated ducts (#616)

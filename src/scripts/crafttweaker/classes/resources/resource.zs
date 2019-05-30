@@ -305,6 +305,7 @@ zenClass Resource {
 			if (hasPart("dust")) {
 				astralSorcery.addGrindstone(ore, this.parts.dust, 0.85);
 				mekanism.addEnrichment(ore, this.parts.dust * 2);
+				horsePower.addGrindstone(this.parts.dust, ore, this.parts.dust, 85);
 			}
 
 			if (hasPart("clump")) {

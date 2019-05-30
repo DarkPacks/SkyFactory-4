@@ -54,6 +54,9 @@ zenClass HorsePower {
 	function addGrindstone(output as IItemStack, input as IIngredient, time as int, hand as bool, secondaryOutput as IItemStack, secondaryChance as int) {
 		Grindstone.add(input, output, time, hand, secondaryOutput, secondaryChance);
 	}
+	function removeGrindstone(output as IIngredient) {
+		Grindstone.remove(output);
+	}
 
 	/*
 		Add a Press recipe.
