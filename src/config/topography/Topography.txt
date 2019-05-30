@@ -72,6 +72,7 @@ SF4.disableNetherPortal()
 SF4 = registerPreset("Sky FacTree", "images/SkyFactreemk2", "Start on a very large Dirt Tree. Structure by: JCGriff")
 SF4.registerDimension(0, "SF4/overworld_large_tree")
 SF4.registerDimension(-1, "SF4/nether/nether_hedge_maze")
+SF4.addInitialPlayerFunction("triumph:default_world_ore")
 SF4.addInitialPlayerFunction("triumph:start_standard")
 SF4.disableNetherPortal()
 

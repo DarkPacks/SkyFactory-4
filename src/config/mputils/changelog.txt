@@ -17,6 +17,7 @@ Bug Fixes:
 * Ruby Mulch advancement now shows when players have unlocked Ruby Mulch, instead of Amber Mulch (#994)
 * The Horse Power Grindstone no longer produces unusable Mekanism metal dusts when given amber, it now produces the preferred dust for all metal Ambers and Ores (#232, #984)
 * Torchmaster will now properly block spawns of Androids, Blizz, Basalz, and Blitzes (#253)
+* Removed the Ardite and Cobalt ore advancements in the Sky FacTree would by adding the stage "default_ores" on initial player spawn (#964)
 
 Enhancements:
 * Added "Usage: Power / Energy Transfer Pipe" tooltip to Signalum-Plated ducts (#616)
