@@ -26,7 +26,6 @@
   },
   {
     "mob": "Blaze",
-    "result": "default",
     "onjoin": true,
     "nbt": {
       "Attributes": [
@@ -51,7 +50,6 @@
   },
   {
     "mob": "thermalfoundation:blizz",
-    "result": "default",
     "onjoin": true,
     "nbt": {
       "Attributes": [
@@ -76,7 +74,6 @@
   },
   {
     "mob": "thermalfoundation:blitz",
-    "result": "default",
     "onjoin": true,
     "nbt": {
       "Attributes": [
@@ -101,7 +98,6 @@
   },
   {
     "mob": "thermalfoundation:basalz",
-    "result": "default",
     "onjoin": true,
     "nbt": {
       "Attributes": [
@@ -126,7 +122,6 @@
   },
   {
     "mob": "matteroverdrive:ranged_rogue_android",
-    "result": "default",
     "onjoin": true,
     "nbt": {
       "Attributes": [
