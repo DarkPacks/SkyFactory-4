@@ -96,6 +96,13 @@ function init() {
 	// Steel fix
 	mekanism.removeInfusion(<mekanism:enrichediron>);
 	mekanism.addInfusion("CARBON", 10, resources.iron.parts.ingot, resources.steel.parts.dust);
+
+	// ==================================
+	// Chemical Crystallizer
+	// ==================================
+	// Fix lithium dust recipe to use the unified dust
+	mekanism.removeChemicalCrystallizer(<mekanism:otherdust:4>);
+	mekanism.addChemicalCrystallizer(<gas:lithium> * 100, <ore:dustLithium>.firstItem);
 }
 
 recipes.removeByRecipeName("mekanism:paper");

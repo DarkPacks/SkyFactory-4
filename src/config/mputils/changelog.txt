@@ -18,6 +18,7 @@ Bug Fixes:
 * The Horse Power Grindstone no longer produces unusable Mekanism metal dusts when given amber, it now produces the preferred dust for all metal Ambers and Ores (#232, #984)
 * Torchmaster will now properly block spawns of Androids, Blizz, Basalz, and Blitzes (#253)
 * Removed the Ardite and Cobalt ore advancements in the Sky FacTree would by adding the stage "default_ores" on initial player spawn (#964)
+* Fixed incorrect lithium dust output from Mekanism Chemical Crystallizer (#914)
 
 Enhancements:
 * Added "Usage: Power / Energy Transfer Pipe" tooltip to Signalum-Plated ducts (#616)
@@ -91,7 +92,7 @@ Mod Updates:
 * Bookshelf (2.3.581)
 * Chisel & Bits (14.32)
 * Caliper (1.1.45)
-* Astral Sorcery 1.10.19 
+* Astral Sorcery 1.10.19
 * Apotheosis (1.10.2)
 
 
