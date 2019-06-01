@@ -84,6 +84,7 @@ function init() {
 	Packager.addRecipe(<sky_orchards:amber_nickel>, [<sky_orchards:acorn_nickel> * 4, <sky_orchards:resin_nickel> * 5]);
 	Packager.addRecipe(<sky_orchards:amber_cobalt>, [<sky_orchards:acorn_cobalt> * 4, <sky_orchards:resin_cobalt> * 5]);
 	Packager.addRecipe(<sky_orchards:amber_ardite>, [<sky_orchards:acorn_ardite> * 4, <sky_orchards:resin_ardite> * 5]);
+	Packager.addRecipe(<sky_orchards:amber_prosperity>, [<sky_orchards:acorn_prosperity> * 4, <sky_orchards:resin_prosperity> * 5]);
 	Packager.addRecipe(<sky_orchards:amber_osmium>, [<sky_orchards:acorn_osmium> * 4, <sky_orchards:resin_osmium> * 5]);
 	Packager.addRecipe(<minecraft:coal>, [<pickletweaks:coal_piece> * 8]);
 

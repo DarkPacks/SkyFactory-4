@@ -46,6 +46,7 @@ Enhancements:
 * Slightly lowered the spawn chance for Gravitational Anomalies from 3.33% to 2%
 * Added textures to lower the brightness of the Compact Storage GUI's (Thanks to MarioLuigi7896!)
 * Add more saplings to Industrial Foregoing Bioreactor (#840)
+* Add Prosperity amber recipe to packager
 
 Mods Added:
 * Patchouli (1.0-19)
