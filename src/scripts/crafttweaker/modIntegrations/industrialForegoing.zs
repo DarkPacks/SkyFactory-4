@@ -1,7 +1,10 @@
 //Tree Fluid Extractor
 //Importing
+import mods.industrialforegoing.BioReactor;
 import mods.industrialforegoing.Extractor;
 import mods.industrialforegoing.LaserDrill;
+
+import scripts.crafttweaker.resources.skyOrchards.skyOrchardsResources;
 //Adding
 //Extractor.add(IItemStack output, ILiquidStack fluid);
 
@@ -30,3 +33,19 @@ Extractor.add(<sky_orchards:log_nickel>, <liquid:nickel> * 1, 0.15);
 Extractor.add(<sky_orchards:log_cobalt>, <liquid:cobalt> * 1, 0.15);
 Extractor.add(<sky_orchards:log_ardite>, <liquid:ardite> * 1, 0.15);
 Extractor.add(<sky_orchards:log_osmium>, <liquid:osmium> * 1, 0.15);
+
+// Add Sky Orchards saplings to BioReactor
+for _, resource in skyOrchardsResources {
+    BioReactor.add(resource.items.sapling);
+}
+
+// Add Integrated Dynamics Menril Sapling to BioReactor
+BioReactor.add(<integrateddynamics:menril_sapling>);
+
+// Add Rustic saplings and seeds to BioReactor
+BioReactor.add(<rustic:sapling:*>);
+BioReactor.add(<rustic:sapling_apple>);
+BioReactor.add(<rustic:apple_seeds>);
+
+// Add TwilightForest saplings to BioReactor
+BioReactor.add(<twilightforest:twilight_sapling:*>);
