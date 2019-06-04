@@ -19,7 +19,8 @@ Bug Fixes:
 * Torchmaster will now properly block spawns of Androids, Blizz, Basalz, and Blitzes (#253)
 * Removed the Ardite and Cobalt ore advancements in the Sky FacTree would by adding the stage "default_ores" on initial player spawn (#964)
 * Fixed incorrect lithium dust output from Mekanism Chemical Crystallizer (#914)
-* Barrels, Drums, Storage, and More's control scheme has been reverted back to: Left Click: 1 stack, Shift-left click: 1 item. Breaking the item on any other side besides the face will not drop contents. This control scheme can be reverted to its previous iteration by opening the mod options menu and disabling alternate controls 
+* Barrels, Drums, Storage, and More's control scheme has been reverted back to: Left Click: 1 stack, Shift-left click: 1 item. Breaking the item on any other side besides the face will not drop contents. This control scheme can be reverted to its previous iteration by opening the mod options menu and disabling alternate controls
+* Fix Tinkers modifier criteria issues in advancement requirements (#825, #569, and #199)
 
 Enhancements:
 * Added "Usage: Power / Energy Transfer Pipe" tooltip to Signalum-Plated ducts (#616)
