@@ -7,7 +7,6 @@ setTranslatedDescription("advancement.sf4.age_exploration.elytra.description")
 addParent("sf4:age_exploration/dragonKill")
 
 drawDirectLines(true)
-hiddenIf("compactmachines:test/root")
 hiddenIf("hardcore:hardcore/root")
 
 //Criteria
