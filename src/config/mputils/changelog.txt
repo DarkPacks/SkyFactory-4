@@ -14,6 +14,7 @@ If you need to revert to a world backup, the Backups folder in the instance shou
 Bug Fixes:
 * Added back the advancement to acquire Elytra and added it to Deep Mob Learning to allow Compact Machine, StoneFactory, and other Worlds to access this item
 * Limited the number of blocks and range Ore Excavation works with. The total number of blocks is now 8,000 while the max range is 32. This is specifically to address issues with players wrecking servers by excavating billions of blocks at a time
+* Addressed the issue of players on servers getting a Dirt Block and Dirt Sapling on every world type, even worlds they were not supposed to receive them. The function should now only run on correct world types
 
 Mod Updates:
 * Cyclic (1.19.11)
