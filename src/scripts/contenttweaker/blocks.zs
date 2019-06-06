@@ -40,3 +40,9 @@ var compactMachineHuntingDimensionWall as Block = VanillaFactory.createBlock("co
 addBedrockProperties(compactMachineHuntingDimensionWall);
 compactMachineHuntingDimensionWall.setTextureLocation(ResourceLocation.create("contenttweaker:blocks/compact_machine_hunting_dimension_wall"));
 compactMachineHuntingDimensionWall.register();
+
+var dust as Block = VanillaFactory.createBlock("dust", <blockmaterial:sand>);
+dust.setBlockHardness(0.7);
+dust.setBlockSoundType(<soundtype:sand>);
+dust.setGravity(true);
+dust.register();
