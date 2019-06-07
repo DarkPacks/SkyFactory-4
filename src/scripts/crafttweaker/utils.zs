@@ -36,6 +36,24 @@ function ensureOreDict(itemOreDict as IOreDictEntry, item as IItemStack) {
 
 // Formats a bucket with liquid NBT
 function formatBucket(bucket as IItemStack, liquidName as string) as IItemStack {
+	// Minecraft unique buckets
+	if (bucket.definition.owner == "forge") {
+		if (liquidName == "lava") {
+			return <minecraft:lava_bucket:0>;
+		} else if (liquidName == "milk") {
+			return <minecraft:milk_bucket:0>;
+		} else if (liquidName == "water") {
+			return <minecraft:water_bucket:0>;
+		}
+	}
+
+	// Ceramics unique buckets
+	if (liquidName == "milk") {
+		if (bucket.definition.owner == "ceramics") {
+			return <ceramics:clay_bucket:1>;
+		}
+	}
+
 	var data as IData = null;
 
 	if (bucket.matches(<ceramics:clay_bucket:0>)) {
@@ -52,28 +70,28 @@ function formatBucket(bucket as IItemStack, liquidName as string) as IItemStack 
 		};
 	}
 
-	// Minecraft unique buckets
-	if (bucket.definition.owner == "forge") {
-		if (liquidName == "lava") {
-			return <minecraft:lava_bucket:0>;
-		} else if (liquidName == "milk") {
-			return <minecraft:milk_bucket:0>;
-		} else if (liquidName == "water") {
-			return <minecraft:water_bucket:0>;
-		}
-	}
-
-	// Cyclic unique buckets
-	if (liquidName == "milk") {
-		if (bucket.definition.owner == "ceramics") {
-			return <ceramics:clay_bucket:1>;
-		}
-	}
-
 	return bucket.withTag(data);
 }
+
 function formatBucketIngredient(bucket as IItemStack, liquidName as string) as IIngredient {
 	return formatBucket(bucket, liquidName) as IIngredient;
+}
+
+function formatTankIngredient(tank as IItemStack, liquidName as string) as IIngredient {
+	if (tank.definition.owner == "morebuckets") {
+		return tank.withTag(
+			{
+				FluidName: liquidName,
+				Amount: 1000
+			},
+			false).onlyWithTag(
+				{
+					FluidName: liquidName
+				}
+			).only(function(item as IItemStack) as bool {
+				return item.tag.Amount >= 1000;
+		});
+	}
 }
 
 // Get the fluid amount required to create an item

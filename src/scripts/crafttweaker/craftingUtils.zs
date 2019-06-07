@@ -42,7 +42,10 @@ function create3By3(singleIngredient as IIngredient) as IIngredient[][] {
  */
 static buckets as IItemStack[] = [
 	<ceramics:clay_bucket:0>,
-	<forge:bucketfilled:0>,
+	<forge:bucketfilled:0>
+];
+
+static tanks as IItemStack[] = [
 	<morebuckets:ardite_bucket>,
 	<morebuckets:bronze_bucket>,
 	<morebuckets:cobalt_bucket>,
@@ -64,6 +67,7 @@ static buckets as IItemStack[] = [
 	<morebuckets:supremium_bucket>,
 	<morebuckets:tin_bucket>
 ];
+
 function getBucketIngredientFromName(liquidName as string) as IIngredient {
 	var bucketsIngredient as IIngredient = null;
 
@@ -79,7 +83,21 @@ function getBucketIngredientFromName(liquidName as string) as IIngredient {
 		}
 	}
 
-	return bucketsIngredient;
+	var tanksIngredient as IIngredient = null;
+
+	for tank in tanks {
+		var tankIngredient as IIngredient = scripts.crafttweaker.utils.formatTankIngredient(tank, liquidName);
+
+		if (!isNull(tankIngredient)) {
+			if (isNull(tanksIngredient)) {
+				tanksIngredient = tankIngredient;
+			} else {
+				tanksIngredient |= tankIngredient;
+			}
+		}
+	}
+
+	return bucketsIngredient | tanksIngredient;
 }
 
 /**
