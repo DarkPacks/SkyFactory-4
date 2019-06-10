@@ -3,14 +3,6 @@ Please report bugs to the issue tracker!!
 ---------------------------------------------------------------------
 4.0.7
 
-
-
-**** If you updated to the 4.0.6 beta and used Real Filing Cabinets in your storage system it is highly recommended you revert to a backup world from before the update. We have reverted Real Filing Cabinets to a previous version that will work with your AE2 and Simple Storage Networks, but the backdate will clear any folders you had in your filing cabinets.
-
-If you need to revert to a world backup, the Backups folder in the instance should have a number of backups for you to use. Sorry for the inconvenience!!****
-
-
-
 Bug Fixes:
 * Added back the advancement to acquire Elytra and added it to Deep Mob Learning to allow Compact Machine, StoneFactory, and other Worlds to access this item
 * Limited the number of blocks and range Ore Excavation works with. The total number of blocks is now 8,000 while the max range is 32. This is specifically to address issues with players wrecking servers by excavating billions of blocks at a time
@@ -19,9 +11,7 @@ Bug Fixes:
 Mod Updates:
 * Cyclic (1.19.11)
 * Simple Storage Network (1.7.6)
-
-Mod Downgrade:
-* Real Filing Cabinet (0.1.84)
+* Real Filing Cabinets (0.2.0.14)
 
 
 ---------------------------------------------------------------------
