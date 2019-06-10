@@ -1,0 +1,3 @@
+//First variable is the rarity. 1/that chance. Vanilla is 3.
+//Second variable is the total area for spawning the structure. The structure will start near the center of the area. Vanilla is 16.
+//Third variable is the random area for starting the structure, in the center of the total area. Vanilla is 4.

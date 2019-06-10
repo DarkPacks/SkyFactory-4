@@ -131,5 +131,12 @@
         }
       ]
     }
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:rabbit",
+    "block": "minecraft:concrete_powder",
+    "onjoin": true,
+    "result": "deny"
   }
 ]
