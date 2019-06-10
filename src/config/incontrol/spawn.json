@@ -135,7 +135,7 @@
   {
     "dimension": 0,
     "mob": "minecraft:rabbit",
-    "block": "minecraft:concrete_powder",
+    "block": "contenttweaker:dust",
     "onjoin": true,
     "result": "deny"
   }
