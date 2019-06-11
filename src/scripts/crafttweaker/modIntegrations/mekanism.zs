@@ -83,9 +83,9 @@ function init() {
 	mekanism.addCombiner(<thermaldynamics:duct_64:3> * 2, <thermalfoundation:material:1026>, <thermaldynamics:duct_64> * 2);
 	mekanism.addCombiner(<thermaldynamics:duct_0:6>, <minecraft:redstone> * 2, <thermaldynamics:duct_0:2>);
 	mekanism.addCombiner(<thermaldynamics:duct_32:1>, <minecraft:glowstone_dust>, <thermaldynamics:duct_32:3>);
-	mekanism.addCombiner(<cyclicmagic:horse_upgrade_speed>, <mekanism:otherdust:4>, <matteroverdrive:android_pill>);
-	mekanism.addCombiner(<cyclicmagic:horse_upgrade_variant>, <mekanism:otherdust:4>, <matteroverdrive:android_pill:1>);
-	mekanism.addCombiner(<minecraft:golden_apple:1>, <mekanism:otherdust:4>, <matteroverdrive:android_pill:2>);
+	mekanism.addCombiner(<cyclicmagic:horse_upgrade_speed>, <nuclearcraft:dust:6>, <matteroverdrive:android_pill>);
+	mekanism.addCombiner(<cyclicmagic:horse_upgrade_variant>, <nuclearcraft:dust:6>, <matteroverdrive:android_pill:1>);
+	mekanism.addCombiner(<minecraft:golden_apple:1>, <nuclearcraft:dust:6>, <matteroverdrive:android_pill:2>);
 
 	// ==================================
 	// Metallurgic Infuser
