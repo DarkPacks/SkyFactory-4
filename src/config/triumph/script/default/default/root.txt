@@ -1,0 +1,22 @@
+setTitle("Default")
+
+setIcon(<minecraft:skull>)
+
+setTranslatedDescription("advancement.default.default.root.description")
+
+setBackground("projecte:textures/blocks/dm.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("superflat", "minecraft:location")
+criteria.setGeneratorOptions({"Topography-Preset":"Default"})
+
+//Rewards
+setRewardFunction("triumph:sky_islands_start")
+
+alwaysHidden()

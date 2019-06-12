@@ -1,0 +1,18 @@
+setTitle("Planks")
+
+setIcon(<minecraft:planks>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.oakplanks.description")
+
+addParent("tutorial:tutorial/oakWood")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Oak Wood Planks", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:planks, count:8~>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(53,-28)

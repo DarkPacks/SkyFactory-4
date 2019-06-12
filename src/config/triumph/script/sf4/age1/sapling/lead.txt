@@ -1,0 +1,18 @@
+setTitle("Lead Zeppelin")
+
+setIcon(<sky_orchards:sapling_lead>)
+
+setTranslatedDescription("advancement.sf4.age1.sapling.lead.description")
+
+addParent("sf4:age1/amber/lead")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Lead Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_lead>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-134,306)

@@ -1,0 +1,26 @@
+setTitle("Nether Here Nor There")
+
+setIcon(<minecraft:netherrack>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.nether.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("Entered Nether", "minecraft:changed_dimension")
+criteria1.setDimensionDestination("DIM_-1")
+criteria2 = addCriteria("Entered Other Nether", "minecraft:changed_dimension")
+criteria2.setDimensionDestination("the_nether")
+
+setRewardExperience(16)
+
+//Giving players overworld cakes because I know for sure they won't read and bring one themselves
+setRewardFunction("triumph:give_cake")
+
+hideLines()
+alwaysVisible()
+setPos(7,185)

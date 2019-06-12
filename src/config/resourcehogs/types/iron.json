@@ -1,0 +1,25 @@
+{
+  "id": "iron",
+  "inputs": [
+    "ore:dustIron"
+  ],
+  "typeName": "Iron",
+  "output": "sky_orchards:amber_iron",
+  "diggableBlocks": [
+    "minecraft:stone"
+  ],
+  "renderBlock": "minecraft:iron_ore",
+  "validDimensions": [
+    -1,
+    0,
+    1,
+    7,
+    111,
+    144,
+    28885
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

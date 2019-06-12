@@ -1,0 +1,18 @@
+setTitle("Don't Sieve on Me")
+
+setIcon(<sky_orchards:sapling_gravel>)
+
+setTranslatedDescription("advancement.sf4.age1.sapling.gravel.description")
+
+addParent("sf4:age1/sapling/petrified")
+addParent("sf4:age1/crushing_tub")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Gravel Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_gravel>)
+
+//Rewards
+setRewardExperience(4)
+setPos(-359,331)

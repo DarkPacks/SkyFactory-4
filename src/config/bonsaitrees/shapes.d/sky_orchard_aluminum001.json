@@ -1,0 +1,51 @@
+{
+  "type": "sky_orchard:aluminum",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_aluminum",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_aluminum",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "  a  ",
+      " aa  ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " aaa ",
+      "aaaaa",
+      "     "
+    ]
+  ]
+}

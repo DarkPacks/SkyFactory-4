@@ -1,0 +1,18 @@
+setTitle("It's the End of the World As We Know It")
+
+setIcon(<endercrop:ender_seeds>)
+
+setTranslatedDescription("advancement.sf4.age_farming.enderseeds.description")
+
+addParent("sf4:age_farming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Ender Seeds", "minecraft:inventory_changed")
+criteria.addItem(<endercrop:ender_seeds>)
+
+setRewardExperience(16)
+
+alwaysVisible()
+setPos(116,261)

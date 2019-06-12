@@ -1,0 +1,22 @@
+setTitle("Enter the Twilight")
+
+setIcon(<twilightforest:miniature_structure>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.twilightforest.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+criteria = addCriteria("Entered Twilight Forest Dimension", "minecraft:location")
+criteria.setDimID(7)
+
+setRewardExperience(16)
+
+//Giving players overworld cakes because I know for sure they won't read and bring one themselves
+setRewardFunction("triumph:give_cake")
+
+hiddenUnless("twilight_forest")
+hideLines()
+alwaysVisible()
+setPos(7,78)

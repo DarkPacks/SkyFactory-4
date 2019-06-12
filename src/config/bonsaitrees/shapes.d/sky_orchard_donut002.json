@@ -1,0 +1,51 @@
+{
+  "type": "sky_orchard:donut",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_donut",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_donut",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " aaa ",
+      " aaaa",
+      "     "
+    ],
+    [
+      "  a  ",
+      "  a  ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      "  a  ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "aaaa ",
+      " aaa ",
+      "     "
+    ]
+  ]
+}

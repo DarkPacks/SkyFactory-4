@@ -1,0 +1,18 @@
+setTitle("Up in Arms")
+
+setIcon(<conarm:armorstation>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.armorstation.description")
+
+addParent("sf4:age_enhancement/partBuilder")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Armor Station", "minecraft:inventory_changed")
+criteria.addItem(<conarm:armorstation>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(84,229)

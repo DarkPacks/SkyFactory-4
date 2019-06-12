@@ -1,0 +1,18 @@
+setTitle("Need a Mint?")
+
+setIcon(<minecraft:dragon_breath>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.dragonbreath.description")
+
+addParent("sf4:age_exploration/dragonKill")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Dragon's Breath", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:dragon_breath>)
+
+setRewardExperience(16)
+
+alwaysVisible()
+setPos(85,93)

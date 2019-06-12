@@ -1,0 +1,25 @@
+{
+  "id": "manyullyn",
+  "inputs": [
+    "tconstruct:metal:2"
+  ],
+  "typeName": "Manyullyn",
+  "output": "tconstruct:nuggets:2",
+  "diggableBlocks": [
+    "minecraft:soul_sand"
+  ],
+  "renderBlock": "tconstruct:metal:2",
+  "validDimensions": [
+    -1,
+    0,
+    1,
+    7,
+    111,
+    144,
+    28885
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 10,
+  "digTickDelay": 2400
+}

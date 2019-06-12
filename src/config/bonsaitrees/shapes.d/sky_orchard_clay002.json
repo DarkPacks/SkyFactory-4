@@ -1,0 +1,56 @@
+{
+  "type": "sky_orchard:clay",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_clay",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_clay",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      " aaa ",
+      "     ",
+      "     "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  ",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      " aaa ",
+      "     ",
+      "     "
+    ]
+  ]
+}

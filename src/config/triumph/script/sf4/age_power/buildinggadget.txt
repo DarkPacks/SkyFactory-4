@@ -1,0 +1,22 @@
+setTitle("Go, Go, Building Gadget")
+
+setIcon(<buildinggadgets:buildingtool>)
+
+//setDescription("The Building Gadget helps you build!")
+
+setDescription({"translate":"advancement.sf4.age_power.buildinggadget.description","with":[{"keybind":"key.settings_menu"}]})
+
+addParent("sf4:age_power/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Building Gadget", "minecraft:inventory_changed")
+criteria.addItem(<buildinggadgets:buildingtool>)
+
+//Rewards
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-210,221)

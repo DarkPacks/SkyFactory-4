@@ -1,0 +1,20 @@
+setTitle("I Don't Know")
+
+setIcon(<tconstruct:slime_sapling>)
+
+//setDescription("Acquire a Blue Slime Sapling by Right-Clicking a Lapis Sapling in a Cauldron filled with Milk")
+
+setDescription({"translate":"advancement.sf4.age1.sapling.slime.description","with":[{"keybind":"key.use"}]})
+
+addParent("sf4:age1/sapling/lapis")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Blue Slime Sapling", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:slime_sapling>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-159,256)

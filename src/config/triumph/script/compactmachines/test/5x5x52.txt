@@ -1,0 +1,35 @@
+setTitle("5x5x5")
+
+setIcon(<compactmachines3:machine:1>)
+
+setTranslatedDescription("advancement.compactmachines.test.5x5x52.description")
+
+addParent("compactmachines:test/3x3x3")
+
+visibleIf("compact_machines")
+alwaysHidden()
+
+drawDirectLines(true)
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("Craft Simple Combustion Generator", "minecraft:inventory_changed")
+criteria.addItem(<simplegenerators:combustion_simple>)
+criteria1 = addCriteria("Craft Simple Culinary Generator", "minecraft:inventory_changed")
+criteria1.addItem(<simplegenerators:culinary_simple>)
+criteria2 = addCriteria("Craft Simple Ender Generator", "minecraft:inventory_changed")
+criteria2.addItem(<simplegenerators:ender_simple>)
+criteria3 = addCriteria("Craft Simple Nether Generator", "minecraft:inventory_changed")
+criteria3.addItem(<simplegenerators:nether_simple>)
+criteria4 = addCriteria("Craft Simple Soul Generator", "minecraft:inventory_changed")
+criteria4.addItem(<simplegenerators:soul_simple>)
+criteria5 = addCriteria("Craft Simple Geothermal Generator", "minecraft:inventory_changed")
+criteria5.addItem(<simplegenerators:geothermal_simple>)
+criteria6 = addCriteria("Craft Simple Fluid Combustion Generator", "minecraft:inventory_changed")
+criteria6.addItem(<simplegenerators:fluid_combustion_simple>)
+
+//Rewards
+setRewardExperience(4)
+
+setRewardItem(<compactmachines3:machine:1>)
+setPos(62,82)

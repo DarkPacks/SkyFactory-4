@@ -1,0 +1,23 @@
+//Set the icon item
+setIcon(<minecraft:sapling, meta:4>)
+
+//Set the title String
+setTitle("I'm a tree!")
+
+//Set the description String
+setDescription("Enter a sapling block")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(10, 5)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+//Adds criteria named "entered" with the trigger type "minecraft:enter_block". This function returns the criteria as an object
+criteria = addCriteria("entered", "minecraft:enter_block")
+
+//Sets the required block for the criteria. This is the block that needs to be entered.
+criteria.setBlock(<ore:treeSapling>)

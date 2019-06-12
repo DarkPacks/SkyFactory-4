@@ -1,0 +1,19 @@
+setTitle("It Gives You Wings")
+
+setIcon(<minecraft:elytra>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.elytra.description")
+
+addParent("sf4:age_exploration/dragonKill")
+
+drawDirectLines(true)
+hiddenIf("hardcore:hardcore/root")
+
+//Criteria
+criteria = addCriteria("Obtain Elytra", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:elytra>)
+
+setRewardExperience(16)
+
+
+setPos(85,120)

@@ -1,0 +1,19 @@
+setTitle("I've Been Slimed")
+
+setIcon(<tconstruct:slime_dirt:0>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.copied.greenslimydirt.description")
+
+addParent("tutorial:tutorial/copied/claySapling")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Green Slime Dirt", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:slime_dirt:0>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(274,72)
+hideLines()

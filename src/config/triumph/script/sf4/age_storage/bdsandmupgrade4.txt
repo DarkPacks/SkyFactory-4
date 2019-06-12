@@ -1,0 +1,19 @@
+setTitle("Better Than 1080p")
+
+setIcon(<bdsandm:upgrade:3>)
+
+setTranslatedDescription("advancement.sf4.age_storage.bdsandmupgrade4.description")
+
+addParent("sf4:age_storage/bdsandmUpgrade3")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain x4k Storage Upgrade", "minecraft:inventory_changed")
+criteria.addItem(<bdsandm:upgrade:3>)
+
+//Rewards
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-181,111)

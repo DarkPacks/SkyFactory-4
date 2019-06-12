@@ -1,0 +1,18 @@
+setTitle("DarkToasto")
+
+setIcon(<culinaryconstruct:sandwich, meta:0, count:1, nbt:{Size:5,Saturation:0.8702703f,Ingredients:{Items:[{Slot:0b,id:"xlfoodmod:blt_sandwich",Count:1b,Damage:0s},{Slot:1b,id:"xlfoodmod:cheeseburger",Count:1b,Damage:0s},{Slot:2b,id:"minecraft:golden_apple",Count:1b,Damage:1s},{Slot:3b,id:"xlfoodmod:onion_rings",Count:1b,Damage:0s},{Slot:4b,ForgeCaps:{"astralsorcery:cap_item_amulet_holder":{}},id:"xlfoodmod:coffee",Count:1b,Damage:0s},{Slot:5b,id:"xlfoodmod:corn_bread",Count:1b,Damage:0s}]},Bonus:2,Food:37}>)
+
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.darkosandwich.description")
+
+addParent("sf4:age_allthethingsomglol/root")
+
+//Criteria
+criteria = addCriteria("Obtain Metal Pickaxe Head Cast", "minecraft:inventory_changed")
+criteria.addItem(<culinaryconstruct:sandwich, meta:0, count:1, nbt:{Size:5,Saturation:0.8702703f,Ingredients:{Items:[{Slot:0b,id:"xlfoodmod:blt_sandwich",Count:1b,Damage:0s},{Slot:1b,id:"xlfoodmod:cheeseburger",Count:1b,Damage:0s},{Slot:2b,id:"minecraft:golden_apple",Count:1b,Damage:1s},{Slot:3b,id:"xlfoodmod:onion_rings",Count:1b,Damage:0s},{Slot:4b,ForgeCaps:{"astralsorcery:cap_item_amulet_holder":{}},id:"xlfoodmod:coffee",Count:1b,Damage:0s},{Slot:5b,id:"xlfoodmod:corn_bread",Count:1b,Damage:0s}]},Bonus:2,Food:37}>)
+
+//Rewards
+setRewardExperience(100)
+
+hideLines()
+alwaysVisible()
+setPos(-187,-24)

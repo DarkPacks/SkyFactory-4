@@ -1,0 +1,18 @@
+setTitle("CAT 5")
+
+setIcon(<storagenetwork:kabel>)
+
+setTranslatedDescription("advancement.sf4.age_storage.simplestoragecable.description")
+
+addParent("sf4:age_storage/simpleStorageMaster")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Network Cable", "minecraft:inventory_changed")
+criteria.addItem(<storagenetwork:kabel>)
+
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-278,82)

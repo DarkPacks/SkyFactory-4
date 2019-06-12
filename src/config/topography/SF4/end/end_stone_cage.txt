@@ -1,0 +1,37 @@
+setFogColor(#000000)
+
+setSingleBiome("minecraft:sky")
+
+setSpawnStructure("endcage")
+
+layers = new LayerGenerator()
+layers.addLayer(0~1, <minecraft:bedrock>)
+layers.addLayer(1~254, <minecraft:end_stone>)
+layers.addLayer(255~255, <minecraft:bedrock>)
+addGenerator(layers)
+
+spheres = new DeformedSphereGenerator(<minecraft:obsidian>, 10, 32, 32, 8)
+spheres.addRequiredBlock(<minecraft:end_stone>)
+addGenerator(spheres)
+
+purpur = new DeformedSphereGenerator(<minecraft:purpur_block>, 8, 30, 30, 7)
+purpur.addRequiredBlock(<minecraft:end_stone>)
+addGenerator(purpur)
+
+enderore = new DeformedSphereGenerator(<thermalfoundation:ore_fluid:4>, 2, 3, 32, 8)
+enderore.setDeformScale(4)
+enderore.addRequiredBlock(<minecraft:end_stone>)
+addGenerator(enderore)
+
+inferium = new DeformedSphereGenerator(<mysticalagriculture:end_inferium_ore>, 3, 2, 64, 10)
+inferium.setDeformScale(4)
+inferium.addRequiredBlock(<minecraft:end_stone>)
+addGenerator(inferium)
+
+prosperity = new DeformedSphereGenerator(<mysticalagriculture:end_prosperity_ore>, 2, 3, 52, 10)
+prosperity.setDeformScale(4)
+prosperity.addRequiredBlock(<minecraft:end_stone>)
+addGenerator(prosperity)
+
+captureTeleports()
+disableRespawning()

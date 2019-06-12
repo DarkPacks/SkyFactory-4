@@ -1,0 +1,18 @@
+setTitle("Axe Me Anything")
+
+setIcon(<tconstruct:lumberaxe>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.lumberaxe.description")
+
+addParent("sf4:age_enhancement/toolForge")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Tinkers' Lumber Axe", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:lumberaxe>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(133,229)

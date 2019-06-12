@@ -1,0 +1,19 @@
+setTitle("SkyFactory 4")
+
+setIcon(<minecraft:sapling>)
+
+setTranslatedDescription("advancement.sf4.age1.root.description")
+
+setBackground("test:textures/colors/purple.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+//Criteria
+addCriteria("non_tutorial_start", "minecraft:impossible")
+
+setPos(-459,306)
+
+pageRequiresRoot()
+pageHiddenIf("tutorial")
+pageAlwaysVisible()

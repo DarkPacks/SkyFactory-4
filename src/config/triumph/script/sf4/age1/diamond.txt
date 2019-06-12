@@ -1,0 +1,16 @@
+setTitle("Trees to Diamonds")
+
+setIcon(<minecraft:diamond>)
+
+setTranslatedDescription("advancement.sf4.age1.diamond.description")
+
+addParent("sf4:age1/sapling/diamond")
+
+drawDirectLines()
+
+criteria = addCriteria("Obtain Diamond", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:diamond>)
+
+setRewardExperience(6)
+
+setPos(-34,306)

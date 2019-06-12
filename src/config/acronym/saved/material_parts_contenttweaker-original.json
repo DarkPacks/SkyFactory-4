@@ -1,0 +1,15 @@
+{
+  "materialMappings": {
+    "ardite_ore_minecraft_ice_packed": 8,
+    "ardite_dust": 2,
+    "reinforced_obsidian_molten": 4,
+    "modularium_molten": 0,
+    "cobalt_dust": 3,
+    "ardite_ore": 5,
+    "osmium_molten": 1,
+    "cobalt_ore": 6,
+    "quartz_ore_minecraft_ice_packed": 10,
+    "quartz_ore": 7,
+    "cobalt_ore_minecraft_ice_packed": 9
+  }
+}

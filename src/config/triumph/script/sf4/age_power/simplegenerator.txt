@@ -1,0 +1,32 @@
+setTitle("Generator, I Hardly Know Her")
+
+setIcon(<simplegenerators:combustion_simple>)
+
+setTranslatedDescription("advancement.sf4.age_power.simplegenerator.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria1 = addCriteria("Obtain Simple Combustion Generator", "minecraft:inventory_changed")
+criteria1.addItem(<simplegenerators:combustion_simple>)
+criteria2 = addCriteria("Obtain Simple Culinary Generator", "minecraft:inventory_changed")
+criteria2.addItem(<simplegenerators:culinary_simple>)
+criteria3 = addCriteria("Obtain Simple Ender Generator", "minecraft:inventory_changed")
+criteria3.addItem(<simplegenerators:ender_simple>)
+criteria4 = addCriteria("Obtain Simple Nether Generator", "minecraft:inventory_changed")
+criteria4.addItem(<simplegenerators:nether_simple>)
+criteria5 = addCriteria("Obtain Simple Soul Generator", "minecraft:inventory_changed")
+criteria5.addItem(<simplegenerators:soul_simple>)
+criteria6 = addCriteria("Obtain Simple Geothermal Generator", "minecraft:inventory_changed")
+criteria6.addItem(<simplegenerators:geothermal_simple>)
+criteria7 = addCriteria("Obtain Simple Fluid Combustion Generator", "minecraft:inventory_changed")
+criteria7.addItem(<simplegenerators:fluid_combustion_simple>)
+criteria8 = addCriteria("Obtain Simple Turbine Generator", "minecraft:inventory_changed")
+criteria8.addItem(<simplegenerators:turbine_simple>)
+
+setRewardExperience(10)
+
+setRequirements("any")
+hideLines()
+alwaysVisible()
+setPos(-335,121)

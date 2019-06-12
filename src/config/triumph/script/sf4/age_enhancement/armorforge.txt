@@ -1,0 +1,18 @@
+setTitle("Suit Up")
+
+setIcon(<conarm:armorforge>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.armorforge.description")
+
+addParent("sf4:age_enhancement/armorStation")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Armor Forge", "minecraft:inventory_changed")
+criteria.addItem(<conarm:armorforge>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(108,229)

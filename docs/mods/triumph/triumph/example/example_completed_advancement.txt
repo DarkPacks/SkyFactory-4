@@ -1,0 +1,30 @@
+//Set icon item
+setIcon(<minecraft:netherrack>)
+
+//Set title String
+setTitle("Caveman smash red rock!")
+
+//Set description String
+setDescription("Break a netherrack block")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/example_enter_dimension")
+
+//Set the position
+setPos(8.5, 15.5)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+//Adds criteria named "brokeNetherrack" with the trigger type "triumph:player_break_block". This function returns the criteria as an object
+criteria = addCriteria("brokeNetherrack", "triumph:player_break_block")
+
+//Sets the required block for the criteria. This is the block that needs to be broken by the player.
+criteria.setBlock(<minecraft:netherrack>)
+
+//Sets the parent advancements to be required. This is just a helper method, which adds criterion named "completedParent"/"completedParent2"/etc with the trigger type "triumph:completed_advancement" and sets the parent advancement as the requirement. The long form version of this is written in the two commented lines below.
+setRequiresParents()
+//criteria = addCriteria("completedParent", "triumph:completed_advancement")
+//criteria.setAdvancement("triumph:example/example_enter_dimension")
+
+//By not setting anything about requirements here, all criteria are automatically required

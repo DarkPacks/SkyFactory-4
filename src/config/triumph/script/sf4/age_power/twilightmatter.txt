@@ -1,0 +1,18 @@
+setTitle("Dusk Till Dawn")
+
+setIcon(<deepmoblearning:living_matter_twilight>)
+
+setTranslatedDescription("advancement.sf4.age_power.twilightmatter.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Twilight Matter", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:living_matter_twilight>)
+
+setRewardExperience(10)
+
+hiddenUnless("twilight_forest")
+hideLines()
+alwaysVisible()
+setPos(-210,121)

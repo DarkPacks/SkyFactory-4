@@ -1,0 +1,17 @@
+setTitle("Not Mulch Going On")
+
+setIcon(<inspirations:mulch:6>)
+
+setTranslatedDescription("advancement.sf4.age_farming.blackmulch.description")
+
+addParent("sf4:age_farming/redMulch")
+
+//Criteria
+criteria = addCriteria("Obtain Black Mulch", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:mulch:6>)
+
+hiddenUnless("black_mulch")
+alwaysVisible()
+
+setRewardExperience(6)
+setPos(160,207)

@@ -1,0 +1,4 @@
+gamestage silentadd @p tutorial
+function triumph:startingItems
+function triumph:forgiving_void_enable
+mpa notify @p open_advancements

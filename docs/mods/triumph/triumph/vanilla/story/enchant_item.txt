@@ -1,0 +1,7 @@
+setIcon("minecraft:enchanted_book")
+setTranslatedTitle("advancements.story.enchant_item.title")
+setTranslatedDescription("advancements.story.enchant_item.description")
+
+addParent("triumph:vanilla/story/mine_diamond")
+
+criteria = addCriteria("enchanted_item", "minecraft:enchanted_item")

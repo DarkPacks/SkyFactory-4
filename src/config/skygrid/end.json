@@ -1,0 +1,63 @@
+[
+  {
+    "block": "minecraft:obsidian",
+    "meta": 0,
+    "weight": 75,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "tconstruct:slime_congealed",
+    "meta": 2,
+    "weight": 15,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:end_stone",
+    "meta": 0,
+    "weight": 450,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:purpur_block",
+    "meta": 0,
+    "weight": 40,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:purpur_pillar",
+    "meta": 0,
+    "weight": 5,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "ogdragon:dragon_egg",
+    "meta": 0,
+    "weight": 4,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:mob_spawner",
+    "meta": 0,
+    "weight": 8,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:end_stone",
+    "meta": 0,
+    "weight": 2,
+    "plants": [
+      {
+        "block": "minecraft:chorus_flower",
+        "meta": 0
+      }
+    ],
+    "biomes": []
+  }
+]

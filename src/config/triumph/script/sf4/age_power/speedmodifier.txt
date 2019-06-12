@@ -1,0 +1,18 @@
+setTitle("Need iiii Speed")
+
+setIcon(<valkyrielib:modifier_speed>)
+
+setTranslatedDescription("advancement.sf4.age_power.speedmodifier.description")
+
+addParent("sf4:age_power/simpleGenerator")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Speed Modifier", "minecraft:inventory_changed")
+criteria.addItem(<valkyrielib:modifier_speed>)
+
+setRewardExperience(10)
+drawDirectLines(true)
+alwaysVisible()
+setPos(-360,96)

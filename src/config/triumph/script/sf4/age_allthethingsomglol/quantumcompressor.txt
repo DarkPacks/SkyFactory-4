@@ -1,0 +1,18 @@
+setTitle("'This Baby Can Fit so Much Matter'")
+
+setIcon(<extendedcrafting:compressor>)
+
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.quantumcompressor.description")
+
+addParent("sf4:age_allthethingsomglol/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Quantum Compressor", "minecraft:inventory_changed")
+criteria.addItem(<extendedcrafting:compressor>)
+
+setRewardExperience(60)
+
+alwaysVisible()
+setPos(-108,76)

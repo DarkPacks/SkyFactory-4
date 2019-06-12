@@ -1,0 +1,19 @@
+setTitle("Hardwood")
+
+setIcon(<sky_orchards:sapling_petrified>)
+
+setTranslatedDescription("advancement.sf4.age1.sapling.petrified.description")
+
+addParent("sf4:age1/sapling/dirt")
+addParent("sf4:age1/drying_rack")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Petrified Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_petrified>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-384,306)

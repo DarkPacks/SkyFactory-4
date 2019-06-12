@@ -1,0 +1,17 @@
+setTitle("The Study Guide")
+
+setIcon(<deepmoblearning:deep_learner>)
+
+setTranslatedDescription("advancement.sf4.age_power.deeplearner.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Deep Learner", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:deep_learner>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-183,146)

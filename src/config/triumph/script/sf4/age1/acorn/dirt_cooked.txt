@@ -1,0 +1,18 @@
+setTitle("Eating Dirt")
+
+setIcon(<sky_orchards:acorn_dirt:1>)
+
+setTranslatedDescription("advancement.sf4.age1.acorn.dirt_cooked.description")
+
+addParent("sf4:age1/acorn/dirt")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Cooked Dirt Acorn", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:acorn_dirt:1>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-384,256)

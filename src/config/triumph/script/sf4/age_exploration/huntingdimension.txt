@@ -1,0 +1,21 @@
+setTitle("Let the Hunt Begin")
+
+setIcon(<telepastries:hunting_dimension_cake>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.huntingdimension.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+criteria = addCriteria("Entered Hunting Dimension", "minecraft:location")
+criteria.setDimID(28885)
+
+setRewardExperience(16)
+
+//Giving players overworld cakes because I know for sure they won't read and bring one themselves
+setRewardFunction("triumph:give_cake")
+
+hideLines()
+alwaysVisible()
+setPos(7,253)

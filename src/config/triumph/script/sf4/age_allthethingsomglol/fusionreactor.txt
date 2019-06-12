@@ -1,0 +1,20 @@
+setTitle("Don't Overreact")
+
+setIcon(<matteroverdrive:gravitational_anomaly>)
+
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.fusionreactor.description")
+
+addParent("sf4:age_allthethingsomglol/root")
+
+hideLines()
+hiddenIf("compactmachines:test/root")
+alwaysVisible()
+
+//Criteria
+criteria = addCriteria("Right Click Fusion Reactor Generating 15k FE/t", "triumph:right_click_block")
+criteria.setBlock(<matteroverdrive:fusion_reactor_controller,tile:{EnergyPerTick:15000~}>)
+
+//Rewards
+setRewardExperience(60)
+
+setPos(64,101)

@@ -1,0 +1,17 @@
+setTitle("Tesla was Right!")
+
+setIcon(<chargers:wireless_charger>)
+
+setTranslatedDescription("advancement.sf4.age_power.wirelesscharger.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Wireless Charger", "minecraft:inventory_changed")
+criteria.addItem(<chargers:wireless_charger>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-335,171)

@@ -1,0 +1,19 @@
+
+setIcon("minecraft:fire_charge")
+setTranslatedTitle("advancements.nether.return_to_sender.title")
+setTranslatedDescription("advancements.nether.return_to_sender.description")
+
+setFrameType("challenge")
+
+addParent("triumph:vanilla/nether/root")
+
+setRewardExperience(50)
+
+criteria = addCriteria("killed_ghast", "minecraft:player_killed_entity")
+
+criteria.setEntityType("minecraft:ghast")
+
+damageSource = criteria.getDamageSourceData()
+damageSource.isProjectile(true)
+immediateSource = damageSource.getImmediateSourceData()
+immediateSource.setType("minecraft:fireball")

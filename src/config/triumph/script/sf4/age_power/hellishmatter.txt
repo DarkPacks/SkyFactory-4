@@ -1,0 +1,17 @@
+setTitle("What the Heck?!")
+
+setIcon(<deepmoblearning:living_matter_hellish>)
+
+setTranslatedDescription("advancement.sf4.age_power.hellishmatter.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Hellish Matter", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:living_matter_hellish>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-156,121)

@@ -1,0 +1,16 @@
+setTitle("Hop to It")
+
+setIcon(<minecraft:hopper>)
+
+setTranslatedDescription("advancement.sf4.age_storage.hopper.description")
+
+addParent("sf4:age_storage/woodenHopper")
+
+//Criteria
+criteria = addCriteria("Obtain Hopper", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:hopper>)
+
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-183,52)

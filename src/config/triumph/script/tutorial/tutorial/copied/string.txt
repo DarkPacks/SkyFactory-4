@@ -1,0 +1,21 @@
+setTitle("You Cotton Something?")
+
+setIcon(<minecraft:string>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.copied.string.description")
+
+addParent("tutorial:tutorial/dryingRack")
+
+drawDirectLines(true)
+
+//Criteria
+criteria1 = addCriteria("Obtain String", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:string>)
+criteria2 = addCriteria("Obtain Cottonwood Sapling", "minecraft:inventory_changed")
+criteria2.addItem(<sky_orchards:sapling_cottonwood>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(49,122)
+hideLines()

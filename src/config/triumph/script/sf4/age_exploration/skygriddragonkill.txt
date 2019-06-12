@@ -1,0 +1,28 @@
+setTitle("Quit Dragon My Heart Around")
+
+setIcon(<minecraft:end_stone>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.skygriddragonkill.description")
+
+addParent("sf4:age_exploration/root")
+addParent("skygrid:skygrid/root")
+setRequiresParents()
+
+//Criteria
+criteria1 = addCriteria("Ender", "minecraft:player_killed_entity")
+criteria1.setEntityType("minecraft:ender_dragon")
+criteria2 = addCriteria("Killed", "minecraft:player_killed_entity")
+criteria2.setEntityType("ogdragon:dragon")
+criteria3 = addCriteria("the", "minecraft:player_killed_entity")
+criteria3.setEntityType("ogdragon:darkosto")
+criteria4 = addCriteria("Dragon", "minecraft:player_killed_entity")
+criteria4.setEntityType("ogdragon:entityrider")
+
+setRequirements("any")
+
+hiddenUnless("skygrid:skygrid/root")
+
+setRewardExperience(16)
+
+hideLines()
+setPos(-19,109)

@@ -1,0 +1,8 @@
+setIcon("minecraft:wooden_pickaxe")
+setTranslatedTitle("advancements.story.mine_stone.title")
+setTranslatedDescription("advancements.story.mine_stone.description")
+
+addParent("triumph:vanilla/story/root")
+
+criteria = addCriteria("get_stone", "minecraft:inventory_changed")
+criteria.addItem("minecraft:cobblestone")

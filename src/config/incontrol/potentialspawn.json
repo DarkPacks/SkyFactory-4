@@ -1,0 +1,35 @@
+[
+  {
+    "biome": "Hell",
+    "mobs": [
+      {
+        "mob": "minecraft:blaze",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "minecraft:wither_skeleton",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "minecraft:bat",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "statues:statue_bat",
+        "weight": 6,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  }
+]

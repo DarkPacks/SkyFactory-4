@@ -1,0 +1,23 @@
+setTitle("Expand Your Base")
+
+setIcon(<minecraft:wooden_slab>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.placeoak.description")
+
+addParent("tutorial:tutorial/dirtSapling")
+
+drawDirectLines(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("Placed Oak Planks", "minecraft:placed_block")
+criteria1.setBlock(<minecraft:planks>)
+
+criteria2 = addCriteria("Placed Oak Wood Slab", "minecraft:placed_block")
+criteria2.setBlock(<minecraft:wooden_slab>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(74,-7)

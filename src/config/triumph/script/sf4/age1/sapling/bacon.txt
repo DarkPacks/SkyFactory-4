@@ -1,0 +1,17 @@
+setTitle("OinkTree")
+
+setIcon(<sky_orchards:sapling_bacon>)
+
+setTranslatedDescription("advancement.sf4.age1.sapling.bacon.description")
+
+addParent("sf4:age1/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Bacon Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_bacon>)
+
+//Rewards
+setRewardExperience(4)
+setPos(-209,156)

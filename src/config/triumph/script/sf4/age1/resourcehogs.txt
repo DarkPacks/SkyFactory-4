@@ -1,0 +1,18 @@
+setTitle("Hog Tied")
+
+setIcon(<resourcehogs:mud_bucket, meta:0, count:1, nbt:{ResourceType:"cobblestone"}>)
+
+setTranslatedDescription("advancement.sf4.age1.resourcehogs.description")
+
+addParent("sf4:age1/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Cobblestone Mud", "minecraft:inventory_changed")
+criteria.addItem(<resourcehogs:mud_bucket, meta:0, count:1, nbt:{ResourceType:"cobblestone"}>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-309,181)

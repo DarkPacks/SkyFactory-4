@@ -1,0 +1,16 @@
+setTitle("Jacob's Ladder")
+
+setIcon(<rftoolspower:cell3>)
+
+setTranslatedDescription("advancement.sf4.age_power.powercellhigh.description")
+
+addParent("sf4:age_power/powerCellMedium")
+
+//Criteria
+criteria = addCriteria("Obtain High Powercell", "minecraft:inventory_changed")
+criteria.addItem(<rftoolspower:cell3>)
+
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-260,221)

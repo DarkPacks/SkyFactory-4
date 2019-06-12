@@ -1,0 +1,4 @@
+gamestage remove @p pacifist
+gamerule tfEnforcedProgression true
+gamerule doMobLoot true
+gamestage add @p non_pacifist

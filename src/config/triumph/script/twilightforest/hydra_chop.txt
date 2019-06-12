@@ -1,0 +1,14 @@
+
+setTitle({"translate": "advancement.twilightforest.hydra_chop"})
+
+setIcon(<twilightforest:hydra_chop>)
+
+setTranslatedDescription("advancement.twilightforest.hydra_chop.description")
+
+setFrameType("goal")
+
+addParent("twilightforest:progress_hydra")
+
+//Criteria
+criteria = addCriteria("hydra_chop", "minecraft:inventory_changed")
+criteria.addItem(<twilightforest:hydra_chop>)

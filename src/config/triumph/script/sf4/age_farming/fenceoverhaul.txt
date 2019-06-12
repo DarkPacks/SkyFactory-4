@@ -1,0 +1,31 @@
+setTitle("Diagon Alley")
+
+setIcon(<fenceoverhaul:oak_overhauledfence>)
+
+setTranslatedDescription("advancement.sf4.age_farming.fenceoverhaul.description")
+
+addParent("sf4:age_farming/root")
+
+hideLines()
+
+//Criteria
+criteria1 = addCriteria("Obtain Oak Diagonal Fence", "minecraft:inventory_changed")
+criteria1.addItem(<fenceoverhaul:oak_overhauledfence>)
+criteria2 = addCriteria("Obtain Spruce Diagonal Fence", "minecraft:inventory_changed")
+criteria2.addItem(<fenceoverhaul:spruce_overhauledfence>)
+criteria3 = addCriteria("Obtain Birch Diagonal Fence", "minecraft:inventory_changed")
+criteria3.addItem(<fenceoverhaul:birch_overhauledfence>)
+criteria4 = addCriteria("Obtain Jungle Diagonal Fence", "minecraft:inventory_changed")
+criteria4.addItem(<fenceoverhaul:jungle_overhauledfence>)
+criteria5 = addCriteria("Obtain Acacia Diagonal Fence", "minecraft:inventory_changed")
+criteria5.addItem(<fenceoverhaul:acacia_overhauledfence>)
+criteria6 = addCriteria("Obtain Dark Oak Diagonal Fence", "minecraft:inventory_changed")
+criteria6.addItem(<fenceoverhaul:dark_oak_overhauledfence>)
+
+setRequirements("any")
+
+//Rewards
+setRewardExperience(4)
+
+alwaysVisible()
+setPos(166,261)

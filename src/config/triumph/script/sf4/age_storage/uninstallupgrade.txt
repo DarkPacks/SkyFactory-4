@@ -1,0 +1,17 @@
+setTitle("Be Kind. Rewind.")
+
+setIcon(<bdsandm:upgrade:7>)
+
+setTranslatedDescription("advancement.sf4.age_storage.uninstallupgrade.description")
+
+addParent("sf4:age_storage/root")
+
+//Criteria
+criteria = addCriteria("Obtain x64 Storage Upgrade", "minecraft:inventory_changed")
+criteria.addItem(<bdsandm:upgrade:7>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-243,86)

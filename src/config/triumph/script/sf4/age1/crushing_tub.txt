@@ -1,0 +1,19 @@
+setTitle("I Love Lucy")
+
+setIcon(<rustic:crushing_tub>)
+
+setTranslatedDescription("advancement.sf4.age1.crushing_tub.description")
+
+addParent("sf4:age1/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Crushing Tub", "minecraft:inventory_changed")
+criteria.addItem(<rustic:crushing_tub>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+setPos(-384,331)

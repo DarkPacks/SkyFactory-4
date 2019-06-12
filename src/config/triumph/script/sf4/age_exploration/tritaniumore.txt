@@ -1,0 +1,20 @@
+setTitle("You're Tritanium to Bring Me Down")
+
+setIcon(<matteroverdrive:tritanium_ore>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.tritaniumore.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Ice Tritanium Ore", "minecraft:inventory_changed")
+criteria.addItem(<matteroverdrive:tritanium_ore>)
+
+setRequirements("any")
+setRewardExperience(20)
+
+hideLines()
+alwaysVisible()
+setPos(-263,47)

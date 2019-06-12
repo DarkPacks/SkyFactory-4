@@ -1,0 +1,19 @@
+setTitle("Floaty McFloaty")
+
+setIcon(<tp:fmf_block>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.floaty.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Floaty McFloaty Block", "minecraft:inventory_changed")
+criteria.addItem(<tp:fmf_block>)
+
+setRewardExperience(16)
+
+hideLines()
+alwaysVisible()
+setPos(7,109)

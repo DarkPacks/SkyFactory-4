@@ -1,0 +1,17 @@
+setTitle("Silicon Valley")
+
+setIcon(<appliedenergistics2:material:19>)
+
+setTranslatedDescription("advancement.sf4.age_storage.siliconpress.description")
+
+addParent("sf4:age_storage/root")
+
+//Criteria
+criteria = addCriteria("Obtain Silicon Press", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:material:19>)
+
+setRewardExperience(12)
+
+hideLines()
+alwaysVisible()
+setPos(-43,148)

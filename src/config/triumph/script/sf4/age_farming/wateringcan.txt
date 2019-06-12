@@ -1,0 +1,18 @@
+setTitle("Yes We Can!")
+
+setIcon(<tp:watering_can>)
+
+setTranslatedDescription("advancement.sf4.age_farming.wateringcan.description")
+
+addParent("sf4:age_farming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Watering Can", "minecraft:inventory_changed")
+criteria.addItem(<tp:watering_can>)
+
+setRewardExperience(6)
+
+setPos(10,335)
+alwaysVisible()

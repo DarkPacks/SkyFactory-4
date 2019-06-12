@@ -1,0 +1,19 @@
+setTitle("You're Boron Me")
+
+setIcon(<nuclearcraft:ore:5>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.boronore.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Boron Ore", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:ore:5>)
+
+setRewardExperience(20)
+
+hideLines()
+alwaysVisible()
+setPos(-188,47)

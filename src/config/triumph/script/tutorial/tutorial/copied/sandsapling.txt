@@ -1,0 +1,19 @@
+setTitle("Palm Trees")
+
+setIcon(<sky_orchards:sapling_sand>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.copied.sandsapling.description")
+
+addParent("tutorial:tutorial/copied/petrifiedSapling")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Sand Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_sand>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(374,97)
+hideLines()

@@ -1,0 +1,15 @@
+
+setIcon("minecraft:red_nether_brick")
+
+setTranslatedTitle("advancements.nether.root.title")
+
+setTranslatedDescription("advancements.nether.root.description")
+
+setBackground("minecraft:textures/gui/advancements/backgrounds/nether.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("the_nether")

@@ -1,0 +1,17 @@
+setTitle("Config-a-ma-whatzit")
+
+setIcon(<mekanism:configurator>)
+
+setTranslatedDescription("advancement.sf4.age_power.configurator.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Configurator", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:configurator>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-129,246)

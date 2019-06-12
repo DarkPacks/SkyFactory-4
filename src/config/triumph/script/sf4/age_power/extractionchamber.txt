@@ -1,0 +1,17 @@
+setTitle("Extraction, Extraction, Read All About It!")
+
+setIcon(<deepmoblearning:extraction_chamber>)
+
+setTranslatedDescription("advancement.sf4.age_power.extractionchamber.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Loot Fabricator", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:extraction_chamber>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-156,146)

@@ -1,0 +1,14 @@
+fluid.mud=Mud
+fluid.cookie_dough=Liquid Cookie Dough
+fluid.bacon=Liquid Bacon
+fluid.donut=Liquid Donut
+
+item.contenttweaker.cobblestone_circuit_mold.name=Cobblestone Circuit Mold
+
+tile.contenttweaker.compact_machine_nether_wall.name=Compact Machine Nether Wall
+tile.contenttweaker.compact_machine_end_wall.name=Compact Machine End Wall
+tile.contenttweaker.compact_machine_twilight_forest_wall.name=Compact Machine Twilight Forest Wall
+tile.contenttweaker.compact_machine_lost_cities_wall.name=Compact Machine Lost Cities Wall
+tile.contenttweaker.compact_machine_hunting_dimension_wall.name=Compact Machine Hunting Dimension Wall
+
+tile.contenttweaker.dust.name=Dust

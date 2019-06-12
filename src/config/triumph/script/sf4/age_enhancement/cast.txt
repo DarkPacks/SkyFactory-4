@@ -1,0 +1,17 @@
+setTitle("Sign My Cast")
+
+setIcon(<tconstruct:cast,ore:cast,meta:0,count:1,nbt:{PartType:"tconstruct:pick_head"}>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.cast.description")
+
+addParent("sf4:age_enhancement/root")
+
+//Criteria
+criteria = addCriteria("Obtain Metal Pickaxe Head Cast", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:cast,ore:cast,meta:0,count:1,nbt:{PartType:"tconstruct:pick_head"}>)
+
+setRewardExperience(8)
+
+hideLines()
+alwaysVisible()
+setPos(-62,133)

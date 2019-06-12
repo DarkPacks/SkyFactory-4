@@ -1,0 +1,17 @@
+setTitle("Hog Tied")
+
+setIcon(<resourcehogs:mud_bucket, meta:0, count:1, nbt:{ResourceType:"cobblestone"}>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.copied.resourcehogs.description")
+
+addParent("tutorial:tutorial/root")
+
+//Criteria
+criteria = addCriteria("Obtain Cobblestone Mud", "minecraft:inventory_changed")
+criteria.addItem(<resourcehogs:mud_bucket, meta:0, count:1, nbt:{ResourceType:"cobblestone"}>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+setPos(343,18)

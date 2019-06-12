@@ -1,0 +1,18 @@
+setTitle("Yo-Yo Ma")
+
+setIcon(<yoyos:yoyo>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.yoyo.description")
+
+addParent("sf4:age_enhancement/toolForge")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Yoyo", "minecraft:inventory_changed")
+criteria.addItem(<yoyos:yoyo>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(133,204)

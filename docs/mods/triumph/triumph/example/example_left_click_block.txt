@@ -1,0 +1,23 @@
+//Set icon item
+setIcon(<minecraft:grass>)
+
+//Set title String
+setTitle("Left clicking a block")
+
+//Set description String
+setDescription("Left click a grass block")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(9, 6)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+//Adds criteria named "clickedBlock" with the trigger type "triumph:left_click_block". This function returns the criteria as an object
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+
+//Sets the required block for the criteria. This is the block that needs to be left clicked by the player.
+criteria.setBlock(<minecraft:grass>)

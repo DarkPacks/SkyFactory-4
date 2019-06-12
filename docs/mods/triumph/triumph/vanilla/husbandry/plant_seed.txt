@@ -1,0 +1,22 @@
+setIcon("minecraft:wheat")
+setTranslatedTitle("advancements.husbandry.plant_seed.title")
+setTranslatedDescription("advancements.husbandry.plant_seed.description")
+
+addParent("triumph:vanilla/husbandry/root")
+
+criteria = addCriteria("wheat", "minecraft:placed_block")
+criteria.setBlock("minecraft:wheat")
+
+criteria = addCriteria("pumpkin_stem", "minecraft:placed_block")
+criteria.setBlock("minecraft:pumpkin_stem")
+
+criteria = addCriteria("melon_stem", "minecraft:placed_block")
+criteria.setBlock("minecraft:melon_stem")
+
+criteria = addCriteria("beetroots", "minecraft:placed_block")
+criteria.setBlock("minecraft:beetroots")
+
+criteria = addCriteria("nether_wart", "minecraft:placed_block")
+criteria.setBlock("minecraft:nether_wart")
+
+setRequirements("any")

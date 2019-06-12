@@ -1,0 +1,18 @@
+setTitle("Oh, the Irony")
+
+setIcon(<minecraft:iron_ingot>)
+
+setTranslatedDescription("advancement.sf4.age1.iron_ingot.description")
+
+addParent("sf4:age1/amber/iron")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Iron Ingot", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:iron_ingot>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-184,331)

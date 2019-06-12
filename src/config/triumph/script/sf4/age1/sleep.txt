@@ -1,0 +1,15 @@
+setTitle("Nap Time")
+
+setIcon(<minecraft:bed>)
+
+setTranslatedDescription("advancement.sf4.age1.sleep.description")
+
+addParent("sf4:age1/string")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Right Click on Bed", "triumph:right_click_block")
+criteria.setBlock(<minecraft:bed>)
+
+setPos(-259,231)

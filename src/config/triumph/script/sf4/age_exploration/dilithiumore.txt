@@ -1,0 +1,20 @@
+setTitle("Even Scotty Doesn't Know")
+
+setIcon(<matteroverdrive:dilithium_ore>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.dilithiumore.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Dilithium Crystals", "minecraft:inventory_changed")
+criteria.addItem(<matteroverdrive:dilithium_crystal>)
+
+setRequirements("any")
+setRewardExperience(20)
+
+hideLines()
+alwaysVisible()
+setPos(-288,47)

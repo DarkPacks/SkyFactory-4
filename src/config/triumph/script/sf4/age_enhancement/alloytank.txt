@@ -1,0 +1,21 @@
+setTitle("I'll Be Your Alloy")
+
+setIcon(<tcomplement:porcelain_alloy_tank>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.alloytank.description")
+
+addParent("sf4:age_enhancement/root")
+setRequirements("any")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Porcelain Alloying Tank", "minecraft:inventory_changed")
+criteria.addItem(<tcomplement:porcelain_alloy_tank>)
+criteria1 = addCriteria("Obtain Seared Alloying Tank", "minecraft:inventory_changed")
+criteria1.addItem(<tcomplement:alloy_tank>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(57,71)

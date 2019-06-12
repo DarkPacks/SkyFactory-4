@@ -1,0 +1,18 @@
+setTitle("Dirty Dancing")
+
+setIcon(<minecraft:dirt>)
+
+setTranslatedDescription("advancement.sf4.age1.dirt.description")
+
+addParent("sf4:age1/acorn/dirt")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Craft Dirt Block", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:dirt>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-384,281)

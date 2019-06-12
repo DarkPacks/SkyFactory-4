@@ -1,0 +1,20 @@
+setTitle("Swab the Deck")
+
+setIcon(<mob_grinding_utils:mob_swab:1>)
+
+setTranslatedDescription("advancement.sf4.age_farming.mobswab.description")
+
+addParent("sf4:age_farming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Mob DNA", "minecraft:inventory_changed")
+criteria.addItem(<mob_grinding_utils:mob_swab:1>)
+
+hiddenUnless("mob_grinding_utils")
+alwaysVisible()
+
+setRewardExperience(6)
+
+setPos(62,387)

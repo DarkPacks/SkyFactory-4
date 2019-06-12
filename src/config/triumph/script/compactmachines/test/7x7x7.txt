@@ -1,0 +1,23 @@
+setTitle("7x7x7")
+
+setIcon(<compactmachines3:machine:2>)
+
+setTranslatedDescription("advancement.compactmachines.test.7x7x7.description")
+
+addParent("compactmachines:test/5x5x5")
+addParent("compactmachines:test/5x5x52")
+
+visibleIf("compact_machines")
+alwaysHidden()
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Netherrack", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:netherrack>)
+
+//Rewards
+setRewardExperience(4)
+
+setRewardItem(<compactmachines3:machine:2>)
+setPos(122,22)

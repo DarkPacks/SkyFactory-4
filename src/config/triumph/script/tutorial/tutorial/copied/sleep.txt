@@ -1,0 +1,15 @@
+setTitle("Nap Time")
+
+setIcon(<minecraft:bed>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.copied.sleep.description")
+
+addParent("tutorial:tutorial/copied/string")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Slept in a bed", "minecraft:slept_in_bed")
+
+setPos(49,147)
+hideLines()

@@ -1,0 +1,18 @@
+setTitle("Lead it Go")
+
+setIcon(<sky_orchards:amber_lead>)
+
+setTranslatedDescription("advancement.sf4.age1.amber.lead.description")
+
+addParent("sf4:age1/sapling/iron")
+addParent("sf4:age1/sapling/lapis")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Lead Amber", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:amber_lead>)
+
+//Rewards
+setRewardExperience(4)
+setPos(-159,306)

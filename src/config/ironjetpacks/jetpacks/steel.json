@@ -1,0 +1,20 @@
+{
+  "name": "steel",
+  "disable": false,
+  "tier": 4,
+  "color": "565656",
+  "armorPoints": 5,
+  "enchantability": 15,
+  "craftingMaterial": "ore:ingotSteel",
+  "forceRecipes": false,
+  "rarity": 0,
+  "capacity": 32000000,
+  "usage": 350,
+  "speedVertical": 0.83,
+  "accelVertical": 0.148,
+  "speedSideways": 0.184,
+  "speedHoverDescend": 0.4,
+  "speedHover": 0.005,
+  "sprintSpeedMulti": 1.6,
+  "sprintFuelMulti": 3.5
+}

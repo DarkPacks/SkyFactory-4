@@ -1,0 +1,20 @@
+setTitle("Bonsai!!!")
+
+setIcon(<bonsaitrees:bonsaipot>)
+
+//setDescription("Use a Bonsai Pot to grow Saplings. Make sure to add Dirt, Fertile Soil, or Colored Mulch first, then add a sapling. Right-click fully grown trees with an Axe to harvest them")
+
+setDescription({"translate":"advancement.sf4.age_farming.bonsai.description","with":[{"keybind":"key.use"}]})
+
+addParent("sf4:age_farming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Bonsai Pot", "minecraft:inventory_changed")
+criteria.addItem(<bonsaitrees:bonsaipot>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(-42,206)

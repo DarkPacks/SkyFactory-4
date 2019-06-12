@@ -1,0 +1,17 @@
+setTitle("Bring Me to Life")
+
+setIcon(<deepmoblearning:data_model_zombie>)
+
+setTranslatedDescription("advancement.sf4.age_power.zombiedatamodel.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Zombie Data Model", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:data_model_zombie>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-210,146)

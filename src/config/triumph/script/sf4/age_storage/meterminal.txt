@@ -1,0 +1,17 @@
+setTitle("Windows ME")
+
+setIcon(<appliedenergistics2:part:380>)
+
+setTranslatedDescription("advancement.sf4.age_storage.meterminal.description")
+
+addParent("sf4:age_storage/logicProcessor")
+
+//Criteria
+criteria = addCriteria("Obtain ME Terminal", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:part:380>)
+
+setRewardExperience(12)
+
+drawDirectLines(true)
+alwaysVisible()
+setPos(37,176)

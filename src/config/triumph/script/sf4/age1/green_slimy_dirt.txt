@@ -1,0 +1,18 @@
+setTitle("I've Been Slimed")
+
+setIcon(<tconstruct:slime_dirt:0>)
+
+setTranslatedDescription("advancement.sf4.age1.green_slimy_dirt.description")
+
+addParent("sf4:age1/sapling/slime")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Green Slime Dirt", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:slime_dirt:0>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-159,231)

@@ -1,0 +1,13 @@
+setFogColor(#000000)
+
+setSingleBiome("minecraft:sky")
+
+setSpawnStructure("bedrockcageend", 0)
+
+layers = new LayerGenerator()
+layers.addLayer(1~255, <minecraft:bedrock>)
+layers.addLayer(0~0, <minecraft:bedrock>)
+addGenerator(layers)
+
+captureTeleports()
+disableRespawning()

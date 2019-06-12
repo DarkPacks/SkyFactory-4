@@ -1,0 +1,36 @@
+
+setTitle({"translate": "advancement.twilightforest.twilight_dining"})
+
+setIcon(<minecraft:bowl>)
+
+setTranslatedDescription("advancement.twilightforest.twilight_dinner.description")
+
+setFrameType("challenge")
+
+addParent("twilightforest:root")
+
+criteria = addCriteria("raw_venison", "minecraft:inventory_changed")
+criteria.addItem(<twilightforest:raw_venison>)
+
+criteria = addCriteria("cooked_venison", "minecraft:inventory_changed")
+criteria.addItem(<twilightforest:cooked_venison>)
+
+criteria = addCriteria("raw_meef", "minecraft:inventory_changed")
+criteria.addItem(<twilightforest:raw_meef>)
+
+criteria = addCriteria("cooked_meef", "minecraft:inventory_changed")
+criteria.addItem(<twilightforest:cooked_meef>)
+
+criteria = addCriteria("meef_stroganoff", "minecraft:inventory_changed")
+criteria.addItem(<twilightforest:meef_stroganoff>)
+
+criteria = addCriteria("hydra_chop", "minecraft:inventory_changed")
+criteria.addItem(<twilightforest:hydra_chop>)
+
+criteria = addCriteria("maze_wafer", "minecraft:inventory_changed")
+criteria.addItem(<twilightforest:maze_wafer>)
+
+criteria = addCriteria("experiment_115", "minecraft:inventory_changed")
+criteria.addItem(<twilightforest:experiment_115>)
+
+setRewardExperience(75)

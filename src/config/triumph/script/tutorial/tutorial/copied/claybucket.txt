@@ -1,0 +1,23 @@
+setTitle("Slop in the Bucket")
+
+setIcon(<ceramics:unfired_clay>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.copied.claybucket.description")
+
+addParent("tutorial:tutorial/copied/claySapling")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Clay Bucket", "minecraft:inventory_changed")
+criteria.addItem(<ceramics:clay_bucket>)
+criteria1 = addCriteria("Obtain Unfired Clay Bucket", "minecraft:inventory_changed")
+criteria1.addItem(<ceramics:unfired_clay>)
+
+setRequirements("any")
+
+//Rewards
+setRewardExperience(4)
+
+setPos(224,97)
+hideLines()

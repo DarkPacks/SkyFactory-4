@@ -1,0 +1,32 @@
+setTitle("Level Up!")
+
+setIcon(<simplegenerators:combustion_upgradable>)
+
+setTranslatedDescription("advancement.sf4.age_power.upgradeablegenerators.description")
+
+addParent("sf4:age_power/simpleGenerator")
+
+//Criteria
+criteria1 = addCriteria("Obtain Simple Upgradable Combustion Generator", "minecraft:inventory_changed")
+criteria1.addItem(<simplegenerators:combustion_upgradable>)
+criteria2 = addCriteria("Obtain Simple Upgradable Culinary Generator", "minecraft:inventory_changed")
+criteria2.addItem(<simplegenerators:culinary_upgradable>)
+criteria3 = addCriteria("Obtain Simple Upgradable Ender Generator", "minecraft:inventory_changed")
+criteria3.addItem(<simplegenerators:ender_upgradable>)
+criteria4 = addCriteria("Obtain Simple Upgradable Nether Generator", "minecraft:inventory_changed")
+criteria4.addItem(<simplegenerators:nether_upgradable>)
+criteria5 = addCriteria("Obtain Simple Upgradable Soul Generator", "minecraft:inventory_changed")
+criteria5.addItem(<simplegenerators:soul_upgradable>)
+criteria6 = addCriteria("Obtain Simple Upgradable Geothermal Generator", "minecraft:inventory_changed")
+criteria6.addItem(<simplegenerators:geothermal_upgradable>)
+criteria7 = addCriteria("Obtain Simple Upgradable Fluid Combustion Generator", "minecraft:inventory_changed")
+criteria7.addItem(<simplegenerators:fluid_combustion_upgradable>)
+criteria8 = addCriteria("Obtain Simple Upgradable Turbine Generator", "minecraft:inventory_changed")
+criteria8.addItem(<simplegenerators:turbine_upgradable>)
+
+setRewardExperience(10)
+
+setRequirements("any")
+drawDirectLines(true)
+alwaysVisible()
+setPos(-335,96)

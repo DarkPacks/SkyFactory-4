@@ -1,0 +1,28 @@
+setTitle("Hell of a Boat Ride")
+
+setIcon(<minecraft:water_bucket>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.waterinnether.description")
+
+addParent("sf4:age_exploration/nether")
+
+drawDirectLines(true)
+
+criteria = addCriteria("Place Da Wata", "triumph:right_click_block")
+criteria.setItem(<minecraft:water_bucket>)
+criteria.setDimID(-1)
+criteria2 = addCriteria("Place Da Boat", "triumph:right_click_block")
+criteria2.setItem(<minecraft:boat>)
+criteria2.setDimID(-1)
+
+setRewardExperience(16)
+
+hiddenIf("hardcore:hardcore/root")
+hiddenIf("skygrid:skygrid/root")
+hiddenIf("amplified:amplified/root")
+hiddenIf("default:default/root")
+hiddenIf("large_biomes:large_biomes/root")
+hiddenIf("lost_cities:lost_cities/root")
+hiddenIf("customized:customized/root")
+
+setPos(33,185)

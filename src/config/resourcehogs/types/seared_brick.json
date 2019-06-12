@@ -1,0 +1,25 @@
+{
+  "id": "seared_brick",
+  "inputs": [
+    "tconstruct:materials"
+  ],
+  "typeName": "Seared Brick",
+  "output": "tconstruct:materials",
+  "diggableBlocks": [
+    "tconstruct:dried_clay:1"
+  ],
+  "renderBlock": "tconstruct:seared:3",
+  "validDimensions": [
+    -1,
+    0,
+    1,
+    7,
+    111,
+    144,
+    28885
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

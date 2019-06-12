@@ -1,0 +1,18 @@
+setTitle("Shhhhhhh!")
+
+setIcon(<mekanism:mufflingupgrade>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.mufflingupgrade.description")
+
+addParent("sf4:age_enhancement/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Mekanism Muffling Upgrade", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:mufflingupgrade>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(-113,133)

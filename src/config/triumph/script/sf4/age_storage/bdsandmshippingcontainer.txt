@@ -1,0 +1,20 @@
+setTitle("It Fits, We Ship")
+
+setIcon(<bdsandm:shipping_container>)
+
+setTranslatedDescription("advancement.sf4.age_storage.bdsandmshippingcontainer.description")
+
+addParent("sf4:age_storage/bdsandmMetalCrate")
+addParent("sf4:age_storage/bdsandmMetalBarrel")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Shipping Container", "minecraft:inventory_changed")
+criteria.addItem(<bdsandm:shipping_container>)
+
+//Rewards
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-184,176)

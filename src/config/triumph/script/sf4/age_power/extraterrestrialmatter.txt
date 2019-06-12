@@ -1,0 +1,17 @@
+setTitle("The Truth is Out There")
+
+setIcon(<deepmoblearning:living_matter_extraterrestrial>)
+
+setTranslatedDescription("advancement.sf4.age_power.extraterrestrialmatter.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Extraterrestrial Matter", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:living_matter_extraterrestrial>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-183,121)

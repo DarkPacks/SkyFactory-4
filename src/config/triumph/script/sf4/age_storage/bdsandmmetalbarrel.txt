@@ -1,0 +1,18 @@
+setTitle("Roll Out the Barrel")
+
+setIcon(<bdsandm:metal_barrel>)
+
+setTranslatedDescription("advancement.sf4.age_storage.bdsandmmetalbarrel.description")
+
+addParent("sf4:age_storage/bdsandmWoodenBarrel")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Metal Barrel", "minecraft:inventory_changed")
+criteria.addItem(<bdsandm:metal_barrel>)
+
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-212,204)

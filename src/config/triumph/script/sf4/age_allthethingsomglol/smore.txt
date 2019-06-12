@@ -1,0 +1,18 @@
+setTitle("'Hey Smalls, You want S'more?'")
+
+setIcon(<nuclearcraft:moresmore>)
+
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.smore.description")
+
+addParent("sf4:age_allthethingsomglol/root")
+
+//Criteria
+criteria = addCriteria("Obtain MoreS'more DoubleS'mingot", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:moresmore>)
+
+//Rewards
+setRewardExperience(60)
+
+hideLines()
+alwaysVisible()
+setPos(-187,-49)

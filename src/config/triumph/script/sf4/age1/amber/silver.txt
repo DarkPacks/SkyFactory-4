@@ -1,0 +1,17 @@
+setTitle("Silver Surfer")
+
+setIcon(<sky_orchards:amber_silver>)
+
+setTranslatedDescription("advancement.sf4.age1.amber.silver.description")
+
+addParent("sf4:age1/sapling/lead")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Silver Amber", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:amber_silver>)
+
+//Rewards
+setRewardExperience(4)
+setPos(-109,331)

@@ -1,0 +1,117 @@
+
+setIcon("minecraft:diamond_boots")
+setTranslatedTitle("advancements.adventure.adventuring_time.title")
+setTranslatedDescription("advancements.adventure.adventuring_time.description")
+setFrameType("challenge")
+
+addParent("triumph:vanilla/adventure/sleep_in_bed")
+
+setRewardExperience(500)
+
+criteria = addCriteria("birch_forest_hills", "minecraft:location")
+criteria.setBiome("minecraft:birch_forest_hills")
+
+criteria = addCriteria("river", "minecraft:location")
+criteria.setBiome("minecraft:river")
+
+criteria = addCriteria("swampland", "minecraft:location")
+criteria.setBiome("minecraft:swampland")
+
+criteria = addCriteria("desert", "minecraft:location")
+criteria.setBiome("minecraft:desert")
+
+criteria = addCriteria("forest_hills", "minecraft:location")
+criteria.setBiome("minecraft:forest_hills")
+
+criteria = addCriteria("redwood_taiga_hills", "minecraft:location")
+criteria.setBiome("minecraft:redwood_taiga_hills")
+
+criteria = addCriteria("taiga_cold", "minecraft:location")
+criteria.setBiome("minecraft:taiga_cold")
+
+criteria = addCriteria("mesa", "minecraft:location")
+criteria.setBiome("minecraft:mesa")
+
+criteria = addCriteria("forest", "minecraft:location")
+criteria.setBiome("minecraft:forest")
+
+criteria = addCriteria("stone_beach", "minecraft:location")
+criteria.setBiome("minecraft:stone_beach")
+
+criteria = addCriteria("ice_flats", "minecraft:location")
+criteria.setBiome("minecraft:ice_flats")
+
+criteria = addCriteria("taiga_hills", "minecraft:location")
+criteria.setBiome("minecraft:taiga_hills")
+
+criteria = addCriteria("ice_mountains", "minecraft:location")
+criteria.setBiome("minecraft:ice_mountains")
+
+criteria = addCriteria("mesa_rock", "minecraft:location")
+criteria.setBiome("minecraft:mesa_rock")
+
+criteria = addCriteria("savanna", "minecraft:location")
+criteria.setBiome("minecraft:savanna")
+
+criteria = addCriteria("plains", "minecraft:location")
+criteria.setBiome("minecraft:plains")
+
+criteria = addCriteria("frozen_river", "minecraft:location")
+criteria.setBiome("minecraft:frozen_river")
+
+criteria = addCriteria("redwood_taiga", "minecraft:location")
+criteria.setBiome("minecraft:redwood_taiga")
+
+criteria = addCriteria("cold_beach", "minecraft:location")
+criteria.setBiome("minecraft:cold_beach")
+
+criteria = addCriteria("deep_ocean", "minecraft:location")
+criteria.setBiome("minecraft:deep_ocean")
+
+criteria = addCriteria("jungle_hills", "minecraft:location")
+criteria.setBiome("minecraft:jungle_hills")
+
+criteria = addCriteria("jungle_edge", "minecraft:location")
+criteria.setBiome("minecraft:jungle_edge")
+
+criteria = addCriteria("ocean", "minecraft:location")
+criteria.setBiome("minecraft:ocean")
+
+criteria = addCriteria("mushroom_island_shore", "minecraft:location")
+criteria.setBiome("minecraft:mushroom_island_shore")
+
+criteria = addCriteria("extreme_hills", "minecraft:location")
+criteria.setBiome("minecraft:extreme_hills")
+
+criteria = addCriteria("desert_hills", "minecraft:location")
+criteria.setBiome("minecraft:desert_hills")
+
+criteria = addCriteria("jungle", "minecraft:location")
+criteria.setBiome("minecraft:jungle")
+
+criteria = addCriteria("beaches", "minecraft:location")
+criteria.setBiome("minecraft:beaches")
+
+criteria = addCriteria("savanna_rock", "minecraft:location")
+criteria.setBiome("minecraft:savanna_rock")
+
+criteria = addCriteria("taiga_cold_hills", "minecraft:location")
+criteria.setBiome("minecraft:taiga_cold_hills")
+
+criteria = addCriteria("mesa_clear_rock", "minecraft:location")
+criteria.setBiome("minecraft:mesa_clear_rock")
+
+criteria = addCriteria("roofed_forest", "minecraft:location")
+criteria.setBiome("minecraft:roofed_forest")
+
+criteria = addCriteria("taiga", "minecraft:location")
+criteria.setBiome("minecraft:taiga")
+
+criteria = addCriteria("birch_forest", "minecraft:location")
+criteria.setBiome("minecraft:birch_forest")
+
+criteria = addCriteria("mushroom_island", "minecraft:location")
+criteria.setBiome("minecraft:mushroom_island")
+
+criteria = addCriteria("extreme_hills_with_trees", "minecraft:location")
+criteria.setBiome("minecraft:extreme_hills_with_trees")

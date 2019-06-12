@@ -1,0 +1,25 @@
+{
+  "id": "lapis_lazuli",
+  "inputs": [
+    "minecraft:dye:4"
+  ],
+  "typeName": "Lapis Lazuli",
+  "output": "minecraft:dye:4",
+  "diggableBlocks": [
+    "minecraft:stone"
+  ],
+  "renderBlock": "minecraft:lapis_ore",
+  "validDimensions": [
+    -1,
+    0,
+    1,
+    7,
+    111,
+    144,
+    28885
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

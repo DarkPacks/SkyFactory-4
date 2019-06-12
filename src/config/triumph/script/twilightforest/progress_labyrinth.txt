@@ -1,0 +1,20 @@
+
+setTitle({"translate": "advancement.twilightforest.progress_labyrinth"})
+
+setIcon(<twilightforest:meef_stroganoff>)
+
+setDescription({"translate": "advancement.twilightforest.progress_labyrinth.desc"})
+
+setFrameType("goal")
+
+addParent("twilightforest:progress_lich")
+
+//Criteria
+criteria = addCriteria("meef", "minecraft:inventory_changed")
+criteria.addItem(<twilightforest:meef_stroganoff>)
+
+criteria = addCriteria("kill_lich", "triumph:completed_advancement")
+criteria.setAdvancement("twilightforest:progress_lich")
+
+//Rewards
+addRewardFunction("twilightforest:give_3_shields")

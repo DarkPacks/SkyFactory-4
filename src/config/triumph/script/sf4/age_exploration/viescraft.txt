@@ -1,0 +1,19 @@
+setTitle("Come Fly With Me")
+
+setIcon(<vc:airships/item_airship>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.viescraft.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Airship", "minecraft:inventory_changed")
+criteria.addItem(<vc:airships/item_airship>)
+
+setRewardExperience(16)
+
+hideLines()
+alwaysVisible()
+setPos(-72,253)

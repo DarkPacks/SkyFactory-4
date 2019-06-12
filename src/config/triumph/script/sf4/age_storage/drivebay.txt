@@ -1,0 +1,18 @@
+setTitle("Bay Bay You Can Drive My Car")
+
+setIcon(<appliedenergistics2:drive>)
+
+setTranslatedDescription("advancement.sf4.age_storage.drivebay.description")
+
+addParent("sf4:age_storage/EngineeringPress")
+addParent("sf4:age_storage/CalculationPress")
+
+//Criteria
+criteria = addCriteria("Obtain Drive Bay", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:drive>)
+
+setRewardExperience(12)
+
+drawDirectLines(true)
+alwaysVisible()
+setPos(81,176)

@@ -1,0 +1,20 @@
+setTitle("Hot Pockets")
+
+setIcon(<enderstorage:ender_pouch>)
+
+//setDescription("Craft an Ender Pouch and Shift Right-Click on an Ender Chest to connect them")
+
+setDescription({"translate":"advancement.sf4.age_enhancement.enderpouch.description","with":[{"keybind":"key.use"}, {"keybind":"key.sneak"}]})
+
+addParent("sf4:age_enhancement/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Ender Pouch", "minecraft:inventory_changed")
+criteria.addItem(<enderstorage:ender_pouch, nbt:{}>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(-37,133)

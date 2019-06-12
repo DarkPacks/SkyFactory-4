@@ -1,0 +1,8 @@
+setIcon("minecraft:iron_ingot")
+setTranslatedTitle("advancements.story.smelt_iron.title")
+setTranslatedDescription("advancements.story.smelt_iron.description")
+
+addParent("triumph:vanilla/story/upgrade_tools")
+
+criteria = addCriteria("iron", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_ingot")

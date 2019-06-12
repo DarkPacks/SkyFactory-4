@@ -1,0 +1,17 @@
+setTitle("Prestiging")
+
+setIcon(<parabox:parabox>)
+
+setTranslatedDescription("advancement.prestige.prestige.parabox.description")
+
+addParent("prestige:prestige/space_time_equalizer")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<parabox:parabox>)
+
+//Rewards
+setRewardExperience(4)
+
+drawDirectLines()
+setPos(-24,-47)

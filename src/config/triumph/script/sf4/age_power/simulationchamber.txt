@@ -1,0 +1,17 @@
+setTitle("Down the Rabbit Hole")
+
+setIcon(<deepmoblearning:simulation_chamber>)
+
+setTranslatedDescription("advancement.sf4.age_power.simulationchamber.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Simulation Chamber", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:simulation_chamber>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-129,146)

@@ -1,0 +1,23 @@
+setTitle("Tutorial")
+
+setIcon(<minecraft:knowledge_book>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.root.description")
+
+setBackground("test:textures/colors/sky_blue.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("tutorial", "minecraft:location")
+criteria.setGeneratorOptions({"Topography-Preset":"SkyFactory Tutorial"})
+
+setPos(32,-79)
+
+pageVisibleIf("tutorial")
+pageAlwaysHidden()
+pageRequiresRoot()

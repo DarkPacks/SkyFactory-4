@@ -1,0 +1,18 @@
+setTitle("Parabox^2")
+
+setIcon(<parabox:empowered_parabox>)
+
+setTranslatedDescription("advancement.prestige.prestige.parabox_two.description")
+
+addParent("prestige:prestige/parabox")
+
+//Criteria
+criteria = addCriteria("Obtain Empowered Parabox", "minecraft:inventory_changed")
+criteria.addItem(<parabox:empowered_parabox>)
+
+//Rewards
+setRewardExperience(30)
+
+pageHiddenUnless("parabox_two")
+drawDirectLines()
+setPos(-106,-78)

@@ -1,0 +1,18 @@
+setTitle("Crafting Station")
+
+setIcon(<tconstruct:tooltables>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.craftingstation.description")
+
+addParent("tutorial:tutorial/oakPlanks")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain a Crafting Station", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(11,-28)

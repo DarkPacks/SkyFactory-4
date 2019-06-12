@@ -1,0 +1,1166 @@
+[
+    {
+        "energy": 0,
+        "id": "matteroverdrive:android_pill2"
+    },
+    {
+        "energy": 28800,
+        "id": "cyclicmagic:corrupted_chorus"
+    },
+    {
+        "energy": 115200,
+        "id": "xlfoodmod:chocolate_pie"
+    },
+    {
+        "energy": 19200,
+        "id": "rustic:ironberries"
+    },
+    {
+        "energy": 43200,
+        "id": "statues:itemmooshroomsoup"
+    },
+    {
+        "energy": 72000,
+        "id": "xlfoodmod:oreo_cupcake"
+    },
+    {
+        "energy": 86400,
+        "id": "xlfoodmod:pumpkin_stew"
+    },
+    {
+        "energy": 9600,
+        "id": "nuclearcraft:unsweetened_chocolate"
+    },
+    {
+        "energy": 129600,
+        "id": "xlfoodmod:chickenburger"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:butter"
+    },
+    {
+        "energy": 43200,
+        "id": "xlfoodmod:strawberry_cupcake"
+    },
+    {
+        "energy": 57600,
+        "id": "cyclicmagic:food_step"
+    },
+    {
+        "energy": 57600,
+        "id": "matteroverdrive:romulan_ale"
+    },
+    {
+        "energy": 144000,
+        "id": "minecraft:rabbit_stew"
+    },
+    {
+        "energy": 43200,
+        "id": "xlfoodmod:chocolate_cupcake"
+    },
+    {
+        "energy": 115200,
+        "id": "xlfoodmod:fish_pie"
+    },
+    {
+        "energy": 252000,
+        "id": "mysticalagriculture:superium_apple"
+    },
+    {
+        "energy": 86400,
+        "id": "xlfoodmod:caramel_apple"
+    },
+    {
+        "energy": 134400,
+        "id": "xlfoodmod:spicy_chicken_wing"
+    },
+    {
+        "energy": 4800,
+        "id": "minecraft:fish"
+    },
+    {
+        "energy": 48000,
+        "id": "tconstruct:edible2"
+    },
+    {
+        "energy": 115200,
+        "id": "xlfoodmod:bacon_pie"
+    },
+    {
+        "energy": 144000,
+        "id": "tconstruct:edible:14"
+    },
+    {
+        "energy": 4800,
+        "id": "xlfoodmod:beer"
+    },
+    {
+        "energy": 9600,
+        "id": "statues:itemroyalnugget"
+    },
+    {
+        "energy": 86400,
+        "id": "xlfoodmod:potato_bread"
+    },
+    {
+        "energy": 43200,
+        "id": "xlfoodmod:tomato_soup"
+    },
+    {
+        "energy": 57600,
+        "id": "xlfoodmod:vanilla_icecream"
+    },
+    {
+        "energy": 43200,
+        "id": "xlfoodmod:brownie"
+    },
+    {
+        "energy": 21600,
+        "id": "minecraft:porkchop"
+    },
+    {
+        "energy": 9600,
+        "id": "rustic:olives"
+    },
+    {
+        "energy": 100800,
+        "id": "xlfoodmod:burrito"
+    },
+    {
+        "energy": 9600,
+        "id": "rustic:cloudsbluff"
+    },
+    {
+        "energy": 28800,
+        "id": "tp:raspberry_juice"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:cucumber"
+    },
+    {
+        "energy": 0,
+        "id": "xlfoodmod:super_energy_drink"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:rice"
+    },
+    {
+        "energy": 28800,
+        "id": "tp:wheat_juice"
+    },
+    {
+        "energy": 28800,
+        "id": "minecraft:chorus_fruit"
+    },
+    {
+        "energy": 28800,
+        "id": "minecraft:apple"
+    },
+    {
+        "energy": 43200,
+        "id": "xlfoodmod:beef_jerky"
+    },
+    {
+        "energy": 57600,
+        "id": "xlfoodmod:donut"
+    },
+    {
+        "energy": 4800,
+        "id": "minecraft:fish:1"
+    },
+    {
+        "energy": 144000,
+        "id": "cyclicmagic:inventory_food"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:raw_corn"
+    },
+    {
+        "energy": 86400,
+        "id": "minecraft:mushroom_stew"
+    },
+    {
+        "energy": 153600,
+        "id": "matteroverdrive:emergency_ration"
+    },
+    {
+        "energy": 21600,
+        "id": "minecraft:rabbit"
+    },
+    {
+        "energy": 21600,
+        "id": "minecraft:beef"
+    },
+    {
+        "energy": 144000,
+        "id": "cyclicmagic:crafting_food"
+    },
+    {
+        "energy": 43200,
+        "id": "mysticalagriculture:inferium_apple"
+    },
+    {
+        "energy": 115200,
+        "id": "minecraft:cooked_fish:1"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:strawberry"
+    },
+    {
+        "energy": 153600,
+        "id": "minecraft:cooked_porkchop"
+    },
+    {
+        "energy": 76800,
+        "id": "matteroverdrive:earl_gray_tea"
+    },
+    {
+        "energy": 76800,
+        "id": "mysticalagriculture:prudentium_apple"
+    },
+    {
+        "energy": 192000,
+        "id": "tconstruct:edible:11"
+    },
+    {
+        "energy": 72000,
+        "id": "minecraft:cooked_rabbit"
+    },
+    {
+        "energy": 72000,
+        "id": "xlfoodmod:sugar_donut"
+    },
+    {
+        "energy": 24000,
+        "id": "rustic:wildberries"
+    },
+    {
+        "energy": 28800,
+        "id": "xlfoodmod:vanilla_cupcake"
+    },
+    {
+        "energy": 10800,
+        "id": "tp:blueberry_berry"
+    },
+    {
+        "energy": 4800,
+        "id": "minecraft:cookie"
+    },
+    {
+        "energy": 86400,
+        "id": "xlfoodmod:cucumber_soup"
+    },
+    {
+        "energy": 0,
+        "id": "matteroverdrive:android_pill:1"
+    },
+    {
+        "energy": 9600,
+        "id": "nuclearcraft:cocoa_butter"
+    },
+    {
+        "energy": 57600,
+        "id": "xlfoodmod:onion_rings"
+    },
+    {
+        "energy": 72000,
+        "id": "minecraft:bread"
+    },
+    {
+        "energy": 28800,
+        "id": "tp:cactus_juice"
+    },
+    {
+        "energy": 57600,
+        "id": "xlfoodmod:twinkie"
+    },
+    {
+        "energy": 144000,
+        "id": "xlfoodmod:jambon_beurre"
+    },
+    {
+        "energy": 14400,
+        "id": "minecraft:mutton"
+    },
+    {
+        "energy": 72000,
+        "id": "xlfoodmod:pancake"
+    },
+    {
+        "energy": 72000,
+        "id": "xlfoodmod:garden_salad"
+    },
+    {
+        "energy": 129600,
+        "id": "xlfoodmod:enchilada"
+    },
+    {
+        "energy": 0,
+        "id": "xlfoodmod:healthy_energy_drink"
+    },
+    {
+        "energy": 28800,
+        "id": "tp:blackberry_juice"
+    },
+    {
+        "energy": 28800,
+        "id": "cyclicmagic:heart_toxic"
+    },
+    {
+        "energy": 57600,
+        "id": "tconstruct:edible:22"
+    },
+    {
+        "energy": 86400,
+        "id": "twilightforest:cooked_meef"
+    },
+    {
+        "energy": 115200,
+        "id": "xlfoodmod:golden_apple_pie"
+    },
+    {
+        "energy": 86400,
+        "id": "xlfoodmod:crescent_roll"
+    },
+    {
+        "energy": 72000,
+        "id": "tconstruct:edible:31"
+    },
+    {
+        "energy": 57600,
+        "id": "twilightforest:maze_wafer"
+    },
+    {
+        "energy": 144000,
+        "id": "tconstruct:edible:21"
+    },
+    {
+        "energy": 4800,
+        "id": "xlfoodmod:coffee"
+    },
+    {
+        "energy": 28800,
+        "id": "tp:potatoe_juice"
+    },
+    {
+        "energy": 192000,
+        "id": "tconstruct:edible:13"
+    },
+    {
+        "energy": 9600,
+        "id": "xlfoodmod:cappuccino"
+    },
+    {
+        "energy": 4800,
+        "id": "nuclearcraft:graham_cracker"
+    },
+    {
+        "energy": 7200,
+        "id": "minecraft:potato"
+    },
+    {
+        "energy": 28800,
+        "id": "integrateddynamics:menril_berries"
+    },
+    {
+        "energy": 28800,
+        "id": "rustic:chili_pepper"
+    },
+    {
+        "energy": 120000,
+        "id": "mysticalagriculture:intermedium_apple"
+    },
+    {
+        "energy": 288000,
+        "id": "statues:itemtea"
+    },
+    {
+        "energy": 115200,
+        "id": "twilightforest:meef_stroganoff"
+    },
+    {
+        "energy": 115200,
+        "id": "xlfoodmod:corn_bread"
+    },
+    {
+        "energy": 230400,
+        "id": "nuclearcraft:smore"
+    },
+    {
+        "energy": 72000,
+        "id": "minecraft:baked_potato"
+    },
+    {
+        "energy": 1152000,
+        "id": "nuclearcraft:moresmore"
+    },
+    {
+        "energy": 86400,
+        "id": "xlfoodmod:icecream_sandwich"
+    },
+    {
+        "energy": 480000,
+        "id": "pickletweaks:emerald_apple"
+    },
+    {
+        "energy": 115200,
+        "id": "xlfoodmod:cheese_pie"
+    },
+    {
+        "energy": 57600,
+        "id": "cyclicmagic:glowing_chorus"
+    },
+    {
+        "energy": 129600,
+        "id": "xlfoodmod:spaghetti"
+    },
+    {
+        "energy": 28800,
+        "id": "tp:melon_juice"
+    },
+    {
+        "energy": 153600,
+        "id": "twilightforest:cooked_venison"
+    },
+    {
+        "energy": 115200,
+        "id": "xlfoodmod:cooked_chicken_wing"
+    },
+    {
+        "energy": 129600,
+        "id": "xlfoodmod:hamburger"
+    },
+    {
+        "energy": 28800,
+        "id": "tp:pumpkin_juice"
+    },
+    {
+        "energy": 194399,
+        "id": "totemic:cooked_buffalo_meat"
+    },
+    {
+        "energy": 28800,
+        "id": "nuclearcraft:dark_chocolate"
+    },
+    {
+        "energy": 57600,
+        "id": "xlfoodmod:onion_salad"
+    },
+    {
+        "energy": 28800,
+        "id": "tp:carrot_juice"
+    },
+    {
+        "energy": 4800,
+        "id": "nuclearcraft:marshmallow"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:corn"
+    },
+    {
+        "energy": 86400,
+        "id": "xlfoodmod:sausage"
+    },
+    {
+        "energy": 24000,
+        "id": "tp:bsc_sugar_cookie"
+    },
+    {
+        "energy": 57600,
+        "id": "xlfoodmod:butter_rice"
+    },
+    {
+        "energy": 28800,
+        "id": "cyclicmagic:heart_food"
+    },
+    {
+        "energy": 3600,
+        "id": "tp:dead_reed"
+    },
+    {
+        "energy": 43200,
+        "id": "xlfoodmod:oreo_cookie"
+    },
+    {
+        "energy": 72000,
+        "id": "xlfoodmod:chocolate_donut"
+    },
+    {
+        "energy": 216000,
+        "id": "pickletweaks:diamond_apple"
+    },
+    {
+        "energy": 28800,
+        "id": "xlfoodmod:crouton"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:dough"
+    },
+    {
+        "energy": 57600,
+        "id": "xlfoodmod:chocolate_icecream"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:marshmallow"
+    },
+    {
+        "energy": 28800,
+        "id": "tp:maloberry_juice"
+    },
+    {
+        "energy": 144000,
+        "id": "tconstruct:edible:32"
+    },
+    {
+        "energy": 172800,
+        "id": "xlfoodmod:beef_stew"
+    },
+    {
+        "energy": 115200,
+        "id": "xlfoodmod:strawberry_pie"
+    },
+    {
+        "energy": 86400,
+        "id": "xlfoodmod:cheesy_bread"
+    },
+    {
+        "energy": 57600,
+        "id": "tconstruct:edible:23"
+    },
+    {
+        "energy": 28800,
+        "id": "tp:beet_juice"
+    },
+    {
+        "energy": 28800,
+        "id": "xlfoodmod:salty_chips"
+    },
+    {
+        "energy": 72000,
+        "id": "minecraft:cooked_fish"
+    },
+    {
+        "energy": 14400,
+        "id": "minecraft:melon"
+    },
+    {
+        "energy": 38400,
+        "id": "rustic:tomato"
+    },
+    {
+        "energy": 10800,
+        "id": "tp:maloberry_berry"
+    },
+    {
+        "energy": 28800,
+        "id": "tp:apple_juice"
+    },
+    {
+        "energy": 28800,
+        "id": "xlfoodmod:roasted_marshmallow"
+    },
+    {
+        "energy": 43200,
+        "id": "minecraft:carrot"
+    },
+    {
+        "energy": 100800,
+        "id": "xlfoodmod:slice_of_pizza"
+    },
+    {
+        "energy": 96000,
+        "id": "tconstruct:edible:20"
+    },
+    {
+        "energy": 101010,
+        "id": "twilightforest:hydra_chop"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:lettuce"
+    },
+    {
+        "energy": 21600,
+        "id": "twilightforest:raw_venison"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:pepper"
+    },
+    {
+        "energy": 14400,
+        "id": "minecraft:chicken"
+    },
+    {
+        "energy": 115200,
+        "id": "xlfoodmod:ground_beef"
+    },
+    {
+        "energy": 14400,
+        "id": "rustic:ginseng"
+    },
+    {
+        "energy": 10800,
+        "id": "tp:raspberry_berry"
+    },
+    {
+        "energy": 43200,
+        "id": "xlfoodmod:fried_rice"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:chocolate"
+    },
+    {
+        "energy": 57600,
+        "id": "nuclearcraft:milk_chocolate"
+    },
+    {
+        "energy": 432000,
+        "id": "mysticalagriculture:supremium_apple"
+    },
+    {
+        "energy": 86400,
+        "id": "xlfoodmod:bacon"
+    },
+    {
+        "energy": 24000,
+        "id": "tconstruct:edible:30"
+    },
+    {
+        "energy": 144000,
+        "id": "tconstruct:edible:34"
+    },
+    {
+        "energy": 115200,
+        "id": "tconstruct:edible:12"
+    },
+    {
+        "energy": 19200,
+        "id": "xlfoodmod:flesh"
+    },
+    {
+        "energy": 86400,
+        "id": "xlfoodmod:baguette"
+    },
+    {
+        "energy": 291200,
+        "id": "nuclearcraft:dominos"
+    },
+    {
+        "energy": 115200,
+        "id": "inspirations:edibles"
+    },
+    {
+        "energy": 38400,
+        "id": "tconstruct:edible:10"
+    },
+    {
+        "energy": 115200,
+        "id": "minecraft:golden_apple:1"
+    },
+    {
+        "energy": 14400,
+        "id": "twilightforest:raw_meef"
+    },
+    {
+        "energy": 129600,
+        "id": "xlfoodmod:macaroni_and_cheese"
+    },
+    {
+        "energy": 14400,
+        "id": "minecraft:beetroot"
+    },
+    {
+        "energy": 28800,
+        "id": "tp:blueberry_juice"
+    },
+    {
+        "energy": 115200,
+        "id": "xlfoodmod:kebab"
+    },
+    {
+        "energy": 72000,
+        "id": "xlfoodmod:waffle"
+    },
+    {
+        "energy": 172800,
+        "id": "minecraft:golden_carrot"
+    },
+    {
+        "energy": 86400,
+        "id": "minecraft:beetroot_soup"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:onion"
+    },
+    {
+        "energy": 115200,
+        "id": "xlfoodmod:apple_pie"
+    },
+    {
+        "energy": 57600,
+        "id": "xlfoodmod:tortilla"
+    },
+    {
+        "energy": 115200,
+        "id": "minecraft:golden_apple"
+    },
+    {
+        "energy": 86400,
+        "id": "xlfoodmod:bucket_of_fried_chicken"
+    },
+    {
+        "energy": 28800,
+        "id": "tp:slime_juice"
+    },
+    {
+        "energy": 2400,
+        "id": "minecraft:fish:2"
+    },
+    {
+        "energy": 36000,
+        "id": "tconstruct:edible:3"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:cheese_puff"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:raw_chicken_wing"
+    },
+    {
+        "energy": 144000,
+        "id": "xlfoodmod:chicken_sandwich"
+    },
+    {
+        "energy": 72000,
+        "id": "xlfoodmod:vanilla_donut"
+    },
+    {
+        "energy": 57600,
+        "id": "xlfoodmod:cooked_dough"
+    },
+    {
+        "energy": 144000,
+        "id": "xlfoodmod:chicken_soup"
+    },
+    {
+        "energy": 21600,
+        "id": "rustic:marsh_mallow"
+    },
+    {
+        "energy": 2400,
+        "id": "minecraft:fish:3"
+    },
+    {
+        "energy": 115200,
+        "id": "minecraft:cooked_mutton"
+    },
+    {
+        "energy": 144000,
+        "id": "xlfoodmod:cheeseburger"
+    },
+    {
+        "energy": 28800,
+        "id": "twilightforest:experiment_:115"
+    },
+    {
+        "energy": 108000,
+        "id": "tconstruct:edible:33"
+    },
+    {
+        "energy": 144000,
+        "id": "xlfoodmod:taco_salad"
+    },
+    {
+        "energy": 115200,
+        "id": "xlfoodmod:vegetable_soup"
+    },
+    {
+        "energy": 57600,
+        "id": "xlfoodmod:bottom_bun"
+    },
+    {
+        "energy": 115200,
+        "id": "xlfoodmod:chicken_pot_pie"
+    },
+    {
+        "energy": 86400,
+        "id": "minecraft:cooked_chicken"
+    },
+    {
+        "energy": 24000,
+        "id": "tconstruct:edible:1"
+    },
+    {
+        "energy": 25199,
+        "id": "totemic:buffalo_meat"
+    },
+    {
+        "energy": 153600,
+        "id": "minecraft:cooked_beef"
+    },
+    {
+        "energy": 9600,
+        "id": "minecraft:rotten_flesh"
+    },
+    {
+        "energy": 21600,
+        "id": "rustic:grapes"
+    },
+    {
+        "energy": 57600,
+        "id": "minecraft:pumpkin_pie"
+    },
+    {
+        "energy": 4800,
+        "id": "statues:itemcup"
+    },
+    {
+        "energy": 96000,
+        "id": "tconstruct:edible:15"
+    },
+    {
+        "energy": 57600,
+        "id": "tconstruct:edible"
+    },
+    {
+        "energy": 57600,
+        "id": "xlfoodmod:strawberry_icecream"
+    },
+    {
+        "energy": 100799,
+        "id": "tp:toasted_bread"
+    },
+    {
+        "energy": 86400,
+        "id": "xlfoodmod:icecream_cone"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:tomato"
+    },
+    {
+        "energy": 115200,
+        "id": "xlfoodmod:hot_dog"
+    },
+    {
+        "energy": 38400,
+        "id": "minecraft:spider_eye"
+    },
+    {
+        "energy": 86400,
+        "id": "xlfoodmod:caesar_salad"
+    },
+    {
+        "energy": 172800,
+        "id": "xlfoodmod:lasagne"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:chips"
+    },
+    {
+        "energy": 115200,
+        "id": "xlfoodmod:chicken_salad"
+    },
+    {
+        "energy": 100800,
+        "id": "xlfoodmod:taco"
+    },
+    {
+        "energy": 4800,
+        "id": "nuclearcraft:ground_cocoa_nibs"
+    },
+    {
+        "energy": 28800,
+        "id": "xlfoodmod:spicy_chips"
+    },
+    {
+        "energy": 43200,
+        "id": "xlfoodmod:fried_egg"
+    },
+    {
+        "energy": 14400,
+        "id": "xlfoodmod:cheese"
+    },
+    {
+        "energy": 57600,
+        "id": "xlfoodmod:top_bun"
+    },
+    {
+        "energy": 10800,
+        "id": "tp:blackberry_berry"
+    },
+    {
+        "energy": 115200,
+        "id": "xlfoodmod:blt_sandwich"
+    },
+    {
+        "energy": 14400,
+        "id": "rustic:core_root"
+    },
+    {
+        "energy": 14400,
+        "id": "minecraft:poisonous_potato"
+    },
+    {
+        "energy": 48000,
+        "id": "tconstruct:edible:4"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_cottonwood"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_cottonwood:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_dirt"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_dirt:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_petrified"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_petrified:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_clay"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_clay:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_sand"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_sand:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_gravel"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_gravel:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_coal"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_coal:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_iron"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_iron:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_gold"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_gold:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_lapis"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_lapis:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_redstone"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_redstone:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_diamond"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_diamond:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_bone"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_bone:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_cookie"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_cookie:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_bacon"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_bacon:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_donut"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_donut:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_copper"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_copper:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_lead"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_lead:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_tin"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_tin:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_aluminum"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_aluminum:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_silver"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_silver:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_nickel"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_nickel:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_emerald"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_emerald:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_quartz"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_quartz:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_netherrack"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_netherrack:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_glowstone"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_glowstone:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_cobalt"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_cobalt:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_ardite"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_ardite:1"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_osmium"
+    },
+    {
+        "energy": 4800,
+        "id": "sky_orchards:acorn_osmium:1"
+    },
+    {
+        "energy": 600000000,
+        "id": "extendedcrafting:singularity_custom:2"
+    },
+    {
+        "energy": 600000000,
+        "id": "extendedcrafting:singularity_custom:3"
+    },
+    {
+        "energy": 60000000,
+        "id": "extendedcrafting:singularity_custom:1"
+    }
+]

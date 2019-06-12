@@ -1,0 +1,14 @@
+
+setIcon("minecraft:hay_block")
+
+setTranslatedTitle("advancements.husbandry.root.title")
+
+setTranslatedDescription("advancements.husbandry.root.description")
+
+setBackground("minecraft:textures/gui/advancements/backgrounds/husbandry.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+addCriteria("consumed_item", "minecraft:consume_item")

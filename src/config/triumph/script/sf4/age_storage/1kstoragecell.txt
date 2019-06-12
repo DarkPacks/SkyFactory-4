@@ -1,0 +1,17 @@
+setTitle("Pocket Book")
+
+setIcon(<appliedenergistics2:storage_cell_1k>)
+
+setTranslatedDescription("advancement.sf4.age_storage.1kstoragecell.description")
+
+addParent("sf4:age_storage/driveBay")
+
+//Criteria
+criteria = addCriteria("Obtain 1K Storage Cell", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:storage_cell_1k>)
+
+setRewardExperience(12)
+
+drawDirectLines(true)
+alwaysVisible()
+setPos(120,176)

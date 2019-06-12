@@ -1,0 +1,17 @@
+setTitle("What's the Matter with Overworldians?")
+
+setIcon(<deepmoblearning:living_matter_overworldian>)
+
+setTranslatedDescription("advancement.sf4.age_power.overworldianmatter.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Overworldian Matter", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:living_matter_overworldian>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-129,121)

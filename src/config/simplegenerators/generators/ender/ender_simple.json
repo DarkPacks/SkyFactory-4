@@ -1,0 +1,18 @@
+[
+  {
+    "energy": 30000,
+    "id": "minecraft:ender_pearl"
+  },
+  {
+    "energy": 60000,
+    "id": "minecraft:ender_eye"
+  },
+  {
+    "energy": 240000,
+    "id": "minecraft:dragon_breath"
+  },
+  {
+    "energy": 45000,
+    "id": "darkutils:material:1"
+  }
+]

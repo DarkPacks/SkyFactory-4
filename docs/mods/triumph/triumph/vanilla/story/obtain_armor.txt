@@ -1,0 +1,19 @@
+setIcon("minecraft:iron_chestplate")
+setTranslatedTitle("advancements.story.obtain_armor.title")
+setTranslatedDescription("advancements.story.obtain_armor.description")
+
+addParent("triumph:vanilla/story/smelt_iron")
+
+criteria = addCriteria("iron_helmet", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_helmet")
+
+criteria = addCriteria("iron_chestplate", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_chestplate")
+
+criteria = addCriteria("iron_leggings", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_leggings")
+
+criteria = addCriteria("iron_boots", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_boots")
+
+setRequirements("any")

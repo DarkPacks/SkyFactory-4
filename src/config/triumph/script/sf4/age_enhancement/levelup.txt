@@ -1,0 +1,18 @@
+setTitle("Ding!")
+
+setIcon(<rustic:deathstalk_mushroom>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.levelup.description")
+
+addParent("sf4:age_enhancement/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Level Up Tinkers' Pickaxe", "minecraft:inventory_changed")
+criteria.addItem(<nbt:{Modifiers: [{identifier: "toolleveling", level: 2}]}>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(-37,158)

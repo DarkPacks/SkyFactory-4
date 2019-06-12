@@ -1,0 +1,18 @@
+setTitle("An Enchanting Evening")
+
+setIcon(<minecraft:enchanting_table>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.enchantmenttable.description")
+
+addParent("sf4:age_enhancement/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Enchantment Table", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:enchanting_table>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(32,141)

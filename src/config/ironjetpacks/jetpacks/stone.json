@@ -1,0 +1,20 @@
+{
+  "name": "stone",
+  "disable": false,
+  "tier": 1,
+  "color": "7f7f7f",
+  "armorPoints": 2,
+  "enchantability": 12,
+  "craftingMaterial": "minecraft:stone:0",
+  "forceRecipes": false,
+  "rarity": 0,
+  "capacity": 100000,
+  "usage": 70,
+  "speedVertical": 0.25,
+  "accelVertical": 0.11,
+  "speedSideways": 0.08,
+  "speedHoverDescend": 0.18,
+  "speedHover": 0.1,
+  "sprintSpeedMulti": 1.0,
+  "sprintFuelMulti": 1.0
+}

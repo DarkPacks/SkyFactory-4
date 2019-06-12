@@ -1,0 +1,18 @@
+setTitle("Condensed Milk")
+
+setIcon(<cookingforblockheads:cow_jar>)
+
+setTranslatedDescription("advancement.sf4.age_farming.cowjar.description")
+
+addParent("sf4:age_farming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Cow in a Jar", "minecraft:inventory_changed")
+criteria.addItem(<cookingforblockheads:cow_jar>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(10,261)

@@ -1,0 +1,17 @@
+
+setTitle({"translate": "advancement.twilightforest.experiment_115_3"})
+
+setIcon(<twilightforest:experiment_115, meta:2>)
+
+setDescription({"translate": "advancement.twilightforest.experiment_115_3.desc"})
+
+setFrameType("challenge")
+
+setHidden(true)
+
+addParent("twilightforest:experiment_115")
+
+//Criteria
+criteria = addCriteria("eat_115_1", "minecraft:consume_item")
+criteria.setItem(<twilightforest:experiment_115>)
+criteria.setCount(115)

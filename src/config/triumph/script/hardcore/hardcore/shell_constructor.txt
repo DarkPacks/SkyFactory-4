@@ -1,0 +1,16 @@
+setTitle("A Syncing Feeling")
+
+setIcon(<sync:item_shell_constructor>)
+
+setTranslatedDescription("advancement.hardcore.hardcore.shell_constructor.description")
+
+addParent("hardcore:hardcore/root")
+setRequiresParents()
+hideLines()
+
+criteria = addCriteria("Use Constructor", "triumph:right_click_block")
+criteria.setBlock(<sync:block_multi, meta:0, state:{"type":"constructor"}>)
+
+setRewardExperience(4)
+
+setPos(-38,38)

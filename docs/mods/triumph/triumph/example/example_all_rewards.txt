@@ -1,0 +1,38 @@
+//Set icon item
+setIcon(<minecraft:flint>)
+
+//Set title String
+setTitle("All Rewards")
+
+//Set description String
+setDescription("Acquire flint")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(11, 6)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+//Adds criteria named "hasFlint" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasFlint", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem(<minecraft:flint>)
+
+//Adds a recipe to reward upon completion. Multiple of these can be added.
+addRewardRecipe("minecraft:ender_eye")
+
+//Adds a function to fire upon completion. Any number of these can be added.
+addRewardFunction("triumph:happy_birthday")
+
+//Sets the experience to reward upon completion. This can only be set once.
+setRewardExperience(42)
+
+//Adds a Skillable mod skill level up to be rewarded upon completion. Multiple of these can be added.
+addRewardSkillable("mining", 1)
+
+//Adds an item to be rewarded upon completion. Only one of these can be set currently.
+setRewardItem(<minecraft:stick, nbt:{ench:[{lvl:1s,id:51s}],display:{Name:"The Stick of Truth"}}>)

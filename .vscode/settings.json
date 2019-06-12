@@ -1,0 +1,7 @@
+{
+	"files.associations": {
+		"**/src/config/topography/**/*.txt": "zenscript",
+		"**/src/config/triumph/Triumph.txt": "zenscript",
+	  	"**/src/config/triumph/script/**/*.txt": "zenscript"
+	}
+}

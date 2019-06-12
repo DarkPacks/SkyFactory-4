@@ -1,0 +1,19 @@
+setTitle("Going On Your Permanent Record")
+
+setIcon(<realfilingcabinet:emptyfolder>)
+
+//setDescription("Fill any Real File Cabinet with a folder that contains at least 1 million items of any type then Right-Click it")
+
+setDescription({"translate":"advancement.sf4.age_allthethingsomglol.filecabinet.description","with":[{"keybind":"key.use"}]})
+
+addParent("sf4:age_allthethingsomglol/root")
+
+hideLines()
+alwaysVisible()
+
+//Criteria
+criteria = addCriteria("Right Click Filing Cabinet with 1 Million Items", "triumph:right_click_block")
+criteria.setBlock(<realfilingcabinet:modelcabinet,tile:{inventory:{Items:[{ForgeCaps:{"realfilingcabinet:folder":{folderSize:1000000L~}}}]}}>)
+
+setRewardExperience(60)
+setPos(64,-24)

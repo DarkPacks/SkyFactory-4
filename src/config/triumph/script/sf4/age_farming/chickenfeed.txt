@@ -1,0 +1,20 @@
+setTitle("Feed the Chickens!")
+
+setIcon(<mob_grinding_utils:gm_chicken_feed>)
+
+setTranslatedDescription("advancement.sf4.age_farming.chickenfeed.description")
+
+addParent("sf4:age_farming/mobSwab")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Mob DNA", "minecraft:inventory_changed")
+criteria.addItem(<mob_grinding_utils:gm_chicken_feed>)
+
+hiddenUnless("mob_grinding_utils")
+alwaysVisible()
+
+setRewardExperience(6)
+
+setPos(114,387)

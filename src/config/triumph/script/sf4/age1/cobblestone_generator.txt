@@ -1,0 +1,19 @@
+setTitle("Cobble Cobble")
+
+setIcon(<minecraft:cobblestone>)
+
+setTranslatedDescription("advancement.sf4.age1.cobblestone_generator.description")
+
+addParent("sf4:age1/cobblestone")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Open Chest Filled with Cobblestone", "triumph:right_click_block")
+criteria.setBlock(<tile:{Items:[{Slot:0b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:1b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:2b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:3b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:4b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:5b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:6b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:7b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:8b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:9b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:10b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:11b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:12b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:13b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:14b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:15b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:16b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:17b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:18b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:19b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:20b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:21b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:22b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:23b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:24b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:25b,id:"minecraft:cobblestone",Count:64b,Damage:0s},{Slot:26b,id:"minecraft:cobblestone",Count:64b,Damage:0s}]}>)
+
+//Rewards
+setRewardExperience(6)
+
+
+setPos(-259,181)

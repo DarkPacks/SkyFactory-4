@@ -1,0 +1,17 @@
+setTitle("Goodbye Ruby Mulch")
+
+setIcon(<inspirations:mulch:4>)
+
+setTranslatedDescription("advancement.sf4.age_farming.rubymulch.description")
+
+addParent("sf4:age_farming/amberMulch")
+
+//Criteria
+criteria = addCriteria("Obtain Ruby Mulch", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:mulch:4>)
+
+hiddenUnless("ruby_mulch")
+alwaysVisible()
+
+setRewardExperience(6)
+setPos(110,207)

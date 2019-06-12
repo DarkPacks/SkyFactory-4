@@ -1,0 +1,24 @@
+{
+  "id": "emerald",
+  "inputs": [
+    "minecraft:emerald_block"
+  ],
+  "output": "minecraft:emerald",
+  "diggableBlocks": [
+    "minecraft:stone"
+  ],
+  "renderBlock": "minecraft:emerald_ore",
+  "validDimensions": [
+    -1,
+    0,
+    1,
+    7,
+    111,
+    144,
+    28885
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

@@ -1,0 +1,18 @@
+setTitle("Chargin' Mah Lazer!")
+
+setIcon(<chargers:charger>)
+
+setTranslatedDescription("advancement.sf4.age_power.charger1.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Tier 1 Charger", "minecraft:inventory_changed")
+criteria.addItem(<chargers:charger:0>)
+
+//Rewards
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-335,146)

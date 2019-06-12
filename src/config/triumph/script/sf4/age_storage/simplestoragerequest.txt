@@ -1,0 +1,18 @@
+setTitle("I WANT IT NOW!")
+
+setIcon(<storagenetwork:request>)
+
+setTranslatedDescription("advancement.sf4.age_storage.simplestoragerequest.description")
+
+addParent("sf4:age_storage/simpleStorageMaster")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Request Block", "minecraft:inventory_changed")
+criteria.addItem(<storagenetwork:request>)
+
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-362,46)

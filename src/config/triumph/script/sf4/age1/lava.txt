@@ -1,0 +1,24 @@
+setTitle("Hotbois")
+
+setIcon(<minecraft:lava_bucket>)
+
+//setDescription("Create Lava by Right-Clicking Cobble in a Cauldron. Collect it in a Clay or Regular bucket. To melt Cobblestone, you need to have a torch, fire, magma block, or lava directly under the Cauldron")
+
+setDescription({"translate":"advancement.sf4.age1.lava.description","with":[{"keybind":"key.use"}]})
+
+addParent("sf4:age1/cobblestone")
+
+drawDirectLines()
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("Obtain Lava Clay Bucket", "minecraft:inventory_changed")
+criteria1.addItem(<ceramics:clay_bucket, meta:0, count:1, nbt:{fluids:{FluidName:"lava",Amount:1000}}>)
+
+criteria2 = addCriteria("Obtain Lava Iron Bucket", "minecraft:inventory_changed")
+criteria2.addItem(<minecraft:lava_bucket>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-234,156)

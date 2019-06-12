@@ -1,0 +1,17 @@
+setTitle("Third Time's the Charm")
+
+setIcon(<nuclearcraft:fusion_core>)
+
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.nuclearcraftfusionreactor.description")
+
+addParent("sf4:age_allthethingsomglol/root")
+
+hideLines()
+alwaysVisible()
+
+criteria = addCriteria("Right Click Fusion Reactor Generating 3,333,333 RF/t", "triumph:right_click_block")
+criteria.setBlock(<nuclearcraft:fusion_core, tile:{processPower:3333333.0~}>)
+
+//Rewards
+setRewardExperience(60)
+setPos(-137,-24)

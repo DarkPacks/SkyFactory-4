@@ -1,0 +1,18 @@
+setTitle("Sixteen Tons")
+
+setIcon(<sky_orchards:sapling_coal>)
+
+setTranslatedDescription("advancement.sf4.age1.sapling.coal.description")
+
+addParent("sf4:age1/sapling/sand")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Coal Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_coal>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-259,306)

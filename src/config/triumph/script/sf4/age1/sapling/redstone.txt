@@ -1,0 +1,18 @@
+setTitle("It's Electric")
+
+setIcon(<sky_orchards:sapling_redstone>)
+
+setTranslatedDescription("advancement.sf4.age1.sapling.redstone.description")
+
+addParent("sf4:age1/sapling/iron")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Redstone Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_redstone>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-159,331)

@@ -1,0 +1,24 @@
+setTitle("Compact Machines World")
+
+setIcon(<compactmachines3:psd>)
+
+setTranslatedDescription("advancement.compactmachines.test.root.description")
+
+setBackground("compactmachines3:textures/blocks/wall.png")
+
+visibleIf("compact_machines")
+alwaysHidden()
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+//Criteria
+criteria = addCriteria("impossible", "minecraft:impossible")
+
+//Rewards
+setRewardItem(<compactmachines3:psd, enchant:cofhcore:soulbound:127>)
+
+pageRequiresRoot()
+
+setPos(-16,52)

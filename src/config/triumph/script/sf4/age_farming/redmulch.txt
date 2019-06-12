@@ -1,0 +1,17 @@
+setTitle("The Hot Stuff")
+
+setIcon(<inspirations:mulch:5>)
+
+setTranslatedDescription("advancement.sf4.age_farming.redmulch.description")
+
+addParent("sf4:age_farming/rubyMulch")
+
+//Criteria
+criteria = addCriteria("Obtain Red Mulch", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:mulch:5>)
+
+hiddenUnless("red_mulch")
+alwaysVisible()
+
+setRewardExperience(6)
+setPos(135,207)

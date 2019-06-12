@@ -1,0 +1,14 @@
+setTitle("Through the Looking Glass")
+
+setIcon(<cyclicmagic:soulstone>)
+
+setTranslatedDescription("advancement.hardcore.hardcore.survive.description")
+
+addParent("hardcore:hardcore/shell_storage")
+setRequiresParents()
+
+criteria = addCriteria("Get killed", "minecraft:entity_killed_player")
+
+setRewardExperience(4)
+
+setPos(38,38)

@@ -1,0 +1,23 @@
+setTitle("Peaceful Mode On")
+
+setIcon(<statues:blockspiderstatuet4>)
+
+setTranslatedDescription("advancement.pacifist.pacifist_run.peaceful.description")
+
+addParent("pacifist:pacifist_run/root")
+setRequiresParents()
+
+hideLines()
+alwaysHidden()
+setAnnounceToChat(false)
+
+//Criteria
+criteria1 = addCriteria("brokeLog", "triumph:player_break_block")
+criteria1.setBlock(<ore:logWood>)
+criteria2 = addCriteria("brokeLeaves", "triumph:player_break_block")
+criteria2.setBlock(<ore:treeLeaves>)
+
+setRequirements("any")
+
+//Rewards
+setRewardFunction("triumph:difficulty_peaceful")

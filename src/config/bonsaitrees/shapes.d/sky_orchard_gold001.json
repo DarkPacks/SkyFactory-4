@@ -1,0 +1,61 @@
+{
+  "type": "sky_orchard:gold",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:log_gold",
+      "meta": 0
+    },
+    "b": {
+      "name": "sky_orchards:leaves_gold",
+      "meta": 8
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " bbbb",
+      "bbbb ",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "  b  ",
+      " bb  ",
+      "bbbbb",
+      "bbbbb",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      " bbb ",
+      " bab ",
+      "bbabb",
+      "bbabb",
+      "  a  ",
+      "  a  ",
+      "  a  "
+    ],
+    [
+      "  b  ",
+      " bb  ",
+      "bbbbb",
+      "bbbbb",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " bbb ",
+      " bbb ",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "sky_orchards:amber_dirt",
+  "mod": "sky_orchards",
+  "soil": {
+    "name": "sky_orchards:amber_dirt",
+    "data": 0,
+    "ignoreMeta": false
+  },
+
+  "modifiers": {
+    "growTime": 1.0,
+    "dropChance": 1.0
+  },
+
+  "providedTags": [ "dirt", "grass" ]
+}

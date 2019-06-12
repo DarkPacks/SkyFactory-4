@@ -1,0 +1,18 @@
+setTitle("It's Tin This Pack")
+
+setIcon(<sky_orchards:sapling_tin>)
+
+setTranslatedDescription("advancement.sf4.age1.sapling.tin.description")
+
+addParent("sf4:age1/amber/tin")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Tin Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_tin>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-234,256)

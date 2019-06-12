@@ -1,0 +1,22 @@
+setTitle("You lose")
+
+setIcon(<minecraft:iron_sword>)
+
+setTranslatedDescription("advancement.pacifist.pacifist_run.lose.description")
+
+addParent("pacifist:pacifist_run/root")
+setRequiresParents()
+
+hideLines()
+alwaysHidden()
+setHidden(true)
+
+//Criteria
+criteria = addCriteria("killed poor innocent creature", "minecraft:player_killed_entity")
+
+//Rewards
+setRewardExperience(4)
+setRewardFunction("triumph:pacifist_lost")
+setRewardFunction("triumph:difficulty_normal")
+setRewardItem(<minecraft:paper,ore:paper,meta:0,count:1,nbt:{RepairCost:0,display:{Name:"Murderer"}}>)
+setPos(32,24)

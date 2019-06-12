@@ -1,0 +1,17 @@
+
+setIcon("minecraft:map")
+
+setTranslatedTitle("advancements.adventure.root.title")
+
+setTranslatedDescription("advancements.adventure.root.description")
+
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+addCriteria("killed_something", "minecraft:player_killed_entity")
+addCriteria("killed_by_something", "minecraft:entity_killed_player")
+
+addRequirements(["killed_something", "killed_by_something"])

@@ -1,0 +1,18 @@
+setSpawnStructure("dirt_tree")
+
+disableSkylight()
+
+sky = setSkyRenderer()
+//top, bottom, north, south, east, west
+
+night = sky.addSkybox("test:textures/skybox/night.png")
+day = sky.addSkybox("test:textures/skybox/night.png")
+
+setCelestialAngle(0.5)
+disableSkylight()
+setFogColor(#000000)
+
+//Lazy method for adding a sun and moon since I don't want to make the effort for proper custom ones yet.
+//sky.addSunMoon()
+
+captureTeleports()

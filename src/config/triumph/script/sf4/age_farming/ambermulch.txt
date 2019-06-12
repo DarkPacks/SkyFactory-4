@@ -1,0 +1,17 @@
+setTitle("Sweet Amber")
+
+setIcon(<inspirations:mulch:3>)
+
+setTranslatedDescription("advancement.sf4.age_farming.ambermulch.description")
+
+addParent("sf4:age_farming/yellowMulch")
+
+//Criteria
+criteria = addCriteria("Obtain Amber Mulch", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:mulch:3>)
+
+hiddenUnless("amber_mulch")
+alwaysVisible()
+
+setRewardExperience(6)
+setPos(85,207)

@@ -1,0 +1,15 @@
+setTitle("Shell Script")
+
+setIcon(<statues:blockpigstatue>)
+
+setTranslatedDescription("advancement.hardcore.hardcore.shell_storage.description")
+
+addParent("hardcore:hardcore/shell_constructor")
+setRequiresParents()
+
+criteria = addCriteria("Take Control of your Shell", "minecraft:enter_block")
+criteria.setBlock(<sync:block_multi, meta:0, state:{"type":"constructor"}>)
+
+setRewardExperience(4)
+
+setPos(0,38)

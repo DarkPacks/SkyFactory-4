@@ -1,0 +1,21 @@
+setTitle("Prestige")
+
+setIcon(<parabox:parabox>)
+
+setTranslatedDescription("advancement.prestige.prestige.root.description")
+
+setBackground("test:textures/colors/black.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("stage", "triumph:gamestage")
+criteria.setStage("parabox")
+
+pageHiddenUnless("parabox")
+pageAlwaysVisible()
+setPos(-53,-98)

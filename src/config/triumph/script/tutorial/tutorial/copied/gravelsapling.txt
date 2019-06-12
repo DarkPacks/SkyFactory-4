@@ -1,0 +1,19 @@
+setTitle("Don't Sieve on Me")
+
+setIcon(<sky_orchards:sapling_gravel>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.copied.gravelsapling.description")
+
+addParent("tutorial:tutorial/copied/petrifiedSapling")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Gravel Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_gravel>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(349,97)
+hideLines()

@@ -1,0 +1,21 @@
+setTitle("Oops I Did It Again")
+
+setIcon(<buildinggadgets:exchangertool>)
+
+//setDescription("The Exchanger Tool will allow you to easily swap out blocks")
+
+setDescription({"translate":"advancement.sf4.age_power.exchangertool.description","with":[{"keybind":"key.settings_menu"}]})
+
+addParent("sf4:age_power/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Exchanger Tool", "minecraft:inventory_changed")
+criteria.addItem(<buildinggadgets:exchangertool>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-183,221)

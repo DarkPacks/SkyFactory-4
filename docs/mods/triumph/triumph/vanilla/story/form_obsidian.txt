@@ -1,0 +1,8 @@
+setIcon("minecraft:obsidian")
+setTranslatedTitle("advancements.story.form_obsidian.title")
+setTranslatedDescription("advancements.story.form_obsidian.description")
+
+addParent("triumph:vanilla/story/lava_bucket")
+
+criteria = addCriteria("obsidian", "minecraft:inventory_changed")
+criteria.addItem("minecraft:obsidian")

@@ -1,0 +1,17 @@
+setTitle("Weirdly Mesmerizing")
+
+setIcon(<weirdinggadget:weirding_gadget>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.weirdinggadget.description")
+
+addParent("sf4:age_enhancement/root")
+
+//Criteria
+criteria = addCriteria("Obtain Weirding Gadget", "minecraft:inventory_changed")
+criteria.addItem(<weirdinggadget:weirding_gadget>)
+
+setRewardExperience(8)
+
+hideLines()
+alwaysVisible()
+setPos(133,71)

@@ -1,0 +1,56 @@
+{
+  "type": "sky_orchard:diamond",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_diamond",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_diamond",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "aaaaa",
+      "aaaa ",
+      "     ",
+      "     "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  ",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      " aaaa",
+      "     ",
+      "     "
+    ]
+  ]
+}

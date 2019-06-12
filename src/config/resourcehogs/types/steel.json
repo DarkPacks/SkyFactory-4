@@ -1,0 +1,25 @@
+{
+  "id": "steel",
+  "inputs": [
+    "ore:dustSteel"
+  ],
+  "typeName": "Steel",
+  "output": "mekanism:ingot:4",
+  "diggableBlocks": [
+    "minecraft:stone"
+  ],
+  "renderBlock": "mekanism:basicblock:5",
+  "validDimensions": [
+    -1,
+    0,
+    1,
+    7,
+    111,
+    144,
+    28885
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 2000
+}

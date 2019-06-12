@@ -1,0 +1,18 @@
+setTitle("Beanboozled")
+
+setIcon(<cyclicmagic:sprout_seed>)
+
+setTranslatedDescription("advancement.sf4.age_farming.magicbeans.description")
+
+addParent("sf4:age_farming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Sprout Seeds", "minecraft:inventory_changed")
+criteria.addItem(<cyclicmagic:sprout_seed>)
+
+setRewardExperience(6)
+
+alwaysVisible()
+setPos(166,300)

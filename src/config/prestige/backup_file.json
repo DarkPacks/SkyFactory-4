@@ -1,0 +1,475 @@
+[
+  {
+    "identifier": "fast_forward",
+    "title": "Fast Forward",
+    "description": "Skip the early game grind by receiving a bag full of items to help get you past early game. This will give you a bag right away and a bag on every new world until sold",
+    "icon": "{id:\"teslacorelib:speed_tier1\",Count:1b,Damage:0s}",
+    "x": 331,
+    "y": 62,
+    "cost": 3,
+    "sellPrice": 1,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "portalgun",
+    "title": "Now You\u0027re Thinking With Portals",
+    "description": "Unlocks the Portal Gun mod",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"portalgun:item_portalgun\",Count:1b,tag:{lastFired:1b,width:1,channelName:\"Chell\",grabStrength:4,uuid:\"Global\",username:\"Global\",height:2},Damage:0s}",
+    "x": 385,
+    "y": 193,
+    "cost": 1,
+    "sellPrice": 1,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "pills",
+    "title": "There is No Spoon",
+    "description": "Gives access to edible pills allowing you to turn into a Matter Overdrive Android. You will be able to upgrade your body with a variety of buffs. You will also trade eating food to recharging your batteries",
+    "icon": "{id:\"matteroverdrive:android_pill\",Count:1b,Damage:0s}",
+    "x": 385,
+    "y": 116,
+    "cost": 3,
+    "sellPrice": 1,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "parabox_mk2",
+    "title": "Parabox^2",
+    "description": "Unlocks the upgraded Parabox. This Parabox will allow 3 Points to be generated at a cost of inserting higher tier items such as Singularities",
+    "icon": "{id:\"parabox:empowered_parabox\",Count:1b,Damage:0s}",
+    "x": 200,
+    "y": 116,
+    "cost": 10,
+    "sellPrice": 0,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "smeltery",
+    "title": "It Just Smelts My Heart",
+    "description": "Unlocks the blocks needed to build a Tinkers\u0027 Construct Smeltery",
+    "icon": "{id:\"tconstruct:smeltery_controller\",Count:1b,Damage:0s}",
+    "x": 363,
+    "y": 225,
+    "cost": 2,
+    "sellPrice": 1,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "redmulch",
+    "title": "Red Mulch",
+    "description": "Upgrades Bonsai Growth and Loot Drops Growth Rate: 333% Drop Chance: 240%",
+    "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:5s}",
+    "x": 451,
+    "y": 40,
+    "cost": 6,
+    "sellPrice": 0,
+    "parents": [
+      "rubymulch"
+    ],
+    "children": [
+      "blackmulch"
+    ],
+    "placed": true
+  },
+  {
+    "identifier": "flux_networks",
+    "title": "Weird Flux, but OK",
+    "description": "Unlocks the Flux Networks mod. Allowing wireless transfer of power",
+    "icon": "{id:\"fluxnetworks:fluxplug\",Count:1b,Damage:0s}",
+    "x": 331,
+    "y": 247,
+    "cost": 4,
+    "sellPrice": 2,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "projecte",
+    "title": "Coming Soon!",
+    "description": "Unlocks the ProjectE mod",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"projecte:item.pe_transmutation_tablet\",Count:1b,Damage:0s}",
+    "x": 293,
+    "y": 255,
+    "cost": 100,
+    "sellPrice": 50,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [
+      "projecte_world"
+    ],
+    "placed": true
+  },
+  {
+    "identifier": "ambermulch",
+    "title": "Amber Mulch",
+    "description": "Upgrades Bonsai Growth and Loot Drops Growth Rate: 200% Drop Chance: 170%",
+    "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:3s}",
+    "x": 407,
+    "y": 84,
+    "cost": 4,
+    "sellPrice": 0,
+    "parents": [
+      "yellowmulch"
+    ],
+    "children": [
+      "rubymulch"
+    ],
+    "placed": true
+  },
+  {
+    "identifier": "purpleslimedirt",
+    "title": "Purple Slime Dirt",
+    "description": "Upgrades Slime Sapling Bonsai Growth and Loot Drops Growth Rate: 400% Drop Chance: 200%",
+    "icon": "{id:\"tconstruct:slime_dirt\",Count:1b,Damage:2s}",
+    "x": 425,
+    "y": 136,
+    "cost": 2,
+    "sellPrice": 0,
+    "parents": [
+      "blueslimedirt"
+    ],
+    "children": [
+      "magmaslimedirt"
+    ],
+    "placed": true
+  },
+  {
+    "identifier": "ironjetpacks",
+    "title": "Rocket Man",
+    "description": "Unlocks the Iron Jetpacks mod allowing flight",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"ironjetpacks:platinum_jetpack\",Count:1b,Damage:0s}",
+    "x": 254,
+    "y": 247,
+    "cost": 4,
+    "sellPrice": 2,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "fertilesoil",
+    "title": "Fertile Soil",
+    "description": "Upgrades Bonsai Growth and Loot Drops Growth Rate: 117% Drop Chance: 125%",
+    "icon": "{id:\"rustic:fertile_soil\",Count:1b,Damage:0s}",
+    "x": 363,
+    "y": 84,
+    "cost": 1,
+    "sellPrice": 0,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [
+      "brownmulch"
+    ],
+    "placed": true
+  },
+  {
+    "identifier": "brownmulch",
+    "title": "Brown Mulch",
+    "description": "Upgrades Bonsai Growth and Loot Drops Growth Rate: 142% Drop Chance: 125%",
+    "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:1s}",
+    "x": 363,
+    "y": 40,
+    "cost": 2,
+    "sellPrice": 0,
+    "parents": [
+      "fertilesoil"
+    ],
+    "children": [
+      "yellowmulch"
+    ],
+    "placed": true
+  },
+  {
+    "identifier": "mega_torch",
+    "title": "Fire it Up!",
+    "description": "Unlocks the Mega Torch mod allowing items to disable mob spawning in an area around the torch",
+    "icon": "{id:\"torchmaster:mega_torch\",Count:1b,Damage:0s}",
+    "x": 222,
+    "y": 225,
+    "cost": 1,
+    "sellPrice": 0,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "magmaslimedirt",
+    "title": "Magma Slime Dirt",
+    "description": "Upgrades Slime Sapling Bonsai Growth and Loot Drops Growth Rate: 800% Drop Chance: 300%",
+    "icon": "{id:\"tconstruct:slime_dirt\",Count:1b,Damage:3s}",
+    "x": 457,
+    "y": 155,
+    "cost": 3,
+    "sellPrice": 0,
+    "parents": [
+      "purpleslimedirt"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "mystcraft",
+    "title": "Myst Connections",
+    "description": "Unlocks the Mystcraft mod allowing you to create new, custom dimensions",
+    "icon": "{id:\"mystcraft:page\",Count:1b,tag:{linkpanel:{}},Damage:0s}",
+    "x": 193,
+    "y": 155,
+    "cost": 25,
+    "sellPrice": 10,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "blackmulch",
+    "title": "Black Mulch",
+    "description": "Upgrades Bonsai Growth and Loot Drops Growth Rate: 500% Drop Chance: 290%",
+    "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:6s}",
+    "x": 495,
+    "y": 40,
+    "cost": 7,
+    "sellPrice": 0,
+    "parents": [
+      "redmulch"
+    ],
+    "children": [
+      "bluemulch"
+    ],
+    "placed": true
+  },
+  {
+    "identifier": "bonsai",
+    "title": "Zen Garden",
+    "description": "Unlocks the Hopper Bonsai to further automate resource collection",
+    "icon": "{id:\"bonsaitrees:bonsaipot\",Count:1b,Damage:1s}",
+    "x": 293,
+    "y": 155,
+    "cost": 1,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [
+      "portalgun",
+      "pills",
+      "smeltery",
+      "flux_networks",
+      "projecte",
+      "ironjetpacks",
+      "fertilesoil",
+      "mega_torch",
+      "mystcraft",
+      "ore_excavation",
+      "twilightforest",
+      "mob_grinding_utils",
+      "mysticalagriculture",
+      "blueslimedirt",
+      "fast_forward",
+      "open_computers",
+      "parabox_mk2"
+    ],
+    "placed": true
+  },
+  {
+    "identifier": "ore_excavation",
+    "title": "Can You Dig it",
+    "description": "Enables the Ore Excavation mod",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"minecraft:diamond_pickaxe\",Count:1b,Damage:0s}",
+    "x": 250,
+    "y": 163,
+    "cost": 1,
+    "sellPrice": 0,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "bluemulch",
+    "title": "Blue Mulch",
+    "description": "Upgrades Bonsai Growth and Loot Drops Growth Rate: 1000% Drop Chance: 350%",
+    "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:7s}",
+    "x": 495,
+    "y": 84,
+    "cost": 8,
+    "sellPrice": 0,
+    "parents": [
+      "blackmulch"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "mysticalagradditions",
+    "title": "Insanium in the Membranium",
+    "description": "Unlocks the Mystical Agradditions mod furthering Mystical Agriculture mechanics",
+    "icon": "{id:\"mysticalagradditions:insanium\",Count:1b,Damage:0s}",
+    "x": 267,
+    "y": 30,
+    "cost": 20,
+    "sellPrice": 10,
+    "parents": [
+      "mysticalagriculture"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "blueslimedirt",
+    "title": "Blue Slime Dirt",
+    "description": "Upgrades Slime Sapling Bonsai Growth and Loot Drops Growth Rate: 200% Drop Chance: 150%",
+    "icon": "{id:\"tconstruct:slime_dirt\",Count:1b,Damage:1s}",
+    "x": 393,
+    "y": 155,
+    "cost": 1,
+    "sellPrice": 0,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [
+      "purpleslimedirt"
+    ],
+    "placed": true
+  },
+  {
+    "identifier": "twilightforest",
+    "title": "Skylight Forest",
+    "description": "Unlocks the Twilight Forest mod set in a void world",
+    "icon": "{id:\"huntingdim:portal\",Count:1b,Damage:0s}",
+    "x": 222,
+    "y": 84,
+    "cost": 4,
+    "sellPrice": 2,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "rubymulch",
+    "title": "Ruby Mulch",
+    "description": "Upgrades Bonsai Growth and Loot Drops Growth Rate: 250% Drop Chance: 200%",
+    "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:4s}",
+    "x": 451,
+    "y": 84,
+    "cost": 5,
+    "sellPrice": 0,
+    "parents": [
+      "ambermulch"
+    ],
+    "children": [
+      "redmulch"
+    ],
+    "placed": true
+  },
+  {
+    "identifier": "mob_grinding_utils",
+    "title": "You Know What Grinds My Mobs?",
+    "description": "Unlocks the Mob Grinder Utils mod allowing automation for mob farms",
+    "icon": "{id:\"mob_grinding_utils:absorption_upgrade\",Count:1b,Damage:0s}",
+    "x": 254,
+    "y": 62,
+    "cost": 1,
+    "sellPrice": 0,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "projecte_world",
+    "title": "Project E Adventure",
+    "description": "Unlocks a new world type in the world creation screen allowing a start with the Project E mod",
+    "icon": "{id:\"projecte:item.pe_matter\",Count:1b,Damage:0s}",
+    "x": 320,
+    "y": 279,
+    "cost": 250,
+    "sellPrice": 125,
+    "parents": [
+      "projecte"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "open_computers",
+    "title": "Age of Information",
+    "description": "Unlocks the Open Computers mod",
+    "icon": "{id:\"opencomputers:case1\",Count:1b,Damage:0s}",
+    "x": 200,
+    "y": 193,
+    "cost": 2,
+    "sellPrice": 1,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "mysticalagriculture",
+    "title": "Seed No Evil",
+    "description": "Unlocks the Mystical Agriculture mod allowing growing of resources",
+    "icon": "{id:\"mysticalagriculture:crafting\",Count:1b,Damage:4s}",
+    "x": 293,
+    "y": 55,
+    "cost": 50,
+    "sellPrice": 25,
+    "parents": [
+      "bonsai"
+    ],
+    "children": [
+      "mysticalagradditions"
+    ],
+    "placed": true
+  },
+  {
+    "identifier": "yellowmulch",
+    "title": "Yellow Mulch",
+    "description": "Upgrades Bonsai Growth and Loot Drops Growth Rate: 166% Drop Chance: 150%",
+    "icon": "{id:\"inspirations:mulch\",Count:1b,Damage:2s}",
+    "x": 407,
+    "y": 40,
+    "cost": 3,
+    "sellPrice": 0,
+    "parents": [
+      "brownmulch"
+    ],
+    "children": [
+      "ambermulch"
+    ],
+    "placed": true
+  }
+]

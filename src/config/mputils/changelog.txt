@@ -1,0 +1,301 @@
+Please report bugs to the issue tracker!!
+
+---------------------------------------------------------------------
+4.0.7
+
+Bug Fixes:
+* Added back the advancement to acquire Elytra and added it to Deep Mob Learning to allow Compact Machine, StoneFactory, and other Worlds to access this item
+* Limited the number of blocks and range Ore Excavation works with. The total number of blocks is now 8,000 while the max range is 32. This is specifically to address issues with players wrecking servers by excavating billions of blocks at a time
+* Addressed the issue of players on servers getting a Dirt Block and Dirt Sapling on every world type, even worlds they were not supposed to receive them. The function should now only run on correct world types
+* Crafting Android Pills now requires NuclearCraft dust instead of unobtainable Mekanism dust
+
+Mod Updates:
+* Cyclic (1.19.11)
+* Simple Storage Network (1.7.6)
+* Real Filing Cabinets (0.2.0.14)
+
+
+---------------------------------------------------------------------
+4.0.6
+
+Bug Fixes:
+* Fix acorns from being blacklisted by Barrels, Drums, Storage, and More Ore Dictionary upgrade
+* Blacklisted Rustic Cabinets from CarryOn due to issues when the cabinets were stacked
+* Fix ores smeltable in melter but not in the smeltery
+* Added XL Food Vanilla plant to the Market and the Cyclic Magic Bean drop list (#665)
+* Added a Pacifist mode recipe for Zombie Mob Chunks which should allow players access to this portion of Mystical Agriculture (#765)
+* Added a Pacifist mode recipe for the Deep Mob Learning Glitch Heart (#614)
+* Blacklisted Nuclearcraft Fusion Core from CarryOn pickup (#905)
+* Allowed all Stone Tools to be fixed using any Cobblestone. Very. Important. Very. Cool. Also, you can repair Wooden Shears now (#235)
+* Added Dark Oak and Acacia leaves to the list of burnable items in the Combustion Generator (#911)
+* Ruby Mulch advancement now shows when players have unlocked Ruby Mulch, instead of Amber Mulch (#994)
+* The Horse Power Grindstone no longer produces unusable Mekanism metal dusts when given amber, it now produces the preferred dust for all metal Ambers and Ores (#232, #984)
+* Torchmaster will now properly block spawns of Androids, Blizz, Basalz, and Blitzes (#253)
+* Removed the Ardite and Cobalt ore advancements in the Sky FacTree would by adding the stage "default_ores" on initial player spawn (#964)
+* Fixed incorrect lithium dust output from Mekanism Chemical Crystallizer (#914)
+* Barrels, Drums, Storage, and More's control scheme has been reverted back to: Left Click: 1 stack, Shift-left click: 1 item. Breaking the item on any other side besides the face will not drop contents. This control scheme can be reverted to its previous iteration by opening the mod options menu and disabling alternate controls
+* Fix Tinkers modifier criteria issues in advancement requirements (#825, #569, and #199)
+
+Enhancements:
+* Added "Usage: Power / Energy Transfer Pipe" tooltip to Signalum-Plated ducts (#616)
+* Add "Applied Energistics" tooltip to AE2Stuff items to aid in locating them in JEI
+* Add tooltip to Mob Spawner to inform players how to harvest it (#486)
+* Add tooltip to Weirding Gadget (#635)
+* Add Netherrack & Sugar Cane compression recipes to Cyclic Packager (#804)
+* Add support for all buckets in NuclearCraft's Infinite Water Source recipe (#640)
+* Add support for all buckets in Cauldron Obsidian recipe
+* Add Mystical Agradditions paxels to "Paxel Rose" advancement (#592)
+* Add Cottonwood amber recipe to packager
+* Added the ability to melt down Tinkers' casts into Gold
+* Updated the ingame issue tracker link to go directly to the issues page
+* Slightly lowered the chance for Gravitational Anomalies to generate from 5% to 3.33%
+* Changed the Cobblestone Circuit Mold recipe to require a Chisel Head Cast instead of using chisels. This is due to limitations on using damaged chisels
+* Add salt block -> brine melter recipe (#714)
+* Swapped Sulfur drops to Mekanism Sulfur to stay consistent with recipes/oredict (disabled COFH fireproof mob sulfur drops)
+* Added a recipe for Ink Sacs that use Overworldian Matter combined with Lily Pads
+* Added recipes for Dust Blends (steel, electrum, etc)
+* Removed the furnace recipe for Porcelain Unfired Faucet and Added back the recipe to craft directly from Porcelain Bricks to Faucet
+* Added the Empowered Parabox. This machine is designed to generate 3 prestige points per loop at the cost of higher tier items (singularities). This is unlocked via new prestige option
+* Added the ability to unlock ProjectE using Prestige (Only available in Prestige Mode)
+* Added tooltip to AE2 Wireless terminal to charge in Energy Cube (#927)
+* Slightly lowered the spawn chance for Gravitational Anomalies from 3.33% to 2%
+* Added textures to lower the brightness of the Compact Storage GUI's (Thanks to MarioLuigi7896!)
+* Add more saplings to Industrial Foregoing Bioreactor (#840)
+* Add Prosperity amber recipe to packager
+
+Mods Added:
+* Patchouli (1.0-19)
+
+Mod Updates:
+* Apotheosis (1.10.2)
+* Aroma Core (2.5.5.21)
+* Astral Sorcery 1.10.19
+* Barrels, Drums, Storage, and More (0.0.24)
+* Bonsai Trees (1.1.3 b156)
+* Bookshelf (2.3.581)
+* Caliper (1.1.45)
+* Chisel & Bits (14.32)
+* CoFHWorld (1.3.1.7)
+* Compact Machines (3.0.18-b278)
+* CrafTweaker (4.1.18)
+* Cyclic (1.19.9)
+* Deep Mob Learning (2.5.2)
+* Elevator Mod (1.4.2)
+* EnderCore (0.5.57)
+* FastFurnace (1.3.1)
+* FastWorkbench (1.7.2)
+* Gamestage (2.0.115)
+* Horse Power (2.6.4.74)
+* Hunting Dimension (1.0.38)
+* Industrial Foregoing (1.12.12-236)
+* ItemStages (2.0.50)
+* Just Enough Items (4.15.0.279)
+* Mekanism (9.7.4.375)
+* Mekanism Generator (9.7.4.375)
+* More Cauldrons (1.4.4)
+* NuclearCraft (2.16f)
+* NuclearCraft (2.17a)
+* Parabox (2.0.0)
+* Prestige (1.1.53)
+* ProjectE (1.4.0 -> 1.4.1)
+* ProjectE (1.4.1)
+* Real Filing Cabinet (0.2.0.11)
+* Resource Hogs (1.0.12)
+* Simple Storage Network (1.7.5)
+* Slab Machine (1.0.6)
+* SmoothFont (2.0)
+* Telepastries (0.3.4)
+* Thermal Foundation (2.6.3.27)
+* Thermal Innovation (0.3.3.12)
+* Toast Control (1.8.1)
+* Tombstone (3.5.2)
+* Wawla (2.5.273)
+* Weirding Gadgets (2.1.16)
+* XL Food Mod (1.9.1)
+
+
+---------------------------------------------------------------------
+
+4.0.5
+
+Bug Fixes:
+* Removed Dragon spawning from all worlds minus Sky Grid
+
+Enhancements:
+* Changed the fertile soil in the Bonsai Pots for the Compact Machine World
+* Increased the size of the Hunting Dimension and Lost Cities Compact Machine world structures to be 19x19x19 with a transparent roof (If you want to use these new sizes you will have to remove and regenerate these dimensions in your world)
+* Removed the Triumph Dragon Kill function as it was replaced with a mod that can more effectively perform this mechanic
+
+Mods Added:
+* DragonMurder-1.12.2-1.0.0
+
+Mod Updates:
+* ComPatchedStorage-1.12.2-1.6.0
+
+
+---------------------------------------------------------------------
+
+4.0.4
+
+Bug Fixes:
+* Removed some BDS&M blacklisted oredicts
+* Blacklisted items from uncrafting grinder to prevent exploits
+* Blacklist file cabinet from attaching to crafting station to avoid a visual glitch
+* Tweaked Telepastry alternative recipes to match the primary one
+* Disabled Twilight Forest Uncrafting Table to prevent exploits
+* Remove un-unified Amber Mekanism crushing recipes
+* Prevent player picking up Mekanism Bounding Box using Carry On (#748)
+* Prevent player picking up any blocks from OpenComputers (#686, #724)
+* Prevent player picking up screens from Practical Logistics (#639)
+* Prevent player picking up translocator pairs (#504)
+* Prevent player picking up blocks from RFToolsPower (#579)
+* Thin Wooden Wall recipe changed to avoid conflict with Rustic Wooden Stake (#251)
+* Players playing in tutorial now get non_pacifist stage, allowing crafting of components from Deep Mob Learning (#388)
+* Fix localisation of Building Gadget keybind (#669)
+* Age of Power tab can now be completed by players who have not unlocked Twilight Forest through prestige (#597)
+* Players on presets with modified end dimensions can now get the advancement "Where's the boss?" (#606)
+
+Enhancements:
+* Increased Deep Mob Learning Shulker power requirement
+* Added Shulker Pearls and Glowing Chorus to the Shulker Deep Mob Learning drops
+* Removed Cyclic's Glowing Chrous recipe
+* Add melting recipes for pink slime
+* Add chorus flower to the drops of the chorus fruit plant - making them obtainable in CompactSky (#750)
+* Altered a number of prestige values for progressional balance
+* Added sarcastic tooltip to Nether Cake that is food from XLFoods mod
+* Enable Applied Energistic's Color Applicator & Paint Balls (#749)
+
+Mods Added:
+* AE2Stuff (0.7.0.4)
+* bdlib (1.14.3.12)
+* PlaneFix (1.0.0)
+
+Mod Updates:
+* Cyclic (1.19.6 -> 1.19.8)
+* ElevatorMod (1.3.9 -> 1.3.10)
+* Mystical Agradditions (1.3.1 -> 1.3.2)
+* Mystical Agriculture (1.7.3 -> 1.7.5)
+* NuclearCraft (2.16c -> 2.16e)
+* Parabox (1.1.1 -> 1.1.4)
+* XCPatch (1.0.0 -> 1.0.1)
+* XLFoods (1.8.1 -> 1.9.0)
+
+
+---------------------------------------------------------------------
+
+4.0.3
+
+Bug Fixes:
+* Misc advancement typos
+* Remove duplicate Lost Cities advancement when playing in the Lost Cities world type (#466)
+* Prevent sorting in Industrial Foregoing Laser Drill's inventory to stop ores from being deleted (#555)
+* Disable fancy rain & snow for performance & fixes some particle issues such as the watering can
+* Fix Magma Slime Dirt prestige not unlocking the Magma Slime Dirt
+* Quantum Ring can now be crafted (#328)
+
+Enhancements:
+* Add localization support to advancements. Currently just en_US; Additional language support PR's are welcome!
+* Changed BDS&M void upgrade recipe to use Obsidian instead of Void Stone
+* Added pink and blue slime seeds (#546)
+* Notify players playing prestige of how it works when first joining a world with Prestige enabled.
+* Change nether cake icon to match the cake you should be crafting to help make it more clear which nether cake is the right one to craft
+* Hopefully clarify that the AE Controller is not needed to use AE (and does not exist in the pack for a reason)
+* Energy P2P Tunnels can now be crafted. Convert between the various types by right clicking with an item that carries or stores the relevant type.
+* Added Hardened Glass recipes to NuclearCraft's Infuser and Alloy Furnace machines
+* Where water bottles are used in crafting recipes, an empty bottle is now given back (#617)
+
+Mod Updates:
+* Apotheosis (1.9.2 -> 1.9.3)
+* Barrels Drums Storage & More (0.0.21 -> 0.0.22)
+* ComPatchedStorage (1.4.0 -> 1.5.1)
+* Cyclic (1.19.5 -> 1.19.6)
+* Elevator Mod (1.3.8 -> 1.3.9)
+* FastWorkbench (1.6.1 -> 1.7.0)
+* Forgiving Void (1.0.21 -> 1.0.22)
+* JustEnoughItems (4.15.0.275 -> 4.15.0.278)
+* Mekanism (9.6.9.367 -> 9.7.2.373)
+* MekanismGenerators (9.6.9.367 -> 9.7.2.373)
+* NuclearCraft (2.15 -> 2.16c)
+* Parabox (1.1.0 -> 1.1.1)
+* Prestige (1.1.51 -> 1.1.52)
+* Resource Hogs (1.0.9 -> 1.0.11)
+* Simple Storage Network (1.7.3 -> 1.7.4)
+
+
+---------------------------------------------------------------------
+
+4.0.2
+
+Bug Fixes:
+* Hide Certus Quartz
+* Fix dirty dust processing recipes giving wrong dust output
+* Fix Steel block -> Ingot -> Nugget crafting recipes giving wrong output
+* Fix Metallurgic Infuser steel recipe giving wrong steel dust output
+* Fix Cyclic Auto Crafter not crafting staged items/recipes
+* Removed guide book from Cyclic to avoid confusion
+* Fix Acacia sapling recipe water cost in cauldron being inconsistent
+* Fix Compact Sky's SF4 Advancement Tab's completion advancement requiring hidden advancements
+* Fix Squid Lilly recipe to use a water bottle
+* Adjust Parabox advancement wording to clarify that it is now 10 minutes per loop
+* Change "Nap Time" advancement to require the player to right click instead of sleep in the bed.
+* Add Matter Overdrive Inscriber to carryon blacklist
+* Fix "Chill Out" and "Seven Seas" world having a void nether
+* Prevent various exploits involving the BDS&M oredict upgrade
+* Fix mulch Prestige point cost and descriptions
+* Allow seared alloy tank & heaters to complete "I'll be your Alloy" and "Getting Warmer"
+* Blacklist problematic mods from Real Filing Cabinet's mob folder
+* Allow Liquid Experience to be used in Soul Sand casting recipe
+* Fix Porcelain Clay uncrafting recipe dupe
+* Fix dusts not meltable in tinkers' melter
+* Fix Quartz's packager recipe being inconsistent with its crafting recipe
+* Fix pacifist runs being unable to complete SF4 Advancement tab
+* Fix "ObservaTree" world being unable to complete SF4 Advancement tab
+* Fix typo in tutorial/craftingstation advancement description
+* Disable Game Stages debug log output - no longer print message when saving player state.
+* Blacklist slab machines and compound slab machines from carryon
+* No longer require unobtainable Aluminum to get Everyday I'm Trufflin
+* Age of Exploration Completionist advancement can now be completed on Lost Cities when Prestige is disabled
+* Fix hiding of the Ardite and Cobalt advancements in worlds where they cannot be obtained
+
+
+Enhancements:
+* Allow for Animal Crop seeds to be craftable in any column
+* Put SkyFactory Tutorial towards the top of the page
+* Changed 9x9x9 Compact Machine advancement to require Chorus Fruit instead of Resonant Clathrate in Compact Machines world preset
+* Changed 13x13x13 Compact Machine advancements to require a Dragon's Head and a bottle of Dragon's Breath instead of Chorus Fruit and elytra
+* Allow for Compact Machine worlds' advancements to be completed in any order
+* Create Chorus recipe using apples and purple slime in a cauldron
+* Improve descriptoins of hardcore advancements
+* Add additional hardcore advancements to clarify the use of Sync
+* Rename "Nap Time" criteria name
+* Added tip to encourage players to become spider man
+
+
+Mod Additions:
+* Squeezer Patch (1.1.0)
+
+
+Mod Updates:
+* Advancement Book (1.0.2 -> 1.0.3)
+* Barrels Drums Storage & More (0.0.19 -> 0.0.21)
+* ComPatchedStorage (1.3.0 -> 1.4.0)
+* Cyclic (1.19.3 -> 1.19.4)
+* Mekanism (9.6.8.366 -> 9.6.9.367)
+* Mekanism Generators (9.6.8.366 -> 9.6.9.367)
+* Mystcraft (0.13.7.02 -> 0.13.7.03)
+* Pickle Tweaks (2.1.2 -> 2.1.3)
+* Prestige (1.1.44 -> 1.1.51)
+* Real Filing Cabinet (0.1.83 -> 0.1.84)
+* Simple Storage Network (1.7.2 -> 1.7.3)
+* Smooth Font (2.0-alpha-9 -> 2.0-alpha-11)
+* Together Forever (1.0.11-20 -> 1.0.12-22)
+* Topography (1.4.5 -> 1.5.1)
+
+
+---------------------------------------------------------------------
+
+4.0.0
+
+* Initial Release!
+
+Please report bugs to the issue tracker!!

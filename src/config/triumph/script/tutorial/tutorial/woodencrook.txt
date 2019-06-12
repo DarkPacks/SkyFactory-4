@@ -1,0 +1,18 @@
+setTitle("Wooden Crook")
+
+setIcon(<inspirations:wooden_crook>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.woodencrook.description")
+
+addParent("tutorial:tutorial/craftingStation")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain a Wooden Crook", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:wooden_crook>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-10,-7)

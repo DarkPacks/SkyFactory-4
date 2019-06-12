@@ -1,0 +1,20 @@
+setTitle("3x3x3")
+
+setIcon(<compactmachines3:machine>)
+
+setTranslatedDescription("advancement.compactmachines.test.3x3x3.description")
+
+addParent("compactmachines:test/root")
+
+visibleIf("compact_machines")
+alwaysHidden()
+
+//Criteria
+criteria = addCriteria("Obtain Grass Block", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:grass>)
+
+//Rewards
+setRewardExperience(4)
+
+setRewardItem(<compactmachines3:machine>)
+setPos(32,52)

@@ -1,0 +1,18 @@
+setTitle("Dirt Sapling")
+
+setIcon(<sky_orchards:sapling_dirt>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.dirtsapling.description")
+
+addParent("tutorial:tutorial/woodenCrook")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain a Dirt Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_dirt>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(32,-7)

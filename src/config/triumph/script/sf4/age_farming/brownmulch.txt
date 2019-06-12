@@ -1,0 +1,18 @@
+setTitle("TuMULCHuous")
+
+setIcon(<inspirations:mulch:1>)
+
+setTranslatedDescription("advancement.sf4.age_farming.brownmulch.description")
+
+addParent("sf4:age_farming/fertileSoil")
+
+//Criteria
+criteria = addCriteria("Obtain Brown Mulch", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:mulch:1>)
+
+
+hiddenUnless("brown_mulch")
+alwaysVisible()
+
+setRewardExperience(6)
+setPos(35,207)

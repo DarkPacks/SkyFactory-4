@@ -1,0 +1,19 @@
+setTitle("Void Ze Stuff")
+
+setIcon(<bdsandm:upgrade:6>)
+
+setTranslatedDescription("advancement.sf4.age_storage.bdsandmupgrade6.description")
+
+addParent("sf4:age_storage/bdsandmUpgrade5")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Void Overflow Storage Upgrade", "minecraft:inventory_changed")
+criteria.addItem(<bdsandm:upgrade:6>)
+
+//Rewards
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-131,111)

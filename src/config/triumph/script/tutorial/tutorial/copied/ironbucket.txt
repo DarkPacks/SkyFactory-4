@@ -1,0 +1,19 @@
+setTitle("Not a Helmet")
+
+setIcon(<minecraft:bucket>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.copied.ironbucket.description")
+
+addParent("tutorial:tutorial/copied/ironIngot")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Iron Bucket", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:bucket>)
+
+//Rewards
+setRewardExperience(6)
+
+setPos(399,22)
+hideLines()

@@ -1,0 +1,26 @@
+//This advancement requires Immersive Engineering. Without the mod, it will error and will not be added.
+
+
+//Set the icon item
+setIcon(<immersiveengineering:metal_multiblock, meta:1>)
+
+//Set the title String
+setTitle("Multiblock")
+
+//Set the description String
+setDescription("Form a crusher multiblock")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(12, 5.5)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+//Adds criteria named "formed" with the trigger type "immersiveengineering:multiblock_formed". This function returns the criteria as an object
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+
+//Sets the required multiblock for the criteria. This is the multiblock that needs to be formed.
+criteria.setMultiblock("IE:Crusher")

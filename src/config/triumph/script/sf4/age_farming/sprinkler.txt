@@ -1,0 +1,17 @@
+setTitle("Sick Sprinkler")
+
+setIcon(<cyclicmagic:sprinkler>)
+
+setTranslatedDescription("advancement.sf4.age_farming.sprinkler.description")
+
+addParent("sf4:age_farming/root")
+
+//Criteria
+criteria = addCriteria("Obtain Sprinkler", "minecraft:inventory_changed")
+criteria.addItem(<cyclicmagic:sprinkler>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+hideLines()
+setPos(166,335)

@@ -1,0 +1,17 @@
+setTitle("Citizen Cane")
+
+setIcon(<inspirations:sugar_cane_seeds>)
+
+setTranslatedDescription("advancement.sf4.age_farming.sugarcaneseed.description")
+
+addParent("sf4:age_farming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Sugar Cane Seeds", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:sugar_cane_seeds>)
+
+setRewardExperience(6)
+
+setPos(62,335)

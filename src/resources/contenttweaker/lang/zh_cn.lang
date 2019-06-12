@@ -1,0 +1,13 @@
+#PARSE_ESCAPES
+fluid.mud=\u6c61\u6ce5
+fluid.cookie_dough=\u6db2\u6001\u66f2\u5947\u9762\u56e2
+fluid.bacon=\u6db2\u6001\u57f9\u6839
+fluid.donut=\u6db2\u6001\u751c\u751c\u5708
+
+item.contenttweaker.cobblestone_circuit_mold.name=\u5706\u77f3\u7535\u8def\u677f
+
+tile.contenttweaker.compact_machine_nether_wall.name=\u5730\u72f1\u538b\u7f29\u7a7a\u95f4\u58c1
+tile.contenttweaker.compact_machine_end_wall.name=\u672b\u5730\u538b\u7f29\u7a7a\u95f4\u58c1
+tile.contenttweaker.compact_machine_twilight_forest_wall.name=\u66ae\u8272\u538b\u7f29\u7a7a\u95f4\u58c1
+tile.contenttweaker.compact_machine_lost_cities_wall.name=\u5931\u843d\u7684\u57ce\u5e02\u538b\u7f29\u7a7a\u95f4\u58c1
+tile.contenttweaker.compact_machine_hunting_dimension_wall.name=\u72e9\u730e\u7ef4\u5ea6\u538b\u7f29\u7a7a\u95f4\u58c1

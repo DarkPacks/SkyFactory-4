@@ -1,0 +1,25 @@
+setTitle("Water You Waiting For?")
+
+setIcon(<ceramics:clay_bucket,meta:0,count:1,nbt:{fluids:{FluidName:"water",Amount:1000}}>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.copied.water.description")
+
+addParent("tutorial:tutorial/copied/crushingTub")
+addParent("tutorial:tutorial/copied/cauldron")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Water in a Clay Bucket", "minecraft:inventory_changed")
+criteria.addItem(<ceramics:clay_bucket,meta:0,count:1,nbt:{fluids:{FluidName:"water",Amount:1000}}>)
+
+criteria1 = addCriteria("Obtain Water in an Iron Bucket", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:water_bucket>)
+
+setRequirements("any")
+
+//Rewards
+setRewardExperience(4)
+
+setPos(249,97)
+hideLines()

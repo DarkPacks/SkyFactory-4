@@ -1,0 +1,14 @@
+This file is for the OverworldGenerator. This generator generates a slightly more 
+configurable version of the vanilla overworld. This generator makes use of multithreaded 
+noise generators to improve chunk generation speeds. Created using 'new OverworldGenerator()'.
+
+
+
+setGeneratorString:
+    Arguments:
+        String
+    Usage:
+        generator string
+    Notes:
+        Sets the generator string for the generator.
+

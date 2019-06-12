@@ -1,0 +1,20 @@
+setTitle("Ore'nt You Glad I Didn't Say Banana")
+
+setIcon(<tcomplement:porcelain_tank>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.tank.description")
+
+addParent("sf4:age_enhancement/root")
+setRequirements("any")
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Tank", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:seared_tank>)
+criteria1 = addCriteria("Obtain Porcelain Tank", "minecraft:inventory_changed")
+criteria1.addItem(<tcomplement:porcelain_tank>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(32,96)

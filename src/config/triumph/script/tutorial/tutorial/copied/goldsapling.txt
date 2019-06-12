@@ -1,0 +1,18 @@
+setTitle("Money Grows on Trees")
+
+setIcon(<sky_orchards:sapling_gold>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.copied.goldsapling.description")
+
+addParent("tutorial:tutorial/copied/ironSapling")
+addParent("tutorial:tutorial/copied/sandSapling")
+
+drawDirectLines(true)
+
+criteria = addCriteria("Obtain Gold Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_gold>)
+
+setRewardExperience(4)
+
+setPos(399,-3)
+hideLines()

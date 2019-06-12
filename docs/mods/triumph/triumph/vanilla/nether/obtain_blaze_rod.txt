@@ -1,0 +1,8 @@
+setIcon("minecraft:blaze_rod")
+setTranslatedTitle("advancements.nether.obtain_blaze_rod.title")
+setTranslatedDescription("advancements.nether.obtain_blaze_rod.description")
+
+addParent("triumph:vanilla/nether/find_fortress")
+
+criteria = addCriteria("blaze_rod", "minecraft:inventory_changed")
+criteria.addItem("minecraft:blaze_rod")

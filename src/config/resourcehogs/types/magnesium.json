@@ -1,0 +1,24 @@
+{
+  "id": "magnesium",
+  "inputs": [
+    "nuclearcraft:dust:7"
+  ],
+  "typeName": "Magnesium",
+  "output": "nuclearcraft:dust:7",
+  "diggableBlocks": [
+    "minecraft:stone"
+  ],
+  "renderBlock": "nuclearcraft:ingot_block:7",
+  "validDimensions": [
+    -1,
+    0,
+    1,
+    7,
+    111,
+    144,
+    28885
+  ],  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

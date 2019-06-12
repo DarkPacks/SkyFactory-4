@@ -1,0 +1,91 @@
+[
+  {
+    "block": "minecraft:chest",
+    "meta": 0,
+    "weight": 2,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "tconstruct:slime_congealed",
+    "meta": 4,
+    "weight": 1,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "tconstruct:ore",
+    "meta": 0,
+    "weight": 4,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "tconstruct:ore",
+    "meta": 1,
+    "weight": 4,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:netherrack",
+    "meta": 0,
+    "weight": 300,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:mob_spawner",
+    "meta": 0,
+    "weight": 2,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:nether_brick",
+    "meta": 0,
+    "weight": 48,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:quartz_ore",
+    "meta": 0,
+    "weight": 30,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:soul_sand",
+    "meta": 0,
+    "weight": 52,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:glowstone",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "tp:nether_lava_block",
+    "meta": 0,
+    "weight": 50,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:soul_sand",
+    "meta": 0,
+    "weight": 18,
+    "plants": [
+      {
+        "block": "minecraft:nether_wart",
+        "meta": 0
+      }
+    ],
+    "biomes": []
+  }
+]

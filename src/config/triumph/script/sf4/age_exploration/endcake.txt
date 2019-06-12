@@ -1,0 +1,19 @@
+setTitle("B'Aiken a C'Aiken")
+
+setIcon(<telepastries:end_cake>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.endcake.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain End Cake", "minecraft:inventory_changed")
+criteria.addItem(<telepastries:end_cake>)
+
+setRewardExperience(16)
+
+hideLines()
+alwaysVisible()
+setPos(33,109)

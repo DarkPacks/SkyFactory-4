@@ -1,0 +1,17 @@
+setTitle("Get Informed!")
+
+setIcon(<rftoolspower:information_screen>)
+
+setTranslatedDescription("advancement.sf4.age_power.informationscreen.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Information Screen", "minecraft:inventory_changed")
+criteria.addItem(<rftoolspower:information_screen>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-285,246)

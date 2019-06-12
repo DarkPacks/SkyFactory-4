@@ -1,0 +1,127 @@
+{
+  "_comment": {
+    "item": "Place the item id you want to drop",
+    "meta": "enter the metadata into default: 0",
+    "weight": "Enter the weight random chance for this item. -1 means it will always drop.",
+    "stackSize": "The stack size of the item. If you want random drop you can add min/max like this: 3~8",
+    "nbt": "input nbtdata here."
+  },
+  "dragon_head": {
+    "item": "minecraft:skull",
+    "meta": 5,
+    "weight": -1,
+    "stackSize": 1
+  },
+  "elytra": {
+    "item": "minecraft:elytra",
+    "meta": 0,
+    "weight": -1,
+    "stackSize": 1
+  },
+  "overworld_cake": {
+    "item": "telepastries:overworld_cake",
+    "meta": 0,
+    "weight": -1,
+    "stackSize": 1
+  },
+  "sapling": {
+    "item": "minecraft:sapling",
+    "meta": 0,
+    "weight": -1,
+    "stackSize": 32
+  },
+  "golden_apple": {
+    "item": "minecraft:golden_apple",
+    "weight": 10,
+    "stackSize": 1
+  },
+  "golden_apple_enc": {
+    "item": "minecraft:golden_apple",
+    "meta": 1,
+    "weight": 5,
+    "stackSize": 1
+  },
+  "dragon_breath": {
+    "item": "minecraft:dragon_breath",
+    "weight": 20,
+    "stackSize": 1
+  },
+  "diamond_block": {
+    "item": "minecraft:diamond_block",
+    "weight": 10,
+    "stackSize": "1~2"
+  },
+  "pearls": {
+    "item": "minecraft:ender_pearl",
+    "weight": 30,
+    "stackSize": "3~8"
+  },
+  "ender_chest": {
+    "item": "minecraft:ender_chest",
+    "weight": 5,
+    "stackSize": 1
+  },
+  "diamonds": {
+    "item": "minecraft:diamond",
+    "weight": 20,
+    "stackSize": "3~8"
+  },
+  "experiance": {
+    "item": "minecraft:experience_bottle",
+    "weight": 30,
+    "stackSize": "5~10"
+  },
+  "emeralds": {
+    "item": "minecraft:emerald",
+    "weight": 15,
+    "stackSize": "2~6"
+  },
+  "potion_regen": {
+    "item": "minecraft:potion",
+    "weight": 10,
+    "stackSize": 1,
+    "nbt": {
+      "Potion": "minecraft:long_regeneration"
+    }
+  },
+  "potion_strength": {
+    "item": "minecraft:potion",
+    "weight": 10,
+    "stackSize": 1,
+    "nbt": {
+      "Potion": "minecraft:long_strength"
+    }
+  },
+  "potion_switftness": {
+    "item": "minecraft:potion",
+    "weight": 10,
+    "stackSize": 1,
+    "nbt": {
+      "Potion": "minecraft:long_swiftness"
+    }
+  },
+  "potion_leaping": {
+    "item": "minecraft:potion",
+    "weight": 10,
+    "stackSize": 1,
+    "nbt": {
+      "Potion": "minecraft:long_leaping"
+    }
+  },
+  "potion_nightvision": {
+    "item": "minecraft:potion",
+    "weight": 10,
+    "stackSize": 1,
+    "nbt": {
+      "Potion": "minecraft:night_vision"
+    }
+  },
+  "potion_invisibility": {
+    "item": "minecraft:potion",
+    "weight": 10,
+    "stackSize": 1,
+    "nbt": {
+      "Potion": "minecraft:long_invisibility"
+    }
+  }
+}

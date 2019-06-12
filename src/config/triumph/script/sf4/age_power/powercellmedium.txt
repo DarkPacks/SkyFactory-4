@@ -1,0 +1,16 @@
+setTitle("It Keeps Going... and Going...")
+
+setIcon(<rftoolspower:cell2>)
+
+setTranslatedDescription("advancement.sf4.age_power.powercellmedium.description")
+
+addParent("sf4:age_power/powerCellLow")
+
+//Criteria
+criteria = addCriteria("Obtain Medium Powercell", "minecraft:inventory_changed")
+criteria.addItem(<rftoolspower:cell2>)
+
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-285,221)

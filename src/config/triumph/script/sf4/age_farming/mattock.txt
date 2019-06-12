@@ -1,0 +1,17 @@
+setTitle("Nothing Really Mattocks")
+
+setIcon(<tconstruct:mattock>)
+
+setTranslatedDescription("advancement.sf4.age_farming.mattock.description")
+
+addParent("sf4:age_farming/root")
+
+//Criteria
+criteria = addCriteria("Obtain Mattock", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:mattock>)
+
+setRewardExperience(6)
+
+alwaysVisible()
+hideLines()
+setPos(63,261)

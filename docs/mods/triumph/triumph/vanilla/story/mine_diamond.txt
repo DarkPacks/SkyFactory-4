@@ -1,0 +1,8 @@
+setIcon("minecraft:diamond")
+setTranslatedTitle("advancements.story.mine_diamond.title")
+setTranslatedDescription("advancements.story.mine_diamond.description")
+
+addParent("triumph:vanilla/story/iron_tools")
+
+criteria = addCriteria("diamond", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond")

@@ -1,0 +1,17 @@
+setTitle("The Flux Capacitor")
+
+setIcon(<matteroverdrive:spacetime_equalizer>)
+
+setTranslatedDescription("advancement.prestige.prestige.space_time_equalizer.description")
+
+addParent("prestige:prestige/energy_cube")
+
+//Criteria
+criteria = addCriteria("Acquire Space Time Equalizer", "minecraft:inventory_changed")
+criteria.addItem(<matteroverdrive:spacetime_equalizer>)
+
+//Rewards
+setRewardExperience(4)
+
+drawDirectLines()
+setPos(-78,-24)

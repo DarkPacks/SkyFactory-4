@@ -1,0 +1,19 @@
+setTitle("This Tree is Forever")
+
+setIcon(<sky_orchards:sapling_diamond>)
+
+setTranslatedDescription("advancement.sf4.age1.sapling.diamond.description")
+
+addParent("sf4:age1/sapling/silver")
+addParent("sf4:age1/sapling/gold")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Diamond Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_diamond>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-59,306)

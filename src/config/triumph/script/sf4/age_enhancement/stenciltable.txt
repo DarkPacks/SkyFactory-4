@@ -1,0 +1,18 @@
+setTitle("Keep It Between the Lines")
+
+setIcon(<tconstruct:tooltables:1>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.stenciltable.description")
+
+addParent("sf4:age_enhancement/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Tinkers' Stencil Table", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables:1>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(32,204)

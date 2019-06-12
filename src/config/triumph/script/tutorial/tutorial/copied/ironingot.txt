@@ -1,0 +1,19 @@
+setTitle("Oh, the Irony")
+
+setIcon(<minecraft:iron_ingot>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.copied.ironingot.description")
+
+addParent("tutorial:tutorial/copied/ironSapling")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Iron Ingot", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:iron_ingot>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(399,47)
+hideLines()

@@ -1,0 +1,10 @@
+[
+  {
+    "energy_per_mb": 15,
+    "id": "lava"
+  },
+  {
+    "energy_per_mb": 500,
+    "id": "pyrotheum"
+  }
+]

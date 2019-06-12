@@ -1,0 +1,17 @@
+setTitle("Overworked and Underpaid")
+
+setIcon(<nuclearcraft:upgrade>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.nuclearcraftspeedupgrade.description")
+
+addParent("sf4:age_enhancement/root")
+
+//Criteria
+criteria = addCriteria("Obtain Nuclearcraft Speed Upgrade", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:upgrade>)
+
+setRewardExperience(8)
+
+hideLines()
+alwaysVisible()
+setPos(-159,158)

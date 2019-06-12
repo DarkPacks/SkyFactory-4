@@ -1,0 +1,19 @@
+setTitle("Egg Hunt")
+
+setIcon(<minecraft:spawn_egg>)
+
+setTranslatedDescription("advancement.sf4.age_farming.spawnegg.description")
+
+addParent("sf4:age_farming/chickenFeed")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Mob DNA", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:spawn_egg>)
+
+hiddenUnless("mob_grinding_utils")
+alwaysVisible()
+
+setRewardExperience(6)
+setPos(166,387)

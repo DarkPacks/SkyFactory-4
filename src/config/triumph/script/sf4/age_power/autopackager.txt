@@ -1,0 +1,17 @@
+setTitle("Package Control")
+
+setIcon(<cyclicmagic:auto_packager>)
+
+setTranslatedDescription("advancement.sf4.age_power.autopackager.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Auto Packager", "minecraft:inventory_changed")
+criteria.addItem(<cyclicmagic:auto_packager>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-285,96)

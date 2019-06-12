@@ -1,0 +1,18 @@
+setTitle("Forging Ahead")
+
+setIcon(<tconstruct:toolforge>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.toolforge.description")
+
+addParent("sf4:age_enhancement/toolStation")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Tool Forge", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:toolforge>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(108,204)

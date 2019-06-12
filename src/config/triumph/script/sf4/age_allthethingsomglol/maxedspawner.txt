@@ -1,0 +1,17 @@
+setTitle("Spawntacular")
+
+setIcon(<minecraft:mob_spawner>)
+
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.maxedspawner.description")
+
+addParent("sf4:age_allthethingsomglol/root")
+
+hideLines()
+alwaysVisible()
+
+criteria = addCriteria("R", "triumph:right_click_block")
+criteria.setBlock(<minecraft:mob_spawner,tile:{MaxSpawnDelay:0s,MinSpawnDelay:0s}>)
+
+//Rewards
+setRewardExperience(40)
+setPos(64,-49)

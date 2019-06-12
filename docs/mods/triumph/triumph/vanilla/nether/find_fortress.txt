@@ -1,0 +1,9 @@
+
+setIcon("minecraft:nether_brick")
+setTranslatedTitle("advancements.nether.find_fortress.title")
+setTranslatedDescription("advancements.nether.find_fortress.description")
+
+addParent("triumph:vanilla/nether/root")
+
+criteria = addCriteria("fortress", "minecraft:location")
+criteria.setFeature("Fortress")

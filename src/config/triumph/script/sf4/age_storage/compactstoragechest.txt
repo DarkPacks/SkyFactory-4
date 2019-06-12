@@ -1,0 +1,17 @@
+setTitle("I Like Big Box and I Cannot Lie")
+
+setIcon(<compactstorage:compactchest, nbt:{size:[I;24,12]}>)
+
+setTranslatedDescription("advancement.sf4.age_storage.compactstoragechest.description")
+
+addParent("sf4:age_storage/root")
+
+//Criteria
+criteria = addCriteria("Obtain Compact Storage Chest", "minecraft:inventory_changed")
+criteria.addItem(<compactstorage:compactchest, nbt:{size:[I;24,12]}>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-326,176)

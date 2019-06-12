@@ -1,0 +1,18 @@
+setTitle("Wares the Remote?")
+
+setIcon(<storagenetwork:remote>)
+
+setTranslatedDescription("advancement.sf4.age_storage.simplestorageremote.description")
+
+addParent("sf4:age_storage/simpleStorageMaster")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Storage Network Remote", "minecraft:inventory_changed")
+criteria.addItem(<storagenetwork:remote>)
+
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-326,46)

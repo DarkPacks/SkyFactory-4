@@ -1,0 +1,18 @@
+setTitle("No Chargebacks")
+
+setIcon(<chargers:charger:2>)
+
+setTranslatedDescription("advancement.sf4.age_power.charger3.description")
+
+addParent("sf4:age_power/charger2")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Tier 3 Charger", "minecraft:inventory_changed")
+criteria.addItem(<chargers:charger:2>)
+
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-389,146)

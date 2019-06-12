@@ -1,0 +1,18 @@
+setTitle("SUGAR HIGH")
+
+setIcon(<tp:octuple_compressed_sugar_cane>)
+
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.octuplecompressedsugarcane.description")
+
+addParent("sf4:age_allthethingsomglol/root")
+
+hideLines()
+alwaysVisible()
+
+//Criteria
+criteria = addCriteria("Obtain Octuple Compressed Sugar Cane", "minecraft:inventory_changed")
+criteria.addItem(<tp:octuple_compressed_sugar_cane>)
+
+//Rewards
+setRewardExperience(100)
+setPos(-79,151)

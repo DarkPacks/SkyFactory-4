@@ -1,0 +1,29 @@
+setTitle("YoYo Master")
+
+setIcon(<yoyos:yoyo>)
+
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.yoyomaster.description")
+
+addParent("sf4:age_allthethingsomglol/root")
+
+hideLines()
+
+//Criteria
+criteria1 = addCriteria("Extension", "minecraft:inventory_changed")
+criteria1.addItem(<nbt:{Modifiers: [{identifier: "extension"}]}>)
+criteria2 = addCriteria("Lubricated", "minecraft:inventory_changed")
+criteria2.addItem(<nbt:{Modifiers: [{identifier: "lubricated"}]}>)
+criteria3 = addCriteria("Floating", "minecraft:inventory_changed")
+criteria3.addItem(<nbt:{Modifiers: [{identifier: "floating"}]}>)
+criteria5 = addCriteria("Shears", "minecraft:inventory_changed")
+criteria5.addItem(<nbt:{Modifiers: [{identifier: "gardening"}]}>)
+criteria6 = addCriteria("Gluey", "minecraft:inventory_changed")
+criteria6.addItem(<nbt:{Modifiers: [{identifier: "gluey"}]}>)
+criteria7 = addCriteria("Collecting", "minecraft:inventory_changed")
+criteria7.addItem(<nbt:{Modifiers: [{identifier: "collecting"}]}>)
+
+//Rewards
+setRewardExperience(60)
+
+alwaysVisible()
+setPos(-187,76)

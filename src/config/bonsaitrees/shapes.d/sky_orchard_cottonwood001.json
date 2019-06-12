@@ -1,0 +1,61 @@
+{
+  "type": "sky_orchard:cottonwood",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_cottonwood",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_cottonwood",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "aaaa ",
+      " aaaa",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "  a  ",
+      " aa  ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  ",
+      "  b  ",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      " aaa ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      "aaaa ",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ]
+}

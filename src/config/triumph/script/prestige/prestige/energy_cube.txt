@@ -1,0 +1,17 @@
+setTitle("Mr Fusion")
+
+setIcon(<mekanism:energycube, nbt:{tier:1}>)
+
+setTranslatedDescription("advancement.prestige.prestige.energy_cube.description")
+
+addParent("prestige:prestige/clock")
+
+//Criteria
+criteria = addCriteria("Acquire Advanced Energy Cube", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:energycube, nbt:{tier:1}>)
+
+//Rewards
+setRewardExperience(4)
+
+drawDirectLines()
+setPos(-6,5)

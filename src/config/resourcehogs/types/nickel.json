@@ -1,0 +1,25 @@
+{
+  "id": "nickel",
+  "inputs": [
+    "ore:dustNickel"
+  ],
+  "typeName": "Nickel",
+  "output": "sky_orchards:amber_nickel",
+  "diggableBlocks": [
+    "minecraft:stone"
+  ],
+  "renderBlock": "thermalfoundation:ore:5",
+  "validDimensions": [
+    -1,
+    0,
+    1,
+    7,
+    111,
+    144,
+    28885
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

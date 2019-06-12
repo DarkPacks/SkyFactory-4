@@ -1,0 +1,20 @@
+setTitle("Ender Game")
+
+setIcon(<extendedcrafting:singularity_ultimate>)
+
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.singularityultimate.description")
+
+addParent("sf4:age_allthethingsomglol/singularityBacon")
+addParent("sf4:age_allthethingsomglol/singularityDonut")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Ultimate Singularity", "minecraft:inventory_changed")
+criteria.addItem(<extendedcrafting:singularity_ultimate>)
+
+//Rewards
+setRewardExperience(60)
+
+alwaysVisible()
+setPos(-108,126)

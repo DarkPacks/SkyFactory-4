@@ -1,0 +1,9 @@
+
+setIcon("minecraft:skull", 5)
+setTranslatedTitle("advancements.end.kill_dragon.title")
+setTranslatedDescription("advancements.end.kill_dragon.description")
+
+addParent("triumph:vanilla/end/root")
+
+criteria = addCriteria("killed_dragon", "minecraft:player_killed_entity")
+criteria.setEntityType("ender_dragon")

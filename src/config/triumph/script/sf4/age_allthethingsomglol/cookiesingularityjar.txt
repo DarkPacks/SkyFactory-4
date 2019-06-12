@@ -1,0 +1,21 @@
+setTitle("Cookie Clicker")
+
+setIcon(<extendedcrafting:singularity_custom:1>)
+
+//setDescription("Fill a Cookie Jar with Cookie Singularities and Right-Click it!")
+
+setDescription({"translate":"advancement.sf4.age_allthethingsomglol.cookiesingularityjar.description","with":[{"keybind":"key.use"}]})
+
+addParent("sf4:age_allthethingsomglol/cookie")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Right Click Cookie Jar Filled With Cookie Singularities", "triumph:right_click_block")
+criteria.setBlock(<bibliocraft:cookiejar, tile:{cookiecount:8,names:["item.ec.singularity_custom_cookie","item.ec.singularity_custom_cookie","item.ec.singularity_custom_cookie","item.ec.singularity_custom_cookie","item.ec.singularity_custom_cookie","item.ec.singularity_custom_cookie","item.ec.singularity_custom_cookie","item.ec.singularity_custom_cookie"],Inventory:[{Slot:0b,id:"extendedcrafting:singularity_custom",Count:64b,Damage:1s},{Slot:1b,id:"extendedcrafting:singularity_custom",Count:64b,Damage:1s},{Slot:2b,id:"extendedcrafting:singularity_custom",Count:64b,Damage:1s},{Slot:3b,id:"extendedcrafting:singularity_custom",Count:64b,Damage:1s},{Slot:4b,id:"extendedcrafting:singularity_custom",Count:64b,Damage:1s},{Slot:5b,id:"extendedcrafting:singularity_custom",Count:64b,Damage:1s},{Slot:6b,id:"extendedcrafting:singularity_custom",Count:64b,Damage:1s},{Slot:7b,id:"extendedcrafting:singularity_custom",Count:64b,Damage:1s}]}>)
+
+//Rewards
+setRewardExperience(60)
+
+alwaysVisible()
+setPos(-108,51)

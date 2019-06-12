@@ -1,0 +1,17 @@
+setTitle("I'm A Computah!")
+
+setIcon(<mekanism:tierinstaller:3>)
+
+setTranslatedDescription("advancement.sf4.age_power.ultimateinstaller.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Ultimate Installer", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:tierinstaller:3>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-285,171)

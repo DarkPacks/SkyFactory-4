@@ -1,0 +1,19 @@
+setTitle("Smells Like Nirvana")
+
+setIcon(<nuclearcraft:ore:6>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.lithiumore.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Lithium Ore", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:ore:6>)
+
+setRewardExperience(20)
+
+hideLines()
+alwaysVisible()
+setPos(-238,47)

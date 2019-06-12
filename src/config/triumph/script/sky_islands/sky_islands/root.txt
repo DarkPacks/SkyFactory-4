@@ -1,0 +1,28 @@
+setTitle("Sky Islands")
+
+setIcon(<rustic:cloudsbluff>)
+
+setTranslatedDescription("advancement.sky_islands.sky_islands.root.description")
+
+setBackground("test:textures/colors/clear_sky.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("superflat1", "minecraft:location")
+criteria1.setGeneratorOptions({"Topography-Preset":"Skiiiilands"})
+
+criteria2 = addCriteria("superflat2", "minecraft:location")
+criteria2.setGeneratorOptions({"Topography-Preset":"Material Girl in a Material World"})
+
+criteria3 = addCriteria("superflat3", "minecraft:location")
+criteria3.setGeneratorOptions({"Topography-Preset":"Lava Cake"})
+
+//Rewards
+setRewardFunction("triumph:sky_islands_start")
+
+alwaysHidden()

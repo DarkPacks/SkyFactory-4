@@ -1,0 +1,17 @@
+setTitle("Baby Got Backpack")
+
+setIcon(<compactstorage:backpack, nbt:{size:[I;24,12]}>)
+
+setTranslatedDescription("advancement.sf4.age_storage.compactstoragebackpack.description")
+
+addParent("sf4:age_storage/root")
+
+//Criteria
+criteria = addCriteria("Obtain Compact Storage Backpack", "minecraft:inventory_changed")
+criteria.addItem(<compactstorage:backpack, nbt:{size:[I;24,12]}>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-326,151)

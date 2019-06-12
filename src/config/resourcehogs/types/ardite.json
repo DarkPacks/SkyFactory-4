@@ -1,0 +1,25 @@
+{
+  "id": "ardite",
+  "inputs": [
+    "ore:dustArdite"
+  ],
+  "typeName": "Ardite",
+  "output": "tconstruct:nuggets:1",
+  "diggableBlocks": [
+    "minecraft:soul_sand"
+  ],
+  "renderBlock": "tconstruct:ore:1",
+  "validDimensions": [
+    -1,
+    0,
+    1,
+    7,
+    111,
+    144,
+    28885
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 10,
+  "digTickDelay": 2000
+}

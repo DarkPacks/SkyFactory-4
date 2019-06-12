@@ -1,0 +1,17 @@
+setTitle("Dead Cells")
+
+setIcon(<deepmoblearning:pristine_matter_zombie>)
+
+setTranslatedDescription("advancement.sf4.age_power.pristinezombiematter.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Pristine Zombie Matter", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:pristine_matter_zombie>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-183,96)

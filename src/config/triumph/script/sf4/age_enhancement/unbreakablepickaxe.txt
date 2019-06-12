@@ -1,0 +1,18 @@
+setTitle("Unbroken")
+
+setIcon(<tconstruct:materials:14>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.unbreakablepickaxe.description")
+
+addParent("sf4:age_enhancement/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Unbreakable Tinkers' Tool or Weapon", "minecraft:inventory_changed")
+criteria.addItem(<nbt:{Unbreakable:1b}>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(-37,108)

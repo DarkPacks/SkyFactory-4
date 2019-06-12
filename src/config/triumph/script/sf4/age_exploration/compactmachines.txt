@@ -1,0 +1,22 @@
+setTitle("Compact Your World")
+
+setIcon(<compactmachines3:psd>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.compactmachines.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Enter Compact Machines Dimension", "minecraft:changed_dimension")
+criteria.setDimensionDestination("CompactMachines")
+
+setRewardExperience(16)
+
+//Giving players overworld cakes because I know for sure they won't read and bring one themselves
+setRewardFunction("triumph:give_cake")
+
+hideLines()
+alwaysVisible()
+setPos(7,219)

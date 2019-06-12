@@ -1,0 +1,18 @@
+setTitle("This Little Piggy")
+
+setIcon(<farmingforblockheads:market>)
+
+setTranslatedDescription("advancement.sf4.age_farming.market.description")
+
+addParent("sf4:age_farming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Market", "minecraft:inventory_changed")
+criteria.addItem(<farmingforblockheads:market>)
+
+setRewardExperience(6)
+
+alwaysVisible()
+setPos(-42,261)

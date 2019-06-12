@@ -1,0 +1,22 @@
+setTitle("Get It While It's Hot")
+
+setIcon(<tp:lava_block>)
+
+setTranslatedDescription("advancement.sf4.age1.lavasource.description")
+
+addParent("sf4:age1/root")
+addParent("skygrid:skygrid/root")
+setRequiresParents()
+
+drawDirectLines(true)
+
+hiddenUnless("skygrid")
+
+criteria = addCriteria("Break Lava Source Block", "triumph:player_break_block")
+criteria.setBlock(<tp:lava_block>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+setPos(-316,108)

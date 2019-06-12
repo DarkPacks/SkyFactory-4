@@ -1,0 +1,16 @@
+setTitle("Sugar Daddy")
+
+setIcon(<minecraft:reeds>)
+
+setTranslatedDescription("advancement.sf4.age_farming.sugarcanesnad.description")
+
+addParent("sf4:age_farming/sugarcaneSeed")
+
+drawDirectLines(true)
+criteria = addCriteria("Placed Snad", "minecraft:placed_block")
+criteria.setBlock(<snad:snad>)
+
+setRewardExperience(6)
+
+setPos(114,335)
+alwaysVisible()

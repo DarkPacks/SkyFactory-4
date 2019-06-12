@@ -1,0 +1,23 @@
+setTitle("11x11x11")
+
+setIcon(<compactmachines3:machine:4>)
+
+setTranslatedDescription("advancement.compactmachines.test.11x11x112.description")
+
+addParent("compactmachines:test/9x9x9")
+addParent("compactmachines:test/9x9x92")
+
+visibleIf("compact_machines")
+alwaysHidden()
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Pristine Wither Matter", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:pristine_matter_wither>)
+
+//Rewards
+setRewardExperience(4)
+
+setRewardItem(<compactmachines3:machine:4>)
+setPos(242,82)

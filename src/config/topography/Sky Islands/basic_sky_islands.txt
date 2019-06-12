@@ -1,0 +1,125 @@
+setSingleBiome("minecraft:void")
+
+setCloudHeight(-1)
+
+//Creates a new SkyIslandType. The argument is a biome id.
+forest = new SkyIslandType("minecraft:forest")
+
+cold_taiga = new SkyIslandType("minecraft:taiga_cold")
+
+desert = new SkyIslandType("minecraft:desert")
+
+mesa = new SkyIslandType("minecraft:mesa")
+
+jungle = new SkyIslandType("minecraft:jungle")
+
+plains = new SkyIslandType("minecraft:plains")
+
+taiga = new SkyIslandType("minecraft:taiga")
+
+swamp = new SkyIslandType("minecraft:swampland")
+
+mushroom = new SkyIslandType("minecraft:mushroom_island")
+
+ice_plains = new SkyIslandType("minecraft:ice_flats")
+
+savanna = new SkyIslandType("minecraft:savanna")
+
+roofed_forest = new SkyIslandType("minecraft:roofed_forest")
+
+redwood_taiga = new SkyIslandType("minecraft:redwood_taiga")
+
+skyIslands = new SkyIslandGenerator()
+skyIslands.setRegionSize(29)
+addGenerator(skyIslands)
+
+//Adds sky islands. Arguments are radius, number of times to attempt to generate in each region, and whether each island should choose a random type (true), or if types should be used in order (false).
+large = skyIslands.addSkyIslands(100, 1, false)
+//Adds a SkyIslandType to the island generator.
+large.addType(forest)
+large.addType(cold_taiga)
+large.addType(desert)
+large.addType(mesa)
+large.addType(jungle)
+large.addType(plains)
+large.addType(taiga)
+large.addType(swamp)
+large.addType(mushroom)
+large.addType(ice_plains)
+large.addType(savanna)
+large.addType(roofed_forest)
+large.addType(redwood_taiga)
+
+medium = skyIslands.addSkyIslands(50, 32, false)
+medium.addType(forest)
+medium.addType(cold_taiga)
+medium.addType(desert)
+medium.addType(mesa)
+medium.addType(jungle)
+medium.addType(plains)
+medium.addType(taiga)
+medium.addType(swamp)
+medium.addType(mushroom)
+medium.addType(ice_plains)
+medium.addType(savanna)
+medium.addType(roofed_forest)
+medium.addType(redwood_taiga)
+
+small = skyIslands.addSkyIslands(25, 64, false)
+small.addType(forest)
+small.addType(cold_taiga)
+small.addType(desert)
+small.addType(mesa)
+small.addType(jungle)
+small.addType(plains)
+small.addType(taiga)
+small.addType(swamp)
+small.addType(mushroom)
+small.addType(ice_plains)
+small.addType(savanna)
+small.addType(roofed_forest)
+small.addType(redwood_taiga)
+
+tiny = skyIslands.addSkyIslands(10, 128, false)
+tiny.addType(forest)
+tiny.addType(cold_taiga)
+tiny.addType(desert)
+tiny.addType(mesa)
+tiny.addType(jungle)
+tiny.addType(plains)
+tiny.addType(taiga)
+tiny.addType(swamp)
+tiny.addType(mushroom)
+tiny.addType(ice_plains)
+tiny.addType(savanna)
+tiny.addType(roofed_forest)
+tiny.addType(redwood_taiga)
+
+sky = setSkyRenderer()
+//top, bottom, north, south, east, west
+
+night = sky.addSkybox("test:textures/skybox/night.png")
+day = sky.addSkybox("test:textures/skybox/day.png")
+
+//Celestial angle range, opacity range
+//Sunset
+day.addAlpha(0.19904304~0.29625022, 1~0)
+//Night
+day.addAlpha(0.29625022~0.719889, 0~0)
+//Sunrise
+day.addAlpha(0.719889~0.8037514, 0~1)
+
+//Lazy method for adding a sun and moon since I don't want to make the effort for proper custom ones yet.
+sky.addSunMoon()
+
+//Fog
+//Day
+addFogColor(#2F80C1)
+//Sunset
+addFogColor(#22053c, 0.19904304~0.29625022, 0~1)
+//Night
+addFogColor(#22053c, 0.29625022~0.719889, 1~1)
+//Sunrise
+addFogColor(#22053c, 0.719889~0.8037514, 1~0)
+
+captureTeleports()

@@ -1,0 +1,25 @@
+//Set icon item
+setIcon(<minecraft:iron_ore>)
+
+//Set title String
+setTitle("Right clicking a block multiple times")
+
+//Set description String
+setDescription("Right click an iron ore block 5 times")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(14.4, 8.1)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+//Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+
+//Sets the required block for the criteria. This is the block that needs to be right clicked by the player.
+criteria.setBlock(<minecraft:iron_ore>)
+
+criteria.setCount(5)

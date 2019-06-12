@@ -1,0 +1,18 @@
+setTitle("Back to the Future")
+
+setIcon(<bibliocraft:clock>)
+
+setTranslatedDescription("advancement.prestige.prestige.clock.description")
+
+addParent("prestige:prestige/root")
+addParent("prestige:prestige/test")
+
+//Criteria
+criteria = addCriteria("Acquire Clock", "minecraft:inventory_changed")
+criteria.addItem(<bibliocraft:clock>)
+
+//Rewards
+setRewardExperience(4)
+
+drawDirectLines()
+setPos(32,-63)

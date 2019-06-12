@@ -1,0 +1,51 @@
+{
+  "type": "sky_orchard:bacon",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_bacon",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_bacon",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " aaa ",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "  a  ",
+      " aaa ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      "  a  ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "aaaaa",
+      "aaaa ",
+      "     "
+    ]
+  ]
+}

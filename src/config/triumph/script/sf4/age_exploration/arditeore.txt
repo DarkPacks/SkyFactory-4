@@ -1,0 +1,24 @@
+setTitle("Ardite Amirite")
+
+setIcon(<tconstruct:ore:1>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.arditeore.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Ice Ardite Ore", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:sub_block_holder_0>)
+criteria1 = addCriteria("Obtain Ardite Ore", "minecraft:inventory_changed")
+criteria1.addItem(<tconstruct:ore:1>)
+
+setRequirements("any")
+setRewardExperience(20)
+
+hiddenIf("default_ores")
+
+hideLines()
+alwaysVisible()
+setPos(-163,185)

@@ -1,0 +1,19 @@
+setTitle("Bubble, Bubble")
+
+setIcon(<morecauldrons:oak_cauldron>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.copied.cauldron.description")
+
+addParent("tutorial:tutorial/copied/cobblestone")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain a Cauldron", "minecraft:inventory_changed")
+criteria.addItem(<ore:cauldron>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(149,97)
+hideLines()

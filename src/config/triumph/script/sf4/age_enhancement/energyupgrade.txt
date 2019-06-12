@@ -1,0 +1,18 @@
+setTitle("Power Save Mode")
+
+setIcon(<mekanism:energyupgrade>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.energyupgrade.description")
+
+addParent("sf4:age_enhancement/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Mekanism Energy Upgrade", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:energyupgrade>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(-113,158)

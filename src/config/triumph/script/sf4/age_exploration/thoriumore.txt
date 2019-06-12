@@ -1,0 +1,19 @@
+setTitle("Thorium's Hammer")
+
+setIcon(<nuclearcraft:ore:3>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.thoriumore.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Thorium Ore", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:ore:3>)
+
+setRewardExperience(20)
+
+hideLines()
+alwaysVisible()
+setPos(-213,47)

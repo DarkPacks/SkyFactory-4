@@ -1,0 +1,12 @@
+setSpawnStructure("dirt_tree")
+
+
+layers = new LayerGenerator()
+layers.addLayer(150~255, <minecraft:bedrock>)
+layers.addLayer(0~30, <minecraft:bedrock>)
+addGenerator(layers)
+
+disableSkylight()
+disableSky()
+setFogColor(#000000)
+captureTeleports()

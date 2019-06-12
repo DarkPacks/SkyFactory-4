@@ -1,0 +1,18 @@
+setTitle("It's Over 20!")
+
+setIcon(<cyclicmagic:sword_ender>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.20damage.description")
+
+addParent("sf4:age_enhancement/root")
+hideLines()
+
+//Criteria
+criteria = addCriteria("Deal 20 or More Damage", "minecraft:player_hurt_entity")
+damage = criteria.getDamageData()
+damage.setDealtMin(20)
+
+setRewardExperience(20)
+
+alwaysVisible()
+setPos(-62,158)

@@ -1,0 +1,56 @@
+{
+  "type": "sky_orchard:quartz",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_quartz",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_quartz",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      " aaaa",
+      "     ",
+      "     "
+    ],
+    [
+      "  a  ",
+      "  a  ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  ",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      "aaaa ",
+      "     ",
+      "     "
+    ]
+  ]
+}

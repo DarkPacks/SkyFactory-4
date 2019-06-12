@@ -1,0 +1,23 @@
+setTitle("13x13x13")
+
+setIcon(<compactmachines3:machine:5>)
+
+setTranslatedDescription("advancement.compactmachines.test.13x13x13.description")
+
+addParent("compactmachines:test/11x11x11")
+addParent("compactmachines:test/11x11x112")
+
+visibleIf("compact_machines")
+alwaysHidden()
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain a Dragon's Head", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:skull:5>)
+
+//Rewards
+setRewardExperience(4)
+
+setRewardItem(<compactmachines3:machine:5>)
+setPos(302,82)

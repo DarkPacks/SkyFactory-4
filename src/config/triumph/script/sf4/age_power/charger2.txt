@@ -1,0 +1,18 @@
+setTitle("Charger 2: Electric Boogaloo")
+
+setIcon(<chargers:charger:1>)
+
+setTranslatedDescription("advancement.sf4.age_power.charger2.description")
+
+addParent("sf4:age_power/charger1")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Tier 2 Charger", "minecraft:inventory_changed")
+criteria.addItem(<chargers:charger:1>)
+
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-362,146)

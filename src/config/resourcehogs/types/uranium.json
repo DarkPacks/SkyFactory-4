@@ -1,0 +1,25 @@
+{
+  "id": "uranium",
+  "inputs": [
+    "nuclearcraft:dust:4"
+  ],
+  "typeName": "Uranium",
+  "output": "nuclearcraft:dust:4",
+  "diggableBlocks": [
+    "minecraft:stone"
+  ],
+  "renderBlock": "nuclearcraft:ingot_block:4",
+  "validDimensions": [
+    -1,
+    0,
+    1,
+    7,
+    111,
+    144,
+    28885
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}

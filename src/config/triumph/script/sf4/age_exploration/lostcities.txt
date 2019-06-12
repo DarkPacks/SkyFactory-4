@@ -1,0 +1,23 @@
+setTitle("Lost and Found")
+
+setIcon(<telepastries:lost_city_cake>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.lostcities.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+criteria = addCriteria("Entered Lost Cities Dimension", "minecraft:location")
+criteria.setDimID(111)
+
+setRewardExperience(16)
+
+//Giving players overworld cakes because I know for sure they won't read and bring one themselves
+setRewardFunction("triumph:give_cake")
+
+hiddenIf("lost_cities")
+
+alwaysVisible()
+hideLines()
+setPos(-18,47)

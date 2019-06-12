@@ -1,0 +1,20 @@
+setTitle("Break a Leg")
+
+setIcon(<sky_orchards:sapling_bone>)
+
+setTranslatedDescription("advancement.sf4.age1.sapling.bone.description")
+
+addParent("sf4:age1/sapling/petrified")
+addParent("sf4:age1/dirt")
+addParent("sf4:age1/crushing_tub")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Bone Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_bone>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-359,306)

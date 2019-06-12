@@ -1,0 +1,18 @@
+setTitle("Wood You Hand Me That Crate Please?")
+
+setIcon(<bdsandm:wood_crate>)
+
+setTranslatedDescription("advancement.sf4.age_storage.bdsandmwoodencrate.description")
+
+addParent("sf4:age_storage/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Wood Crate", "minecraft:inventory_changed")
+criteria.addItem(<bdsandm:wood_crate>)
+
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-250,148)

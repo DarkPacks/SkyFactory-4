@@ -1,0 +1,22 @@
+setTitle("Sky Grid")
+
+setIcon(<chisel:glass:12>)
+
+setTranslatedDescription("advancement.skygrid.skygrid.root.description")
+
+setBackground("test:textures/colors/grid.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("superflat", "minecraft:location")
+criteria.setWorldType("skygrid")
+
+//Rewards
+setRewardFunction("triumph:skygrid_start")
+
+alwaysHidden()

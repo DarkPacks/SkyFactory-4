@@ -1,0 +1,11 @@
+printDefaultConfigs(false)
+printDocumentation(false)
+removeVanillaAdvancements(true)
+removeModAdvancements(false)
+keepAdvancements(["twilightforest"])
+removeAdvancements(["twilightforest:progress_castle", "twilightforest:progress_thorns"])
+
+//allowDragging(true)
+useNewParentCompletionCriteriaNames()
+
+pageOrder(["tutorial:tutorial/root", "sf4:age1/root", "hardcore:hardcore/root", "skygrid:skygrid/root", "pacifist:pacifist_run/root", "sf4:age_enhancement/root", "sf4:age_farming/root", "sf4:age_power/root", "sf4:age_storage/root", "sf4:age_exploration/root", "sf4:age_allthethingsomglol/root", "prestige:prestige/root"])

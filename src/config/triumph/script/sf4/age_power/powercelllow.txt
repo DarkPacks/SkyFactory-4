@@ -1,0 +1,17 @@
+setTitle("Max Power")
+
+setIcon(<rftoolspower:cell1>)
+
+setTranslatedDescription("advancement.sf4.age_power.powercelllow.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Low Powercell", "minecraft:inventory_changed")
+criteria.addItem(<rftoolspower:cell1>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-310,221)

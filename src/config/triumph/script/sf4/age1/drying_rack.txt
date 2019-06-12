@@ -1,0 +1,18 @@
+setTitle("Air Fryer")
+
+setIcon(<tconstruct:rack:1>)
+
+setTranslatedDescription("advancement.sf4.age1.drying_rack.description")
+
+addParent("sf4:age1/root")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Drying Rack", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:rack:1>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-409,331)

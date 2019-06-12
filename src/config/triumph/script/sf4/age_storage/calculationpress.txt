@@ -1,0 +1,17 @@
+setTitle("Neeeeeeeeerrrrrrrd!")
+
+setIcon(<appliedenergistics2:material:13>)
+
+setTranslatedDescription("advancement.sf4.age_storage.calculationpress.description")
+
+addParent("sf4:age_storage/logicProcessor")
+
+//Criteria
+criteria = addCriteria("Obtain Calculation Press", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:material:13>)
+
+setRewardExperience(12)
+
+drawDirectLines(true)
+alwaysVisible()
+setPos(53,204)

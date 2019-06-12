@@ -1,0 +1,18 @@
+setTitle("I'm Blue Da Ba Dee")
+
+setIcon(<inspirations:mulch:7>)
+
+setTranslatedDescription("advancement.sf4.age_farming.bluemulch.description")
+
+addParent("sf4:age_farming/blackMulch")
+
+//Criteria
+criteria = addCriteria("Obtain Blue Mulch", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:mulch:7>)
+
+hiddenUnless("blue_mulch")
+
+setRewardExperience(6)
+
+alwaysVisible()
+setPos(185,207)

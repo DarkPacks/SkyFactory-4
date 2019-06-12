@@ -1,0 +1,6 @@
+gamerule tfEnforcedProgression false
+gamerule astralSorceryIgnoreSkyCheck true
+gamestage silentadd @p compact_machines
+gamestage silentremove @p mystcraft
+gamestage silentadd @p fake_twilight
+gamestage silentadd @p default_ores

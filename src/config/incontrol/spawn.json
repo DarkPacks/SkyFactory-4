@@ -1,0 +1,135 @@
+[
+  {
+    "mob": "Blaze",
+    "mincount": "18,Blaze",
+    "result": "deny"
+  },
+  {
+    "mob": "WitherSkeleton",
+    "mincount": "11,WitherSkeleton",
+    "result": "deny"
+  },
+  {
+    "mob": "bouncy_creepers:bouncy_creeper",
+    "mincount": "18,bouncy_creepers:bouncy_creeper",
+    "result": "deny"
+  },
+  {
+    "mob": "Bat",
+    "mincount": "15,Bat",
+    "result": "deny"
+  },
+  {
+    "mob": "statues:statue_bat",
+    "mincount": "10,statues:statue_bat",
+    "result": "deny"
+  },
+  {
+    "mob": "Blaze",
+    "onjoin": true,
+    "nbt": {
+      "Attributes": [
+        {
+          "Base": 24.0,
+          "Name": "generic.followRange"
+        },
+        {
+          "Base": 13,
+          "Name": "generic.armor"
+        },
+        {
+          "Base": 0.1,
+          "Name": "generic.movementSpeed"
+        },
+        {
+          "Base": 0.4,
+          "Name": "generic.knockbackResistance"
+        }
+      ]
+    }
+  },
+  {
+    "mob": "thermalfoundation:blizz",
+    "onjoin": true,
+    "nbt": {
+      "Attributes": [
+        {
+          "Base": 24.0,
+          "Name": "generic.followRange"
+        },
+        {
+          "Base": 13,
+          "Name": "generic.armor"
+        },
+        {
+          "Base": 0.1,
+          "Name": "generic.movementSpeed"
+        },
+        {
+          "Base": 0.4,
+          "Name": "generic.knockbackResistance"
+        }
+      ]
+    }
+  },
+  {
+    "mob": "thermalfoundation:blitz",
+    "onjoin": true,
+    "nbt": {
+      "Attributes": [
+        {
+          "Base": 24.0,
+          "Name": "generic.followRange"
+        },
+        {
+          "Base": 13,
+          "Name": "generic.armor"
+        },
+        {
+          "Base": 0.1,
+          "Name": "generic.movementSpeed"
+        },
+        {
+          "Base": 0.4,
+          "Name": "generic.knockbackResistance"
+        }
+      ]
+    }
+  },
+  {
+    "mob": "thermalfoundation:basalz",
+    "onjoin": true,
+    "nbt": {
+      "Attributes": [
+        {
+          "Base": 24.0,
+          "Name": "generic.followRange"
+        },
+        {
+          "Base": 13,
+          "Name": "generic.armor"
+        },
+        {
+          "Base": 0.1,
+          "Name": "generic.movementSpeed"
+        },
+        {
+          "Base": 0.4,
+          "Name": "generic.knockbackResistance"
+        }
+      ]
+    }
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "onjoin": true,
+    "nbt": {
+      "Attributes": [
+        {
+          "Base": 18.0,
+          "Name": "generic.followRange"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,20 @@
+setTitle("Hoarder!")
+
+setIcon(<industrialforegoing:black_hole_unit>)
+
+//setDescription("Fill a Black Hole Unit with any item and Right-Click it")
+
+setDescription({"translate":"advancement.sf4.age_allthethingsomglol.blackholeunit.description","with":[{"keybind":"key.use"}]})
+
+addParent("sf4:age_allthethingsomglol/root")
+
+hideLines()
+alwaysVisible()
+
+//Criteria
+criteria = addCriteria("Right Click Filled Black Hole Unit", "triumph:right_click_block")
+criteria.setBlock(<industrialforegoing:black_hole_unit,tile:{amount:2147483583}>)
+
+//Rewards
+setRewardExperience(60)
+setPos(64,26)

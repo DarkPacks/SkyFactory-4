@@ -1,0 +1,17 @@
+setTitle("Stay Hydrated")
+
+setIcon(<hydrogel:hydrogel>)
+
+setTranslatedDescription("advancement.sf4.age_farming.hydrogel.description")
+
+addParent("sf4:age_farming/root")
+
+//Criteria
+criteria = addCriteria("Obtain Hydrogel", "minecraft:inventory_changed")
+criteria.addItem(<hydrogel:hydrogel>)
+
+setRewardExperience(6)
+
+alwaysVisible()
+hideLines()
+setPos(115,300)

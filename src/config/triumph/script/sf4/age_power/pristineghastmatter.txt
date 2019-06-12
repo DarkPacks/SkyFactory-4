@@ -1,0 +1,17 @@
+setTitle("I'm so Aghast")
+
+setIcon(<deepmoblearning:pristine_matter_ghast>)
+
+setTranslatedDescription("advancement.sf4.age_power.pristineghastmatter.description")
+
+addParent("sf4:age_power/pristineZombieMatter")
+
+//Criteria
+criteria = addCriteria("Obtain Pristine Ghast Matter", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:pristine_matter_ghast>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-156,96)

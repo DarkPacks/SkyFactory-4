@@ -1,0 +1,18 @@
+setTitle("Metallicrate")
+
+setIcon(<bdsandm:metal_crate>)
+
+setTranslatedDescription("advancement.sf4.age_storage.bdsandmmetalcrate.description")
+
+addParent("sf4:age_storage/bdsandmWoodenCrate")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Metal Crate", "minecraft:inventory_changed")
+criteria.addItem(<bdsandm:metal_crate>)
+
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-212,148)

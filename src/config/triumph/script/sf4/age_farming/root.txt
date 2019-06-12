@@ -1,0 +1,24 @@
+setTitle("Age of Farming")
+
+setIcon(<minecraft:iron_hoe>)
+
+setTranslatedDescription("advancement.sf4.age_farming.root.description")
+
+setBackground("test:textures/colors/green.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+addCriteria("breakBlock", "triumph:player_break_block")
+addCriteria("craftItem", "triumph:player_crafted_item")
+addCriteria("enterDimension", "minecraft:changed_dimension")
+addCriteria("inventoryChange", "minecraft:inventory_changed")
+addCriteria("killEntity", "minecraft:player_killed_entity")
+addCriteria("killedByEntity", "minecraft:entity_killed_player")
+addCriteria("location", "minecraft:location")
+
+setPos(62,300)

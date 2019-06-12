@@ -1,0 +1,18 @@
+setTitle("Ironwood")
+
+setIcon(<sky_orchards:sapling_iron>)
+
+setTranslatedDescription("advancement.sf4.age1.sapling.iron.description")
+
+addParent("sf4:age1/amber/iron")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Iron Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_iron>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-184,306)

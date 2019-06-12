@@ -1,0 +1,20 @@
+setTitle("You Cotton Be Kidding Me")
+
+setIcon(<sky_orchards:sapling_cottonwood>)
+
+setTranslatedDescription("advancement.sf4.age1.sapling.cottonwood.description")
+
+addParent("sf4:age1/sapling/bone")
+addParent("sf4:age1/sapling/clay")
+addParent("sf4:age1/cauldron")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Cottonwood Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_cottonwood>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-284,281)

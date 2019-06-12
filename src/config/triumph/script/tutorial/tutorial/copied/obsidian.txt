@@ -1,0 +1,21 @@
+setTitle("Study in the Dark Arts")
+
+setIcon(<minecraft:obsidian>)
+
+//setDescription("Right-Click a Lava filled Cauldron with a Water Bucket to make Obsidian")
+
+setDescription({"translate":"advancement.tutorial.tutorial.copied.obsidian.description","with":[{"keybind":"key.use"}]})
+
+addParent("tutorial:tutorial/copied/lava")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Obsidian", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:obsidian>)
+
+//Rewards
+setRewardExperience(6)
+
+setPos(324,97)
+hideLines()

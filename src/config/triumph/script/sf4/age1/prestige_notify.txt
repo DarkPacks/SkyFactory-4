@@ -1,0 +1,19 @@
+setTitle("prestige_notify")
+
+setIcon(<minecraft:sapling>)
+
+setTranslatedDescription("advancement.sf4.age1.prestige_notify.description")
+
+addParent("sf4:age1/root")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+//Criteria
+criteria = addCriteria("stage", "triumph:gamestage")
+criteria.setStage("parabox")
+
+//Rewards
+setRewardFunction("triumph:prestige_notify")
+
+alwaysHidden()

@@ -1,0 +1,18 @@
+setTitle("Live Long and Processor")
+
+setIcon(<appliedenergistics2:material:22>)
+
+setTranslatedDescription("advancement.sf4.age_storage.logicprocessor.description")
+
+addParent("sf4:age_storage/siliconPress")
+addParent("sf4:age_storage/logicPress")
+
+//Criteria
+criteria = addCriteria("Obtain Logic Processor", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:material:22>)
+
+setRewardExperience(12)
+
+drawDirectLines(true)
+alwaysVisible()
+setPos(-15,176)

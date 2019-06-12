@@ -1,0 +1,18 @@
+setTitle("Gotta Go Fast")
+
+setIcon(<mekanism:speedupgrade>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.speedupgrade.description")
+
+addParent("sf4:age_enhancement/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Mekanism Speed Upgrade", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:speedupgrade>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(-113,108)

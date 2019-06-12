@@ -1,0 +1,56 @@
+{
+  "type": "sky_orchard:tin",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_tin",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_tin",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "aaaaa",
+      " aaa ",
+      "     ",
+      "     "
+    ],
+    [
+      "  a  ",
+      " aaa ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  ",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      " aa  ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " aaa ",
+      " aaa ",
+      "     ",
+      "     "
+    ]
+  ]
+}

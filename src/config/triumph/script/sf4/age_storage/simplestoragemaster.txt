@@ -1,0 +1,17 @@
+setTitle("Master Blaster")
+
+setIcon(<storagenetwork:master>)
+
+setTranslatedDescription("advancement.sf4.age_storage.simplestoragemaster.description")
+
+addParent("sf4:age_storage/root")
+
+//Criteria
+criteria = addCriteria("Obtain Network Master Block", "minecraft:inventory_changed")
+criteria.addItem(<storagenetwork:master>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-326,82)

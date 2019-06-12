@@ -1,0 +1,23 @@
+setTitle("Water You Waiting For?")
+
+setIcon(<nuclearcraft:fluid_preheated_water>)
+
+setTranslatedDescription("advancement.sf4.age1.water.description")
+
+addParent("sf4:age1/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Water in a Clay Bucket", "minecraft:inventory_changed")
+criteria.addItem(<ceramics:clay_bucket,meta:0,count:1,nbt:{fluids:{FluidName:"water",Amount:1000}}>)
+
+criteria1 = addCriteria("Obtain Water in an Iron Bucket", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:water_bucket>)
+
+setRequirements("any")
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-334,181)

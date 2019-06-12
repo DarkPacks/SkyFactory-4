@@ -1,0 +1,18 @@
+setTitle("Shredded Wheat")
+
+setIcon(<minecraft:wheat_seeds>)
+
+setTranslatedDescription("advancement.sf4.age_farming.wheatseeds.description")
+
+addParent("sf4:age_farming/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Wheat Seeds", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:wheat_seeds>)
+
+setRewardExperience(6)
+
+alwaysVisible()
+setPos(-42,300)

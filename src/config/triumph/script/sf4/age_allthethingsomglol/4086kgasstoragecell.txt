@@ -1,0 +1,17 @@
+setTitle("Hit the Gas")
+
+setIcon(<extracells:storage.gas:6>)
+
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.4086kgasstoragecell.description")
+
+addParent("sf4:age_allthethingsomglol/root")
+
+//Criteria
+criteria = addCriteria("Obtain 4096k Gas Storage Cell", "minecraft:inventory_changed")
+criteria.addItem(<extracells:storage.gas:6>)
+
+setRewardExperience(12)
+
+hideLines()
+alwaysVisible()
+setPos(89,153)

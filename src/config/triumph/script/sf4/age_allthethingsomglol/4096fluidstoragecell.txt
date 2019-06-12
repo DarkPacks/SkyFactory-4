@@ -1,0 +1,17 @@
+setTitle("Ocean Man")
+
+setIcon(<extracells:storage.component:10>)
+
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.4096fluidstoragecell.description")
+
+addParent("sf4:age_allthethingsomglol/root")
+
+//Criteria
+criteria = addCriteria("Obtain 4096k Fluid Storage Cell", "minecraft:inventory_changed")
+criteria.addItem(<extracells:storage.component:10>)
+
+setRewardExperience(12)
+
+hideLines()
+alwaysVisible()
+setPos(64,153)

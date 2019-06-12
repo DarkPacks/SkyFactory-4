@@ -1,0 +1,582 @@
+[
+  {
+    "block": "minecraft:grass",
+    "meta": 0,
+    "weight": 11,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "tconstruct:slime_congealed",
+    "meta": 1,
+    "weight": 2,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "tp:water_block",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "tp:lava_block",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "mekanism:saltblock",
+    "meta": 0,
+    "weight": 7,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "mekanism:oreblock",
+    "meta": 2,
+    "weight": 7,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "thermalfoundation:ore",
+    "meta": 2,
+    "weight": 7,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "mekanism:oreblock",
+    "meta": 1,
+    "weight": 8,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "thermalfoundation:ore",
+    "meta": 3,
+    "weight": 7,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "mekanism:oreblock",
+    "meta": 2,
+    "weight": 6,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:dirt",
+    "meta": 1,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:sand",
+    "meta": 0,
+    "weight": 12,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:sand",
+    "meta": 1,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:dirt",
+    "meta": 2,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:piston",
+    "meta": 2,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:mob_spawner",
+    "meta": 0,
+    "weight": 4,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:chest",
+    "meta": 0,
+    "weight": 3,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:stone",
+    "meta": 0,
+    "weight": 47,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:dirt",
+    "meta": 0,
+    "weight": 11,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:cobblestone",
+    "meta": 0,
+    "weight": 15,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:planks",
+    "meta": 0,
+    "weight": 11,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:planks",
+    "meta": 1,
+    "weight": 11,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:planks",
+    "meta": 2,
+    "weight": 11,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:planks",
+    "meta": 3,
+    "weight": 11,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:planks",
+    "meta": 4,
+    "weight": 11,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:planks",
+    "meta": 5,
+    "weight": 11,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:gravel",
+    "meta": 0,
+    "weight": 12,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:gold_ore",
+    "meta": 0,
+    "weight": 11,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:iron_ore",
+    "meta": 0,
+    "weight": 14,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:coal_ore",
+    "meta": 0,
+    "weight": 14,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:log",
+    "meta": 0,
+    "weight": 12,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:leaves",
+    "meta": 4,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:leaves",
+    "meta": 5,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:leaves",
+    "meta": 6,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:leaves",
+    "meta": 7,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:sponge",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:lapis_ore",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:lapis_block",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:sandstone",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:noteblock",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:wool",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:brick_block",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:tnt",
+    "meta": 0,
+    "weight": 8,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:bookshelf",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:mossy_cobblestone",
+    "meta": 0,
+    "weight": 9,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:obsidian",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:diamond_ore",
+    "meta": 0,
+    "weight": 6,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:redstone_ore",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:ice",
+    "meta": 0,
+    "weight": 9,
+    "plants": [],
+    "biomes": [
+      "minecraft:taiga",
+      "minecraft:ice_mountains",
+      "minecraft:mutated_taiga",
+      "minecraft:ice_flats",
+      "minecraft:mutated_taiga_cold",
+      "minecraft:mutated_redwood_taiga_hills"
+    ]
+  },
+  {
+    "block": "minecraft:snow",
+    "meta": 0,
+    "weight": 9,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:clay",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:jukebox",
+    "meta": 0,
+    "weight": 8,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:pumpkin",
+    "meta": 2,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:monster_egg",
+    "meta": 0,
+    "weight": 2,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:stonebrick",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:melon_block",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:mycelium",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:redstone_lamp",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:double_wooden_slab",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:emerald_ore",
+    "meta": 0,
+    "weight": 5,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:redstone_block",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:leaves2",
+    "meta": 4,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:leaves2",
+    "meta": 5,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:log2",
+    "meta": 0,
+    "weight": 12,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:slime",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:prismarine",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:sea_lantern",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:hay_block",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:packed_ice",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:red_sandstone",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:double_stone_slab2",
+    "meta": 0,
+    "weight": 10,
+    "plants": [],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:farmland",
+    "meta": 0,
+    "weight": 10,
+    "plants": [
+      {
+        "block": "minecraft:wheat",
+        "meta": 0
+      },
+      {
+        "block": "minecraft:pumpkin_stem",
+        "meta": 0
+      },
+      {
+        "block": "minecraft:melon_stem",
+        "meta": 0
+      },
+      {
+        "block": "minecraft:carrots",
+        "meta": 0
+      },
+      {
+        "block": "minecraft:potatoes",
+        "meta": 0
+      }
+    ],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:sand",
+    "meta": 0,
+    "weight": 10,
+    "plants": [
+      {
+        "block": "minecraft:cactus",
+        "meta": 0
+      },
+      {
+        "block": "tp:old_reed",
+        "meta": -1
+      }
+    ],
+    "biomes": []
+  },
+  {
+    "block": "minecraft:grass",
+    "meta": 0,
+    "weight": 12,
+    "plants": [
+      {
+        "block": "minecraft:tallgrass",
+        "meta": 0
+      },
+      {
+        "block": "minecraft:deadbush",
+        "meta": 0
+      },
+      {
+        "block": "minecraft:yellow_flower",
+        "meta": 0
+      },
+      {
+        "block": "minecraft:red_flower",
+        "meta": 0
+      },
+      {
+        "block": "minecraft:brown_mushroom",
+        "meta": 0
+      },
+      {
+        "block": "minecraft:red_mushroom",
+        "meta": 0
+      }
+    ],
+    "biomes": []
+  }
+]

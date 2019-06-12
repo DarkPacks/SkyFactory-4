@@ -1,0 +1,17 @@
+setTitle("I'll Dehydrate You")
+
+setIcon(<cyclicmagic:dehydrator>)
+
+setTranslatedDescription("advancement.sf4.age_power.dehydrator.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Dehydrator", "minecraft:inventory_changed")
+criteria.addItem(<cyclicmagic:dehydrator>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-285,146)

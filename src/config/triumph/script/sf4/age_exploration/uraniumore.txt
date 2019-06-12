@@ -1,0 +1,19 @@
+setTitle("Uranium Fever")
+
+setIcon(<nuclearcraft:ore:4>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.uraniumore.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Uranium Ore", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:ore:4>)
+
+setRewardExperience(20)
+
+hideLines()
+alwaysVisible()
+setPos(-138,47)

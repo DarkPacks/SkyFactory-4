@@ -1,0 +1,19 @@
+setTitle("Captain Hook")
+
+setIcon(<inspirations:wooden_crook>)
+
+setTranslatedDescription("advancement.sf4.age1.wooden_crook.description")
+
+addParent("sf4:age1/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Wooden Crook", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:wooden_crook>)
+
+//Rewards
+setRewardExperience(4)
+
+hideLines()
+setPos(-284,156)

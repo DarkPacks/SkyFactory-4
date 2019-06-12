@@ -1,0 +1,16 @@
+setTitle("ɹǝddoH")
+
+setIcon(<uppers:upper>)
+
+setTranslatedDescription("advancement.sf4.age_storage.upper.description")
+
+addParent("sf4:age_storage/hopper")
+
+//Criteria
+criteria = addCriteria("Obtain Upper", "minecraft:inventory_changed")
+criteria.addItem(<uppers:upper>)
+
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-158,52)

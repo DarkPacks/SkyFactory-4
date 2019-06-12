@@ -1,0 +1,12 @@
+{
+  "entries": [
+    {
+      "item": "tconstruct:edible|0",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:emerald|0",
+      "emc": 8192
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+setTitle("To Be ORe Not to Be")
+
+setIcon(<tcomplement:porcelain_melter>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.melter.description")
+
+addParent("sf4:age_enhancement/root")
+setRequirements("any")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Porcelain Melter", "minecraft:inventory_changed")
+criteria.addItem(<tcomplement:porcelain_melter>)
+criteria1 = addCriteria("Obtain Melter", "minecraft:inventory_changed")
+criteria1.addItem(<tcomplement:melter>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(32,71)

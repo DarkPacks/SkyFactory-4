@@ -1,0 +1,23 @@
+setTitle("9x9x9")
+
+setIcon(<compactmachines3:machine:3>)
+
+setTranslatedDescription("advancement.compactmachines.test.9x9x9.description")
+
+addParent("compactmachines:test/7x7x7")
+addParent("compactmachines:test/7x7x72")
+
+visibleIf("compact_machines")
+alwaysHidden()
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain End Stone", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:end_stone>)
+
+//Rewards
+setRewardExperience(4)
+
+setRewardItem(<compactmachines3:machine:3>)
+setPos(182,22)

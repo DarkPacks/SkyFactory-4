@@ -1,0 +1,18 @@
+setTitle("256 Liters of Cola")
+
+setIcon(<bdsandm:upgrade:1>)
+
+setTranslatedDescription("advancement.sf4.age_storage.bdsandmupgrade2.description")
+
+addParent("sf4:age_storage/bdsandmUpgrade1")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain x256 Storage Upgrade", "minecraft:inventory_changed")
+criteria.addItem(<bdsandm:upgrade:1>)
+
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-231,111)

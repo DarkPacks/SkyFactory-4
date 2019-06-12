@@ -1,0 +1,46 @@
+[
+    {
+        "energy": 64000,
+        "id": "minecraft:skull:3"
+    },
+    {
+        "energy": 80000,
+        "id": "minecraft:skull:2"
+    },
+    {
+        "energy": 96000,
+        "id": "minecraft:skull:0"
+    },
+    {
+        "energy": 128000,
+        "id": "minecraft:skull:4"
+    },
+    {
+        "energy": 256000,
+        "id": "minecraft:skull:1"
+    },
+    {
+        "energy": 1200000,
+        "id": "minecraft:skull:5"
+    },
+    {
+        "energy": 1200000,
+        "id": "minecraft:dragon_egg"
+    },
+    {
+        "energy": 32000,
+        "id": "OD:egg"
+    },
+    {
+        "energy": 32000,
+        "id": "OD:bone"
+    },
+    {
+        "energy": 72000,
+        "id": "OD:boneWithered"
+    },
+    {
+        "energy": 64000,
+        "id": "headcrumbs:skull"
+    }
+]

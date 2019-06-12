@@ -1,0 +1,18 @@
+setTitle("Blue Man Group")
+
+setIcon(<sky_orchards:sapling_lapis>)
+
+setTranslatedDescription("advancement.sf4.age1.sapling.lapis.description")
+
+addParent("sf4:age1/sapling/coal")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Lapis Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_lapis>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-184,281)

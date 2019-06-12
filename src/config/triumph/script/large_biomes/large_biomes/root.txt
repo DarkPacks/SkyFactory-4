@@ -1,0 +1,22 @@
+setTitle("Large Biomes")
+
+setIcon(<minecraft:skull>)
+
+setTranslatedDescription("advancement.large_biomes.large_biomes.root.description")
+
+setBackground("projecte:textures/blocks/dm.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("superflat", "minecraft:location")
+criteria.setWorldType("largeBiomes")
+
+//Rewards
+setRewardFunction("triumph:sky_islands_start")
+
+alwaysHidden()

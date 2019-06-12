@@ -1,0 +1,19 @@
+setTitle("Stone Crook")
+
+setIcon(<inspirations:stone_crook>)
+
+setTranslatedDescription("advancement.sf4.age1.stone_crook.description")
+
+addParent("sf4:age1/wooden_crook")
+addParent("sf4:age1/cobblestone")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Stone Crook", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:stone_crook>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-284,181)

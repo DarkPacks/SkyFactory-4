@@ -1,0 +1,19 @@
+setTitle("On the Rocks")
+
+setIcon(<minecraft:cobblestone>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.copied.cobblestone.description")
+
+addParent("tutorial:tutorial/copied/petrifiedSapling")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Cobblestone Block", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:cobblestone>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(124,97)
+hideLines()

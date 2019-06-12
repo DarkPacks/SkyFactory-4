@@ -1,0 +1,18 @@
+setTitle("Silver Spoon")
+
+setIcon(<sky_orchards:sapling_silver>)
+
+setTranslatedDescription("advancement.sf4.age1.sapling.silver.description")
+
+addParent("sf4:age1/amber/silver")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Silver Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_silver>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-84,331)

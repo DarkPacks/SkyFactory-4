@@ -1,0 +1,9 @@
+mpa notify @p open_prestige
+
+tellraw @p {"text":"FirstNecron is smelly. I need more text to fill space bit more","obfuscated":true}
+
+tellraw @p {"text":"Prestige Enabled! Press 'P' to see the available rewards.","color":"yellow"}
+tellraw @p {"text":"In Singleplayer, prestige and unlocks are global.","color":"aqua"}
+tellraw @p {"text":"Multiplayer prestige and unlocks are limited to that server only.","color":"gold"}
+
+tellraw @p {"text":"Hey. If you are reading this... GET OUTTA MAH CONFIGS...","obfuscated":true}

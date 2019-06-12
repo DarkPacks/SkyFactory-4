@@ -1,0 +1,96 @@
+//Dirt Tree Floating over alternating Silverfish and Stone Blocks
+
+setSpawnStructure("dirt_tree")
+
+layers = new LayerGenerator()
+layers.addLayer(0~1, <minecraft:stone>)
+layers.addLayer(1~2, <minecraft:monster_egg>)
+layers.addLayer(2~3, <minecraft:stone>)
+layers.addLayer(3~4, <minecraft:monster_egg>)
+layers.addLayer(4~5, <minecraft:stone>)
+layers.addLayer(5~6, <minecraft:monster_egg>)
+layers.addLayer(6~7, <minecraft:stone>)
+layers.addLayer(7~8, <minecraft:monster_egg>)
+layers.addLayer(8~9, <minecraft:stone>)
+layers.addLayer(9~10, <minecraft:monster_egg>)
+layers.addLayer(10~11, <minecraft:stone>)
+layers.addLayer(11~12, <minecraft:monster_egg>)
+layers.addLayer(12~13, <minecraft:stone>)
+layers.addLayer(13~14, <minecraft:monster_egg>)
+layers.addLayer(14~15, <minecraft:stone>)
+layers.addLayer(15~16, <minecraft:monster_egg>)
+layers.addLayer(16~17, <minecraft:stone>)
+layers.addLayer(17~18, <minecraft:monster_egg>)
+layers.addLayer(18~19, <minecraft:stone>)
+layers.addLayer(19~20, <minecraft:monster_egg>)
+layers.addLayer(20~21, <minecraft:stone>)
+layers.addLayer(21~22, <minecraft:monster_egg>)
+layers.addLayer(22~23, <minecraft:stone>)
+layers.addLayer(23~24, <minecraft:monster_egg>)
+layers.addLayer(24~25, <minecraft:stone>)
+layers.addLayer(25~26, <minecraft:monster_egg>)
+layers.addLayer(26~27, <minecraft:stone>)
+layers.addLayer(27~28, <minecraft:monster_egg>)
+layers.addLayer(28~29, <minecraft:stone>)
+layers.addLayer(29~30, <minecraft:monster_egg>)
+layers.addLayer(30~31, <minecraft:stone>)
+layers.addLayer(31~32, <minecraft:monster_egg>)
+layers.addLayer(32~33, <minecraft:stone>)
+layers.addLayer(33~34, <minecraft:monster_egg>)
+layers.addLayer(34~35, <minecraft:stone>)
+layers.addLayer(35~36, <minecraft:monster_egg>)
+layers.addLayer(36~37, <minecraft:stone>)
+layers.addLayer(37~38, <minecraft:monster_egg>)
+layers.addLayer(38~39, <minecraft:stone>)
+layers.addLayer(39~40, <minecraft:monster_egg>)
+layers.addLayer(40~41, <minecraft:stone>)
+layers.addLayer(41~42, <minecraft:monster_egg>)
+layers.addLayer(42~43, <minecraft:stone>)
+layers.addLayer(43~44, <minecraft:monster_egg>)
+layers.addLayer(44~45, <minecraft:stone>)
+layers.addLayer(45~46, <minecraft:monster_egg>)
+layers.addLayer(46~47, <minecraft:stone>)
+layers.addLayer(47~48, <minecraft:monster_egg>)
+layers.addLayer(48~49, <minecraft:stone>)
+layers.addLayer(49~50, <minecraft:monster_egg>)
+layers.addLayer(50~51, <minecraft:stone>)
+layers.addLayer(51~52, <minecraft:monster_egg>)
+layers.addLayer(52~53, <minecraft:stone>)
+layers.addLayer(53~54, <minecraft:monster_egg>)
+layers.addLayer(54~55, <minecraft:stone>)
+layers.addLayer(55~56, <minecraft:monster_egg>)
+layers.addLayer(56~57, <minecraft:stone>)
+layers.addLayer(57~58, <minecraft:monster_egg>)
+layers.addLayer(58~59, <minecraft:stone>)
+layers.addLayer(59~60, <minecraft:monster_egg>)
+
+addGenerator(layers)
+
+sky = setSkyRenderer()
+//top, bottom, north, south, east, west
+
+night = sky.addSkybox("test:textures/skybox/night.png")
+day = sky.addSkybox("test:textures/skybox/day.png")
+
+//Celestial angle range, opacity range
+//Sunset
+day.addAlpha(0.19904304~0.29625022, 1~0)
+//Night
+day.addAlpha(0.29625022~0.719889, 0~0)
+//Sunrise
+day.addAlpha(0.719889~0.8037514, 0~1)
+
+//Lazy method for adding a sun and moon since I don't want to make the effort for proper custom ones yet.
+sky.addSunMoon()
+
+//Fog
+//Day
+addFogColor(#2F80C1)
+//Sunset
+addFogColor(#22053c, 0.19904304~0.29625022, 0~1)
+//Night
+addFogColor(#22053c, 0.29625022~0.719889, 1~1)
+//Sunrise
+addFogColor(#22053c, 0.719889~0.8037514, 1~0)
+
+captureTeleports()

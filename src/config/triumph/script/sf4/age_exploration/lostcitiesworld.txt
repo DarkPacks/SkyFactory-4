@@ -1,0 +1,22 @@
+setTitle("Lost and Found")
+
+setIcon(<telepastries:lost_city_cake>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.lostcitiesworld.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Entered Lost Cities Dimension", "minecraft:changed_dimension")
+criteria.setDimensionDestination("lostcities")
+
+hiddenUnless("lost_cities")
+
+alwaysVisible()
+hideLines()
+setPos(7,47)

@@ -1,0 +1,19 @@
+setTitle("No Cake Like Home")
+
+setIcon(<telepastries:overworld_cake>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.overworldcake.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Overworld Cake", "minecraft:inventory_changed")
+criteria.addItem(<telepastries:overworld_cake>)
+
+setRewardExperience(16)
+
+hideLines()
+alwaysVisible()
+setPos(33,149)

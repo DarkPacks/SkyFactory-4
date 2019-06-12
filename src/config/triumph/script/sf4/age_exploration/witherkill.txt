@@ -1,0 +1,17 @@
+setTitle("Wither Without You")
+
+setIcon(<minecraft:skull:1>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.witherkill.description")
+
+addParent("sf4:age_exploration/nether")
+drawDirectLines(true)
+
+criteria = addCriteria("Killed Wither", "minecraft:player_killed_entity")
+criteria.setEntityType("withercrumbs:wither crumb")
+
+setRewardExperience(16)
+
+hideLines()
+alwaysVisible()
+setPos(59,185)

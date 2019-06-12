@@ -1,0 +1,20 @@
+setTitle("Bottoms Up")
+
+setIcon(<industrialforegoing:black_hole_tank>)
+
+//setDescription("Fill a Black Hole Tank with any Liquid and Right-Click it")
+
+setDescription({"translate":"advancement.sf4.age_allthethingsomglol.blackholetank.description","with":[{"keybind":"key.use"}]})
+
+addParent("sf4:age_allthethingsomglol/root")
+
+hideLines()
+alwaysVisible()
+
+//Criteria
+criteria = addCriteria("Right Click Filled Black Hole Tank", "triumph:right_click_block")
+criteria.setBlock(<industrialforegoing:black_hole_tank,tile:{fluids:{tanks:[{Amount:2147483000~}]}}>)
+
+//Rewards
+setRewardExperience(60)
+setPos(64,51)

@@ -1,0 +1,19 @@
+setTitle("Size Does Matter")
+
+setIcon(<nuclearcraft:fission_controller_new_fixed>)
+
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.maxsizereactor.description")
+
+addParent("sf4:age_allthethingsomglol/root")
+
+hideLines()
+hiddenIf("compactmachines:test/root")
+alwaysVisible()
+
+//Criteria
+criteria = addCriteria("Right Click Max Size Fission Reactor", "triumph:right_click_block")
+criteria.setBlock(<nuclearcraft:fission_controller_new_fixed, tile:{lengthY:26,lengthX:26,lengthZ:26}>)
+
+//Rewards
+setRewardExperience(60)
+setPos(-108,-49)

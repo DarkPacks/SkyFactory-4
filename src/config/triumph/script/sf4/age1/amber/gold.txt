@@ -1,0 +1,17 @@
+setTitle("One Shiny Boi")
+
+setIcon(<sky_orchards:amber_gold>)
+
+setTranslatedDescription("advancement.sf4.age1.amber.gold.description")
+
+addParent("sf4:age1/sapling/lead")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Gold Amber", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:amber_gold>)
+
+//Rewards
+setRewardExperience(4)
+setPos(-109,281)

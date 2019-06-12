@@ -1,0 +1,51 @@
+Parser.addRequiredMod("nex")
+Parser.addRequiredMod("thermalfoundation")
+
+setFogColor(#003366)
+setCelestialAngle(0.5)
+disableSky()
+disableClouds()
+disableSkylight()
+setLightBrightnessTable([0.1, 0.11578947, 0.13333333, 0.15294117, 0.175, 0.20000002, 0.22857141, 0.26153848, 0.3, 0.34545457, 0.4, 0.46666667, 0.5500001, 0.6571429, 0.79999995, 1.0])
+
+setSingleBiome("minecraft:hell")
+
+layers = new LayerGenerator()
+layers.addLayer(1~20, <thermalfoundation:fluid_cryotheum>)
+addGenerator(layers)
+
+tendrils = new CellNoiseGenerator(<minecraft:packed_ice>)
+tendrils.closeTop();
+addGenerator(tendrils)
+
+layers = new LayerGenerator()
+layers.addLayer(0~0, <minecraft:bedrock>)
+addGenerator(layers)
+
+spheres = new DeformedSphereGenerator(<minecraft:snow>, 10, 32, 32, 8)
+spheres.addRequiredBlock(<minecraft:packed_ice>)
+addGenerator(spheres)
+
+layers = new LayerGenerator()
+layers.addLayer(0~0, <minecraft:bedrock>)
+addGenerator(layers)
+
+fire = new ScatteredBlockGenerator(<nex:blue_fire>, 5, 64)
+fire.addRequiredBlock(<minecraft:packed_ice>)
+addGenerator(fire)
+
+lava = new FluidPocketGenerator(<thermalfoundation:fluid_cryotheum>, 16, false)
+lava.addRequiredBlock(<minecraft:packed_ice>)
+addGenerator(lava)
+
+glowstone = new HangingCrystalGenerator(<minecraft:glowstone>, 20, 1500)
+glowstone.addRequiredBlock(<minecraft:packed_ice>)
+addGenerator(glowstone)
+
+quartz = new DeformedSphereGenerator(<minecraft:ice>, 2, 3, 32, 8)
+quartz.setDeformScale(4)
+quartz.addRequiredBlock(<minecraft:packed_ice>)
+addGenerator(quartz)
+
+disableRespawning()
+captureTeleports()

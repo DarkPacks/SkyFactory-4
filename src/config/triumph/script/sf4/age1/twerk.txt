@@ -1,0 +1,22 @@
+setTitle("Sticky Keys")
+
+setIcon(<pickletweaks:ppm4:1>)
+
+//setDescription("Collect 8 Dirt Saplings and 8 Oak Logs. Increase the speed of tree growth by rapidly pushing shift near a sapling or by running. You'll notice green particles when activated")
+
+setDescription({"translate":"advancement.sf4.age1.twerk.description","with":[{"keybind":"key.use"}, {"keybind":"key.sneak"}]})
+
+addParent("sf4:age1/root")
+
+hideLines()
+
+//Criteria
+criteria1 = addCriteria("Obtain 8 Dirt Saplings", "minecraft:inventory_changed")
+criteria1.addItem(<sky_orchards:sapling_dirt, count:8~>)
+criteria2 = addCriteria("Obtain 8 Oak Logs", "minecraft:inventory_changed")
+criteria2.addItem(<minecraft:log, count:8~>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-334,156)

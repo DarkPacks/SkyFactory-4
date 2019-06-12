@@ -1,0 +1,61 @@
+{
+  "type": "sky_orchard:lapis",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_lapis",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_lapis",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "aaaa ",
+      " aaaa",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "  a  ",
+      " aa  ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  ",
+      "  b  ",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      " aa  ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "aaaaa",
+      "aaaa ",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ]
+}

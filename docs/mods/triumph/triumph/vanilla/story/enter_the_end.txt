@@ -1,0 +1,9 @@
+
+setIcon("minecraft:end_stone")
+setTranslatedTitle("advancements.story.enter_the_end.title")
+setTranslatedDescription("advancements.story.enter_the_end.description")
+
+addParent("triumph:vanilla/story/follow_ender_eye")
+
+criteria = addCriteria("entered_end", "minecraft:changed_dimension")
+criteria.setDimensionDestination("the_end")

@@ -1,0 +1,20 @@
+setTitle("You Cotton Something?")
+
+setIcon(<minecraft:string>)
+
+setTranslatedDescription("advancement.sf4.age1.string.description")
+
+addParent("sf4:age1/sapling/cottonwood")
+
+drawDirectLines()
+
+//Criteria
+criteria1 = addCriteria("Obtain String", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:string>)
+criteria2 = addCriteria("Obtain Cottonwood Sapling", "minecraft:inventory_changed")
+criteria2.addItem(<sky_orchards:sapling_cottonwood>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-259,256)

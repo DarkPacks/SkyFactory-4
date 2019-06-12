@@ -1,0 +1,24 @@
+setTitle("Pacifist World")
+
+setIcon(<minecraft:red_flower:8>)
+
+setTranslatedDescription("advancement.pacifist.pacifist_run.root.description")
+
+setBackground("chisel:textures/blocks/valentines/2.png")
+
+hiddenIf("pacifist:pacifist_run/lose")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+//Criteria
+criteria1 = addCriteria("superflat", "minecraft:location")
+criteria1.setGeneratorOptions({"Topography-Preset":"Peace Out"})
+criteria2 = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria2.addItem(<minecraft:torch>)
+
+//Rewards
+setRewardExperience(4)
+setRewardFunction("triumph:pacifist_start")
+setPos(-8,24)

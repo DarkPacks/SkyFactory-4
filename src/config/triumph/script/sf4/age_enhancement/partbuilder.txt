@@ -1,0 +1,18 @@
+setTitle("Tim the Tool Man Taylor")
+
+setIcon(<tconstruct:tooltables:2>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.partbuilder.description")
+
+addParent("sf4:age_enhancement/stencilTable")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Tinkers' Part Builder", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables:2>)
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(60,204)

@@ -1,0 +1,18 @@
+setTitle("Place Dirt Sapling")
+
+setIcon(<minecraft:dirt>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.placedirtsapling.description")
+
+addParent("tutorial:tutorial/dirtSapling")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Placed Dirt Sapling", "minecraft:placed_block")
+criteria.setBlock(<sky_orchards:sapling_dirt>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(32,34)

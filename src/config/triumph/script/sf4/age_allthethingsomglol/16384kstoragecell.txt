@@ -1,0 +1,17 @@
+setTitle("Zip Disk")
+
+setIcon(<extracells:storage.physical:3>)
+
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.16384kstoragecell.description")
+
+addParent("sf4:age_allthethingsomglol/root")
+
+//Criteria
+criteria = addCriteria("Obtain 16384k Storage Cell", "minecraft:inventory_changed")
+criteria.addItem(<extracells:storage.physical:3>)
+
+setRewardExperience(12)
+
+hideLines()
+alwaysVisible()
+setPos(39,153)

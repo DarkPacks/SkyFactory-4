@@ -1,0 +1,887 @@
+[
+  {
+    "mob": "withercrumbs:wither crumb",
+    "remove": "tombstone:scroll_of_knowledge"
+  },
+  {
+    "mob": "withercrumbs:wither crumb",
+    "remove": "tombstone:scroll_buff"
+  },
+  {
+    "mob": "withercrumbs:wither crumb",
+    "remove": "minecraft:nether_star"
+  },
+  {
+    "mob": "withercrumbs:wither crumb",
+    "remove": "withercrumbs:crumb_star"
+  },
+  {
+    "mob": "withercrumbs:wither crumb",
+    "item": "minecraft:nether_star",
+    "random": 1.0
+  },
+  {
+    "mob": "Skeleton",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Skeleton",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Skeleton",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Zombie",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Zombie",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Zombie",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Spider",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Spider",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Spider",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Witch",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Witch",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Witch",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Enderman",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Enderman",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Enderman",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Zombie_villager",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Zombie_villager",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Zombie_villager",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Husk",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Husk",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Husk",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Zombie_pigman",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Zombie_pigman",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Zombie_pigman",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Ghast",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Ghast",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Ghast",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Blaze",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Blaze",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Blaze",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "minecraft:skull@1",
+    "random": 0.08,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "minecraft:skull@1",
+    "random": 0.10,
+    "itemcount": "0/0-1/0"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "minecraft:skull@1",
+    "random": 0.15,
+    "itemcount": "0/0/1-2"
+  },
+  {
+    "mob": "Creeper",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.20,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Creeper",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.40,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Creeper",
+    "item": "mysticalagriculture:crafting",
+    "gamestage": "mystical_agriculture",
+    "random": 0.60,
+    "itemcount": "0/0/2-3"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@4",
+    "random": 0.001,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@4",
+    "random": 0.006,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@4",
+    "random": 0.009,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@5",
+    "random": 0.001,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@5",
+    "random": 0.006,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@5",
+    "random": 0.009,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_ricochet",
+    "random": 0.001,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_ricochet",
+    "random": 0.006,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "item": "matteroverdrive:weapon_module_ricochet",
+    "random": 0.009,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@4",
+    "random": 0.001,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@4",
+    "random": 0.006,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@4",
+    "random": 0.009,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@5",
+    "random": 0.001,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@5",
+    "random": 0.006,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_barrel@5",
+    "random": 0.009,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_ricochet",
+    "random": 0.001,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_ricochet",
+    "random": 0.006,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "item": "matteroverdrive:weapon_module_ricochet",
+    "random": 0.009,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "remove": "minecraft:stone_sword"
+  },
+  {
+    "mob": "matteroverdrive:rogue_android",
+    "remove": "matteroverdrive:energy_pack"
+  },
+  {
+    "mob": "matteroverdrive:ranged_rogue_android",
+    "remove": "matteroverdrive:energy_pack"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:leather_helmet"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:leather_chestplate"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:leather_leggings"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:leather_boots"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:golden_helmet"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:golden_chestplate"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:golden_leggings"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:golden_boots"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:chainmail_helmet"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:chainmail_chestplate"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:chainmail_leggings"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:chainmail_boots"
+  },
+  {
+    "mob": "Witch",
+    "remove": "minecraft:stick"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:bow"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:leather_helmet"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:leather_chestplate"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:leather_leggings"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:leather_boots"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:golden_helmet"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:golden_chestplate"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:golden_leggings"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:golden_boots"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:chainmail_helmet"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:chainmail_chestplate"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:chainmail_leggings"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:chainmail_boots"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "remove": "minecraft:golden_sword"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "remove": "minecraft:gold_ingot"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "item": "resourcehogs:bacon/{ResourceType: \"gold\"}",
+    "random": 0.08,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "item": "resourcehogs:bacon/{ResourceType: \"gold\"}",
+    "random": 0.12,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "item": "resourcehogs:bacon/{ResourceType: \"gold\"}",
+    "random": 0.16,
+    "itemcount": "0/0/1-3"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "item": "tconstruct:edible",
+    "random": 0.12,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "item": "tconstruct:edible",
+    "random": 0.16,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "item": "tconstruct:edible",
+    "random": 0.20,
+    "itemcount": "0/0/1-4"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "remove": "minecraft:gold_nugget"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "item": "tconstruct:nuggets@4",
+    "random": 0.50,
+    "itemcount": "0-2/0/0"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "item": "tconstruct:nuggets@4",
+    "random": 0.54,
+    "itemcount": "0/1-3/0"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "item": "tconstruct:nuggets@4",
+    "random": 0.58,
+    "itemcount": "0/0/3-5"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:leather_helmet"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:leather_chestplate"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:leather_leggings"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:leather_boots"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:golden_helmet"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:golden_chestplate"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:golden_leggings"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:golden_boots"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:chainmail_helmet"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:chainmail_chestplate"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:chainmail_leggings"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:chainmail_boots"
+  },
+  {
+    "mob": "Husk",
+    "remove": "minecraft:leather_helmet"
+  },
+  {
+    "mob": "Husk",
+    "remove": "minecraft:leather_chestplate"
+  },
+  {
+    "mob": "Husk",
+    "remove": "minecraft:leather_leggings"
+  },
+  {
+    "mob": "Husk",
+    "remove": "minecraft:leather_boots"
+  },
+  {
+    "mob": "Husk",
+    "remove": "minecraft:golden_helmet"
+  },
+  {
+    "mob": "Husk",
+    "remove": "minecraft:golden_chestplate"
+  },
+  {
+    "mob": "Husk",
+    "remove": "minecraft:golden_leggings"
+  },
+  {
+    "mob": "Husk",
+    "remove": "minecraft:golden_boots"
+  },
+  {
+    "mob": "Husk",
+    "remove": "minecraft:chainmail_helmet"
+  },
+  {
+    "mob": "Husk",
+    "remove": "minecraft:chainmail_chestplate"
+  },
+  {
+    "mob": "Husk",
+    "remove": "minecraft:chainmail_leggings"
+  },
+  {
+    "mob": "Husk",
+    "remove": "minecraft:chainmail_boots"
+  },
+  {
+    "mob": "Stray",
+    "remove": "minecraft:bow"
+  },
+  {
+    "mob": "Stray",
+    "remove": "minecraft:leather_helmet"
+  },
+  {
+    "mob": "Stray",
+    "remove": "minecraft:leather_chestplate"
+  },
+  {
+    "mob": "Stray",
+    "remove": "minecraft:leather_leggings"
+  },
+  {
+    "mob": "Stray",
+    "remove": "minecraft:leather_boots"
+  },
+  {
+    "mob": "Stray",
+    "remove": "minecraft:golden_helmet"
+  },
+  {
+    "mob": "Stray",
+    "remove": "minecraft:golden_chestplate"
+  },
+  {
+    "mob": "Stray",
+    "remove": "minecraft:golden_leggings"
+  },
+  {
+    "mob": "Stray",
+    "remove": "minecraft:golden_boots"
+  },
+  {
+    "mob": "Stray",
+    "remove": "minecraft:chainmail_helmet"
+  },
+  {
+    "mob": "Stray",
+    "remove": "minecraft:chainmail_chestplate"
+  },
+  {
+    "mob": "Stray",
+    "remove": "minecraft:chainmail_leggings"
+  },
+  {
+    "mob": "Stray",
+    "remove": "minecraft:chainmail_boots"
+  },
+  {
+    "mob": "headcrumbs:human",
+    "remove": "minecraft:leather_helmet"
+  },
+  {
+    "mob": "headcrumbs:human",
+    "remove": "minecraft:leather_chestplate"
+  },
+  {
+    "mob": "headcrumbs:human",
+    "remove": "minecraft:leather_leggings"
+  },
+  {
+    "mob": "headcrumbs:human",
+    "remove": "minecraft:leather_boots"
+  },
+  {
+    "mob": "headcrumbs:human",
+    "remove": "minecraft:golden_helmet"
+  },
+  {
+    "mob": "headcrumbs:human",
+    "remove": "minecraft:golden_chestplate"
+  },
+  {
+    "mob": "headcrumbs:human",
+    "remove": "minecraft:golden_leggings"
+  },
+  {
+    "mob": "headcrumbs:human",
+    "remove": "minecraft:golden_boots"
+  },
+  {
+    "mob": "headcrumbs:human",
+    "remove": "minecraft:chainmail_helmet"
+  },
+  {
+    "mob": "headcrumbs:human",
+    "remove": "minecraft:chainmail_chestplate"
+  },
+  {
+    "mob": "headcrumbs:human",
+    "remove": "minecraft:chainmail_leggings"
+  },
+  {
+    "mob": "headcrumbs:human",
+    "remove": "minecraft:chainmail_boots"
+  },
+  {
+    "mob": "Blaze",
+    "item": "mekanism:otherdust@3",
+    "random": 0.16,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Blaze",
+    "item": "mekanism:otherdust@3",
+    "random": 0.20,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Blaze",
+    "item": "mekanism:otherdust@3",
+    "random": 0.28,
+    "itemcount": "0-1/0/2-4"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "mekanism:otherdust@3",
+    "random": 0.16,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "mekanism:otherdust@3",
+    "random": 0.20,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Wither_skeleton",
+    "item": "mekanism:otherdust@3",
+    "random": 0.28,
+    "itemcount": "0-1/0/2-4"
+  },
+  {
+    "mob": "Zombie_pigman",
+    "item": "mekanism:otherdust@3",
+    "random": 0.16,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Zombie_pigman",
+    "item": "mekanism:otherdust@3",
+    "random": 0.20,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Zombie_pigman",
+    "item": "mekanism:otherdust@3",
+    "random": 0.28,
+    "itemcount": "0-1/0/2-4"
+  },
+  {
+    "mob": "Ghast",
+    "item": "mekanism:otherdust@3",
+    "random": 0.16,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "Ghast",
+    "item": "mekanism:otherdust@3",
+    "random": 0.20,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "Ghast",
+    "item": "mekanism:otherdust@3",
+    "random": 0.28,
+    "itemcount": "0-1/0/2-4"
+  },
+  {
+    "mob": "minecraft:magma_cube",
+    "item": "mekanism:otherdust@3",
+    "random": 0.8,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "minecraft:magma_cube",
+    "item": "mekanism:otherdust@3",
+    "random": 0.12,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "minecraft:magma_cube",
+    "item": "mekanism:otherdust@3",
+    "random": 0.16,
+    "itemcount": "0-1/0/2-4"
+  },
+  {
+    "mob": "twilightforest:mini_ghast",
+    "item": "mekanism:otherdust@3",
+    "random": 0.16,
+    "itemcount": "0-1/0/0"
+  },
+  {
+    "mob": "twilightforest:mini_ghast",
+    "item": "mekanism:otherdust@3",
+    "random": 0.20,
+    "itemcount": "0/1-2/0"
+  },
+  {
+    "mob": "twilightforest:mini_ghast",
+    "item": "mekanism:otherdust@3",
+    "random": 0.28,
+    "itemcount": "0-1/0/2-4"
+  }
+]

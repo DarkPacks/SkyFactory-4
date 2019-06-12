@@ -1,0 +1,17 @@
+setTitle("Gotta Smelt Fast")
+
+setIcon(<mekanism:machineblock:10>)
+
+setTranslatedDescription("advancement.sf4.age_power.energizedsmelter.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Energized Smelter", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:machineblock:10>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-129,221)

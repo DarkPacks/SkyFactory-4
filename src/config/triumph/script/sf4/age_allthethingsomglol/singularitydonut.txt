@@ -1,0 +1,19 @@
+setTitle("Mmmm Donuts")
+
+setIcon(<extendedcrafting:singularity_custom:3>)
+
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.singularitydonut.description")
+
+addParent("sf4:age_allthethingsomglol/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Donut Singularity", "minecraft:inventory_changed")
+criteria.addItem(<extendedcrafting:singularity_custom:3>)
+
+//Rewards
+setRewardExperience(60)
+
+alwaysVisible()
+setPos(-108,101)

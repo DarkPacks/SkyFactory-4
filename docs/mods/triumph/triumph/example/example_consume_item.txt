@@ -1,0 +1,23 @@
+//Set the icon item
+setIcon(<minecraft:melon>)
+
+//Set the title String
+setTitle("Mmmmmmmmmm, melon")
+
+//Set the description String
+setDescription("Eat delicious melon")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(14, 11)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+//Adds criteria named "consumed" with the trigger type "minecraft:consume_item". This function returns the criteria as an object
+criteria = addCriteria("consumed", "minecraft:consume_item")
+
+//Sets the required item for the criteria. This is the item that needs to be consumed.
+criteria.setItem(<minecraft:melon>)

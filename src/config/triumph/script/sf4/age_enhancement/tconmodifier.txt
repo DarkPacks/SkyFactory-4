@@ -1,0 +1,27 @@
+setTitle("Better With Mods")
+
+setIcon(<tconstruct:pickaxe, meta:2, count:1, durability:2, nbt:{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.07f,FreeModifiers:3,Durability:106,HarvestLevel:4,Attack:4.2f},Unbreakable:1b,Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.07f,FreeModifiers:62,Durability:106,HarvestLevel:4,Attack:4.2f},Special:{Categories:["tool","harvest","aoe"]},TinkerData:{UsedModifiers:5,Materials:["obsidian","obsidian","obsidian"],Modifiers:["toolleveling","reinforced","creative"]},Modifiers:[{identifier:"duritos",color:-10478396,level:1},{identifier:"toolleveling",color:16777215,level:1,xp:3,bonus_modifiers:0},{identifier:"reinforced",color:5254787,level:5},{identifier:"creative",color:0,level:64}],Traits:["duritos","toolleveling","reinforced"]}>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.tconmodifier.description")
+
+addParent("sf4:age_enhancement/root")
+hideLines()
+
+//Criteria
+criteria1 = addCriteria("Apply 1 Modifer", "minecraft:inventory_changed")
+criteria1.addItem(<nbt:{TinkerData:{UsedModifiers:1}}>)
+criteria2 = addCriteria("Apply 2 Modifers", "minecraft:inventory_changed")
+criteria2.addItem(<nbt:{TinkerData:{UsedModifiers:2}}>)
+criteria3 = addCriteria("Apply 3 Modifers", "minecraft:inventory_changed")
+criteria3.addItem(<nbt:{TinkerData:{UsedModifiers:3}}>)
+criteria4 = addCriteria("Apply 4 Modifers", "minecraft:inventory_changed")
+criteria4.addItem(<nbt:{TinkerData:{UsedModifiers:4}}>)
+criteria5 = addCriteria("Apply 5 Modifers", "minecraft:inventory_changed")
+criteria5.addItem(<nbt:{TinkerData:{UsedModifiers:5}}>)
+
+setRequirements("any")
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(-62,108)

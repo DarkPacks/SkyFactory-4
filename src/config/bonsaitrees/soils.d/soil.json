@@ -1,0 +1,16 @@
+{
+  "name": "rustic:fertile_soil",
+  "mod": "rustic",
+  "soil": {
+    "name": "rustic:fertile_soil",
+    "data": 0,
+    "ignoreMeta": false
+  },
+
+  "modifiers": {
+    "growTime": 0.85,
+    "dropChance": 1.25
+  },
+
+  "providedTags": [ "dirt", "grass" ]
+}

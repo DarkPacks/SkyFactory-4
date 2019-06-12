@@ -1,0 +1,17 @@
+setTitle("Accepting Your True Power")
+
+setIcon(<appliedenergistics2:energy_acceptor>)
+
+setTranslatedDescription("advancement.sf4.age_storage.energyacceptor.description")
+
+addParent("sf4:age_storage/logicProcessor")
+
+//Criteria
+criteria = addCriteria("Obtain Energy Acceptor", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:energy_acceptor>)
+
+setRewardExperience(12)
+
+drawDirectLines(true)
+alwaysVisible()
+setPos(-15,124)

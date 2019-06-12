@@ -1,0 +1,25 @@
+{
+  "id": "diamond",
+  "inputs": [
+    "ore:dustDiamond"
+  ],
+  "output": "minecraft:diamond",
+  "diggableBlocks": [
+    "minecraft:stone"
+  ],
+  "renderBlock": "minecraft:diamond_ore",
+  "validDimensions": [
+    -1,
+    0,
+    1,
+    7,
+    111,
+    144,
+    28885
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}
+

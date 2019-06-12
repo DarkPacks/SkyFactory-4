@@ -1,0 +1,18 @@
+setTitle("Starting from the Bottom")
+
+setIcon(<sky_orchards:acorn_dirt>)
+
+setTranslatedDescription("advancement.sf4.age1.acorn.dirt.description")
+
+addParent("sf4:age1/root")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Dirt Acorn", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:acorn_dirt>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-409,281)

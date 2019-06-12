@@ -1,0 +1,17 @@
+setTitle("The End of all Matter")
+
+setIcon(<deepmoblearning:pristine_matter_enderman>)
+
+setTranslatedDescription("advancement.sf4.age_power.pristineendermanmatter.description")
+
+addParent("sf4:age_power/pristineZombieMatter")
+
+//Criteria
+criteria = addCriteria("Obtain Pristine Enderman Matter", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:pristine_matter_enderman>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-129,96)

@@ -1,0 +1,11 @@
+addParent("triumph:vanilla/recipes/root")
+
+addRewardRecipe("minecraft:speckled_melon")
+
+criteria = addCriteria("has_melon", "minecraft:inventory_changed")
+criteria.addItem("minecraft:melon")
+
+criteria = addCriteria("has_the_recipe", "minecraft:recipe_unlocked")
+criteria.setRecipe("speckled_melon")
+
+setRequirements("any")

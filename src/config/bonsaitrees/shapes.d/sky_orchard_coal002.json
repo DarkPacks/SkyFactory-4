@@ -1,0 +1,51 @@
+{
+  "type": "sky_orchard:coal",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_coal",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_coal",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "  a  ",
+      " aaa ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "aaaaa",
+      "aaaa ",
+      "     "
+    ]
+  ]
+}

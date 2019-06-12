@@ -1,0 +1,19 @@
+setTitle("Hardwood")
+
+setIcon(<sky_orchards:sapling_petrified>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.copied.petrifiedsapling.description")
+
+addParent("tutorial:tutorial/petrifiedAcorn")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Petrified Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_petrified>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(99,97)
+hideLines()

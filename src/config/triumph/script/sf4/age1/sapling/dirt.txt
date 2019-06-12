@@ -1,0 +1,18 @@
+setTitle("That's Dir-tree")
+
+setIcon(<sky_orchards:sapling_dirt>)
+
+setTranslatedDescription("advancement.sf4.age1.sapling.dirt.description")
+
+addParent("sf4:age1/root")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Dirt Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_dirt>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(-409,306)

@@ -1,0 +1,21 @@
+setTitle("Forgiving Void")
+
+setIcon(<minecraft:elytra>)
+
+setTranslatedDescription("advancement.hardcore.hardcore.forgivingvoid.description")
+
+addParent("sf4:age_exploration/root")
+addParent("hardcore:hardcore/root")
+setRequiresParents()
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Elytra", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:elytra>)
+
+//Rewards
+setRewardExperience(4)
+setRewardFunction("triumph:forgiving_void_enable")
+
+hiddenUnless("hardcore:hardcore/root")
+setPos(85,126)

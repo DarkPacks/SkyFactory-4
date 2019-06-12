@@ -1,0 +1,28 @@
+setTitle("Where's the Boss?")
+
+setIcon(<minecraft:skull:5>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.dragonkill.description")
+
+addParent("sf4:age_exploration/endcake")
+drawDirectLines(true)
+
+//Criteria
+criteria1 = addCriteria("Enter End Dimension", "minecraft:changed_dimension")
+criteria1.setDimensionDestination("the_end")
+criteria2 = addCriteria("Enter End Biome", "minecraft:location")
+criteria2.setBiome("minecraft:sky")
+criteria3 = addCriteria("Enter Custom End Dimension", "minecraft:changed_dimension")
+criteria3.setDimensionDestination("DIM_1")
+
+addRequirements(["Enter End Dimension", "Enter End Biome"])
+addRequirements(["Enter Custom End Dimension", "Enter End Biome"])
+
+alwaysVisible()
+
+setRewardExperience(16)
+
+//Giving players overworld cakes because I know for sure they won't read and bring one themselves
+setRewardFunction("triumph:give_cake")
+
+setPos(59,109)

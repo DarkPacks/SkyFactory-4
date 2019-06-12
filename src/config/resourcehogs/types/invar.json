@@ -1,0 +1,25 @@
+{
+  "id": "invar",
+  "inputs": [
+    "ore:dustInvar"
+  ],
+  "typeName": "Invar",
+  "output": "thermalfoundation:material:162",
+  "diggableBlocks": [
+    "minecraft:stone"
+  ],
+  "renderBlock": "thermalfoundation:storage_alloy:2",
+  "validDimensions": [
+    -1,
+    0,
+    1,
+    7,
+    111,
+    144,
+    28885
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1600
+}

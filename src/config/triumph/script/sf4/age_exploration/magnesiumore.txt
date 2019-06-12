@@ -1,0 +1,19 @@
+setTitle("Light up Your Night")
+
+setIcon(<nuclearcraft:ore:7>)
+
+setTranslatedDescription("advancement.sf4.age_exploration.magnesiumore.description")
+
+addParent("sf4:age_exploration/root")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Magnesium Ore", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:ore:7>)
+
+setRewardExperience(20)
+
+hideLines()
+alwaysVisible()
+setPos(-163,47)

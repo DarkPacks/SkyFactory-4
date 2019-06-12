@@ -1,0 +1,21 @@
+setTitle("Clay Aiken")
+
+setIcon(<sky_orchards:sapling_clay>)
+
+setTranslatedDescription("advancement.tutorial.tutorial.copied.claysapling.description")
+
+addParent("tutorial:tutorial/root")
+
+drawDirectLines(true)
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain a Clay Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_clay>)
+
+//Rewards
+setRewardExperience(4)
+
+setPos(199,97)
+hideLines()

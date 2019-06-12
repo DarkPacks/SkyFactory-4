@@ -1,0 +1,3 @@
+gamestage silentadd @p pacifist
+gamerule doMobLoot false
+gamerule tfEnforcedProgression false

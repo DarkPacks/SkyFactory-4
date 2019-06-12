@@ -1,0 +1,22 @@
+setTitle("Customized")
+
+setIcon(<minecraft:skull>)
+
+setTranslatedDescription("advancement.customized.customized.root.description")
+
+setBackground("projecte:textures/blocks/dm.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("superflat", "minecraft:location")
+criteria.setWorldType("customized")
+
+//Rewards
+setRewardFunction("triumph:sky_islands_start")
+
+alwaysHidden()

@@ -1,0 +1,25 @@
+{
+  "id": "cobalt",
+  "inputs": [
+    "ore:dustCobalt"
+  ],
+  "typeName": "Cobalt",
+  "output": "tconstruct:nuggets",
+  "diggableBlocks": [
+    "minecraft:soul_sand"
+  ],
+  "renderBlock": "tconstruct:ore",
+  "validDimensions": [
+    -1,
+    0,
+    1,
+    7,
+    111,
+    144,
+    28885
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 10,
+  "digTickDelay": 2000
+}

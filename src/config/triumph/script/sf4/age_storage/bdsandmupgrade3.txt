@@ -1,0 +1,19 @@
+setTitle("Java Overflow")
+
+setIcon(<bdsandm:upgrade:2>)
+
+setTranslatedDescription("advancement.sf4.age_storage.bdsandmupgrade3.description")
+
+addParent("sf4:age_storage/bdsandmUpgrade2")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain x1k Storage Upgrade", "minecraft:inventory_changed")
+criteria.addItem(<bdsandm:upgrade:2>)
+
+//Rewards
+setRewardExperience(10)
+
+alwaysVisible()
+setPos(-206,111)

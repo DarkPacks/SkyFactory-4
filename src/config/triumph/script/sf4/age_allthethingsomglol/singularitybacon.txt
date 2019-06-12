@@ -1,0 +1,19 @@
+setTitle("B-Aiken")
+
+setIcon(<extendedcrafting:singularity_custom:2>)
+
+setTranslatedDescription("advancement.sf4.age_allthethingsomglol.singularitybacon.description")
+
+addParent("sf4:age_allthethingsomglol/root")
+
+hideLines()
+
+//Criteria
+criteria = addCriteria("Obtain Bacon Singularity", "minecraft:inventory_changed")
+criteria.addItem(<extendedcrafting:singularity_custom:2>)
+
+//Rewards
+setRewardExperience(60)
+
+alwaysVisible()
+setPos(-79,126)

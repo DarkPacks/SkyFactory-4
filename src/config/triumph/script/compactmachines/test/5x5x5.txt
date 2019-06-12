@@ -1,0 +1,24 @@
+setTitle("5x5x5")
+
+setIcon(<compactmachines3:machine:1>)
+
+setTranslatedDescription("advancement.compactmachines.test.5x5x5.description")
+
+addParent("compactmachines:test/3x3x3")
+
+visibleIf("compact_machines")
+alwaysHidden()
+
+drawDirectLines(true)
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("Obtain Porcelain Melter", "minecraft:inventory_changed")
+criteria.addItem(<tcomplement:porcelain_melter>)
+criteria1 = addCriteria("Obtain Melter", "minecraft:inventory_changed")
+criteria1.addItem(<tcomplement:melter>)
+
+//Rewards
+setRewardExperience(4)
+setRewardItem(<compactmachines3:machine:1>)
+setPos(62,22)

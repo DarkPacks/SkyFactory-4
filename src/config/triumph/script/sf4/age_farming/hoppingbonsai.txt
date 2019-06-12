@@ -1,0 +1,20 @@
+setTitle("Cowabonsai!")
+
+setIcon(<bonsaitrees:bonsaipot:1>)
+
+setTranslatedDescription("advancement.sf4.age_farming.hoppingbonsai.description")
+
+addParent("sf4:age_farming/bonsai")
+
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("Obtain Bonsai Pot", "minecraft:inventory_changed")
+criteria.addItem(<bonsaitrees:bonsaipot:1>)
+
+hiddenUnless("bonsai_trees")
+
+setRewardExperience(8)
+
+alwaysVisible()
+setPos(-16,231)

@@ -1,0 +1,35 @@
+setSpawnStructure("dirt_tree")
+
+layers = new LayerGenerator()
+layers.addLayer(1~55, <thermalfoundation:fluid_cryotheum>)
+layers.addLayer(0~0, <minecraft:bedrock>)
+addGenerator(layers)
+
+sky = setSkyRenderer()
+//top, bottom, north, south, east, west
+
+night = sky.addSkybox("test:textures/skybox/night.png")
+day = sky.addSkybox("test:textures/skybox/day.png")
+
+//Celestial angle range, opacity range
+//Sunset
+day.addAlpha(0.19904304~0.29625022, 1~0)
+//Night
+day.addAlpha(0.29625022~0.719889, 0~0)
+//Sunrise
+day.addAlpha(0.719889~0.8037514, 0~1)
+
+//Lazy method for adding a sun and moon since I don't want to make the effort for proper custom ones yet.
+sky.addSunMoon()
+
+//Fog
+//Day
+addFogColor(#2F80C1)
+//Sunset
+addFogColor(#22053c, 0.19904304~0.29625022, 0~1)
+//Night
+addFogColor(#22053c, 0.29625022~0.719889, 1~1)
+//Sunrise
+addFogColor(#22053c, 0.719889~0.8037514, 1~0)
+
+captureTeleports()

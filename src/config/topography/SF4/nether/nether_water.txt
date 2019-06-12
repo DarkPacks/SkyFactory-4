@@ -1,0 +1,55 @@
+setFogColor(#4BA5DC)
+setCelestialAngle(0.5)
+disableSky()
+disableClouds()
+generateNetherFortress()
+disableSkylight()
+setLightBrightnessTable([0.155, 0.210, 0.265, 0.32, 0.375, 0.43, 0.485, 0.54, 0.595, 0.65, 0.705, 0.76, 0.815, 0.87, 0.925, 1.0])
+
+setSingleBiome("minecraft:hell")
+
+layers = new LayerGenerator()
+layers.addLayer(1~70, <minecraft:water>)
+addGenerator(layers)
+
+tendrils = new CellNoiseGenerator(<minecraft:packed_ice>)
+tendrils.openTop()
+addGenerator(tendrils)
+
+layers = new LayerGenerator()
+layers.addLayer(0~0, <minecraft:bedrock>)
+addGenerator(layers)
+
+spheres = new DeformedSphereGenerator(<minecraft:snow>, 10, 32, 32, 8)
+spheres.addRequiredBlock(<minecraft:packed_ice>)
+addGenerator(spheres)
+
+fire = new ScatteredBlockGenerator(<cyclicmagic:fire_frost>, 5, 64)
+fire.addRequiredBlock(<minecraft:packed_ice>)
+addGenerator(fire)
+
+water = new FluidPocketGenerator(<thermalfoundation:fluid_cryotheum>, 16, false)
+water.addRequiredBlock(<minecraft:packed_ice>)
+addGenerator(water)
+
+glowstone = new HangingCrystalGenerator(<minecraft:sea_lantern>, 20, 1500)
+glowstone.addRequiredBlock(<minecraft:packed_ice>)
+addGenerator(glowstone)
+
+quartz = new DeformedSphereGenerator(<contenttweaker:sub_block_holder_0:1>, 2, 3, 32, 8)
+quartz.setDeformScale(4)
+quartz.addRequiredBlock(<minecraft:packed_ice>)
+addGenerator(quartz)
+
+ardite = new DeformedSphereGenerator(<contenttweaker:sub_block_holder_0:2>, 3, 2, 64, 10)
+ardite.setDeformScale(4)
+ardite.addRequiredBlock(<minecraft:packed_ice>)
+addGenerator(ardite)
+
+cobalt = new DeformedSphereGenerator(<contenttweaker:sub_block_holder_0>, 2, 3, 52, 10)
+cobalt.setDeformScale(4)
+cobalt.addRequiredBlock(<minecraft:packed_ice>)
+addGenerator(cobalt)
+
+disableRespawning()
+captureTeleports()

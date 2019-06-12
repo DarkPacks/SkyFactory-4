@@ -1,0 +1,20 @@
+setTitle("Getting Warmer")
+
+setIcon(<tcomplement:porcelain_melter:8>)
+
+setTranslatedDescription("advancement.sf4.age_enhancement.heater.description")
+
+addParent("sf4:age_enhancement/root")
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("Obtain Porcelain Heater", "minecraft:inventory_changed")
+criteria.addItem(<tcomplement:porcelain_melter:8>)
+criteria1 = addCriteria("Obtain Seared Heater", "minecraft:inventory_changed")
+criteria1.addItem(<tcomplement:melter:8>)
+
+setRewardExperience(12)
+
+hideLines()
+alwaysVisible()
+setPos(57,96)

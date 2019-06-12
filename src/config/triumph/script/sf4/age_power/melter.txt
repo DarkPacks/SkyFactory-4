@@ -1,0 +1,17 @@
+setTitle("Warm and Gooey")
+
+setIcon(<nuclearcraft:melter_idle>)
+
+setTranslatedDescription("advancement.sf4.age_power.melter.description")
+
+addParent("sf4:age_power/root")
+
+//Criteria
+criteria = addCriteria("Obtain Melter", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:melter_idle>)
+
+setRewardExperience(10)
+
+hideLines()
+alwaysVisible()
+setPos(-75,246)

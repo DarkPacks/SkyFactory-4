@@ -1,0 +1,20 @@
+setTitle("Clay Aiken")
+
+setIcon(<sky_orchards:sapling_clay>)
+
+setTranslatedDescription("advancement.sf4.age1.sapling.clay.description")
+
+addParent("sf4:age1/sapling/petrified")
+addParent("sf4:age1/dirt")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain a Clay Sapling", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:sapling_clay>)
+
+//Rewards
+setRewardExperience(4)
+
+
+setPos(-359,281)

@@ -1,0 +1,57 @@
+setFogColor(#330707)
+setCelestialAngle(0.5)
+disableSky()
+disableClouds()
+generateNetherFortress()
+disableSkylight()
+setLightBrightnessTable([0.155, 0.210, 0.265, 0.32, 0.375, 0.43, 0.485, 0.54, 0.595, 0.65, 0.705, 0.76, 0.815, 0.87, 0.925, 1.0])
+
+setSingleBiome("minecraft:hell")
+
+layers = new LayerGenerator()
+layers.addLayer(1~70, <minecraft:lava>)
+addGenerator(layers)
+
+tendrils = new CellNoiseGenerator(<minecraft:netherrack>)
+tendrils.openTop()
+addGenerator(tendrils)
+
+layers = new LayerGenerator()
+layers.addLayer(0~0, <minecraft:bedrock>)
+addGenerator(layers)
+
+spheres = new DeformedSphereGenerator(<minecraft:soul_sand>, 10, 32, 32, 8)
+spheres.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(spheres)
+
+fire = new ScatteredBlockGenerator(<minecraft:fire>, 5, 64)
+fire.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(fire)
+
+lava = new FluidPocketGenerator(<minecraft:flowing_lava>, 16, false)
+lava.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(lava)
+
+glowstone = new HangingCrystalGenerator(<minecraft:glowstone>, 20, 1500)
+glowstone.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(glowstone)
+
+quartz = new DeformedSphereGenerator(<minecraft:quartz_ore>, 2, 3, 32, 8)
+quartz.setDeformScale(4)
+quartz.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(quartz)
+
+
+ardite = new DeformedSphereGenerator(<tconstruct:ore:1>, 3, 2, 64, 10)
+ardite.setDeformScale(4)
+ardite.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(ardite)
+
+cobalt = new DeformedSphereGenerator(<tconstruct:ore>, 2, 3, 52, 10)
+cobalt.setDeformScale(4)
+cobalt.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(cobalt)
+
+enableRelightChecks()
+disableRespawning()
+captureTeleports()

@@ -1,0 +1,25 @@
+{
+  "id": "thorium",
+  "inputs": [
+    "nuclearcraft:dust:3"
+  ],
+  "typeName": "Thorium",
+  "output": "nuclearcraft:dust:3",
+  "diggableBlocks": [
+    "minecraft:stone"
+  ],
+  "renderBlock": "nuclearcraft:ingot_block:3",
+  "validDimensions": [
+    -1,
+    0,
+    1,
+    7,
+    111,
+    144,
+    28885
+  ],
+  "maxHealth": 15.0,
+  "movementSpeed": 0.25,
+  "armorAmount": 6,
+  "digTickDelay": 1200
+}
