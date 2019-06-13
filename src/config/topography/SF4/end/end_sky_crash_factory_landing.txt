@@ -1,0 +1,36 @@
+setFogColor(#000000)
+generateEndCity(1, 14, 4)
+
+setSingleBiome("minecraft:sky")
+
+
+//setSpawnStructure("endchuck")
+
+
+layers = new LayerGenerator()
+layers.addLayer(1~32, <thermalfoundation:fluid_cryotheum>)
+addGenerator(layers)
+
+layers = new LayerGenerator()
+layers.addLayer(0~0, <minecraft:bedrock>)
+addGenerator(layers)
+
+spheres = new DeformedSphereGenerator(<minecraft:end_stone>, 10, 32, 32, 8)
+spheres.addRequiredBlock(<thermalfoundation:fluid_cryotheum>)
+addGenerator(spheres)
+
+crater = new VanillaLakeGenerator(<minecraft:end_stone>) 
+crater.setHeight(0, 36) 
+crater.setSpawnChance(2)
+addGenerator(crater)
+
+
+chorus = new ScatteredBlockGenerator(<minecraft:chorus_flower>, 16, 6)
+chorus.addRequiredBlock(<minecraft:end_stone>)
+addGenerator(chorus)
+
+
+
+
+captureTeleports()
+disableRespawning()

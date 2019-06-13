@@ -1,0 +1,34 @@
+setFogColor(#330707)
+setCelestialAngle(0.5)
+disableSky()
+disableClouds()
+generateNetherFortress(1, 32, 6)
+disableSkylight()
+setLightBrightnessTable([0.1, 0.11578947, 0.13333333, 0.15294117, 0.175, 0.20000002, 0.22857141, 0.26153848, 0.3, 0.34545457, 0.4, 0.46666667, 0.5500001, 0.6571429, 0.79999995, 1.0])
+
+setSingleBiome("minecraft:hell")
+
+layers = new LayerGenerator()
+layers.addLayer(1~42, <minecraft:sand:1>)
+addGenerator(layers)
+
+layers = new LayerGenerator()
+layers.addLayer(0~0, <minecraft:bedrock>)
+addGenerator(layers)
+
+spheres = new DeformedSphereGenerator(<minecraft:lava>, 10, 32, 32, 8)
+spheres.addRequiredBlock(<minecraft:sand:1>)
+addGenerator(spheres)
+
+crater = new VanillaLakeGenerator(<minecraft:lava>) 
+crater.setHeight(36, 43) 
+crater.setSpawnChance(3)
+addGenerator(crater)
+
+fire = new ScatteredBlockGenerator(<minecraft:deadbush>, 5, 64)
+fire.addRequiredBlock(<minecraft:sand:1>)
+addGenerator(fire)
+
+enableRelightChecks()
+disableRespawning()
+captureTeleports()
