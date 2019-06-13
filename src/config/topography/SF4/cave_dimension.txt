@@ -1,0 +1,96 @@
+
+generateMineshaft()
+
+
+//setSpawnStructure("dirt_tree")
+
+layers = new LayerGenerator()
+layers.addLayer(2~253, <minecraft:stone>)
+addGenerator(layers)
+
+tendrils = new CellNoiseGenerator(<minecraft:air>)
+tendrils.closeTop()
+addGenerator(tendrils)
+
+
+craterSmall = new DeformedSphereGenerator(<minecraft:air>, 3, 6, 64, 10)
+craterSmall.setDeformScale(4)
+craterSmall.addRequiredBlock(<minecraft:stone>)
+addGenerator(craterSmall)
+
+craterLow = new VanillaLakeGenerator(<minecraft:air>) 
+craterLow.setHeight(1, 25) 
+craterLow.setSpawnChance(1)
+addGenerator(craterLow)
+
+spheres = new DeformedSphereGenerator(<minecraft:air>, 10, 32, 32, 8)
+spheres.addRequiredBlock(<minecraft:stone>)
+addGenerator(spheres)
+
+spheres2 = new DeformedSphereGenerator(<minecraft:air>, 12, 38, 28, 8)
+spheres2.addRequiredBlock(<minecraft:stone>)
+addGenerator(spheres2)
+
+lava = new FluidPocketGenerator(<minecraft:lava>, 20, true)
+lava.addRequiredBlock(<minecraft:stone>)
+addGenerator(lava)
+
+lavalake = new VanillaLakeGenerator(<minecraft:lava>) 
+lavalake.setHeight(36, 43) 
+lavalake.setSpawnChance(3)
+addGenerator(lavalake)
+
+ardite = new DeformedSphereGenerator(<minecraft:air>, 3, 2, 64, 10)
+ardite.setDeformScale(4)
+ardite.addRequiredBlock(<minecraft:stone>)
+addGenerator(ardite)
+
+cobalt = new DeformedSphereGenerator(<minecraft:air>, 2, 3, 52, 10)
+cobalt.setDeformScale(4)
+cobalt.addRequiredBlock(<minecraft:stone>)
+addGenerator(cobalt)
+
+
+waterlake = new VanillaLakeGenerator(<minecraft:water>) 
+waterlake.setHeight(3, 18) 
+waterlake.setSpawnChance(1)
+addGenerator(waterlake)
+
+
+
+
+
+
+
+
+
+ravine = new VanillaRavineGenerator()
+addGenerator(ravine)
+
+bedrock = new LayerGenerator()
+bedrock.addLayer(0~2, <minecraft:bedrock>)
+bedrock.addLayer(3~16, <minecraft:stone>)
+bedrock.addLayer(254~255, <minecraft:bedrock>)
+addGenerator(bedrock)
+
+
+
+cavedecoration = new VanillaCaveGenerator()
+addGenerator(cavedecoration)
+
+
+
+
+
+
+
+
+
+
+
+setCelestialAngle(0.5)
+disableSky()
+disableSkylight()
+setFogColor(#000000)
+
+captureTeleports()
