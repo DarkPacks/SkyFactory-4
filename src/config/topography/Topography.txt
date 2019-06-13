@@ -62,11 +62,12 @@ SF4.lockDifficulty()
 SF4.addInitialPlayerFunction("triumph:start_standard")
 SF4.disableNetherPortal()
 
-SF4 = registerPreset("Project trEe", "images/ProjectEmk2", "COMING SOON: Start with a Project E Transmutation Table. Unlock this world via prestige")
+SF4 = registerPreset("Project trEe", "images/ProjectEmk2", "Start with a Project E Transmutation Table. Unlock this world via prestige")
 SF4.registerDimension(0, "SF4/project_e")
 SF4.registerDimension(-1, "SF4/nether/nether_cell")
 SF4.lock()
 SF4.addInitialPlayerFunction("triumph:start_standard")
+SF4.addInitialPlayerFunction("triumph:project_e")
 SF4.disableNetherPortal()
 
 SF4 = registerPreset("Sky FacTree", "images/SkyFactreemk2", "Start on a very large Dirt Tree. Structure by: JCGriff")

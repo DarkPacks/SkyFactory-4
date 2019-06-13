@@ -178,7 +178,7 @@ function init() {
 	// ==================================
     // Topography Rewards
 	// ==================================
-    //prestige.addTopographyReward("projecte_world", "Project trEe");
+    prestige.addTopographyReward("projecte_world", "Project trEe");
 
 	// ==================================
     // Prestige Enabled/Disabled for World (Controlled by button on world creation)
