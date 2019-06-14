@@ -1,8 +1,5 @@
-
+setSpawnStructure("dungeon")
 generateMineshaft()
-
-
-//setSpawnStructure("dirt_tree")
 
 layers = new LayerGenerator()
 layers.addLayer(2~253, <minecraft:stone>)
@@ -10,59 +7,57 @@ addGenerator(layers)
 
 tendrils = new CellNoiseGenerator(<minecraft:air>)
 tendrils.closeTop()
+tendrils.setCellFrequency(0.01)
+tendrils.setCutoff(-0.2)
 addGenerator(tendrils)
 
+dirt = new DeformedSphereGenerator(<minecraft:dirt>, 3, 6, 64, 0)
+dirt.setDeformScale(4)
+dirt.addRequiredBlock(<minecraft:stone>)
+addGenerator(dirt)
 
-craterSmall = new DeformedSphereGenerator(<minecraft:air>, 3, 6, 64, 10)
-craterSmall.setDeformScale(4)
-craterSmall.addRequiredBlock(<minecraft:stone>)
-addGenerator(craterSmall)
+gravel = new DeformedSphereGenerator(<minecraft:gravel>, 4, 4, 48, 0)
+gravel.setDeformScale(4)
+gravel.addRequiredBlock(<minecraft:stone>)
+addGenerator(gravel)
 
-craterLow = new VanillaLakeGenerator(<minecraft:air>) 
-craterLow.setHeight(1, 25) 
-craterLow.setSpawnChance(1)
-addGenerator(craterLow)
-
-spheres = new DeformedSphereGenerator(<minecraft:air>, 10, 32, 32, 8)
+spheres = new DeformedSphereGenerator(<minecraft:stone:1>, 10, 32, 32, 0)
 spheres.addRequiredBlock(<minecraft:stone>)
 addGenerator(spheres)
 
-spheres2 = new DeformedSphereGenerator(<minecraft:air>, 12, 38, 28, 8)
+spheres2 = new DeformedSphereGenerator(<minecraft:stone:3>, 12, 38, 28, 0)
 spheres2.addRequiredBlock(<minecraft:stone>)
 addGenerator(spheres2)
 
-lava = new FluidPocketGenerator(<minecraft:lava>, 20, true)
-lava.addRequiredBlock(<minecraft:stone>)
-addGenerator(lava)
+spheres3 = new DeformedSphereGenerator(<minecraft:stone:5>, 14, 34, 24, 0)
+spheres3.addRequiredBlock(<minecraft:stone>)
+addGenerator(spheres3)
+
+mushrooms = new ScatteredBlockGenerator(<minecraft:brown_mushroom>, 28, 4)
+mushrooms.addRequiredBlock(<minecraft:stone>)
+addGenerator(mushrooms)
+
+mushrooms2 = new ScatteredBlockGenerator(<minecraft:red_mushroom>, 28, 4)
+mushrooms2.addRequiredBlock(<minecraft:stone>)
+addGenerator(mushrooms2)
+
+mushrooms3 = new ScatteredBlockGenerator(<rustic:mooncap_mushroom>, 28, 2)
+mushrooms3.addRequiredBlock(<minecraft:stone>)
+addGenerator(mushrooms3)
+
+//lava = new FluidPocketGenerator(<minecraft:lava>, 20, true)
+//lava.addRequiredBlock(<minecraft:stone>)
+//addGenerator(lava)
 
 lavalake = new VanillaLakeGenerator(<minecraft:lava>) 
 lavalake.setHeight(36, 43) 
 lavalake.setSpawnChance(3)
 addGenerator(lavalake)
 
-ardite = new DeformedSphereGenerator(<minecraft:air>, 3, 2, 64, 10)
-ardite.setDeformScale(4)
-ardite.addRequiredBlock(<minecraft:stone>)
-addGenerator(ardite)
-
-cobalt = new DeformedSphereGenerator(<minecraft:air>, 2, 3, 52, 10)
-cobalt.setDeformScale(4)
-cobalt.addRequiredBlock(<minecraft:stone>)
-addGenerator(cobalt)
-
-
 waterlake = new VanillaLakeGenerator(<minecraft:water>) 
 waterlake.setHeight(3, 18) 
 waterlake.setSpawnChance(1)
 addGenerator(waterlake)
-
-
-
-
-
-
-
-
 
 ravine = new VanillaRavineGenerator()
 addGenerator(ravine)
@@ -70,23 +65,15 @@ addGenerator(ravine)
 bedrock = new LayerGenerator()
 bedrock.addLayer(0~2, <minecraft:bedrock>)
 bedrock.addLayer(3~16, <minecraft:stone>)
+bedrock.addLayer(220~253, <minecraft:stone>)
 bedrock.addLayer(254~255, <minecraft:bedrock>)
 addGenerator(bedrock)
-
-
 
 cavedecoration = new VanillaCaveGenerator()
 addGenerator(cavedecoration)
 
-
-
-
-
-
-
-
-
-
+vine = new VineGenerator()
+addGenerator(vine)
 
 setCelestialAngle(0.5)
 disableSky()

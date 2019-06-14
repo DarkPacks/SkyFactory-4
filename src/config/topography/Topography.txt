@@ -7,7 +7,7 @@ SF4.registerDimension(-1, "SF4/nether/nether_cell")
 SF4.addInitialPlayerFunction("triumph:start_standard")
 SF4.disableNetherPortal()
 
-SF4 = registerPreset("Cave Dimension", "images/SF4mk2", "Testing")
+SF4 = registerPreset("Cave Dimension", "images/CaveDimension", "Testing")
 SF4.registerDimension(0, "SF4/cave_dimension")
 SF4.registerDimension(-1, "SF4/nether/nether_cell")
 SF4.addInitialPlayerFunction("triumph:start_standard")

@@ -29,6 +29,12 @@ fire = new ScatteredBlockGenerator(<minecraft:deadbush>, 5, 64)
 fire.addRequiredBlock(<minecraft:sand:1>)
 addGenerator(fire)
 
+
+
+dune = new DuneTestGenerator(<minecraft:sand:1>)
+addGenerator(dune)
+
+
 enableRelightChecks()
 disableRespawning()
 captureTeleports()
