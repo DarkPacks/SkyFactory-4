@@ -203,6 +203,10 @@ function init() {
 
 	tinkers.addCastingBasin(<minecraft:glowstone>, null, <liquid:glowstone>, 1000, true, 160);
 
+	//Casting liquid redstone into dust and blocks
+	tinkers.addCastingTable(<minecraft:redstone:0>, <tconstruct:cast_custom:2>, <liquid:redstone>, 100, false);
+	tinkers.addCastingBasin(<minecraft:redstone_block:0>, null, <liquid:redstone>, 900);
+
 	// ==================================
 	// Thermal Dynamics Pipe Upgrades
 	var thermalDuct32 as IItemStack = <thermaldynamics:duct_32>;

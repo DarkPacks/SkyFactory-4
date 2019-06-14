@@ -63,6 +63,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.tinyProgressions.init();
 	scripts.crafttweaker.recipes.mods.torchmaster.init();
 	scripts.crafttweaker.recipes.mods.twilightForest.init();
+	scripts.crafttweaker.recipes.mods.valkyrieLib.init();
 	scripts.crafttweaker.recipes.mods.xlfoods.init();
 }
 
