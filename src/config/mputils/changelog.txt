@@ -1,7 +1,9 @@
 Please report bugs to the issue tracker!!
 
 ---------------------------------------------------------------------
+
 4.1.0
+
 Bug Fixes:
 * Blacklisted Handy Chests from Carry On since inventory would delete when picked up (#976)
 * Translocators now use Extended Crafting Diamond Nuggets (#1077)
@@ -21,6 +23,7 @@ Enhancements:
 
 
 ---------------------------------------------------------------------
+
 4.0.8
 
 Bug Fixes:
@@ -29,6 +32,7 @@ Bug Fixes:
 
 
 ---------------------------------------------------------------------
+
 4.0.7
 
 Bug Fixes:
@@ -44,6 +48,7 @@ Mod Updates:
 
 
 ---------------------------------------------------------------------
+
 4.0.6
 
 Bug Fixes:
