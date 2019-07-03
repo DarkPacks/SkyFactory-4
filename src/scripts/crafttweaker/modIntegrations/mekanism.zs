@@ -79,10 +79,20 @@ function init() {
 	// ==================================
 	// Combiner
 	// ==================================
-	mekanism.addCombiner(<thermaldynamics:duct_32>, <minecraft:glowstone_dust>, <thermaldynamics:duct_32:2>);
-	mekanism.addCombiner(<thermaldynamics:duct_64:3> * 2, <thermalfoundation:material:1026>, <thermaldynamics:duct_64> * 2);
+    // Fluxducts
 	mekanism.addCombiner(<thermaldynamics:duct_0:6>, <minecraft:redstone> * 2, <thermaldynamics:duct_0:2>);
+	mekanism.addCombiner(<thermaldynamics:duct_0:7>, <minecraft:redstone> * 2, <thermaldynamics:duct_0:3>);
+	mekanism.addCombiner(<thermaldynamics:duct_0:8>, <minecraft:redstone> * 2, <thermaldynamics:duct_0:4>);
+	mekanism.addCombiner(<thermaldynamics:duct_0:9>, <thermalfoundation:material:1025> * 2, <thermaldynamics:duct_0:5>);
+
+	// Impulse itemduct
+	mekanism.addCombiner(<thermaldynamics:duct_32>, <minecraft:glowstone_dust>, <thermaldynamics:duct_32:2>);
 	mekanism.addCombiner(<thermaldynamics:duct_32:1>, <minecraft:glowstone_dust>, <thermaldynamics:duct_32:3>);
+
+    // Viaduct
+	mekanism.addCombiner(<thermaldynamics:duct_64:3> * 2, <thermalfoundation:material:1026>, <thermaldynamics:duct_64> * 2);
+	mekanism.addCombiner(<thermaldynamics:duct_64>, <minecraft:ender_pearl> * 4, <thermaldynamics:duct_64:2>);
+	
 	mekanism.addCombiner(<cyclicmagic:horse_upgrade_speed>, <nuclearcraft:dust:6>, <matteroverdrive:android_pill>);
 	mekanism.addCombiner(<cyclicmagic:horse_upgrade_variant>, <nuclearcraft:dust:6>, <matteroverdrive:android_pill:1>);
 	mekanism.addCombiner(<minecraft:golden_apple:1>, <nuclearcraft:dust:6>, <matteroverdrive:android_pill:2>);

@@ -40,6 +40,21 @@ function init() {
 
 	// Mimmic existing salt recipe for a salt block (4 salt / block)
 	nuclearCraft.addMelter(<mekanism:saltblock>, <liquid:brine> * (15 * 4));
+
+	// Fluxducts
+	nuclearCraft.addInfuser(<thermaldynamics:duct_0:6>, <liquid:redstone> * 200, <thermaldynamics:duct_0:2>);
+	nuclearCraft.addInfuser(<thermaldynamics:duct_0:7>, <liquid:redstone> * 200, <thermaldynamics:duct_0:3>);
+	nuclearCraft.addInfuser(<thermaldynamics:duct_0:8>, <liquid:redstone> * 200, <thermaldynamics:duct_0:4>);
+	nuclearCraft.addInfuser(<thermaldynamics:duct_0:9>, <liquid:cryotheum> * 500, <thermaldynamics:duct_0:5>);
+
+	// Impulse itemduct
+	nuclearCraft.addInfuser(<thermaldynamics:duct_32>, <liquid:glowstone> * 250, <thermaldynamics:duct_32:2>);
+	nuclearCraft.addInfuser(<thermaldynamics:duct_32:1>, <liquid:glowstone> * 250, <thermaldynamics:duct_32:3>);
+
+	// Viaduct
+	nuclearCraft.addInfuser(<thermaldynamics:duct_64:3>, <liquid:aerotheum> * 125, <thermaldynamics:duct_64>);
+	nuclearCraft.addInfuser(<thermaldynamics:duct_64>, <liquid:ender> * 1000, <thermaldynamics:duct_64:2>);
+
 }
 
 //Cookie Processing
