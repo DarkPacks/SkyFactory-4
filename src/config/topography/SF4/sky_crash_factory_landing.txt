@@ -21,11 +21,8 @@ crater.setHeight(74, 75)
 crater.setSpawnChance(4)
 addGenerator(crater)
 
-
-
 dune = new DuneTestGenerator(<contenttweaker:dust>)
 addGenerator(dune)
-
 
 sky = setSkyRenderer()
 //top, bottom, north, south, east, west
