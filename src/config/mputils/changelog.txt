@@ -16,7 +16,7 @@ Enhancements:
 * Added the ability to cast Redstone Dust and Blocks from Liquid Destabilized Redstone (#1019)
 * Added a recipe for the Digital Guide from Valkyrie Lib (#1064)
 * Tweaked and finished the two new world types (Cave Dimension and SkyCrashFactoryLanding)
-
+* Added a set of new prestige rewards that grant players constant potion effects
 
 
 

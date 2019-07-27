@@ -244,3 +244,24 @@ mods.prestige.Rewards.registerRewardCondition("mystcraft", function(world as IWo
 mods.prestige.Rewards.registerRewardCondition("twilightforest", function(world as IWorld, player as IPlayer){
     return mods.topography.Info.getPreset() != "Bedrock Your World";
 });
+
+//mods.prestige.Rewards.registerTickingReward("resist", function(world as IWorld, player as IPlayer){
+//player.sendChat("I am updating!");
+//});
+
+//Prestige can now unlock permanent potion effects. I probably did this
+//100% correctly and no changes need to be made to the scripting
+//I am literally the greatest programmer. You are welcome 
+//and you will probably live a much longer life having seen this coding
+//Tier 1 effects (1 prestige points)
+mods.prestige.Rewards.registerPotionReward("night_vision", <potion:minecraft:night_vision>.makePotionEffect(1000000, 0, false, false));
+mods.prestige.Rewards.registerPotionReward("fire_resistance", <potion:minecraft:fire_resistance>.makePotionEffect(1000000, 0, false, false));
+mods.prestige.Rewards.registerPotionReward("water_breathing", <potion:minecraft:water_breathing>.makePotionEffect(1000000, 0, false, false));
+//Tier 2 effects (2 prestige points)
+mods.prestige.Rewards.registerPotionReward("regeneration_two", <potion:minecraft:regeneration>.makePotionEffect(1000000, 1, false, false));
+mods.prestige.Rewards.registerPotionReward("resistance_two", <potion:minecraft:resistance>.makePotionEffect(1000000, 1, false, false));
+mods.prestige.Rewards.registerPotionReward("strength_two", <potion:minecraft:strength>.makePotionEffect(1000000, 1, false, false));
+mods.prestige.Rewards.registerPotionReward("haste_two", <potion:minecraft:haste>.makePotionEffect(1000000, 1, false, false));
+mods.prestige.Rewards.registerPotionReward("saturation", <potion:minecraft:saturation>.makePotionEffect(1000000, 0, false, false));
+//Tier 3 (3 prestige points)
+mods.prestige.Rewards.registerPotionReward("health_boost", <potion:minecraft:health_boost>.makePotionEffect(1000000, 4, false, false));

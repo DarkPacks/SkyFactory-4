@@ -15,7 +15,6 @@ addGenerator(layers)
 tendrils = new CellNoiseGenerator(<minecraft:air>)
 tendrils.closeTop()
 tendrils.setCellFrequency(0.01)
-tendrils.setCutoff(-0.2)
 addGenerator(tendrils)
 
 spheres = new DeformedSphereGenerator(<minecraft:soul_sand>, 10, 32, 32, 8)
@@ -50,7 +49,7 @@ cobalt.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(cobalt)
 
 layers = new LayerGenerator()
-layers.addLayer(1~5, <minecraft:lava>)
+layers.addLayer(1~6, <minecraft:lava>, <minecraft:air>)
 addGenerator(layers)
 
 layers = new LayerGenerator()
