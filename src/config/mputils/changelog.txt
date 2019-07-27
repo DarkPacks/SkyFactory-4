@@ -12,6 +12,7 @@ Bug Fixes:
 * Fixed Bedrock Your World world type to include a nether roof and use the proper end structure (#1099)
 * Updated CarryOn to 1.12.2 to stop a crash (#1151)
 * Added a Rustic Bee trade to the Market (#1117)
+* Disabled Cyclic Milk to fix broken item textures (#1105)
 
 Enhancements:
 * Added the ability to cast Redstone Dust and Blocks from Liquid Destabilized Redstone (#1019)
