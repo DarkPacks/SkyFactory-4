@@ -10,7 +10,7 @@ Bug Fixes:
 * The new More Cauldrons update should hopefully take care of any cauldrons in the world keeping chunks loaded (#887)
 * Removed Emeralds from the Parabox crafting list (#1102)
 * Fixed Bedrock Your World world type to include a nether roof and use the proper end structure (#1099)
-
+* Updated CarryOn to 1.12.2 to stop a crash (#1151)
 
 
 Enhancements:
@@ -22,8 +22,11 @@ Enhancements:
 
 
 Mod Updates:
+* CarryOn (1.12.2)
 * Inspirations (0.2.6)
 * Mantle (1.3.3.55)
+* Mekanism (9.8.0.381)
+* Mekanism Generators (9.8.0.381)
 * More Cauldrons (1.4.5)
 * Prestige (1.1.0)
 * Real Filing Cabinet (0.2.0.15)
@@ -31,9 +34,6 @@ Mod Updates:
 * Tinkers' Complement (0.4.2)
 * Tinkers' Construct (2.12.0.157)
 * Topography (1.7.0)
-
-* Mekanism ()
-* Mekanism Generators ()
 
 
 ---------------------------------------------------------------------
