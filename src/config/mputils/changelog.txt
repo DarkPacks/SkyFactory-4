@@ -11,7 +11,7 @@ Bug Fixes:
 * Removed Emeralds from the Parabox crafting list (#1102)
 * Fixed Bedrock Your World world type to include a nether roof and use the proper end structure (#1099)
 * Updated CarryOn to 1.12.2 to stop a crash (#1151)
-
+* Added a Rustic Bee trade to the Market (#1117)
 
 Enhancements:
 * Added the ability to cast Redstone Dust and Blocks from Liquid Destabilized Redstone (#1019)

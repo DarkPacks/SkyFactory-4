@@ -77,6 +77,7 @@
     "rustic:sapling": "8*minecraft:beetroot",
     "rustic:sapling:1": "8*minecraft:beetroot",
     "rustic:blood_orchid": "8*minecraft:beetroot",
-    "rustic:aloe_vera": "8*minecraft:beetroot"
+    "rustic:aloe_vera": "8*minecraft:beetroot",
+    "rustic:bee": "8*minecraft:red_flower"
   }
 }
