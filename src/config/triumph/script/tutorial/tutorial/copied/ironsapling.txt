@@ -18,5 +18,5 @@ criteria.addItem(<sky_orchards:sapling_iron>)
 //Rewards
 setRewardExperience(4)
 
-setPos(399,72)
+setPos(399,47)
 hideLines()

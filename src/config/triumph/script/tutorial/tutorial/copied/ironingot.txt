@@ -15,5 +15,5 @@ criteria.addItem(<minecraft:iron_ingot>)
 //Rewards
 setRewardExperience(4)
 
-setPos(399,47)
+setPos(399,22)
 hideLines()

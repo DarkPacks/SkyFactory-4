@@ -1,0 +1,18 @@
+setTitle("One Shiny Boi")
+
+setIcon(<sky_orchards:amber_gold>)
+
+setTranslatedDescription("advancement.sf4.age1.amber.gold.description")
+
+addParent("tutorial:tutorial/copied/ironBucket")
+
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("Obtain Gold Amber", "minecraft:inventory_changed")
+criteria.addItem(<sky_orchards:amber_gold>)
+
+//Rewards
+setRewardExperience(4)
+setPos(399,-28)
+hideLines()

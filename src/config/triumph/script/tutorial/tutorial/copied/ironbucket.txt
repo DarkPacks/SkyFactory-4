@@ -15,5 +15,5 @@ criteria.addItem(<minecraft:bucket>)
 //Rewards
 setRewardExperience(6)
 
-setPos(399,22)
+setPos(399,-3)
 hideLines()

@@ -12,5 +12,5 @@ criteria = addCriteria("Obtain Diamond", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:diamond>)
 
 setRewardExperience(6)
-setPos(399,-53)
+setPos(349,-53)
 hideLines()

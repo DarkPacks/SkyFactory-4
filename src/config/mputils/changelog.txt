@@ -8,7 +8,8 @@ Bug Fixes:
 * Blacklisted Handy Chests from Carry On since inventory would delete when picked up (#976)
 * Translocators now use Extended Crafting Diamond Nuggets (#1077)
 * The new More Cauldrons update should hopefully take care of any cauldrons in the world keeping chunks loaded (#887)
-
+* Removed Emeralds from the Parabox crafting list (#1102)
+* Fixed Bedrock Your World world type to include a nether roof and use the proper end structure (#1099)
 
 
 
@@ -17,6 +18,7 @@ Enhancements:
 * Added a recipe for the Digital Guide from Valkyrie Lib (#1064)
 * Tweaked and finished the two new world types (Cave Dimension and SkyCrashFactoryLanding)
 * Added a set of new prestige rewards that grant players constant potion effects
+* Added some new tutorial advancements to help players out with molten metals (#1078)
 
 
 Mod Updates:
@@ -29,6 +31,9 @@ Mod Updates:
 * Tinkers' Complement (0.4.2)
 * Tinkers' Construct (2.12.0.157)
 * Topography (1.7.0)
+
+* Mekanism ()
+* Mekanism Generators ()
 
 
 ---------------------------------------------------------------------

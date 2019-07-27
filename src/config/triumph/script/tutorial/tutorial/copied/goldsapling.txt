@@ -14,5 +14,5 @@ criteria.addItem(<sky_orchards:sapling_gold>)
 
 setRewardExperience(4)
 
-setPos(399,-3)
+setPos(399,-53)
 hideLines()
