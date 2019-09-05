@@ -45,4 +45,6 @@ var dust as Block = VanillaFactory.createBlock("dust", <blockmaterial:sand>);
 dust.setBlockHardness(0.7);
 dust.setBlockSoundType(<soundtype:sand>);
 dust.setGravity(true);
+dust.setToolClass("shovel");
+dust.setToolLevel(0);
 dust.register();

@@ -23,19 +23,38 @@ Enhancements:
 
 
 Mod Updates:
+* Apotheosis (1.10.5)
+* Applied Energistics (rv6-stable-7)
+* Aroma Backup (3.0.0.0.b125)
 * CarryOn (1.12.2)
+* Code Chicken Lib (3.2.3.357)
+* Construct's Armory (1.2.4)
+* Cooking for Blockheads (2.4.6.137)
+* Culinary Construct (1.3.3)
+* Cyclic (1.19.14)
+* Ender Storage (2.4.6.137)
 * Inspirations (0.2.6)
+* Journey Map (5.5.5)
+* JustEnoughItems (4.15.0.289)
 * Mantle (1.3.3.55)
 * Mekanism (9.8.0.381)
 * Mekanism Generators (9.8.0.381)
 * More Cauldrons (1.4.5)
-* Prestige (1.1.0)
-* Real Filing Cabinet (0.2.0.15)
+* Mystcraft (0.13.7.04)
+* NuclearCraft (1.12.2)
+* Prestige (1.1.58)
+* Primitive Crafting (1.3.5)
+* Real Filing Cabinet (0.2.0.19)
+* Recipe Stages (1.1.3)
 * Simple Storage Network (1.7.8)
+* Statues (0.8.9)
+* StuffASockInIt (1.1.30)
 * Tinkers' Complement (0.4.2)
 * Tinkers' Construct (2.12.0.157)
-* Topography (1.7.0)
-
+* Tiny Progressions (3.3.34)
+* Topography (1.10.1)
+* Translocators (2.5.2.81)
+* YoYos (1.3.3.25)
 
 ---------------------------------------------------------------------
 
