@@ -18,27 +18,22 @@ function addBedrockProperties(block as Block) as Block {
 
 var compactMachineNetherWall as Block = VanillaFactory.createBlock("compact_machine_nether_wall", <blockmaterial:rock>);
 addBedrockProperties(compactMachineNetherWall);
-compactMachineNetherWall.setTextureLocation(ResourceLocation.create("contenttweaker:blocks/compact_machine_nether_wall"));
 compactMachineNetherWall.register();
 
 var compactMachineEndWall as Block = VanillaFactory.createBlock("compact_machine_end_wall", <blockmaterial:rock>);
 addBedrockProperties(compactMachineEndWall);
-compactMachineEndWall.setTextureLocation(ResourceLocation.create("contenttweaker:blocks/compact_machine_end_wall"));
 compactMachineEndWall.register();
 
 var compactMachineTwilightForestWall as Block = VanillaFactory.createBlock("compact_machine_twilight_forest_wall", <blockmaterial:rock>);
 addBedrockProperties(compactMachineTwilightForestWall);
-compactMachineTwilightForestWall.setTextureLocation(ResourceLocation.create("contenttweaker:blocks/compact_machine_twilight_forest_wall"));
 compactMachineTwilightForestWall.register();
 
 var compactMachineLostCitiesWall as Block = VanillaFactory.createBlock("compact_machine_lost_cities_wall", <blockmaterial:rock>);
 addBedrockProperties(compactMachineLostCitiesWall);
-compactMachineLostCitiesWall.setTextureLocation(ResourceLocation.create("contenttweaker:blocks/compact_machine_lost_cities_wall"));
 compactMachineLostCitiesWall.register();
 
 var compactMachineHuntingDimensionWall as Block = VanillaFactory.createBlock("compact_machine_hunting_dimension_wall", <blockmaterial:rock>);
 addBedrockProperties(compactMachineHuntingDimensionWall);
-compactMachineHuntingDimensionWall.setTextureLocation(ResourceLocation.create("contenttweaker:blocks/compact_machine_hunting_dimension_wall"));
 compactMachineHuntingDimensionWall.register();
 
 var dust as Block = VanillaFactory.createBlock("dust", <blockmaterial:sand>);
