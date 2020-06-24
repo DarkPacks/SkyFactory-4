@@ -7,9 +7,6 @@ setSingleBiome("minecraft:sky")
 
 layers = new LayerGenerator()
 layers.addLayer(1~32, <thermalfoundation:fluid_cryotheum>)
-addGenerator(layers)
-
-layers = new LayerGenerator()
 layers.addLayer(0~0, <minecraft:bedrock>)
 addGenerator(layers)
 

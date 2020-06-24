@@ -1,15 +1,13 @@
 setSpawnStructure("crashedpod", 51)
 setSingleBiome("minecraft:desert")
 
+dune = new DuneTestGenerator(<contenttweaker:dust>)
+addGenerator(dune)
+
 layers = new LayerGenerator()
 layers.addLayer(1~52, <contenttweaker:dust>)
 layers.addLayer(0~0, <minecraft:bedrock>)
 addGenerator(layers)
-
-//Really Big Spheres
-//spheres = new DeformedSphereGenerator(<minecraft:air>, 10, 32, 32, 8)
-//spheres.addRequiredBlock(<contenttweaker:dust>)
-//addGenerator(spheres)
 
 craterSmall = new DeformedSphereGenerator(<minecraft:air>, 3, 6, 64, 10)
 craterSmall.setDeformScale(4)
@@ -20,9 +18,6 @@ crater = new VanillaLakeGenerator(<contenttweaker:dust>)
 crater.setHeight(74, 75) 
 crater.setSpawnChance(4)
 addGenerator(crater)
-
-dune = new DuneTestGenerator(<contenttweaker:dust>)
-addGenerator(dune)
 
 sky = setSkyRenderer()
 //top, bottom, north, south, east, west

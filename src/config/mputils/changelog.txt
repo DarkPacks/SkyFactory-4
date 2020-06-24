@@ -2,6 +2,18 @@ Please report bugs to the issue tracker!!
 
 ---------------------------------------------------------------------
 
+4.2.0
+
+Bug Fixes:
+* Fix bedrock generation at bottom of Sky Crash Factory Landing (#1292)
+
+Enhancements:
+* 
+
+
+Mod Updates:
+* 
+
 4.1.0
 
 Bug Fixes:

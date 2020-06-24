@@ -12,11 +12,11 @@ setLightBrightnessTable([0.1, 0.11578947, 0.13333333, 0.15294117, 0.175, 0.20000
 
 setSingleBiome("minecraft:hell")
 
-layers = new LayerGenerator()
-layers.addLayer(1~42, <minecraft:sand:1>)
-addGenerator(layers)
+dune = new DuneTestGenerator(<minecraft:sand:1>)
+addGenerator(dune)
 
 layers = new LayerGenerator()
+layers.addLayer(1~42, <minecraft:sand:1>)
 layers.addLayer(0~0, <minecraft:bedrock>)
 addGenerator(layers)
 
@@ -32,11 +32,6 @@ addGenerator(crater)
 fire = new ScatteredBlockGenerator(<minecraft:deadbush>, 5, 64)
 fire.addRequiredBlock(<minecraft:sand:1>)
 addGenerator(fire)
-
-
-
-dune = new DuneTestGenerator(<minecraft:sand:1>)
-addGenerator(dune)
 
 
 enableRelightChecks()
