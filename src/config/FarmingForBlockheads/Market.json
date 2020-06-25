@@ -6,7 +6,8 @@
     "Vanilla Mushrooms": true,
     "Vanilla Saplings": true,
     "Bonemeal": true,
-    "Animal Eggs": false
+    "Animal Eggs": false,
+    "XL Food Mod Seeds": true
   },
   "defaults payment": {
     "__comment": "You can define custom payment items for the default entries here.",
@@ -15,7 +16,8 @@
     "Vanilla Mushrooms": "1*minecraft:emerald:0",
     "Vanilla Saplings": "1*minecraft:emerald:0",
     "Bonemeal": "1*minecraft:emerald:0",
-    "Animal Eggs": "16*minecraft:wheat:0"
+    "Animal Eggs": "16*minecraft:wheat:0",
+    "XL Food Mod Seeds": "1*minecraft:emerald:0"
   },
   "defaults amount": {
     "__comment": "You can define custom amounts for the default entries here.",
@@ -24,7 +26,8 @@
     "Vanilla Mushrooms": 1,
     "Vanilla Saplings": 1,
     "Bonemeal": 1,
-    "Animal Eggs": 1
+    "Animal Eggs": 1,
+    "XL Food Mod Seeds": 1
   },
   "defaults blacklist": [
     "examplemod:example_item"
@@ -60,7 +63,7 @@
     "minecraft:rabbit_foot": "8*minecraft:carrot",
     "minecraft:rabbit_hide": "8*minecraft:carrot",
     "minecraft:rabbit": "8*minecraft:carrot",
-    "rustic:apple_seeds": "8*minecraft:wheat",
+    "rustic:apple_seeds": "8*minecraft:beetroot",
     "xlfoodmod:corn_seeds": "8*minecraft:wheat",
     "xlfoodmod:cucumber_seeds": "8*minecraft:wheat",
     "xlfoodmod:lettuce_seeds": "8*minecraft:leaves",
@@ -70,7 +73,6 @@
     "xlfoodmod:tomato_seeds": "8*minecraft:wheat",
     "xlfoodmod:vanilla_flower": "8*xlfoodmod:strawberry",
     "rustic:grape_stem": "8*minecraft:beetroot",
-    "rustic:apple_seeds": "8*minecraft:beetroot",
     "rustic:tomato_seeds": "8*minecraft:beetroot",
     "rustic:chili_pepper_seeds": "8*minecraft:beetroot",
     "rustic:wildberry_bush": "8*minecraft:beetroot",

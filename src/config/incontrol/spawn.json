@@ -1,27 +1,27 @@
 [
   {
-    "mob": "Blaze",
-    "mincount": "18,Blaze",
+    "mob": "minecraft:blaze",
+    "mincount": 18,
     "result": "deny"
   },
   {
-    "mob": "WitherSkeleton",
-    "mincount": "11,WitherSkeleton",
+    "mob": "minecraft:wither_skeleton",
+    "mincount": 11,
     "result": "deny"
   },
   {
     "mob": "bouncy_creepers:bouncy_creeper",
-    "mincount": "18,bouncy_creepers:bouncy_creeper",
+    "mincount": 18,
     "result": "deny"
   },
   {
-    "mob": "Bat",
-    "mincount": "15,Bat",
+    "mob": "minecraft:bat",
+    "mincount": 15,
     "result": "deny"
   },
   {
     "mob": "statues:statue_bat",
-    "mincount": "10,statues:statue_bat",
+    "mincount": 10,
     "result": "deny"
   },
   {

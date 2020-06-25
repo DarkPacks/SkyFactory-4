@@ -56,7 +56,7 @@ zenClass Rustic {
 	}
 
 	function addCondenser(output as IItemStack, modifier as IItemStack, inputs as IItemStack[]) {
-		Condenser.addRecipe(output, modifier, inputs);
+		Condenser.addRecipe(output, inputs, modifier);
 	}
 
 	/*
