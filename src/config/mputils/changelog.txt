@@ -7,6 +7,7 @@ Please report bugs to the issue tracker!!
 Bug Fixes:
 * Fix bedrock generation at bottom of Sky Crash Factory Landing (#1292)
 * Fix recipe ID mismatches for some staged recipes between server and client
+* Fixed Going On Your Permanent Record (#1079)
 
 Enhancements:
 * 
