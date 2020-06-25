@@ -12,7 +12,7 @@ alwaysVisible()
 
 //Criteria
 criteria = addCriteria("Right Click Max Size Fusion Reactor", "triumph:right_click_block")
-criteria.setBlock(<nuclearcraft:fusion_core, tile:{size:24}>)
+criteria.setBlock(<nuclearcraft:fusion_core, tile:{size:24~}>)
 
 //Rewards
 setRewardExperience(60)

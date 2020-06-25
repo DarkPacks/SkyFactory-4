@@ -13,7 +13,7 @@ alwaysVisible()
 
 //Criteria
 criteria = addCriteria("Right Click Filled Black Hole Unit", "triumph:right_click_block")
-criteria.setBlock(<industrialforegoing:black_hole_unit,tile:{amount:2147483583}>)
+criteria.setBlock(<industrialforegoing:black_hole_unit,tile:{amount:2147483583~}>)
 
 //Rewards
 setRewardExperience(60)

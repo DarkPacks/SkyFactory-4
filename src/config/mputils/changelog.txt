@@ -8,6 +8,7 @@ Bug Fixes:
 * Fix bedrock generation at bottom of Sky Crash Factory Landing (#1292)
 * Fix recipe ID mismatches for some staged recipes between server and client
 * Fixed Going On Your Permanent Record (#1079)
+* Updated description of Go Big or Go Home, accept reactors larger than 24 but acknowledge they have no benefit (#832)
 
 Enhancements:
 * 
