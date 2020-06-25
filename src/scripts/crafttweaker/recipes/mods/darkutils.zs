@@ -16,7 +16,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<darkutils:material> * 3: {
-	  	Utils.genRecipeName(stages.pacifist): [
+	  	Utils.genRecipeName(stages.pacifist, <darkutils:material>): [
 	  		[
 	  			[<deepmoblearning:living_matter_hellish>, <ore:dustCoal>, <deepmoblearning:living_matter_hellish>],
 	  			[<ore:dustCoal>, <minecraft:blaze_powder>, <ore:dustCoal>],
@@ -25,7 +25,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	  	]
 	},
 	<darkutils:shulker_pearl>: {
-	  	Utils.genRecipeName(stages.pacifist): [
+	  	Utils.genRecipeName(stages.pacifist, <darkutils:shulker_pearl>): [
 	  		[
 	  			[null, <minecraft:chorus_fruit>, null],
 	  			[<minecraft:chorus_fruit>, <darkutils:material:1>, <minecraft:chorus_fruit>],

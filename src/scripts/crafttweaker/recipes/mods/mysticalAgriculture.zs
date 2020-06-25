@@ -23,7 +23,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
     <mysticalagriculture:chunk:6>: {
-        Utils.genRecipeName(stages.pacifist): [
+        Utils.genRecipeName(stages.pacifist, <mysticalagriculture:chunk:6>): [
             [
                 [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>],
                 [<minecraft:rotten_flesh>, <animalcrops:seeds>.withTag({entity: "minecraft:zombie"}), <minecraft:rotten_flesh>],

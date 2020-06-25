@@ -22,7 +22,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<statues:itemstatuecore>: {
-		Utils.genRecipeName(stages.pacifist): [
+		Utils.genRecipeName(stages.pacifist, <statues:itemstatuecore>): [
 			[
 				[<minecraft:stick>, <minecraft:clay_ball>, <minecraft:stick>],
 				[<minecraft:clay_ball>, <deepmoblearning:living_matter_overworldian>, <minecraft:clay_ball>],

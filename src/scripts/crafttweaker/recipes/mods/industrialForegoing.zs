@@ -23,7 +23,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<industrialforegoing:laser_lens>: {
-	  	Utils.genRecipeName(stages.pacifist): [
+	  	Utils.genRecipeName(stages.pacifist, <industrialforegoing:laser_lens>): [
 	  		[
 	  			[null, <tconstruct:edible:2>, null],
 	  			[<tconstruct:edible:2>, <minecraft:stained_glass_pane>, <tconstruct:edible:2>],

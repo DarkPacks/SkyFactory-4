@@ -286,7 +286,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<animalcrops:seeds>.withTag({entity: "twilightforest:death_tome"}): {
-		Utils.genRecipeName(stages.fakeTwilight): [
+		Utils.genRecipeName(stages.fakeTwilight, "animal_seed_tf_death_tome"): [
 			[
 				[<minecraft:book>],
 				[<minecraft:pumpkin_seeds>],
@@ -295,7 +295,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	},
     <animalcrops:seeds>.withTag({entity: "twilightforest:minotaur"}): {
-		Utils.genRecipeName(stages.fakeTwilight): [
+		Utils.genRecipeName(stages.fakeTwilight, "animal_seed_tf_minotaur"): [
 			[
 				[<minecraft:brown_mushroom>],
 				[<minecraft:pumpkin_seeds>],
@@ -304,7 +304,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	},
     <animalcrops:seeds>.withTag({entity: "twilightforest:helmet_crab"}): {
-		Utils.genRecipeName(stages.fakeTwilight): [
+		Utils.genRecipeName(stages.fakeTwilight, "animal_seed_tf_helmet_crab"): [
 			[
 				[<minecraft:iron_helmet>],
 				[<minecraft:pumpkin_seeds>],
@@ -313,7 +313,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		],
 	},
     <animalcrops:seeds>.withTag({entity: "twilightforest:yeti"}): {
-		Utils.genRecipeName(stages.fakeTwilight): [
+		Utils.genRecipeName(stages.fakeTwilight, "animal_seed_tf_yeti"): [
 			[
 				[<minecraft:snowball>],
 				[<minecraft:pumpkin_seeds>],
@@ -340,12 +340,12 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	<deepmoblearning:data_model_twilight_forest>: {
-		Utils.genRecipeName(stages.fakeTwilight): [
+		Utils.genRecipeName(stages.fakeTwilight, <deepmoblearning:data_model_twilight_forest>): [
 			[<deepmoblearning:data_model_blank>, <minecraft:book>]
 		]
 	},
 	<deepmoblearning:data_model_twilight_darkwood>: {
-		Utils.genRecipeName(stages.fakeTwilight): [
+		Utils.genRecipeName(stages.fakeTwilight, <deepmoblearning:data_model_twilight_darkwood>): [
 			[<deepmoblearning:data_model_blank>, <twilightforest:armor_shard>]
 		]
 	}

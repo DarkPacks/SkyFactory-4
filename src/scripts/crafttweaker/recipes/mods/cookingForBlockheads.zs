@@ -16,7 +16,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<cookingforblockheads:cow_jar>: {
-	  	Utils.genRecipeName(stages.pacifist): [
+	  	Utils.genRecipeName(stages.pacifist, <cookingforblockheads:cow_jar>): [
 	  		[
 	  			[<minecraft:glass_pane>, <minecraft:anvil>, <minecraft:glass_pane>],
 	  			[<minecraft:glass_pane>, <animalcrops:seeds>.withTag({entity: "minecraft:cow"}), <minecraft:glass_pane>],
