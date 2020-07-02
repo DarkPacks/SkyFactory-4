@@ -49,6 +49,7 @@ zenClass ResourceHogType {
 	}
 
 	function addCraftingRecipes() {
+		recipes.removeShapeless(this.output, [this.truffle], true);
 		if (ResourceHogType.enableCraftingRecipes) {
 			if (this.output.items.length < 1) {
 				logger.logWarning("No items in ResourceHogType output: " ~ this.output.commandString);
