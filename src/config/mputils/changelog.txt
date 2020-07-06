@@ -19,6 +19,8 @@ Mods Removed:
   * No longer required for AppleSkin to function
 * Caliper
   * Debug tool, not required
+* Super Sound Muffler
+    * Replaced with revived
 * XCPatch
   * No longer necessary
 
@@ -107,6 +109,7 @@ Mod Updates:
 * Smooth Font (2.1 -> 2.1.2)
 * Statues (0.8.9 -> 0.8.9.2)
   * Fixes client crash on death (#1285)
+* Super Sound Muffler: Revived
 * Tinkers' Construct (2.12.0.157 -> 2.13.0.183)
 * TeslaCoreLib (1.0.15 -> 1.0.17)
   * Resolves a client side crash when water bottles placed in Potion Enevator
