@@ -9,6 +9,7 @@ Bug Fixes:
 * Fix recipe ID mismatches for some staged recipes between server and client
 * Fixed Going On Your Permanent Record (#1079)
 * Updated description of Go Big or Go Home, accept reactors larger than 24 but acknowledge they have no benefit (#832)
+* Changed Criteria for Coal advancement to say "Obtain Coal" rather than "Obtain Coal Sapling"
 
 Enhancements:
 * Removed bone meal trade from Farming For Blockheads (the trade made no sense)

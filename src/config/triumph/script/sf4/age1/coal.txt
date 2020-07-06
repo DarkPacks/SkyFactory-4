@@ -9,7 +9,7 @@ addParent("sf4:age1/sapling/coal")
 drawDirectLines()
 
 //Criteria
-criteria = addCriteria("Obtain Coal Sapling", "minecraft:inventory_changed")
+criteria = addCriteria("Obtain Coal", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:coal, meta:0>)
 
 //Rewards
