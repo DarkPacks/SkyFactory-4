@@ -34,7 +34,7 @@ advancement.sf4.age1.acorn.dirt.description=Obtain a Dirt Acorn from Dirt Tree L
 
 # SF4 Age 1 Amber
 advancement.sf4.age1.amber.gold.description=Obtain gold by crafting Gold Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Gold and pour it into a Casting Basin or Cast
-advancement.sf4.age1.amber.iron.description=Obtain iron by crafting Iron Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Iron and pour it into a Casting Basin or Cast
+advancement.sf4.age1.amber.iron.description=Obtain iron by crafting Iron Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Iron and pour it into a Casting Basin or Cast. Melting Iron requires a liquid fuel such as Lava.
 advancement.sf4.age1.amber.lead.description=Obtain lead by crafting Lead Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Lead and pour it into a Casting Basin or Cast
 advancement.sf4.age1.amber.silver.description=Obtain silver by crafting Silver Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Silver and pour it into a Casting Basin or Cast
 advancement.sf4.age1.amber.tin.description=Obtain tin by crafting Tin Amber. Use the Tinkers' Complement Melter or Smeltery to melt it into Molten Tin and pour it into a Casting Basin or Cast
