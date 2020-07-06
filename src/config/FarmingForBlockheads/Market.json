@@ -5,7 +5,7 @@
     "Vanilla Flowers": true,
     "Vanilla Mushrooms": true,
     "Vanilla Saplings": true,
-    "Bonemeal": true,
+    "Bonemeal": false,
     "Animal Eggs": false,
     "XL Food Mod Seeds": true
   },

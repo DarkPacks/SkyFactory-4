@@ -11,7 +11,7 @@ Bug Fixes:
 * Updated description of Go Big or Go Home, accept reactors larger than 24 but acknowledge they have no benefit (#832)
 
 Enhancements:
-* 
+* Removed bone meal trade from Farming For Blockheads (the trade made no sense)
 
 
 Mods Removed:
