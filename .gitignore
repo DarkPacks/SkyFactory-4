@@ -1,9 +1,11 @@
 # Un-Needed Mod Bloat
-src/config/AppliedEnergistics2/items.csv
 src/config/AppliedEnergistics2/aerecipes/*
+src/config/AppliedEnergistics2/CustomRecipes.cfg
+src/config/AppliedEnergistics2/items.csv
 src/config/cd4017be/inductiveLogistics.rcp
 src/config/cd4017be/inductiveLogistics.rcp.old
 src/config/cd4017be/compiled.dat
+src/config/cd4017be/core.rcp.old
 
 # Client Only Files
 src/config/InvTweaks.cfg
@@ -12,8 +14,12 @@ src/config/jei/bookmarks.ini
 src/config/jei/worldSettings.cfg
 src/config/jei/lookupHistory.zip
 src/config/buildcraft/detailed.properties
+src/journeymap/data/*
+src/journeymap/server/*
+src/journeymap/journeymap.log
 
 # Other
+src/config/topography/documentation/
 src/config/worldutils/*
 src/config/sampler.ini
 
@@ -23,5 +29,3 @@ src/config/sampler.ini
 # Stuff
 .DS_Store
 *.dat
-
-src/config/AppliedEnergistics2/CustomRecipes\.cfg
