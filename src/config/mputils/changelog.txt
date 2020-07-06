@@ -12,6 +12,7 @@ Bug Fixes:
 
 Enhancements:
 * Removed bone meal trade from Farming For Blockheads (the trade made no sense)
+* Added a mob whitelist for Darkosto subs
 
 
 Mods Removed:
