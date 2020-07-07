@@ -1,0 +1,27 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "sapling": "sky_orchards:blocks/ore_sapling"
+    },
+    "model": "sky_orchards:ore_sapling"
+  },
+  "variants": {
+    "stage": {
+      "0": {
+        "model": "sky_orchards:ore_sapling"
+      },
+      "1": {
+        "model": "sky_orchards:ore_sapling"
+      }
+    },
+    "inventory": [
+      {
+        "textures": {
+          "sapling": "sky_orchards:blocks/ore_sapling"
+        },
+        "model": "sky_orchards:item/ore_sapling"
+      }
+    ]
+  }
+}
