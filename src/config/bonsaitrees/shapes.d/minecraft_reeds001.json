@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:reeds",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "minecraft:reeds",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "a",
+      "a",
+      "a"
+    ]
+  ]
+}
