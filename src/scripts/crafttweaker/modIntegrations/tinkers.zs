@@ -106,6 +106,10 @@ function init() {
   tinkers.addMelting(<liquid:diamond> * 666, <sky_orchards:amber_diamond>);
   tinkers.addMelting(<liquid:emerald> * 666, <sky_orchards:amber_emerald>);
   tinkers.addMelting(<liquid:lapis> * 5994, <sky_orchards:amber_lapis>);
+  tinkers.addMelting(<liquid:lapis> * 666, <minecraft:lapis_lazuli>);
+  tinkers.addMelting(<liquid:quartz> * 666, <minecraft:quartz>);
+
+
 
 	//Cast Melting
 	tinkers.addMelting(<liquid:gold> * 288, <tconstruct:cast>);
