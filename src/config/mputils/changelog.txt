@@ -16,12 +16,15 @@ Enhancements:
 * Added a mob whitelist for Darkosto subs
 * Added text to the Iron Amber advancement to alert players to use liquid fuel
 
+Mods Added:
+* Tombstone: Revived
 
 Mods Removed:
 * AppleCore
   * No longer required for AppleSkin to function
 * Caliper
   * Debug tool, not required
+* Corail's Tombstone
 * Super Sound Muffler
     * Replaced with revived
 * XCPatch
