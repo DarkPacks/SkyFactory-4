@@ -8,7 +8,7 @@
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
-static PACK_VERSION as string = "4.2.1"; // Keep below 11 characters
+static PACK_VERSION as string = "4.2.2"; // Keep below 11 characters
 printLogo();
 
 function printLogo() {
