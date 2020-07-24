@@ -8,8 +8,13 @@
 
 [curseLink]: https://minecraft.curseforge.com/projects/skyfactory-4
 
+Back again for more modded skyblock fun! SkyFactory 4 offers a brand-new experience never before seen in the series. Full automation, tech, magic, and bacon resources! This iteration offers over 30+ world types so you can play the pack like never before! While some world types are based on the classic tree on dirt others are designed with unique recipes and advancements.
 
-This modpack was made by [Darkosto](https://www.twitch.tv/darkosto) for [Bacon Donut](https://www.twitch.tv/bacon_donut) on Twitch.
+What makes this version different from every other SkyFactory before it? We've completely redesigned the resource gathering. Sieving for resources are a thing of the past. For a more immersive experience, Sky Orchards has been introduced. Resource Trees provides a built-in progression system and lets the player choose the resources they want to produce rather than a randomized system. We've removed the achievement book and replaced it with the advancement system. Instead of requiring players to manually check out what they've accomplished, the game will keep track for you. This system isn't designed to create a required questing system, but rather an optional set of goals for players looking for ideas on what to do next.
+
+SkyFactory 4 introduces the prestige system! This is a completely optional game mode allowing you to unlock mods, items, and mechanics through an open progression system. Prestige points and unlocks are global and can be brought with you to other worlds! Prestige points can be gained by finishing advancements or by using the Parabox, a time-traveling box that generates points. To get started, enable prestige mode on the world creation screen.
+
+Beyond this initial release, we are planning regular content updates outside of bug fixes. There is currently a full progression into the late game. New content updates will introduce new world types, new game modes, more prestige unlocks, and more!
 
 ## Downloads
 Released files:
