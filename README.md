@@ -1,4 +1,6 @@
-# SkyFactory 4 [![Discord][discordImg]][discordLink] [![Curseforge][curseImg]][curseLink]
+# SkyFactory 4 [![Curseforge][curseImg]][curseLink]
+
+![Twitch Status](https://img.shields.io/twitch/status/darkosto?color=411145&label=Darkosto&logo=twitch) [![Discord][discordImg]][discordLink]
 
 [discordImg]: https://img.shields.io/discord/329440410839678986.svg?logo=discord&logoWidth=18&colorB=7289DA
 
