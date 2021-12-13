@@ -151,7 +151,6 @@ key_nei.options.keys.world.heal:0:NONE
 key_nei.options.keys.world.creative:0:NONE
 key_key.clipboardPaste:210:NONE
 key_key.toggle.schemui:22:NONE
-key_tombstone.message.knowledge_of_death:0:NONE
 key_key.craftingGrid:0:NONE
 key_key.journeymap.zoom_in:13:NONE
 key_key.journeymap.zoom_out:12:NONE

@@ -1,14 +1,6 @@
 [
   {
     "mob": "withercrumbs:wither crumb",
-    "remove": "tombstone:scroll_of_knowledge"
-  },
-  {
-    "mob": "withercrumbs:wither crumb",
-    "remove": "tombstone:scroll_buff"
-  },
-  {
-    "mob": "withercrumbs:wither crumb",
     "remove": "minecraft:nether_star"
   },
   {

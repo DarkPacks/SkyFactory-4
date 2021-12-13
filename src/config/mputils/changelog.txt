@@ -2,6 +2,27 @@ Please report bugs to the issue tracker!!
 
 ---------------------------------------------------------------------
 
+4.2.4
+
+Note: As this update changes how the tombs work. Any old tombs from the previous mod would be lost. Ensure you have opened any graves before updating the pack. Use backups before if you have already opened the world into this update.
+
+Mods Added:
+* Simple Tomb (1.0.0)
+
+Mods Updated:
+* Astral Sorcery (1.10.24 -> 1.10.27)
+* Ceramics (1.3.7 -> 1.3.7b)
+* FoamFix (0.10.10 -> 0.10.14)
+* Primitive Crafting (1.4.3.6 -> 1.4.4.7)
+* TeslaCoreLib (1.0.17.25 -> 1.0.18.28)
+* Torchmaster (1.8.1.81 -> 1.8.5.0)
+* The Twilight Forest (3.10.1013 -> 3.11.1021)
+
+Mods Removed:
+* Tombstone: Revived
+
+---------------------------------------------------------------------
+
 4.2.3
 
 Bug Fixes:
