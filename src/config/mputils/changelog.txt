@@ -2,6 +2,13 @@ Please report bugs to the issue tracker!!
 
 ---------------------------------------------------------------------
 
+4.2.3
+
+Bug Fixes:
+* Fixed Jungle Sapling recipe
+
+---------------------------------------------------------------------
+
 4.2.2
 
 Mods Updated:
