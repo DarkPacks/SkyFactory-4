@@ -104,5 +104,6 @@ function init() {
 	Dehydrator.addRecipe(<minecraft:leather>, <minecraft:cooked_chicken>, 600);
 	Dehydrator.addRecipe(<minecraft:leather>, <minecraft:cooked_rabbit>, 600);
 	Dehydrator.addRecipe(<minecraft:leather>, <minecraft:cooked_mutton>, 600);
+	Dehydrator.removeShapedRecipe(<minecraft:stick>);
 
 Hydrator.addRecipe(<minecraft:sponge>, [<minecraft:dirt>, <minecraft:ice>, <minecraft:ice>, <minecraft:ice>], 250);
