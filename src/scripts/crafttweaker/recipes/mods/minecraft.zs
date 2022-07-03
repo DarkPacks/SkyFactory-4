@@ -195,7 +195,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	<minecraft:diamond:0>: [
 		[<projecte:item.pe_philosophers_stone>, <minecraft:emerald:0>]
 	],
-	<twilightforest:thorn_rose>: [
+	<twilightforest:thorn_rose> * 4: [
 		[<deepmoblearning:living_matter_twilight>, <minecraft:cactus>, <inspirations:flower>]
 	],
 	<twilightforest:twilight_leaves_3> * 32: [
