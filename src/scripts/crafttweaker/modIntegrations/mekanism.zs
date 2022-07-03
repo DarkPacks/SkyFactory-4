@@ -86,6 +86,7 @@ function init() {
 	mekanism.addCombiner(<cyclicmagic:horse_upgrade_speed>, <nuclearcraft:dust:6>, <matteroverdrive:android_pill>);
 	mekanism.addCombiner(<cyclicmagic:horse_upgrade_variant>, <nuclearcraft:dust:6>, <matteroverdrive:android_pill:1>);
 	mekanism.addCombiner(<minecraft:golden_apple:1>, <nuclearcraft:dust:6>, <matteroverdrive:android_pill:2>);
+	mekanism.addCombiner(<twilightforest:root>, <twilightforest:liveroot>, <twilightforest:root:1>);
 
 	// ==================================
 	// Metallurgic Infuser
