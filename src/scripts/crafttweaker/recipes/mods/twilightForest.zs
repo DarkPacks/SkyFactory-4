@@ -34,6 +34,15 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<twilightforest:thorn_rose> * 4: [
+		[<deepmoblearning:living_matter_twilight>, <minecraft:cactus>, <inspirations:flower>]
+	],
+	<twilightforest:twilight_leaves_3> * 32: [
+		[<deepmoblearning:living_matter_twilight>, <minecraft:cactus>, <minecraft:leaves>]
+	],
+	<twilightforest:liveroot>: [
+		[<thermalfoundation:fertilizer:1>, <minecraft:water_bucket>, <twilightforest:twilight_plant:8>]
+	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

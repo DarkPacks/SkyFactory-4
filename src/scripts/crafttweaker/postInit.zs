@@ -65,6 +65,9 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.twilightForest.init();
 	scripts.crafttweaker.recipes.mods.valkyrieLib.init();
 	scripts.crafttweaker.recipes.mods.xlfoods.init();
+	
+	// Fixing issues with unique wooden trapdoors, pressure plates, and buttons
+	scripts.crafttweaker.recipes.trapdoorButtonPlateFix.init();
 }
 
 function initStaging() {

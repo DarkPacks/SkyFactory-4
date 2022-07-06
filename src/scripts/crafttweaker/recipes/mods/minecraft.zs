@@ -194,12 +194,6 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
     ],
 	<minecraft:diamond:0>: [
 		[<projecte:item.pe_philosophers_stone>, <minecraft:emerald:0>]
-	],
-	<twilightforest:thorn_rose> * 4: [
-		[<deepmoblearning:living_matter_twilight>, <minecraft:cactus>, <inspirations:flower>]
-	],
-	<twilightforest:twilight_leaves_3> * 32: [
-		[<deepmoblearning:living_matter_twilight>, <minecraft:cactus>, <minecraft:leaves>]
 	]
 };
 
@@ -209,8 +203,12 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
+// removed some recipes here as a part of fixing unique trapdoor/button/plate recipes
 static removeRecipes as IItemStack[] = [
-	<parabox:parabox>
+	<parabox:parabox>,
+	<minecraft:trapdoor>,
+	<minecraft:wooden_pressure_plate>,
+	<minecraft:wooden_button>
 ];
 
 function init() {
