@@ -40,6 +40,9 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+<thermalfoundation:material:67>: [
+		[<nuclearcraft:tiny_dust_lead>, <nuclearcraft:tiny_dust_lead>, <nuclearcraft:tiny_dust_lead>, <nuclearcraft:tiny_dust_lead>, <nuclearcraft:tiny_dust_lead>, <nuclearcraft:tiny_dust_lead>, <nuclearcraft:tiny_dust_lead>, <nuclearcraft:tiny_dust_lead>, <nuclearcraft:tiny_dust_lead>]
+	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

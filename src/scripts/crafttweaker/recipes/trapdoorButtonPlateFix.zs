@@ -21,18 +21,58 @@ static removeRecipes as IItemStack[] = [
 /*
     Shaped Recipes
 */
-static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<minecraft:trapdoor> * 2: [
-		[
-			[<minecraft:planks:0> | <chisel:planks-oak:*> | <integrateddynamics:menril_planks> | <rustic:planks:*> | <rustic:painted_wood_white> | <rustic:painted_wood_orange> | <rustic:painted_wood_magenta> | <rustic:painted_wood_light_blue> | <rustic:painted_wood_yellow> | <rustic:painted_wood_lime> | <rustic:painted_wood_pink> | <rustic:painted_wood_gray> | <rustic:painted_wood_silver> | <rustic:painted_wood_cyan> | <rustic:painted_wood_purple> | <rustic:painted_wood_blue> | <rustic:painted_wood_brown> | <rustic:painted_wood_green> | <rustic:painted_wood_red> | <rustic:painted_wood_black> | <twilightforest:tower_wood:*>, <minecraft:planks:0> | <chisel:planks-oak:*> | <integrateddynamics:menril_planks> | <rustic:planks:*> | <rustic:painted_wood_white> | <rustic:painted_wood_orange> | <rustic:painted_wood_magenta> | <rustic:painted_wood_light_blue> | <rustic:painted_wood_yellow> | <rustic:painted_wood_lime> | <rustic:painted_wood_pink> | <rustic:painted_wood_gray> | <rustic:painted_wood_silver> | <rustic:painted_wood_cyan> | <rustic:painted_wood_purple> | <rustic:painted_wood_blue> | <rustic:painted_wood_brown> | <rustic:painted_wood_green> | <rustic:painted_wood_red> | <rustic:painted_wood_black> | <twilightforest:tower_wood:*>, <minecraft:planks:0> | <chisel:planks-oak:*> | <integrateddynamics:menril_planks> | <rustic:planks:*> | <rustic:painted_wood_white> | <rustic:painted_wood_orange> | <rustic:painted_wood_magenta> | <rustic:painted_wood_light_blue> | <rustic:painted_wood_yellow> | <rustic:painted_wood_lime> | <rustic:painted_wood_pink> | <rustic:painted_wood_gray> | <rustic:painted_wood_silver> | <rustic:painted_wood_cyan> | <rustic:painted_wood_purple> | <rustic:painted_wood_blue> | <rustic:painted_wood_brown> | <rustic:painted_wood_green> | <rustic:painted_wood_red> | <rustic:painted_wood_black> | <twilightforest:tower_wood:*>],
-			[<minecraft:planks:0> | <chisel:planks-oak:*> | <integrateddynamics:menril_planks> | <rustic:planks:*> | <rustic:painted_wood_white> | <rustic:painted_wood_orange> | <rustic:painted_wood_magenta> | <rustic:painted_wood_light_blue> | <rustic:painted_wood_yellow> | <rustic:painted_wood_lime> | <rustic:painted_wood_pink> | <rustic:painted_wood_gray> | <rustic:painted_wood_silver> | <rustic:painted_wood_cyan> | <rustic:painted_wood_purple> | <rustic:painted_wood_blue> | <rustic:painted_wood_brown> | <rustic:painted_wood_green> | <rustic:painted_wood_red> | <rustic:painted_wood_black> | <twilightforest:tower_wood:*>, <minecraft:planks:0> | <chisel:planks-oak:*> | <integrateddynamics:menril_planks> | <rustic:planks:*> | <rustic:painted_wood_white> | <rustic:painted_wood_orange> | <rustic:painted_wood_magenta> | <rustic:painted_wood_light_blue> | <rustic:painted_wood_yellow> | <rustic:painted_wood_lime> | <rustic:painted_wood_pink> | <rustic:painted_wood_gray> | <rustic:painted_wood_silver> | <rustic:painted_wood_cyan> | <rustic:painted_wood_purple> | <rustic:painted_wood_blue> | <rustic:painted_wood_brown> | <rustic:painted_wood_green> | <rustic:painted_wood_red> | <rustic:painted_wood_black> | <twilightforest:tower_wood:*>, <minecraft:planks:0> | <chisel:planks-oak:*> | <integrateddynamics:menril_planks> | <rustic:planks:*> | <rustic:painted_wood_white> | <rustic:painted_wood_orange> | <rustic:painted_wood_magenta> | <rustic:painted_wood_light_blue> | <rustic:painted_wood_yellow> | <rustic:painted_wood_lime> | <rustic:painted_wood_pink> | <rustic:painted_wood_gray> | <rustic:painted_wood_silver> | <rustic:painted_wood_cyan> | <rustic:painted_wood_purple> | <rustic:painted_wood_blue> | <rustic:painted_wood_brown> | <rustic:painted_wood_green> | <rustic:painted_wood_red> | <rustic:painted_wood_black> | <twilightforest:tower_wood:*>]
-		]
-	],
-	<minecraft:wooden_pressure_plate>: [
-		[
-			[<minecraft:planks:*> | <chisel:planks-oak:*> | <chisel:planks-spruce:*> | <chisel:planks-birch:*> | <chisel:planks-jungle:*> | <chisel:planks-dark-oak:*> | <chisel:planks-acacia:*> | <integrateddynamics:menril_planks> | <rustic:planks:*> | <rustic:painted_wood_white> | <rustic:painted_wood_orange> | <rustic:painted_wood_magenta> | <rustic:painted_wood_light_blue> | <rustic:painted_wood_yellow> | <rustic:painted_wood_lime> | <rustic:painted_wood_pink> | <rustic:painted_wood_gray> | <rustic:painted_wood_silver> | <rustic:painted_wood_cyan> | <rustic:painted_wood_purple> | <rustic:painted_wood_blue> | <rustic:painted_wood_brown> | <rustic:painted_wood_green> | <rustic:painted_wood_red> | <rustic:painted_wood_black> | <twilightforest:tower_wood:*>, <minecraft:planks:*> | <chisel:planks-oak:*> | <chisel:planks-spruce:*> | <chisel:planks-birch:*> | <chisel:planks-jungle:*> | <chisel:planks-dark-oak:*> | <chisel:planks-acacia:*> | <integrateddynamics:menril_planks> | <rustic:planks:*> | <rustic:painted_wood_white> | <rustic:painted_wood_orange> | <rustic:painted_wood_magenta> | <rustic:painted_wood_light_blue> | <rustic:painted_wood_yellow> | <rustic:painted_wood_lime> | <rustic:painted_wood_pink> | <rustic:painted_wood_gray> | <rustic:painted_wood_silver> | <rustic:painted_wood_cyan> | <rustic:painted_wood_purple> | <rustic:painted_wood_blue> | <rustic:painted_wood_brown> | <rustic:painted_wood_green> | <rustic:painted_wood_red> | <rustic:painted_wood_black> | <twilightforest:tower_wood:*>]
-		]
-	],
+val nonUniqueTrapdoor =
+	<minecraft:planks:0> |
+	<chisel:planks-oak:*> |
+	<integrateddynamics:menril_planks> |
+	<rustic:planks:*> |
+	<rustic:painted_wood_white> |
+	<rustic:painted_wood_orange> |
+	<rustic:painted_wood_magenta> |
+	<rustic:painted_wood_light_blue> |
+	<rustic:painted_wood_yellow> |
+	<rustic:painted_wood_lime> |
+	<rustic:painted_wood_pink> |
+	<rustic:painted_wood_gray> |
+	<rustic:painted_wood_silver> |
+	<rustic:painted_wood_cyan> |
+	<rustic:painted_wood_purple> |
+	<rustic:painted_wood_blue> |
+	<rustic:painted_wood_brown> |
+	<rustic:painted_wood_green> |
+	<rustic:painted_wood_red> |
+	<rustic:painted_wood_black> |
+	<twilightforest:tower_wood:*>;
+
+val nonTF = 
+	<minecraft:planks:0> |
+	<chisel:planks-oak:*> |
+	<chisel:planks-spruce:*> |
+	<chisel:planks-birch:*> |
+	<chisel:planks-jungle:*> |
+	<chisel:planks-dark-oak:*> |
+	<chisel:planks-acacia:*> |
+	<integrateddynamics:menril_planks> |
+	<rustic:planks:*> |
+	<rustic:painted_wood_white> |
+	<rustic:painted_wood_orange> |
+	<rustic:painted_wood_magenta> |
+	<rustic:painted_wood_light_blue> |
+	<rustic:painted_wood_yellow> |
+	<rustic:painted_wood_lime> |
+	<rustic:painted_wood_pink> |
+	<rustic:painted_wood_gray> |
+	<rustic:painted_wood_silver> |
+	<rustic:painted_wood_cyan> |
+	<rustic:painted_wood_purple> |
+	<rustic:painted_wood_blue> |
+	<rustic:painted_wood_brown> |
+	<rustic:painted_wood_green> |
+	<rustic:painted_wood_red> |
+	<rustic:painted_wood_black> |
+	<twilightforest:tower_wood:*>;
+
+static shapedRecipes as IItemStack[][][][IItemStack] = {
 	<malisisdoors:trapdoor_spruce> * 2: [
 		[
 			[<chisel:planks-spruce:*>, <chisel:planks-spruce:*>, <chisel:planks-spruce:*>],
@@ -68,6 +108,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 };
 
+recipes.addShaped("boringTrapdoor",<minecraft:trapdoor> * 2,
+ [[nonUniqueTrapdoor,nonUniqueTrapdoor,nonUniqueTrapdoor],
+  [nonUniqueTrapdoor,nonUniqueTrapdoor,nonUniqueTrapdoor]]);
+  
+recipes.addShaped("boringPlate",<minecraft:wooden_pressure_plate>,
+ [[nonTF,nonTF]]);
+ 
 /*
     Mirrored Recipes
 */
@@ -80,11 +127,7 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 /*
     Shapeless Recipes
 */
-static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<minecraft:wooden_button>: [
-		[<minecraft:planks:*> | <chisel:planks-oak:*> | <chisel:planks-spruce:*> | <chisel:planks-birch:*> | <chisel:planks-jungle:*> | <chisel:planks-dark-oak:*> | <chisel:planks-acacia:*> | <integrateddynamics:menril_planks> | <rustic:planks:*> | <rustic:painted_wood_white> | <rustic:painted_wood_orange> | <rustic:painted_wood_magenta> | <rustic:painted_wood_light_blue> | <rustic:painted_wood_yellow> | <rustic:painted_wood_lime> | <rustic:painted_wood_pink> | <rustic:painted_wood_gray> | <rustic:painted_wood_silver> | <rustic:painted_wood_cyan> | <rustic:painted_wood_purple> | <rustic:painted_wood_blue> | <rustic:painted_wood_brown> | <rustic:painted_wood_green> | <rustic:painted_wood_red> | <rustic:painted_wood_black> | <twilightforest:tower_wood:*>]
-	]
-};
+recipes.addShapeless("boringButton",<minecraft:wooden_button>,[nonTF]);
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 };
@@ -93,7 +136,6 @@ function init() {
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
-    recipeUtil.process(shapelessRecipes);
 
 	// Named recipes
 	recipeUtil.processNamed(namedShapedRecipes, false);

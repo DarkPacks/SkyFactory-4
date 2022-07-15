@@ -50,7 +50,9 @@ var recipesToAdd as IIngredient[][IItemStack] = {
 	<tconstruct:ingots:1>: [<contenttweaker:ardite_dust>],
 	<tconstruct:ingots>: [<contenttweaker:cobalt_dust>],
 	<nuclearcraft:roasted_cocoa_beans>: [<minecraft:dye:3>],
-	<fluxnetworks:flux>: [<minecraft:redstone>]
+	<fluxnetworks:flux>: [<minecraft:redstone>],
+	<minecraft:iron_nugget>: [<rustic:dust_tiny_iron>],
+	<thermalfoundation:material:195>: [<nuclearcraft:tiny_dust_lead>]
 };
 
 for output, inputs in recipesToAdd {

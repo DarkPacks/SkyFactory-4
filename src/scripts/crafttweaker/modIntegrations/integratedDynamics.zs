@@ -16,6 +16,9 @@ function init() {
 	integratedDynamics.addSqueezerBoth(<minecraft:ender_pearl>, <appliedenergistics2:material:46>, 1.0);
 	integratedDynamics.addSqueezerBoth(<thermalfoundation:material:895>, <appliedenergistics2:material:46>, 1.0);
 	integratedDynamics.addSqueezerBoth(<appliedenergistics2:material:7>, <appliedenergistics2:material:8>, 1.0);
+	
+	//Add method of processing Ironberries that is easier to automate
+	integratedDynamics.addSqueezerBoth(<rustic:ironberries>, null, <liquid:ironberryjuice> * 250);
 }
 
 /*

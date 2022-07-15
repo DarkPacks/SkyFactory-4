@@ -11,6 +11,11 @@ function init() {
 	// Melting
 	// ==================================
 	// ==================================
+	// Tiny Dust Melting
+	tinkers.addMelting(<liquid:iron> * 16, <rustic:dust_tiny_iron>);
+	tinkers.addMelting(<liquid:lead> * 16, <nuclearcraft:tiny_dust_lead>);
+	
+	// ==================================
 	// Destabilized Redstone
 	tinkers.addMelting(<liquid:redstone> * 100, <ore:dustRedstone>);
 	tinkers.addMelting(<liquid:redstone> * 250, <ore:clathrateRedstone>);
