@@ -52,7 +52,7 @@ mods.nuclearcraft.ingot_former.addRecipe([<liquid:bacon> * 250, <tconstruct:edib
 mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_donut>, <liquid:donut> * 1000]);
 mods.nuclearcraft.ingot_former.addRecipe([<liquid:donut> * 250, <xlfoodmod:donut>]);
 //Ironberry Processing
-mods.nuclearcraft.extractor.addRecipe([<rustic:ironberries>, <minecraft:dye:7>, <liquid:ironberryjuice> * 250]);
+mods.nuclearcraft.extractor.addRecipe([<rustic:ironberries>, <pickletweaks:dye_powder:8>, <liquid:ironberryjuice> * 250]);
 mods.nuclearcraft.ingot_former.addRecipe([<liquid:ironberryjuice> * 500, <rustic:dust_tiny_iron>, 0.11125]);
 
 //Add in missing lapis melter recipe
