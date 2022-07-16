@@ -22,3 +22,6 @@ var liquidDonut as Fluid = VanillaFactory.createFluid("donut", Color.fromHex("FC
 liquidDonut.viscosity = 7500;
 liquidDonut.density = 10000;
 liquidDonut.register();
+
+var sugarWater as Fluid = VanillaFactory.createFluid("sugarwater", Color.fromHex("60A0EE"));
+sugarWater.register();

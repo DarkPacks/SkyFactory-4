@@ -17,8 +17,13 @@ function init() {
 	integratedDynamics.addSqueezerBoth(<thermalfoundation:material:895>, <appliedenergistics2:material:46>, 1.0);
 	integratedDynamics.addSqueezerBoth(<appliedenergistics2:material:7>, <appliedenergistics2:material:8>, 1.0);
 	
-	//Add method of processing Ironberries that is easier to automate
+	//Add method of processing Rustic fluids that is easier to automate
 	integratedDynamics.addSqueezerBoth(<rustic:ironberries>, null, <liquid:ironberryjuice> * 250);
+	integratedDynamics.addSqueezerBoth(<rustic:grapes>, null, <liquid:grapejuice> * 250);
+	integratedDynamics.addSqueezerBoth(<rustic:wildberries>, null, <liquid:wildberryjuice> * 250);
+	integratedDynamics.addSqueezerBoth(<rustic:olives>, null, <liquid:oliveoil> * 250);
+	integratedDynamics.addSqueezerBoth(<rustic:honeycomb>, null, <liquid:honey> * 250);
+	integratedDynamics.addSqueezerBoth(<minecraft:apple>, <rustic:apple_seeds>, <liquid:applejuice> * 250);
 }
 
 /*
