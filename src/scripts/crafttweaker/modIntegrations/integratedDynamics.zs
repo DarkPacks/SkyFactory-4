@@ -21,7 +21,6 @@ function init() {
 	integratedDynamics.addSqueezerBoth(<rustic:ironberries>, null, <liquid:ironberryjuice> * 250);
 	integratedDynamics.addSqueezerBoth(<rustic:grapes>, null, <liquid:grapejuice> * 250);
 	integratedDynamics.addSqueezerBoth(<rustic:wildberries>, null, <liquid:wildberryjuice> * 250);
-	integratedDynamics.addSqueezerBoth(<rustic:olives>, null, <liquid:oliveoil> * 250);
 	integratedDynamics.addSqueezerBoth(<rustic:honeycomb>, null, <liquid:honey> * 250);
 	integratedDynamics.addSqueezerBoth(<minecraft:apple>, <rustic:apple_seeds>, <liquid:applejuice> * 250);
 }
