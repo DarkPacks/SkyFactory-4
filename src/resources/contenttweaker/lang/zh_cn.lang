@@ -3,8 +3,7 @@ fluid.mud=\u6c61\u6ce5
 fluid.cookie_dough=\u6db2\u6001\u66f2\u5947\u9762\u56e2
 fluid.bacon=\u6db2\u6001\u57f9\u6839
 fluid.donut=\u6db2\u6001\u751c\u751c\u5708
-//Translation is probably inaccurate because the person adding it doesn't speak Chinese. I got this from Google Translate by translating "sugar in water" to simplified Chinese. Translating it back to english gives "sugar in water" again, which leads me to believe it's at least *kind of* accurate.
-fluid.sugarwater=\u328c\u32a5\u38a9\ufa03
+fluid.sugarwater=\u7cd6\u6c34
 
 item.contenttweaker.cobblestone_circuit_mold.name=\u5706\u77f3\u7535\u8def\u677f
 
