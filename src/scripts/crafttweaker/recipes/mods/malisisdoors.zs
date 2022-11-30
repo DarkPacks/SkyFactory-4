@@ -36,7 +36,6 @@ static allNonTFPlanks as IIngredient =
 	<minecraft:planks:3> |
 	<minecraft:planks:4> |
 	<minecraft:planks:5> |
-	<chisel:planks-oak:*> |
 	<chisel:planks-spruce:*> |
 	<chisel:planks-birch:*> |
 	<chisel:planks-jungle:*> |
