@@ -43,6 +43,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.industrialForegoing.init();
 	scripts.crafttweaker.recipes.mods.inspirations.init();
 	scripts.crafttweaker.recipes.mods.ironJetpacks.init();
+	scripts.crafttweaker.recipes.mods.malisisdoors.init();
 	scripts.crafttweaker.recipes.mods.matterOverdrive.init();
 	scripts.crafttweaker.recipes.mods.mekanism.init();
 	scripts.crafttweaker.recipes.mods.microblockcbe.init();
@@ -65,9 +66,6 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.twilightForest.init();
 	scripts.crafttweaker.recipes.mods.valkyrieLib.init();
 	scripts.crafttweaker.recipes.mods.xlfoods.init();
-	
-	// Fixing issues with unique wooden trapdoors, pressure plates, and buttons
-	scripts.crafttweaker.recipes.trapdoorButtonPlateFix.init();
 }
 
 function initStaging() {
