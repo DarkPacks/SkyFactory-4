@@ -1,7 +1,3 @@
-/*
-	Hacky pressure plate/button/trapdoor crafting fix (removing recipes directly didn't work properly)
-*/
-
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
