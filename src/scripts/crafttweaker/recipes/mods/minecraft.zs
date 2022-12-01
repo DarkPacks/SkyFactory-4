@@ -203,8 +203,12 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
+// removed some recipes here as a part of fixing unique trapdoor/button/plate recipes
 static removeRecipes as IItemStack[] = [
-	<parabox:parabox>
+	<parabox:parabox>,
+	<minecraft:trapdoor>,
+	<minecraft:wooden_pressure_plate>,
+	<minecraft:wooden_button>
 ];
 
 function init() {

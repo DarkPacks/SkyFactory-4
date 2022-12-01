@@ -51,6 +51,14 @@ mods.nuclearcraft.ingot_former.addRecipe([<liquid:bacon> * 250, <tconstruct:edib
 //Donut Processing
 mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_donut>, <liquid:donut> * 1000]);
 mods.nuclearcraft.ingot_former.addRecipe([<liquid:donut> * 250, <xlfoodmod:donut>]);
+//Rustic Fluid Processing
+mods.nuclearcraft.extractor.addRecipe([<rustic:ironberries>, <pickletweaks:dye_powder:8>, <liquid:ironberryjuice> * 250]);
+mods.nuclearcraft.extractor.addRecipe([<rustic:grapes>, <pickletweaks:dye_powder:10>, <liquid:grapejuice> * 250]);
+mods.nuclearcraft.extractor.addRecipe([<rustic:wildberries>, <pickletweaks:dye_powder:14>, <liquid:wildberryjuice> * 250]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:sugar>, <liquid:water> * 1000, <liquid:sugarwater> * 1000]);
+mods.nuclearcraft.salt_mixer.addRecipe([<liquid:sugar> * 250, <liquid:water> * 1000, <liquid:sugarwater> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:bread>, <liquid:sugarwater> * 1000, <liquid:alewort> * 1000]);
+mods.nuclearcraft.ingot_former.addRecipe([<liquid:ironberryjuice> * 500, <rustic:dust_tiny_iron>, 0.11125]);
 
 //Add in missing lapis melter recipe
 mods.nuclearcraft.melter.addRecipe([<minecraft:dye:4>, <liquid:lapis> * 666]);
@@ -86,3 +94,6 @@ mods.nuclearcraft.melter.addRecipe([<sky_orchards:amber_glowstone>, <liquid:glow
 mods.nuclearcraft.alloy_furnace.addRecipe([<integrateddynamics:crystalized_menril_chunk>, <minecraft:redstone> * 1, <appliedenergistics2:material:7>]);
 //Setup to add more efficient method (slightly better than mek with compressed redstone)
 mods.nuclearcraft.infuser.addRecipe([<integrateddynamics:crystalized_menril_chunk>, <liquid:redstone> * 10, <appliedenergistics2:material:7>]);
+
+//Rustic Tiny Pile of Iron Dust
+mods.nuclearcraft.melter.addRecipe([<rustic:dust_tiny_iron>, <liquid:iron> * 16, 0.11125]);

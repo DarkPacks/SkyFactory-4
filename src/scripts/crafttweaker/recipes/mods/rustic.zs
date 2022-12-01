@@ -34,6 +34,9 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+<thermalfoundation:material:0>: [
+		[<rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>]
+	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
