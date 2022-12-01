@@ -5054,5 +5054,121 @@
   {
     "energy": 2000,
     "id": "sky_orchards:acorn_coal"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_dirt"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_petrified"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_clay"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_bone"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_gravel"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_sand"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_coal"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_cottonwood"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_iron"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_tin"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_lead"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_nickel"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_gold"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_redstone"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_lapis"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_copper"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_silver"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_diamond"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_emerald"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_quartz"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_netherrack"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_glowstone"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_cobalt"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_ardite"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_osmium"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_prosperity"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_bacon"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_donut"
+  },
+  {
+    "energy": 2000,
+    "id": "sky_orchards:sapling_cookie"
   }
 ]
