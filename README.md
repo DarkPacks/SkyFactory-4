@@ -21,7 +21,7 @@ Beyond this initial release, we are planning regular content updates outside of 
 ## Downloads
 Released files:
 - [Curse/Twitch](https://minecraft.curseforge.com/projects/skyfactory-4)
-- [ATLauncher](https://www.atlauncher.com/pack/SkyFactory4)
+- [ATLauncher](https://atlauncher.com/pack/SkyFactory4)
 
 ## Development
 
