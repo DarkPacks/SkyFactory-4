@@ -83,21 +83,21 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:clay>, <minecraft:gravel>, <minecraft:clay>]
 		]
 	],
-	<matteroverdrive:decorative.floor_tiles> * 32: [
+	<matteroverdrive:decorative.floor_tiles:0> * 32: [
 		[
 			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
 			[<minecraft:clay>, <ore:gemQuartz>, <minecraft:clay>],
 			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>]
 		]
 	],
-	<matteroverdrive:decorative.floor_tiles_green> * 32: [
+	<matteroverdrive:decorative.floor_tiles:2> * 32: [
 		[
 			[<minecraft:clay>, <minecraft:dye:1>, <minecraft:clay>],
 			[<minecraft:clay>, <ore:gemQuartz>, <minecraft:clay>],
 			[<minecraft:clay>, <minecraft:dye:1>, <minecraft:clay>]
 		]
 	],
-	<matteroverdrive:decorative.floor_tile_white> * 32: [
+	<matteroverdrive:decorative.floor_tile:15> * 32: [
 		[
 			[<minecraft:clay>, <minecraft:dye:15>, <minecraft:clay>],
 			[<minecraft:clay>, <ore:gemQuartz>, <minecraft:clay>],

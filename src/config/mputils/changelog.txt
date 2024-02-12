@@ -1,5 +1,13 @@
 Please report bugs to the issue tracker!!
 
+4.2.5
+
+Mods Added:
+* Matter Overdrive: Community Edition (0.8.4)
+
+Mods Removed:
+* Matter Overdrive: Legacy Edition
+
 ---------------------------------------------------------------------
 
 4.2.4
